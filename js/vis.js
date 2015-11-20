@@ -22,7 +22,7 @@ var init = function(){
 		},
 		getData:function(_callback){
 			var self = vis;
-			var datasets = ['c'],
+			var datasets = ['countries'],
 				callback = _callback;
 
 			datasets.forEach(function(d){
@@ -31,12 +31,8 @@ var init = function(){
 
 			d3.json('data/countries.json',function(e,d){
 				self.countries = d;
-				self.loadingManager('c',callback);
+				self.loadingManager('countries',callback);
 			});
-		},
-		processData:function(){
-			var self = vis;
-			vis.generate();
 		},
 		generate:function(){
 			var self = vis;
@@ -63,6 +59,10 @@ var init = function(){
 			map
 				.attr('d',self.path);
 			map.exit().remove();
+		},
+		processData:function(){
+			var self = vis;
+			self.generate();
 		}
 	}
 }

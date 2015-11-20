@@ -1,4 +1,5 @@
-d3.json('data/countries.json',function(e,d){
+d3.json('data/countries.json',function(e,dataImported){
+	
 	var width = window.innerWidth,
 		height = window.innerHeight;
 
@@ -14,7 +15,7 @@ d3.json('data/countries.json',function(e,d){
 	var path = d3.geo.path()
 		.projection(projection);
 
-	var features = topojson.feature(d,d.objects.countries);
+	var features = topojson.feature(dataImported,dataImported.objects.countries);
 
 	var map;
 
@@ -24,5 +25,9 @@ d3.json('data/countries.json',function(e,d){
 		.classed('map',true);
 	map
 		.attr('d',path);
+	map
+		.on('mouseout',function(_authorData){
+			d3.select('div#description').text(_authorData);
+		});
 	map.exit().remove();
 });
