@@ -16,3 +16,9 @@ svg {
 	stroke:white;
 	stroke-width:0.5;
 	}
+
+.connection {
+	fill:none;
+	stroke:black;
+	stroke-width:0.5;
+	}
