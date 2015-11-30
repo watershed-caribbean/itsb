@@ -1,3 +1,3 @@
 # F2015020
 
-"In the Same Boats" -- sample files
+#### Files for the "In the Same Boats" mapping project.
