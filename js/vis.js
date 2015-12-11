@@ -184,12 +184,20 @@ var init = function(){
 				});
 			connections.exit().remove();
 
+
+			// Initialize d3 tooltip
+			var tip = d3.tip()
+				.attr('class', 'd3-tip')
+				.html(function(d) { return d; })
+				.offset([-10,0])
+
 			//plot points 
 			var points,
 				pointData = d3.keys(self.places);
 			points = self.svg.selectAll('circle.point')
 				.data(pointData);
 			points.enter().append('circle')
+				.call(tip) //invokes the tooltip, d3.tip
 				.classed('point',true);
 			points
 				.attr('cx',function(d){
@@ -214,9 +222,34 @@ var init = function(){
 					])[1];
 					return posY;
 				})
-				.attr('r',3);
+				.attr('r',3)
+
+				//mouseover display changes
+				.on('mouseover', function(d){
+					this.style.cursor='pointer'; //adjusts cursor style
+					d3.select(this)
+					.attr('fill','red')	//changes fill
+					.attr('r',6);	//changes radius
+					tip.show(d)	//calls tooltip
+				})
+				.on('mouseout', function(d){
+					d3.select(this)
+					.attr('fill','black') //returns to default
+					.attr('r', 3); //returns to default
+					tip.hide(d) //hides tooltip
+				})
+				.on('click', function(d){
+					d3.select(this)
+					.attr('fill','red')	//changes fill
+					.attr('r',6);	//changes radius
+				})
+
 			points.exit().remove();
+
+
 		},
+
+		
 
 		//filter data based on state of navigation
 		filterData:function(){
