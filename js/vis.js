@@ -2,29 +2,6 @@ var init = function(){
 
 	return {
 
-		/*	FOR 11/30
-
-			- creation of places.csv
-			- creation of connections.csv
-
-			- note creation of 'data' object
-			- define empty 'places' dictionary
-			- define empty 'connections' array
-
-			- walk through d3.csv
-			- process 'places' and 'connections' into correct format from JSON document:
-
-				- creation of 'places' dictionary
-				- use of 'places' dictionary to help populate 'connections' array
-
-			- draw lines
-			- draw points on top of lines
-
-				- d3.keys to transform object into array
-				- use projection function that draws the map
-
-		---	*/
-
 		//empty loading array to hold pending datasets
 		loading:[],
 
