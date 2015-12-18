@@ -131,6 +131,11 @@ var init = function(){
 			connections.enter().append('path')
 				.classed('connection',true);
 			connections
+				.attr('class',function(d){
+					/*var startString = 'start_' +d.start.key,
+						endString = 'end_' +d.end.key;*/
+					return d.end.key + ' ' + d.start.key + ' connection';
+				})
 				.attr('d',function(d){
 
 					var source = {},
@@ -161,12 +166,16 @@ var init = function(){
 				});
 			connections.exit().remove();
 
-
 			// Initialize d3 tooltip
 			var tip = d3.tip()
 				.attr('class', 'd3-tip')
 				.html(function(d) { return d.value.name; })
 				.offset([-15,0]);
+
+			//define point scale
+			var pointScale = d3.scale.linear()
+				.domain([1,20])	//min and max of final data
+				.range([1,15]);
 
 			//plot points 
 			var points,
@@ -201,7 +210,11 @@ var init = function(){
 					])[1];
 					return posY;
 				})
-				.attr('r',3);
+				//.attr('r',3)
+				.attr('r',function(d){
+					var radius = pointScale(d.value.intersectionVal);
+					return radius;
+				});
 			points
 				//mouseover display changes
 				.on('mouseover', function(d){
@@ -211,6 +224,8 @@ var init = function(){
  					//since mouseEvent styling will continue to get more complicated,
 					//we should start implementing classes to control style whenever
 					//possible -- this can be done using selectors in the CSS
+
+					//d3.selectAll('path.' +d.key).classed('focus',true);
 
 					d3.select(this)
 						//.attr('fill','red')	//changes fill
@@ -259,6 +274,8 @@ var init = function(){
 					self.places[d.key].name = d.name;
 					self.places[d.key].lat = parseFloat(d.lat);
 					self.places[d.key].lon = parseFloat(d.lon);
+
+					self.places[d.key].intersectionVal = parseInt(d.intersectionVal);
 				}
 			});
 
