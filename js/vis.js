@@ -165,12 +165,12 @@ var init = function(){
 			// Initialize d3 tooltip
 			var tip = d3.tip()
 				.attr('class', 'd3-tip')
-				.html(function(d) { return d; })
-				.offset([-12,0]);
+				.html(function(d) { return d.value.name; })
+				.offset([-15,0]);
 
 			//plot points 
 			var points,
-				pointData = d3.keys(self.places);
+				pointData = d3.entries(self.places);
 			points = self.svg.selectAll('circle.point')
 				.data(pointData);
 			points.enter().append('circle')
@@ -185,8 +185,8 @@ var init = function(){
 					//returns an array of screen coordinates
 					//take the first value (x)
 					var posX = self.projection([
-						self.places[d].lon,
-						self.places[d].lat
+						self.places[d.key].lon,
+						self.places[d.key].lat
 					])[0];
 					return posX;
 				})
@@ -196,8 +196,8 @@ var init = function(){
 					//returns an array of screen coordinates
 					//take the second value (y)
 					var posY = self.projection([
-						self.places[d].lon,
-						self.places[d].lat
+						self.places[d.key].lon,
+						self.places[d.key].lat
 					])[1];
 					return posY;
 				})
@@ -241,16 +241,24 @@ var init = function(){
 			//	**TODO**
 		},	
 
+		//creates unique identifiers for place names
+		util_keyify:function(_name){
+			var key = _name.split(' ').join('_');
+			return key;
+		},
+
 		//puts data in correct format
 		processData:function(){
 			var self = vis;
 
 			//first cycle through raw 'places' data to create dictionary
 			self.data.places.forEach(function(d){
-				if(!self.places[d.name]){
-					self.places[d.name] = {};
-					self.places[d.name].lat = parseFloat(d.lat);
-					self.places[d.name].lon = parseFloat(d.lon);
+				d.key = self.util_keyify(d.name);
+				if(!self.places[d.key]){
+					self.places[d.key] = {};
+					self.places[d.key].name = d.name;
+					self.places[d.key].lat = parseFloat(d.lat);
+					self.places[d.key].lon = parseFloat(d.lon);
 				}
 			});
 
@@ -266,6 +274,9 @@ var init = function(){
 				//store year (for future timeline navigation)
 				connectionObject.year = connectionObject.date.getFullYear();
 
+				//store author
+				connectionObject.author = d.author;
+
 				//create empty objects for start and end locations
 				connectionObject.start = {};
 				connectionObject.end = {};
@@ -274,9 +285,13 @@ var init = function(){
 				connectionObject.start.name = d.start;
 				connectionObject.end.name = d.end;
 
+				//store start and end keys
+				connectionObject.start.key = self.util_keyify(d.start);
+				connectionObject.end.key = self.util_keyify(d.end);
+
 				//store start and end lat/lon, pulled from 'places' array
-				connectionObject.start.coords = self.places[d.start];
-				connectionObject.end.coords = self.places[d.end];
+				connectionObject.start.coords = self.places[connectionObject.start.key];
+				connectionObject.end.coords = self.places[connectionObject.end.key];
 
 				//push formatted pair to 'connections' array
 				self.connections.push(connectionObject);
