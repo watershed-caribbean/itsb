@@ -189,7 +189,7 @@ var init = function(){
 			var tip = d3.tip()
 				.attr('class', 'd3-tip')
 				.html(function(d) { return d; })
-				.offset([-10,0])
+				.offset([-12,0]);
 
 			//plot points 
 			var points,
@@ -197,8 +197,10 @@ var init = function(){
 			points = self.svg.selectAll('circle.point')
 				.data(pointData);
 			points.enter().append('circle')
-				.call(tip) //invokes the tooltip, d3.tip
-				.classed('point',true);
+				.classed('point',true)
+				
+				//invokes the tooltip, d3.tip
+				.call(tip);
 			points
 				.attr('cx',function(d){
 				
@@ -222,34 +224,39 @@ var init = function(){
 					])[1];
 					return posY;
 				})
-				.attr('r',3)
-
+				.attr('r',3);
+			points
 				//mouseover display changes
 				.on('mouseover', function(d){
-					this.style.cursor='pointer'; //adjusts cursor style
+					
+					//this.style.cursor='pointer'; //let's just do this in the CSS
+ 
+ 					//since mouseEvent styling will continue to get more complicated,
+					//we should start implementing classes to control style whenever
+					//possible -- this can be done using selectors in the CSS
+
 					d3.select(this)
-					.attr('fill','red')	//changes fill
-					.attr('r',6);	//changes radius
-					tip.show(d)	//calls tooltip
+						//.attr('fill','red')	//changes fill
+						.classed('focus',true)	//applies "focus" class to point, which can be styled in the CSS
+						.attr('r',6)			//changes radius
+						;
+
+					tip.show(d);				//calls tooltip
 				})
 				.on('mouseout', function(d){
 					d3.select(this)
-					.attr('fill','black') //returns to default
-					.attr('r', 3); //returns to default
-					tip.hide(d) //hides tooltip
+						//.attr('fill','black')	//returns to default
+						.classed('focus',false)	//removes "focus" class from point
+						.attr('r', 3); 			//returns to default
+					tip.hide(d); 				//hides tooltip
 				})
 				.on('click', function(d){
-					d3.select(this)
-					.attr('fill','red')	//changes fill
-					.attr('r',6);	//changes radius
-				})
-
+					/*d3.select(this)
+						.attr('fill','red')		//changes fill
+						.attr('r',6);*/			//changes radius
+				});
 			points.exit().remove();
-
-
 		},
-
-		
 
 		//filter data based on state of navigation
 		filterData:function(){
