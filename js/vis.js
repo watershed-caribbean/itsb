@@ -133,6 +133,8 @@ var init = function(){
 
 			var features = topojson.feature(self.data.countries,self.data.countries.objects.countries);
 
+			var frozen = false;
+
 			//draw vector map
 			var map;
 			map = self.svg.selectAll('path.map')
@@ -225,7 +227,11 @@ var init = function(){
 				.attr('r',3)
 
 				//mouseover display changes
-				.on('mouseover', function(d){
+				.on('click', function(d){
+					frozen = !frozen;
+				})
+				/*.on('mouseover', function(d){
+					if(frozen) {
 					this.style.cursor='pointer'; //adjusts cursor style
 					d3.select(this)
 					.attr('fill','red')	//changes fill
@@ -233,16 +239,28 @@ var init = function(){
 					tip.show(d)	//calls tooltip
 				})
 				.on('mouseout', function(d){
+					if(frozen) {
 					d3.select(this)
 					.attr('fill','black') //returns to default
 					.attr('r', 3); //returns to default
 					tip.hide(d) //hides tooltip
-				})
-				.on('click', function(d){
+				})*/
+
+				.on('mouseover', function(d){
+					this.style.cursor='pointer'; //adjusts cursor style
 					d3.select(this)
 					.attr('fill','red')	//changes fill
 					.attr('r',6);	//changes radius
+					tip.show(d)	//calls tooltip
+				
 				})
+				.on('mouseout', function(d){
+					d3.select(this)
+					.attr('fill','black') //returns to default
+					.attr('r', 3); //returns to default
+					tip.hide(d); //hides tooltip
+				})
+				
 
 			points.exit().remove();
 
