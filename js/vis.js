@@ -2,29 +2,6 @@ var init = function(){
 
 	return {
 
-		/*	FOR 11/30
-
-			- creation of places.csv
-			- creation of connections.csv
-
-			- note creation of 'data' object
-			- define empty 'places' dictionary
-			- define empty 'connections' array
-
-			- walk through d3.csv
-			- process 'places' and 'connections' into correct format from JSON document:
-
-				- creation of 'places' dictionary
-				- use of 'places' dictionary to help populate 'connections' array
-
-			- draw lines
-			- draw points on top of lines
-
-				- d3.keys to transform object into array
-				- use projection function that draws the map
-
-		---	*/
-
 		//empty loading array to hold pending datasets
 		loading:[],
 
@@ -156,6 +133,11 @@ var init = function(){
 			connections.enter().append('path')
 				.classed('connection',true);
 			connections
+				.attr('class',function(d){
+					/*var startString = 'start_' +d.start.key,
+						endString = 'end_' +d.end.key;*/
+					return d.end.key + ' ' + d.start.key + ' connection';
+				})
 				.attr('d',function(d){
 
 					var source = {},
@@ -186,21 +168,27 @@ var init = function(){
 				});
 			connections.exit().remove();
 
-
 			// Initialize d3 tooltip
 			var tip = d3.tip()
 				.attr('class', 'd3-tip')
-				.html(function(d) { return d; })
-				.offset([-10,0])
+				.html(function(d) { return d.value.name; })
+				.offset([-15,0]);
+
+			//define point scale
+			var pointScale = d3.scale.linear()
+				.domain([1,20])	//min and max of final data
+				.range([1,15]);
 
 			//plot points 
 			var points,
-				pointData = d3.keys(self.places);
+				pointData = d3.entries(self.places);
 			points = self.svg.selectAll('circle.point')
 				.data(pointData);
 			points.enter().append('circle')
-				.call(tip) //invokes the tooltip, d3.tip
-				.classed('point',true);
+				.classed('point',true)
+				
+				//invokes the tooltip, d3.tip
+				.call(tip);
 			points
 				.attr('cx',function(d){
 				
@@ -208,8 +196,8 @@ var init = function(){
 					//returns an array of screen coordinates
 					//take the first value (x)
 					var posX = self.projection([
-						self.places[d].lon,
-						self.places[d].lat
+						self.places[d.key].lon,
+						self.places[d.key].lat
 					])[0];
 					return posX;
 				})
@@ -219,28 +207,49 @@ var init = function(){
 					//returns an array of screen coordinates
 					//take the second value (y)
 					var posY = self.projection([
-						self.places[d].lon,
-						self.places[d].lat
+						self.places[d.key].lon,
+						self.places[d.key].lat
 					])[1];
 					return posY;
 				})
-				.attr('r',3)
-
+				//.attr('r',3)
+				.attr('r',function(d){
+					var radius = pointScale(d.value.intersectionVal);
+					return radius;
+				});
+			points
 				//mouseover display changes
+<<<<<<< HEAD
 				.on('click', function(d){
 					frozen = !frozen;
 				})
 				/*.on('mouseover', function(d){
 					if(frozen) {
 					this.style.cursor='pointer'; //adjusts cursor style
+=======
+				.on('mouseover', function(d){
+					
+					//this.style.cursor='pointer'; //let's just do this in the CSS
+ 
+ 					//since mouseEvent styling will continue to get more complicated,
+					//we should start implementing classes to control style whenever
+					//possible -- this can be done using selectors in the CSS
+
+					//d3.selectAll('path.' +d.key).classed('focus',true);
+
+>>>>>>> c64c0e628324224e588e505d8b89022ea5f3b37a
 					d3.select(this)
-					.attr('fill','red')	//changes fill
-					.attr('r',6);	//changes radius
-					tip.show(d)	//calls tooltip
+						//.attr('fill','red')	//changes fill
+						.classed('focus',true)	//applies "focus" class to point, which can be styled in the CSS
+						.attr('r',6)			//changes radius
+						;
+
+					tip.show(d);				//calls tooltip
 				})
 				.on('mouseout', function(d){
 					if(frozen) {
 					d3.select(this)
+<<<<<<< HEAD
 					.attr('fill','black') //returns to default
 					.attr('r', 3); //returns to default
 					tip.hide(d) //hides tooltip
@@ -262,12 +271,20 @@ var init = function(){
 				})
 				
 
+=======
+						//.attr('fill','black')	//returns to default
+						.classed('focus',false)	//removes "focus" class from point
+						.attr('r', 3); 			//returns to default
+					tip.hide(d); 				//hides tooltip
+				})
+				.on('click', function(d){
+					/*d3.select(this)
+						.attr('fill','red')		//changes fill
+						.attr('r',6);*/			//changes radius
+				});
+>>>>>>> c64c0e628324224e588e505d8b89022ea5f3b37a
 			points.exit().remove();
-
-
 		},
-
-		
 
 		//filter data based on state of navigation
 		filterData:function(){
@@ -275,16 +292,26 @@ var init = function(){
 			//	**TODO**
 		},	
 
+		//creates unique identifiers for place names
+		util_keyify:function(_name){
+			var key = _name.split(' ').join('_');
+			return key;
+		},
+
 		//puts data in correct format
 		processData:function(){
 			var self = vis;
 
 			//first cycle through raw 'places' data to create dictionary
 			self.data.places.forEach(function(d){
-				if(!self.places[d.name]){
-					self.places[d.name] = {};
-					self.places[d.name].lat = parseFloat(d.lat);
-					self.places[d.name].lon = parseFloat(d.lon);
+				d.key = self.util_keyify(d.name);
+				if(!self.places[d.key]){
+					self.places[d.key] = {};
+					self.places[d.key].name = d.name;
+					self.places[d.key].lat = parseFloat(d.lat);
+					self.places[d.key].lon = parseFloat(d.lon);
+
+					self.places[d.key].intersectionVal = parseInt(d.intersectionVal);
 				}
 			});
 
@@ -300,6 +327,9 @@ var init = function(){
 				//store year (for future timeline navigation)
 				connectionObject.year = connectionObject.date.getFullYear();
 
+				//store author
+				connectionObject.author = d.author;
+
 				//create empty objects for start and end locations
 				connectionObject.start = {};
 				connectionObject.end = {};
@@ -308,9 +338,13 @@ var init = function(){
 				connectionObject.start.name = d.start;
 				connectionObject.end.name = d.end;
 
+				//store start and end keys
+				connectionObject.start.key = self.util_keyify(d.start);
+				connectionObject.end.key = self.util_keyify(d.end);
+
 				//store start and end lat/lon, pulled from 'places' array
-				connectionObject.start.coords = self.places[d.start];
-				connectionObject.end.coords = self.places[d.end];
+				connectionObject.start.coords = self.places[connectionObject.start.key];
+				connectionObject.end.coords = self.places[connectionObject.end.key];
 
 				//push formatted pair to 'connections' array
 				self.connections.push(connectionObject);
