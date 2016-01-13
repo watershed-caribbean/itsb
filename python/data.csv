@@ -1,0 +1,8 @@
+AuthorID,ArCity_ArCountry,DptCity_DptCountry,DateDpt,DateAr
+1922,Paris_France,NewYork_UnitedState,2008-03-10,2001-02-02
+1002,LosAngeles_UnitedState,California _UnitedState,2008-03-10,2008-12-01
+1901,Paris_France,Lagos_Nigeria,2001-03-05,2001-02-02
+1922,Paris_France,NewYork_UnitedState,2011-02-03,2008-12-01
+1002,Paris_France,California_UnitedState,2003-03-04,2002-03-04
+1099,Paris_France,Beijing_China,2011-02-03,2009-02-04
+1901,LosAngeles_UnitedState,Paris_France,2001-03-05,2001-02-02
