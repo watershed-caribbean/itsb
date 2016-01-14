@@ -3,20 +3,20 @@ import datetime
 from pandas_datareader import data, wb
 import csv
 import json
-
-out= open("testfile.csv", "rb")
+#declaring libraries for the analysis 
+out= open("testfile.csv", "rb") # read the .csv file
 data = csv.reader(out)
-data = [[row[0],row[1] + "_" + row[2],row[3] +"_" + row[4], row[5],row[6]] for row in data]
-out.close()
+data = [[row[0],row[1] + "_" + row[2],row[3] +"_" + row[4], row[5],row[6]] for row in data] #this part is mainly to concatenate the City and country
+out.close() 
 
 out=open("data.csv", "wb")
 output = csv.writer(out)
-
 for row in data:
     output.writerow(row)
-
 out.close()
-df = pd.read_csv('data.csv')
+#<------------ End of concatenation ------------->
+#The result is written out and saved in data.csv (I don't want to override the original source)
+df = pd.read_csv('data.csv') #using pandas and dataframe, I can read in data and loop it through between the Arrival Date and Departure Date
 
 df.DateDpt = pd.to_datetime(df.DateDpt)
 df.DateAr = pd.to_datetime(df.DateAr)
@@ -29,7 +29,8 @@ for i, data in df.iterrows():
 
 new_df = new_df[['AuthorID', 'ArCity_ArCountry', 'DptCity_DptCountry', 'DateAr', 'DateDpt']]
 
-#print new_df
+#print new_df : <---- End of iteration ---->
+#Json file : <------ JSON ----------------->
 json_dict = {}
 
 for arrival_date, data in new_df.groupby('DateAr'):
@@ -43,4 +44,8 @@ for arrival_date, data in new_df.groupby('DateAr'):
         for city, flights in not_matching_dates.groupby('DptCity_DptCountry'):
             json_dict[arrival_date.strftime('%Y-%m-%d')][city] = [str(v) for v in flights.AuthorID.to_dict().values()]
 
-print(json.dumps(json_dict, indent=4, sort_keys=True))
+with open('json_dict.json', 'w') as f:
+     json.dump(json_dict, f, indent=4, sort_keys=True)
+
+#print(json.dumps(json_dict, indent=4, sort_keys=True)): <------- End of JSON ---------------->
+
