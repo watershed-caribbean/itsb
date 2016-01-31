@@ -61,3 +61,17 @@ svg {
 }
 
 
+/* 
+Navigation holder
+*/
+#navigation {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	width: 20%;
+	height: 10%;
+	font-family: "Proxima Nova", Montserrat, sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+}
+
