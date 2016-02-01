@@ -1,23 +1,24 @@
+#Ojulari Abdulkabir Tola 
+#In the same boat 
 import pandas as pd
 import datetime
+import numpy as np
 from pandas_datareader import data, wb
 import csv
 import json
 #declaring libraries for the analysis 
-out= open("testfile.csv", "rb") # read the .csv file
+out= open("testfile.csv",  "rt") 
 data = csv.reader(out)
-data = [[row[0],row[1] + "_" + row[2],row[3] +"_" + row[4], row[5],row[6]] for row in data] #this part is mainly to concatenate the City and country
+data = [[row[0],row[1] + "_" + row[2],row[3] +"_" + row[4], row[5],row[6]] for row in data] 
 out.close() 
-
-out=open("data.csv", "wb")
+out=open("data.csv", "wt")
 output = csv.writer(out)
 for row in data:
     output.writerow(row)
 out.close()
-#<------------ End of concatenation ------------->
-#The result is written out and saved in data.csv (I don't want to override the original source)
-df = pd.read_csv('data.csv') #using pandas and dataframe, I can read in data and loop it through between the Arrival Date and Departure Date
+#<------------ Date Expansion ------------->
 
+df = pd.read_csv('data.csv') 
 df.DateDpt = pd.to_datetime(df.DateDpt)
 df.DateAr = pd.to_datetime(df.DateAr)
 df = df.set_index('DateAr')
@@ -29,7 +30,6 @@ for i, data in df.iterrows():
 
 new_df = new_df[['AuthorID', 'ArCity_ArCountry', 'DptCity_DptCountry', 'DateAr', 'DateDpt']]
 
-#print new_df : <---- End of iteration ---->
 #Json file : <------ JSON ----------------->
 json_dict = {}
 
@@ -39,13 +39,13 @@ for arrival_date, data in new_df.groupby('DateAr'):
     json_dict[arrival_date.strftime('%Y-%m-%d')] = {}
     if not matching_dates.empty:
         for city, flights in matching_dates.groupby('ArCity_ArCountry'):
-            json_dict[arrival_date.strftime('%Y-%m-%d')][city] = [str(v) for v in flights.AuthorID.to_dict().values()]
+            json_dict[arrival_date.strftime('%Y-%m-%d')][city] = [str(v) for v in flights.AuthorID]
     if not not_matching_dates.empty:
         for city, flights in not_matching_dates.groupby('DptCity_DptCountry'):
-            json_dict[arrival_date.strftime('%Y-%m-%d')][city] = [str(v) for v in flights.AuthorID.to_dict().values()]
+            json_dict[arrival_date.strftime('%Y-%m-%d')][city] = [str(v) for v in flights.AuthorID]
+
 
 with open('json_dict.json', 'w') as f:
      json.dump(json_dict, f, indent=4, sort_keys=True)
 
-#print(json.dumps(json_dict, indent=4, sort_keys=True)): <------- End of JSON ---------------->
-
+# <------- End of JSON ---------------->
