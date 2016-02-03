@@ -16,6 +16,29 @@ output = csv.writer(out)
 for row in data:
     output.writerow(row)
 out.close()
+
+#To extract second JSON file, we need to restructure the input file 
+
+out= open("testfile.csv", "rb")
+data = csv.reader(out)
+data = [[row[0],row[1] + "_" + row[2],row[3] +"_" + row[4], row[5] + "--" + row[6]] for row in data] 
+out.close() 
+out=open("testdata.csv", "wb")
+output = csv.writer(out)
+for row in data:
+    output.writerow(row)
+out.close()
+
+df = pd.read_csv('testdata.csv')
+json_dict = {}
+
+for date_range, flights in df.groupby('DateDpt--DateAr'):
+    flights_no_date = flights.drop('DateDpt--DateAr', axis=1)
+    json_dict[date_range]= map(list, flights_no_date.values)
+    
+with open('testdata.json', 'w') as f:
+     json.dump(json_dict, f, indent=4, sort_keys=True)
+
 #<------------ Date Expansion ------------->
 
 df = pd.read_csv('data.csv') 
