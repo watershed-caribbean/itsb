@@ -166,9 +166,12 @@ var init = function(){
 				});
 				connections
 					.on('click', function(d){
+						var active = navigation.active ? false : true,
+						newOpacity = active? 0 : 1;
 					d3.select('#navigation')
-					.text(d.start.key + ', ' + d.end.key)
-					.attr('id', 'navigation');				
+					.text(d.value.name)
+					.style('opacity', newOpacity);
+					navigation.active = active;			
 				})
 
 				connections.exit().remove();
@@ -189,6 +192,19 @@ var init = function(){
 				.append('div')
 				.text(d)
 				.attr('id', 'navigation');*/
+
+			//nav panel 2
+			/*var navigation = document.getElementById('#navigation'); // Assumes element with id='button'
+
+				onclick = function() {
+    			var div = document.	getElementById('#navigation');
+    			if (div.style.display !== 'none') {
+    				div.style.display = 'none';
+    			}
+    			else {
+    				div.style.display = 'block';
+    			}
+    		};*/
 
 			//plot points 
 			var points,
@@ -240,11 +256,13 @@ var init = function(){
 					tip.hide(d); //hides tooltip
 				})
 				.on('click', function(d){
+					var active = navigation.active ? false : true,
+						newOpacity = active? 0 : 1;
 					d3.select('#navigation')
 					.text(d.value.name)
-					.attr('id', 'navigation');				
+					.style('opacity', newOpacity);
+					navigation.active = active;
 				})
-
 			points.exit().remove();
 	
 
