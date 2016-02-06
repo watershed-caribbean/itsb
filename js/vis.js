@@ -169,7 +169,7 @@ var init = function(){
 						var active = navigation.active ? false : true,
 						newOpacity = active? 0 : 1;
 					d3.select('#navigation')
-					.text(d.value.name)
+					.text(d.start.key + ', ' + d.end.key)
 					.style('opacity', newOpacity);
 					navigation.active = active;			
 				})
