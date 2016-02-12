@@ -17,7 +17,7 @@ df = pd.read_csv('itinerary.csv')
 # 2. Concatanate the City and Country for departure and arrival
 df["ArCiCo"] = df["ArCity"] + "_" + df["ArCountry"]
 df["DptCiCo"] = df["DptCity"] + "_" + df["DptCountry"]
-df["Date"] = df["DateAr"] + " : " + df["DateDpt"]
+df["Date"] = df["DateDpt"]
 
 # 3. Convert dates from txt to datetime data type
 df.DateDpt = pd.to_datetime(df.DateDpt)
