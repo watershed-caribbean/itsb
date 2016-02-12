@@ -59,31 +59,30 @@ df2 = pd.DataFrame()
 for i, data in df.iterrows():
     # grab each line (series) and transpose it from row to column
     data = data.to_frame().transpose()
-    
+    # Use expanded date (arrival) as the index
     data = data.reindex(pd.date_range(start=data.index[0], end=data.DateDpt[0])).fillna(method='ffill').reset_index().rename(columns={'index': 'DateAr'})
+
+    # Concatanate with new columns
     df2 = pd.concat([df2, data])
     df2 = df2[['AuthorID', 'ArCiCo', 'DptCiCo', 'DateAr', 'DateDpt']]
 
+# 4. Drop duplicates to solve 'embedded dates' problem
 df2 = df2.drop_duplicates(['AuthorID', 'DateAr'], keep='last')
-#print df2
 
+# 5. Create empty dictionary
 json_dict = {}
 
+# 6. Populate dictionary
 for arrival_date, data in df2.groupby('DateAr'):
-    #matching_dates = data[data.DateDpt==arrival_date]
-    #not_matching_dates = data[data.DateDpt!=arrival_date]
-    #print data
+    # Re-convert dates to string.
     json_dict[arrival_date.strftime('%Y-%m-%d')] = {}
-    #if not matching_dates.empty:
-       # for city, flights in matching_dates.groupby('ArCiCo'):
-         #   json_dict[arrival_date.strftime('%Y-%m-%d')][city] = [str(v) for v in flights.AuthorID]
-    #if not not_matching_dates.empty:
+
+    # Populate dictionary grouped by Departure Location
     for city, flights in data.groupby('DptCiCo'):
-        #print flights
         json_dict[arrival_date.strftime('%Y-%m-%d')][city] = [str(v) for v in flights.AuthorID]
             
-
-with open('json_dict.json', 'w') as f:
+# 7. Dump into JSON file
+with open('intersections.json', 'w') as f:
      json.dump(json_dict, f, indent=4, sort_keys=True)
 
 
