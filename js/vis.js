@@ -164,7 +164,17 @@ var init = function(){
 						dr = Math.sqrt(dx * dx + dy * dy);
 					return 'M' + source.x + ',' + source.y + 'A' + dr + ',' + dr + ' 0 0,1 ' + target.x + ',' + target.y;
 				});
-			connections.exit().remove();
+				connections
+					.on('click', function(d){
+						var active = navigation.active ? false : true,
+						newOpacity = active? 0 : 1;
+					d3.select('#navigation')
+					.text(d.start.key + ', ' + d.end.key)
+					.style('opacity', newOpacity);
+					navigation.active = active;			
+				})
+
+				connections.exit().remove();
 
 			// Initialize d3 tooltip
 			var tip = d3.tip()
@@ -177,6 +187,25 @@ var init = function(){
 				.domain([1,20])	//min and max of final data
 				.range([1,15]);
 
+			// nav panel
+			/*var navigation = d3.select('#navigation').selectAll('div')
+				.append('div')
+				.text(d)
+				.attr('id', 'navigation');*/
+
+			//nav panel 2
+			/*var navigation = document.getElementById('#navigation'); // Assumes element with id='button'
+
+				onclick = function() {
+    			var div = document.	getElementById('#navigation');
+    			if (div.style.display !== 'none') {
+    				div.style.display = 'none';
+    			}
+    			else {
+    				div.style.display = 'block';
+    			}
+    		};*/
+
 			//plot points 
 			var points,
 				pointData = d3.entries(self.places);
@@ -184,9 +213,7 @@ var init = function(){
 				.data(pointData);
 			points.enter().append('circle')
 				.classed('point',true)
-				
-				//invokes the tooltip, d3.tip
-				.call(tip);
+				.call(tip);	//invokes the tooltip, d3.tip
 			points
 				.attr('cx',function(d){
 				
@@ -210,45 +237,39 @@ var init = function(){
 					])[1];
 					return posY;
 				})
-				//.attr('r',3)
 				.attr('r',function(d){
 					var radius = pointScale(d.value.intersectionVal);
 					return radius;
 				});
 			points
-				//mouseover display changes
 				.on('mouseover', function(d){
-					
-					//this.style.cursor='pointer'; //let's just do this in the CSS
- 
- 					//since mouseEvent styling will continue to get more complicated,
-					//we should start implementing classes to control style whenever
-					//possible -- this can be done using selectors in the CSS
-
-					//d3.selectAll('path.' +d.key).classed('focus',true);
-
 					d3.select(this)
-						//.attr('fill','red')	//changes fill
-						.classed('focus',true)	//applies "focus" class to point, which can be styled in the CSS
-						.attr('r',6)			//changes radius
-						;
-
-					tip.show(d);				//calls tooltip
+					.attr('fill','red')	//changes fill
+					.attr('r',6);	//changes radius
+					tip.show(d)	//calls tooltip
+				
 				})
 				.on('mouseout', function(d){
 					d3.select(this)
-						//.attr('fill','black')	//returns to default
-						.classed('focus',false)	//removes "focus" class from point
-						.attr('r', 3); 			//returns to default
-					tip.hide(d); 				//hides tooltip
+					.attr('fill','black') //returns to default
+					.attr('r', 3); //returns to default
+					tip.hide(d); //hides tooltip
 				})
 				.on('click', function(d){
-					/*d3.select(this)
-						.attr('fill','red')		//changes fill
-						.attr('r',6);*/			//changes radius
-				});
+					var active = navigation.active ? false : true,
+						newOpacity = active? 0 : 1;
+					d3.select('#navigation')
+					.text(d.value.name)
+					.style('opacity', newOpacity);
+					navigation.active = active;
+				})
 			points.exit().remove();
+	
+
 		},
+
+
+
 
 		//filter data based on state of navigation
 		filterData:function(){
