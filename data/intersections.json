@@ -1,0 +1,688 @@
+{
+    "2001-02-02": {
+        "London_UK": [
+            "BBB"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-03": {
+        "London_UK": [
+            "BBB"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-04": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-05": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-06": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-07": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-08": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-09": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-10": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-11": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-12": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-13": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-14": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-15": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-16": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "DDD"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-02-17": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-18": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-19": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-20": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-21": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-22": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-23": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-24": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-25": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-26": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-27": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-02-28": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-01": {
+        "Berlin_Germany": [
+            "EEE"
+        ], 
+        "London_UK": [
+            "BBB"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-02": {
+        "Berlin_Germany": [
+            "EEE"
+        ], 
+        "London_UK": [
+            "BBB"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-03": {
+        "London_UK": [
+            "BBB"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-04": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-05": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-06": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-07": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-08": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-09": {
+        "London_UK": [
+            "BBB", 
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA", 
+            "CCC", 
+            "DDD"
+        ]
+    }, 
+    "2001-03-10": {
+        "Lagos_Nigeria": [
+            "BBB"
+        ], 
+        "London_UK": [
+            "EEE"
+        ], 
+        "Nairobi_Kenya": [
+            "DDD"
+        ], 
+        "NewYork_US": [
+            "AAA"
+        ], 
+        "Tokyo_Japan": [
+            "CCC"
+        ]
+    }, 
+    "2001-03-11": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "NewYork_US": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-12": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-13": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-14": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-15": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-16": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-17": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-18": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-19": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-20": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-21": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-22": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-23": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-24": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-25": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-26": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-27": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-28": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-29": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-30": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-03-31": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-01": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-02": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-03": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-04": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-05": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-06": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-07": {
+        "London_UK": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-08": {
+        "Paris_France": [
+            "EEE"
+        ], 
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-09": {
+        "Tokyo_Japan": [
+            "AAA"
+        ]
+    }, 
+    "2001-04-10": {
+        "NewYork_US": [
+            "AAA"
+        ]
+    }
+}
