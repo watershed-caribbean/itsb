@@ -1,0 +1,9 @@
+AuthorID,ArCity,ArCountry,DptCity,DptCountry,DateAr,DateDpt
+AAA,Paris,France,NewYork,US,2001-02-02,2001-03-12
+AAA,NewYork,US,Tokyo,Japan,2001-03-12,2001-04-10
+BBB,Lagos,Nigeria,London,UK,2001-02-02,2001-03-10
+CCC,Paris,France,Tokyo,Japan,2001-02-02,2001-02-17
+CCC,Tokyo,Japan,NewYork,US,2001-02-17,2001-03-10
+DDD,Nairobi,Kenya,NewYork,US,2001-02-02,2001-03-10
+EEE,Paris,France,London,UK,2001-02-04,2001-04-08
+EEE,London,UK,Berlin,Germany,2001-03-01,2001-03-03
