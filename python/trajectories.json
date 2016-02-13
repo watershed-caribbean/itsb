@@ -1,54 +1,22 @@
 {
     "2001-02-17": [
-        [
-            "CCC", 
-            "Paris_France", 
-            "Tokyo_Japan"
-        ]
+        "{'ArCiCo': 'Paris_France', 'AuthorID': 'CCC', 'DptCiCo': 'Tokyo_Japan'}"
     ], 
     "2001-03-03": [
-        [
-            "EEE", 
-            "London_UK", 
-            "Berlin_Germany"
-        ]
+        "{'ArCiCo': 'London_UK', 'AuthorID': 'EEE', 'DptCiCo': 'Berlin_Germany'}"
     ], 
     "2001-03-10": [
-        [
-            "BBB", 
-            "Lagos_Nigeria", 
-            "London_UK"
-        ], 
-        [
-            "CCC", 
-            "Tokyo_Japan", 
-            "NewYork_US"
-        ], 
-        [
-            "DDD", 
-            "Nairobi_Kenya", 
-            "NewYork_US"
-        ]
+        "{'ArCiCo': 'Lagos_Nigeria', 'AuthorID': 'BBB', 'DptCiCo': 'London_UK'}", 
+        "{'ArCiCo': 'Tokyo_Japan', 'AuthorID': 'CCC', 'DptCiCo': 'NewYork_US'}", 
+        "{'ArCiCo': 'Nairobi_Kenya', 'AuthorID': 'DDD', 'DptCiCo': 'NewYork_US'}"
     ], 
     "2001-03-12": [
-        [
-            "AAA", 
-            "Paris_France", 
-            "NewYork_US"
-        ]
+        "{'ArCiCo': 'Paris_France', 'AuthorID': 'AAA', 'DptCiCo': 'NewYork_US'}"
     ], 
     "2001-04-08": [
-        [
-            "EEE", 
-            "Paris_France", 
-            "London_UK"
-        ]
+        "{'ArCiCo': 'Paris_France', 'AuthorID': 'EEE', 'DptCiCo': 'London_UK'}"
     ], 
     "2001-04-10": [
-        [
-            "AAA", 
-            "NewYork_US", 
-            "Tokyo_Japan"
-        ]
+        "{'ArCiCo': 'NewYork_US', 'AuthorID': 'AAA', 'DptCiCo': 'Tokyo_Japan'}"
     ]
 }

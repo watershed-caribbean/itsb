@@ -39,7 +39,7 @@ for date_range, flights in df1.groupby('Date'):
     dup_date = flights.drop('Date', axis=1)
     # Map values into the dictionary
     #json_dict[date_range] = map(list, dup_date.values)
-     json_dict[date_range]= [str(v) for v in dup_date.to_dict(orient='records')]
+    json_dict[date_range]= [str(v) for v in dup_date.to_dict(orient='records')]
 
 # 4. Convert into json and save
 with open('trajectories.json', 'w') as f:
