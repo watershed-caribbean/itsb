@@ -11,11 +11,14 @@ var init = function(){
 
 		data:{},
 
+		navigation:null,
+		navActive:false,
+
 		projection:null,
 		path:null,
 
-		places:{},
-		connections:[],
+		intersections:{},
+		connections:{},
 
 		//ensures the callback function is only called
 		//once all datasets have been retrieved
@@ -39,56 +42,29 @@ var init = function(){
 			var self = vis;
 
 			//'datasets' array holds strings for all files to be retrieved
-			var datasets = [
-					{
-						'name':'countries',
-						'type':'json'
-					},
-					{
-						'name':'places',
-						'type':'csv'
-					},
-					{
-						'name':'connections',
-						'type':'csv'
-					}
-				],
+			var datasets = ['countries','intersections','connections','places'],
 				callback = _callback;
 
 			datasets.forEach(function(d){
 
 				//push name of dataset into loading array
-				self.loading.push(d.name);
+				self.loading.push(d);
 			});
 
 			//cycle through each string in the array
 			datasets.forEach(function(d){
 
 				//concat filename and path from dataset name
-				var filename = d.name +'.' +d.type,
-					filepath = 'data/' +filename;
+				var filepath = 'data/' +d +'.json';
 
-				//different retrieval functions for different filetypes
-				if(d.type === 'json'){
+				//retrieve dataset
+				d3.json(filepath,function(e,_d){
+					if(!e){
+						self.data[d] = _d;
+						self.loadingManager(d,callback);
+					}
+				});
 
-					//retrieve dataset
-					d3.json(filepath,function(e,_d){
-						if(!e){
-							self.data[d.name] = _d;
-							self.loadingManager(d.name,callback);
-						}
-					});
-
-				} else if(d.type === 'csv'){
-
-					//retrieve dataset
-					d3.csv(filepath,function(e,_d){
-						if(!e){
-							self.data[d.name] = _d;
-							self.loadingManager(d.name,callback);
-						}
-					});
-				}
 			});
 		},
 
@@ -98,7 +74,12 @@ var init = function(){
 
 			self.svg = d3.select('#container').append('svg')
 				.attr('width',self.width)
-				.attr('height',self.height);
+				.attr('height',self.height)
+				.on('click',function(){
+					d3.select('span#placeName').text('');
+				});
+
+			self.navigation = d3.select('#navigation');
 
 			self.projection = d3.geo.mercator()
 				.scale(200)
@@ -125,15 +106,15 @@ var init = function(){
 				.x(function(d){ return d.x; })
 				.y(function(d){ return d.y; })
 				.interpolate('linear');
-			var connections;
+			/*var connections;
 			connections = self.svg.selectAll('path.connection')
-				.data(self.connections);
+				//.data(self.connections)
+				.data([])
+				;
 			connections.enter().append('path')
 				.classed('connection',true);
 			connections
 				.attr('class',function(d){
-					/*var startString = 'start_' +d.start.key,
-						endString = 'end_' +d.end.key;*/
 					return d.end.key + ' ' + d.start.key + ' connection';
 				})
 				.attr('d',function(d){
@@ -164,65 +145,38 @@ var init = function(){
 						dr = Math.sqrt(dx * dx + dy * dy);
 					return 'M' + source.x + ',' + source.y + 'A' + dr + ',' + dr + ' 0 0,1 ' + target.x + ',' + target.y;
 				});
-				connections
-					.on('click', function(d){
-						var active = navigation.active ? false : true,
-						newOpacity = active? 0 : 1;
-					d3.select('#navigation')
-					.text(d.start.key + ', ' + d.end.key)
-					.style('opacity', newOpacity);
-					navigation.active = active;			
-				})
-
-				connections.exit().remove();
+			connections.exit().remove();*/
 
 			// Initialize d3 tooltip
-			var tip = d3.tip()
+			/*var tip = d3.tip()
 				.attr('class', 'd3-tip')
 				.html(function(d) { return d.value.name; })
-				.offset([-15,0]);
+				.offset([-15,0]);*/
 
 			//define point scale
 			var pointScale = d3.scale.linear()
-				.domain([1,20])	//min and max of final data
-				.range([1,15]);
-
-			// nav panel
-			/*var navigation = d3.select('#navigation').selectAll('div')
-				.append('div')
-				.text(d)
-				.attr('id', 'navigation');*/
-
-			//nav panel 2
-			/*var navigation = document.getElementById('#navigation'); // Assumes element with id='button'
-
-				onclick = function() {
-    			var div = document.	getElementById('#navigation');
-    			if (div.style.display !== 'none') {
-    				div.style.display = 'none';
-    			}
-    			else {
-    				div.style.display = 'block';
-    			}
-    		};*/
+				.domain([1,10])	//min and max of final data
+				.range([3,45]);
 
 			//plot points 
 			var points,
 				pointData = d3.entries(self.places);
 			points = self.svg.selectAll('circle.point')
-				.data(pointData);
+				//.data(pointData)
+				.data(d3.keys(self.intersections))
+				;
 			points.enter().append('circle')
-				.classed('point',true)
-				.call(tip);	//invokes the tooltip, d3.tip
+				.classed('point',true);
+				//.call(tip);	//invokes the tooltip, d3.tip
 			points
 				.attr('cx',function(d){
-				
+					
 					//pass coordinates into projection
 					//returns an array of screen coordinates
 					//take the first value (x)
 					var posX = self.projection([
-						self.places[d.key].lon,
-						self.places[d.key].lat
+						self.data.places[d][1],
+						self.data.places[d][0]
 					])[0];
 					return posX;
 				})
@@ -232,108 +186,83 @@ var init = function(){
 					//returns an array of screen coordinates
 					//take the second value (y)
 					var posY = self.projection([
-						self.places[d.key].lon,
-						self.places[d.key].lat
+						self.data.places[d][1],
+						self.data.places[d][0]
 					])[1];
 					return posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(d.value.intersectionVal);
+					var radius = pointScale(self.intersections[d].length);
 					return radius;
 				});
 			points
 				.on('mouseover', function(d){
 					d3.select(this)
-					.attr('fill','red')	//changes fill
-					.attr('r',6);	//changes radius
-					tip.show(d)	//calls tooltip
+						.style('fill','red');	//changes fill
+					//.attr('r',6);	//changes radius
+					//tip.show(d)	//calls tooltip
 				
 				})
 				.on('mouseout', function(d){
 					d3.select(this)
-					.attr('fill','black') //returns to default
-					.attr('r', 3); //returns to default
-					tip.hide(d); //hides tooltip
+						.style('fill','black') //returns to default
+					//.attr('r', 3); //returns to default
+					//tip.hide(d); //hides tooltip
 				})
 				.on('click', function(d){
-					var active = navigation.active ? false : true,
-						newOpacity = active? 0 : 1;
-					d3.select('#navigation')
-					.text(d.value.name)
-					.style('opacity', newOpacity);
-					navigation.active = active;
-				})
+					d3.select('span#placeName')
+						.text(d + ': ' + self.intersections[d].length);
+					d3.event.stopPropagation();
+				});
 			points.exit().remove();
-	
-
 		},
-
-
-
 
 		//filter data based on state of navigation
 		filterData:function(){
+			var self = vis;
 
-			//	**TODO**
-		},	
+			var date_start = new Date('2001-01-11'),
+				date_end = new Date('2001-04-18');
 
-		//creates unique identifiers for place names
-		util_keyify:function(_name){
-			var key = _name.split(' ').join('_');
-			return key;
+			var holder = [];
+
+			//filter intersections (points) first
+			d3.keys(self.data.intersections).forEach(function(d,i){
+
+				var tStamp_start = date_start.getTime(),
+					tStamp_end = date_end.getTime(),
+
+					tStamp_currentDatum = new Date(d).getTime();
+
+				//only pull elements after the start date and before the end date
+				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
+
+					var ref = d3.keys(self.data.intersections[d]);
+
+					ref.forEach(function(_d,_i){
+						
+						if(!self.intersections[_d]){
+							self.intersections[_d] = [];
+						}
+						self.data.intersections[d][_d].forEach(function(__d,__i){
+							if(self.intersections[_d].indexOf(__d) <0){
+								self.intersections[_d].push(__d);
+							}
+						});
+					});
+					holder.push(self.data.intersections[d]);
+				}
+			});
+
+			//filter connections next
+			//**ASSIGNMENT**
 		},
 
 		//puts data in correct format
 		processData:function(){
 			var self = vis;
 
-			//first cycle through raw 'places' data to create dictionary
-			self.data.places.forEach(function(d){
-				d.key = self.util_keyify(d.name);
-				if(!self.places[d.key]){
-					self.places[d.key] = {};
-					self.places[d.key].name = d.name;
-					self.places[d.key].lat = parseFloat(d.lat);
-					self.places[d.key].lon = parseFloat(d.lon);
-
-					self.places[d.key].intersectionVal = parseInt(d.intersectionVal);
-				}
-			});
-
-			//now, cycle through raw 'connections' data
-			//use 'places' array for lat/lon reference
-			//assumes that every entry is unique
-			self.data.connections.forEach(function(d){
-				var connectionObject = {};
-
-				//create new Date object from parsed date
-				connectionObject.date = new Date(Date.parse(d.date));
-
-				//store year (for future timeline navigation)
-				connectionObject.year = connectionObject.date.getFullYear();
-
-				//store author
-				connectionObject.author = d.author;
-
-				//create empty objects for start and end locations
-				connectionObject.start = {};
-				connectionObject.end = {};
-
-				//store start and end names
-				connectionObject.start.name = d.start;
-				connectionObject.end.name = d.end;
-
-				//store start and end keys
-				connectionObject.start.key = self.util_keyify(d.start);
-				connectionObject.end.key = self.util_keyify(d.end);
-
-				//store start and end lat/lon, pulled from 'places' array
-				connectionObject.start.coords = self.places[connectionObject.start.key];
-				connectionObject.end.coords = self.places[connectionObject.end.key];
-
-				//push formatted pair to 'connections' array
-				self.connections.push(connectionObject);
-			});
+			//any data transformation logic goes here
 
 			self.filterData();
 			self.generate();
