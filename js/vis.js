@@ -18,7 +18,7 @@ var init = function(){
 		path:null,
 
 		intersections:{},
-		connections:{},
+		trajectories:{},
 
 		//ensures the callback function is only called
 		//once all datasets have been retrieved
@@ -42,7 +42,7 @@ var init = function(){
 			var self = vis;
 
 			//'datasets' array holds strings for all files to be retrieved
-			var datasets = ['countries','intersections','connections','places'],
+			var datasets = ['countries','intersections','trajectories','places'],
 				callback = _callback;
 
 			datasets.forEach(function(d){
@@ -106,16 +106,16 @@ var init = function(){
 				.x(function(d){ return d.x; })
 				.y(function(d){ return d.y; })
 				.interpolate('linear');
-			/*var connections;
-			connections = self.svg.selectAll('path.connection')
-				//.data(self.connections)
+			/*var trajectories;
+			trajectories = self.svg.selectAll('path.trajectory')
+				//.data(self.trajectories)
 				.data([])
 				;
-			connections.enter().append('path')
-				.classed('connection',true);
-			connections
+			trajectories.enter().append('path')
+				.classed('trajectory',true);
+			trajectories
 				.attr('class',function(d){
-					return d.end.key + ' ' + d.start.key + ' connection';
+					return d.end.key + ' ' + d.start.key + ' trajectory';
 				})
 				.attr('d',function(d){
 
@@ -145,7 +145,7 @@ var init = function(){
 						dr = Math.sqrt(dx * dx + dy * dy);
 					return 'M' + source.x + ',' + source.y + 'A' + dr + ',' + dr + ' 0 0,1 ' + target.x + ',' + target.y;
 				});
-			connections.exit().remove();*/
+			trajectories.exit().remove();*/
 
 			// Initialize d3 tooltip
 			/*var tip = d3.tip()
@@ -254,7 +254,7 @@ var init = function(){
 				}
 			});
 
-			//filter connections next
+			//filter trajectories next
 			//**ASSIGNMENT**
 		},
 
