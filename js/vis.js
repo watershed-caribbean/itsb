@@ -95,7 +95,7 @@ var init = function(){
 
 			self.projection = d3.geo.mercator()
 				.scale(220)
-				.translate([self.width*0.38,self.height*0.6])
+				.translate([self.width*0.36,self.height*0.6])
 				;
 
 			self.path = d3.geo.path()
