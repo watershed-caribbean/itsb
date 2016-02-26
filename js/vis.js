@@ -76,11 +76,11 @@ var init = function(){
 				.attr('width',self.width)
 				.attr('height',self.height)
 				.on('click',function(){
-					d3.select('span#placeName').text('');
+					d3.select('span#dateRange').text('');
 					d3.selectAll('.selected').classed('selected',false);
 				});
 
-			self.navigation = d3.select('#navigation');
+			self.navigation = d3.select('#nav_date');
 
 			self.projection = d3.geo.mercator()
 				.scale(320)
@@ -203,8 +203,12 @@ var init = function(){
 					d3.select(this).classed('hov',false);
 				})
 				.on('click', function(d){
-					d3.select('span#placeName')
-						.text(d.placeName + ': ' + self.intersections[d.placeName].length);
+					var place_city = d.placeName.split('_')[0],
+						place_country = d.placeName.split('_')[1],
+						place_string = place_city +', ' +place_country + ' → ' + self.intersections[d.placeName].length;
+
+					d3.select('span#dateRange')
+						.text(place_string);
 					d3.selectAll('.selected').classed('selected',false);
 					d3.select(this).classed('selected',true);
 					d3.event.stopPropagation();

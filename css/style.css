@@ -8,6 +8,7 @@ body {
 	}
 
 svg {
+	display:block;
 	width:100%;
 	height:100%;
 	}
@@ -68,7 +69,7 @@ svg {
 }
 
 /* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
+/*.d3-tip:after {
   box-sizing: border-box;
   display: inline;
   font-size: 11px;
@@ -78,28 +79,67 @@ svg {
   content: "\25BC";
   position: absolute;
   text-align: center;
-}
+}*/
 
 /* Styles north extender differently */
-.d3-tip.n:after {
+/*.d3-tip.n:after {
   margin: -1px 0 0 0;
   top: 100%;
   left: 0;
-}
+}*/
 
-
-/* 
-Navigation holder
-*/
-#navigation {
-	position: absolute;
-	right: 20px;
-	top: 10px;
-	width: 20%;
-	height: 15%;
-	border: solid;
+/* Sidebar */
+#sidebar {
+	position:absolute;
+	right:30px;
+	top:30px;
+	width:18%;
+	height:auto;
 	font-family: "Proxima Nova", Montserrat, sans-serif;
-    font-size: 2em;
-    font-weight: 100;
-}
+	background:#eee;
+	}
 
+#title {
+	height:32px;
+	width:100%;
+	background:#3399ff;
+	color:white;
+	font-size:16px;
+	letter-spacing:0.5px;
+	text-align:center;
+	text-transform:uppercase;
+	padding-top:13px;
+	border-radius:3px;
+	box-shadow:0 0 3px 3px #ccc;
+	}
+#title span {
+	margin-top:9px;
+	}
+
+.block {
+	height:33px;
+	width:100%;
+	background:white;
+	margin-top:6px;
+	padding-top:12px;
+	border-radius:3px;
+	box-shadow:0 0 3px 3px #ddd;
+	}
+.block span {
+	font-size:14px;
+	margin-left:15px;
+	}
+
+#nav_search {
+	margin-top:6px;
+	border-radius:3px 3px 0 0;
+	}
+
+#nav_date {
+	border-radius:0;
+	}
+
+#nav_auth {
+	height:450px;
+	border-radius:0 0 3px 3px;
+	}
