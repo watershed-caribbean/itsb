@@ -88,7 +88,7 @@ var init = function(){
 					d3.selectAll('.selected').classed('selected',false);
 				});
 
-			var format = d3.time.format("%b %d, %Y");
+			var format = d3.time.format("%b %Y");
 			d3.select('#searchbar span').text(format(self.date.start) +' — ' +format(self.date.end));
 
 			self.navigation = d3.select('#nav_date');
