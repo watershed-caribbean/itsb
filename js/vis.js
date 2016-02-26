@@ -15,7 +15,7 @@ var init = function(){
 			end:new Date()
 		},
 		focus:{
-			place:"NewYork_US"
+			place:""
 		},
 
 		navigation:null,
@@ -90,6 +90,10 @@ var init = function(){
 
 			var format = d3.time.format("%b. %Y");
 			d3.select('#searchbar span').text(format(self.date.start) +' — ' +format(self.date.end));
+
+			if(!self.focus.place || self.focus.place && self.focus.place === 0){
+				self.focus.place = "NewYork_US";
+			}
 
 			self.navigation = d3.select('#nav_date');
 
