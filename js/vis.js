@@ -82,8 +82,8 @@ var init = function(){
 			self.navigation = d3.select('#navigation');
 
 			self.projection = d3.geo.mercator()
-				.scale(200)
-				.translate([self.width/2,self.height/2])
+				.scale(320)
+				.translate([self.width*0.55,self.height*0.675])
 				;
 
 			self.path = d3.geo.path()
@@ -98,7 +98,9 @@ var init = function(){
 			map.enter().append('path')
 				.classed('map',true);
 			map
-				.attr('d',self.path);
+				.attr('d',self.path)
+				//.attr('filter','url(#f1)')
+				;
 			map.exit().remove();
 
 			//plot lines
@@ -153,66 +155,108 @@ var init = function(){
 				.html(function(d) { return d.value.name; })
 				.offset([-15,0]);*/
 
+			//define min and max radii
 			//define point scale
+			var minR = 3,
+				maxR = 45;
 			var pointScale = d3.scale.linear()
 				.domain([1,10])	//min and max of final data
-				.range([3,45]);
+				.range([minR,maxR]);
 
-			//plot points 
-			var points,
-				pointData = d3.entries(self.places);
-			points = self.svg.selectAll('circle.point')
-				//.data(pointData)
-				.data(d3.keys(self.intersections))
-				;
-			points.enter().append('circle')
-				.classed('point',true);
-				//.call(tip);	//invokes the tooltip, d3.tip
-			points
-				.attr('cx',function(d){
-					
-					//pass coordinates into projection
-					//returns an array of screen coordinates
-					//take the first value (x)
-					var posX = self.projection([
-						self.data.places[d][1],
-						self.data.places[d][0]
-					])[0];
-					return posX;
+			//define all variables needed for plotting points
+			var pointG,
+				points,
+
+				pbg_01,
+				pbg_02,
+
+				pointData = [];
+
+			//store x/y coordinates for each, so we don't have to recalculate these every time
+			d3.keys(self.intersections).forEach(function(d){
+				var obj = {};
+
+				obj.placeName = d;
+
+				//pass coordinates into projection
+				//returns an array of screen coordinates
+				var loc = self.projection([
+					self.data.places[obj.placeName][1],
+					self.data.places[obj.placeName][0]
+				]);
+				obj.posX = loc[0];
+				obj.posY = loc[1];
+				pointData.push(obj);
+			});
+
+			//point holder
+			pointG = self.svg.selectAll('g.pointG')
+				.data(pointData);
+			pointG.enter().append('g')
+				.classed('pointG',true);
+			pointG
+				.on('mouseover',function(d){
+					d3.select(this).classed('hov',true);
 				})
-				.attr('cy',function(d){
-					
-					//pass coordinates into projection
-					//returns an array of screen coordinates
-					//take the second value (y)
-					var posY = self.projection([
-						self.data.places[d][1],
-						self.data.places[d][0]
-					])[1];
-					return posY;
-				})
-				.attr('r',function(d){
-					var radius = pointScale(self.intersections[d].length);
-					return radius;
-				});
-			points
-				.on('mouseover', function(d){
-					d3.select(this)
-						.style('fill','red');	//changes fill
-					//.attr('r',6);	//changes radius
-					//tip.show(d)	//calls tooltip
-				
-				})
-				.on('mouseout', function(d){
-					d3.select(this)
-						.style('fill','black') //returns to default
-					//.attr('r', 3); //returns to default
-					//tip.hide(d); //hides tooltip
+				.on('mouseout',function(d){
+					d3.select(this).classed('hov',false);
 				})
 				.on('click', function(d){
 					d3.select('span#placeName')
-						.text(d + ': ' + self.intersections[d].length);
+						.text(d.placeName + ': ' + self.intersections[d.placeName].length);
 					d3.event.stopPropagation();
+				});
+			pointG.exit().remove();
+
+			//plot background circles (two groups)
+			pbg_01 = pointG.selectAll('circle.pbg_01')
+				.data(function(d){ return [d]; });
+			pbg_01.enter().append('circle')
+				.classed('pbg_01',true);
+			pbg_01
+				.classed('marker',true)
+				.attr('cx',function(d,i){
+					return d.posX;
+				})
+				.attr('cy',function(d){
+					return d.posY;
+				})
+				.attr('r',maxR)
+				;
+			pbg_01.exit().remove();
+			pbg_02 = pointG.selectAll('circle.pbg_02')
+				.data(function(d){ return [d]; });
+			pbg_02.enter().append('circle')
+				.classed('pbg_02',true);
+			pbg_02
+				.classed('marker',true)
+				.attr('cx',function(d,i){
+					return d.posX;
+				})
+				.attr('cy',function(d){
+					return d.posY;
+				})
+				.attr('r',maxR/2)
+				;
+			pbg_02.exit().remove();
+			
+			//plot points
+			points = pointG.selectAll('circle.point')
+				.data(function(d){ return [d]; })
+				;
+			points.enter().append('circle')
+				.classed('point',true);
+			points
+				.classed('marker',true)
+				.attr('cx',function(d){
+					return d.posX;
+				})
+				.attr('cy',function(d){
+					return d.posY;
+				})
+				.attr('r',function(d){
+					var radius = pointScale(self.intersections[d.placeName].length);
+					return radius;
 				});
 			points.exit().remove();
 		},
