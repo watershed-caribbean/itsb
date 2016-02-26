@@ -42,7 +42,7 @@ var init = function(){
 			var self = vis;
 
 			//'datasets' array holds strings for all files to be retrieved
-			var datasets = ['countries','intersections','trajectories','places'],
+			var datasets = ['countries','intersections','trajectories','places','authors'],
 				callback = _callback;
 
 			datasets.forEach(function(d){
@@ -77,6 +77,7 @@ var init = function(){
 				.attr('height',self.height)
 				.on('click',function(){
 					d3.select('span#dateRange').text('');
+					d3.select('#nav_auth').html('');
 					d3.selectAll('.selected').classed('selected',false);
 				});
 
@@ -207,10 +208,49 @@ var init = function(){
 						place_country = d.placeName.split('_')[1],
 						place_string = place_city +', ' +place_country + ' → ' + self.intersections[d.placeName].length;
 
+					//update sidebar with placename
 					d3.select('span#dateRange')
 						.text(place_string);
+
 					d3.selectAll('.selected').classed('selected',false);
 					d3.select(this).classed('selected',true);
+
+					//update author list
+					//first, get author array
+					//next, build list of names
+					var author_arr = self.intersections[d.placeName];
+					var auth_div,
+						auth_name,
+						auth_desc;
+
+					auth_div = d3.select('#nav_auth')
+						.selectAll('div.auth_div')
+						.data(author_arr);
+					auth_div.enter().append('div')
+						.classed('auth_div',true);
+					auth_div.exit().remove();
+					auth_name = auth_div
+						.selectAll('span.auth_name')
+						.data(function(d){ return [d]; });
+					auth_name.enter().append('span')
+						.classed('auth_name',true);
+					auth_name
+						.text(function(d){
+							return self.data.authors[d].name;
+						});
+					auth_name.exit().remove();
+					auth_desc = auth_div
+						.selectAll('span.auth_desc')
+						.data(function(d){ return [d]; });
+					auth_desc.enter().append('span')
+						.classed('auth_desc',true);
+					auth_desc
+						.text(function(d){
+							return self.data.authors[d].description;
+						});
+					auth_desc.exit().remove();
+
+					//prevent event bubbling
 					d3.event.stopPropagation();
 				});
 			pointG.exit().remove();

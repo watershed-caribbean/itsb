@@ -96,8 +96,8 @@ svg {
 	top:30px;
 	width:18%;
 	height:auto;
+	background:transparent;
 	font-family: "Proxima Nova", Montserrat, sans-serif;
-	background:#eee;
 	}
 
 #title {
@@ -128,11 +128,13 @@ svg {
 	}
 .block span {
 	font-size:14px;
-	margin-left:15px;
+	margin:15px;
 	}
 
 #nav_search {
+	height:33px;
 	margin-top:6px;
+	padding-top:12px;
 	border-radius:3px 3px 0 0;
 	}
 #nav_search #searchbar {
@@ -145,7 +147,6 @@ svg {
 	border-radius:3px;
 	}
 #nav_search #searchbar span {
-	margin:0;
 	}
 
 #nav_date {
@@ -153,6 +154,30 @@ svg {
 	}
 
 #nav_auth {
+	float:left;
 	height:450px;
+	padding-top:0;
 	border-radius:0 0 3px 3px;
+	overflow:auto;
+	}
+#nav_auth span {
+	float:left;
+	}
+#nav_auth .auth_div:first-child {
+	margin-top:0;
+	border:none;
+	}
+#nav_auth .auth_div {
+	float:left;
+	width:100%;
+	margin-top:3px;
+	padding:3px 0 6px;
+	border-top:1px solid #eee;
+	}
+#nav_auth .auth_name {
+	}
+#nav_auth .auth_desc {
+	float:left;
+	color:#ccc;
+	margin-top:0;
 	}
