@@ -161,7 +161,6 @@ svg {
 	background:#fff;
 	/*color:#bbb;*/
 	color:#666;
-	font-style:italic;
 	/*text-align:center;*/
 	/*margin:0 auto;*/
 	border-radius:3px;
@@ -170,6 +169,7 @@ svg {
 	}
 
 #nav_date {
+	font-style:italic;
 	border-radius:0;
 	}
 
