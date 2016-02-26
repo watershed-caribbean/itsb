@@ -28,6 +28,7 @@ svg {
 	fill:#3399ff;
 	stroke:#3399ff;
 	stroke-width:1.25;
+	transition: fill-opacity .2s ease, stroke-width .2s ease;
 	}
 
 .pbg_01 {
@@ -45,8 +46,10 @@ svg {
 	fill-opacity:0.8;
 	stroke-opacity:1;
 	}
-.hov .point {
+.hov .point,
+.selected .point {
 	fill-opacity:1;
+	stroke-width:4;
 	}
 
 .trajectory {

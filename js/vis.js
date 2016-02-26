@@ -77,6 +77,7 @@ var init = function(){
 				.attr('height',self.height)
 				.on('click',function(){
 					d3.select('span#placeName').text('');
+					d3.selectAll('.selected').classed('selected',false);
 				});
 
 			self.navigation = d3.select('#navigation');
@@ -204,6 +205,8 @@ var init = function(){
 				.on('click', function(d){
 					d3.select('span#placeName')
 						.text(d.placeName + ': ' + self.intersections[d.placeName].length);
+					d3.selectAll('.selected').classed('selected',false);
+					d3.select(this).classed('selected',true);
 					d3.event.stopPropagation();
 				});
 			pointG.exit().remove();
