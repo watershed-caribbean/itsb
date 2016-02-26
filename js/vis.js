@@ -10,6 +10,13 @@ var init = function(){
 		height:window.innerHeight,
 
 		data:{},
+		date:{
+			start:new Date(),
+			end:new Date()
+		},
+		focus:{
+			place:"NewYork_US"
+		},
 
 		navigation:null,
 		navActive:false,
@@ -81,6 +88,9 @@ var init = function(){
 					d3.selectAll('.selected').classed('selected',false);
 				});
 
+			var format = d3.time.format("%b %d, %Y");
+			d3.select('#searchbar span').text(format(self.date.start) +' — ' +format(self.date.end));
+
 			self.navigation = d3.select('#nav_date');
 
 			self.projection = d3.geo.mercator()
@@ -119,6 +129,9 @@ var init = function(){
 			trajectories
 				.attr('class',function(d){
 					return 'trajectory ' +d.ArCiCo +' ' +d.DptCiCo;
+				})
+				.classed('selected',function(d){
+					return d.ArCiCo === self.focus.place || d.DptCiCo === self.focus.place;
 				})
 				.attr('d',function(d){
 
@@ -192,6 +205,10 @@ var init = function(){
 			pointG.enter().append('g')
 				.classed('pointG',true);
 			pointG
+				.classed('selected',function(d){
+					return d.placeName === self.focus.place;
+				});
+			pointG
 				.on('mouseover',function(d){
 					d3.selectAll('.hov').classed('hov',false);
 					d3.select(this).classed('hov',true);
@@ -202,52 +219,16 @@ var init = function(){
 					d3.selectAll('path.' +d.placeName).classed('hov',false);
 				})
 				.on('click', function(d){
-					var place_city = d.placeName.split('_')[0],
-						place_country = d.placeName.split('_')[1],
-						place_string = place_city +', ' +place_country + ' → ' + self.intersections[d.placeName].length;
 
-					//update sidebar with placename
-					d3.select('span#dateRange')
-						.text(place_string);
+					//set focus
+					self.focus.place = d.placeName;
 
 					d3.selectAll('.selected').classed('selected',false);
 					d3.select(this).classed('selected',true);
-					d3.selectAll('path.' +d.placeName).classed('selected',true);
+					d3.selectAll('path.' +self.focus.place).classed('selected',true);
 
-					//update author list
-					//first, get author array
-					//next, build list of names
-					var author_arr = self.intersections[d.placeName];
-					var auth_div,
-						auth_name,
-						auth_desc;
-
-					auth_div = d3.select('#nav_auth')
-						.selectAll('div.auth_div')
-						.data(author_arr);
-					auth_div.enter().append('div')
-						.classed('auth_div',true);
-					auth_div.exit().remove();
-					auth_name = auth_div
-						.selectAll('span.auth_name')
-						.data(function(d){ return [d]; });
-					auth_name.enter().append('span')
-						.classed('auth_name',true);
-					auth_name
-						.text(function(d){
-							return self.data.authors[d].name;
-						});
-					auth_name.exit().remove();
-					auth_desc = auth_div
-						.selectAll('span.auth_desc')
-						.data(function(d){ return [d]; });
-					auth_desc.enter().append('span')
-						.classed('auth_desc',true);
-					auth_desc
-						.text(function(d){
-							return self.data.authors[d].description;
-						});
-					auth_desc.exit().remove();
+					//update sidebar
+					self.updateSidebar();
 
 					//prevent event bubbling
 					d3.event.stopPropagation();
@@ -325,18 +306,66 @@ var init = function(){
 					return radius;
 				});
 			points.exit().remove();
+
+			self.updateSidebar();
+		},
+
+		updateSidebar:function(){
+			var self = vis;
+			var place_city = self.focus.place.split('_')[0],
+				place_country = self.focus.place.split('_')[1],
+				place_string = place_city +', ' +place_country + ' → ' + self.intersections[self.focus.place].length;
+
+			//update sidebar with placename
+			d3.select('span#dateRange')
+				.text(place_string);
+
+			//update author list
+			//first, get author array
+			//next, build list of names
+			var author_arr = self.intersections[self.focus.place];
+			var auth_div,
+				auth_name,
+				auth_desc;
+
+			auth_div = d3.select('#nav_auth')
+				.selectAll('div.auth_div')
+				.data(author_arr);
+			auth_div.enter().append('div')
+				.classed('auth_div',true);
+			auth_div.exit().remove();
+			auth_name = auth_div
+				.selectAll('span.auth_name')
+				.data(function(d){ return [d]; });
+			auth_name.enter().append('span')
+				.classed('auth_name',true);
+			auth_name
+				.text(function(d){
+					return self.data.authors[d].name;
+				});
+			auth_name.exit().remove();
+			auth_desc = auth_div
+				.selectAll('span.auth_desc')
+				.data(function(d){ return [d]; });
+			auth_desc.enter().append('span')
+				.classed('auth_desc',true);
+			auth_desc
+				.text(function(d){
+					return self.data.authors[d].description;
+				});
+			auth_desc.exit().remove();
 		},
 
 		//filter data based on state of navigation
 		filterData:function(){
 			var self = vis;
 
-			var date_start = new Date('2001-01-11'),
-				date_end = new Date('2001-04-18');
+			self.date.start = new Date('2001-01-11');
+			self.date.end = new Date('2001-04-18');
 
 			//convert dates to timestamps
-			var tStamp_start = date_start.getTime(),
-				tStamp_end = date_end.getTime();
+			var tStamp_start = self.date.start.getTime(),
+				tStamp_end = self.date.end.getTime();
 
 			//filter intersections (points) first
 			d3.keys(self.data.intersections).forEach(function(d,i){
