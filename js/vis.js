@@ -18,7 +18,7 @@ var init = function(){
 		path:null,
 
 		intersections:{},
-		trajectories:{},
+		trajectories:[],
 
 		//ensures the callback function is only called
 		//once all datasets have been retrieved
@@ -84,8 +84,8 @@ var init = function(){
 			self.navigation = d3.select('#nav_date');
 
 			self.projection = d3.geo.mercator()
-				.scale(320)
-				.translate([self.width*0.55,self.height*0.675])
+				.scale(220)
+				.translate([self.width*0.4,self.height*0.6])
 				;
 
 			self.path = d3.geo.path()
@@ -110,16 +110,15 @@ var init = function(){
 				.x(function(d){ return d.x; })
 				.y(function(d){ return d.y; })
 				.interpolate('linear');
-			/*var trajectories;
+			var trajectories;
 			trajectories = self.svg.selectAll('path.trajectory')
-				//.data(self.trajectories)
-				.data([])
+				.data(self.trajectories)
 				;
 			trajectories.enter().append('path')
 				.classed('trajectory',true);
 			trajectories
 				.attr('class',function(d){
-					return d.end.key + ' ' + d.start.key + ' trajectory';
+					return 'trajectory ' +d.ArCiCo +' ' +d.DptCiCo;
 				})
 				.attr('d',function(d){
 
@@ -128,16 +127,16 @@ var init = function(){
 
 					//isolate x and y start coordinates using projection
 					source.raw = self.projection([
-						d.start.coords.lon,
-						d.start.coords.lat
+						self.data.places[d.ArCiCo][1],
+						self.data.places[d.ArCiCo][0]
 					]);
 					source.x = source.raw[0];
 					source.y = source.raw[1];
 
 					//isolate x and y end coordinates using projection
 					target.raw = self.projection([
-						d.end.coords.lon,
-						d.end.coords.lat
+						self.data.places[d.DptCiCo][1],
+						self.data.places[d.DptCiCo][0]
 					]);
 					target.x = target.raw[0];
 					target.y = target.raw[1];
@@ -149,13 +148,7 @@ var init = function(){
 						dr = Math.sqrt(dx * dx + dy * dy);
 					return 'M' + source.x + ',' + source.y + 'A' + dr + ',' + dr + ' 0 0,1 ' + target.x + ',' + target.y;
 				});
-			trajectories.exit().remove();*/
-
-			// Initialize d3 tooltip
-			/*var tip = d3.tip()
-				.attr('class', 'd3-tip')
-				.html(function(d) { return d.value.name; })
-				.offset([-15,0]);*/
+			trajectories.exit().remove();
 
 			//define min and max radii
 			//define point scale
@@ -199,9 +192,11 @@ var init = function(){
 			pointG
 				.on('mouseover',function(d){
 					d3.select(this).classed('hov',true);
+					d3.selectAll('path.' +d.placeName).classed('hov',true);
 				})
 				.on('mouseout',function(d){
 					d3.select(this).classed('hov',false);
+					d3.selectAll('path.' +d.placeName).classed('hov',false);
 				})
 				.on('click', function(d){
 					var place_city = d.placeName.split('_')[0],
@@ -214,6 +209,7 @@ var init = function(){
 
 					d3.selectAll('.selected').classed('selected',false);
 					d3.select(this).classed('selected',true);
+					d3.selectAll('path.' +d.placeName).classed('selected',true);
 
 					//update author list
 					//first, get author array
@@ -315,15 +311,15 @@ var init = function(){
 			var date_start = new Date('2001-01-11'),
 				date_end = new Date('2001-04-18');
 
-			var holder = [];
+			//convert dates to timestamps
+			var tStamp_start = date_start.getTime(),
+				tStamp_end = date_end.getTime();
 
 			//filter intersections (points) first
 			d3.keys(self.data.intersections).forEach(function(d,i){
 
-				var tStamp_start = date_start.getTime(),
-					tStamp_end = date_end.getTime(),
-
-					tStamp_currentDatum = new Date(d).getTime();
+				//get timestamp of current data point
+				var tStamp_currentDatum = new Date(d).getTime();
 
 				//only pull elements after the start date and before the end date
 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
@@ -341,12 +337,22 @@ var init = function(){
 							}
 						});
 					});
-					holder.push(self.data.intersections[d]);
 				}
 			});
 
 			//filter trajectories next
-			//**ASSIGNMENT**
+			d3.keys(self.data.trajectories).forEach(function(d,i){
+
+				//get timestamp of current data point
+				var tStamp_currentDatum = new Date(d).getTime();
+
+				//only pull elements after the start date and before the end date
+				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
+					self.data.trajectories[d].forEach(function(_d,_i){
+						self.trajectories.push(_d);
+					});
+				}
+			});
 		},
 
 		//puts data in correct format
