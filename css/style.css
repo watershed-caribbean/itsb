@@ -44,15 +44,22 @@ svg {
 	stroke-opacity:0.3;
 	}
 
+.pointBack {
+	fill-opacity:1;
+	fill:white;
+	stroke-opacity:1;
+	stroke:white;
+	}
+
 .point {
 	fill-opacity:0.85;
 	stroke-opacity:1;
 	}
 .hov .point,
 .selected .point {
-	fill:#339933;
+	fill:#3399ff;
 	fill-opacity:1;
-	stroke:#339933;
+	stroke:#3399ff;
 	stroke-width:4;
 	}
 
@@ -65,7 +72,7 @@ svg {
 	}
 .trajectory.hov ,
 .trajectory.selected {
-	stroke:#339933;
+	stroke:#3399ff;
 	stroke-width:1.25;
 	stroke-opacity:1;
 	}

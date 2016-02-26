@@ -160,6 +160,8 @@ var init = function(){
 
 			//define all variables needed for plotting points
 			var pointG,
+
+				pointBacks,
 				points,
 
 				pbg_01,
@@ -191,6 +193,7 @@ var init = function(){
 				.classed('pointG',true);
 			pointG
 				.on('mouseover',function(d){
+					d3.selectAll('.hov').classed('hov',false);
 					d3.select(this).classed('hov',true);
 					d3.selectAll('path.' +d.placeName).classed('hov',true);
 				})
@@ -283,6 +286,26 @@ var init = function(){
 				;
 			pbg_02.exit().remove();
 			
+			//plot pointbacks
+			pointBacks = pointG.selectAll('circle.pointBack')
+				.data(function(d){ return [d]; })
+				;
+			pointBacks.enter().append('circle')
+				.classed('pointBack',true);
+			pointBacks
+				.classed('marker',true)
+				.attr('cx',function(d){
+					return d.posX;
+				})
+				.attr('cy',function(d){
+					return d.posY;
+				})
+				.attr('r',function(d){
+					var radius = pointScale(self.intersections[d.placeName].length);
+					return radius;
+				});
+			pointBacks.exit().remove();
+
 			//plot points
 			points = pointG.selectAll('circle.point')
 				.data(function(d){ return [d]; })
