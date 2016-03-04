@@ -24,7 +24,7 @@ var init = function(){
 		projection:null,
 		path:null,
 
-		intersections:{},
+		intersectionsDummy:{},
 		trajectories:[],
 
 		//ensures the callback function is only called
@@ -49,7 +49,7 @@ var init = function(){
 			var self = vis;
 
 			//'datasets' array holds strings for all files to be retrieved
-			var datasets = ['countries','intersections','trajectories','places','authors'],
+			var datasets = ['countries','intersectionsDummy','trajectories','places','authors'],
 				callback = _callback;
 
 			datasets.forEach(function(d){
@@ -187,7 +187,8 @@ var init = function(){
 				pointData = [];
 
 			//store x/y coordinates for each, so we don't have to recalculate these every time
-			d3.keys(self.intersections).forEach(function(d){
+			d3.keys(self.intersectionsDummy).forEach(function(d){
+
 				var obj = {};
 
 				obj.placeName = d;
@@ -241,7 +242,9 @@ var init = function(){
 
 			//plot background circles (two groups)
 			pbg_01 = pointG.selectAll('circle.pbg_01')
-				.data(function(d){ return [d]; });
+				.data(function(d){ 
+					return [d]; 
+				});
 			pbg_01.enter().append('circle')
 				.classed('pbg_01',true);
 			pbg_01
@@ -286,7 +289,8 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(self.intersections[d.placeName].length);
+					var radius = pointScale(self.intersectionsDummy[d.placeName].length);
+					debugger;
 					return radius;
 				});
 			pointBacks.exit().remove();
@@ -306,7 +310,7 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(self.intersections[d.placeName].length);
+					var radius = pointScale(self.intersectionsDummy[d.placeName].length);
 					return radius;
 				});
 			points.exit().remove();
@@ -318,7 +322,7 @@ var init = function(){
 			var self = vis;
 			var place_city = self.focus.place.split('_')[0],
 				place_country = self.focus.place.split('_')[1],
-				place_string = place_city +', ' +place_country + ' → ' + self.intersections[self.focus.place].length;
+				place_string = place_city +', ' +place_country + ' → ' + self.intersectionsDummy[self.focus.place].length;
 
 			//update sidebar with placename
 			d3.select('span#dateRange')
@@ -327,7 +331,7 @@ var init = function(){
 			//update author list
 			//first, get author array
 			//next, build list of names
-			var author_arr = self.intersections[self.focus.place];
+			var author_arr = self.intersectionsDummy[self.focus.place];
 			var auth_div,
 				auth_name,
 				auth_desc;
@@ -340,7 +344,8 @@ var init = function(){
 			auth_div.exit().remove();
 			auth_name = auth_div
 				.selectAll('span.auth_name')
-				.data(function(d){ return [d]; });
+				.data(function(d){ 
+					return [d.Author]; });
 			auth_name.enter().append('span')
 				.classed('auth_name',true);
 			auth_name
@@ -350,7 +355,7 @@ var init = function(){
 			auth_name.exit().remove();
 			auth_desc = auth_div
 				.selectAll('span.auth_desc')
-				.data(function(d){ return [d]; });
+				.data(function(d){ return [d.Author]; });
 			auth_desc.enter().append('span')
 				.classed('auth_desc',true);
 			auth_desc
@@ -371,8 +376,8 @@ var init = function(){
 			var tStamp_start = self.date.start.getTime(),
 				tStamp_end = self.date.end.getTime();
 
-			//filter intersections (points) first
-			d3.keys(self.data.intersections).forEach(function(d,i){
+			//filter intersectionsDummy (points) first
+			d3.keys(self.data.intersectionsDummy).forEach(function(d,i){ 
 
 				//get timestamp of current data point
 				var tStamp_currentDatum = new Date(d).getTime();
@@ -380,16 +385,16 @@ var init = function(){
 				//only pull elements after the start date and before the end date
 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
 
-					var ref = d3.keys(self.data.intersections[d]);
+					var ref = d3.keys(self.data.intersectionsDummy[d]);
 
 					ref.forEach(function(_d,_i){
-						
-						if(!self.intersections[_d]){
-							self.intersections[_d] = [];
+
+						if(!self.intersectionsDummy[_d]){
+							self.intersectionsDummy[_d] = [];
 						}
-						self.data.intersections[d][_d].forEach(function(__d,__i){
-							if(self.intersections[_d].indexOf(__d) <0){
-								self.intersections[_d].push(__d);
+						self.data.intersectionsDummy[d][_d].forEach(function(__d,__i){
+							if(self.intersectionsDummy[_d].indexOf(__d) <0){
+								self.intersectionsDummy[_d].push(__d);
 							}
 						});
 					});
