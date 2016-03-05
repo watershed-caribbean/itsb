@@ -290,7 +290,6 @@ var init = function(){
 				})
 				.attr('r',function(d){
 					var radius = pointScale(self.intersectionsDummy[d.placeName].length);
-					debugger;
 					return radius;
 				});
 			pointBacks.exit().remove();
@@ -323,6 +322,7 @@ var init = function(){
 			var place_city = self.focus.place.split('_')[0],
 				place_country = self.focus.place.split('_')[1],
 				place_string = place_city +', ' +place_country + ' → ' + self.intersectionsDummy[self.focus.place].length;
+
 
 			//update sidebar with placename
 			d3.select('span#dateRange')
@@ -388,7 +388,6 @@ var init = function(){
 					var ref = d3.keys(self.data.intersectionsDummy[d]);
 
 					ref.forEach(function(_d,_i){
-
 						if(!self.intersectionsDummy[_d]){
 							self.intersectionsDummy[_d] = [];
 						}
