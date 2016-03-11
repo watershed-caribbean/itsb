@@ -188,7 +188,7 @@ var init = function(){
 
 			//store x/y coordinates for each, so we don't have to recalculate these every time
 			d3.keys(self.intersectionsDummy).forEach(function(d){
-
+				
 				var obj = {};
 
 				obj.placeName = d;
@@ -392,7 +392,21 @@ var init = function(){
 							self.intersectionsDummy[_d] = [];
 						}
 						self.data.intersectionsDummy[d][_d].forEach(function(__d,__i){
-							if(self.intersectionsDummy[_d].indexOf(__d) <0){
+							//if(self.intersectionsDummy[_d].indexOf(__d) <0){
+							var authorAccountedFor,
+								authorFilteredList;
+							
+							//return a list of authors in this place-array that match the current author
+							authorFilteredList = self.intersectionsDummy[_d].filter(function(a){ 
+								return a['Author'] === __d['Author']; 
+							});
+							
+							//the author is accounted for if the returned list has a length greater than zero
+							authorAccountedFor = authorFilteredList && authorFilteredList.length >0;
+
+							//if the author is NOT accounted for, account for it by adding it to the array
+							//(it will be returned in the filtered list the next time this author ID is searched)
+							if(!authorAccountedFor){
 								self.intersectionsDummy[_d].push(__d);
 							}
 						});
