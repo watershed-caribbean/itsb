@@ -134,7 +134,7 @@ var init = function(){
 				.attr('width',self.width)
 				.attr('height',self.height)
 				.on('click',function(){
-					d3.select('span#dateRange').text('');
+					d3.select('#nav_place span').text('');
 					d3.select('#nav_auth').html('');
 					d3.selectAll('.selected').classed('selected',false);
 				});
@@ -142,8 +142,6 @@ var init = function(){
 			if(!self.focus.place || self.focus.place && self.focus.place === 0){
 				self.focus.place = "NewYork_US";
 			}
-
-			self.navigation = d3.select('#nav_date');
 
 			self.projection = d3.geo.mercator()
 				.scale(220)
@@ -380,7 +378,7 @@ var init = function(){
 				place_string = place_city +', ' +place_country + ' → ' + self.intersections[self.focus.place].length;
 
 			//update sidebar with placename
-			d3.select('span#dateRange')
+			d3.select('#nav_place span')
 				.text(place_string);
 
 			//update author list
