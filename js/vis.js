@@ -24,8 +24,8 @@ var init = function(){
 		projection:null,
 		path:null,
 
-		intersectionsDummy:{},
-		trajectories:[],
+		new_intersections:{},
+		new_trajectories:[],
 
 		//ensures the callback function is only called
 		//once all datasets have been retrieved
@@ -49,7 +49,7 @@ var init = function(){
 			var self = vis;
 
 			//'datasets' array holds strings for all files to be retrieved
-			var datasets = ['countries','intersectionsDummy','trajectories','places','authors'],
+			var datasets = ['countries','new_intersections','new_trajectories','places','authors'],
 				callback = _callback;
 
 			datasets.forEach(function(d){
@@ -124,13 +124,13 @@ var init = function(){
 				.x(function(d){ return d.x; })
 				.y(function(d){ return d.y; })
 				.interpolate('linear');
-			var trajectories;
-			trajectories = self.svg.selectAll('path.trajectory')
-				.data(self.trajectories)
+			var new_trajectories;
+			new_trajectories = self.svg.selectAll('path.trajectory')
+				.data(self.new_trajectories)
 				;
-			trajectories.enter().append('path')
+			new_trajectories.enter().append('path')
 				.classed('trajectory',true);
-			trajectories
+			new_trajectories
 				.attr('class',function(d){
 					return 'trajectory ' +d.ArCiCo +' ' +d.DptCiCo;
 				})
@@ -165,7 +165,7 @@ var init = function(){
 						dr = Math.sqrt(dx * dx + dy * dy);
 					return 'M' + source.x + ',' + source.y + 'A' + dr + ',' + dr + ' 0 0,1 ' + target.x + ',' + target.y;
 				});
-			trajectories.exit().remove();
+			new_trajectories.exit().remove();
 
 			//define min and max radii
 			//define point scale
@@ -186,9 +186,9 @@ var init = function(){
 
 				pointData = [];
 
-			//store x/y coordinates for each, so we don't have to recalculate these every time
-			d3.keys(self.intersectionsDummy).forEach(function(d){
-				
+			//store x/y coordinates for each location, so we don't have to recalculate these every time
+			d3.keys(self.new_intersections).forEach(function(d){
+			debugger;
 				var obj = {};
 
 				obj.placeName = d;
@@ -243,6 +243,7 @@ var init = function(){
 			//plot background circles (two groups)
 			pbg_01 = pointG.selectAll('circle.pbg_01')
 				.data(function(d){ 
+					
 					return [d]; 
 				});
 			pbg_01.enter().append('circle')
@@ -289,7 +290,7 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(self.intersectionsDummy[d.placeName].length);
+					var radius = pointScale(self.new_intersections[d.placeName].length);
 					return radius;
 				});
 			pointBacks.exit().remove();
@@ -309,7 +310,7 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(self.intersectionsDummy[d.placeName].length);
+					var radius = pointScale(self.new_intersections[d.placeName].length);
 					return radius;
 				});
 			points.exit().remove();
@@ -321,7 +322,7 @@ var init = function(){
 			var self = vis;
 			var place_city = self.focus.place.split('_')[0],
 				place_country = self.focus.place.split('_')[1],
-				place_string = place_city +', ' +place_country + ' → ' + self.intersectionsDummy[self.focus.place].length;
+				place_string = place_city +', ' +place_country + ' → ' + self.new_intersections[self.focus.place].length;
 
 
 			//update sidebar with placename
@@ -331,7 +332,7 @@ var init = function(){
 			//update author list
 			//first, get author array
 			//next, build list of names
-			var author_arr = self.intersectionsDummy[self.focus.place];
+			var author_arr = self.new_intersections[self.focus.place];
 			var auth_div,
 				auth_name,
 				auth_desc;
@@ -345,7 +346,7 @@ var init = function(){
 			auth_name = auth_div
 				.selectAll('span.auth_name')
 				.data(function(d){ 
-					return [d.Author]; });
+					return [d.AuthorID]; });
 			auth_name.enter().append('span')
 				.classed('auth_name',true);
 			auth_name
@@ -355,7 +356,7 @@ var init = function(){
 			auth_name.exit().remove();
 			auth_desc = auth_div
 				.selectAll('span.auth_desc')
-				.data(function(d){ return [d.Author]; });
+				.data(function(d){ return [d.AuthorID]; });
 			auth_desc.enter().append('span')
 				.classed('auth_desc',true);
 			auth_desc
@@ -376,8 +377,8 @@ var init = function(){
 			var tStamp_start = self.date.start.getTime(),
 				tStamp_end = self.date.end.getTime();
 
-			//filter intersectionsDummy (points) first
-			d3.keys(self.data.intersectionsDummy).forEach(function(d,i){ 
+			//filter new_intersections (points) first
+			d3.keys(self.data.new_intersections).forEach(function(d,i){ 
 
 				//get timestamp of current data point
 				var tStamp_currentDatum = new Date(d).getTime();
@@ -385,20 +386,21 @@ var init = function(){
 				//only pull elements after the start date and before the end date
 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
 
-					var ref = d3.keys(self.data.intersectionsDummy[d]);
+					var ref = d3.keys(self.data.new_intersections[d]);
 
 					ref.forEach(function(_d,_i){
-						if(!self.intersectionsDummy[_d]){
-							self.intersectionsDummy[_d] = [];
+						if(!self.new_intersections[_d]){
+							self.new_intersections[_d] = [];
 						}
-						self.data.intersectionsDummy[d][_d].forEach(function(__d,__i){
-							//if(self.intersectionsDummy[_d].indexOf(__d) <0){
+						self.data.new_intersections[d][_d].forEach(function(__d,__i){
+							//if(self.new_intersections[_d].indexOf(__d) <0){
+								debugger;
 							var authorAccountedFor,
 								authorFilteredList;
 							
 							//return a list of authors in this place-array that match the current author
-							authorFilteredList = self.intersectionsDummy[_d].filter(function(a){ 
-								return a['Author'] === __d['Author']; 
+							authorFilteredList = self.new_intersections[_d].filter(function(a){ 
+								return a['AuthorID'] === __d['AuthorID']; 
 							});
 							
 							//the author is accounted for if the returned list has a length greater than zero
@@ -407,23 +409,23 @@ var init = function(){
 							//if the author is NOT accounted for, account for it by adding it to the array
 							//(it will be returned in the filtered list the next time this author ID is searched)
 							if(!authorAccountedFor){
-								self.intersectionsDummy[_d].push(__d);
+								self.new_intersections[_d].push(__d);
 							}
 						});
 					});
 				}
 			});
 
-			//filter trajectories next
-			d3.keys(self.data.trajectories).forEach(function(d,i){
+			//filter new_trajectories next
+			d3.keys(self.data.new_trajectories).forEach(function(d,i){
 
 				//get timestamp of current data point
 				var tStamp_currentDatum = new Date(d).getTime();
 
 				//only pull elements after the start date and before the end date
 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
-					self.data.trajectories[d].forEach(function(_d,_i){
-						self.trajectories.push(_d);
+					self.data.new_trajectories[d].forEach(function(_d,_i){
+						self.new_trajectories.push(_d);
 					});
 				}
 			});
