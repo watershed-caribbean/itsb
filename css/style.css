@@ -86,27 +86,9 @@ svg {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Creates a small triangle extender for the tooltip */
-/*.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 11px;
-  width: 100%;
-  line-height: 0.8;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
-}*/
+/*	Sidebar
+	------------------------------- */
 
-/* Styles north extender differently */
-/*.d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
-}*/
-
-/* Sidebar */
 #sidebar {
 	position:absolute;
 	right:30px;
@@ -202,3 +184,19 @@ svg {
 	color:#ccc;
 	margin-top:0;
 	}
+
+/*	Date slider
+	------------------------------- */
+
+#time-range {
+    z-index:1000;
+	position:absolute;
+    bottom:30px;
+    width:90%;
+    left:5%;
+	}
+#time-range p {
+    font-family:"Arial", sans-serif;
+    font-size:14px;
+    color:#333;
+}
