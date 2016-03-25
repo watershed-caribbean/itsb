@@ -135,27 +135,6 @@ svg {
 	margin:18px;
 	}
 
-#nav_search {
-	height:33px;
-	margin-top:6px;
-	padding-top:12px;
-	border-radius:3px 3px 0 0;
-	}
-#nav_search #searchbar {
-	width:90%;
-	height:22px;
-	/*background:#eee;*/
-	background:white;
-	/*color:#bbb;*/
-	color:#666;
-	/*font-style:italic;*/
-	/*text-align:center;*/
-	/*margin:0 auto;*/
-	border-radius:3px;
-	}
-#nav_search #searchbar span {
-	}
-
 #nav_date {
 	font-style:italic;
 	border-radius:0;

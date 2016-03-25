@@ -88,8 +88,8 @@ var init = function(){
 					d3.selectAll('.selected').classed('selected',false);
 				});
 
-			var format = d3.time.format("%b. %Y");
-			d3.select('#searchbar span').text(format(self.date.start) +' — ' +format(self.date.end));
+			//var format = d3.time.format("%b. %Y");
+			//d3.select('#searchbar span').text(format(self.date.start) +' — ' +format(self.date.end));
 
 			if(!self.focus.place || self.focus.place && self.focus.place === 0){
 				self.focus.place = "NewYork_US";
