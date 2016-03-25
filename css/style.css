@@ -82,14 +82,14 @@ svg {
 	stroke-opacity:1;
 	}
 
-.d3-tip {
+/*.d3-tip {
 	line-height: 1;
 	font-weight: bold;
 	padding: 12px;
 	background: rgba(0, 0, 0, 0.8);
 	color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+}*/
 
 /*	Sidebar
 	------------------------------- */
@@ -145,7 +145,7 @@ svg {
 	width:90%;
 	height:22px;
 	/*background:#eee;*/
-	background:#fff;
+	background:white;
 	/*color:#bbb;*/
 	color:#666;
 	/*font-style:italic;*/
@@ -163,10 +163,11 @@ svg {
 
 #nav_auth {
 	float:left;
+	background:white;
 	height:450px;
 	padding-top:0;
 	border-radius:0 0 3px 3px;
-	overflow:auto;
+	overflow:scroll;
 	}
 #nav_auth span {
 	float:left;
