@@ -27,6 +27,13 @@ var init = function(){
 		intersections:{},
 		trajectories:[],
 
+		//date slider variables
+		dt_from:"1950-11-01",
+        dt_to:"2016-11-24",
+        
+        dt_cur_from:null,
+        dt_cur_to:null,
+
 		//ensures the callback function is only called
 		//once all datasets have been retrieved
 		loadingManager:function(_elem,_callback){
@@ -75,6 +82,50 @@ var init = function(){
 			});
 		},
 
+		//generates date slider
+		generateDateSlider:function(){
+
+			var self = vis;
+			var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
+
+            $('.slider-time').html(self.dt_from);
+            $('.slider-time2').html(self.dt_to);
+
+            var min_val = Date.parse(self.dt_from)/1000;
+            var max_val = Date.parse(self.dt_to)/1000;
+
+            function zeroPad(num, places) {
+              var zero = places - num.toString().length + 1;
+              return Array(+(zero > 0 && zero)).join("0") + num;
+            }
+            function formatDT(__dt) {
+                var year = __dt.getFullYear();
+                var month = zeroPad(__dt.getMonth()+1, 2);
+                var date = zeroPad(__dt.getDate(), 2);
+                
+                return year + '-' + month + '-' + date;
+            };
+
+            $("#slider-range").slider({
+                range:true,
+                min:min_val,
+                max:max_val,
+                step:10,
+                values:[min_val, max_val],
+                slide:function (e, ui) {
+                    self.dt_cur_from = new Date(ui.values[0]*1000); //.format("yyyy-mm-dd hh:ii:ss");
+                    $('.slider-time').html(formatDT(self.dt_cur_from));
+
+                    self.dt_cur_to = new Date(ui.values[1]*1000); //.format("yyyy-mm-dd hh:ii:ss");                
+                    $('.slider-time2').html(formatDT(self.dt_cur_to));
+
+                    self.filterData();
+					self.generate_lines();
+					self.generate_points();
+                }
+            });
+		},
+
 		//generates visualization
 		generate:function(){
 			var self = vis;
@@ -87,9 +138,6 @@ var init = function(){
 					d3.select('#nav_auth').html('');
 					d3.selectAll('.selected').classed('selected',false);
 				});
-
-			//var format = d3.time.format("%b. %Y");
-			//d3.select('#searchbar span').text(format(self.date.start) +' — ' +format(self.date.end));
 
 			if(!self.focus.place || self.focus.place && self.focus.place === 0){
 				self.focus.place = "NewYork_US";
@@ -118,6 +166,15 @@ var init = function(){
 				//.attr('filter','url(#f1)')
 				;
 			map.exit().remove();
+
+			self.generate_lines();
+			self.generate_points();
+
+			self.updateSidebar();
+		},
+
+		generate_lines:function(){
+			var self = vis;
 
 			//plot lines
 			var lineFunction = d3.svg.line()
@@ -166,6 +223,10 @@ var init = function(){
 					return 'M' + source.x + ',' + source.y + 'A' + dr + ',' + dr + ' 0 0,1 ' + target.x + ',' + target.y;
 				});
 			trajectories.exit().remove();
+		},
+
+		generate_points:function(){
+			var self = vis;
 
 			//define min and max radii
 			//define point scale
@@ -310,8 +371,6 @@ var init = function(){
 					return radius;
 				});
 			points.exit().remove();
-
-			self.updateSidebar();
 		},
 
 		updateSidebar:function(){
@@ -364,8 +423,11 @@ var init = function(){
 		filterData:function(){
 			var self = vis;
 
-			self.date.start = new Date('2001-01-11');
-			self.date.end = new Date('2001-04-18');
+			self.trajectories = [];
+			self.intersections = [];
+
+			self.date.start = new Date(self.dt_cur_from || self.dt_from);
+			self.date.end = new Date(self.dt_cur_to || self.dt_to);
 
 			//convert dates to timestamps
 			var tStamp_start = self.date.start.getTime(),
@@ -424,4 +486,5 @@ var init = function(){
 }
 
 var vis = init();
+vis.generateDateSlider();
 vis.getData(vis.processData);

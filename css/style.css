@@ -96,9 +96,9 @@ svg {
 
 #sidebar {
 	position:absolute;
-	right:30px;
-	top:30px;
-	width:18%;
+	right:3%;
+	top:6%;
+	width:260px;
 	height:auto;
 	background:transparent;
 	font-family: "Proxima Nova", Montserrat, sans-serif;
@@ -135,8 +135,7 @@ svg {
 	margin:18px;
 	}
 
-#nav_date {
-	font-style:italic;
+#nav_search {
 	border-radius:0;
 	}
 
@@ -176,9 +175,9 @@ svg {
 #time-range {
     z-index:1000;
 	position:absolute;
-    bottom:30px;
-    width:90%;
-    left:5%;
+    bottom:6%;
+    width:94%;
+    right:3%;
 	}
 #time-range p {
     font-family:"Arial", sans-serif;
