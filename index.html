@@ -5,8 +5,15 @@
 
 	<title>DEMO: In the Same Boats</title>
 
+	<!-- stylesheets -->
 	<link rel='stylesheet' type='text/css' href='css/style.css' />
+	<link rel='stylesheet' type='text/css' href='css/daterange.css' />
 
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+
+	<!-- local -->
 	<script type='text/javascript' src='js/libs/d3.v3.min.js'></script>
 	<script type='text/javascript' src='js/libs/topojson.js'></script>
 	<script type='text/javascript' src='js/libs/index.js'></script>
@@ -23,16 +30,16 @@
 		<div id='title'>
 			<span>In the Same Boats</span>
 		</div>
-		<div id='nav_search' class='block'>
-			<div id='searchbar'>
-				<span></span>
-			</div>
+		<div id='nav_place' class='block'>
+			<span></span>
 		</div>
-		<div id='nav_date' class='block'>
-			<span id='dateRange'></span>
-		</div>
-		<div id='nav_auth' class='block'>
-		</div>
+		<div id='nav_auth' class='block'></div>
+	</div>
+	<div id="time-range">
+	    <p>Selected Range: <span class="slider-time"></span> - <span class="slider-time2"></span></p>
+	    <div class="sliders_step1">
+	        <div id="slider-range"></div>
+	    </div>
 	</div>
 	<script type='text/javascript' src='js/vis.js'></script>
 </body>

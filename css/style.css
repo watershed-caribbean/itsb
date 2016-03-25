@@ -8,6 +8,11 @@ body {
 	padding:0;
 	}
 
+#container {
+	width:100%;
+	height:100%;
+	}
+
 svg {
 	display:block;
 	width:100%;
@@ -77,41 +82,23 @@ svg {
 	stroke-opacity:1;
 	}
 
-.d3-tip {
+/*.d3-tip {
 	line-height: 1;
 	font-weight: bold;
 	padding: 12px;
 	background: rgba(0, 0, 0, 0.8);
 	color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-/* Creates a small triangle extender for the tooltip */
-/*.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 11px;
-  width: 100%;
-  line-height: 0.8;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
 }*/
 
-/* Styles north extender differently */
-/*.d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
-}*/
+/*	Sidebar
+	------------------------------- */
 
-/* Sidebar */
 #sidebar {
 	position:absolute;
-	right:30px;
-	top:30px;
-	width:18%;
+	right:3%;
+	top:6%;
+	width:260px;
 	height:auto;
 	background:transparent;
 	font-family: "Proxima Nova", Montserrat, sans-serif;
@@ -148,38 +135,17 @@ svg {
 	margin:18px;
 	}
 
-#nav_search {
-	height:33px;
-	margin-top:6px;
-	padding-top:12px;
-	border-radius:3px 3px 0 0;
-	}
-#nav_search #searchbar {
-	width:90%;
-	height:22px;
-	/*background:#eee;*/
-	background:#fff;
-	/*color:#bbb;*/
-	color:#666;
-	/*font-style:italic;*/
-	/*text-align:center;*/
-	/*margin:0 auto;*/
-	border-radius:3px;
-	}
-#nav_search #searchbar span {
-	}
-
-#nav_date {
-	font-style:italic;
+#nav_place {
 	border-radius:0;
 	}
 
 #nav_auth {
 	float:left;
+	background:white;
 	height:450px;
 	padding-top:0;
 	border-radius:0 0 3px 3px;
-	overflow:auto;
+	overflow:scroll;
 	}
 #nav_auth span {
 	float:left;
@@ -202,3 +168,19 @@ svg {
 	color:#ccc;
 	margin-top:0;
 	}
+
+/*	Date slider
+	------------------------------- */
+
+#time-range {
+    z-index:1000;
+	position:absolute;
+    bottom:6%;
+    width:94%;
+    right:3%;
+	}
+#time-range p {
+    font-family:"Arial", sans-serif;
+    font-size:14px;
+    color:#333;
+}
