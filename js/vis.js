@@ -56,7 +56,8 @@ var init = function(){
 			var self = vis;
 
 			//'datasets' array holds strings for all files to be retrieved
-			var datasets = ['countries','intersections','trajectories','places','authors'],
+			var //datasets = ['countries','intersections','trajectories','places','authors'],
+				datasets = ['continents','countries','intersections','trajectories','places','authors'],
 				callback = _callback;
 
 			datasets.forEach(function(d){
@@ -151,7 +152,8 @@ var init = function(){
 			self.path = d3.geo.path()
 				.projection(self.projection);
 
-			var features = topojson.feature(self.data.countries,self.data.countries.objects.countries);
+			//var features = topojson.feature(self.data.countries,self.data.countries.objects.countries);
+			var features = topojson.feature(self.data.continents,self.data.continents.objects.continents);
 
 			//draw vector map
 			var map;
