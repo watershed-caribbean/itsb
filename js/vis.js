@@ -57,7 +57,7 @@ var init = function(){
 
 			//'datasets' array holds strings for all files to be retrieved
 			var //datasets = ['countries','intersections','trajectories','places','authors'],
-				datasets = ['continents','countries','intersections','trajectories','places','authors'],
+				datasets = ['continents','intersections','trajectories','places','authors'],
 				callback = _callback;
 
 			datasets.forEach(function(d){
