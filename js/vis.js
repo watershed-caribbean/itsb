@@ -430,8 +430,10 @@ var init = function(){
 		filterData:function(){
 			var self = vis;
 
-			self.trajectories = [];
-			self.intersections = [];
+			self.new_trajectories = [];
+			self.new_intersections = [];
+			self.interloc = [];
+			
 
 			self.date.start = new Date(self.dt_cur_from || self.dt_from);
 			self.date.end = new Date(self.dt_cur_to || self.dt_to);
@@ -473,6 +475,55 @@ var init = function(){
 							//(it will be returned in the filtered list the next time this author ID is searched)
 							if(!authorAccountedFor){
 								self.new_intersections[_d].push(__d);
+							}
+						});
+					});
+				}
+			});
+
+			//filter new_intersections (intersections)
+			d3.keys(self.data.new_intersections).forEach(function(d,i){
+
+				//get timestamp of current data point
+				var tStamp_currentDatum = new Date(d).getTime();
+
+				//only pull elements after the start date and before the end date
+				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
+
+					var locs = d3.entries(self.data.new_intersections[d]);
+
+					//var locs2 = d3.values(locs[_d]);
+
+					locs.forEach(function(_d,_i){
+						if(!self.interloc[_d.key] && self.interloc[_d.value.length]>1){
+							self.interloc[_d.key] = [];
+						}
+
+						var locs2 = d3.values(locs[_d]);
+				debugger;	
+						locs2.filter(function(_d){
+							return [_d.values].length > 1
+						})
+
+						
+
+						self.data.new_intersections[d].forEach(function(_d,_i){
+
+							var locAccountedFor,
+								locFilterlist;
+
+							//return a list of locations in this date-array that match the current location
+							locFilteredList = self.interloc[_d].filter(function(a){ 
+								return a === __d;
+							});
+
+							//the author is accounted for if the returned list has a length greater than zero
+							locAccountedFor = locFilteredList && locFilteredList.length >0;
+
+							//if the author is NOT accounted for, account for it by adding it to the array
+							//(it will be returned in the filtered list the next time this author ID is searched)
+							if(!locAccountedFor){
+								self.locs[_d].push(__d);
 							}
 						});
 					});
