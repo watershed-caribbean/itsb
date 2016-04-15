@@ -458,6 +458,7 @@ var init = function(){
 							self.new_intersections[_d] = [];
 						}
 						self.data.new_intersections[d][_d].forEach(function(__d,__i){
+
 							//if(self.new_intersections[_d].indexOf(__d) <0){
 							
 							var authorAccountedFor,
@@ -481,7 +482,8 @@ var init = function(){
 				}
 			});
 
-			//filter new_intersections (intersections)
+			//filter locations by strict intersections
+			//tabled for now April 15
 			d3.keys(self.data.new_intersections).forEach(function(d,i){
 
 				//get timestamp of current data point
@@ -496,36 +498,11 @@ var init = function(){
 
 					locs.forEach(function(_d,_i){
 						if(!self.interloc[_d.key] && self.interloc[_d.value.length]>1){
-							self.interloc[_d.key] = [];
+							self.interloc[_d] = [];
 						}
-
-						var locs2 = d3.values(locs[_d]);
-				debugger;	
-						locs2.filter(function(_d){
-							return [_d.values].length > 1
-						})
-
-						
-
-						self.data.new_intersections[d].forEach(function(_d,_i){
-
-							var locAccountedFor,
-								locFilterlist;
-
-							//return a list of locations in this date-array that match the current location
-							locFilteredList = self.interloc[_d].filter(function(a){ 
-								return a === __d;
-							});
-
-							//the author is accounted for if the returned list has a length greater than zero
-							locAccountedFor = locFilteredList && locFilteredList.length >0;
-
-							//if the author is NOT accounted for, account for it by adding it to the array
-							//(it will be returned in the filtered list the next time this author ID is searched)
-							if(!locAccountedFor){
-								self.locs[_d].push(__d);
-							}
-						});
+// 						self.data.new_intersections[d][_d].forEach(function(__d,__i){
+// 						self.interloc[_d.key].push(_d.value.length);
+						// });
 					});
 				}
 			});
@@ -539,6 +516,7 @@ var init = function(){
 				//only pull elements after the start date and before the end date
 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
 					self.data.new_trajectories[d].forEach(function(_d,_i){
+											debugger;
 						self.new_trajectories.push(_d);
 					});
 				}
