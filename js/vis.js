@@ -483,29 +483,29 @@ var init = function(){
 			});
 
 			//filter locations by strict intersections
-			//tabled for now April 15
-			d3.keys(self.data.new_intersections).forEach(function(d,i){
+			//tabled for now (April 15)
+// 			d3.keys(self.data.new_intersections).forEach(function(d,i){
 
-				//get timestamp of current data point
-				var tStamp_currentDatum = new Date(d).getTime();
+// 				//get timestamp of current data point
+// 				var tStamp_currentDatum = new Date(d).getTime();
 
-				//only pull elements after the start date and before the end date
-				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
+// 				//only pull elements after the start date and before the end date
+// 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
 
-					var locs = d3.entries(self.data.new_intersections[d]);
+// 					var locs = d3.entries(self.data.new_intersections[d]);
 
-					//var locs2 = d3.values(locs[_d]);
+// 					//var locs2 = d3.values(locs[_d]);
 
-					locs.forEach(function(_d,_i){
-						if(!self.interloc[_d.key] && self.interloc[_d.value.length]>1){
-							self.interloc[_d] = [];
-						}
-// 						self.data.new_intersections[d][_d].forEach(function(__d,__i){
-// 						self.interloc[_d.key].push(_d.value.length);
-						// });
-					});
-				}
-			});
+// 					locs.forEach(function(_d,_i){
+// 						if(!self.interloc[_d.key] && self.interloc[_d.value.length]>1){
+// 							self.interloc[_d] = [];
+// 						}
+// // 						self.data.new_intersections[d][_d].forEach(function(__d,__i){
+// // 						self.interloc[_d.key].push(_d.value.length);
+// 						// });
+// 					});
+// 				}
+// 			});
 
 			//filter new_trajectories next
 			d3.keys(self.data.new_trajectories).forEach(function(d,i){
