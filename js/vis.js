@@ -251,9 +251,22 @@ var init = function(){
 			//store x/y coordinates for each location, so we don't have to recalculate these every time
 			d3.keys(self.new_intersections).forEach(function(d){
 
+
 				var obj = {};
 
 				obj.placeName = d;
+				obj.specY = [];
+				obj.specM = [];
+				obj.specD = [];
+				var spec = self.new_intersections[d].forEach(function(_d,_i){
+					if(_d["specificity"] = "Y"){
+						obj.specY.push(_d["specificity"]);
+					} else if(_d["specificity"] = "M"){
+						obj.specM.push(_d["specificity"]);
+					} else if(_d["specificity"] = "D"){
+						obj.specD.push(_d["specificity"]);
+					};
+				});
 
 				//pass coordinates into projection
 				//returns an array of screen coordinates
@@ -305,7 +318,6 @@ var init = function(){
 			//plot background circles (two groups)
 			pbg_01 = pointG.selectAll('circle.pbg_01')
 				.data(function(d){ 
-					
 					return [d]; 
 				});
 			pbg_01.enter().append('circle')
@@ -318,7 +330,10 @@ var init = function(){
 				.attr('cy',function(d){
 					return d.posY;
 				})
-				.attr('r',maxR)
+				.attr('r',function(d){
+					var radius = pointScale(d.specD.length + d.specM.length + d.specY.length);
+					return radius;
+				})
 				;
 			pbg_01.exit().remove();
 			pbg_02 = pointG.selectAll('circle.pbg_02')
@@ -333,7 +348,11 @@ var init = function(){
 				.attr('cy',function(d){
 					return d.posY;
 				})
-				.attr('r',maxR/2)
+				.attr('r',function(d){
+
+					var radius = pointScale(d.specD.length + d.specM.length);
+					return radius;
+				})
 				;
 			pbg_02.exit().remove();
 			
@@ -352,7 +371,7 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(self.new_intersections[d.placeName].length);
+					var radius = pointScale(d.specD.length + 1);
 					return radius;
 				});
 			pointBacks.exit().remove();
@@ -372,7 +391,7 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(self.new_intersections[d.placeName].length);
+					var radius = pointScale(d.specD.length + 1);
 					return radius;
 				});
 			points.exit().remove();
@@ -516,7 +535,6 @@ var init = function(){
 				//only pull elements after the start date and before the end date
 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
 					self.data.new_trajectories[d].forEach(function(_d,_i){
-											debugger;
 						self.new_trajectories.push(_d);
 					});
 				}
