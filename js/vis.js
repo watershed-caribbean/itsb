@@ -233,7 +233,7 @@ var init = function(){
 			var minR = 3,
 				maxR = 45;
 			var pointScale = d3.scale.linear()
-				.domain([1,10])	//min and max of final data
+				.domain([0,10])	//min and max of final data
 				.range([minR,maxR]);
 
 			//define all variables needed for plotting points
@@ -327,8 +327,8 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(d.specD.length + d.specM.length + d.specY.length);
-					return radius;
+					var radius1 = pointScale(d.specD.length + d.specM.length + d.specY.length);
+					return radius1;
 				})
 				;
 			pbg_01.exit().remove();
@@ -346,8 +346,8 @@ var init = function(){
 				})
 				.attr('r',function(d){
 
-					var radius = pointScale(d.specD.length + d.specM.length);
-					return radius;
+					var radius2 = pointScale(d.specD.length + d.specM.length);
+					return radius2;
 				})
 				;
 			pbg_02.exit().remove();
@@ -367,17 +367,11 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(d.specD.length + 1);
+					//var radius3 = pointScale(d.specD.length + 1);
 					// This seems to me to be what should return the proper length, 
 					// but I can't get to work (returns NaN), so I just did the above for now.
-					// var radius = pointScale(function(d){
-					// 	if(d.specD.length < 1){
-					// 		return 1;
-					// 	} else {
-					// 		return d.specD.length;
-					// 	}
-					// });
-					return radius;
+					var radius3 = pointScale(d.specD.length);
+					return radius3;
 				});
 			pointBacks.exit().remove();
 
@@ -396,17 +390,11 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(d.specD.length + 1);
+					//var radius3 = pointScale(d.specD.length + 1);
 					// This seems to me to be what should return the proper length, 
 					// but I can't get to work (returns NaN), so I just did the above for now.
-					// var radius = pointScale(function(d){
-					// 	if(d.specD.length < 1){
-					// 		return 1;
-					// 	} else {
-					// 		return d.specD.length;
-					// 	}
-					// });
-					return radius;
+					var radius4 = pointScale(d.specD.length);
+					return radius4;
 				});
 			points.exit().remove();
 		},
