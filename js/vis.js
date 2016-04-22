@@ -327,8 +327,8 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius1 = pointScale(d.specD.length + d.specM.length + d.specY.length);
-					return radius1;
+					var radius = pointScale(d.specD.length + d.specM.length + d.specY.length);
+					return radius;
 				})
 				;
 			pbg_01.exit().remove();
@@ -346,8 +346,8 @@ var init = function(){
 				})
 				.attr('r',function(d){
 
-					var radius2 = pointScale(d.specD.length + d.specM.length);
-					return radius2;
+					var radius = pointScale(d.specD.length + d.specM.length);
+					return radius;
 				})
 				;
 			pbg_02.exit().remove();
@@ -370,8 +370,8 @@ var init = function(){
 					//var radius3 = pointScale(d.specD.length + 1);
 					// This seems to me to be what should return the proper length, 
 					// but I can't get to work (returns NaN), so I just did the above for now.
-					var radius3 = pointScale(d.specD.length);
-					return radius3;
+					var radius = pointScale(d.specD.length);
+					return radius;
 				});
 			pointBacks.exit().remove();
 
@@ -390,11 +390,8 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					//var radius3 = pointScale(d.specD.length + 1);
-					// This seems to me to be what should return the proper length, 
-					// but I can't get to work (returns NaN), so I just did the above for now.
-					var radius4 = pointScale(d.specD.length);
-					return radius4;
+					var radius = pointScale(d.specD.length);
+					return radius;
 				});
 			points.exit().remove();
 		},
