@@ -2,108 +2,108 @@
     "2001-02-17": [
         {
             "ArCiCo": "Paris_France", 
-            "AuthorID": "CCC", 
-            "Citation Source": NaN, 
+            "Author_ID": "CCC", 
+            "Citation_Source": NaN, 
             "DptCiCo": "Tokyo_Japan", 
             "Event": NaN, 
-            "Historical Figure": NaN, 
+            "Historical_Figure": NaN, 
             "Notes": NaN, 
             "Timestamp": NaN, 
-            "Type of figure": NaN, 
+            "Type_of_figure": NaN, 
             "specificity": "D"
         }
     ], 
     "2001-03-03": [
         {
             "ArCiCo": "London_UK", 
-            "AuthorID": "EEE", 
-            "Citation Source": NaN, 
+            "Author_ID": "EEE", 
+            "Citation_Source": NaN, 
             "DptCiCo": "Berlin_Germany", 
             "Event": NaN, 
-            "Historical Figure": NaN, 
+            "Historical_Figure": NaN, 
             "Notes": NaN, 
             "Timestamp": NaN, 
-            "Type of figure": NaN, 
+            "Type_of_figure": NaN, 
             "specificity": "D"
         }
     ], 
     "2001-03-10": [
         {
             "ArCiCo": "Tokyo_Japan", 
-            "AuthorID": "CCC", 
-            "Citation Source": NaN, 
+            "Author_ID": "CCC", 
+            "Citation_Source": NaN, 
             "DptCiCo": "NewYork_US", 
             "Event": NaN, 
-            "Historical Figure": NaN, 
+            "Historical_Figure": NaN, 
             "Notes": NaN, 
             "Timestamp": NaN, 
-            "Type of figure": NaN, 
+            "Type_of_figure": NaN, 
             "specificity": "D"
         }, 
         {
             "ArCiCo": "Nairobi_Kenya", 
-            "AuthorID": "DDD", 
-            "Citation Source": NaN, 
+            "Author_ID": "DDD", 
+            "Citation_Source": NaN, 
             "DptCiCo": "NewYork_US", 
             "Event": NaN, 
-            "Historical Figure": NaN, 
+            "Historical_Figure": NaN, 
             "Notes": NaN, 
             "Timestamp": NaN, 
-            "Type of figure": NaN, 
+            "Type_of_figure": NaN, 
             "specificity": "D"
         }
     ], 
     "2001-03-12": [
         {
             "ArCiCo": "Paris_France", 
-            "AuthorID": "AAA", 
-            "Citation Source": NaN, 
+            "Author_ID": "AAA", 
+            "Citation_Source": NaN, 
             "DptCiCo": "NewYork_US", 
             "Event": NaN, 
-            "Historical Figure": NaN, 
+            "Historical_Figure": NaN, 
             "Notes": NaN, 
             "Timestamp": NaN, 
-            "Type of figure": NaN, 
+            "Type_of_figure": NaN, 
             "specificity": "D"
         }
     ], 
     "2001-04-10": [
         {
             "ArCiCo": "NewYork_US", 
-            "AuthorID": "AAA", 
-            "Citation Source": NaN, 
+            "Author_ID": "AAA", 
+            "Citation_Source": NaN, 
             "DptCiCo": "Tokyo_Japan", 
             "Event": NaN, 
-            "Historical Figure": NaN, 
+            "Historical_Figure": NaN, 
             "Notes": NaN, 
             "Timestamp": NaN, 
-            "Type of figure": NaN, 
+            "Type_of_figure": NaN, 
             "specificity": "D"
         }
     ], 
     "2001-12-31": [
         {
             "ArCiCo": "Lagos_Nigeria", 
-            "AuthorID": "BBB", 
-            "Citation Source": NaN, 
+            "Author_ID": "BBB", 
+            "Citation_Source": NaN, 
             "DptCiCo": "London_UK", 
             "Event": NaN, 
-            "Historical Figure": NaN, 
+            "Historical_Figure": NaN, 
             "Notes": NaN, 
             "Timestamp": NaN, 
-            "Type of figure": NaN, 
+            "Type_of_figure": NaN, 
             "specificity": "Y"
         }, 
         {
             "ArCiCo": "Paris_France", 
-            "AuthorID": "EEE", 
-            "Citation Source": NaN, 
+            "Author_ID": "EEE", 
+            "Citation_Source": NaN, 
             "DptCiCo": "London_UK", 
             "Event": NaN, 
-            "Historical Figure": NaN, 
+            "Historical_Figure": NaN, 
             "Notes": NaN, 
             "Timestamp": NaN, 
-            "Type of figure": NaN, 
+            "Type_of_figure": NaN, 
             "specificity": "Y"
         }
     ]

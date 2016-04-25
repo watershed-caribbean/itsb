@@ -29,8 +29,8 @@ df['Date_of_Departure'] = pd.to_datetime(df['Date_of_Departure'])
 df.loc[mask, 'Date_of_Departure' ] +=  pd.offsets.YearEnd()
 
 # 2. Concatanate the City and Country for departure and arrival
-df["ArCiCo"] = df["City Arrival"] + "_" + df["Country Arrival"]
-df["DptCiCo"] = df["City Departure"] + "_" + df["Country Departure"]
+df["ArCiCo"] = df["City_Arrival"] + "_" + df["Country_Arrival"]
+df["DptCiCo"] = df["City_Departure"] + "_" + df["Country_Departure"]
 df["Date"] = df["Date_of_Departure"]
 
 
@@ -43,8 +43,8 @@ df['Date_of_Arrival'] = pd.to_datetime(df['Date_of_Arrival'])
 
 # 1. Create Dafa Frame for trajectories (df1) with only four columns and automatically generated index
 
-df1 = pd.DataFrame(df, columns = ['AuthorID', 'ArCiCo', 'DptCiCo', 'Date', 'specificity','Timestamp','Historical Figure','Type of figure', 'Event','Citation Source','Notes'])
-print df1.head
+df1 = pd.DataFrame(df, columns = ['AuthorID', 'ArCiCo', 'DptCiCo', 'Date', 'specificity','Timestamp','Historical_Figure','Type_of_figure', 'Event','Citation_Source','Notes'])
+
 # 2. Create empty dictionary
 json_dict = {}
 

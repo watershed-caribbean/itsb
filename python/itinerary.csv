@@ -1,4 +1,4 @@
-AuthorID,City Arrival,Country Arrival,City Departure,Country Departure,Date_of_Arrival,Date_of_Departure,Timestamp,Historical Figure,Type of figure,Event,Citation Source,Notes
+Author_ID,City_Arrival,Country_Arrival,City_Departure,Country_Departure,Date_of_Arrival,Date_of_Departure,Timestamp,Historical_Figure,Type_of_figure,Event,Citation_Source,Notes
 AAA,Paris,France,NewYork,US,2001-02-02,2001-03-12,,,,,,
 AAA,NewYork,US,Tokyo,Japan,2001-03-12,2001-04-10,,,,,,
 BBB,Lagos,Nigeria,London,UK,2001-02,2001,,,,,,

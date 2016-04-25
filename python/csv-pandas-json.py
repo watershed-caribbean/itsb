@@ -29,8 +29,8 @@ df['Date_of_Departure'] = pd.to_datetime(df['Date_of_Departure'])
 df.loc[mask, 'Date_of_Departure' ] +=  pd.offsets.YearEnd()
 
 # 2. Concatanate the City and Country for departure and arrival
-df["ArCiCo"] = df["City Arrival"] + "_" + df["Country Arrival"]
-df["DptCiCo"] = df["City Departure"] + "_" + df["Country Departure"]
+df["ArCiCo"] = df["City_Arrival"] + "_" + df["Country_Arrival"]
+df["DptCiCo"] = df["City_Departure"] + "_" + df["Country_Departure"]
 df["Date"] = df["Date_of_Departure"]
 
 
@@ -43,7 +43,7 @@ df['Date_of_Arrival'] = pd.to_datetime(df['Date_of_Arrival'])
 
 # 1. Create Dafa Frame for trajectories (df1) with only four columns and automatically generated index
 
-df1 = pd.DataFrame(df, columns = ['AuthorID', 'ArCiCo', 'DptCiCo', 'Date', 'specificity','Timestamp','Historical Figure','Type of figure', 'Event','Citation Source','Notes'])
+df1 = pd.DataFrame(df, columns = ['Author_ID', 'ArCiCo', 'DptCiCo', 'Date', 'specificity','Timestamp','Historical_Figure','Type_of_figure', 'Event','Citation_Source','Notes'])
 
 # 2. Create empty dictionary
 json_dict = {}
@@ -80,10 +80,10 @@ for i, data in df.iterrows():
 
     # Concatanate with new columns
     df2 = pd.concat([df2, data])
-    df2 = df2[['AuthorID', 'ArCiCo', 'DptCiCo', 'Date_of_Arrival', 'Date_of_Departure', 'specificity']]
+    df2 = df2[['Author_ID', 'ArCiCo', 'DptCiCo', 'Date_of_Arrival', 'Date_of_Departure', 'specificity']]
 
 # 4. Drop duplicates to solve 'embedded dates' problem
-df2 = df2.drop_duplicates(['AuthorID', 'Date_of_Arrival'], keep='last')
+df2 = df2.drop_duplicates(['Author_ID', 'Date_of_Arrival'], keep='last')
 
 # 5. Create empty dictionary
 json_dict = {}
