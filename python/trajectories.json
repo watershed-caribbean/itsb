@@ -3,52 +3,108 @@
         {
             "ArCiCo": "Paris_France", 
             "AuthorID": "CCC", 
-            "DptCiCo": "Tokyo_Japan"
+            "Citation Source": NaN, 
+            "DptCiCo": "Tokyo_Japan", 
+            "Event": NaN, 
+            "Historical Figure": NaN, 
+            "Notes": NaN, 
+            "Timestamp": NaN, 
+            "Type of figure": NaN, 
+            "specificity": "D"
         }
     ], 
     "2001-03-03": [
         {
             "ArCiCo": "London_UK", 
             "AuthorID": "EEE", 
-            "DptCiCo": "Berlin_Germany"
+            "Citation Source": NaN, 
+            "DptCiCo": "Berlin_Germany", 
+            "Event": NaN, 
+            "Historical Figure": NaN, 
+            "Notes": NaN, 
+            "Timestamp": NaN, 
+            "Type of figure": NaN, 
+            "specificity": "D"
         }
     ], 
     "2001-03-10": [
         {
-            "ArCiCo": "Lagos_Nigeria", 
-            "AuthorID": "BBB", 
-            "DptCiCo": "London_UK"
-        }, 
-        {
             "ArCiCo": "Tokyo_Japan", 
             "AuthorID": "CCC", 
-            "DptCiCo": "NewYork_US"
+            "Citation Source": NaN, 
+            "DptCiCo": "NewYork_US", 
+            "Event": NaN, 
+            "Historical Figure": NaN, 
+            "Notes": NaN, 
+            "Timestamp": NaN, 
+            "Type of figure": NaN, 
+            "specificity": "D"
         }, 
         {
             "ArCiCo": "Nairobi_Kenya", 
             "AuthorID": "DDD", 
-            "DptCiCo": "NewYork_US"
+            "Citation Source": NaN, 
+            "DptCiCo": "NewYork_US", 
+            "Event": NaN, 
+            "Historical Figure": NaN, 
+            "Notes": NaN, 
+            "Timestamp": NaN, 
+            "Type of figure": NaN, 
+            "specificity": "D"
         }
     ], 
     "2001-03-12": [
         {
             "ArCiCo": "Paris_France", 
             "AuthorID": "AAA", 
-            "DptCiCo": "NewYork_US"
-        }
-    ], 
-    "2001-04-08": [
-        {
-            "ArCiCo": "Paris_France", 
-            "AuthorID": "EEE", 
-            "DptCiCo": "London_UK"
+            "Citation Source": NaN, 
+            "DptCiCo": "NewYork_US", 
+            "Event": NaN, 
+            "Historical Figure": NaN, 
+            "Notes": NaN, 
+            "Timestamp": NaN, 
+            "Type of figure": NaN, 
+            "specificity": "D"
         }
     ], 
     "2001-04-10": [
         {
             "ArCiCo": "NewYork_US", 
             "AuthorID": "AAA", 
-            "DptCiCo": "Tokyo_Japan"
+            "Citation Source": NaN, 
+            "DptCiCo": "Tokyo_Japan", 
+            "Event": NaN, 
+            "Historical Figure": NaN, 
+            "Notes": NaN, 
+            "Timestamp": NaN, 
+            "Type of figure": NaN, 
+            "specificity": "D"
+        }
+    ], 
+    "2001-12-31": [
+        {
+            "ArCiCo": "Lagos_Nigeria", 
+            "AuthorID": "BBB", 
+            "Citation Source": NaN, 
+            "DptCiCo": "London_UK", 
+            "Event": NaN, 
+            "Historical Figure": NaN, 
+            "Notes": NaN, 
+            "Timestamp": NaN, 
+            "Type of figure": NaN, 
+            "specificity": "Y"
+        }, 
+        {
+            "ArCiCo": "Paris_France", 
+            "AuthorID": "EEE", 
+            "Citation Source": NaN, 
+            "DptCiCo": "London_UK", 
+            "Event": NaN, 
+            "Historical Figure": NaN, 
+            "Notes": NaN, 
+            "Timestamp": NaN, 
+            "Type of figure": NaN, 
+            "specificity": "Y"
         }
     ]
 }
