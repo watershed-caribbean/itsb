@@ -141,7 +141,7 @@ var init = function(){
 				});
 
 			if(!self.focus.place || self.focus.place && self.focus.place === 0){
-				self.focus.place = "NewYork_US";
+				self.focus.place = "London_UK";
 			}
 
 			self.projection = d3.geo.mercator()
@@ -260,11 +260,11 @@ var init = function(){
 				obj.specY = 0;
 
 				self.intersections[d].forEach(function(_d,_i){
-					if(_d["specificity"] === "Y"){
+					if(_d.specificity === "Y"){
 						obj.specD++;
-					} else if(_d["specificity"] === "M"){
+					} else if(_d.specificity === "M"){
 						obj.specM++;
-					} else if(_d["specificity"] === "D"){
+					} else if(_d.specificity === "D"){
 						obj.specY++;
 					};
 				});
@@ -306,8 +306,8 @@ var init = function(){
 					self.focus.place = d.placeName;
 
 					d3.selectAll('.selected').classed('selected',false);
-					d3.select(this).classed('selected',true);
-					d3.selectAll('path.' +self.focus.place).classed('selected',true);
+					//d3.select(this).classed('selected',true);
+					d3.selectAll('.' +self.focus.place).classed('selected',true);
 
 					//update sidebar
 					self.updateSidebar();

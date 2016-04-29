@@ -62,9 +62,7 @@ svg {
 	}
 .hov .point,
 .selected .point {
-	fill:#3399ff;
 	fill-opacity:1;
-	stroke:#3399ff;
 	stroke-width:4;
 	}
 
