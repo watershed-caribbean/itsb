@@ -252,17 +252,20 @@ var init = function(){
 				var obj = {};
 
 				obj.placeName = d;
-				// creates properties for the different specifity values
-				obj.specY = [];
-				obj.specM = [];
-				obj.specD = [];
-				var spec = self.intersections[d].forEach(function(_d,_i){
-					if(_d["specificity"] = "Y"){
-						obj.specY.push(_d["specificity"]);
-					} else if(_d["specificity"] = "M"){
-						obj.specM.push(_d["specificity"]);
-					} else if(_d["specificity"] = "D"){
-						obj.specD.push(_d["specificity"]);
+
+				//creates properties for the different specifity values
+				//let's just store these as raw counts
+				obj.specD = 0;
+				obj.specM = 0;
+				obj.specY = 0;
+
+				self.intersections[d].forEach(function(_d,_i){
+					if(_d["specificity"] === "Y"){
+						obj.specD++;
+					} else if(_d["specificity"] === "M"){
+						obj.specM++;
+					} else if(_d["specificity"] === "D"){
+						obj.specY++;
 					};
 				});
 
@@ -327,10 +330,9 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(d.specD.length + d.specM.length + d.specY.length);
+					var radius = pointScale(d.specD + d.specM + d.specY);
 					return radius;
-				})
-				;
+				});
 			pbg_01.exit().remove();
 			pbg_02 = pointG.selectAll('circle.pbg_02')
 				.data(function(d){ return [d]; });
@@ -345,11 +347,9 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-
-					var radius = pointScale(d.specD.length + d.specM.length);
+					var radius = pointScale(d.specD + d.specM);
 					return radius;
-				})
-				;
+				});
 			pbg_02.exit().remove();
 			
 			//plot pointbacks
@@ -368,9 +368,7 @@ var init = function(){
 				})
 				.attr('r',function(d){
 					//var radius3 = pointScale(d.specD.length + 1);
-					// This seems to me to be what should return the proper length, 
-					// but I can't get to work (returns NaN), so I just did the above for now.
-					var radius = pointScale(d.specD.length);
+					var radius = pointScale(d.specD);
 					return radius;
 				});
 			pointBacks.exit().remove();
@@ -390,7 +388,7 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(d.specD.length);
+					var radius = pointScale(d.specD);
 					return radius;
 				});
 			points.exit().remove();
@@ -447,7 +445,7 @@ var init = function(){
 			var self = vis;
 
 			self.trajectories = [];
-			self.intersections = [];
+			self.intersections = {};
 
 			self.date.start = new Date(self.dt_cur_from || self.dt_from);
 			self.date.end = new Date(self.dt_cur_to || self.dt_to);
@@ -465,16 +463,14 @@ var init = function(){
 				//only pull elements after the start date and before the end date
 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
 
-					var ref = d3.keys(self.data.intersections[d]);
-
-					ref.forEach(function(_d,_i){
+					d3.keys(self.data.intersections[d]).forEach(function(_d,_i){
 						
 						if(!self.intersections[_d]){
 							self.intersections[_d] = [];
 						}
 						self.data.intersections[d][_d].forEach(function(__d,__i){
 							//if(self.intersections[_d].indexOf(__d) <0){
-							// note to EF: it's been a while, but you actually wrote this part, not me!
+							//note to EF: it's been a while, but you actually wrote this part, not me!
 							var authorAccountedFor,
 								authorFilteredList;
 							
