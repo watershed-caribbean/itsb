@@ -278,7 +278,7 @@ var init = function(){
 				obj.posX = loc[0];
 				obj.posY = loc[1];
 				pointData.push(obj);
-			});debugger;
+			});
 
 			//point holder
 			pointG = self.svg.selectAll('g.pointG')
@@ -286,18 +286,19 @@ var init = function(){
 			pointG.enter().append('g')
 				.classed('pointG',true);
 			pointG
+				.attr('class',function(d){
+					return 'pointG ' +d.placeName;
+				})
 				.classed('selected',function(d){
 					return d.placeName === self.focus.place;
 				});
 			pointG
 				.on('mouseover',function(d){
 					d3.selectAll('.hov').classed('hov',false);
-					d3.select(this).classed('hov',true);
-					d3.selectAll('path.' +d.placeName).classed('hov',true);
+					d3.selectAll('.' +d.placeName).classed('hov',true);
 				})
 				.on('mouseout',function(d){
-					d3.select(this).classed('hov',false);
-					d3.selectAll('path.' +d.placeName).classed('hov',false);
+					d3.selectAll('.hov').classed('hov',false);
 				})
 				.on('click', function(d){
 
