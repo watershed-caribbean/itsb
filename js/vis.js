@@ -56,8 +56,7 @@ var init = function(){
 			var self = vis;
 
 			//'datasets' array holds strings for all files to be retrieved
-			var //datasets = ['countries','intersections','trajectories','places','authors'],
-				datasets = ['continents','intersections','trajectories','places','authors'],
+			var datasets = ['continents','intersections','trajectories','places','authors'],
 				callback = _callback;
 
 			datasets.forEach(function(d){
