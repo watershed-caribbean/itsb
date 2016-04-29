@@ -35,13 +35,13 @@ svg {
 	fill:#3399ff;
 	stroke:#3399ff;
 	stroke-width:1.25;
-	transition: fill .2s ease, fill-opacity .2s ease, stroke .2s ease, stroke-width .2s ease;
+	/*transition: fill .2s ease, fill-opacity .2s ease, stroke .2s ease, stroke-width .2s ease;
+	-webkit-transition: fill .2s ease, fill-opacity .2s ease, stroke .2s ease, stroke-width .2s ease;*/
 	}
 
 .pbg_01 {
 	fill-opacity:0.075;
 	stroke-opacity:0.15;
-	pointer-events:none;
 	}
 
 .pbg_02 {
@@ -73,12 +73,11 @@ svg {
 	stroke:#3399ff;
 	stroke-width:1;
 	stroke-opacity:0.5;
-	transition: stroke .2s ease, stroke-width .2s ease, stroke-opacity .2s ease;
+	/*transition: stroke .2s ease, stroke-width .2s ease, stroke-opacity .2s ease;
+	-webkit-transition: stroke .2s ease, stroke-width .2s ease, stroke-opacity .2s ease;*/
 	}
 .trajectory.hov ,
 .trajectory.selected {
-	stroke:#3399ff;
-	stroke-width:1.25;
 	stroke-opacity:1;
 	}
 
