@@ -230,8 +230,8 @@ var init = function(){
 
 			//define min and max radii
 			//define point scale
-			var minR = 3,
-				maxR = 45;
+			var minR = 0,
+				maxR = 30;
 			var pointScale = d3.scale.linear()
 				.domain([0,10])	//min and max of final data
 				.range([minR,maxR]);
@@ -278,7 +278,7 @@ var init = function(){
 				obj.posX = loc[0];
 				obj.posY = loc[1];
 				pointData.push(obj);
-			});
+			});debugger;
 
 			//point holder
 			pointG = self.svg.selectAll('g.pointG')
