@@ -140,7 +140,7 @@ var init = function(){
 				});
 
 			if(!self.focus.place || self.focus.place && self.focus.place === 0){
-				self.focus.place = "London_UK";
+				self.focus.place = "Hanoi_Vietnam";
 			}
 
 			self.projection = d3.geo.mercator()
@@ -229,7 +229,7 @@ var init = function(){
 
 			//define min and max radii
 			//define point scale
-			var minR = 0,
+			var minR = 2,
 				maxR = 30;
 			var pointScale = d3.scale.linear()
 				.domain([0,10])	//min and max of final data
@@ -425,7 +425,13 @@ var init = function(){
 				.classed('auth_name',true);
 			auth_name
 				.text(function(d){
-					return self.data.authors[d].name;
+					var str; 
+					if(self.data.authors[d]){
+						str = self.data.authors[d].name;
+					} else{
+						str = '';
+					}
+					return str;
 				});
 			auth_name.exit().remove();
 			auth_desc = auth_div
@@ -435,7 +441,13 @@ var init = function(){
 				.classed('auth_desc',true);
 			auth_desc
 				.text(function(d){
-					return self.data.authors[d].description;
+					var str; 
+					if(self.data.authors[d]){
+						str = self.data.authors[d].description;
+					} else{
+						str = '';
+					}
+					return str;
 				});
 			auth_desc.exit().remove();
 		},

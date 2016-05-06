@@ -34,19 +34,19 @@ svg {
 .marker {
 	fill:#3399ff;
 	stroke:#3399ff;
-	stroke-width:1.25;
+	stroke-width:0.5;
 	/*transition: fill .2s ease, fill-opacity .2s ease, stroke .2s ease, stroke-width .2s ease;
 	-webkit-transition: fill .2s ease, fill-opacity .2s ease, stroke .2s ease, stroke-width .2s ease;*/
 	}
 
 .pbg_01 {
 	fill-opacity:0.075;
-	stroke-opacity:0.15;
+	stroke-opacity:0.25;
 	}
 
 .pbg_02 {
 	fill-opacity:0.15;
-	stroke-opacity:0.3;
+	stroke-opacity:0.5;
 	}
 
 .pointBack {
@@ -62,20 +62,30 @@ svg {
 	}
 .hov .point,
 .selected .point {
+	fill:#007fff;
 	fill-opacity:1;
-	stroke-width:4;
+	stroke:#007fff;
+	stroke-width:2;
+	}
+.hov .pbg_01,
+.hov .pbg_02,
+.selected .pbg_01,
+.selected .pbg_02 {
+	stroke:#007fff;
+	stroke-opacity:1;
 	}
 
 .trajectory {
 	fill:none;
 	stroke:#3399ff;
-	stroke-width:1;
+	stroke-width:0.5;
 	stroke-opacity:0.5;
 	/*transition: stroke .2s ease, stroke-width .2s ease, stroke-opacity .2s ease;
 	-webkit-transition: stroke .2s ease, stroke-width .2s ease, stroke-opacity .2s ease;*/
 	}
 .trajectory.hov ,
 .trajectory.selected {
+	stroke:#007fff;
 	stroke-opacity:1;
 	}
 
