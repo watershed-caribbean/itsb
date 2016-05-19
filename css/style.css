@@ -1,6 +1,6 @@
 html,
 body {
-	background:#f7f7f7;
+	background:#f3f3f3;
 	width:100%;
 	height:100%;
 	color:#666;
@@ -20,10 +20,10 @@ svg {
 	}
 
 .map {
-	fill:#e6e7e8;
-	stroke:#dadada;
-	stroke-width:1;
-	stroke-opacity:0.975;
+	fill:#ddd;
+	stroke:transparent;
+	stroke-width:0;
+	stroke-opacity:0;
 	stroke-linejoin:miter;
 	}
 
@@ -121,8 +121,7 @@ svg {
 	text-align:center;
 	text-transform:uppercase;
 	padding-top:13px;
-	border-radius:3px;
-	box-shadow:0 0 3px 3px #ccc;
+	box-shadow:0 0 0.5px 0.5px #ddd;
 	}
 #title span {
 	margin-top:9px;
@@ -132,10 +131,8 @@ svg {
 	height:33px;
 	width:100%;
 	background:white;
-	margin-top:6px;
 	padding-top:12px;
-	border-radius:3px;
-	box-shadow:0 0 3px 3px #ddd;
+	box-shadow:0 0 0.5px 0.5px #ddd;
 	}
 .block span {
 	font-size:14px;
@@ -143,6 +140,7 @@ svg {
 	}
 
 #nav_place {
+	margin-top:6px;
 	border-radius:0;
 	}
 
@@ -151,7 +149,6 @@ svg {
 	background:white;
 	height:450px;
 	padding-top:0;
-	border-radius:0 0 3px 3px;
 	overflow:scroll;
 	}
 #nav_auth span {
