@@ -17,6 +17,7 @@ svg {
 	display:block;
 	width:100%;
 	height:100%;
+	shape-rendering:geometricPrecision;
 	}
 
 .map {
@@ -35,8 +36,6 @@ svg {
 	fill:#3399ff;
 	stroke:#3399ff;
 	stroke-width:0.5;
-	/*transition: fill .2s ease, fill-opacity .2s ease, stroke .2s ease, stroke-width .2s ease;
-	-webkit-transition: fill .2s ease, fill-opacity .2s ease, stroke .2s ease, stroke-width .2s ease;*/
 	}
 
 .pbg_01 {
@@ -79,23 +78,15 @@ svg {
 	stroke:#3399ff;
 	stroke-width:0.5;
 	stroke-opacity:0.5;
-	/*transition: stroke .2s ease, stroke-width .2s ease, stroke-opacity .2s ease;
-	-webkit-transition: stroke .2s ease, stroke-width .2s ease, stroke-opacity .2s ease;*/
 	}
 .trajectory.hov ,
 .trajectory.selected {
 	stroke:#007fff;
 	stroke-opacity:1;
 	}
-
-/*.d3-tip {
-	line-height: 1;
-	font-weight: bold;
-	padding: 12px;
-	background: rgba(0, 0, 0, 0.8);
-	color: #fff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}*/
+/*.trajectory.tier {
+	stroke:red;
+	}*/
 
 /*	Sidebar
 	------------------------------- */

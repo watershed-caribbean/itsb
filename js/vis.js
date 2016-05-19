@@ -191,6 +191,9 @@ var init = function(){
 				.attr('class',function(d){
 					return 'trajectory ' +d.ArCiCo +' ' +d.DptCiCo;
 				})
+				/*.classed('tier',function(d){
+					return d.tier >0;
+				})*/
 				.classed('selected',function(d){
 					return d.ArCiCo === self.focus.place || d.DptCiCo === self.focus.place;
 				})
@@ -219,7 +222,7 @@ var init = function(){
 					//src: http://stackoverflow.com/questions/13455510/curved-line-on-d3-force-directed-tree
 					var dx = target.x -source.x,
 						dy = target.y -source.y,
-						dr = Math.sqrt(dx * dx + dy * dy);
+						dr = Math.sqrt((dx +d.tier) * (dx +d.tier) + (dy +d.tier) * (dy +d.tier));
 					return 'M' + source.x + ',' + source.y + 'A' + dr + ',' + dr + ' 0 0,1 ' + target.x + ',' + target.y;
 				});
 			trajectories.exit().remove();
@@ -505,6 +508,9 @@ var init = function(){
 				}
 			});
 
+			//create empty array to keep track of DptCiCo_ArCiCo pairs
+			placePairs = [];
+
 			//filter trajectories next
 			d3.keys(self.data.trajectories).forEach(function(d,i){
 
@@ -514,6 +520,21 @@ var init = function(){
 				//only pull elements after the start date and before the end date
 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
 					self.data.trajectories[d].forEach(function(_d,_i){
+
+						//create variable for trajectory count (to avoid stacking)
+						var tier = 0;
+
+						//concat placepair string
+						var placePair = [_d.ArCiCo,_d.DptCiCo].join('_');
+		
+						if(placePairs.indexOf(placePair) <0){
+							tier = 0;
+						} else{
+							tier = placePairs.filter(function(_d){ return _d === placePair; })[0].length +1;
+						}
+						placePairs.push(placePair);
+
+						_d.tier = tier;
 						self.trajectories.push(_d);
 					});
 				}
