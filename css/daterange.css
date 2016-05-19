@@ -1,9 +1,13 @@
 #time-range p {
-    font-family:"Arial", sans-serif;
-    font-size:14px;
     color:#333;
-    margin-left:-3px;
+    font-family:"Proxima Nova", Montserrat, sans-serif;
+    font-size:11px;
+    letter-spacing:0.5px;
+    text-transform:uppercase;
 }
+#time-range .time-label {
+	font-weight:bold;
+	}
 .ui-slider-horizontal {
     height: 8px;
     background: #D7D7D7;
@@ -37,7 +41,8 @@
     -webkit-border-radius: 6px;
     -khtml-border-radius: 6px;
     border-radius: 6px;*/
-    background: #81B8F3;
+    /*background: #81B8F3;*/
+    background:rgba(31,133,255,0.5);
     /*background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi…pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
     background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #A0D4F5), color-stop(100%, #81B8F3));
@@ -94,7 +99,7 @@
 }*/
 .ui-slider-horizontal .ui-slider-handle {
     /*top: -.5em;*/
-    margin-left: -3px;
+    margin-left: -1px;
 }
 .ui-slider a:focus {
     outline:none;
@@ -717,7 +722,7 @@ button.ui-button::-moz-focus-inner {
 .ui-slider .ui-slider-handle {
 	position: absolute;
 	z-index: 2;
-	width: 6px;
+	width: 2px;
 	height: 45px;
     cursor:pointer;
 }
@@ -742,8 +747,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-slider-horizontal .ui-slider-handle {
 	/*top: -.3em;*/
-	top:0;
-	margin-left: -3px;
+	margin-left: -1px;
 }
 .ui-slider-horizontal .ui-slider-range {
 	top: 0;
@@ -905,6 +909,7 @@ body .ui-tooltip {
 	/*background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;*/
 	background:#fff;
 	color: #222222;
+	cursor:pointer;
 }
 .ui-widget-content a {
 	color: #222222;
