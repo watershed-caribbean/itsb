@@ -231,7 +231,7 @@ var init = function(){
 			//define min and max radii
 			//define point scale
 			var minR = 2,
-				maxR = 30;
+				maxR = 18;
 			var pointScale = d3.scale.linear()
 				.domain([0,10])	//min and max of final data
 				.range([minR,maxR]);
