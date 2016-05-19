@@ -94,16 +94,16 @@ var init = function(){
             var min_val = Date.parse(self.dt_from)/1000;
             var max_val = Date.parse(self.dt_to)/1000;
 
-            function zeroPad(num, places) {
-              var zero = places - num.toString().length + 1;
-              return Array(+(zero > 0 && zero)).join("0") + num;
-            }
+            // function zeroPad(num, places) {
+            //   var zero = places - num.toString().length + 1;
+            //   return Array(+(zero > 0 && zero)).join("0") + num;
+            // }
             function formatDT(__dt) {
                 var year = __dt.getFullYear();
-                var month = zeroPad(__dt.getMonth()+1, 2);
-                var date = zeroPad(__dt.getDate(), 2);
+                var month = months[__dt.getMonth()];
+                //var date = zeroPad(__dt.getDate(), 2);
                 
-                return year + '-' + month + '-' + date;
+                return month + '. ' + year;
             };
 
             $("#slider-range").slider({
