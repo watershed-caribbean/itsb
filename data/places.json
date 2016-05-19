@@ -1,15 +1,20 @@
 {
 	"Algiers_Algeria": [36.7537694,3.0500379],
 	"Andé_France": [49.2270366,1.2294553],
+    "Basse-Pointe_Martinique":[14.8673,-61.1156],
     "Berlin_Germany": [52.5167,13.3833],
+    "Cherbourg_France": [49.6337,-1.6221],
     "Fort-de-France_Martinique": [14.6489907,-61.1038119],
     "Genoa_Italy": [44.4469149,8.7507488],
     "Hanoi_Vietnam": [21.0226958,105.8194541],
     "Havana_Cuba": [23.0506037,-82.4727951],
     "Havana _Cuba": [23.0506037,-82.4727951],
+    "Jacmel_Haiti": [18.2430,-72.5264],
     "Kingston_Jamaica": [18.0179332,-76.8356759],
     "Lézignan-Corbières_France": [43.1983297,2.7299021],
     "London_UK": [51.5285582,-0.2416809],
+    "New York_United States": [40.7128,-74.0059],
+    "New York_NY": [40.7128,-74.0059],
     "Milan_Italy": [45.4627124,9.1076925],
     "Moscow_Russia": [55.7494733,37.3523204],
     "Paris_France": [48.8588377,2.2775173],
@@ -18,6 +23,7 @@
     "Prague _Czech Republic": [50.0595854,14.3255414],
     "Prague _Czech Republic": [50.0595854,14.3255414],
     "Shanghai_China": [31.2231338,120.9163003],
+    "Šibenik_Croatia": [43.7350,15.8952],
     "Tokyo_Japan": [35.6732619,139.5703035],
     "Vienna_Austria" : [48.2205998,16.2399771]
 }
