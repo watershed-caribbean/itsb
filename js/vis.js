@@ -28,7 +28,7 @@ var init = function(){
 		trajectories:[],
 
 		//date slider variables
-		dt_from:"1950-11-01",
+		dt_from:"1913-06-25",
         dt_to:"2016-11-24",
         
         dt_cur_from:null,
@@ -88,22 +88,23 @@ var init = function(){
 			var self = vis;
 			var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
 
-            $('.slider-time').html(self.dt_from);
-            $('.slider-time2').html(self.dt_to);
+            $('.slider-time').html("Jun. 1913"); //Should pull from "self.dt_from"
+            $('.slider-time2').html("Nov. 2016");
 
             var min_val = Date.parse(self.dt_from)/1000;
             var max_val = Date.parse(self.dt_to)/1000;
 
-            function zeroPad(num, places) {
-              var zero = places - num.toString().length + 1;
-              return Array(+(zero > 0 && zero)).join("0") + num;
-            }
+            // function zeroPad(num, places) {
+            //   var zero = places - num.toString().length + 1;
+            //   return Array(+(zero > 0 && zero)).join("0") + num;
+            // }
+
             function formatDT(__dt) {
                 var year = __dt.getFullYear();
-                var month = zeroPad(__dt.getMonth()+1, 2);
-                var date = zeroPad(__dt.getDate(), 2);
+                var month = months[__dt.getMonth()];
+                //var date = zeroPad(__dt.getDate(), 2);
                 
-                return year + '-' + month + '-' + date;
+                return month + '. ' + year;
             };
 
             $("#slider-range").slider({
