@@ -233,7 +233,7 @@ var init = function(){
 			var minR = 3,
 				maxR = 45;
 			var pointScale = d3.scale.linear()
-				.domain([0,10])	//min and max of final data
+				.domain([1,10])	//min and max of final data
 				.range([minR,maxR]);
 
 			//define all variables needed for plotting points
@@ -252,19 +252,6 @@ var init = function(){
 				var obj = {};
 
 				obj.placeName = d;
-				// creates properties for the different specifity values
-				obj.specY = [];
-				obj.specM = [];
-				obj.specD = [];
-				var spec = self.intersections[d].forEach(function(_d,_i){
-					if(_d["specificity"] = "Y"){
-						obj.specY.push(_d["specificity"]);
-					} else if(_d["specificity"] = "M"){
-						obj.specM.push(_d["specificity"]);
-					} else if(_d["specificity"] = "D"){
-						obj.specD.push(_d["specificity"]);
-					};
-				});
 
 				//pass coordinates into projection
 				//returns an array of screen coordinates
@@ -326,10 +313,7 @@ var init = function(){
 				.attr('cy',function(d){
 					return d.posY;
 				})
-				.attr('r',function(d){
-					var radius = pointScale(d.specD.length + d.specM.length + d.specY.length);
-					return radius;
-				})
+				.attr('r',maxR)
 				;
 			pbg_01.exit().remove();
 			pbg_02 = pointG.selectAll('circle.pbg_02')
@@ -344,11 +328,7 @@ var init = function(){
 				.attr('cy',function(d){
 					return d.posY;
 				})
-				.attr('r',function(d){
-
-					var radius = pointScale(d.specD.length + d.specM.length);
-					return radius;
-				})
+				.attr('r',maxR/2)
 				;
 			pbg_02.exit().remove();
 			
@@ -367,10 +347,7 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					//var radius3 = pointScale(d.specD.length + 1);
-					// This seems to me to be what should return the proper length, 
-					// but I can't get to work (returns NaN), so I just did the above for now.
-					var radius = pointScale(d.specD.length);
+					var radius = pointScale(self.intersections[d.placeName].length);
 					return radius;
 				});
 			pointBacks.exit().remove();
@@ -390,7 +367,7 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(d.specD.length);
+					var radius = pointScale(self.intersections[d.placeName].length);
 					return radius;
 				});
 			points.exit().remove();
@@ -422,7 +399,7 @@ var init = function(){
 			auth_div.exit().remove();
 			auth_name = auth_div
 				.selectAll('span.auth_name')
-				.data(function(d){ return [d.AuthorID]; });
+				.data(function(d){ return [d]; });
 			auth_name.enter().append('span')
 				.classed('auth_name',true);
 			auth_name
@@ -432,7 +409,7 @@ var init = function(){
 			auth_name.exit().remove();
 			auth_desc = auth_div
 				.selectAll('span.auth_desc')
-				.data(function(d){ return [d.AuthorID]; });
+				.data(function(d){ return [d]; });
 			auth_desc.enter().append('span')
 				.classed('auth_desc',true);
 			auth_desc
@@ -473,22 +450,7 @@ var init = function(){
 							self.intersections[_d] = [];
 						}
 						self.data.intersections[d][_d].forEach(function(__d,__i){
-							//if(self.intersections[_d].indexOf(__d) <0){
-							// note to EF: it's been a while, but you actually wrote this part, not me!
-							var authorAccountedFor,
-								authorFilteredList;
-							
-							//return a list of authors in this place-array that match the current author
-							authorFilteredList = self.intersections[_d].filter(function(a){ 
-								return a['AuthorID'] === __d['AuthorID']; 
-							});
-							
-							//the author is accounted for if the returned list has a length greater than zero
-							authorAccountedFor = authorFilteredList && authorFilteredList.length >0;
-
-							//if the author is NOT accounted for, account for it by adding it to the array
-							//(it will be returned in the filtered list the next time this author ID is searched)
-							if(!authorAccountedFor){
+							if(self.intersections[_d].indexOf(__d) <0){
 								self.intersections[_d].push(__d);
 							}
 						});
