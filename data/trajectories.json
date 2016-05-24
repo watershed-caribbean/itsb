@@ -111,7 +111,7 @@
             "specificity": "M"
         }, 
         {
-            "ArCiCo": "New York_NY", 
+            "ArCiCo": "New York_United States", 
             "AuthorID": "acesaire", 
             "CitationSource": "", 
             "DptCiCo": "Paris_France", 
@@ -292,7 +292,7 @@
             "ArCiCo": "Vienna_Austria", 
             "AuthorID": "rdepestre", 
             "CitationSource": "", 
-            "DptCiCo": "Prague _Czech Republic", 
+            "DptCiCo": "Prague_Czech Republic", 
             "Event": "Conference", 
             "Name": "René Depestre", 
             "Notes": "Congrès mondial des peuples pour la paix", 
@@ -432,7 +432,7 @@
             "ArCiCo": "Moscow_Russia", 
             "AuthorID": "rdepestre", 
             "CitationSource": "", 
-            "DptCiCo": "Havana _Cuba", 
+            "DptCiCo": "Havana_Cuba", 
             "Event": "Meetings", 
             "Name": "René Depestre", 
             "Notes": "", 

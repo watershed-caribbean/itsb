@@ -46,7 +46,7 @@ var init = function(){
 			});
 
 			//if loading array is empty, callback function
-			if(self.loading.length === 0){ 
+			if(self.loading.length === 0){
 				_callback();
 			}
 		},
@@ -189,7 +189,9 @@ var init = function(){
 				.classed('trajectory',true);
 			trajectories
 				.attr('class',function(d){
-					return 'trajectory ' +d.ArCiCo +' ' +d.DptCiCo;
+					var selector_A = d.ArCiCo.replace(/ /g, ''),
+						selector_D = d.DptCiCo.replace(/ /g, '');
+					return 'trajectory ' +selector_A +' ' +selector_D;
 				})
 				/*.classed('tier',function(d){
 					return d.tier >0;
@@ -290,15 +292,17 @@ var init = function(){
 				.classed('pointG',true);
 			pointG
 				.attr('class',function(d){
-					return 'pointG ' +d.placeName;
+					var selector = d.placeName.replace(/ /g, '');
+					return 'pointG ' +selector;
 				})
 				.classed('selected',function(d){
 					return d.placeName === self.focus.place;
 				});
 			pointG
 				.on('mouseover',function(d){
+					var selector = d.placeName.replace(/ /g, '');
 					d3.selectAll('.hov').classed('hov',false);
-					d3.selectAll('.' +d.placeName).classed('hov',true);
+					d3.selectAll('.' +selector).classed('hov',true);
 				})
 				.on('mouseout',function(d){
 					d3.selectAll('.hov').classed('hov',false);
