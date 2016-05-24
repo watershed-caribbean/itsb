@@ -96,11 +96,6 @@ var init = function(){
             var min_val = Date.parse(self.dt_from)/1000;
             var max_val = Date.parse(self.dt_to)/1000;
 
-            // function zeroPad(num, places) {
-            //   var zero = places - num.toString().length + 1;
-            //   return Array(+(zero > 0 && zero)).join("0") + num;
-            // }
-
             function formatDT(__dt) {
                 var year = __dt.getFullYear();
                 var month = months[__dt.getMonth()];
@@ -238,8 +233,8 @@ var init = function(){
 
 			//define min and max radii
 			//define point scale
-			var minR = 2,
-				maxR = 18;
+			var minR = 0.5,
+				maxR = 10;
 			var pointScale = d3.scale.linear()
 				.domain([0,10])	//min and max of final data
 				.range([minR,maxR]);
@@ -250,8 +245,8 @@ var init = function(){
 				pointBacks,
 				points,
 
-				pbg_01,
-				pbg_02,
+				points_YearSpec,
+				points_MonthSpec,
 
 				pointData = [];
 
@@ -261,22 +256,6 @@ var init = function(){
 
 				obj.placeName = d;
 
-				//creates properties for the different specifity values
-				//let's just store these as raw counts
-				obj.specD = 0;
-				obj.specM = 0;
-				obj.specY = 0;
-
-				self.intersections[d].forEach(function(_d,_i){
-					if(_d.specificity === "Y"){
-						obj.specD++;
-					} else if(_d.specificity === "M"){
-						obj.specM++;
-					} else if(_d.specificity === "D"){
-						obj.specY++;
-					};
-				});
-
 				//pass coordinates into projection
 				//returns an array of screen coordinates
 				var loc = self.projection([
@@ -285,6 +264,12 @@ var init = function(){
 				]);
 				obj.posX = loc[0];
 				obj.posY = loc[1];
+
+				//get specificity
+				obj.specY = self.intersections[d].filter(function(_d){ return _d.specificity === "Y"; }).length;
+				obj.specM = self.intersections[d].filter(function(_d){ return _d.specificity === "M"; }).length;
+				obj.specD = self.intersections[d].filter(function(_d){ return _d.specificity === "D"; }).length;
+
 				pointData.push(obj);
 			});
 
@@ -328,11 +313,11 @@ var init = function(){
 			pointG.exit().remove();
 
 			//plot background circles (two groups)
-			pbg_01 = pointG.selectAll('circle.pbg_01')
+			points_YearSpec = pointG.selectAll('circle.points_YearSpec')
 				.data(function(d){ return [d]; });
-			pbg_01.enter().append('circle')
-				.classed('pbg_01',true);
-			pbg_01
+			points_YearSpec.enter().append('circle')
+				.classed('points_YearSpec',true);
+			points_YearSpec
 				.classed('marker',true)
 				.attr('cx',function(d,i){
 					return d.posX;
@@ -341,15 +326,15 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(d.specD + d.specM + d.specY);
+					var radius = pointScale(d.specD +d.specM +d.specY);
 					return radius;
 				});
-			pbg_01.exit().remove();
-			pbg_02 = pointG.selectAll('circle.pbg_02')
+			points_YearSpec.exit().remove();
+			points_MonthSpec = pointG.selectAll('circle.points_MonthSpec')
 				.data(function(d){ return [d]; });
-			pbg_02.enter().append('circle')
-				.classed('pbg_02',true);
-			pbg_02
+			points_MonthSpec.enter().append('circle')
+				.classed('points_MonthSpec',true);
+			points_MonthSpec
 				.classed('marker',true)
 				.attr('cx',function(d,i){
 					return d.posX;
@@ -358,10 +343,10 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					var radius = pointScale(d.specD + d.specM);
+					var radius = pointScale(d.specD +d.specM);
 					return radius;
 				});
-			pbg_02.exit().remove();
+			points_MonthSpec.exit().remove();
 			
 			//plot pointbacks
 			pointBacks = pointG.selectAll('circle.pointBack')
@@ -378,7 +363,6 @@ var init = function(){
 					return d.posY;
 				})
 				.attr('r',function(d){
-					//var radius3 = pointScale(d.specD.length + 1);
 					var radius = pointScale(d.specD);
 					return radius;
 				});
@@ -460,6 +444,18 @@ var init = function(){
 						dpt = d.DptCiCo.split('_').join(', '),
 						arr = d.ArCiCo.split('_').join(', ');
 
+					//date formatting
+					if(d.specificity === 'D'){
+						str_date = d.date;
+					} else if(d.specificity === 'M'){
+						var dd = d.date.split('-');
+						str_date = [dd[0],dd[1]].join('-');
+					} else if(d.specificity === 'Y'){
+						var dd = d.date.split('-');
+						str_date = dd[0];
+					}
+
+					//journey formatting
 					if(d.ArCiCo === self.focus.place){
 						str_pl_1 = "<span>" +dpt +"</span>";
 						str_pl_2 = "<span class='focus'>" +arr +"</span>";
@@ -467,6 +463,7 @@ var init = function(){
 						str_pl_1 = "<span class='focus'>" +dpt +"</span>";
 						str_pl_2 = "<span>" +arr +"</span>";
 					}
+
 					return "<div class='sidebar_date'>" +str_date +"</div><div class='journey'>" +str_pl_1 +"<span>&nbsp;&rarr;&nbsp;</span>" +str_pl_2 +"</div>";
 				});
 			auth_desc.exit().remove();
@@ -501,12 +498,19 @@ var init = function(){
 							self.intersections[_d] = [];
 						}
 						self.data.intersections[d][_d].forEach(function(__d,__i){
+						
+							var val_map = {
+									"Y":0,
+									"M":1,
+									"D":2
+								};
 
 							//note to EF: it's been a while, but you actually wrote this part, not me!
 							var authorAccountedFor,
 								authorFilteredList;
 							
 							//return a list of authors in this place-array that match the current author
+							//(the length of this list should never be above 1)
 							authorFilteredList = self.intersections[_d].filter(function(a){ 
 								return a['AuthorID'] === __d['AuthorID']; 
 							});
@@ -518,6 +522,12 @@ var init = function(){
 							//(it will be returned in the filtered list the next time this author ID is searched)
 							if(!authorAccountedFor){
 								self.intersections[_d].push(__d);
+							} else{
+
+								//if the author IS accounted for, but at a lower level of specificity, up the level of specificity
+								if(val_map[authorFilteredList[0].specificity] <val_map[__d.specificity]){
+									authorFilteredList[0].specificity = __d.specificity;
+								}
 							}
 						});
 					});

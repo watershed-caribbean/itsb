@@ -38,13 +38,16 @@ svg {
 	stroke-width:0.5;
 	}
 
-.pbg_01 {
-	fill-opacity:0.075;
+.points_MonthSpec,
+.points_YearSpec {
+	fill-opacity:0;
+	}
+
+.points_YearSpec {
 	stroke-opacity:0.25;
 	}
 
-.pbg_02 {
-	fill-opacity:0.15;
+.points_MonthSpec {
 	stroke-opacity:0.5;
 	}
 
@@ -56,7 +59,7 @@ svg {
 	}
 
 .point {
-	fill-opacity:0.85;
+	fill-opacity:1;
 	stroke-opacity:1;
 	}
 .hov .point,
@@ -65,12 +68,15 @@ svg {
 	fill-opacity:1;
 	stroke:#007fff;
 	}
-.hov .pbg_01,
-.hov .pbg_02,
-.selected .pbg_01,
-.selected .pbg_02 {
+.hov .points_MonthSpec,
+.selected .points_MonthSpec {
 	stroke:#007fff;
-	stroke-opacity:1;
+	stroke-opacity:0.75;
+	}
+.hov .points_YearSpec,
+.selected .points_YearSpec {
+	stroke:#007fff;
+	stroke-opacity:0.5;
 	}
 
 .trajectory {
