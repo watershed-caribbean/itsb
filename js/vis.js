@@ -119,7 +119,7 @@ var init = function(){
 
                     self.filterData();
 					self.generate_lines();
-					self.generate_points(self.generate_legend);
+					self.generate_points();
 					self.updateSidebar();
                 }
             });
@@ -188,15 +188,13 @@ var init = function(){
 			trajectories
 				.attr('class',function(d){
 					var selector_A = d.ArCiCo.replace(/ /g, ''),
-						selector_D = d.DptCiCo.replace(/ /g, '');
-					return 'trajectory ' +selector_A +' ' +selector_D +' ' +d.AuthorID;
+						selector_D = d.DptCiCo.replace(/ /g, '')
+						selected = (d.ArCiCo === self.focus.place || d.DptCiCo === self.focus.place) ? 'selected' : '';
+					return 'trajectory ' +selector_A +' ' +selector_D +' ' +d.AuthorID +' ' +selected;
 				})
 				/*.classed('tier',function(d){
 					return d.tier >0;
 				})*/
-				.classed('selected',function(d){
-					return d.ArCiCo === self.focus.place || d.DptCiCo === self.focus.place;
-				})
 				.attr('d',function(d){
 
 					var source = {},
@@ -509,11 +507,19 @@ var init = function(){
 			//first, get author array
 			//next, build list of names
 			var author_arr = self.intersections_journeys[self.focus.place];
-			var auth_div,
+			var nav_auth,
+				auth_div,
 				auth_name,
 				auth_desc;
 
-			auth_div = d3.select('#nav_auth')
+			nav_auth = d3.select('#nav_auth')
+				.style('height',function(){
+					return window.innerHeight -(window.innerWidth*0.03) -350 +'px';
+				})
+				.style('opacity',1);
+			legend = d3.select('#nav_legend').style('opacity',1);
+
+			auth_div = nav_auth
 				.selectAll('div.auth_div')
 				.data(author_arr);
 			auth_div.enter().append('div')

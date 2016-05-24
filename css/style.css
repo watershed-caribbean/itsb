@@ -146,8 +146,9 @@ svg {
 	}
 
 #nav_auth {
+	opacity:0;
 	background:white;
-	height:350px;
+	height:375px;
 	padding-top:0;
 	overflow:scroll;
 	}
@@ -190,6 +191,7 @@ svg {
 	------------------------------- */
 
 #nav_legend {
+	opacity:0;
 	background:transparent;
 	height:90px;
 	border-bottom:1px solid #ddd;
