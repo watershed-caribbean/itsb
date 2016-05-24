@@ -81,7 +81,7 @@ svg {
 	}
 .trajectory.hov ,
 .trajectory.selected {
-	stroke:#007fff;
+	/*stroke:#007fff;*/
 	stroke-opacity:1;
 	}
 /*.trajectory.tier {
@@ -102,34 +102,37 @@ svg {
 	}
 
 #title {
-	height:32px;
+	height:30px;
 	width:100%;
 	background:#3399ff;
 	color:white;
-	font-size:16px;
+	font-size:13px;
 	letter-spacing:0.5px;
 	text-align:center;
 	text-transform:uppercase;
-	padding-top:13px;
+	padding-top:15px;
 	box-shadow:0 0 0.5px 0.5px #ddd;
 	}
 #title span {
-	margin-top:9px;
 	}
 
 .block {
-	height:33px;
+	height:25px;
 	width:100%;
 	background:white;
 	padding-top:12px;
 	box-shadow:0 0 0.5px 0.5px #ddd;
 	}
 .block span {
-	font-size:14px;
-	margin:18px;
+	float:left;
+	font-size:13px;
+	padding-left:9px;
+	box-sizing:border-box;
 	}
 
 #nav_place {
+	color:#666;
+	font-style:italic;
 	margin-top:6px;
 	border-radius:0;
 	}
@@ -142,7 +145,7 @@ svg {
 	overflow:scroll;
 	}
 #nav_auth span {
-	float:left;
+    font-size: 10px;
 	}
 #nav_auth .auth_div:first-child {
 	margin-top:0;
@@ -151,16 +154,46 @@ svg {
 #nav_auth .auth_div {
 	float:left;
 	width:100%;
-	margin-top:3px;
-	padding:3px 0 6px;
+	margin:0;
+	padding:6px 0;
 	border-top:1px solid #eee;
 	}
 #nav_auth .auth_name {
+	width:100%;
+    font-weight: bold;
+	text-transform: uppercase;
+    letter-spacing: 0.5px;
 	}
 #nav_auth .auth_desc {
 	float:left;
 	color:#ccc;
 	margin-top:0;
+	}
+#nav_auth .journey span {
+	display:block;
+	margin:0;
+	padding-left:0;
+	}
+#nav_auth .journey span.focus {
+	color:#666;
+	}
+
+/*	Author colors
+	------------------------------- */
+
+.rdepestre {
+	color:#23E87F;
+	}
+path.rdepestre {
+	stroke:#23E87F;
+	}
+
+.acesaire {
+	color:#FFC735;
+	}
+
+path.acesaire {
+	stroke:#FFC735;
 	}
 
 /*	Date slider

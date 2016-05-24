@@ -25,6 +25,8 @@ var init = function(){
 		path:null,
 
 		intersections:{},
+		intersections_journeys:{},
+
 		trajectories:[],
 
 		//date slider variables
@@ -141,7 +143,7 @@ var init = function(){
 				});
 
 			if(!self.focus.place || self.focus.place && self.focus.place === 0){
-				self.focus.place = "Hanoi_Vietnam";
+				self.focus.place = "Paris_France";
 			}
 
 			self.projection = d3.geo.mercator()
@@ -191,7 +193,7 @@ var init = function(){
 				.attr('class',function(d){
 					var selector_A = d.ArCiCo.replace(/ /g, ''),
 						selector_D = d.DptCiCo.replace(/ /g, '');
-					return 'trajectory ' +selector_A +' ' +selector_D;
+					return 'trajectory ' +selector_A +' ' +selector_D +' ' +d.AuthorID;
 				})
 				/*.classed('tier',function(d){
 					return d.tier >0;
@@ -406,7 +408,7 @@ var init = function(){
 			var self = vis;
 			var place_city = self.focus.place.split('_')[0],
 				place_country = self.focus.place.split('_')[1],
-				place_string = place_city +', ' +place_country + ' → ' + self.intersections[self.focus.place].length;
+				place_string = place_city +', ' +place_country;// + ' → ' + self.intersections[self.focus.place].length;
 
 			//update sidebar with placename
 			d3.select('#nav_place span')
@@ -415,7 +417,7 @@ var init = function(){
 			//update author list
 			//first, get author array
 			//next, build list of names
-			var author_arr = self.intersections[self.focus.place];
+			var author_arr = self.intersections_journeys[self.focus.place];
 			var auth_div,
 				auth_name,
 				auth_desc;
@@ -428,34 +430,43 @@ var init = function(){
 			auth_div.exit().remove();
 			auth_name = auth_div
 				.selectAll('span.auth_name')
-				.data(function(d){ return [d.AuthorID]; });
+				.data(function(d){ return [d]; });
 			auth_name.enter().append('span')
 				.classed('auth_name',true);
 			auth_name
+				.attr('class',function(d){
+					return 'auth_name ' +d.AuthorID;
+				})
 				.text(function(d){
-					var str; 
-					if(self.data.authors[d]){
-						str = self.data.authors[d].name;
-					} else{
-						str = '';
+					var str = ''; 
+					if(self.data.authors[d.AuthorID]){
+						str = self.data.authors[d.AuthorID].name;
 					}
 					return str;
 				});
 			auth_name.exit().remove();
 			auth_desc = auth_div
 				.selectAll('span.auth_desc')
-				.data(function(d){ return [d.AuthorID]; });
+				.data(function(d){ return [d]; });
 			auth_desc.enter().append('span')
 				.classed('auth_desc',true);
 			auth_desc
-				.text(function(d){
-					var str; 
-					if(self.data.authors[d]){
-						str = self.data.authors[d].description;
-					} else{
-						str = '';
+				.html(function(d){
+					var str_date = d.date,
+						str_pl_1 = '',
+						str_pl_2 = '',
+
+						dpt = d.DptCiCo.split('_').join(', '),
+						arr = d.ArCiCo.split('_').join(', ');
+
+					if(d.ArCiCo === self.focus.place){
+						str_pl_1 = "<span>" +dpt +"</span>";
+						str_pl_2 = "<span class='focus'>" +arr +"</span>";
+					} else if(d.DptCiCo === self.focus.place){
+						str_pl_1 = "<span class='focus'>" +dpt +"</span>";
+						str_pl_2 = "<span>" +arr +"</span>";
 					}
-					return str;
+					return "<div class='sidebar_date'>" +str_date +"</div><div class='journey'>" +str_pl_1 +"<span>&nbsp;&rarr;&nbsp;</span>" +str_pl_2 +"</div>";
 				});
 			auth_desc.exit().remove();
 		},
@@ -489,7 +500,7 @@ var init = function(){
 							self.intersections[_d] = [];
 						}
 						self.data.intersections[d][_d].forEach(function(__d,__i){
-							//if(self.intersections[_d].indexOf(__d) <0){
+
 							//note to EF: it's been a while, but you actually wrote this part, not me!
 							var authorAccountedFor,
 								authorFilteredList;
@@ -512,6 +523,14 @@ var init = function(){
 				}
 			});
 
+			//run through intersections dataset to create a list of authors and journeys for each
+			//this part just sets up the empty arrays for each location
+			//populate below, when filtering through the trajectories.json dataset
+			//this dataset is for the sidebar
+			d3.keys(self.intersections).forEach(function(d){
+				self.intersections_journeys[d] = [];
+			});
+
 			//create empty array to keep track of DptCiCo_ArCiCo pairs
 			placePairs = [];
 
@@ -523,6 +542,8 @@ var init = function(){
 
 				//only pull elements after the start date and before the end date
 				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
+
+					//add each trajectory inside each date array to trajectories array
 					self.data.trajectories[d].forEach(function(_d,_i){
 
 						//create variable for trajectory count (to avoid stacking)
@@ -540,6 +561,19 @@ var init = function(){
 
 						_d.tier = tier;
 						self.trajectories.push(_d);
+					});
+
+					//add entry to intersections_journeys dataset
+					self.data.trajectories[d].forEach(function(_d,_i){
+
+						var obj = _d;
+						obj.date = d;
+
+						//add entry to the 'journeys' dataset for the departing city
+						self.intersections_journeys[_d.ArCiCo].push(obj);
+
+						//add entry to the 'journeys' dataset for the arriving city
+						self.intersections_journeys[_d.DptCiCo].push(obj);
 					});
 				}
 			});

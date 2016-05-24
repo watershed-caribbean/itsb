@@ -1,22 +1,10 @@
 {
-	"AAA":{
+	"acesaire":{
 		"name":"Aimé Césaire",
 		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ipsum nec leo dignissim, at auctor justo tempor. Proin condimentum malesuada vulputate."
 	},
-	"BBB":{
-		"name":"Édouard Glissant",
+	"rdepestre":{
+		"name":"René Depestre",
 		"description":"Aenean at elit dapibus, mattis diam non, sollicitudin sem. Sed nec consectetur dolor, eu vestibulum urna. Maecenas eu nisi eu erat blandit imperdiet nec et nibh."
-	},
-	"CCC":{
-		"name":"Author ID CCC",
-		"description":"Pellentesque laoreet suscipit sem et imperdiet. Maecenas sit amet leo nisi. Cum sociis natoque penatibus et magnis dis parturient montes."
-	},
-	"DDD":{
-		"name":"Author ID DDD",
-		"description":"Nascetur ridiculus mus. Suspendisse consectetur ipsum nec vulputate iaculis. Sed finibus orci eu dui malesuada vulputate."
-	},
-	"EEE":{
-		"name":"Author ID EEE",
-		"description":"Vestibulum bibendum cursus urna. Nulla scelerisque eu nibh a dapibus. Nunc in odio leo. Sed bibendum dui vel sodales tincidunt."
 	}
 }
