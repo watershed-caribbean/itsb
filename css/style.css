@@ -45,6 +45,7 @@ svg {
 
 .points_YearSpec {
 	stroke-opacity:0.25;
+	stroke-dasharray:0.5,0.5;
 	}
 
 .points_MonthSpec {
@@ -123,6 +124,7 @@ svg {
 	}
 
 .block {
+	float:left;
 	height:25px;
 	width:100%;
 	background:white;
@@ -137,16 +139,15 @@ svg {
 	}
 
 #nav_place {
-	color:#666;
+	color:#111;
 	font-style:italic;
 	margin-top:6px;
 	border-radius:0;
 	}
 
 #nav_auth {
-	float:left;
 	background:white;
-	height:450px;
+	height:350px;
 	padding-top:0;
 	overflow:scroll;
 	}
@@ -172,7 +173,7 @@ svg {
 	}
 #nav_auth .auth_desc {
 	float:left;
-	color:#ccc;
+	color:#aaa;
 	margin-top:0;
 	}
 #nav_auth .journey span {
@@ -181,7 +182,56 @@ svg {
 	padding-left:0;
 	}
 #nav_auth .journey span.focus {
-	color:#666;
+	color:#333;
+	font-weight:bold;
+	}
+
+/*	Legend
+	------------------------------- */
+
+#nav_legend {
+	background:transparent;
+	height:90px;
+	border-bottom:1px solid #ddd;
+	box-shadow:none;
+	pointer-events:none;
+	}
+
+#nav_legend span {
+	color:#3399ff;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:0.5px;
+	}
+#nav_legend circle {
+	stroke-opacity:1;
+	}
+
+#nav_legend .legendLabel {
+	font-size:10px;
+	}
+#nav_legend .legendTrajectory {
+	fill:none;
+	stroke:#666;
+	stroke-width:0.75;
+	stroke-opacity:0.75;
+	}
+
+/*	Date slider
+	------------------------------- */
+
+#time-range {
+    z-index:1000;
+	position:absolute;
+    bottom:6%;
+    width:94%;
+    right:3%;
+	}
+#time-range p {
+    font-family:"Arial", sans-serif;
+    font-size:14px;
+    color:#333;
 	}
 
 /*	Author colors
@@ -201,19 +251,3 @@ path.rdepestre {
 path.acesaire {
 	stroke:#fc8d62;
 	}
-
-/*	Date slider
-	------------------------------- */
-
-#time-range {
-    z-index:1000;
-	position:absolute;
-    bottom:6%;
-    width:94%;
-    right:3%;
-	}
-#time-range p {
-    font-family:"Arial", sans-serif;
-    font-size:14px;
-    color:#333;
-}

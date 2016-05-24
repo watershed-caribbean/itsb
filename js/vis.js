@@ -119,7 +119,7 @@ var init = function(){
 
                     self.filterData();
 					self.generate_lines();
-					self.generate_points();
+					self.generate_points(self.generate_legend);
 					self.updateSidebar();
                 }
             });
@@ -166,7 +166,7 @@ var init = function(){
 			map.exit().remove();
 
 			self.generate_lines();
-			self.generate_points();
+			self.generate_points(self.generate_legend);
 
 			self.updateSidebar();
 		},
@@ -228,13 +228,13 @@ var init = function(){
 			trajectories.exit().remove();
 		},
 
-		generate_points:function(){
+		generate_points:function(_callback){
 			var self = vis;
 
 			//define min and max radii
 			//define point scale
 			var minR = 0.5,
-				maxR = 10;
+				maxR = 15;
 			var pointScale = d3.scale.linear()
 				.domain([0,10])	//min and max of final data
 				.range([minR,maxR]);
@@ -387,6 +387,112 @@ var init = function(){
 					return radius;
 				});
 			points.exit().remove();
+
+			if(_callback){
+				_callback(pointScale);
+			}
+		},
+
+		generate_legend:function(_scale){
+			var self = vis;
+			var scale = _scale;
+
+			//legend
+			var legend,
+				legendLabels,
+				legendTrajectory,
+				legendTrajectoryLabel,
+
+				legend_ySpace = 15;
+			var legendData = [
+					'Specificity — Day',
+					'Specificity — Month',
+					'Specificity — Year',
+					'1 intersection',
+					'3 intersections',
+					'6 intersections'
+				];
+			legend = d3.select('#nav_legend svg').selectAll('circle.marker')
+				.data(legendData);
+			legend.enter().append('circle')
+				.classed('marker',true);
+			legend
+				.attr('class',function(d,i){
+					var spec = i === 1 ? 'points_MonthSpec' : i === 2 ? 'points_YearSpec' : '';
+					return 'marker ' +spec;
+				})
+				.attr('cx',function(d,i){
+					var xpos = i <3 ? 150 : 15;
+					return xpos;
+				})
+				.attr('cy',function(d,i){
+					var ypos = (i%3)*legend_ySpace +15;
+					return ypos;
+				})
+				.attr('r',function(d,i){
+					var rad = 0;
+					if(i <3){
+						rad = scale(2);
+					} else{
+						rad = +d.split(' ')[0];
+					}
+					return rad;
+				});
+			legend.exit().remove();
+			legendLabels = d3.select('#nav_legend svg').selectAll('text.legendLabel')
+				.data(d3.merge([legendData,['Journey trajectory']]));
+			legendLabels.enter().append('text')
+				.classed('legendLabel',true);
+			legendLabels
+				.attr('x',function(d,i){
+					var xpos;
+					if(i <6){
+						xpos = i <3 ? 165 : 27;
+					} else{
+						xpos = 165;
+					}
+					return xpos;
+				})
+				.attr('y',function(d,i){
+					var ypos;
+					if(i <6){
+						ypos = (i%3)*legend_ySpace +18;
+					} else{
+						ypos = 3*legend_ySpace +18;
+					}
+					return ypos;
+				})
+				.text(function(d){
+					var str = d;
+					return str;
+				});
+			legendLabels.exit().remove();
+			legendTrajectory = d3.select('#nav_legend svg').selectAll('path.legendTrajectory')
+				.data([self]);
+			legendTrajectory.enter().append('path')
+				.classed('legendTrajectory',true);
+			legendTrajectory
+				.attr('d',function(d){
+
+					var source = {},
+						target = {};
+
+					source.x = 100;
+					source.y = 60;
+
+					target.x = 150;
+					target.y = 60;
+
+					var f = 20;
+
+					//this is a path builder -- creates a curved line between points
+					//src: http://stackoverflow.com/questions/13455510/curved-line-on-d3-force-directed-tree
+					var dx = target.x -source.x,
+						dy = target.y -source.y,
+						dr = Math.sqrt((dx +f) * (dx +f) + (dy +f) * (dy +f));
+					return 'M' + source.x + ',' + source.y + 'A' + dr + ',' + dr + ' 0 0,1 ' + target.x + ',' + target.y;
+				});
+			legendTrajectory.exit().remove();
 		},
 
 		updateSidebar:function(){
