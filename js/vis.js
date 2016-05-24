@@ -125,6 +125,7 @@ var init = function(){
                     self.filterData();
 					self.generate_lines();
 					self.generate_points();
+					self.updateSidebar();
                 }
             });
 		},

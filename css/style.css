@@ -77,7 +77,7 @@ svg {
 	fill:none;
 	stroke:#3399ff;
 	stroke-width:0.5;
-	stroke-opacity:0.5;
+	stroke-opacity:0.75;
 	}
 .trajectory.hov ,
 .trajectory.selected {
@@ -182,18 +182,18 @@ svg {
 	------------------------------- */
 
 .rdepestre {
-	color:#23E87F;
+	color:#7fc97f;
 	}
 path.rdepestre {
-	stroke:#23E87F;
+	stroke:#7fc97f;
 	}
 
 .acesaire {
-	color:#FFC735;
+	color:#fdc086;
 	}
 
 path.acesaire {
-	stroke:#FFC735;
+	stroke:#fdc086;
 	}
 
 /*	Date slider
