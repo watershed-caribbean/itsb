@@ -247,7 +247,7 @@ svg {
 #nav_legend .legendTrajectory {
 	fill:none;
 	stroke:#666;
-	stroke-width:0.75;
+	stroke-width:0.5;
 	stroke-opacity:0.75;
 	}
 

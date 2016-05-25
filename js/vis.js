@@ -557,7 +557,7 @@ var init = function(){
 				//first, get author array
 				//next, build list of names
 				var author_arr = [];
-				if(self.focus.place){
+				if(self.focus.place && self.intersections_journeys[self.focus.place]){
 					author_arr = self.intersections_journeys[self.focus.place];
 				} else{
 					d3.keys(self.intersections_journeys).forEach(function(d){
@@ -702,6 +702,7 @@ var init = function(){
 
 			self.trajectories = [];
 			self.intersections = {};
+			self.intersections_journeys = {};
 
 			self.date.start = new Date(self.dt_cur_from || self.dt_from);
 			self.date.end = new Date(self.dt_cur_to || self.dt_to);
@@ -727,9 +728,8 @@ var init = function(){
 
 					d3.keys(self.data.intersections[d]).forEach(function(_d,_i){
 						
-						if(!self.intersections[_d]){
-							self.intersections[_d] = [];
-						}
+						self.intersections[_d] = [];
+						
 						self.data.intersections[d][_d].forEach(function(__d,__i){
 						
 							var val_map = {
@@ -749,7 +749,7 @@ var init = function(){
 							//return a list of authors in this place-array that match the current author
 							//(the length of this list should never be above 1)
 							authorFilteredList = self.intersections[_d].filter(function(a){ 
-								return a['AuthorID'] === __d['AuthorID']; 
+								return (a['AuthorID'] === __d['AuthorID']);
 							});
 							
 							//the author is accounted for if the returned list has a length greater than zero
@@ -769,15 +769,6 @@ var init = function(){
 						});
 					});
 				}
-			});
-
-			//run through intersections dataset to create a list of authors and journeys for each
-			//this part just sets up the empty arrays for each location
-			//populate below, when filtering through the trajectories.json dataset
-			//this dataset is for the sidebar
-			self.intersections_journeys = {};
-			d3.keys(self.intersections).forEach(function(d){
-				self.intersections_journeys[d] = [];
 			});
 
 			//create empty array to keep track of DptCiCo_ArCiCo pairs
@@ -817,7 +808,7 @@ var init = function(){
 						}
 					});
 
-					//add entry to intersections_journeys dataset
+					//add entry to intersections_journeys dataset for the sidebar
 					self.data.trajectories[d].forEach(function(_d,_i){
 
 						//check if author is in visible_authors list
@@ -826,6 +817,13 @@ var init = function(){
 						if(authorVisible){
 							var obj = _d;
 							obj.date = d;
+
+							if(!self.intersections_journeys[_d.ArCiCo]){
+								self.intersections_journeys[_d.ArCiCo] = [];
+							}
+							if(!self.intersections_journeys[_d.DptCiCo]){
+								self.intersections_journeys[_d.DptCiCo] = [];
+							}
 
 							//add entry to the 'journeys' dataset for the departing city
 							self.intersections_journeys[_d.ArCiCo].push(obj);
