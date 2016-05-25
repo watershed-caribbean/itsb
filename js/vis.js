@@ -8,6 +8,8 @@ var init = function(){
 		//store screen height and width
 		width:window.innerWidth,
 		height:window.innerHeight,
+		
+		init:true,
 
 		data:{},
 		date:{
@@ -29,12 +31,16 @@ var init = function(){
 
 		trajectories:[],
 
+		visible_authors:[],
+
 		//date slider variables
 		dt_from:"1913-06-25",
         dt_to:"2016-11-24",
         
         dt_cur_from:null,
         dt_cur_to:null,
+
+        sidebar_mode:'trajectories',
 
 		//ensures the callback function is only called
 		//once all datasets have been retrieved
@@ -117,10 +123,7 @@ var init = function(){
                     self.dt_cur_to = new Date(ui.values[1]*1000); //.format("yyyy-mm-dd hh:ii:ss");                
                     $('.slider-time2').html(formatDT(self.dt_cur_to));
 
-                    self.filterData();
-					self.generate_lines();
-					self.generate_points();
-					self.updateSidebar();
+                    self.update();
                 }
             });
 		},
@@ -133,12 +136,16 @@ var init = function(){
 				.attr('width',self.width)
 				.attr('height',self.height)
 				.on('click',function(){
-					d3.select('#nav_place span').text('');
-					d3.select('#nav_auth').html('');
+					self.focus.place = null;
+
+					self.update();
+
+					//d3.select('#nav_place span').text('');
+					//d3.select('#nav_auth').html('');
 					d3.selectAll('.selected').classed('selected',false);
 				});
 
-			if(!self.focus.place || self.focus.place && self.focus.place === 0){
+			if(!self.focus.place || self.focus.place === null){
 				self.focus.place = "Paris_France";
 			}
 
@@ -171,18 +178,28 @@ var init = function(){
 			self.updateSidebar();
 		},
 
+		update:function(){
+			var self = vis;
+
+			self.filterData();
+			self.generate_lines();
+			self.generate_points();
+			self.updateSidebar();
+		},
+
 		generate_lines:function(){
 			var self = vis;
 
 			//plot lines
-			var lineFunction = d3.svg.line()
-				.x(function(d){ return d.x; })
-				.y(function(d){ return d.y; })
-				.interpolate('linear');
-			var trajectories;
-			trajectories = self.svg.selectAll('path.trajectory')
-				.data(self.trajectories)
-				;
+			var trajectoriesG,
+				trajectories;
+			trajectoriesG = self.svg.selectAll('g.trajectoriesG')
+				.data([self.trajectories]);
+			trajectoriesG.enter().append('g')
+				.classed('trajectoriesG',true);
+			trajectoriesG.exit().remove();
+			trajectories = trajectoriesG.selectAll('path.trajectory')
+				.data(function(d){ return d; });
 			trajectories.enter().append('path')
 				.classed('trajectory',true);
 			trajectories
@@ -192,9 +209,6 @@ var init = function(){
 						selected = (d.ArCiCo === self.focus.place || d.DptCiCo === self.focus.place) ? 'selected' : '';
 					return 'trajectory ' +selector_A +' ' +selector_D +' ' +d.AuthorID +' ' +selected;
 				})
-				/*.classed('tier',function(d){
-					return d.tier >0;
-				})*/
 				.attr('d',function(d){
 
 					var source = {},
@@ -278,11 +292,9 @@ var init = function(){
 				.classed('pointG',true);
 			pointG
 				.attr('class',function(d){
-					var selector = d.placeName.replace(/ /g, '');
-					return 'pointG ' +selector;
-				})
-				.classed('selected',function(d){
-					return d.placeName === self.focus.place;
+					var selector = d.placeName.replace(/ /g, ''),
+						selected = d.placeName === self.focus.place ? 'selected' : '';
+					return 'pointG ' +selector +' ' +selected;
 				});
 			pointG
 				.on('mouseover',function(d){
@@ -299,7 +311,6 @@ var init = function(){
 					self.focus.place = d.placeName;
 
 					d3.selectAll('.selected').classed('selected',false);
-					//d3.select(this).classed('selected',true);
 					d3.selectAll('.' +self.focus.place).classed('selected',true);
 
 					//update sidebar
@@ -495,90 +506,194 @@ var init = function(){
 
 		updateSidebar:function(){
 			var self = vis;
-			var place_city = self.focus.place.split('_')[0],
-				place_country = self.focus.place.split('_')[1],
-				place_string = place_city +', ' +place_country;// + ' → ' + self.intersections[self.focus.place].length;
+			var place_city = self.focus.place ? self.focus.place.split('_')[0] : '',
+				place_country = self.focus.place ? self.focus.place.split('_')[1] : '',
+				place_string = self.focus.place ? place_city +', ' +place_country : '(All locations)';
 
 			//update sidebar with placename
 			d3.select('#nav_place span')
 				.text(place_string);
-
-			//update author list
-			//first, get author array
-			//next, build list of names
-			var author_arr = self.intersections_journeys[self.focus.place];
+			
 			var nav_auth,
 				auth_div,
 				auth_name,
-				auth_desc;
+				auth_desc,
+				auth_input;
 
 			nav_auth = d3.select('#nav_auth')
-				.style('height',function(){
-					return window.innerHeight -(window.innerWidth*0.03) -350 +'px';
-				})
-				.style('opacity',1);
+					.style('height',function(){
+						return self.height -(self.width*0.03) -375 +'px';
+					})
+					.style('opacity',1);
 			legend = d3.select('#nav_legend').style('opacity',1);
 
-			auth_div = nav_auth
-				.selectAll('div.auth_div')
-				.data(author_arr);
-			auth_div.enter().append('div')
-				.classed('auth_div',true);
-			auth_div.exit().remove();
-			auth_name = auth_div
-				.selectAll('span.auth_name')
-				.data(function(d){ return [d]; });
-			auth_name.enter().append('span')
-				.classed('auth_name',true);
-			auth_name
-				.attr('class',function(d){
-					return 'auth_name ' +d.AuthorID;
+			//tab control
+			var tabs = d3.selectAll('#nav_tabcontrol .btn');
+			tabs
+				.classed('selected_tab',function(){
+					return this.id === self.sidebar_mode;
 				})
-				.text(function(d){
-					var str = ''; 
-					if(self.data.authors[d.AuthorID]){
-						str = self.data.authors[d.AuthorID].name;
+				.on('click',function(){
+					d3.selectAll('#nav_tabcontrol .btn.selected_tab').classed('selected_tab',false);
+					d3.select(this).classed('selected_tab',true);
+					self.sidebar_mode = this.id;
+
+					if(self.sidebar_mode === 'trajectories'){
+						showTrajectories();
+					} else{
+						showAuthors();
 					}
-					return str;
 				});
-			auth_name.exit().remove();
-			auth_desc = auth_div
-				.selectAll('span.auth_desc')
-				.data(function(d){ return [d]; });
-			auth_desc.enter().append('span')
-				.classed('auth_desc',true);
-			auth_desc
-				.html(function(d){
-					var str_date = d.date,
-						str_pl_1 = '',
-						str_pl_2 = '',
 
-						dpt = d.DptCiCo.split('_').join(', '),
-						arr = d.ArCiCo.split('_').join(', ');
+			if(self.sidebar_mode === 'trajectories'){
+				showTrajectories();
+			} else{
+				showAuthors();
+			}
 
-					//date formatting
-					if(d.specificity === 'D'){
-						str_date = d.date;
-					} else if(d.specificity === 'M'){
-						var dd = d.date.split('-');
-						str_date = [dd[0],dd[1]].join('-');
-					} else if(d.specificity === 'Y'){
-						var dd = d.date.split('-');
-						str_date = dd[0];
-					}
+			function showTrajectories(){
 
-					//journey formatting
-					if(d.ArCiCo === self.focus.place){
-						str_pl_1 = "<span>" +dpt +"</span>";
-						str_pl_2 = "<span class='focus'>" +arr +"</span>";
-					} else if(d.DptCiCo === self.focus.place){
-						str_pl_1 = "<span class='focus'>" +dpt +"</span>";
-						str_pl_2 = "<span>" +arr +"</span>";
-					}
+				//update author list
+				//first, get author array
+				//next, build list of names
+				var author_arr = [];
+				if(self.focus.place){
+					author_arr = self.intersections_journeys[self.focus.place];
+				} else{
+					d3.keys(self.intersections_journeys).forEach(function(d){
+						self.intersections_journeys[d].forEach(function(_d){ author_arr.push(_d); });
+					});
+				}
 
-					return "<div class='sidebar_date'>" +str_date +"</div><div class='journey'>" +str_pl_1 +"<span>&nbsp;&rarr;&nbsp;</span>" +str_pl_2 +"</div>";
-				});
-			auth_desc.exit().remove();
+				auth_div = nav_auth
+					.selectAll('div.auth_div')
+					.data(author_arr);
+				auth_div.enter().append('div')
+					.classed('auth_div',true);
+				auth_div.exit().remove();
+				auth_input = auth_div
+					.selectAll('input.auth_input')
+					.data(function(d){ return [d]; });
+				auth_input.enter().append('input')
+					.classed('auth_input',true);
+				auth_input
+					.style('display','none');
+				auth_input.exit().remove();
+				auth_name = auth_div
+					.selectAll('span.auth_name')
+					.data(function(d){ return [d]; });
+				auth_name.enter().append('span')
+					.classed('auth_name',true);
+				auth_name
+					.attr('class',function(d){
+						return 'auth_name ' +d.AuthorID;
+					})
+					.style('width','100%')
+					.style('padding-top','0')
+					.text(function(d){
+						var str = ''; 
+						if(self.data.authors[d.AuthorID]){
+							str = self.data.authors[d.AuthorID].name;
+						}
+						return str;
+					});
+				auth_name.exit().remove();
+				auth_desc = auth_div
+					.selectAll('span.auth_desc')
+					.data(function(d){ return [d]; });
+				auth_desc.enter().append('span')
+					.classed('auth_desc',true);
+				auth_desc
+					.html(function(d){
+						var str_date = d.date,
+							str_pl_1 = '',
+							str_pl_2 = '',
+
+							dpt = d.DptCiCo.split('_').join(', '),
+							arr = d.ArCiCo.split('_').join(', ');
+
+						//date formatting
+						if(d.specificity === 'D'){
+							str_date = d.date;
+						} else if(d.specificity === 'M'){
+							var dd = d.date.split('-');
+							str_date = [dd[0],dd[1]].join('-');
+						} else if(d.specificity === 'Y'){
+							var dd = d.date.split('-');
+							str_date = dd[0];
+						}
+
+						//journey formatting
+						if(d.ArCiCo === self.focus.place || self.focus.place === null){
+							str_pl_1 = "<span>" +dpt +"</span>";
+							str_pl_2 = "<span class='focus'>" +arr +"</span>";
+						} else if(d.DptCiCo === self.focus.place || self.focus.place === null){
+							str_pl_1 = "<span class='focus'>" +dpt +"</span>";
+							str_pl_2 = "<span>" +arr +"</span>";
+						}
+
+						return "<div class='sidebar_date'>" +str_date +"</div><div class='journey'>" +str_pl_1 +"<span>&nbsp;&rarr;&nbsp;</span>" +str_pl_2 +"</div>";
+					});
+				auth_desc.exit().remove();
+			}
+
+			function showAuthors(){
+
+				//show all authors possible to view
+				var author_arr = d3.entries(self.data.authors);
+				
+				auth_div = nav_auth
+					.selectAll('div.auth_div')
+					.data(author_arr);
+				auth_div.enter().append('div')
+					.classed('auth_div',true);
+				auth_div.exit().remove();
+				auth_input = auth_div
+					.selectAll('input.auth_input')
+					.data(function(d){ return [d]; });
+				auth_input.enter().append('input')
+					.classed('auth_input',true);
+				auth_input
+					.attr('type','checkbox')
+					.property('checked',function(d){ 
+						return self.visible_authors.indexOf(d.key) >-1;
+					})
+					.style('display','block')
+					;
+				auth_input
+					.on('click',function(d){
+						if(this.checked){
+							self.visible_authors.push(d.key);
+						} else{
+							self.visible_authors = self.visible_authors.filter(function(_d){ return _d !== d.key; });
+						}
+						self.update();
+						d3.event.stopPropagation();
+					});
+				auth_input.exit().remove();
+				auth_name = auth_div
+					.selectAll('span.auth_name')
+					.data(function(d){ return [d]; });
+				auth_name.enter().append('span')
+					.classed('auth_name',true);
+				auth_name
+					.attr('class',function(d){
+						return 'auth_name ' +d.key;
+					})
+					.style('width','auto')
+					.style('padding-top','3px')
+					.text(function(d){
+						var str = ''; 
+						if(self.data.authors[d.key]){
+							str = self.data.authors[d.key].name;
+						}
+						return str;
+					});
+				auth_name.exit().remove();
+
+				//unneeded
+				auth_desc = auth_div.selectAll('span.auth_desc').remove();
+			}
 		},
 
 		//filter data based on state of navigation
@@ -595,6 +710,12 @@ var init = function(){
 			var tStamp_start = self.date.start.getTime(),
 				tStamp_end = self.date.end.getTime();
 
+			//if initial load, add all authors to visible authors array
+			if(self.init){
+				self.init = false;
+				d3.keys(self.data.authors).forEach(function(d){ self.visible_authors.push(d); });
+			}
+
 			//filter intersections (points) first
 			d3.keys(self.data.intersections).forEach(function(d,i){
 
@@ -602,7 +723,7 @@ var init = function(){
 				var tStamp_currentDatum = new Date(d).getTime();
 
 				//only pull elements after the start date and before the end date
-				if(tStamp_currentDatum >tStamp_start && tStamp_currentDatum <tStamp_end){
+				if(tStamp_currentDatum >=tStamp_start && tStamp_currentDatum <=tStamp_end){
 
 					d3.keys(self.data.intersections[d]).forEach(function(_d,_i){
 						
@@ -618,8 +739,12 @@ var init = function(){
 								};
 
 							//note to EF: it's been a while, but you actually wrote this part, not me!
-							var authorAccountedFor,
+							var authorVisible,
+								authorAccountedFor,
 								authorFilteredList;
+
+							//check if author is in visible_authors list
+							authorVisible = self.visible_authors.indexOf(__d['AuthorID']) >-1;
 							
 							//return a list of authors in this place-array that match the current author
 							//(the length of this list should never be above 1)
@@ -632,9 +757,9 @@ var init = function(){
 
 							//if the author is NOT accounted for, account for it by adding it to the array
 							//(it will be returned in the filtered list the next time this author ID is searched)
-							if(!authorAccountedFor){
+							if(authorVisible && !authorAccountedFor){
 								self.intersections[_d].push(__d);
-							} else{
+							} else if(authorVisible){
 
 								//if the author IS accounted for, but at a lower level of specificity, up the level of specificity
 								if(val_map[authorFilteredList[0].specificity] <val_map[__d.specificity]){
@@ -650,6 +775,7 @@ var init = function(){
 			//this part just sets up the empty arrays for each location
 			//populate below, when filtering through the trajectories.json dataset
 			//this dataset is for the sidebar
+			self.intersections_journeys = {};
 			d3.keys(self.intersections).forEach(function(d){
 				self.intersections_journeys[d] = [];
 			});
@@ -669,34 +795,44 @@ var init = function(){
 					//add each trajectory inside each date array to trajectories array
 					self.data.trajectories[d].forEach(function(_d,_i){
 
-						//create variable for trajectory count (to avoid stacking)
-						var tier = 0;
+						//check if author is in visible_authors list
+						var authorVisible = self.visible_authors.indexOf(_d['AuthorID']) >-1;
 
-						//concat placepair string
-						var placePair = [_d.ArCiCo,_d.DptCiCo].join('_');
-		
-						if(placePairs.indexOf(placePair) <0){
-							tier = 0;
-						} else{
-							tier = placePairs.filter(function(_d){ return _d === placePair; })[0].length +1;
+						if(authorVisible){
+							//create variable for trajectory count (to avoid stacking)
+							var tier = 0;
+
+							//concat placepair string
+							var placePair = [_d.ArCiCo,_d.DptCiCo].join('_');
+			
+							if(placePairs.indexOf(placePair) <0){
+								tier = 0;
+							} else{
+								tier = placePairs.filter(function(_d){ return _d === placePair; })[0].length +1;
+							}
+							placePairs.push(placePair);
+
+							_d.tier = tier;
+							self.trajectories.push(_d);
 						}
-						placePairs.push(placePair);
-
-						_d.tier = tier;
-						self.trajectories.push(_d);
 					});
 
 					//add entry to intersections_journeys dataset
 					self.data.trajectories[d].forEach(function(_d,_i){
 
-						var obj = _d;
-						obj.date = d;
+						//check if author is in visible_authors list
+						var authorVisible = self.visible_authors.indexOf(_d['AuthorID']) >-1;
 
-						//add entry to the 'journeys' dataset for the departing city
-						self.intersections_journeys[_d.ArCiCo].push(obj);
+						if(authorVisible){
+							var obj = _d;
+							obj.date = d;
 
-						//add entry to the 'journeys' dataset for the arriving city
-						self.intersections_journeys[_d.DptCiCo].push(obj);
+							//add entry to the 'journeys' dataset for the departing city
+							self.intersections_journeys[_d.ArCiCo].push(obj);
+
+							//add entry to the 'journeys' dataset for the arriving city
+							self.intersections_journeys[_d.DptCiCo].push(obj);
+						}
 					});
 				}
 			});

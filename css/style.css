@@ -131,6 +131,9 @@ svg {
 	padding-top:12px;
 	box-shadow:0 0 0.5px 0.5px #ddd;
 	}
+.block.half {
+	margin-top:6px;
+	}
 .block span {
 	float:left;
 	font-size:13px;
@@ -145,12 +148,40 @@ svg {
 	border-radius:0;
 	}
 
+#nav_tabcontrol {
+	padding:0;
+	}
+#nav_tabcontrol .btn {
+	background:#f8f8f8;
+	float:left;
+	display:inline-block;
+	color:#999;
+	font-size:10px;
+	text-transform:uppercase;
+	letter-spacing:0.5px;
+	width:50%;
+	margin:0;
+	padding:7px 9px 5px;
+	cursor:pointer;
+	}
+#nav_tabcontrol .btn:first-child {
+	border-right:1px solid #eee;
+	}
+#nav_tabcontrol .btn.selected_tab {
+	background:white;
+	color:#111;
+	}
+
 #nav_auth {
 	opacity:0;
 	background:white;
 	height:375px;
 	padding-top:0;
 	overflow:scroll;
+	}
+#nav_auth input {
+	float:left;
+	margin-left:9px;
 	}
 #nav_auth span {
     font-size: 10px;
