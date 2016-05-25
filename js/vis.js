@@ -561,7 +561,11 @@ var init = function(){
 					author_arr = self.intersections_journeys[self.focus.place];
 				} else if(self.focus.place === null){
 					d3.keys(self.intersections_journeys).forEach(function(d){
-						self.intersections_journeys[d].forEach(function(_d){ author_arr.push(_d); });
+						self.intersections_journeys[d].forEach(function(_d){ 
+							if(author_arr.indexOf(_d) <0){
+								author_arr.push(_d); 
+							}
+						});
 					});
 				}
 
