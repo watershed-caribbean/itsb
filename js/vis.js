@@ -559,7 +559,7 @@ var init = function(){
 				var author_arr = [];
 				if(self.focus.place && self.intersections_journeys[self.focus.place]){
 					author_arr = self.intersections_journeys[self.focus.place];
-				} else{
+				} else if(self.focus.place === null){
 					d3.keys(self.intersections_journeys).forEach(function(d){
 						self.intersections_journeys[d].forEach(function(_d){ author_arr.push(_d); });
 					});
@@ -699,6 +699,7 @@ var init = function(){
 		//filter data based on state of navigation
 		filterData:function(){
 			var self = vis;
+			var refresh = true;
 
 			self.trajectories = [];
 			self.intersections = {};
@@ -727,8 +728,10 @@ var init = function(){
 				if(tStamp_currentDatum >=tStamp_start && tStamp_currentDatum <=tStamp_end){
 
 					d3.keys(self.data.intersections[d]).forEach(function(_d,_i){
-						
-						self.intersections[_d] = [];
+
+						if(!self.intersections[_d]){ 
+							self.intersections[_d] = []; 
+						}
 						
 						self.data.intersections[d][_d].forEach(function(__d,__i){
 						
@@ -751,7 +754,6 @@ var init = function(){
 							authorFilteredList = self.intersections[_d].filter(function(a){ 
 								return (a['AuthorID'] === __d['AuthorID']);
 							});
-							
 							//the author is accounted for if the returned list has a length greater than zero
 							authorAccountedFor = authorFilteredList && authorFilteredList.length >0;
 
@@ -762,7 +764,7 @@ var init = function(){
 							} else if(authorVisible){
 
 								//if the author IS accounted for, but at a lower level of specificity, up the level of specificity
-								if(val_map[authorFilteredList[0].specificity] <val_map[__d.specificity]){
+								if(val_map[authorFilteredList[0].specificity] >val_map[__d.specificity]){
 									authorFilteredList[0].specificity = __d.specificity;
 								}
 							}
