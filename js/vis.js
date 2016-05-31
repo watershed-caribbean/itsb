@@ -283,50 +283,75 @@ var init = function(){
 				});
 			trajectories.exit().remove();
 
-			//interaction handler for trajectories
-			self.svg
-				.on('mousemove',function(e){
-					var m = d3.mouse(this),
-						f = null,
-						tt = false;
+			//check of Google Chrome
+			// please note, 
+			// that IE11 now returns undefined again for window.chrome
+			// and new Opera 30 outputs true for window.chrome
+			// and new IE Edge outputs to true now for window.chrome
+			// and if not iOS Chrome check
+			// so use the below updated condition
+			var isChromium = window.chrome,
+			    winNav = window.navigator,
+			    vendorName = winNav.vendor,
+			    isOpera = winNav.userAgent.indexOf("OPR") > -1,
+			    isIEedge = winNav.userAgent.indexOf("Edge") > -1,
+			    isIOSChrome = winNav.userAgent.match("CriOS");
 
-					//determine which path to focus on
-					trajectories.classed('hov',function(d){
-							var p = closestPoint(d3.select(this).node(),m),
-								t = p.distance <2,
-								c = false;
-							if(t){
-								c = !tt;
-								f = d;
-								tt = true;
+			//if(isIOSChrome){
+			   // is Google Chrome on IOS
+			//} else if(isChromium !== null && isChromium !== undefined && vendorName === "Google Inc." && isOpera == false && isIEedge == false) {
+			   // is Google Chrome
+			//} else { 
+			   // not Google Chrome 
+			//}
 
-								if(self.tt){
-									self.tt.attr('transform',function(){
-											var x = m[0],
-												y = m[1],
-												pad_x = 0,
-												pad_y = -10;
-											
-											x +=pad_x;
-											y +=pad_y;
+			//this is slow in any other browser but Chrome -- refactor in beta
+			if(isChromium !== null && isChromium !== undefined && vendorName === "Google Inc." && isOpera == false && isIEedge == false) {
+				//interaction handler for trajectories
+				self.svg
+					.on('mousemove',function(e){
+						var m = d3.mouse(this),
+							f = null,
+							tt = false;
 
-											return 'translate(' +x +',' +y +')';
-										});
-									self.tt_content.text(d.Name + ': ' +d.DptCiCo.split('_').join(', ') +' → ' +d.ArCiCo.split('_').join(', '));
+						//determine which path to focus on
+						trajectories.classed('hov',function(d){
+								var p = closestPoint(d3.select(this).node(),m),
+									t = p.distance <2,
+									c = false;
+								if(t){
+									c = !tt;
+									f = d;
+									tt = true;
+
+									if(self.tt){
+										self.tt.attr('transform',function(){
+												var x = m[0],
+													y = m[1],
+													pad_x = 0,
+													pad_y = -10;
+												
+												x +=pad_x;
+												y +=pad_y;
+
+												return 'translate(' +x +',' +y +')';
+											});
+										self.tt_content.text(d.Name + ': ' +d.DptCiCo.split('_').join(', ') +' → ' +d.ArCiCo.split('_').join(', '));
+									}
 								}
-							}
-							return c;
-						});
-					
-					if(self.tt){ 
-						self.tt.attr('class',function(d){
-							var v = tt ? 'visible' : '',
-								a = f ? f.AuthorID : '';
-							return v +' tt ' +a;
-						}); 
-					}
-					d3.event.stopPropagation();
-				});
+								return c;
+							});
+						
+						if(self.tt){ 
+							self.tt.attr('class',function(d){
+								var v = tt ? 'visible' : '',
+									a = f ? f.AuthorID : '';
+								return v +' tt ' +a;
+							}); 
+						}
+						d3.event.stopPropagation();
+					});
+			}
 		},
 
 		generate_points:function(_callback){

@@ -33,6 +33,7 @@ svg {
 	font-size:10px;
 	font-family:'Arial',sans-serif;
 	opacity:0;
+	pointer-events:none;
 	}
 .tt.visible {
 	opacity:1;
@@ -90,6 +91,9 @@ svg {
 	stroke-opacity:0.5;
 	}
 
+.trajectoriesG {
+	pointer-events:none;
+	}
 .trajectory {
 	fill:none !important;
 	stroke:#3399ff;
