@@ -190,6 +190,50 @@ var init = function(){
 		generate_lines:function(){
 			var self = vis;
 
+			//thank you, https://bl.ocks.org/mbostock/8027637
+			function closestPoint(pathNode, point) {
+			  var pathLength = pathNode.getTotalLength(),
+			      precision = 8,
+			      best,
+			      bestLength,
+			      bestDistance = Infinity;
+
+			  // linear scan for coarse approximation
+			  for (var scan, scanLength = 0, scanDistance; scanLength <= pathLength; scanLength += precision) {
+			    if ((scanDistance = distance2(scan = pathNode.getPointAtLength(scanLength))) < bestDistance) {
+			      best = scan, bestLength = scanLength, bestDistance = scanDistance;
+			    }
+			  }
+
+			  // binary search for precise estimate
+			  precision /= 2;
+			  while (precision > 0.5) {
+			    var before,
+			        after,
+			        beforeLength,
+			        afterLength,
+			        beforeDistance,
+			        afterDistance;
+			    if ((beforeLength = bestLength - precision) >= 0 && (beforeDistance = distance2(before = pathNode.getPointAtLength(beforeLength))) < bestDistance) {
+			      best = before, bestLength = beforeLength, bestDistance = beforeDistance;
+			    } else if ((afterLength = bestLength + precision) <= pathLength && (afterDistance = distance2(after = pathNode.getPointAtLength(afterLength))) < bestDistance) {
+			      best = after, bestLength = afterLength, bestDistance = afterDistance;
+			    } else {
+			      precision /= 2;
+			    }
+			  }
+
+			  best = [best.x, best.y];
+			  best.distance = Math.sqrt(bestDistance);
+			  return best;
+
+			  function distance2(p) {
+			    var dx = p.x - point[0],
+			        dy = p.y - point[1];
+			    return dx * dx + dy * dy;
+			  }
+			}
+
 			//plot lines
 			var trajectoriesG,
 				trajectories;
@@ -238,6 +282,51 @@ var init = function(){
 					return 'M' + source.x + ',' + source.y + 'A' + dr + ',' + dr + ' 0 0,1 ' + target.x + ',' + target.y;
 				});
 			trajectories.exit().remove();
+
+			//interaction handler for trajectories
+			self.svg
+				.on('mousemove',function(e){
+					var m = d3.mouse(this),
+						f = null,
+						tt = false;
+
+					//determine which path to focus on
+					trajectories.classed('hov',function(d){
+							var p = closestPoint(d3.select(this).node(),m),
+								t = p.distance <2,
+								c = false;
+							if(t){
+								c = !tt;
+								f = d;
+								tt = true;
+
+								if(self.tt){
+									self.tt.attr('transform',function(){
+											var x = m[0],
+												y = m[1],
+												pad_x = 0,
+												pad_y = -10;
+											
+											x +=pad_x;
+											y +=pad_y;
+
+											return 'translate(' +x +',' +y +')';
+										});
+									self.tt_content.text(d.Name + ': ' +d.DptCiCo.split('_').join(', ') +' → ' +d.ArCiCo.split('_').join(', '));
+								}
+							}
+							return c;
+						});
+					
+					if(self.tt){ 
+						self.tt.attr('class',function(d){
+							var v = tt ? 'visible' : '',
+								a = f ? f.AuthorID : '';
+							return v +' tt ' +a;
+						}); 
+					}
+					d3.event.stopPropagation();
+				});
 		},
 
 		generate_points:function(_callback){
@@ -301,6 +390,7 @@ var init = function(){
 					var selector = d.placeName.replace(/ /g, '');
 					d3.selectAll('.hov').classed('hov',false);
 					d3.selectAll('.' +selector).classed('hov',true);
+					d3.event.stopPropagation();
 				})
 				.on('mouseout',function(d){
 					d3.selectAll('.hov').classed('hov',false);
@@ -396,6 +486,22 @@ var init = function(){
 					return radius;
 				});
 			points.exit().remove();
+
+			//create tooltip
+			self.tt = self.svg.selectAll('g.tt')
+				.data([self]);
+			self.tt.enter().append('g')
+				.classed('tt',true);
+			self.tt
+				.classed('visible',false);
+			self.tt.exit().remove();
+			self.tt_content = self.tt.selectAll('text.tt_content')
+				.data(function(d){ return [d]; });
+			self.tt_content.enter().append('text')
+				.classed('tt_content',true);
+			self.tt_content
+				.text('');
+			self.tt_content.exit().remove();
 
 			if(_callback){
 				_callback(pointScale);

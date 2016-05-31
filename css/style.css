@@ -18,6 +18,7 @@ svg {
 	width:100%;
 	height:100%;
 	shape-rendering:geometricPrecision;
+	cursor:pointer;
 	}
 
 .map {
@@ -26,6 +27,15 @@ svg {
 	stroke-width:0;
 	stroke-opacity:0;
 	stroke-linejoin:miter;
+	}
+
+.tt {
+	font-size:10px;
+	font-family:'Arial',sans-serif;
+	opacity:0;
+	}
+.tt.visible {
+	opacity:1;
 	}
 
 .pointG {
@@ -81,15 +91,19 @@ svg {
 	}
 
 .trajectory {
-	fill:none;
+	fill:none !important;
 	stroke:#3399ff;
 	stroke-width:0.5;
 	stroke-opacity:0.5;
+	pointer-events:none;
 	}
 .trajectory.hov ,
 .trajectory.selected {
 	/*stroke:#007fff;*/
 	stroke-opacity:1;
+	}
+.trajectory.hov {
+	stroke-width:0.75;
 	}
 /*.trajectory.tier {
 	stroke:red;
@@ -271,6 +285,7 @@ svg {
 	------------------------------- */
 
 .rdepestre {
+	fill:#66c2a5;
 	color:#66c2a5;
 	}
 path.rdepestre {
@@ -278,6 +293,7 @@ path.rdepestre {
 	}
 
 .acesaire {
+	fill:#fc8d62;
 	color:#fc8d62;
 	}
 
