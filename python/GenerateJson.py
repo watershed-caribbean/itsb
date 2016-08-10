@@ -3,6 +3,11 @@ import csv
 import codecs
 import json
 
+# # TO DO:
+# # test on more csvs
+# # output certainty
+# # output place ids
+
 
 # ---------
 # Settings
@@ -10,7 +15,8 @@ import json
 
 CSV_LOCATION = os.getcwd() + '/raw-data/'
 AUTHOR_ID_JSON = os.getcwd() + '/testing_author_ids.json'
-TRAJECTORIES_JSON_NAME = os.getcwd() + '/testing_trajectories.json'
+TRAJECTORIES_JSON = os.getcwd() + '/testing_trajectories.json'
+INTERSECTIONS_JSON = os.getcwd() + '/testing_intersections.json'
 
 
 # ----------
@@ -57,12 +63,14 @@ def process_scholar_files(csv_path, csv_list):
             for row in reader:
                 if row['Earliest Known Date'] != '' and row['Last Known Date'] != '':
 
-                    row['Entry ID'] = str(row_index)
-                    author_movements[author_id].append(row)
-                    row_index += 1
-
                     place_name = row['City'].lower().replace(' ', '_') + '_' + row['Country'].lower().replace(' ', '_')
                     if not place_name in places: places[place_name] = ()
+
+                    row['Place'] = place_name
+                    row['Entry ID'] = str(row_index)
+
+                    author_movements[author_id].append(row)
+                    row_index += 1
 
             csv_file.close()
 
@@ -103,11 +111,12 @@ def create_date_dict(author_movements):
         for month in range(1, 13): # 12 months
             if month < 10: year_month = str(year) + '-0' + str(month)
             else: year_month = str(year) + '-' + str(month)
+
             date_dict[year_month] = []
 
     return date_dict
 
-    ## ??? do we need month precision for start and end dates ??? ##
+    # # ??? do we need month precision for start and end dates ??? # #
 
 
 # Returns a list of all of the year-month dates that a scholar was in a place
@@ -148,7 +157,7 @@ def get_dates_in_place(movement):
                 dates_in_place.append(date)
 
         else:
-            for month in range(1, 13): #12 months
+            for month in range(1, 13): # 12 months
                 if month < 10: date = str(year) + '-0' + str(month)
                 else: date = str(year) + '-' + str(month)
                 dates_in_place.append(date)
@@ -170,8 +179,8 @@ def generate_trajectories(author_movements):
             trajectory_output['Entry ID'] = movement['Entry ID']
             trajectory_output['Citation'] = movement['Citation']
             trajectory_output['Notes'] = movement['Notes']
-            # ADD certainty
-            # ADD place ID
+            # # ADD certainty
+            # # ADD place ID
 
             dates_in_place = get_dates_in_place(movement)
             for date in dates_in_place:
@@ -182,7 +191,25 @@ def generate_trajectories(author_movements):
 
 
 def get_intersections(author_movements):
-    print('getting intersections')
+    intersections = create_date_dict(author_movements)
+    for date in intersections: intersections[date] = {}
+
+    for author_id in author_movements:
+        for movement in author_movements[author_id]:
+            dates_in_place = get_dates_in_place(movement)
+            place_name = movement['Place']
+            # # Should this be place ID???
+
+            for date in dates_in_place:
+                if not place_name in intersections[date]: intersections[date][place_name] = []
+
+                intersection_output = {}
+                intersection_output['Author ID'] = author_id
+                # # ADD certainty
+
+                intersections[date][place_name].append(intersection_output)
+
+    return intersections
 
 
 
@@ -192,30 +219,25 @@ def get_intersections(author_movements):
 
 csv_list = get_csv_list(CSV_LOCATION)
 author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list)
-# get place longitude and latitudes and place_ids
 
 trajectories = generate_trajectories(author_movements)
+intersections = get_intersections(author_movements)
 
-
-with codecs.open(TRAJECTORIES_JSON_NAME, 'w', 'utf8') as f:
-    f.write(json.dumps(trajectories, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
 
 with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
     f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
 
+with codecs.open(TRAJECTORIES_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(trajectories, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+
+with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(intersections, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
 
 
 
-# -----
-# TO DO
-# -----
-# generate intersections json
-# each year/month in 20th century (in all the data)
-# add each author to that year/month if they were there according to provided data
 
 
-
-# could be helpful...
+# # not used, but potentially helpful code...
 
 # from operator import itemgetter
 # # sort all of the movements by the 'Earliest Known Date' key
