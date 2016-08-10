@@ -1,10 +1,7 @@
 import os
 import csv
-from dateutil import parser
-import datetime
-
+import codecs
 import json
-from operator import itemgetter
 
 
 # ---------
@@ -12,6 +9,8 @@ from operator import itemgetter
 # ---------
 
 CSV_LOCATION = os.getcwd() + '/raw-data/'
+AUTHOR_ID_JSON = os.getcwd() + '/testing_author_ids.json'
+TRAJECTORIES_JSON_NAME = os.getcwd() + '/testing_trajectories.json'
 
 
 # ----------
@@ -32,9 +31,10 @@ def get_csv_list(csv_location):
 # Returns a dictionary of author ids (key is the author name and the value is their id)
 # author_ids = { 'Aime Cesaire':'acesaire', 'Lydia Cabrera':'lcabrera', ...}
 # Returns a list of dictionaries of each author movement
-# author_movements =  { 'acesaire': [{'City':'Paris', 'Country':'France', 'Earliest Known Date':'1931-10', 'Latest Known Date':'1935-07', ...}, {...}, ... ], 'lcabrera': [ {}...] , ... }
+# author_movements =  { 'acesaire': [{'City':'Paris', 'Country':'France', 'Earliest Known Date':'1931-10', 'Last Known Date':'1935-07', ...}, {...}, ... ], 'lcabrera': [ {}...] , ... }
 def process_scholar_files(csv_path, csv_list):
     author_ids = {}
+    places = {}
     author_movements = {}
 
     for csv_name in csv_list:
@@ -58,23 +58,18 @@ def process_scholar_files(csv_path, csv_list):
                 if row['Earliest Known Date'] != '' and row['Last Known Date'] != '':
 
                     row['Entry ID'] = str(row_index)
-                    # row['Earliest Year'] = parser.parse(row['Earliest Known Date']).date().year
-                    # row['Earliest Month'] = parser.parse(row['Earliest Known Date']).date().month
-                    # row['Last Year'] = parser.parse(row['Last Known Date']).date().year
-                    # row['Last Month'] = parser.parse(row['Last Known Date']).date().month
-                    #
-                    # print('-------')
-                    # print(row['Earliest Known Date'], row['Earliest Year'], row['Earliest Month'] )
-
                     author_movements[author_id].append(row)
                     row_index += 1
 
+                    place_name = row['City'].lower().replace(' ', '_') + '_' + row['Country'].lower().replace(' ', '_')
+                    if not place_name in places: places[place_name] = ()
+
             csv_file.close()
 
-    return author_ids, author_movements
+    return author_ids, author_movements, places
 
 
-
+# Returns the earliest and latest dates in the data
 def get_earliest_and_latest_dates(author_movements):
     earliest_known_dates = []
     latest_known_dates = []
@@ -84,8 +79,8 @@ def get_earliest_and_latest_dates(author_movements):
             earliest_known_date = movement['Earliest Known Date']
             latest_known_date = movement['Last Known Date']
 
-            if(earliest_known_date != ''):  earliest_known_dates.append(earliest_known_date)
-            if(latest_known_date != ''):    latest_known_dates.append(latest_known_date)
+            earliest_known_dates.append(earliest_known_date)
+            latest_known_dates.append(latest_known_date)
 
     earliest_known_dates = sorted(earliest_known_dates)
     latest_known_dates = sorted(latest_known_dates)
@@ -93,7 +88,9 @@ def get_earliest_and_latest_dates(author_movements):
     return earliest_known_dates[0], latest_known_dates[len(latest_known_dates)-1]
 
 
-
+# Returns a dictionary with keys for every year-month from the earliest
+# year in the data to the latest year in the data, for example:
+# date_dict = {'1899-01': [], '1899-02': [], ... , '1999-12': []}
 def create_date_dict(author_movements):
     date_dict = {}
 
@@ -103,41 +100,90 @@ def create_date_dict(author_movements):
     end_year = int(latest_date.split('-')[0])
 
     for year in range(start_year, end_year + 1):
-        for month in range(1, 13):
-            if month < 10:
-                year_month = str(year) + '-0' + str(month)
-            else:
-                year_month = str(year) + '-' + str(month)
-
-            date_dict[year_month]= []
+        for month in range(1, 13): # 12 months
+            if month < 10: year_month = str(year) + '-0' + str(month)
+            else: year_month = str(year) + '-' + str(month)
+            date_dict[year_month] = []
 
     return date_dict
 
-    ## ??? check month and day precision ??? ##
+    ## ??? do we need month precision for start and end dates ??? ##
+
+
+# Returns a list of all of the year-month dates that a scholar was in a place
+def get_dates_in_place(movement):
+    dates_in_place = []
+
+    earliest_date_split = movement['Earliest Known Date'].split('-')
+    latest_date_split = movement['Last Known Date'].split('-')
+
+    start_year = int(earliest_date_split[0])
+    end_year = int(latest_date_split[0])
+
+    if len(earliest_date_split) >= 2: start_month = int(earliest_date_split[1])
+    else: start_month = 1
+
+    if len(latest_date_split) >= 2: end_month = int(latest_date_split[1])
+    else: end_month = 12
+
+    for year in range(start_year, end_year + 1):
+        if start_year == end_year:
+            for month in range(start_month, end_month + 1):
+                if month < 10: date = str(year) + '-0' + str(month)
+                else: date = str(year) + '-' + str(month)
+                dates_in_place.append(date)
+            break
+
+        elif year == end_year:
+            for month in range(1, end_month + 1):
+                if month < 10: date = str(year) + '-0' + str(month)
+                else: date = str(year) + '-' + str(month)
+                dates_in_place.append(date)
+            break
+
+        elif year == start_year:
+            for month in range(start_month, 13):
+                if month < 10: date = str(year) + '-0' + str(month)
+                else: date = str(year) + '-' + str(month)
+                dates_in_place.append(date)
+
+        else:
+            for month in range(1, 13): #12 months
+                if month < 10: date = str(year) + '-0' + str(month)
+                else: date = str(year) + '-' + str(month)
+                dates_in_place.append(date)
+
+    return dates_in_place
 
 
 
 def generate_trajectories(author_movements):
-    date_dict = create_date_dict(author_movements)
+    trajectories = create_date_dict(author_movements)
 
+    for author_id in author_movements:
+        movements = author_movements[author_id]
 
-    for date in date_dict:
+        for movement in movements:
 
-        for author_id in author_movements:
-            movements = author_movements[author_id]
+            trajectory_output = {}
+            trajectory_output['Author ID'] = author_id
+            trajectory_output['Entry ID'] = movement['Entry ID']
+            trajectory_output['Citation'] = movement['Citation']
+            trajectory_output['Notes'] = movement['Notes']
+            # ADD certainty
+            # ADD place ID
 
-            for movement in movements:
-                #check earliest
-                #check latest
+            dates_in_place = get_dates_in_place(movement)
+            for date in dates_in_place:
+                trajectories[date].append(trajectory_output)
 
-                trajectory_output = {}
-                trajectory_output['Author ID'] = author_id
+    return trajectories
 
-                # add trajectory_output to date_dict
 
 
 def get_intersections(author_movements):
     print('getting intersections')
+
 
 
 # ---------------
@@ -145,15 +191,17 @@ def get_intersections(author_movements):
 # ---------------
 
 csv_list = get_csv_list(CSV_LOCATION)
-author_ids, author_movements = process_scholar_files(CSV_LOCATION, csv_list)
+author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list)
+# get place longitude and latitudes and place_ids
 
-for author_id in author_movements:
-    print(author_id)
-    for movement in author_movements[author_id]:
-        print(movement)
-        print('--------------------------')
+trajectories = generate_trajectories(author_movements)
 
-# generate_trajectories(author_movements)
+
+with codecs.open(TRAJECTORIES_JSON_NAME, 'w', 'utf8') as f:
+    f.write(json.dumps(trajectories, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+
+with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
 
 
 
@@ -161,11 +209,7 @@ for author_id in author_movements:
 # -----
 # TO DO
 # -----
-
-##generate trajectories json
-# each year/month in 20th century (in all the data) (dates in string format)
-
-##generate intersections json
+# generate intersections json
 # each year/month in 20th century (in all the data)
 # add each author to that year/month if they were there according to provided data
 
@@ -173,6 +217,15 @@ for author_id in author_movements:
 
 # could be helpful...
 
+# from operator import itemgetter
 # # sort all of the movements by the 'Earliest Known Date' key
 # sorted_by_entry_date = sorted(author_movements[author_id], key= itemgetter('Earliest Known Date'))
 # author_movements[author_id] = sorted_by_entry_date
+
+
+# from dateutil import parser
+# import datetime
+# row['Earliest Year'] = parser.parse(row['Earliest Known Date']).date().year
+# row['Earliest Month'] = parser.parse(row['Earliest Known Date']).date().month
+# row['Last Year'] = parser.parse(row['Last Known Date']).date().year
+# row['Last Month'] = parser.parse(row['Last Known Date']).date().month
