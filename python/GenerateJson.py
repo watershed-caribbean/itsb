@@ -2,11 +2,12 @@ import os
 import csv
 import codecs
 import json
+from geopy import geocoders
+
 
 # # TO DO:
 # # test on more csvs
-# # output certainty
-# # output place ids
+# # output certainty (add to csv files)
 
 
 # ---------
@@ -17,6 +18,8 @@ CSV_LOCATION = os.getcwd() + '/raw-data/'
 AUTHOR_ID_JSON = os.getcwd() + '/testing_author_ids.json'
 TRAJECTORIES_JSON = os.getcwd() + '/testing_trajectories.json'
 INTERSECTIONS_JSON = os.getcwd() + '/testing_intersections.json'
+PLACES_JSON = os.getcwd() + '/testing_places.json'
+GEONAMES_USERNAME = 'alyv'
 
 
 # ----------
@@ -34,14 +37,26 @@ def get_csv_list(csv_location):
     return csv_list
 
 
+
+def get_lat_long(place_name, geonames_username):
+    gn = geocoders.GeoNames(username=geonames_username, timeout=None)
+    location = gn.geocode(place_name,timeout=None)
+    if location == None:
+        print(place_name, "not found.")
+        return None, None
+    else:
+        return location.latitude, location.longitude
+
+
 # Returns a dictionary of author ids (key is the author name and the value is their id)
 # author_ids = { 'Aime Cesaire':'acesaire', 'Lydia Cabrera':'lcabrera', ...}
 # Returns a list of dictionaries of each author movement
 # author_movements =  { 'acesaire': [{'City':'Paris', 'Country':'France', 'Earliest Known Date':'1931-10', 'Last Known Date':'1935-07', ...}, {...}, ... ], 'lcabrera': [ {}...] , ... }
-def process_scholar_files(csv_path, csv_list):
+def process_scholar_files(csv_path, csv_list, geonames_username):
     author_ids = {}
-    places = {}
     author_movements = {}
+    places = {}
+    place_id = 0
 
     for csv_name in csv_list:
 
@@ -63,10 +78,19 @@ def process_scholar_files(csv_path, csv_list):
             for row in reader:
                 if row['Earliest Known Date'] != '' and row['Last Known Date'] != '':
 
-                    place_name = row['City'].lower().replace(' ', '_') + '_' + row['Country'].lower().replace(' ', '_')
-                    if not place_name in places: places[place_name] = ()
+                    place_name = row['City'] + ', ' + row['Country']
+                    if not place_name in places:
+                        place_info = {}
 
-                    row['Place'] = place_name
+                        lat, long = get_lat_long(place_name, geonames_username)
+                        place_info['Lat'] = lat
+                        place_info['Long'] = long
+                        place_info['Place ID'] = str(place_id)
+                        place_id += 1
+
+                        places[place_name] = place_info
+
+                    row['Place ID'] = places[place_name]['Place ID']
                     row['Entry ID'] = str(row_index)
 
                     author_movements[author_id].append(row)
@@ -177,10 +201,10 @@ def generate_trajectories(author_movements):
             trajectory_output = {}
             trajectory_output['Author ID'] = author_id
             trajectory_output['Entry ID'] = movement['Entry ID']
+            trajectory_output['Place ID'] = movement['Place ID']
             trajectory_output['Citation'] = movement['Citation']
             trajectory_output['Notes'] = movement['Notes']
             # # ADD certainty
-            # # ADD place ID
 
             dates_in_place = get_dates_in_place(movement)
             for date in dates_in_place:
@@ -197,17 +221,16 @@ def get_intersections(author_movements):
     for author_id in author_movements:
         for movement in author_movements[author_id]:
             dates_in_place = get_dates_in_place(movement)
-            place_name = movement['Place']
-            # # Should this be place ID???
+            place_id = movement['Place ID']
 
             for date in dates_in_place:
-                if not place_name in intersections[date]: intersections[date][place_name] = []
+                if not place_id in intersections[date]: intersections[date][place_id] = []
 
                 intersection_output = {}
                 intersection_output['Author ID'] = author_id
                 # # ADD certainty
 
-                intersections[date][place_name].append(intersection_output)
+                intersections[date][place_id].append(intersection_output)
 
     return intersections
 
@@ -218,7 +241,7 @@ def get_intersections(author_movements):
 # ---------------
 
 csv_list = get_csv_list(CSV_LOCATION)
-author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list)
+author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list, GEONAMES_USERNAME)
 
 trajectories = generate_trajectories(author_movements)
 intersections = get_intersections(author_movements)
@@ -226,24 +249,30 @@ intersections = get_intersections(author_movements)
 
 with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
     f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
+
+with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
 
 with codecs.open(TRAJECTORIES_JSON, 'w', 'utf8') as f:
     f.write(json.dumps(trajectories, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
 
 with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
     f.write(json.dumps(intersections, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
 
 
 
 
 
-# # not used, but potentially helpful code...
+# # not used, but potentially helpful code... maybe...
 
 # from operator import itemgetter
 # # sort all of the movements by the 'Earliest Known Date' key
 # sorted_by_entry_date = sorted(author_movements[author_id], key= itemgetter('Earliest Known Date'))
 # author_movements[author_id] = sorted_by_entry_date
-
 
 # from dateutil import parser
 # import datetime
@@ -251,3 +280,15 @@ with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
 # row['Earliest Month'] = parser.parse(row['Earliest Known Date']).date().month
 # row['Last Year'] = parser.parse(row['Last Known Date']).date().year
 # row['Last Month'] = parser.parse(row['Last Known Date']).date().month
+
+# place_name = row['City'].lower().replace(' ', '_') + '_' + row['Country'].lower().replace(' ', '_')
+
+# # alternative way to get longitude and latitude information
+# from geopy.geocoders import Nominatim
+# geolocator = Nominatim()
+# location = geolocator.geocode(place_name)
+# if location == None:
+#     print(place_name, "not found.")
+#     return None, None
+# else:
+#     return location.latitude, location.longitude
