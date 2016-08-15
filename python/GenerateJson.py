@@ -22,6 +22,7 @@ PLACES_JSON = os.getcwd() + '/testing_places.json'
 GEONAMES_USERNAME = 'alyv'
 
 
+
 # ----------
 # Functions
 # ----------
@@ -37,7 +38,9 @@ def get_csv_list(csv_location):
     return csv_list
 
 
-
+# Returns the GeoNames latitude and longitude of the place name provided.
+# If the place is not found, the function returns None for both longitude
+# and latitude.
 def get_lat_long(place_name, geonames_username):
     gn = geocoders.GeoNames(username=geonames_username, timeout=None)
     location = gn.geocode(place_name,timeout=None)
@@ -52,6 +55,8 @@ def get_lat_long(place_name, geonames_username):
 # author_ids = { 'Aime Cesaire':'acesaire', 'Lydia Cabrera':'lcabrera', ...}
 # Returns a list of dictionaries of each author movement
 # author_movements =  { 'acesaire': [{'City':'Paris', 'Country':'France', 'Earliest Known Date':'1931-10', 'Last Known Date':'1935-07', ...}, {...}, ... ], 'lcabrera': [ {}...] , ... }
+# Returns a dictionary of places
+# places = { 'PlaceName': {'Lat': xxx, 'Long': yyy, 'Place ID': ##}, ... }
 def process_scholar_files(csv_path, csv_list, geonames_username):
     author_ids = {}
     author_movements = {}
@@ -189,14 +194,12 @@ def get_dates_in_place(movement):
     return dates_in_place
 
 
-
-def generate_trajectories(author_movements):
+# Returns the dictionary for the trajectories json
+def get_trajectories(author_movements):
     trajectories = create_date_dict(author_movements)
 
     for author_id in author_movements:
-        movements = author_movements[author_id]
-
-        for movement in movements:
+        for movement in author_movements[author_id]:
 
             trajectory_output = {}
             trajectory_output['Author ID'] = author_id
@@ -213,7 +216,7 @@ def generate_trajectories(author_movements):
     return trajectories
 
 
-
+# Returns the dictionary for the intersections json
 def get_intersections(author_movements):
     intersections = create_date_dict(author_movements)
     for date in intersections: intersections[date] = {}
@@ -243,7 +246,7 @@ def get_intersections(author_movements):
 csv_list = get_csv_list(CSV_LOCATION)
 author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list, GEONAMES_USERNAME)
 
-trajectories = generate_trajectories(author_movements)
+trajectories = get_trajectories(author_movements)
 intersections = get_intersections(author_movements)
 
 
