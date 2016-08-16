@@ -15,12 +15,11 @@ from geopy import geocoders
 # ---------
 
 CSV_LOCATION = os.getcwd() + '/raw-data/'
-AUTHOR_ID_JSON = os.getcwd() + '/testing_author_ids.json'
-TRAJECTORIES_JSON = os.getcwd() + '/testing_trajectories.json'
-INTERSECTIONS_JSON = os.getcwd() + '/testing_intersections.json'
-PLACES_JSON = os.getcwd() + '/testing_places.json'
+AUTHOR_ID_JSON = os.path.dirname(os.getcwd()) + '/data/test_author_ids.json'
+TRAJECTORIES_JSON = os.path.dirname(os.getcwd()) + '/data/test_trajectories.json'
+INTERSECTIONS_JSON = os.path.dirname(os.getcwd()) + '/data/test_intersections.json'
+PLACES_JSON = os.path.dirname(os.getcwd()) + '/data/test_places.json'
 GEONAMES_USERNAME = 'alyv'
-
 
 
 # ----------
