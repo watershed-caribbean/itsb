@@ -87,16 +87,19 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
                     if not place_name in places:
                         place_info = {}
 
+                        ## TO DO : Make this the ID...
+                        # place_name = row['City'].lower().replace(' ', '_') + '_' + row['Country'].lower().replace(' ', '_')
+
                         lat, long = get_lat_long(place_name, geonames_username)
                         place_info['Lat'] = lat
                         place_info['Long'] = long
-                        place_info['Place ID'] = str(place_id)
+                        place_info['PlaceID'] = str(place_id)
                         place_id += 1
 
                         places[place_name] = place_info
 
-                    row['Place ID'] = places[place_name]['Place ID']
-                    row['Entry ID'] = str(row_index)
+                    row['PlaceID'] = places[place_name]['PlaceID']
+                    row['EntryID'] = str(row_index)
 
                     author_movements[author_id].append(row)
                     row_index += 1
@@ -202,9 +205,9 @@ def get_trajectories(author_movements):
         for movement in author_movements[author_id]:
 
             trajectory_output = {}
-            trajectory_output['Author ID'] = author_id
-            trajectory_output['Entry ID'] = movement['Entry ID']
-            trajectory_output['Place ID'] = movement['Place ID']
+            trajectory_output['AuthorID'] = author_id
+            trajectory_output['EntryID'] = movement['EntryID']
+            trajectory_output['PlaceID'] = movement['PlaceID']
             trajectory_output['Citation'] = movement['Citation']
             trajectory_output['Notes'] = movement['Notes']
             # # ADD certainty
@@ -224,16 +227,18 @@ def get_intersections(author_movements):
     for author_id in author_movements:
         for movement in author_movements[author_id]:
             dates_in_place = get_dates_in_place(movement)
-            place_id = movement['Place ID']
+            place_id = movement['PlaceID']
 
             for date in dates_in_place:
                 if not place_id in intersections[date]: intersections[date][place_id] = []
 
                 intersection_output = {}
-                intersection_output['Author ID'] = author_id
+                intersection_output['AuthorID'] = author_id
                 # # ADD certainty
 
                 intersections[date][place_id].append(intersection_output)
+
+    ## TO DO: Remove places with no intersections... (where only one person in one place)
 
     return intersections
 
@@ -284,7 +289,6 @@ with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
 # row['Last Year'] = parser.parse(row['Last Known Date']).date().year
 # row['Last Month'] = parser.parse(row['Last Known Date']).date().month
 
-# place_name = row['City'].lower().replace(' ', '_') + '_' + row['Country'].lower().replace(' ', '_')
 
 # # alternative way to get longitude and latitude information
 # from geopy.geocoders import Nominatim
