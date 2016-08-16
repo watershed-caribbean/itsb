@@ -61,7 +61,6 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
     author_ids = {}
     author_movements = {}
     places = {}
-    place_id = 0
 
     for csv_name in csv_list:
 
@@ -87,19 +86,17 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
                     if not place_name in places:
                         place_info = {}
 
-                        ## TO DO : Make this the ID...
-                        # place_name = row['City'].lower().replace(' ', '_') + '_' + row['Country'].lower().replace(' ', '_')
-
                         lat, long = get_lat_long(place_name, geonames_username)
                         place_info['Lat'] = lat
                         place_info['Long'] = long
-                        place_info['PlaceID'] = str(place_id)
-                        place_id += 1
+
+                        place_id = row['City'].lower().replace(' ', '-') + '_' + row['Country'].lower().replace(' ', '-')
+                        place_info['PlaceID'] = place_id
 
                         places[place_name] = place_info
 
                     row['PlaceID'] = places[place_name]['PlaceID']
-                    row['EntryID'] = str(row_index)
+                    row['EntryID'] = row_index
 
                     author_movements[author_id].append(row)
                     row_index += 1
@@ -238,7 +235,12 @@ def get_intersections(author_movements):
 
                 intersections[date][place_id].append(intersection_output)
 
-    ## TO DO: Remove places with no intersections... (where only one person in one place)
+    # Remove places with no intersections... (where only one person in one place on a given date)
+    for date in list(intersections.keys()):
+        for place in list(intersections[date].keys()):
+            if len(intersections[date][place]) == 1:
+                del intersections[date][place]
+
 
     return intersections
 
