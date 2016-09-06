@@ -5,11 +5,6 @@ import json
 from geopy import geocoders
 
 
-# # TO DO:
-# # test on more csvs
-# # output certainty (add to csv files)
-
-
 # ---------
 # Settings
 # ---------
@@ -79,7 +74,7 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
             reader = csv.DictReader(csv_file)
             row_index = 0
             for row in reader:
-                if row['Earliest Known Date'] != '' and row['Last Known Date'] != '':
+                if not(row['Arrival'] == '' and row['Departure'] == '' and row['Earliest Presence'] == '' and row['Latest Presence'] == ''):
 
                     place_name = row['City'] + ', ' + row['Country']
                     if not place_name in places:
@@ -94,10 +89,39 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
 
                         places[place_name] = place_info
 
-                    row['PlaceID'] = places[place_name]['PlaceID']
-                    row['EntryID'] = row_index
+                    movement = {}
+                    movement['PlaceID'] = places[place_name]['PlaceID']
+                    movement['CSVIndex'] = row_index
 
-                    author_movements[author_id].append(row)
+                    # get the start date
+                    if not row['Arrival'] == '': # start is arrival
+                        movement['StartDate'] = row['Arrival']
+                        movement['StartType'] = 'transit'
+                        movement['StartCitation'] = row['Arrival Citation']
+                    elif not row['Earliest Presence'] == '': # start is earliest presence
+                        movement['StartDate'] = row['Earliest Presence']
+                        movement['StartType'] = 'presence'
+                        movement['StartCitation'] = row['Earliest Presence Citation']
+                    else: # start is NaN
+                        movement['StartDate'] = ''
+                        movement['StartType'] = ''
+                        movement['StartCitation'] = ''
+
+                    # get the end date
+                    if not row['Departure'] == '': # end is departure
+                        movement['EndDate'] = row['Departure']
+                        movement['EndType'] = 'transit'
+                        movement['EndCitation'] = row['Departure Citation']
+                    elif not row['Latest Presence'] == '': # end is latest presence
+                        movement['EndDate'] = row['Latest Presence']
+                        movement['EndType'] = 'presence'
+                        movement['EndCitation'] = row['Latest Presence Citation']
+                    else: # end is NaN
+                        movement['EndDate'] =''
+                        movement['EndType'] = ''
+                        movement['EndCitation'] = ''
+
+                    author_movements[author_id].append(movement)
                     row_index += 1
 
             csv_file.close()
@@ -107,21 +131,21 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
 
 # Returns the earliest and latest dates in the data
 def get_earliest_and_latest_dates(author_movements):
-    earliest_known_dates = []
-    latest_known_dates = []
+    start_dates = []
+    end_dates = []
 
     for author_id in author_movements:
         for movement in author_movements[author_id]:
-            earliest_known_date = movement['Earliest Known Date']
-            latest_known_date = movement['Last Known Date']
+            start_date = movement['StartDate']
+            end_date = movement['EndDate']
 
-            earliest_known_dates.append(earliest_known_date)
-            latest_known_dates.append(latest_known_date)
+            start_dates.append(start_date)
+            end_dates.append(end_date)
 
-    earliest_known_dates = sorted(earliest_known_dates)
-    latest_known_dates = sorted(latest_known_dates)
+    start_dates = sorted(start_dates)
+    end_dates = sorted(end_dates)
 
-    return earliest_known_dates[0], latest_known_dates[len(latest_known_dates)-1]
+    return start_dates[0], end_dates[len(end_dates)-1]
 
 
 # Returns a dictionary with keys for every year-month from the earliest
@@ -202,7 +226,7 @@ def get_trajectories(author_movements):
 
             trajectory_output = {}
             trajectory_output['AuthorID'] = author_id
-            trajectory_output['EntryID'] = movement['EntryID']
+            trajectory_output['CSVIndex'] = movement['CSVIndex']
             trajectory_output['PlaceID'] = movement['PlaceID']
             trajectory_output['Citation'] = movement['Citation']
             trajectory_output['Notes'] = movement['Notes']
@@ -251,26 +275,34 @@ def get_intersections(author_movements):
 
 csv_list = get_csv_list(CSV_LOCATION)
 author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list, GEONAMES_USERNAME)
-
-trajectories = get_trajectories(author_movements)
-intersections = get_intersections(author_movements)
+print(author_movements)
 
 
-with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
-    f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-    f.close()
+# trajectories = get_trajectories(author_movements)
+# intersections = get_intersections(author_movements)
 
-with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
-    f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-    f.close()
+# with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
+#     f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+#     f.close()
+#
+# with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
+#     f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+#     f.close()
+#
+# with codecs.open(TRAJECTORIES_JSON, 'w', 'utf8') as f:
+#     f.write(json.dumps(trajectories, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+#     f.close()
+#
+# with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
+#     f.write(json.dumps(intersections, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+#     f.close()
 
-with codecs.open(TRAJECTORIES_JSON, 'w', 'utf8') as f:
-    f.write(json.dumps(trajectories, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-    f.close()
 
-with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
-    f.write(json.dumps(intersections, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-    f.close()
+
+
+
+
+
 
 
 

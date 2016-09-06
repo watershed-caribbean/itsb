@@ -1,31 +1,58 @@
 class CreateVisualization {
 
-    constructor(data_sets){
+    constructor(continents){
+
         // dictionaries to hold trajectories, intersections, places, and authors
-        this.trajectories = this.set_object_data(data_sets[0]);
-        this.intersections = this.set_object_data(data_sets[1]);
-        this.places = this.set_object_data(data_sets[2]);
-        this.authors = this.set_object_data(data_sets[3]);
+        this.trajectories = {};
+        this.intersections = {};
+        this.places = {};
+        this.authors = {};
+
+        this.continents = {};
+        $.extend(this.continents, continents);
+        console.log('in constructor');
+        console.log(this.continents.objects);
+
+        // console.log(this.continents.objects);
 
         // store screen height and width
         this.width = window.innerWidth;
         this.height = window.innerHeight;
 
-        this.continents = this.set_object_data('data/continents.json');
-        this.focus = { place:"" };
-        this.projection = null;
-        this.path = null;
+        // this.focus = { place:"" };
+        // this.projection = null;
+        // this.path = null;
     }
 
-    set_object_data(file_path){
-        var object = {};
 
-        d3.json(file_path, function (error, json) {
-            if (!error) Object.assign(object, json);
-        });
 
-        return object;
-    }
+    // set_data(file_path, json_data){
+    //     if(file_path.includes('continents')) this.continents = json_data;
+    //     else if(file_path.includes('trajectories')) this.trajectories = json_data;
+    // }
+    //
+    //
+    // process_data(){
+    //     var data_sets = ['data/test_trajectories.json', 'data/test_intersections.json', 'data/test_places.json', 'data/test_author_ids.json', 'data/continents.json'];
+    //
+    //     for(var i = 0; i < data_sets.length; i++) {
+    //         var file_path = data_sets[i];
+    //         d3.json(file_path, function (json_data) {
+    //             this.set_data(file_path, json_data);
+    //         });
+    //     }
+    // }
+
+    // set_object_data(file_path){
+    //
+    //     var object = {};
+    //
+    //     d3.json(file_path, function (error, json) {
+    //         if (!error) Object.assign(object, json);
+    //     });
+    //
+    //     return object;
+    // }
 
     update(){
         this.filter_data();
@@ -75,7 +102,6 @@ class CreateVisualization {
         this.path = d3.geo.path()
             .projection(this.projection);
 
-
         // var features = topojson.feature(this.countries,this.countries.objects.countries);
         // var features = topojson.feature(this.continents,this.continents.objects.continents);
 
@@ -97,7 +123,7 @@ class CreateVisualization {
     }
 
     print_info(){
-        console.log(this.trajectories);
+        console.log(Object.keys(this.trajectories));
         console.log(this.intersections);
         console.log(this.places);
         console.log(this.authors);
@@ -107,9 +133,32 @@ class CreateVisualization {
 }
 
 
+var continents = {};
 
 
-var data_sets = ['data/test_trajectories.json', 'data/test_intersections.json', 'data/test_places.json', 'data/test_author_ids.json'];
-var vis = new CreateVisualization(data_sets);
-vis.print_info();
-vis.generate_map();
+function set_data(json_data){
+    $.extend(continents, json_data);
+    console.log(continents.objects);
+}
+
+function process_data(){
+    console.log('calling process_data');
+
+    // var data_sets = ['data/continents.json', 'data/test_trajectories.json', 'data/test_intersections.json', 'data/test_places.json', 'data/test_author_ids.json'];
+
+    var data_sets = ['data/continents.json'];
+
+    for(var i = 0; i < data_sets.length; i++){
+        var file_path = data_sets[i];
+
+        d3.json(file_path, function(json_data){
+            set_data(json_data);
+        });
+    }
+}
+
+
+process_data();
+
+
+// var vis = new CreateVisualization(continents);
