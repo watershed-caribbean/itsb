@@ -11,7 +11,7 @@ from geopy import geocoders
 
 CSV_LOCATION = os.getcwd() + '/raw-data/'
 AUTHOR_ID_JSON = os.path.dirname(os.getcwd()) + '/data/test_author_ids.json'
-TRAJECTORIES_JSON = os.path.dirname(os.getcwd()) + '/data/test_trajectories.json'
+ITINERARIES_JSON = os.path.dirname(os.getcwd()) + '/data/test_itineraries.json'
 INTERSECTIONS_JSON = os.path.dirname(os.getcwd()) + '/data/test_intersections.json'
 PLACES_JSON = os.path.dirname(os.getcwd()) + '/data/test_places.json'
 GEONAMES_USERNAME = 'alyv'
@@ -47,10 +47,10 @@ def get_lat_long(place_name, geonames_username):
 
 # Returns a dictionary of author ids (key is the author name and the value is their id)
 # author_ids = { 'Aime Cesaire':'acesaire', 'Lydia Cabrera':'lcabrera', ...}
-# Returns a list of dictionaries of each author movement
-# author_movements =  { 'acesaire': [{'City':'Paris', 'Country':'France', 'Earliest Known Date':'1931-10', 'Last Known Date':'1935-07', ...}, {...}, ... ], 'lcabrera': [ {}...] , ... }
 # Returns a dictionary of places
 # places = { 'PlaceName': {'Lat': xxx, 'Long': yyy, 'Place ID': ##}, ... }
+# Returns a dictionary each author movement
+# author_movements =  { 'acesaire': [{'PlaceID':'paris_france', 'StartDate': ''}, {...}, ... ], 'lcabrera': [ {}...] , ... }
 def process_scholar_files(csv_path, csv_list, geonames_username):
     author_ids = {}
     author_movements = {}
@@ -91,18 +91,19 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
 
                     movement = {}
                     movement['PlaceID'] = places[place_name]['PlaceID']
-                    movement['CSVIndex'] = row_index
+                    movement['Notes'] = row['Notes']
+                    movement['EntryIndex'] = row_index
 
                     # get the start date
                     if not row['Arrival'] == '': # start is arrival
                         movement['StartDate'] = row['Arrival']
-                        movement['StartType'] = 'transit'
+                        movement['StartType'] = 'arrival'
                         movement['StartCitation'] = row['Arrival Citation']
                     elif not row['Earliest Presence'] == '': # start is earliest presence
                         movement['StartDate'] = row['Earliest Presence']
-                        movement['StartType'] = 'presence'
+                        movement['StartType'] = 'earliest_presence'
                         movement['StartCitation'] = row['Earliest Presence Citation']
-                    else: # start is NaN
+                    else: # start unavailable
                         movement['StartDate'] = ''
                         movement['StartType'] = ''
                         movement['StartCitation'] = ''
@@ -110,13 +111,13 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
                     # get the end date
                     if not row['Departure'] == '': # end is departure
                         movement['EndDate'] = row['Departure']
-                        movement['EndType'] = 'transit'
+                        movement['EndType'] = 'departure'
                         movement['EndCitation'] = row['Departure Citation']
                     elif not row['Latest Presence'] == '': # end is latest presence
                         movement['EndDate'] = row['Latest Presence']
-                        movement['EndType'] = 'presence'
+                        movement['EndType'] = 'latest_presence'
                         movement['EndCitation'] = row['Latest Presence Citation']
-                    else: # end is NaN
+                    else: # end unavailable
                         movement['EndDate'] =''
                         movement['EndType'] = ''
                         movement['EndCitation'] = ''
@@ -129,6 +130,18 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
     return author_ids, author_movements, places
 
 
+# ... author_movements dictionary items ...
+# PlaceID
+# Notes
+# EntryIndex
+# StartDate
+# StartType
+# StartCitation
+# EndDate
+# EndType
+# EndCitation
+
+
 # Returns the earliest and latest dates in the data
 def get_earliest_and_latest_dates(author_movements):
     start_dates = []
@@ -139,8 +152,8 @@ def get_earliest_and_latest_dates(author_movements):
             start_date = movement['StartDate']
             end_date = movement['EndDate']
 
-            start_dates.append(start_date)
-            end_dates.append(end_date)
+            if not start_date == '': start_dates.append(start_date)
+            if not end_date == '': end_dates.append(end_date)
 
     start_dates = sorted(start_dates)
     end_dates = sorted(end_dates)
@@ -168,15 +181,13 @@ def create_date_dict(author_movements):
 
     return date_dict
 
-    # # ??? do we need month precision for start and end dates ??? # #
-
 
 # Returns a list of all of the year-month dates that a scholar was in a place
 def get_dates_in_place(movement):
     dates_in_place = []
 
-    earliest_date_split = movement['Earliest Known Date'].split('-')
-    latest_date_split = movement['Last Known Date'].split('-')
+    earliest_date_split = movement['StartDate'].split('-')
+    latest_date_split = movement['EndDate'].split('-')
 
     start_year = int(earliest_date_split[0])
     end_year = int(latest_date_split[0])
@@ -217,26 +228,59 @@ def get_dates_in_place(movement):
     return dates_in_place
 
 
-# Returns the dictionary for the trajectories json
-def get_trajectories(author_movements):
-    trajectories = create_date_dict(author_movements)
+def dates_to_month_format(movement):
+    start_date = movement['StartDate']
+    if not start_date == '':
+        start_date_split = start_date.split('-')
+
+        if len(start_date_split) >= 2: start_month = start_date_split[1]
+        else: start_month = '01'
+
+        start_date = start_date_split[0] + '-' + start_month  # year-month
+
+    end_date = movement['EndDate']
+    if not end_date == '':
+        end_date_split = end_date.split('-')
+
+        if len(end_date_split) >= 2: end_month = end_date_split[1]
+        else: end_month = '12'
+
+        end_date = end_date_split[0] + '-' + end_month # year-month
+
+    return start_date, end_date
+
+
+# Returns the dictionary for the itineraries json
+def get_itineraries(author_movements):
+    itineraries = create_date_dict(author_movements)
 
     for author_id in author_movements:
         for movement in author_movements[author_id]:
 
-            trajectory_output = {}
-            trajectory_output['AuthorID'] = author_id
-            trajectory_output['CSVIndex'] = movement['CSVIndex']
-            trajectory_output['PlaceID'] = movement['PlaceID']
-            trajectory_output['Citation'] = movement['Citation']
-            trajectory_output['Notes'] = movement['Notes']
-            # # ADD certainty
+            itinerary_output = {}
+            itinerary_output['AuthorID'] = author_id
+            itinerary_output['EntryIndex'] = movement['EntryIndex']
+            itinerary_output['PlaceID'] = movement['PlaceID']
+            itinerary_output['Notes'] = movement['Notes']
 
-            dates_in_place = get_dates_in_place(movement)
-            for date in dates_in_place:
-                trajectories[date].append(trajectory_output)
+            # original date information (not necessarily in month format)
+            itinerary_output['StartDate'] = movement['StartDate']
+            itinerary_output['StartType'] = movement['StartType']
+            itinerary_output['StartCitation'] = movement['StartCitation']
+            itinerary_output['EndDate'] = movement['EndDate']
+            itinerary_output['EndType'] = movement['EndType']
+            itinerary_output['EndCitation'] = movement['EndCitation']
 
-    return trajectories
+            start_date, end_date = dates_to_month_format(movement)
+
+            if not start_date == '': itineraries[start_date].append(itinerary_output)
+            if not end_date == '': itineraries[end_date].append(itinerary_output)
+
+            # dates_in_place = get_dates_in_place(movement)
+            # for date in dates_in_place:
+            #     itineraries[date].append(itinerary_output)
+
+    return itineraries
 
 
 # Returns the dictionary for the intersections json
@@ -246,17 +290,21 @@ def get_intersections(author_movements):
 
     for author_id in author_movements:
         for movement in author_movements[author_id]:
-            dates_in_place = get_dates_in_place(movement)
-            place_id = movement['PlaceID']
 
-            for date in dates_in_place:
-                if not place_id in intersections[date]: intersections[date][place_id] = []
+            # only for dates with a start and end
+            if not movement['StartDate'] == '' and not movement['EndDate'] == '':
 
-                intersection_output = {}
-                intersection_output['AuthorID'] = author_id
-                # # ADD certainty
+                dates_in_place = get_dates_in_place(movement)
+                place_id = movement['PlaceID']
 
-                intersections[date][place_id].append(intersection_output)
+                for date in dates_in_place:
+                    if not place_id in intersections[date]: intersections[date][place_id] = []
+
+                    intersection_output = {}
+                    intersection_output['AuthorID'] = author_id
+                    # # ADD certainty
+
+                    intersections[date][place_id].append(intersection_output)
 
     # Remove places with no intersections... (where only one person in one place on a given date)
     for date in list(intersections.keys()):
@@ -275,11 +323,12 @@ def get_intersections(author_movements):
 
 csv_list = get_csv_list(CSV_LOCATION)
 author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list, GEONAMES_USERNAME)
-print(author_movements)
 
+itineraries = get_itineraries(author_movements)
 
-# trajectories = get_trajectories(author_movements)
 # intersections = get_intersections(author_movements)
+
+
 
 # with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
 #     f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
@@ -289,8 +338,8 @@ print(author_movements)
 #     f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
 #     f.close()
 #
-# with codecs.open(TRAJECTORIES_JSON, 'w', 'utf8') as f:
-#     f.write(json.dumps(trajectories, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+# with codecs.open(ITINERARIES_JSON, 'w', 'utf8') as f:
+#     f.write(json.dumps(itineraries, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
 #     f.close()
 #
 # with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
