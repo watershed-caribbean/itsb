@@ -3,9 +3,7 @@ import csv
 import codecs
 import json
 from geopy import geocoders
-
-# To Do...
-# check itinerary date formatting
+from operator import itemgetter
 
 
 # ---------
@@ -24,7 +22,9 @@ GEONAMES_USERNAME = 'alyv'
 # Functions
 # ----------
 
+#-------------------------------------------------------------------------
 # Returns a list of all the csv files in a directory
+#-------------------------------------------------------------------------
 def get_csv_list(csv_location):
     csv_list = []
 
@@ -35,9 +35,10 @@ def get_csv_list(csv_location):
     return csv_list
 
 
+#-------------------------------------------------------------------------
 # Returns the GeoNames latitude and longitude of the place name provided.
-# If the place is not found, the function returns None for both longitude
-# and latitude.
+# If the place is not found, the function returns None for both longitude and latitude.
+#-------------------------------------------------------------------------
 def get_lat_long(place_name, geonames_username):
     gn = geocoders.GeoNames(username=geonames_username, timeout=None)
     location = gn.geocode(place_name,timeout=None)
@@ -48,12 +49,16 @@ def get_lat_long(place_name, geonames_username):
         return location.latitude, location.longitude
 
 
+# -------------------------------------------------------------------------
 # Returns a dictionary of author ids (key is the author name and the value is their id)
 # author_ids = { 'Aime Cesaire':'acesaire', 'Lydia Cabrera':'lcabrera', ...}
 # Returns a dictionary of places
 # places = { 'PlaceName': {'Lat': xxx, 'Long': yyy, 'Place ID': ##}, ... }
 # Returns a dictionary each author movement
 # author_movements =  { 'acesaire': [{'PlaceID':'paris_france', 'StartDate': ''}, {...}, ... ], 'lcabrera': [ {}...] , ... }
+# The keys for each movement in the author_movements dictionary are as follows:
+# PlaceID, Notes, EntryIndex, StartDate, StartType, StartCitation, EndDate, EndType, EndCitation
+#-------------------------------------------------------------------------
 def process_scholar_files(csv_path, csv_list, geonames_username):
     author_ids = {}
     author_movements = {}
@@ -133,7 +138,9 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
     return author_ids, author_movements, places
 
 
+#-------------------------------------------------------------------------
 # Returns the earliest and latest dates in the data
+#-------------------------------------------------------------------------
 def get_earliest_and_latest_dates(author_movements):
     start_dates = []
     end_dates = []
@@ -152,9 +159,11 @@ def get_earliest_and_latest_dates(author_movements):
     return start_dates[0], end_dates[len(end_dates)-1]
 
 
+#-------------------------------------------------------------------------
 # Returns a dictionary with keys for every year-month from the earliest
 # year in the data to the latest year in the data, for example:
 # date_dict = {'1899-01': [], '1899-02': [], ... , '1999-12': []}
+#-------------------------------------------------------------------------
 def create_date_dict(author_movements):
     date_dict = {}
 
@@ -173,7 +182,9 @@ def create_date_dict(author_movements):
     return date_dict
 
 
+#-------------------------------------------------------------------------
 # Returns a list of all of the year-month dates that a scholar was in a place
+#-------------------------------------------------------------------------
 def get_dates_in_place(earliest_date, latest_date):
 
     earliest_date_split = earliest_date.split('-')
@@ -212,6 +223,10 @@ def get_dates_in_place(earliest_date, latest_date):
     return dates_in_place
 
 
+#-------------------------------------------------------------------------
+# Takes a string date and returns the year-month version of that date
+# If the string provided has only a year, the month is January (01)
+#-------------------------------------------------------------------------
 def date_to_month_format(date):
     if not date == '':
         date_split = date.split('-')
@@ -224,7 +239,9 @@ def date_to_month_format(date):
     return date
 
 
+#-------------------------------------------------------------------------
 # Returns the dictionary for the itineraries json
+#-------------------------------------------------------------------------
 def get_itineraries(author_movements):
     itineraries = create_date_dict(author_movements)
 
@@ -258,7 +275,11 @@ def get_itineraries(author_movements):
     return itineraries
 
 
-# ADD DESCRIPTION HERE...
+#-------------------------------------------------------------------------
+# Creates the output for the intersections json
+# If either the current_place and previous_place provided are of type None
+# it does not list the author as in that place for the date range provided
+#-------------------------------------------------------------------------
 def populate_dates_in_place(from_date, to_date, current_place, previous_place, likelihood, author_id, intersections):
     dates_in_place = get_dates_in_place(from_date, to_date)
 
@@ -276,7 +297,27 @@ def populate_dates_in_place(from_date, to_date, current_place, previous_place, l
     return intersections
 
 
-# ADD DESCRIPTION HERE...
+#-------------------------------------------------------------------------
+# Processes each movement for the intersections json and assigns likelihood scores for each location.
+# These comments are written using Lydia Cabrera as an example.
+# Score of 3
+# If we have both a start date and an end date for a given location,
+# then Cabrera was very likely in that place from that start date through that end date,
+# so she appears in that location throughout that date range with a likelihood score of 3.
+#
+# If we only have a start date or an end date for a given place, then we look at the previous row to help figure out
+# Cabrera's likely locations and assign likelihood scores of 2 or 1 for where Cabrera could be, as follows:
+#
+# Score of 2
+# If Cabrera had unterminated time in New York City (meaning an arrival, an earliest presence, or a latest presence),
+# and then arrived in Miami, we say she was likely in New York City (with a score of 2) until her arrival in Miami.
+# If Cabrera had a departure from Havana followed by an earliest presence, latest presence, or departure from Miami,
+# we say she was likely in Miami (with a score of 2) from her Havana departure to her know date in Miami.
+#
+# Score of 1
+# If it is possible that Cabrera could have been in any one of two places,
+# then she placed in both locations with a likelihood score of 1 for each.
+#-------------------------------------------------------------------------
 def process_movement(previous_movement, current_movement, author_id, intersections):
     current_place = current_movement['PlaceID']
 
@@ -286,38 +327,42 @@ def process_movement(previous_movement, current_movement, author_id, intersectio
                                                 current_place, None, 3, author_id, intersections)
 
     # current movement has either a start date or an end date
-    elif not previous_movement == None:
+    elif not previous_movement == None: # not the first row in the CSV
         previous_place = previous_movement['PlaceID']
 
+        # set the from_date and to_date
         if not previous_movement['EndDate'] == '': from_date = previous_movement['EndDate']
         else: from_date = previous_movement['StartDate']
 
         if not current_movement['EndDate'] == '': to_date = current_movement['EndDate']
         else: to_date = current_movement['StartDate']
 
-
+        # put an author in place(s) with a likelihood score
         if current_movement['StartType'] == 'arrival' and not previous_movement['EndType'] == 'departure':
             intersections = populate_dates_in_place(from_date, to_date, None, previous_place, 2, author_id, intersections)
 
-        elif previous_movement['EndType'] == 'departure':
+        elif not current_movement['StartType'] == 'arrival' and previous_movement['EndType'] == 'departure':
             intersections = populate_dates_in_place(from_date, to_date, current_place, None, 2, author_id, intersections)
 
-        else:
+        elif not current_movement['StartType'] == 'arrival':
             intersections = populate_dates_in_place(from_date, to_date, current_place, previous_place, 1, author_id, intersections)
 
     return intersections
 
 
+#-------------------------------------------------------------------------
 # Returns the dictionary for the intersections json
+#-------------------------------------------------------------------------
 def get_intersections(author_movements):
     intersections = create_date_dict(author_movements)
     for date in intersections: intersections[date] = {}
 
     for author_id in author_movements:
-        #sort movements by entryID ???
+        # sort movements by EntryIndex
+        sorted_by_entry_id = sorted(author_movements[author_id], key=itemgetter('EntryIndex'))
 
         previous_movement = None
-        for current_movement in author_movements[author_id]:
+        for current_movement in sorted_by_entry_id:
             intersections = process_movement(previous_movement, current_movement, author_id, intersections)
             previous_movement = current_movement
 
@@ -341,90 +386,27 @@ author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_l
 itineraries = get_itineraries(author_movements)
 intersections = get_intersections(author_movements)
 
-print(intersections)
+with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
 
-# with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
-#     f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-#     f.close()
-#
-# with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
-#     f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-#     f.close()
-#
-# with codecs.open(ITINERARIES_JSON, 'w', 'utf8') as f:
-#     f.write(json.dumps(itineraries, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-#     f.close()
-#
-# with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
-#     f.write(json.dumps(intersections, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-#     f.close()
+with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
+
+with codecs.open(ITINERARIES_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(itineraries, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
+
+with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(intersections, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
 
 
 
-
-
-
-
-# ... author_movements dictionary items ...
-# PlaceID
-# Notes
-# EntryIndex
-# StartDate
-# StartType
-# StartCitation
-# EndDate
-# EndType
-# EndCitation
-
-# if current_start_date and current_end_date available
-    # author likely in that location from current_start_date to current_end_date (likelihood = 3)
-
-# if only current_start_date available
-    # if current_start_date is an arrival
-        # if previous row has a departure
-            # NOTHING
-        # else if previous row has a latest presence
-            # Likely to be in previous_row city (likelihood = 2)
-        # else if previous row has an arrival
-            # Likely to be in previous_row city (likelihood = 2)
-        # else if previous row has an earliest presence
-            # Likely to be in previous_row city (likelihood = 2)
-
-    # if current_start_date is an earliest presence
-        # if previous row has a departure
-            # Likely to be in current_row city (likelihood = 2)
-        # else if previous row has a latest presence
-            # Likely to be in either city (give each city likelihood = 1)
-        # else if previous row has an arrival
-            # Likely to be in either city (give each city likelihood = 1)
-        # else if previous row has an earliest presence
-            # Likely to be in either city (give each city likelihood = 1)
-
-# if only current_end_date available
-    # if current_end_date is a departure
-        # if previous row has a departure
-            # Likely to be in current_row city (likelihood = 2)
-        # else if previous row has a latest presence
-            # Likely to be in either city (give each city likelihood = 1)
-        # else if previous row has an arrival
-            # Likely to be in either city (give each city likelihood = 1)
-        # else if previous row has an earliest presence
-            # Likely to be in either city (give each city likelihood = 1)
-
-    # if current_end_date is a latest presence
-        # if previous row has a departure
-            # Likely to be in current_row city (likelihood = 2)
-        # else if previous row has a latest presence
-            # Likely to be in either city (give each city likelihood = 1)
-        # else if previous row has an arrival
-            # Likely to be in either city (give each city likelihood = 1)
-        # else if previous row has an earliest presence
-            # Likely to be in either city (give each city likelihood = 1)
-
-
-
-
-# # not used, but potentially helpful code... maybe...
+#-------------------------------------------------------------------------
+# Unused code (maybe, maybe helpful)
+#-------------------------------------------------------------------------
 
 # from operator import itemgetter
 # # sort all of the movements by the 'Earliest Known Date' key
