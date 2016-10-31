@@ -4,6 +4,9 @@ import codecs
 import json
 from geopy import geocoders
 
+# To Do...
+# check itinerary date formatting
+
 
 # ---------
 # Settings
@@ -130,18 +133,6 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
     return author_ids, author_movements, places
 
 
-# ... author_movements dictionary items ...
-# PlaceID
-# Notes
-# EntryIndex
-# StartDate
-# StartType
-# StartCitation
-# EndDate
-# EndType
-# EndCitation
-
-
 # Returns the earliest and latest dates in the data
 def get_earliest_and_latest_dates(author_movements):
     start_dates = []
@@ -183,11 +174,10 @@ def create_date_dict(author_movements):
 
 
 # Returns a list of all of the year-month dates that a scholar was in a place
-def get_dates_in_place(movement):
-    dates_in_place = []
+def get_dates_in_place(earliest_date, latest_date):
 
-    earliest_date_split = movement['StartDate'].split('-')
-    latest_date_split = movement['EndDate'].split('-')
+    earliest_date_split = earliest_date.split('-')
+    latest_date_split = latest_date.split('-')
 
     start_year = int(earliest_date_split[0])
     end_year = int(latest_date_split[0])
@@ -198,15 +188,9 @@ def get_dates_in_place(movement):
     if len(latest_date_split) >= 2: end_month = int(latest_date_split[1])
     else: end_month = 12
 
+    dates_in_place = []
     for year in range(start_year, end_year + 1):
-        if start_year == end_year:
-            for month in range(start_month, end_month + 1):
-                if month < 10: date = str(year) + '-0' + str(month)
-                else: date = str(year) + '-' + str(month)
-                dates_in_place.append(date)
-            break
-
-        elif year == end_year:
+        if year == end_year:
             for month in range(1, end_month + 1):
                 if month < 10: date = str(year) + '-0' + str(month)
                 else: date = str(year) + '-' + str(month)
@@ -228,26 +212,16 @@ def get_dates_in_place(movement):
     return dates_in_place
 
 
-def dates_to_month_format(movement):
-    start_date = movement['StartDate']
-    if not start_date == '':
-        start_date_split = start_date.split('-')
+def date_to_month_format(date):
+    if not date == '':
+        date_split = date.split('-')
 
-        if len(start_date_split) >= 2: start_month = start_date_split[1]
-        else: start_month = '01'
+        if len(date_split) >= 2: month = date_split[1]
+        else: month = '01'
 
-        start_date = start_date_split[0] + '-' + start_month  # year-month
+        date = date_split[0] + '-' + month  # year-month
 
-    end_date = movement['EndDate']
-    if not end_date == '':
-        end_date_split = end_date.split('-')
-
-        if len(end_date_split) >= 2: end_month = end_date_split[1]
-        else: end_month = '12'
-
-        end_date = end_date_split[0] + '-' + end_month # year-month
-
-    return start_date, end_date
+    return date
 
 
 # Returns the dictionary for the itineraries json
@@ -271,7 +245,8 @@ def get_itineraries(author_movements):
             itinerary_output['EndType'] = movement['EndType']
             itinerary_output['EndCitation'] = movement['EndCitation']
 
-            start_date, end_date = dates_to_month_format(movement)
+            start_date = date_to_month_format(movement['StartDate'])
+            end_date = date_to_month_format(movement['EndDate'])
 
             if not start_date == '': itineraries[start_date].append(itinerary_output)
             if not end_date == '': itineraries[end_date].append(itinerary_output)
@@ -283,35 +258,74 @@ def get_itineraries(author_movements):
     return itineraries
 
 
+# ADD DESCRIPTION HERE...
+def populate_dates_in_place(from_date, to_date, current_place, previous_place, likelihood, author_id, intersections):
+    dates_in_place = get_dates_in_place(from_date, to_date)
+
+    for date in dates_in_place:
+        intersection_output = {'AuthorID': author_id, 'Likelihood': likelihood}
+
+        if not current_place == None:
+            if not current_place in intersections[date]: intersections[date][current_place] = []
+            intersections[date][current_place].append(intersection_output)
+
+        if not previous_place == None:
+            if not previous_place in intersections[date]: intersections[date][previous_place] = []
+            intersections[date][previous_place].append(intersection_output)
+
+    return intersections
+
+
+# ADD DESCRIPTION HERE...
+def process_movement(previous_movement, current_movement, author_id, intersections):
+    current_place = current_movement['PlaceID']
+
+    # current movement has a start date and an end date
+    if not current_movement['StartDate'] == '' and not current_movement['EndDate'] == '':
+        intersections = populate_dates_in_place(current_movement['StartDate'], current_movement['EndDate'],
+                                                current_place, None, 3, author_id, intersections)
+
+    # current movement has either a start date or an end date
+    elif not previous_movement == None:
+        previous_place = previous_movement['PlaceID']
+
+        if not previous_movement['EndDate'] == '': from_date = previous_movement['EndDate']
+        else: from_date = previous_movement['StartDate']
+
+        if not current_movement['EndDate'] == '': to_date = current_movement['EndDate']
+        else: to_date = current_movement['StartDate']
+
+
+        if current_movement['StartType'] == 'arrival' and not previous_movement['EndType'] == 'departure':
+            intersections = populate_dates_in_place(from_date, to_date, None, previous_place, 2, author_id, intersections)
+
+        elif previous_movement['EndType'] == 'departure':
+            intersections = populate_dates_in_place(from_date, to_date, current_place, None, 2, author_id, intersections)
+
+        else:
+            intersections = populate_dates_in_place(from_date, to_date, current_place, previous_place, 1, author_id, intersections)
+
+    return intersections
+
+
 # Returns the dictionary for the intersections json
 def get_intersections(author_movements):
     intersections = create_date_dict(author_movements)
     for date in intersections: intersections[date] = {}
 
     for author_id in author_movements:
-        for movement in author_movements[author_id]:
+        #sort movements by entryID ???
 
-            # only for dates with a start and end
-            if not movement['StartDate'] == '' and not movement['EndDate'] == '':
-
-                dates_in_place = get_dates_in_place(movement)
-                place_id = movement['PlaceID']
-
-                for date in dates_in_place:
-                    if not place_id in intersections[date]: intersections[date][place_id] = []
-
-                    intersection_output = {}
-                    intersection_output['AuthorID'] = author_id
-                    # # ADD certainty
-
-                    intersections[date][place_id].append(intersection_output)
+        previous_movement = None
+        for current_movement in author_movements[author_id]:
+            intersections = process_movement(previous_movement, current_movement, author_id, intersections)
+            previous_movement = current_movement
 
     # Remove places with no intersections... (where only one person in one place on a given date)
-    for date in list(intersections.keys()):
-        for place in list(intersections[date].keys()):
-            if len(intersections[date][place]) == 1:
-                del intersections[date][place]
-
+    # for date in list(intersections.keys()):
+    #     for place in list(intersections[date].keys()):
+    #         if len(intersections[date][place]) == 1:
+    #             del intersections[date][place]
 
     return intersections
 
@@ -325,10 +339,9 @@ csv_list = get_csv_list(CSV_LOCATION)
 author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list, GEONAMES_USERNAME)
 
 itineraries = get_itineraries(author_movements)
+intersections = get_intersections(author_movements)
 
-# intersections = get_intersections(author_movements)
-
-
+print(intersections)
 
 # with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
 #     f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
@@ -352,7 +365,61 @@ itineraries = get_itineraries(author_movements)
 
 
 
+# ... author_movements dictionary items ...
+# PlaceID
+# Notes
+# EntryIndex
+# StartDate
+# StartType
+# StartCitation
+# EndDate
+# EndType
+# EndCitation
 
+# if current_start_date and current_end_date available
+    # author likely in that location from current_start_date to current_end_date (likelihood = 3)
+
+# if only current_start_date available
+    # if current_start_date is an arrival
+        # if previous row has a departure
+            # NOTHING
+        # else if previous row has a latest presence
+            # Likely to be in previous_row city (likelihood = 2)
+        # else if previous row has an arrival
+            # Likely to be in previous_row city (likelihood = 2)
+        # else if previous row has an earliest presence
+            # Likely to be in previous_row city (likelihood = 2)
+
+    # if current_start_date is an earliest presence
+        # if previous row has a departure
+            # Likely to be in current_row city (likelihood = 2)
+        # else if previous row has a latest presence
+            # Likely to be in either city (give each city likelihood = 1)
+        # else if previous row has an arrival
+            # Likely to be in either city (give each city likelihood = 1)
+        # else if previous row has an earliest presence
+            # Likely to be in either city (give each city likelihood = 1)
+
+# if only current_end_date available
+    # if current_end_date is a departure
+        # if previous row has a departure
+            # Likely to be in current_row city (likelihood = 2)
+        # else if previous row has a latest presence
+            # Likely to be in either city (give each city likelihood = 1)
+        # else if previous row has an arrival
+            # Likely to be in either city (give each city likelihood = 1)
+        # else if previous row has an earliest presence
+            # Likely to be in either city (give each city likelihood = 1)
+
+    # if current_end_date is a latest presence
+        # if previous row has a departure
+            # Likely to be in current_row city (likelihood = 2)
+        # else if previous row has a latest presence
+            # Likely to be in either city (give each city likelihood = 1)
+        # else if previous row has an arrival
+            # Likely to be in either city (give each city likelihood = 1)
+        # else if previous row has an earliest presence
+            # Likely to be in either city (give each city likelihood = 1)
 
 
 

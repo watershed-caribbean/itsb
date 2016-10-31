@@ -1,0 +1,67 @@
+{
+    "Auschwitz, Poland": {
+        "Lat": 50.03437,
+        "Long": 19.21037,
+        "PlaceID": "auschwitz_poland"
+    },
+    "Basse-Pointe, Martinique": {
+        "Lat": 14.86954,
+        "Long": -61.11504,
+        "PlaceID": "basse-pointe_martinique"
+    },
+    "Bucarest, Romania": {
+        "Lat": 44.43225,
+        "Long": 26.10626,
+        "PlaceID": "bucarest_romania"
+    },
+    "Fort-de-France, Martinique": {
+        "Lat": 14.60892,
+        "Long": -61.07334,
+        "PlaceID": "fort-de-france_martinique"
+    },
+    "Havana, Cuba": {
+        "Lat": 23.13302,
+        "Long": -82.38304,
+        "PlaceID": "havana_cuba"
+    },
+    "Miami, United States": {
+        "Lat": 25.79065,
+        "Long": -80.13005,
+        "PlaceID": "miami_united-states"
+    },
+    "Moscow, Russia": {
+        "Lat": 55.75222,
+        "Long": 37.61556,
+        "PlaceID": "moscow_russia"
+    },
+    "New York, United States": {
+        "Lat": 40.71427,
+        "Long": -74.00597,
+        "PlaceID": "new-york_united-states"
+    },
+    "Paris, France": {
+        "Lat": 48.85341,
+        "Long": 2.3488,
+        "PlaceID": "paris_france"
+    },
+    "Port-au-Prince, Haiti": {
+        "Lat": 18.53917,
+        "Long": -72.335,
+        "PlaceID": "port-au-prince_haiti"
+    },
+    "Vienna, Austria": {
+        "Lat": 48.20849,
+        "Long": 16.37208,
+        "PlaceID": "vienna_austria"
+    },
+    "Wroclaw, Poland": {
+        "Lat": 51.1,
+        "Long": 17.03333,
+        "PlaceID": "wroclaw_poland"
+    },
+    "Šibenik, Croatia": {
+        "Lat": 43.72722,
+        "Long": 15.90583,
+        "PlaceID": "šibenik_croatia"
+    }
+}

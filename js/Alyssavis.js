@@ -1,18 +1,16 @@
 class CreateVisualization {
 
-    constructor(continents){
+    constructor(){
 
         // dictionaries to hold trajectories, intersections, places, and authors
         this.trajectories = {};
         this.intersections = {};
         this.places = {};
         this.authors = {};
-
         this.continents = {};
-        $.extend(this.continents, continents);
-        console.log('in constructor');
-        console.log(this.continents.objects);
 
+        // $.extend(this.continents, continents);
+        // console.log('in constructor');
         // console.log(this.continents.objects);
 
         // store screen height and width
@@ -25,12 +23,10 @@ class CreateVisualization {
     }
 
 
-
     // set_data(file_path, json_data){
     //     if(file_path.includes('continents')) this.continents = json_data;
     //     else if(file_path.includes('trajectories')) this.trajectories = json_data;
     // }
-    //
     //
     // process_data(){
     //     var data_sets = ['data/test_trajectories.json', 'data/test_intersections.json', 'data/test_places.json', 'data/test_author_ids.json', 'data/continents.json'];
@@ -42,7 +38,7 @@ class CreateVisualization {
     //         });
     //     }
     // }
-
+    //
     // set_object_data(file_path){
     //
     //     var object = {};
@@ -133,32 +129,39 @@ class CreateVisualization {
 }
 
 
-var continents = {};
+// var continents = {};
+//
+// function set_data(json_data){
+//     $.extend(continents, json_data);
+//     console.log(continents.objects);
+// }
+//
+// function process_data(){
+//     console.log('calling process_data');
+//
+//     // var data_sets = ['data/continents.json', 'data/test_trajectories.json', 'data/test_intersections.json', 'data/test_places.json', 'data/test_author_ids.json'];
+//
+//     var data_sets = ['data/continents.json'];
+//
+//     for(var i = 0; i < data_sets.length; i++){
+//         var file_path = data_sets[i];
+//
+//         d3.json(file_path, function(json_data){
+//             set_data(json_data);
+//         });
+//     }
+// }
+//
+// process_data();
 
 
-function set_data(json_data){
-    $.extend(continents, json_data);
-    console.log(continents.objects);
+queue()
+	.defer(d3.json, 'data/continents.json')
+	.defer(d3.json, 'data/test_trajectories.json')
+	.awaitAll(makeMyMap);
+
+function makeMyMap() {
+    console.log('hello')
 }
 
-function process_data(){
-    console.log('calling process_data');
-
-    // var data_sets = ['data/continents.json', 'data/test_trajectories.json', 'data/test_intersections.json', 'data/test_places.json', 'data/test_author_ids.json'];
-
-    var data_sets = ['data/continents.json'];
-
-    for(var i = 0; i < data_sets.length; i++){
-        var file_path = data_sets[i];
-
-        d3.json(file_path, function(json_data){
-            set_data(json_data);
-        });
-    }
-}
-
-
-process_data();
-
-
-// var vis = new CreateVisualization(continents);
+// var vis = new CreateVisualization();

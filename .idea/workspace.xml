@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e5eed05-93b6-4030-9890-0ea0bbf2ade3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/test_author_ids.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/test_intersections.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/test_places.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/test_trajectories.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alyssaindex.html" afterPath="$PROJECT_DIR$/Alyssaindex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Alyssavis.js" afterPath="$PROJECT_DIR$/js/Alyssavis.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/GenerateJson.py" afterPath="$PROJECT_DIR$/python/GenerateJson.py" />
     </list>
     <ignored path="ITSB.iws" />
@@ -20,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/itsb$GenerateJson.coverage" NAME="GenerateJson Coverage Results" MODIFIED="1475442741621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/itsb$GenerateJson.coverage" NAME="GenerateJson Coverage Results" MODIFIED="1477884473568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -30,20 +28,22 @@
     <favorites_list name="ITSB" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GenerateJson.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/GenerateJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="329" column="0" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#623#790#0" expanded="false" />
-                <element signature="e#1010#1283#0" expanded="false" />
-                <element signature="e#1795#5167#0" expanded="false" />
-                <element signature="e#6758#8305#0" expanded="false" />
-                <element signature="e#10466#11600#0" expanded="false" />
-                <marker date="1475442835000" expanded="false" signature="5425:5908" ph="..." />
+                <element signature="e#669#836#0" expanded="false" />
+                <element signature="e#1056#1329#0" expanded="false" />
+                <element signature="e#1841#5213#0" expanded="false" />
+                <element signature="e#5325#5803#0" expanded="false" />
+                <element signature="e#6052#6534#0" expanded="false" />
+                <element signature="e#6672#7916#0" expanded="false" />
+                <element signature="e#7955#8168#0" expanded="false" />
+                <element signature="e#8264#9648#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,9 +69,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/js/vis.js" />
+        <option value="$PROJECT_DIR$/data/test_intersections.json" />
         <option value="$PROJECT_DIR$/Alyssaindex.html" />
         <option value="$PROJECT_DIR$/js/Alyssavis.js" />
-        <option value="$PROJECT_DIR$/data/test_intersections.json" />
         <option value="$PROJECT_DIR$/python/GenerateJson.py" />
       </list>
     </option>
@@ -83,9 +83,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="256" />
+    <option name="x" value="43" />
     <option name="y" value="23" />
-    <option name="width" value="1184" />
+    <option name="width" value="1074" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -113,49 +113,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itsb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itsb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itsb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itsb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itsb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS 221/foundations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alyssa/Desktop/itsb/data/__trajectories.json" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
@@ -416,20 +385,20 @@
     <option name="totallyTimeSpent" value="23667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="256" y="23" width="1184" height="877" extended-state="0" />
+    <frame x="43" y="23" width="1074" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28280255" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50087565" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50087565" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -452,7 +421,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -465,20 +434,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_places.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_author_ids.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_places.json" />
+    <entry file="file://$PROJECT_DIR$/data/test_author_ids.json" />
     <entry file="file://$PROJECT_DIR$/data/intersections.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -529,34 +486,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_intersections.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4365">
-          <caret line="506" column="9" selection-start-line="506" selection-start-column="5" selection-end-line="506" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_trajectories.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_intersections.json" />
+    <entry file="file://$PROJECT_DIR$/data/test_trajectories.json" />
     <entry file="file://$PROJECT_DIR$/python/GenerateJson.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#623#790#0" expanded="false" />
-            <element signature="e#1010#1283#0" expanded="false" />
-            <element signature="e#1795#5167#0" expanded="false" />
-            <element signature="e#6758#8305#0" expanded="false" />
-            <element signature="e#10466#11600#0" expanded="false" />
-            <marker date="1475442835000" expanded="false" signature="5425:5908" ph="..." />
+            <element signature="e#669#836#0" expanded="false" />
+            <element signature="e#1056#1329#0" expanded="false" />
+            <element signature="e#1841#5213#0" expanded="false" />
+            <element signature="e#5325#5803#0" expanded="false" />
+            <element signature="e#6052#6534#0" expanded="false" />
+            <element signature="e#6672#7916#0" expanded="false" />
+            <element signature="e#7955#8168#0" expanded="false" />
+            <element signature="e#8264#9648#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -567,12 +512,14 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#623#790#0" expanded="false" />
-            <element signature="e#1010#1283#0" expanded="false" />
-            <element signature="e#1795#5167#0" expanded="false" />
-            <element signature="e#6758#8305#0" expanded="false" />
-            <element signature="e#10466#11600#0" expanded="false" />
-            <marker date="1475442835000" expanded="false" signature="5425:5908" ph="..." />
+            <element signature="e#669#836#0" expanded="false" />
+            <element signature="e#1056#1329#0" expanded="false" />
+            <element signature="e#1841#5213#0" expanded="false" />
+            <element signature="e#5325#5803#0" expanded="false" />
+            <element signature="e#6052#6534#0" expanded="false" />
+            <element signature="e#6672#7916#0" expanded="false" />
+            <element signature="e#7955#8168#0" expanded="false" />
+            <element signature="e#8264#9648#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,12 +530,14 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#623#790#0" expanded="false" />
-            <element signature="e#1010#1283#0" expanded="false" />
-            <element signature="e#1795#5167#0" expanded="false" />
-            <element signature="e#6758#8305#0" expanded="false" />
-            <element signature="e#10466#11600#0" expanded="false" />
-            <marker date="1475442835000" expanded="false" signature="5425:5908" ph="..." />
+            <element signature="e#669#836#0" expanded="false" />
+            <element signature="e#1056#1329#0" expanded="false" />
+            <element signature="e#1841#5213#0" expanded="false" />
+            <element signature="e#5325#5803#0" expanded="false" />
+            <element signature="e#6052#6534#0" expanded="false" />
+            <element signature="e#6672#7916#0" expanded="false" />
+            <element signature="e#7955#8168#0" expanded="false" />
+            <element signature="e#8264#9648#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -599,12 +548,14 @@
           <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#623#790#0" expanded="false" />
-            <element signature="e#1010#1283#0" expanded="false" />
-            <element signature="e#1795#5167#0" expanded="false" />
-            <element signature="e#6758#8305#0" expanded="false" />
-            <element signature="e#10466#11600#0" expanded="false" />
-            <marker date="1475442835000" expanded="false" signature="5425:5908" ph="..." />
+            <element signature="e#669#836#0" expanded="false" />
+            <element signature="e#1056#1329#0" expanded="false" />
+            <element signature="e#1841#5213#0" expanded="false" />
+            <element signature="e#5325#5803#0" expanded="false" />
+            <element signature="e#6052#6534#0" expanded="false" />
+            <element signature="e#6672#7916#0" expanded="false" />
+            <element signature="e#7955#8168#0" expanded="false" />
+            <element signature="e#8264#9648#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -695,13 +646,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_places.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_places.json" />
     <entry file="file://$PROJECT_DIR$/data/intersections.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -730,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alyssaindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vis.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5732">
@@ -751,49 +689,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_author_ids.json" />
+    <entry file="file://$PROJECT_DIR$/data/test_trajectories.json" />
+    <entry file="file://$PROJECT_DIR$/data/test_intersections.json" />
+    <entry file="file://$PROJECT_DIR$/Alyssaindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/Alyssavis.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_author_ids.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_trajectories.json">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_intersections.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="507" column="4" selection-start-line="507" selection-start-column="4" selection-end-line="507" selection-end-column="4" />
-          <folding />
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!block;n#generate_map#0;n#CreateVisualization#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/GenerateJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="329" column="0" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#623#790#0" expanded="false" />
-            <element signature="e#1010#1283#0" expanded="false" />
-            <element signature="e#1795#5167#0" expanded="false" />
-            <element signature="e#6758#8305#0" expanded="false" />
-            <element signature="e#10466#11600#0" expanded="false" />
-            <marker date="1475442835000" expanded="false" signature="5425:5908" ph="..." />
+            <element signature="e#669#836#0" expanded="false" />
+            <element signature="e#1056#1329#0" expanded="false" />
+            <element signature="e#1841#5213#0" expanded="false" />
+            <element signature="e#5325#5803#0" expanded="false" />
+            <element signature="e#6052#6534#0" expanded="false" />
+            <element signature="e#6672#7916#0" expanded="false" />
+            <element signature="e#7955#8168#0" expanded="false" />
+            <element signature="e#8264#9648#0" expanded="false" />
           </folding>
         </state>
       </provider>
