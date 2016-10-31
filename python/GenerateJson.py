@@ -204,7 +204,7 @@ def get_dates_in_place(earliest_date, latest_date):
         if start_year == end_year:
             for month in range(start_month, end_month + 1):
                 if month < 10: date = str(start_year) + '-0' + str(month)
-                else: date = str(year) + '-' + str(month)
+                else: date = str(start_year) + '-' + str(month)
                 dates_in_place.append(date)
             break
 
