@@ -201,6 +201,13 @@ def get_dates_in_place(earliest_date, latest_date):
 
     dates_in_place = []
     for year in range(start_year, end_year + 1):
+        if start_year == end_year:
+            for month in range(start_month, end_month + 1):
+                if month < 10: date = str(start_year) + '-0' + str(month)
+                else: date = str(year) + '-' + str(month)
+                dates_in_place.append(date)
+            break
+
         if year == end_year:
             for month in range(1, end_month + 1):
                 if month < 10: date = str(year) + '-0' + str(month)
@@ -248,25 +255,14 @@ def get_itineraries(author_movements):
     for author_id in author_movements:
         for movement in author_movements[author_id]:
 
-            itinerary_output = {}
-            itinerary_output['AuthorID'] = author_id
-            itinerary_output['EntryIndex'] = movement['EntryIndex']
-            itinerary_output['PlaceID'] = movement['PlaceID']
-            itinerary_output['Notes'] = movement['Notes']
-
-            # original date information (not necessarily in month format)
-            itinerary_output['StartDate'] = movement['StartDate']
-            itinerary_output['StartType'] = movement['StartType']
-            itinerary_output['StartCitation'] = movement['StartCitation']
-            itinerary_output['EndDate'] = movement['EndDate']
-            itinerary_output['EndType'] = movement['EndType']
-            itinerary_output['EndCitation'] = movement['EndCitation']
-
             start_date = date_to_month_format(movement['StartDate'])
             end_date = date_to_month_format(movement['EndDate'])
 
-            if not start_date == '': itineraries[start_date].append(itinerary_output)
-            if not end_date == '': itineraries[end_date].append(itinerary_output)
+            movement['AuthorID'] = author_id
+            if not start_date == '':
+                itineraries[start_date].append(movement)
+            if not start_date == end_date and not end_date == '':
+                itineraries[end_date].append(movement)
 
             # dates_in_place = get_dates_in_place(movement)
             # for date in dates_in_place:
@@ -280,19 +276,21 @@ def get_itineraries(author_movements):
 # If either the current_place and previous_place provided are of type None
 # it does not list the author as in that place for the date range provided
 #-------------------------------------------------------------------------
-def populate_dates_in_place(from_date, to_date, current_place, previous_place, likelihood, author_id, intersections):
+def populate_dates_in_place(from_date, to_date, current_place, current_movement, previous_place, previous_movement, likelihood, author_id, intersections):
     dates_in_place = get_dates_in_place(from_date, to_date)
 
     for date in dates_in_place:
-        intersection_output = {'AuthorID': author_id, 'Likelihood': likelihood}
-
         if not current_place == None:
             if not current_place in intersections[date]: intersections[date][current_place] = []
-            intersections[date][current_place].append(intersection_output)
+            current_movement['AuthorID'] = author_id
+            current_movement['Likelihood'] = likelihood
+            intersections[date][current_place].append(current_movement)
 
         if not previous_place == None:
             if not previous_place in intersections[date]: intersections[date][previous_place] = []
-            intersections[date][previous_place].append(intersection_output)
+            previous_movement['AuthorID'] = author_id
+            previous_movement['Likelihood'] = likelihood
+            intersections[date][previous_place].append(previous_movement)
 
     return intersections
 
@@ -322,9 +320,9 @@ def process_movement(previous_movement, current_movement, author_id, intersectio
     current_place = current_movement['PlaceID']
 
     # current movement has a start date and an end date
-    if not current_movement['StartDate'] == '' and not current_movement['EndDate'] == '':
+    if (not current_movement['StartDate'] == '') and (not current_movement['EndDate'] == ''):
         intersections = populate_dates_in_place(current_movement['StartDate'], current_movement['EndDate'],
-                                                current_place, None, 3, author_id, intersections)
+                                                current_place, current_movement, None, None, 3, author_id, intersections)
 
     # current movement has either a start date or an end date
     elif not previous_movement == None: # not the first row in the CSV
@@ -339,13 +337,13 @@ def process_movement(previous_movement, current_movement, author_id, intersectio
 
         # put an author in place(s) with a likelihood score
         if current_movement['StartType'] == 'arrival' and not previous_movement['EndType'] == 'departure':
-            intersections = populate_dates_in_place(from_date, to_date, None, previous_place, 2, author_id, intersections)
+            intersections = populate_dates_in_place(from_date, to_date, None, None, previous_place, previous_movement, 2, author_id, intersections)
 
         elif not current_movement['StartType'] == 'arrival' and previous_movement['EndType'] == 'departure':
-            intersections = populate_dates_in_place(from_date, to_date, current_place, None, 2, author_id, intersections)
+            intersections = populate_dates_in_place(from_date, to_date, current_place, current_movement, None, None, 2, author_id, intersections)
 
         elif not current_movement['StartType'] == 'arrival':
-            intersections = populate_dates_in_place(from_date, to_date, current_place, previous_place, 1, author_id, intersections)
+            intersections = populate_dates_in_place(from_date, to_date, current_place, current_movement, previous_place, previous_movement, 1, author_id, intersections)
 
     return intersections
 
@@ -373,7 +371,6 @@ def get_intersections(author_movements):
     #             del intersections[date][place]
 
     return intersections
-
 
 
 # ---------------
@@ -419,7 +416,6 @@ with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
 # row['Earliest Month'] = parser.parse(row['Earliest Known Date']).date().month
 # row['Last Year'] = parser.parse(row['Last Known Date']).date().year
 # row['Last Month'] = parser.parse(row['Last Known Date']).date().month
-
 
 # # alternative way to get longitude and latitude information
 # from geopy.geocoders import Nominatim
