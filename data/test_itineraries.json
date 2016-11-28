@@ -2,15 +2,15 @@
     "1930-01": [],
     "1930-02": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 19",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1945",
             "EndType": "departure",
             "EntryIndex": 0,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "basse-pointe_martinique",
-            "StartCitation": "Ngal 19",
+            "StartCitation": "",
             "StartDate": "1930-02-01",
             "StartType": "arrival"
         }
@@ -134,7 +134,21 @@
     "1939-11": [],
     "1939-12": [],
     "1940-01": [],
-    "1940-02": [],
+    "1940-02": [
+        {
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "1946-09",
+            "EndType": "departure",
+            "EntryIndex": 0,
+            "Likelihood": 3,
+            "Notes": "",
+            "PlaceID": "los-angeles_united-states",
+            "StartCitation": "",
+            "StartDate": "1940-02-01",
+            "StartType": "arrival"
+        }
+    ],
     "1940-03": [],
     "1940-04": [],
     "1940-05": [],
@@ -195,15 +209,15 @@
     "1944-12": [],
     "1945-01": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 19",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1945",
             "EndType": "departure",
             "EntryIndex": 0,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "basse-pointe_martinique",
-            "StartCitation": "Ngal 19",
+            "StartCitation": "",
             "StartDate": "1930-02-01",
             "StartType": "arrival"
         }
@@ -229,15 +243,41 @@
     "1946-08": [],
     "1946-09": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Cesaire 18",
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "1946-09",
+            "EndType": "departure",
+            "EntryIndex": 0,
+            "Likelihood": 3,
+            "Notes": "",
+            "PlaceID": "los-angeles_united-states",
+            "StartCitation": "",
+            "StartDate": "1940-02-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mjackson",
+            "EndCitation": "",
             "EndDate": "1946-09",
             "EndType": "latest_presence",
             "EntryIndex": 1,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "paris_france",
-            "StartCitation": "Cesaire 18",
+            "StartCitation": "",
+            "StartDate": "1946-09",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "bdylan",
+            "EndCitation": "",
+            "EndDate": "1946-09",
+            "EndType": "latest_presence",
+            "EntryIndex": 1,
+            "Likelihood": 3,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
             "StartDate": "1946-09",
             "StartType": "earliest_presence"
         }
@@ -245,42 +285,58 @@
     "1946-10": [],
     "1946-11": [],
     "1946-12": [],
-    "1947-01": [],
-    "1947-02": [
+    "1947-01": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 21",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1947-02-13",
             "EndType": "departure",
             "EntryIndex": 2,
+            "Likelihood": 3,
             "Notes": "",
             "PlaceID": "berlin_germany",
-            "StartCitation": "Ngal 20",
-            "StartDate": "1947-10-01",
+            "StartCitation": "",
+            "StartDate": "1947-01-10",
+            "StartType": "arrival"
+        }
+    ],
+    "1947-02": [
+        {
+            "AuthorID": "bdylan",
+            "EndCitation": "",
+            "EndDate": "1947-02-13",
+            "EndType": "departure",
+            "EntryIndex": 2,
+            "Likelihood": 3,
+            "Notes": "",
+            "PlaceID": "berlin_germany",
+            "StartCitation": "",
+            "StartDate": "1947-01-10",
             "StartType": "arrival"
         }
     ],
     "1947-03": [],
-    "1947-04": [],
+    "1947-04": [
+        {
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "1948-04",
+            "EndType": "departure",
+            "EntryIndex": 2,
+            "Likelihood": 3,
+            "Notes": "",
+            "PlaceID": "berlin_germany",
+            "StartCitation": "",
+            "StartDate": "1947-04",
+            "StartType": "arrival"
+        }
+    ],
     "1947-05": [],
     "1947-06": [],
     "1947-07": [],
     "1947-08": [],
     "1947-09": [],
-    "1947-10": [
-        {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 21",
-            "EndDate": "1947-02-13",
-            "EndType": "departure",
-            "EntryIndex": 2,
-            "Notes": "",
-            "PlaceID": "berlin_germany",
-            "StartCitation": "Ngal 20",
-            "StartDate": "1947-10-01",
-            "StartType": "arrival"
-        }
-    ],
+    "1947-10": [],
     "1947-11": [],
     "1947-12": [],
     "1948-01": [],
@@ -288,7 +344,33 @@
     "1948-03": [],
     "1948-04": [
         {
-            "AuthorID": "acesaire",
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "1948-04",
+            "EndType": "departure",
+            "EntryIndex": 2,
+            "Likelihood": 3,
+            "Notes": "",
+            "PlaceID": "berlin_germany",
+            "StartCitation": "",
+            "StartDate": "1947-04",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 3,
+            "Likelihood": 2,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1948-04",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "bdylan",
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
@@ -296,7 +378,7 @@
             "Likelihood": 1,
             "Notes": "",
             "PlaceID": "paris_france",
-            "StartCitation": "Ngal 34",
+            "StartCitation": "",
             "StartDate": "1948-04",
             "StartType": "earliest_presence"
         }
@@ -309,8 +391,8 @@
     "1948-10": [],
     "1948-11": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 20",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1948-11",
             "EndType": "latest_presence",
             "EntryIndex": 4,
@@ -339,7 +421,20 @@
     "1950-02": [],
     "1950-03": [
         {
-            "AuthorID": "acesaire",
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "1959-02",
+            "EndType": "latest_presence",
+            "EntryIndex": 4,
+            "Likelihood": 1,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "",
+            "StartDate": "1950-03",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "bdylan",
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
@@ -347,7 +442,7 @@
             "Likelihood": 1,
             "Notes": "",
             "PlaceID": "miami_united-states",
-            "StartCitation": "Ngal 34",
+            "StartCitation": "",
             "StartDate": "1950-03",
             "StartType": "arrival"
         }
@@ -458,7 +553,21 @@
     "1958-11": [],
     "1958-12": [],
     "1959-01": [],
-    "1959-02": [],
+    "1959-02": [
+        {
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "1959-02",
+            "EndType": "latest_presence",
+            "EntryIndex": 4,
+            "Likelihood": 1,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "",
+            "StartDate": "1950-03",
+            "StartType": "arrival"
+        }
+    ],
     "1959-03": [],
     "1959-04": [],
     "1959-05": [],
@@ -476,8 +585,8 @@
     "1960-05": [],
     "1960-06": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 34",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1960-06",
             "EndType": "latest_presence",
             "EntryIndex": 6,
@@ -531,38 +640,79 @@
     "1963-10": [],
     "1963-11": [],
     "1963-12": [],
-    "1964-01": [],
+    "1964-01": [
+        {
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "1964-01",
+            "EndType": "latest_presence",
+            "EntryIndex": 5,
+            "Likelihood": 2,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "",
+            "StartType": ""
+        }
+    ],
     "1964-02": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 42",
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 6,
+            "Likelihood": 2,
+            "Notes": "",
+            "PlaceID": "new-york-city_united-states",
+            "StartCitation": "",
+            "StartDate": "1964-02",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1964-03",
             "EndType": "departure",
             "EntryIndex": 7,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "new-york-city_united-states",
-            "StartCitation": "Ngal 42",
+            "StartCitation": "",
             "StartDate": "1964-02",
             "StartType": "arrival"
         }
     ],
     "1964-03": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 42",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1964-03",
             "EndType": "departure",
             "EntryIndex": 7,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "new-york-city_united-states",
-            "StartCitation": "Ngal 42",
+            "StartCitation": "",
             "StartDate": "1964-02",
             "StartType": "arrival"
         }
     ],
-    "1964-04": [],
+    "1964-04": [
+        {
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 7,
+            "Likelihood": 1,
+            "Notes": "",
+            "PlaceID": "miami_united-states",
+            "StartCitation": "",
+            "StartDate": "1964-04",
+            "StartType": "arrival"
+        }
+    ],
     "1964-05": [],
     "1964-06": [],
     "1964-07": [],
@@ -573,15 +723,15 @@
     "1964-12": [],
     "1965-01": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 42",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1965-03",
             "EndType": "latest_presence",
             "EntryIndex": 8,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "havana_cuba",
-            "StartCitation": "Ngal 42",
+            "StartCitation": "",
             "StartDate": "1965-01",
             "StartType": "arrival"
         }
@@ -589,28 +739,28 @@
     "1965-02": [],
     "1965-03": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 42",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1965-03",
             "EndType": "latest_presence",
             "EntryIndex": 8,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "havana_cuba",
-            "StartCitation": "Ngal 42",
+            "StartCitation": "",
             "StartDate": "1965-01",
             "StartType": "arrival"
         },
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 43",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1965-10",
             "EndType": "departure",
             "EntryIndex": 9,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "miami_united-states",
-            "StartCitation": "Ngal 43",
+            "StartCitation": "",
             "StartDate": "1965-03",
             "StartType": "earliest_presence"
         }
@@ -623,15 +773,15 @@
     "1965-09": [],
     "1965-10": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 43",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1965-10",
             "EndType": "departure",
             "EntryIndex": 9,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "miami_united-states",
-            "StartCitation": "Ngal 43",
+            "StartCitation": "",
             "StartDate": "1965-03",
             "StartType": "earliest_presence"
         }
@@ -642,12 +792,26 @@
     "1966-02": [],
     "1966-03": [],
     "1966-04": [],
-    "1966-05": [],
+    "1966-05": [
+        {
+            "AuthorID": "mjackson",
+            "EndCitation": "",
+            "EndDate": "1966-05-24",
+            "EndType": "departure",
+            "EntryIndex": 8,
+            "Likelihood": 1,
+            "Notes": "",
+            "PlaceID": "san-francisco_united-states",
+            "StartCitation": "",
+            "StartDate": "",
+            "StartType": ""
+        }
+    ],
     "1966-06": [],
     "1966-07": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 43",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1966-07",
             "EndType": "departure",
             "EntryIndex": 10,
@@ -661,28 +825,28 @@
     ],
     "1966-08": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 43",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1966-08",
             "EndType": "departure",
             "EntryIndex": 11,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "berlin_germany",
-            "StartCitation": "Ngal 43",
+            "StartCitation": "",
             "StartDate": "1966-08",
             "StartType": "arrival"
         },
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 44",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1967-11-02",
             "EndType": "departure",
             "EntryIndex": 12,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "paris_france",
-            "StartCitation": "Ngal 43",
+            "StartCitation": "",
             "StartDate": "1966-08",
             "StartType": "earliest_presence"
         }
@@ -703,15 +867,15 @@
     "1967-10": [],
     "1967-11": [
         {
-            "AuthorID": "acesaire",
-            "EndCitation": "Ngal 44",
+            "AuthorID": "bdylan",
+            "EndCitation": "",
             "EndDate": "1967-11-02",
             "EndType": "departure",
             "EntryIndex": 12,
             "Likelihood": 3,
             "Notes": "",
             "PlaceID": "paris_france",
-            "StartCitation": "Ngal 43",
+            "StartCitation": "",
             "StartDate": "1966-08",
             "StartType": "earliest_presence"
         }

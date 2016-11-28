@@ -155,13 +155,18 @@ class CreateVisualization {
 // process_data();
 
 
-queue()
-	.defer(d3.json, 'data/continents.json')
-	.defer(d3.json, 'data/test_trajectories.json')
-	.awaitAll(makeMyMap);
+d3.json('data/continents.json', function(json_data){
+    console.log('hi');
+});
 
-function makeMyMap() {
-    console.log('hello')
-}
+// d3_queue.queue()
+//     .defer(d3.json, 'data/continents.json')
+// 	.awaitAll(makeMyMap);
+//
+//
+// function makeMyMap() {
+//     console.log('hi');
+// }
+
 
 // var vis = new CreateVisualization();

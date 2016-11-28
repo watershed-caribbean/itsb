@@ -10,7 +10,7 @@ from operator import itemgetter
 # Settings
 # ---------
 
-CSV_LOCATION = os.getcwd() + '/raw-data/'
+CSV_LOCATION = os.getcwd() + '/test-data/'
 AUTHOR_ID_JSON = os.path.dirname(os.getcwd()) + '/data/test_author_ids.json'
 ITINERARIES_JSON = os.path.dirname(os.getcwd()) + '/data/test_itineraries.json'
 INTERSECTIONS_JSON = os.path.dirname(os.getcwd()) + '/data/test_intersections.json'

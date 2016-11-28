@@ -14,6 +14,16 @@
         "Long": -82.38304,
         "PlaceID": "havana_cuba"
     },
+    "London, England": {
+        "Lat": 51.50853,
+        "Long": -0.12574,
+        "PlaceID": "london_england"
+    },
+    "Los Angeles, United States": {
+        "Lat": 34.05223,
+        "Long": -118.24368,
+        "PlaceID": "los-angeles_united-states"
+    },
     "Miami, United States": {
         "Lat": 25.79065,
         "Long": -80.13005,
@@ -28,5 +38,10 @@
         "Lat": 48.85341,
         "Long": 2.3488,
         "PlaceID": "paris_france"
+    },
+    "San Francisco, United States": {
+        "Lat": 37.77493,
+        "Long": -122.41942,
+        "PlaceID": "san-francisco_united-states"
     }
 }
