@@ -106,11 +106,11 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
                     if not row['Arrival'] == '': # start is arrival
                         movement['StartDate'] = row['Arrival']
                         movement['StartType'] = 'arrival'
-                        movement['StartCitation'] = row['Arrival Citation']
+                        movement['StartCitation'] = row['Citation 1']
                     elif not row['Earliest Presence'] == '': # start is earliest presence
                         movement['StartDate'] = row['Earliest Presence']
                         movement['StartType'] = 'earliest_presence'
-                        movement['StartCitation'] = row['Earliest Presence Citation']
+                        movement['StartCitation'] = row['Citation 1']
                     else: # start unavailable
                         movement['StartDate'] = ''
                         movement['StartType'] = ''
@@ -120,11 +120,11 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
                     if not row['Departure'] == '': # end is departure
                         movement['EndDate'] = row['Departure']
                         movement['EndType'] = 'departure'
-                        movement['EndCitation'] = row['Departure Citation']
+                        movement['EndCitation'] = row['Citation 2']
                     elif not row['Latest Presence'] == '': # end is latest presence
                         movement['EndDate'] = row['Latest Presence']
                         movement['EndType'] = 'latest_presence'
-                        movement['EndCitation'] = row['Latest Presence Citation']
+                        movement['EndCitation'] = row['Citation 2']
                     else: # end unavailable
                         movement['EndDate'] =''
                         movement['EndType'] = ''
