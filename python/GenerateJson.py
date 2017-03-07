@@ -6,15 +6,19 @@ from geopy import geocoders
 from operator import itemgetter
 
 
+## TO DO ##
+## add State/Province/County information for location data ##
+
+
 # ---------
 # Settings
 # ---------
 
-CSV_LOCATION = os.getcwd() + '/test-data/'
-AUTHOR_ID_JSON = os.path.dirname(os.getcwd()) + '/data/test_author_ids.json'
-ITINERARIES_JSON = os.path.dirname(os.getcwd()) + '/data/test_itineraries.json'
-INTERSECTIONS_JSON = os.path.dirname(os.getcwd()) + '/data/test_intersections.json'
-PLACES_JSON = os.path.dirname(os.getcwd()) + '/data/test_places.json'
+CSV_LOCATION = os.getcwd() + '/raw-data/'
+AUTHOR_ID_JSON = os.path.dirname(os.getcwd()) + '/data/three_author_ids.json'
+ITINERARIES_JSON = os.path.dirname(os.getcwd()) + '/data/three_itineraries.json'
+INTERSECTIONS_JSON = os.path.dirname(os.getcwd()) + '/data/three_intersections.json'
+PLACES_JSON = os.path.dirname(os.getcwd()) + '/data/three_places.json'
 GEONAMES_USERNAME = 'alyv'
 
 

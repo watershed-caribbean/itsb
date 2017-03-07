@@ -3,43 +3,50 @@
 <head>
 	<meta charset="UTF-8">
 
-	<title>In the Same Boats</title>
+	<title>TEST In the Same Boats</title>
 
 	<!-- stylesheets -->
 	<link rel='stylesheet' type='text/css' href='css/style.css' />
-	<link rel='stylesheet' type='text/css' href='css/daterange.css' />
+	<link rel='stylesheet' type='text/css' href='css/d3.slider.css' />
 
 	<!-- local -->
-	<script type='text/javascript' src='js/libs/jquery-1.10.2.min.js'></script>
-	<script type='text/javascript' src='js/libs/jquery-ui.min.js'></script> 
 	<script type='text/javascript' src='js/libs/d3.v3.min.js'></script>
 	<script type='text/javascript' src='js/libs/topojson.js'></script>
-	<script type='text/javascript' src='js/libs/index.js'></script>
+	<script type='text/javascript' src='js/libs/d3.slider.js'></script>
+	<script type='text/javascript' src='js/libs/d3-collection.v1.min.js'></script>
 </head>
 <body>
+
+    <div id='nav_top'>
+        <div id='title' class='float'>
+            <span>In the Same Boats</span>
+        </div>
+        <div id='_01' class='tab float selected'><span>Intersections &amp; Trajectories</span></div>
+        <div id='_02' class='tab float'><span>Itineraries</span></div>
+        <div id='date_display' class='tab float _01'><span class='b'>SELECTED RANGE</span><span id='date_start'></span><span>&nbsp;&ndash;&nbsp;</span><span id='date_end'></span></div>
+    </div>
+
+	<div class='_01'>
+		<div id='sidebar' class='control'>
+			<div id='sidebar_01' class='sidebar_tab selected'><span>Intersections</span></div>
+			<div id='sidebar_02' class='sidebar_tab'><span>Trajectories</span></div>
+			<div id='sidebar_title' class='sidebar_item'></div>
+			<div id='sidebar_items' class='sidebar_item'>
+			</div>
+		</div>
+		<div id='slider' class='control'>
+			<div class='slider_body'></div>
+		</div>
+	</div>
+
+    <div class='_02'>
+        <div id='itineraries' class='control'>
+            <div id='nav_padding'></div>
+            <div id='left_itinerary'></div>
+            <div id='right_itinerary'></div>
+        </div>
+    </div>
+
 	<div id='container'></div>
-	<div id='sidebar'>
-		<div id='title'>
-			<span>In the Same Boats</span>
-		</div>
-		<div id='nav_place' class='block'>
-			<span></span>
-		</div>
-		<div id='nav_tabcontrol' class='block half'>
-			<span class='btn' id='trajectories'>Trajectories</span>
-			<span class='btn' id='authors'>Authors</span>
-		</div>
-		<div id='nav_auth' class='block'></div>
-		<div id='nav_legend' class='block'>
-			<span>Legend</span>
-			<svg></svg>
-		</div>
-	</div>
-	<div id="time-range">
-	    <p><span class='time-label'>Selected Range&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="slider-time"></span>&nbsp;&ndash;&nbsp;<span class="slider-time2"></span></p>
-	    <div class="sliders_step1">
-	        <div id="slider-range"></div>
-	    </div>
-	</div>
-	<script type='text/javascript' src='js/vis.js'></script>
+	<script type='text/javascript' src='js/visTest.js'></script>
 </body>

@@ -1,14 +1,14 @@
 class CreateMap {
 	
 	constructor(){
-
 		this.data = {};
 
 		this.itineraries = {};
 		this.trajectories = {};
 		this.intersections = {};
 		this.places = {};
-		this.authors = {};
+		this.authors = {};  // {author_id: author_name}
+        this.author_names = {}; // {author_name: author_id}
 		this.continents = {};
 
 		//store screen height and width
@@ -80,6 +80,7 @@ class CreateMap {
 		//authors
 		d3.keys(self.data.author_ids).forEach(function(k){
 			self.authors[self.data.author_ids[k]] = k;
+            self.author_names[k] = self.data.author_ids[k];
 		});
 
 		//intersections
@@ -108,7 +109,41 @@ class CreateMap {
 			.append('svg')
 			.attr('width',this.width);
 
-		tabs.on('click',function(d){
+        // Create left figure drop-down selector
+        d3.select('#left_itinerary')
+            .append('select')
+            .attr('id','left_select')
+            .on('change', function(){ self.route_change('left'); })
+            .selectAll('option')
+            .data(d3.keys(self.author_names)).enter()
+            .append('option')
+            .text(function (d) { return d; });
+
+        // Create left div for figure route
+        d3.select('#left_itinerary')
+            .append('div')
+            .attr('id', 'left_route');
+
+        self.route_change('left');
+
+        // Create right figure drop-down selector
+        d3.select('#right_itinerary')
+            .append('select')
+            .attr('id', 'right_select')
+            .on('change', function(){ self.route_change('right'); })
+            .selectAll('option')
+            .data(d3.keys(self.author_names)).enter()
+            .append('option')
+            .text(function (d) { return d; });
+
+        // Create right div for figure route
+        d3.select('#right_itinerary')
+            .append('div')
+            .attr('id', 'right_route');
+
+        self.route_change('right');
+
+        tabs.on('click',function(d){
 			var elem = d3.select(this),
 					id = +elem.attr('id').split('_')[1];
 			
@@ -120,6 +155,7 @@ class CreateMap {
 	}
 
 	generate(){
+	    this.tear_down();
 		if(this.mode === 1){
 			this.generate_map();
 		} else{
@@ -578,144 +614,163 @@ class CreateMap {
 		generate_sidebar();
 	}
 
+    route_change(_side){
+        console.log(_side);
+
+        var author_name = d3.select('#'+_side+'_select').property('value');
+        var author_id = this.author_names[author_name];
+        var route_id = '#'+_side+'_route';
+
+        d3.select(route_id)
+            .text(author_id);
+
+        // ... tear down what is currently in the route ??
+
+        // add the data for that route :D
+
+    }
+
 	generate_routes(){
-		var self = this;
-		var visH = this.height*6;
-		this.svg.attr('height',visH);
+	    console.log('GENERATE ROUTES!!');
 
-		//translate days to distance
-		var routes_scale = d3.time.scale()
-				.domain(this.range)
-				.range([0,visH -150 -60]);
-		var routes_g,
-				routes_lines_bknd,
-				routes_labels,
-				routes_lines,
-				routes_stops,
-				routes_points,
-				routes_points_labels;
-		var routes_rad = 3;
-
-		//reset range of scale to fit selection
-		var starts = [],
-				ends = [];
-		d3.keys(self.itineraries).forEach(function(d){
-			starts.push(d3.min(self.itineraries[d],function(_d){return (new Date(_d.StartDate));}));
-			// ends.push(d3.max(self.itineraries[d],function(_d){return (new Date(_d.EndDate));}));
-		});
-		routes_scale.domain([
-			d3.min(starts,function(d){return d;}),
-			this.range[1]
-			// d3.max(ends,function(d){return d;})
-		]);
-
-		//route countainers
-		routes_g = this.svg.selectAll('g.routes_g')
-			.data(d3.keys(self.itineraries));
-		routes_g.enter().append('g')
-			.classed('routes_g',true);
-		routes_g
-			.attr('class',function(d){
-				return 'routes_g id_' +d3.keys(self.authors).indexOf(d);
-			})
-			.attr('transform',function(d,i){
-				var x = i*(self.width/2),
-						y = 150;
-				return 'translate(' +x +',' +y +')';
-			});
-		routes_g.exit().remove();
-
-		//background lines
-		routes_lines_bknd = routes_g.selectAll('line.routes_lines_bknd')
-			.data(function(d){ return self.itineraries[d]; });
-		routes_lines_bknd.enter().append('line')
-			.classed('routes_lines_bknd',true);
-		routes_lines_bknd
-			.attr('x1',self.width/4)
-			.attr('y1',function(d,i){
-				return routes_scale(routes_scale.domain()[0]);
-			})
-			.attr('x2',self.width/4)
-			.attr('y2',function(d,i){
-				return routes_scale(routes_scale.domain()[1]);
-			});
-		routes_lines_bknd.exit().remove();
-
-		//names
-		routes_labels = routes_g.selectAll('text.routes_labels')
-			.data(function(d){ return [d]; });
-		routes_labels.enter().append('text')
-			.classed('routes_labels',true);
-		routes_labels
-			.attr('x',self.width/4)
-			.attr('y',-30)
-			.text(function(d){ return self.authors[d]; });
-		routes_labels.exit().remove();
-
-		//lines
-		routes_lines = routes_g.selectAll('line.routes_lines')
-			.data(function(d){ return self.itineraries[d]; });
-		routes_lines.enter().append('line')
-			.classed('routes_lines',true);
-		routes_lines
-			.attr('class',function(d){
-				return 'routes_lines id_' +d3.keys(self.authors).indexOf(d.AuthorID);
-			})
-			.attr('x1',self.width/4)
-			.attr('y1',function(d,i){
-				return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
-			})
-			.attr('x2',self.width/4)
-			.attr('y2',function(d,i){
-				return d.EndDate ? routes_scale(new Date(d.EndDate)) : routes_scale(new Date(d.StartDate));
-			});
-		routes_lines.exit().remove();
-
-		//pointers
-		routes_points = routes_g.selectAll('line.routes_points')
-			.data(function(d){ return self.itineraries[d]; });
-		routes_points.enter().append('line')
-			.classed('routes_points',true);
-		routes_points
-			.attr('x1',self.width/4 -15)
-			.attr('y1',function(d,i){
-				return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
-			})
-			.attr('x2',self.width/4 +45)
-			.attr('y2',function(d,i){
-				return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
-			});
-		routes_points.exit().remove();
-
-		//stops
-		routes_stops = routes_g.selectAll('circle.routes_stops')
-			.data(function(d){ return self.itineraries[d]; });
-		routes_stops.enter().append('circle')
-			.classed('routes_stops',true);
-		routes_stops
-			.attr('cx',self.width/4 +45)
-			.attr('cy',function(d,i){
-				return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
-			})
-			.attr('r',routes_rad);
-		routes_stops.exit().remove();
-
-		//points labels
-		routes_points_labels = routes_g.selectAll('text.routes_points_labels')
-			.data(function(d){ return self.itineraries[d]; });
-		routes_points_labels.enter().append('text')
-			.classed('routes_points_labels',true);
-		routes_points_labels
-			.attr('x',self.width/4 +60)
-			.attr('y',function(d,i){
-				return (d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate))) +4;
-			})
-			.text(function(d){
-				var t1 = d.StartDate || 'Unknown',
-						t2 = d.EndDate || 'Unknown';
-				return self.places[d.PlaceID].PlaceName + ' (' +t1 +' to ' +t2 +')';
-			});
-		routes_points_labels.exit().remove();
+        // var self = this;
+		// var visH = this.height*6;
+		// this.svg.attr('height',visH);
+        //
+		// //translate days to distance
+		// var routes_scale = d3.time.scale()
+		// 		.domain(this.range)
+		// 		.range([0,visH -150 -60]);
+		// var routes_g,
+		// 		routes_lines_bknd,
+		// 		routes_labels,
+		// 		routes_lines,
+		// 		routes_stops,
+		// 		routes_points,
+		// 		routes_points_labels;
+		// var routes_rad = 3;
+        //
+		// //reset range of scale to fit selection
+		// var starts = [],
+		// 		ends = [];
+		// d3.keys(self.itineraries).forEach(function(d){
+		// 	starts.push(d3.min(self.itineraries[d],function(_d){return (new Date(_d.StartDate));}));
+		// 	// ends.push(d3.max(self.itineraries[d],function(_d){return (new Date(_d.EndDate));}));
+		// });
+        //
+		// routes_scale.domain([
+		// 	d3.min(starts,function(d){return d;}),
+		// 	this.range[1]
+		// 	// d3.max(ends,function(d){return d;})
+		// ]);
+        //
+		// //route containers
+		// routes_g = this.svg.selectAll('g.routes_g')
+		// 	.data(d3.keys(self.itineraries));
+		// routes_g.enter().append('g')
+		// 	.classed('routes_g',true);
+		// routes_g
+		// 	.attr('class',function(d){
+		// 		return 'routes_g id_' +d3.keys(self.authors).indexOf(d);
+		// 	})
+		// 	.attr('transform',function(d,i){
+		// 		var x = i*(self.width/2),
+		// 				y = 150;
+		// 		return 'translate(' +x +',' +y +')';
+		// 	});
+		// routes_g.exit().remove();
+        //
+		// //background lines
+		// routes_lines_bknd = routes_g.selectAll('line.routes_lines_bknd')
+		// 	.data(function(d){ return self.itineraries[d]; });
+		// routes_lines_bknd.enter().append('line')
+		// 	.classed('routes_lines_bknd',true);
+		// routes_lines_bknd
+		// 	.attr('x1',self.width/4)
+		// 	.attr('y1',function(d,i){
+		// 		return routes_scale(routes_scale.domain()[0]);
+		// 	})
+		// 	.attr('x2',self.width/4)
+		// 	.attr('y2',function(d,i){
+		// 		return routes_scale(routes_scale.domain()[1]);
+		// 	});
+		// routes_lines_bknd.exit().remove();
+        //
+		// //names
+		// routes_labels = routes_g.selectAll('text.routes_labels')
+		// 	.data(function(d){ return [d]; });
+		// routes_labels.enter().append('text')
+		// 	.classed('routes_labels',true);
+		// routes_labels
+		// 	.attr('x',self.width/4)
+		// 	.attr('y',-30)
+		// 	.text(function(d){ return self.authors[d]; });
+		// routes_labels.exit().remove();
+        //
+		// //lines
+		// routes_lines = routes_g.selectAll('line.routes_lines')
+		// 	.data(function(d){ return self.itineraries[d]; });
+		// routes_lines.enter().append('line')
+		// 	.classed('routes_lines',true);
+		// routes_lines
+		// 	.attr('class',function(d){
+		// 		return 'routes_lines id_' +d3.keys(self.authors).indexOf(d.AuthorID);
+		// 	})
+		// 	.attr('x1',self.width/4)
+		// 	.attr('y1',function(d,i){
+		// 		return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
+		// 	})
+		// 	.attr('x2',self.width/4)
+		// 	.attr('y2',function(d,i){
+		// 		return d.EndDate ? routes_scale(new Date(d.EndDate)) : routes_scale(new Date(d.StartDate));
+		// 	});
+		// routes_lines.exit().remove();
+        //
+		// //pointers
+		// routes_points = routes_g.selectAll('line.routes_points')
+		// 	.data(function(d){ return self.itineraries[d]; });
+		// routes_points.enter().append('line')
+		// 	.classed('routes_points',true);
+		// routes_points
+		// 	.attr('x1',self.width/4 -15)
+		// 	.attr('y1',function(d,i){
+		// 		return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
+		// 	})
+		// 	.attr('x2',self.width/4 +45)
+		// 	.attr('y2',function(d,i){
+		// 		return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
+		// 	});
+		// routes_points.exit().remove();
+        //
+		// //stops
+		// routes_stops = routes_g.selectAll('circle.routes_stops')
+		// 	.data(function(d){ return self.itineraries[d]; });
+		// routes_stops.enter().append('circle')
+		// 	.classed('routes_stops',true);
+		// routes_stops
+		// 	.attr('cx',self.width/4 +45)
+		// 	.attr('cy',function(d,i){
+		// 		return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
+		// 	})
+		// 	.attr('r',routes_rad);
+		// routes_stops.exit().remove();
+        //
+		// //points labels
+		// routes_points_labels = routes_g.selectAll('text.routes_points_labels')
+		// 	.data(function(d){ return self.itineraries[d]; });
+		// routes_points_labels.enter().append('text')
+		// 	.classed('routes_points_labels',true);
+		// routes_points_labels
+		// 	.attr('x',self.width/4 +60)
+		// 	.attr('y',function(d,i){
+		// 		return (d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate))) +4;
+		// 	})
+		// 	.text(function(d){
+		// 		var t1 = d.StartDate || 'Unknown',
+		// 				t2 = d.EndDate || 'Unknown';
+		// 		return self.places[d.PlaceID].PlaceName + ' (' +t1 +' to ' +t2 +')';
+		// 	});
+		// routes_points_labels.exit().remove();
 	}
 
 	switch_mode(_id){

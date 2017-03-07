@@ -1,4 +1,14 @@
 {
+    "Abidjan, Ivory Coast": {
+        "Lat": 5.30966,
+        "Long": -4.01266,
+        "PlaceID": "abidjan_ivory-coast"
+    },
+    "Addis-Abeba, Ethiopia": {
+        "Lat": 9.02497,
+        "Long": 38.74689,
+        "PlaceID": "addis-abeba_ethiopia"
+    },
     "Algiers , Algeria": {
         "Lat": 36.7525,
         "Long": 3.04197,
@@ -9,6 +19,26 @@
         "Long": 1.24088,
         "PlaceID": "andé_france"
     },
+    "Angoulême, France": {
+        "Lat": 45.65,
+        "Long": 0.15,
+        "PlaceID": "angoulême_france"
+    },
+    "Auschwitz, Poland": {
+        "Lat": 50.03437,
+        "Long": 19.21037,
+        "PlaceID": "auschwitz_poland"
+    },
+    "Avignon, France": {
+        "Lat": 43.94834,
+        "Long": 4.80892,
+        "PlaceID": "avignon_france"
+    },
+    "Basse-Pointe, Martinique": {
+        "Lat": 14.86954,
+        "Long": -61.11504,
+        "PlaceID": "basse-pointe_martinique"
+    },
     "Beijing, China": {
         "Lat": 39.9075,
         "Long": 116.39723,
@@ -18,6 +48,16 @@
         "Lat": 52.52437,
         "Long": 13.41053,
         "PlaceID": "berlin_germany"
+    },
+    "Brussels, Belgium": {
+        "Lat": 50.85045,
+        "Long": 4.34878,
+        "PlaceID": "brussels_belgium"
+    },
+    "Bucarest, Romania": {
+        "Lat": 44.43225,
+        "Long": 26.10626,
+        "PlaceID": "bucarest_romania"
     },
     "Buenos Aires, Argentina": {
         "Lat": -34.61315,
@@ -34,10 +74,25 @@
         "Long": 19.91975,
         "PlaceID": "corfu_greece"
     },
+    "Dakar, Senegal": {
+        "Lat": 14.6937,
+        "Long": -17.44406,
+        "PlaceID": "dakar_senegal"
+    },
+    "Eschenau, Austria": {
+        "Lat": 48.38955,
+        "Long": 13.82089,
+        "PlaceID": "eschenau_austria"
+    },
     "Fort-de-France, Martinique": {
         "Lat": 14.60892,
         "Long": -61.07334,
         "PlaceID": "fort-de-france_martinique"
+    },
+    "Geneva, Switzerland": {
+        "Lat": 46.20222,
+        "Long": 6.14569,
+        "PlaceID": "geneva_switzerland"
     },
     "Genoa, Italy": {
         "Lat": 44.4264,
@@ -48,6 +103,11 @@
         "Lat": 21.0245,
         "Long": 105.84117,
         "PlaceID": "hanoi_vietnam"
+    },
+    "Hanover, Germany": {
+        "Lat": 52.37052,
+        "Long": 9.73322,
+        "PlaceID": "hanover_germany"
     },
     "Havana, Cuba": {
         "Lat": 23.13302,
@@ -89,10 +149,25 @@
         "Long": 9.18951,
         "PlaceID": "milan_italy"
     },
+    "Montreal, Canada": {
+        "Lat": 45.50884,
+        "Long": -73.58781,
+        "PlaceID": "montreal_canada"
+    },
     "Moscow, Russia": {
         "Lat": 55.75222,
         "Long": 37.61556,
         "PlaceID": "moscow_russia"
+    },
+    "Munich, Germany": {
+        "Lat": 48.13743,
+        "Long": 11.57549,
+        "PlaceID": "munich_germany"
+    },
+    "Naples, Italy": {
+        "Lat": 40.85631,
+        "Long": 14.24641,
+        "PlaceID": "naples_italy"
     },
     "New York City, United States": {
         "Lat": 40.71427,
@@ -119,15 +194,35 @@
         "Long": -72.335,
         "PlaceID": "port-au-prince_haiti"
     },
+    "Port-of-Spain, Trinidad": {
+        "Lat": 10.6856,
+        "Long": -61.5275,
+        "PlaceID": "port-of-spain_trinidad"
+    },
     "Prague, Czech Republic": {
         "Lat": 50.08804,
         "Long": 14.42076,
         "PlaceID": "prague_czech-republic"
     },
     "Quebec, Canada": {
-        "Lat": 46.81228,
-        "Long": -71.21454,
+        "Lat": 52.00017,
+        "Long": -71.99907,
         "PlaceID": "quebec_canada"
+    },
+    "Rome, Italy": {
+        "Lat": 41.89193,
+        "Long": 12.51133,
+        "PlaceID": "rome_italy"
+    },
+    "Salvador de Bahia, Brazil": {
+        "Lat": -12.97111,
+        "Long": -38.51083,
+        "PlaceID": "salvador-de-bahia_brazil"
+    },
+    "Salzburg, Austria": {
+        "Lat": 47.79941,
+        "Long": 13.04399,
+        "PlaceID": "salzburg_austria"
     },
     "Santiago, Chile": {
         "Lat": -33.45694,
@@ -154,9 +249,24 @@
         "Long": -61.76786,
         "PlaceID": "true-blue_grenada"
     },
+    "Venice, Italy": {
+        "Lat": 45.43713,
+        "Long": 12.33265,
+        "PlaceID": "venice_italy"
+    },
     "Vienna, Austria": {
         "Lat": 48.20849,
         "Long": 16.37208,
         "PlaceID": "vienna_austria"
+    },
+    "Wroclaw, Poland": {
+        "Lat": 51.1,
+        "Long": 17.03333,
+        "PlaceID": "wroclaw_poland"
+    },
+    "Šibenik, Croatia": {
+        "Lat": 43.72722,
+        "Long": 15.90583,
+        "PlaceID": "šibenik_croatia"
     }
 }
