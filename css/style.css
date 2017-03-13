@@ -264,31 +264,31 @@ path.line {
 
 /* Routes */
 
-text.routes_labels {
+text.route_label {
 	font-size:18px;
 	font-weight:bold;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	text-anchor:middle;
 }
-text.routes_points_labels {
+text.route_point_label {
 	font-size:11px;
 	letter-spacing:1px;
 	fill:#aaa;
 }
-line.routes_lines_bknd {
+line.route_line_background {
 	stroke:#ddd;
 	stroke-width:30;
 }
-line.routes_lines {
+line.route_line {
 	stroke-width:30;
 }
-line.routes_points {
+line.route_points {
 	stroke:#aaa;
 	stroke-width:1;
 	stroke-dasharray:1,1;
 }
-circle.routes_stops {
+circle.route_stop {
 	/*stroke:black;*/
 	fill:white;
 	stroke:#aaa;
