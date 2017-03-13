@@ -642,7 +642,7 @@ class CreateMap {
         var route_g = curr_svg.selectAll('g.route_g').data(author_id);
         route_g.enter().append('g').classed('route_g',true);
         route_g
-            .attr('class', 'route_g id_' + author_id)
+            .attr('class', 'route_g author_' + _side)
             .attr('transform', function(d,i){
                 var x = i*(self.width/2),
                     y = 150;
@@ -674,7 +674,7 @@ class CreateMap {
         var route_line = route_g.selectAll('line.route_line').data(self.itineraries[author_id]);
         route_line.enter().append('line').classed('route_line',true);
         route_line
-            .attr('class', 'route_line id_' + author_id)
+            .attr('class', 'route_line author_' + _side)
             .attr('x1',self.width/4)
             .attr('y1',function(d, i){
                 return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));

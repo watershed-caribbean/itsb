@@ -335,6 +335,29 @@ path.line {
 }
 
 /* Colors */
+.author_left {
+    fill:#fb9a99;
+    color:#fb9a99;
+}
+.author_left path,
+path.author_left,
+line.author_left {
+    fill:none;
+    stroke:#fb9a99;
+}
+
+.author_right {
+    fill:#b2df8a;
+    color:#b2df8a;
+}
+.author_right path,
+path.author_right,
+line.author_right {
+    fill:none;
+    stroke:#b2df8a;
+}
+
+
 
 .id_0 {
 	fill:#fb9a99;
