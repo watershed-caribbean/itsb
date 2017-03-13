@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e5eed05-93b6-4030-9890-0ea0bbf2ade3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/alyssa-learningD3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/alyssa-vis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old-index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/old-raw-data/.Rapp.history" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/old-raw-data/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/old-raw-data/Test1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/old-raw-data/Test2.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/visTest.js" afterPath="$PROJECT_DIR$/js/visTest.js" />
@@ -35,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="585">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,22 +38,20 @@
       <file leaf-file-name="visTest.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/visTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3040">
-              <caret line="782" column="0" selection-start-line="782" selection-start-column="0" selection-end-line="782" selection-end-column="0" />
+            <state relative-caret-position="236">
+              <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#constructor#0;n#CreateMap#0" expanded="false" />
                 <element signature="n#!!block;n#loading_manager#0;n#CreateMap#0" expanded="false" />
                 <element signature="n#!!block;n#get_data#0;n#CreateMap#0" expanded="false" />
                 <element signature="n#!!block;n#process_data#0;n#CreateMap#0" expanded="false" />
-                <element signature="n#!!block;n#setup#0;n#CreateMap#0" expanded="false" />
                 <element signature="n#!!block;n#generate#0;n#CreateMap#0" expanded="false" />
                 <element signature="n#!!block;n#generate_map#0;n#CreateMap#0" expanded="false" />
                 <element signature="n#!!block;n#switch_mode#0;n#CreateMap#0" expanded="false" />
                 <element signature="n#!!block;n#tear_down#0;n#CreateMap#0" expanded="false" />
-                <element signature="e#23592#23608#0" expanded="false" />
-                <marker date="1489381388000" expanded="true" signature="16796:16802" ph=" " />
-                <marker date="1489381388000" expanded="true" signature="16802:16808" ph="→" />
-                <marker date="1489381388000" expanded="true" signature="16808:16814" ph=" " />
+                <marker date="1489386013000" expanded="true" signature="16788:16794" ph=" " />
+                <marker date="1489386013000" expanded="true" signature="16794:16800" ph="→" />
+                <marker date="1489386013000" expanded="true" signature="16800:16806" ph=" " />
               </folding>
             </state>
           </provider>
@@ -69,8 +60,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="285" column="19" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="19" />
+            <state relative-caret-position="256">
+              <caret line="95" column="10" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -100,8 +91,8 @@
         <option value="$PROJECT_DIR$/Alyssaindex.html" />
         <option value="$PROJECT_DIR$/js/Alyssavis.js" />
         <option value="$PROJECT_DIR$/python/GenerateJson.py" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/visTest.js" />
       </list>
     </option>
@@ -113,10 +104,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="y" value="23" />
-    <option name="width" value="1371" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -151,6 +140,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alyssa/Desktop/itsb/data/__trajectories.json" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="false" name="GenerateJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -239,15 +229,15 @@
       <option name="presentableId" value="Default" />
       <updated>1470671325664</updated>
       <workItem from="1472669321913" duration="23667000" />
-      <workItem from="1489351782895" duration="12573000" />
+      <workItem from="1489351782895" duration="17045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36240000" />
+    <option name="totallyTimeSpent" value="40712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="23" width="1371" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -303,7 +293,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -584,40 +574,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="95" column="10" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="285" column="19" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="19" />
+        <state relative-caret-position="585">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/visTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3040">
-          <caret line="782" column="0" selection-start-line="782" selection-start-column="0" selection-end-line="782" selection-end-column="0" />
+        <state relative-caret-position="236">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#constructor#0;n#CreateMap#0" expanded="false" />
             <element signature="n#!!block;n#loading_manager#0;n#CreateMap#0" expanded="false" />
             <element signature="n#!!block;n#get_data#0;n#CreateMap#0" expanded="false" />
             <element signature="n#!!block;n#process_data#0;n#CreateMap#0" expanded="false" />
-            <element signature="n#!!block;n#setup#0;n#CreateMap#0" expanded="false" />
             <element signature="n#!!block;n#generate#0;n#CreateMap#0" expanded="false" />
             <element signature="n#!!block;n#generate_map#0;n#CreateMap#0" expanded="false" />
             <element signature="n#!!block;n#switch_mode#0;n#CreateMap#0" expanded="false" />
             <element signature="n#!!block;n#tear_down#0;n#CreateMap#0" expanded="false" />
-            <element signature="e#23592#23608#0" expanded="false" />
-            <marker date="1489381388000" expanded="true" signature="16796:16802" ph=" " />
-            <marker date="1489381388000" expanded="true" signature="16802:16808" ph="→" />
-            <marker date="1489381388000" expanded="true" signature="16808:16814" ph=" " />
+            <marker date="1489386013000" expanded="true" signature="16788:16794" ph=" " />
+            <marker date="1489386013000" expanded="true" signature="16794:16800" ph="→" />
+            <marker date="1489386013000" expanded="true" signature="16800:16806" ph=" " />
           </folding>
         </state>
       </provider>

@@ -271,7 +271,7 @@ text.route_label {
 	letter-spacing:1px;
 	text-anchor:middle;
 }
-text.route_point_label {
+text.route_point_labels {
 	font-size:11px;
 	letter-spacing:1px;
 	fill:#aaa;
@@ -288,7 +288,7 @@ line.route_points {
 	stroke-width:1;
 	stroke-dasharray:1,1;
 }
-circle.route_stop {
+circle.route_stops {
 	/*stroke:black;*/
 	fill:white;
 	stroke:#aaa;
@@ -296,6 +296,42 @@ circle.route_stop {
 }
 path.line {
 	fill:none;
+}
+
+
+/* OLD ROUTES */
+text.routes_labels {
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-anchor:middle;
+}
+text.routes_points_labels {
+    font-size:11px;
+    letter-spacing:1px;
+    fill:#aaa;
+}
+line.routes_lines_bknd {
+    stroke:#ddd;
+    stroke-width:30;
+}
+line.routes_lines {
+    stroke-width:30;
+}
+line.routes_points {
+    stroke:#aaa;
+    stroke-width:1;
+    stroke-dasharray:1,1;
+}
+circle.routes_stops {
+    /*stroke:black;*/
+    fill:white;
+    stroke:#aaa;
+    stroke-width:2;
+}
+path.line {
+    fill:none;
 }
 
 /* Colors */
@@ -356,11 +392,12 @@ line.id_2 {
 
 #left_itinerary {
 	float: left;
-	width: 600px;
+	width: 700px;
 }
 
 #right_itinerary {
-	margin-left: 620px;
+	margin-left: 720px;
+    width: 700px;
 }
 
 /*

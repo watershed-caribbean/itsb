@@ -187,14 +187,12 @@ class CreateMap {
 
 		//slider
 		var scale = d3.time.scale()
-			.domain(this.range)
-			;
+			.domain(this.range);
 		var scale_axis = d3.svg.axis()
 			.orient('right')
 			.ticks(20)
 			.tickSize(30)
-			.tickPadding(12)
-			;
+			.tickPadding(12);
 		var slide = d3.slider()
 			.scale(scale)
 			.axis(scale_axis)
@@ -614,13 +612,7 @@ class CreateMap {
 		generate_sidebar();
 	}
 
-    //UPDATE THIS...
-    // ----------- TESTS ------------
-    // curr_svg.append('text').text(author_name);
-    // ----------- TESTS ------------
     route_change(_side){
-        console.log(_side);
-
         var author_name = d3.select('#'+_side+'_select').property('value');
         var author_id = this.author_names[author_name];
 
@@ -631,7 +623,6 @@ class CreateMap {
         var self = this;
         var visH = this.height*6;
         curr_svg.attr('height', visH);
-
 
         // Find the earliest and latest itinerary dates
         var starts = [], ends = [];
@@ -679,7 +670,7 @@ class CreateMap {
             .text(author_name);
         route_labels.exit().remove();
 
-        // Lines
+        //Lines
         var route_line = route_g.selectAll('line.route_line').data(self.itineraries[author_id]);
         route_line.enter().append('line').classed('route_line',true);
         route_line
@@ -694,7 +685,7 @@ class CreateMap {
             });
         route_line.exit().remove();
 
-        // Points
+        //Points
         var route_points = route_g.selectAll('line.route_points').data(self.itineraries[author_id]);
         route_points.enter().append('line').classed('route_points',true);
         route_points
@@ -708,7 +699,7 @@ class CreateMap {
             });
         route_points.exit().remove();
 
-        // Stops
+        //Stops
         var route_rad = 3;
         var route_stops = route_g.selectAll('circle.route_stops').data(self.itineraries[author_id]);
         route_stops.enter().append('circle').classed('route_stops',true);
@@ -722,7 +713,7 @@ class CreateMap {
 
         //Point labels
         var route_point_labels = route_g.selectAll('text.route_point_labels').data(self.itineraries[author_id]);
-        route_point_labels.enter().append('text').classed('routes_points_labels',true);
+        route_point_labels.enter().append('text').classed('route_point_labels',true);
         route_point_labels
             .attr('x',self.width/4 +60)
             .attr('y',function(d,i){
@@ -738,7 +729,8 @@ class CreateMap {
     }
 
     generate_routes(){
-        console.log('Called generate routes...');
+        var visH = this.height*6;
+        this.svg.attr('height', visH);
     }
 
 	switch_mode(_id){
@@ -782,141 +774,5 @@ d3.selection.prototype.last = function() {
 
 
 // old_routes(){
-//     // var self = this;
-//     // var visH = this.height*6;
-//     // this.svg.attr('height',visH);
-//
-//     // var routes_g,
-//     //     routes_lines_bknd,
-//     //     routes_labels,
-//     //     routes_lines,
-//     //     routes_stops,
-//     //     routes_points,
-//     //     routes_points_labels;
-//     // var routes_rad = 3;
-//
-//     // //reset range of scale to fit selection
-//     // var starts = [],
-//     //     ends = [];
-//     // d3.keys(self.itineraries).forEach(function(d){
-//     //     starts.push(d3.min(self.itineraries[d],function(_d){return (new Date(_d.StartDate));}));
-//     //     // ends.push(d3.max(self.itineraries[d],function(_d){return (new Date(_d.EndDate));}));
-//     // });
-//
-//     // //translate days to distance
-//     // var routes_scale = d3.time.scale()
-//     //     .domain(this.range)
-//     //     .range([0,visH -150 -60]);
-//     //
-//     // routes_scale.domain([
-//     //     d3.min(starts,function(d){return d;}),
-//     //     this.range[1]
-//     //     // d3.max(ends,function(d){return d;})
-//     // ]);
-//
-//     //route containers
-//     // routes_g = this.svg.selectAll('g.routes_g').data(d3.keys(self.itineraries));
-//     // routes_g.enter().append('g').classed('routes_g',true);
-//     // routes_g
-//     //     .attr('class',function(d){
-//     //         return 'routes_g id_' +d3.keys(self.authors).indexOf(d);
-//     //     })
-//     //     .attr('transform',function(d,i){
-//     //         var x = i*(self.width/2),
-//     //             y = 150;
-//     //         return 'translate(' +x +',' +y +')';
-//     //     });
-//     // routes_g.exit().remove();
-//
-//     // //background lines
-//     // routes_lines_bknd = routes_g.selectAll('line.routes_lines_bknd')
-//     //     .data(function(d){ return self.itineraries[d]; });
-//     // routes_lines_bknd.enter().append('line')
-//     //     .classed('routes_lines_bknd',true);
-//     // routes_lines_bknd
-//     //     .attr('x1',self.width/4)
-//     //     .attr('y1',function(d,i){
-//     //         return routes_scale(routes_scale.domain()[0]);
-//     //     })
-//     //     .attr('x2',self.width/4)
-//     //     .attr('y2',function(d,i){
-//     //         return routes_scale(routes_scale.domain()[1]);
-//     //     });
-//     // routes_lines_bknd.exit().remove();
-//
-//     //names
-//     // routes_labels = routes_g.selectAll('text.routes_labels')
-//     //     .data(function(d){ return [d]; });
-//     // routes_labels.enter().append('text')
-//     //     .classed('routes_labels',true);
-//     // routes_labels
-//     //     .attr('x',self.width/4)
-//     //     .attr('y',-30)
-//     //     .text(function(d){ return self.authors[d]; });
-//     // routes_labels.exit().remove();
-//
-//     // //lines
-//     // routes_lines = routes_g.selectAll('line.routes_lines')
-//     //     .data(function(d){ return self.itineraries[d]; });
-//     // routes_lines.enter().append('line')
-//     //     .classed('routes_lines',true);
-//     // routes_lines
-//     //     .attr('class',function(d){
-//     //         return 'routes_lines id_' +d3.keys(self.authors).indexOf(d.AuthorID);
-//     //     })
-//     //     .attr('x1',self.width/4)
-//     //     .attr('y1',function(d,i){
-//     //         return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
-//     //     })
-//     //     .attr('x2',self.width/4)
-//     //     .attr('y2',function(d,i){
-//     //         return d.EndDate ? routes_scale(new Date(d.EndDate)) : routes_scale(new Date(d.StartDate));
-//     //     });
-//     // routes_lines.exit().remove();
-//
-//     // //pointers
-//     // routes_points = routes_g.selectAll('line.routes_points')
-//     //     .data(function(d){ return self.itineraries[d]; });
-//     // routes_points.enter().append('line')
-//     //     .classed('routes_points',true);
-//     // routes_points
-//     //     .attr('x1',self.width/4 -15)
-//     //     .attr('y1',function(d,i){
-//     //         return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
-//     //     })
-//     //     .attr('x2',self.width/4 +45)
-//     //     .attr('y2',function(d,i){
-//     //         return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
-//     //     });
-//     // routes_points.exit().remove();
-//
-//     // //stops
-//     // routes_stops = routes_g.selectAll('circle.routes_stops')
-//     //     .data(function(d){ return self.itineraries[d]; });
-//     // routes_stops.enter().append('circle')
-//     //     .classed('routes_stops',true);
-//     // routes_stops
-//     //     .attr('cx',self.width/4 +45)
-//     //     .attr('cy',function(d,i){
-//     //         return d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate));
-//     //     })
-//     //     .attr('r',routes_rad);
-//     // routes_stops.exit().remove();
-//
-//     // //points labels
-//     // routes_points_labels = routes_g.selectAll('text.routes_points_labels')
-//     //     .data(function(d){ return self.itineraries[d]; });
-//     // routes_points_labels.enter().append('text')
-//     //     .classed('routes_points_labels',true);
-//     // routes_points_labels
-//     //     .attr('x',self.width/4 +60)
-//     //     .attr('y',function(d,i){
-//     //         return (d.StartDate ? routes_scale(new Date(d.StartDate)) : routes_scale(new Date(d.EndDate))) +4;
-//     //     })
-//     //     .text(function(d){
-//     //         var t1 = d.StartDate || 'Unknown',
-//     //             t2 = d.EndDate || 'Unknown';
-//     //         return self.places[d.PlaceID].PlaceName + ' (' +t1 +' to ' +t2 +')';
-//     //     });
-//     // routes_points_labels.exit().remove();
+
 // }
