@@ -1,19 +1,97 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-
-	<title>IMDEV In the Same Boats</title>
-
-	<!-- stylesheets -->
-	<link rel='stylesheet' type='text/css' href='assets/css/style.css' />
-	<link rel='stylesheet' type='text/css' href='assets/css/d3.slider.css' />
-
-	<!-- local -->
-	<script type='text/javascript' src='js/libs/d3.v3.min.js'></script>
-	<script type='text/javascript' src='js/libs/topojson.js'></script>
-	<script type='text/javascript' src='js/libs/d3.slider.js'></script>
-	<script type='text/javascript' src='js/libs/d3-collection.v1.min.js'></script>
-</head>
-<body>
-</body>
+  <head>
+  	<meta charset="UTF-8">
+  
+  	<title>IMDEV In the Same Boats</title>
+  	
+  	<!-- fonts via Typekit [Mark for discussion] -->
+  	<script src="https://use.typekit.net/qse7cmq.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  
+  	<!-- stylesheets -->
+  	<link rel='stylesheet' type='text/css' href='assets/css/style.css' />
+  	<link rel='stylesheet' type='text/css' href='assets/css/d3.slider.css' />
+  
+  	<!-- local -->
+  	<script type='text/javascript' src='js/libs/d3.v3.min.js'></script>
+  	<script type='text/javascript' src='js/libs/topojson.js'></script>
+  	<script type='text/javascript' src='js/libs/d3.slider.js'></script>
+  	<script type='text/javascript' src='js/libs/d3-collection.v1.min.js'></script>
+  </head>
+  <body>
+    <div id='nav'>
+      <a id='title' href='/' title='In the Same Boats'>In the Same Boats</a>
+      <div id='tabs'>
+        <a href='#' class='active'>Intersections</a>
+        <a href='#'>Trajectories</a>
+        <a href='#'>Itineraries</a>
+      </div>
+    </div>
+    <div id='panels'>
+      
+      <!-- Intersections -->
+      
+      <div id='intersections' class='panel'>
+        <div class='date-range'>
+          <div class='header'>
+            Select Date Range
+          </div>
+          <div class='date-selector'></div>
+        </div> 
+        <div class='location'>
+          <div class='header'>
+            Select Location
+          </div>
+          <div class='map'></div>
+        </div>   
+        <div class='results'>
+          <div class='header'>
+            Intersecting Authors
+          </div>
+          <div class='results-view'></div>
+        </div>      
+      </div>
+      
+      <!-- Trajectories -->
+      
+      <div id='trajectories' class='panel'>
+        <div class='date-range'>
+          <div class='header'>Select Date Range</div>
+          <div class='date-selector'></div>
+        </div> 
+        <div class='authors'>
+          <div class='header'>Select authors</div>
+          <div class='authors-list'></div>
+        </div>
+        <div class='location'>
+          <div class='header'>Locations</div>
+          <div class='map'></div>
+        </div>   
+      </div>
+      
+      <!-- Itineraries -->
+      
+      <div id='itineraries' class='panel'>
+        <div class='authors'>
+          <div class='header'>Select 2 authors</div>
+          <div class='authors-list'></div>
+        </div>
+        <div class='itineraries'>
+          <div class='header'>Itineraries</div>
+          <div class='selections'>
+            <div class='itinerary'>
+              <div class='itinerary-header'>Select an author</div>
+              <div class='itinerary-view'></div>
+            </div>
+            <div class='itinerary'>
+              <div class='itinerary-header'>Select an author</div>
+              <div class='itinerary-view'></div>
+            </div>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </body>
+  <script type='text/javascript' src='js/ui.js'></script>
 </html>

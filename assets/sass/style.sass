@@ -1,0 +1,136 @@
+/* Primary styles for In The Same Boats
+   SASS file outputs to assets/css/style.css */
+
+@import "susy";
+@import "partials/_mixins.sass"
+
+$blh: 1.25em  // baseline height
+$media_type: screen
+$min-width: 1100px
+
+$clr1: #1C9CF2 // Blue
+$clr2: #F9D5B6 // Canteloupe
+$clr3: #D2D9AC // Green
+
+$black: #161C1E
+$white: #F7F8F9
+$neutral: #F9F9F9
+$dark_neutral: #2D393F // Charcoal
+$cool_neutral: #E2E5E8 // Cool blue
+
+$basefont: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif
+
+$light: 300
+$regular: 400
+$semibold: 600
+$bold: 700
+
+
+// Elements
+
+body
+  background: $neutral
+  width: 100%
+  height: 100%
+  font-family: $basefont
+  color: $black
+  margin: 0
+  padding: 0
+  min-width: $min-width
+  
+div, a
+  box-sizing: border-box
+
+a, a:link, a:visited
+  color: $black
+  text-decoration: none
+  
+  &:hover
+    text-decoration: underline
+
+// Navigation
+  
+#nav
+  width: 100%
+  height: 4em
+  background-color: $dark_neutral
+  color: $white
+  
+  a, a:link, a:visited
+    color: $white
+    
+  a
+    font-weight: $semibold
+    padding-top: 1.5em
+    height: 4em
+    text-align: center
+    text-transform: uppercase
+    border-right: 1px solid $white
+    +span(3 of 16 inside no-gutters)
+    
+    &:hover, &.active
+      text-decoration: none
+      +block-pointer($black,-1.5em)
+
+      
+  > a // Title
+    background-color: $clr1
+
+#tabs
+  position: relative
+
+  > a:hover, a.active
+      background-color: black               
+
+// Panels
+
+#panels
+  .panel
+    display: none
+    height: 100%
+    
+    &:nth-child(1)
+      display: block
+      
+// Headers
+
+.header
+  width: 100%
+  height: 3em
+  padding-top: 1em
+  text-transform: uppercase
+  text-align: center
+  background-color: $cool_neutral
+  +block-pointer($cool_neutral)
+      
+// Intersections
+
+#intersections
+  > *
+    &:nth-child(1)
+      +span(3 of 16 inside no-gutters)
+    &:nth-child(2)
+      +span(10 of 16 inside no-gutters)
+    &:nth-child(3)
+      +span(last 3 of 16 inside no-gutters)
+
+// Trajectories
+
+#trajectories
+  > *
+    &:nth-child(1)
+      +span(3 of 16 inside no-gutters)
+    &:nth-child(2)
+      +span(3 of 16 inside no-gutters)
+    &:nth-child(3)
+      +span(last 10 of 16 inside no-gutters)
+
+// Itineraries
+
+#itineraries
+  > *
+    &:nth-child(1)
+      +span(4 of 16 inside no-gutters)
+    &:nth-child(2)
+      +span(last 12 of 16 inside no-gutters)
+  
