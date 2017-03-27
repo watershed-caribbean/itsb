@@ -5,14 +5,14 @@
   
   	<title>IMDEV In the Same Boats</title>
   	
-  	<!-- fonts via Typekit [Mark for discussion] -->
+  	<!-- fonts via Typekit [Should be replaced with local OTF] -->
   	<script src="https://use.typekit.net/qse7cmq.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   
   	<!-- stylesheets -->
-  	<link rel='stylesheet' type='text/css' href='assets/css/style.css' />
   	<link rel='stylesheet' type='text/css' href='assets/css/d3.slider.css' />
-  
+  	<link rel='stylesheet' type='text/css' href='assets/css/style.css' />
+
   	<!-- local -->
   	<script type='text/javascript' src='js/libs/d3.v3.min.js'></script>
   	<script type='text/javascript' src='js/libs/topojson.js'></script>
@@ -32,12 +32,14 @@
       
       <!-- Intersections -->
       
-      <div id='intersections' class='panel'>
+      <div id='intersections' class='panel selected' data-mode='1'>
         <div class='date-range'>
           <div class='header'>
             Select Date Range
           </div>
-          <div class='date-selector'></div>
+          <div class='date-selector'>
+            <div class='slider'></div>
+          </div>
         </div> 
         <div class='location'>
           <div class='header'>
@@ -55,10 +57,12 @@
       
       <!-- Trajectories -->
       
-      <div id='trajectories' class='panel'>
+      <div id='trajectories' class='panel' data-mode='2'>
         <div class='date-range'>
           <div class='header'>Select Date Range</div>
-          <div class='date-selector'></div>
+          <div class='date-selector'>
+            <div class='slider'></div>
+          </div>
         </div> 
         <div class='authors'>
           <div class='header'>Select authors</div>
@@ -72,7 +76,7 @@
       
       <!-- Itineraries -->
       
-      <div id='itineraries' class='panel'>
+      <div id='itineraries' class='panel' data-mode='3'>
         <div class='authors'>
           <div class='header'>Select 2 authors</div>
           <div class='authors-list'></div>
@@ -92,6 +96,8 @@
         </div>   
       </div>
     </div>
+    <div id='container'></div>
   </body>
   <script type='text/javascript' src='js/ui.js'></script>
+  <script type='text/javascript' src='js/vis.js'></script>
 </html>

@@ -1,7 +1,7 @@
 /* Primary styles for In The Same Boats
    SASS file outputs to assets/css/style.css */
 
-@import "susy";
+@import "susy"
 @import "partials/_mixins.sass"
 
 $blh: 1.25em  // baseline height
@@ -107,13 +107,20 @@ a, a:link, a:visited
 
 #intersections
   > *
+    position: absolute
+    top: 4em
+    bottom: 0
+    
+    
     &:nth-child(1)
-      +span(3 of 16 inside no-gutters)
+      width: 18.75%
     &:nth-child(2)
-      +span(10 of 16 inside no-gutters)
+      width: 62.5%
+      left: 18.75%
     &:nth-child(3)
-      +span(last 3 of 16 inside no-gutters)
-
+      width: 18.75%
+      left: 81.25%
+      
 // Trajectories
 
 #trajectories
@@ -133,4 +140,35 @@ a, a:link, a:visited
       +span(4 of 16 inside no-gutters)
     &:nth-child(2)
       +span(last 12 of 16 inside no-gutters)
+      
+// Slider
+
+.date-range
+  background-color: $neutral
+
+.d3-slider-vertical
+  width: 100%
+  height: 100%
+
+.d3-slider-range-vertical
+  background-color: $clr1
+
+.date-selector
+  height: 90%
+  margin: 0
+  padding: 0
+  
+  svg
+    width: 100%
+
+  path, line
+	 fill: none
+	 stroke: white
+
+  text
+  	fill: white
+	
+   .tick:last-child
+  	 display: none
+
   
