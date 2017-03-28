@@ -553,9 +553,7 @@ class CreateMap {
 	// Trajectories
 	
 	generate_traj_map(){
-  	
-  	console.log('fired');
-  	
+  	  	
 		var self = this;
 		var focus = false;
 
@@ -777,7 +775,7 @@ class CreateMap {
 							target = {};
 					var p_1 = d.PlaceID || d.PlaceID_End,
 							p_2 = d.PlaceID_End || d.PlaceID;
-
+							
 					//isolate x and y start coordinates using projection
 					source = projection([
 						self.places[p_1].Long,
@@ -1132,16 +1130,16 @@ class CreateMap {
 	switch_mode(_id){
 		this.mode = _id;
 		this.tear_down();
-		
+						
     switch(this.mode) {
-      case 1:
+      case '1':
       default:
         this.generate_int_map();
         break;
-      case 2:
+      case '2':
         this.generate_traj_map();
         break;
-      case 3:
+      case '3':
         this.generate_routes();
     }
 	}
@@ -1151,6 +1149,7 @@ class CreateMap {
 		
 		this.intersections.map.selectAll("*").remove();
 		d3.select(ui.dom.intersections.dateslider).selectAll('*').remove();
+		d3.select(ui.dom.trajectories.dateslider).selectAll('*').remove();
 		
 		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
 		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);

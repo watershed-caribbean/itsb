@@ -23,16 +23,16 @@
     <div id='nav'>
       <a id='title' href='/' title='In the Same Boats'>In the Same Boats</a>
       <div id='tabs'>
-        <a href='#' class='active'>Intersections</a>
-        <a href='#'>Trajectories</a>
-        <a href='#'>Itineraries</a>
+        <a href='#' class='active'  data-mode='1'>Intersections</a>
+        <a href='#' data-mode='2'>Trajectories</a>
+        <a href='#' data-mode='3'>Itineraries</a>
       </div>
     </div>
     <div id='panels'>
       
       <!-- Intersections -->
       
-      <div id='intersections' class='panel selected' data-mode='1'>
+      <div id='intersections' class='panel selected'>
         <div class='date-range'>
           <div class='header'>
             Select Date Range
@@ -60,7 +60,7 @@
       
       <!-- Trajectories -->
       
-      <div id='trajectories' class='panel' data-mode='2'>
+      <div id='trajectories' class='panel'>
         <div class='date-range'>
           <div class='header'>Select Date Range</div>
           <div class='date-selector'>
@@ -79,7 +79,7 @@
       
       <!-- Itineraries -->
       
-      <div id='itineraries' class='panel' data-mode='3'>
+      <div id='itineraries' class='panel'>
         <div class='authors'>
           <div class='header'>Select 2 authors</div>
           <div class='authors-list'></div>
