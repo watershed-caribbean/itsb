@@ -34,6 +34,7 @@ class UI {
       },
       results: {
         header: eint.getElementsByClassName('header')[2],
+        title: eint.getElementsByClassName('title')[0],
         view: eint.getElementsByClassName('results-view')[0]
       }
     }
