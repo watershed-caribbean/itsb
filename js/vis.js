@@ -132,7 +132,7 @@ class CreateMap {
 		  .append('svg')
 		  .attr('width','100%');
 
-    /*
+    
 		this.svg = d3.select('#container')
 			.append('svg')
 			.attr('width',this.width);
@@ -171,7 +171,7 @@ class CreateMap {
         self.route_change('left');
         self.route_change('right');
         
-        */
+        
 	}
 
 	generate(){

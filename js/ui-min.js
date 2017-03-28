@@ -56,7 +56,9 @@ class UI {
       elem: eiti,
       authors: {
         header: eiti.getElementsByClassName('header')[0],
-        list: eiti.getElementsByClassName('authors-list')[0]
+        list: eiti.getElementsByClassName('authors-list')[0],
+        author1: eiti.getElementsByClassName('author')[0],
+        author2: eiti.getElementsByClassName('author')[1]
       },
       selections: [
         { 

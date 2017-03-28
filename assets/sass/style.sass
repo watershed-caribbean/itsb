@@ -143,7 +143,7 @@ a, a:link, a:visited
 
 // Itineraries
 
-#itineraries
+/* #itineraries
   > *
     position: absolute
     top: 4em
@@ -153,9 +153,36 @@ a, a:link, a:visited
       width: 18.75%
     &:nth-child(2)
       width: 81.25%
-      left: 18.75%
+      left: 18.75% */     
       
-      
+// Previous CSS
+
+#itineraries
+	height: 100%
+	width: 100%
+	left: 0
+	top: 0
+	border-right: 2px solid white
+	box-sizing: border-box
+	overflow: hidden
+
+#nav_padding
+	height: 75px
+
+#left_itinerary
+	float: left
+	width: 700px
+
+#right_itinerary
+	margin-left: 720px
+  width: 700px
+
+#itineraries svg
+  shape-rendering: geometricPrecision
+  cursor: pointer
+  display: block;
+  width: 100%;
+
 // Results
 
 .results
@@ -313,7 +340,7 @@ path.line
 	position: absolute
 	background: rgba(255,255,255,0.9)
 
-/* Routes */
+/* Itineraries / Routes */
 
 text.route_label 
 	font-size: 18px
@@ -347,6 +374,21 @@ circle.route_stops
 
 path.line 
 	fill: none
+	
+.author_left
+  fill: #fb9a99
+  color: #fb9a99
+    
+.author_left path, path.author_left, line.author_left
+  fill: none
+  stroke: #fb9a99
 
+.author_right
+  fill: #b2df8a
+  color: #b2df8a
+    
+.author_right path, path.author_right, line.author_right
+  fill: none
+  stroke: #b2df8a
 
   
