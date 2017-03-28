@@ -111,7 +111,6 @@ a, a:link, a:visited
     top: 4em
     bottom: 0
     
-    
     &:nth-child(1)
       width: 18.75%
     &:nth-child(2)
@@ -129,12 +128,18 @@ a, a:link, a:visited
 
 #trajectories
   > *
+    position: absolute
+    top: 4em
+    bottom: 0
+    
     &:nth-child(1)
-      +span(3 of 16 inside no-gutters)
+      width: 18.75%
     &:nth-child(2)
-      +span(3 of 16 inside no-gutters)
+      width: 18.75%
+      left: 18.75%
     &:nth-child(3)
-      +span(last 10 of 16 inside no-gutters)
+      width: 62.5%
+      left: 37.5%
 
 // Itineraries
 

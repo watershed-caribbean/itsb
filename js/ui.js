@@ -83,6 +83,10 @@ class UI {
           panels[j].style.display = 'none';
           panels[j].classList.remove('selected');
         }
+        for(var k=0;k<panels.length;k++) {
+          tabs[k].classList.remove('active');
+        }
+        this.classList.add('active');
         panels[this.getAttribute('data-panel')].style.display = 'block';
         panels[this.getAttribute('data-panel')].classList.add('selected');
 

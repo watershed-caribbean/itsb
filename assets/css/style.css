@@ -98,26 +98,18 @@ a, a:link, a:visited {
 #intersections .location .header {
   background-color: #d4d8dd; }
 
-#trajectories > *:nth-child(1) {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 18.75%;
-  float: left; }
-
-#trajectories > *:nth-child(2) {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 18.75%;
-  float: left; }
-
-#trajectories > *:nth-child(3) {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 62.5%;
-  float: right; }
+#trajectories > * {
+  position: absolute;
+  top: 4em;
+  bottom: 0; }
+  #trajectories > *:nth-child(1) {
+    width: 18.75%; }
+  #trajectories > *:nth-child(2) {
+    width: 18.75%;
+    left: 18.75%; }
+  #trajectories > *:nth-child(3) {
+    width: 62.5%;
+    left: 37.5%; }
 
 #itineraries > *:nth-child(1) {
   -moz-box-sizing: border-box;
