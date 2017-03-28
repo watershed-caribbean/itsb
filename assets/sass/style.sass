@@ -121,6 +121,10 @@ a, a:link, a:visited
       width: 18.75%
       left: 81.25%
       
+  .location
+    .header
+      background-color: darken($cool_neutral,5%)
+      
 // Trajectories
 
 #trajectories
@@ -145,13 +149,39 @@ a, a:link, a:visited
 
 .date-range
   background-color: $neutral
+  
+.d3-slider
+  font-family: $basefont
 
 .d3-slider-vertical
   width: 100%
   height: 100%
 
 .d3-slider-range-vertical
-  background-color: $clr1
+  background-color: darken($neutral,5%)
+  border-right: 2px solid $clr1
+  
+.d3-slider-vertical 
+  .d3-slider-handle
+    right: -0.36em
+    left: initial
+    background: $clr1
+    width: 0.8em
+    height: 0.8em
+    margin-bottom: -0.4em
+    border-radius: 0.4em
+    border-color: $clr1
+  
+.d3-slider-axis
+  line
+    stroke: $white
+    
+  text
+  	fill: $black
+  	stroke: transparent
+  	font-weight: $regular
+  	font-size: 0.5em
+  
 
 .date-selector
   height: 90%
@@ -161,14 +191,86 @@ a, a:link, a:visited
   svg
     width: 100%
 
-  path, line
-	 fill: none
-	 stroke: white
+/* Map */
 
-  text
-  	fill: white
-	
-   .tick:last-child
-  	 display: none
+.map 
+	fill: #ddd
+	stroke: transparent
+	stroke-width: 0
+	stroke-opacity: 0
+	stroke-linejoin: miter
+
+
+.points_g 
+	cursor: pointer
+
+.points_g.focus_point .point 
+	fill: #33cbff
+	stroke: #33cbff
+	stroke-width: 1
+	stroke-opacity: 1
+
+.point 
+	fill: #3399ff
+	stroke: #3399ff
+	stroke-width: 0.5
+
+.point_back 
+	fill: white
+	fill-opacity: 0.5
+	stroke: transparent
+
+.point.point_01 
+	fill-opacity: 0.25
+	stroke-opacity: 0.25
+
+.point.point_02 
+	fill-opacity: 0.5
+	stroke-opacity: 0.5
+
+.point.point_03 
+	fill-opacity: 1
+	stroke-opacity: 1
+
+
+path.line 
+	stroke-width: 1
+
+
+/* Routes */
+
+text.route_label 
+	font-size: 18px
+	font-weight: bold
+	text-transform: uppercase
+	letter-spacing: 1px
+	text-anchor: middle
+
+text.route_point_labels 
+	font-size: 11px
+	letter-spacing: 1px
+	fill: #aaa
+
+line.route_line_background 
+	stroke: #ddd
+	stroke-width: 30
+
+line.route_line 
+	stroke-width: 30
+
+line.route_points 
+	stroke: #aaa
+	stroke-width: 1
+	stroke-dasharray: 1,1
+
+circle.route_stops 
+	/*stroke:black*/
+	fill: white
+	stroke: #aaa
+	stroke-width: 2
+
+path.line 
+	fill: none
+
 
   

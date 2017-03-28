@@ -209,13 +209,16 @@ class CreateMap {
 		});*/
 
 		//slider
+		
+		var sliderwidth = ui.dom.intersections.dateslider.offsetWidth;
+		
 		var scale = d3.time.scale()
 			.domain(this.range);
 					
 		var scale_axis = d3.svg.axis()
-			.orient('left')
+			.orient('right')
 			.ticks(10)
-			.tickSize(ui.dom.intersections.dateslider.offsetWidth)
+			.tickSize(sliderwidth - 2) //takes into account a 2px border
 			.tickPadding(12);
 			
 		var slide = d3.slider()
@@ -253,18 +256,19 @@ class CreateMap {
 				.nice(d3.time.month)
 				;
 			return s.invert((self.height -(s(_val))));
-		}
+		}    
 
 		var slider = d3.select(ui.dom.intersections.dateslider).call(slide);
-		// d3.selectAll('#slider .slider_body .tick').last().style('display','none');
+		
+		d3.select(ui.dom.intersections.dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)");
 		
 		update_datebar();
-
+				
 		//map
 		var projection = d3.geo.mercator()
-			.scale(200)
-			.translate([self.width*0.5,self.height*0.65])
-			;
+			.scale(180)
+			.translate([ui.dom.intersections.map.view.offsetWidth * 0.5,ui.dom.intersections.map.view.offsetHeight * 0.5]);
+			
 		var path = d3.geo.path().projection(projection);
 
 		var features = topojson.feature(self.continents,self.continents.objects.continents);
@@ -287,11 +291,10 @@ class CreateMap {
 		var map;
 		map = self.intersections.map.selectAll('path.map')
 			.data([features]);
-		map.enter().append('path')
+		map.enter().append ('path')
 			.classed('map',true);
 		map
-			.attr('d',path)
-			;
+			.attr('d',path);
 		map.exit().remove();
 
 		function filter_data(){
@@ -327,6 +330,8 @@ class CreateMap {
 				}
 			});
 			//tally up totals
+			
+			
 			d3.keys(intersections).forEach(function(d){
 				intersections[d].lists = {};
 				intersections[d].lists._01 = d3.values(intersections[d].figures).filter(function(_d){ return _d === 1; });
@@ -773,7 +778,7 @@ class CreateMap {
 		var opp = this.mode === 1 ? 2 : 1;
 		
 		this.intersections.map.selectAll("*").remove();
-		d3.select('#slider .slider_body').selectAll('*').remove();
+		d3.select(ui.dom.intersections.dateslider).selectAll('*').remove();
 		
 		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
 		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);
