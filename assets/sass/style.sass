@@ -145,10 +145,16 @@ a, a:link, a:visited
 
 #itineraries
   > *
+    position: absolute
+    top: 4em
+    bottom: 0
+    
     &:nth-child(1)
-      +span(4 of 16 inside no-gutters)
+      width: 18.75%
     &:nth-child(2)
-      +span(last 12 of 16 inside no-gutters)
+      width: 81.25%
+      left: 18.75%
+      
       
 // Results
 

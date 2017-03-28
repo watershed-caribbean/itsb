@@ -1003,126 +1003,126 @@ class CreateMap {
 		generate_sidebar();
 	}
 
-    route_change(_side){
-        var author_name = d3.select('#'+_side+'_select').property('value');
-        var author_id = this.author_names[author_name];
+  route_change(_side){
+      var author_name = d3.select('#'+_side+'_select').property('value');
+      var author_id = this.author_names[author_name];
 
-        var curr_svg;
-        if(_side == 'left'){ curr_svg = this.left_svg; }
-        else { curr_svg = this.right_svg; }
+      var curr_svg;
+      if(_side == 'left'){ curr_svg = this.left_svg; }
+      else { curr_svg = this.right_svg; }
 
-        var self = this;
-        var visH = this.height*6;
-        curr_svg.attr('height', visH);
+      var self = this;
+      var visH = this.height*6;
+      curr_svg.attr('height', visH);
 
-        // Find the earliest and latest itinerary dates
-        var starts = [], ends = [];
-        d3.keys(self.itineraries).forEach(
-            function(d){
-                starts.push(d3.min(self.itineraries[d], function(_d){ return (new Date(_d.StartDate)); }));
-                ends.push(d3.max(self.itineraries[d], function(_d){ return (new Date(_d.EndDate)); }));
-        });
+      // Find the earliest and latest itinerary dates
+      var starts = [], ends = [];
+      d3.keys(self.itineraries).forEach(
+          function(d){
+              starts.push(d3.min(self.itineraries[d], function(_d){ return (new Date(_d.StartDate)); }));
+              ends.push(d3.max(self.itineraries[d], function(_d){ return (new Date(_d.EndDate)); }));
+      });
 
-        var earliest_date = d3.min(starts);
-        var latest_date = d3.max(ends);
+      var earliest_date = d3.min(starts);
+      var latest_date = d3.max(ends);
 
-        //Translate days to distance
-        var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, visH -150 -60]);
+      //Translate days to distance
+      var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, visH -150 -60]);
 
-        //Create route container
-        var route_g = curr_svg.selectAll('g.route_g').data(author_id);
-        route_g.enter().append('g').classed('route_g',true);
-        route_g
-            .attr('class', 'route_g author_' + _side)
-            .attr('transform', function(d,i){
-                var x = i*(self.width/2),
-                    y = 150;
-                return 'translate(' + x +',' + y +')';
-            });
-        route_g.exit().remove();
+      //Create route container
+      var route_g = curr_svg.selectAll('g.route_g').data(author_id);
+      route_g.enter().append('g').classed('route_g',true);
+      route_g
+          .attr('class', 'route_g author_' + _side)
+          .attr('transform', function(d,i){
+              var x = i*(self.width/2),
+                  y = 150;
+              return 'translate(' + x +',' + y +')';
+          });
+      route_g.exit().remove();
 
-        //Add background line
-        var route_line_background = route_g.selectAll('line.route_line_background')
-            .data(self.itineraries[author_id]);
-        route_line_background.enter().append('line').classed('route_line_background',true);
-        route_line_background
-            .attr('x1',self.width/4)
-            .attr('y1',function(d,i){ return route_scale(route_scale.domain()[0]); })
-            .attr('x2',self.width/4)
-            .attr('y2',function(d,i){ return route_scale(route_scale.domain()[1]); });
-        route_line_background.exit().remove();
+      //Add background line
+      var route_line_background = route_g.selectAll('line.route_line_background')
+          .data(self.itineraries[author_id]);
+      route_line_background.enter().append('line').classed('route_line_background',true);
+      route_line_background
+          .attr('x1',self.width/4)
+          .attr('y1',function(d,i){ return route_scale(route_scale.domain()[0]); })
+          .attr('x2',self.width/4)
+          .attr('y2',function(d,i){ return route_scale(route_scale.domain()[1]); });
+      route_line_background.exit().remove();
 
-        //Add figure name
-        var route_labels = route_g.selectAll('text.route_label').data(author_id);
-        route_labels.enter().append('text').classed('route_label',true);
-        route_labels
-            .attr('x',self.width/4)
-            .attr('y',-30)
-            .text(author_name);
-        route_labels.exit().remove();
+      //Add figure name
+      var route_labels = route_g.selectAll('text.route_label').data(author_id);
+      route_labels.enter().append('text').classed('route_label',true);
+      route_labels
+          .attr('x',self.width/4)
+          .attr('y',-30)
+          .text(author_name);
+      route_labels.exit().remove();
 
-        //Lines
-        var route_line = route_g.selectAll('line.route_line').data(self.itineraries[author_id]);
-        route_line.enter().append('line').classed('route_line',true);
-        route_line
-            .attr('class', 'route_line author_' + _side)
-            .attr('x1',self.width/4)
-            .attr('y1',function(d, i){
-                return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
-            })
-            .attr('x2',self.width/4)
-            .attr('y2',function(d, i){
-                return d.EndDate ? route_scale(new Date(d.EndDate)) : route_scale(new Date(d.StartDate));
-            });
-        route_line.exit().remove();
+      //Lines
+      var route_line = route_g.selectAll('line.route_line').data(self.itineraries[author_id]);
+      route_line.enter().append('line').classed('route_line',true);
+      route_line
+          .attr('class', 'route_line author_' + _side)
+          .attr('x1',self.width/4)
+          .attr('y1',function(d, i){
+              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
+          })
+          .attr('x2',self.width/4)
+          .attr('y2',function(d, i){
+              return d.EndDate ? route_scale(new Date(d.EndDate)) : route_scale(new Date(d.StartDate));
+          });
+      route_line.exit().remove();
 
-        //Points
-        var route_points = route_g.selectAll('line.route_points').data(self.itineraries[author_id]);
-        route_points.enter().append('line').classed('route_points',true);
-        route_points
-            .attr('x1',self.width/4 -15)
-            .attr('y1',function(d,i){
-                return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
-            })
-            .attr('x2',self.width/4 +45)
-            .attr('y2',function(d,i){
-                return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
-            });
-        route_points.exit().remove();
+      //Points
+      var route_points = route_g.selectAll('line.route_points').data(self.itineraries[author_id]);
+      route_points.enter().append('line').classed('route_points',true);
+      route_points
+          .attr('x1',self.width/4 -15)
+          .attr('y1',function(d,i){
+              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
+          })
+          .attr('x2',self.width/4 +45)
+          .attr('y2',function(d,i){
+              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
+          });
+      route_points.exit().remove();
 
-        //Stops
-        var route_rad = 3;
-        var route_stops = route_g.selectAll('circle.route_stops').data(self.itineraries[author_id]);
-        route_stops.enter().append('circle').classed('route_stops',true);
-        route_stops
-            .attr('cx',self.width/4 +45)
-            .attr('cy',function(d,i){
-                return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
-            })
-            .attr('r',route_rad);
-        route_stops.exit().remove();
+      //Stops
+      var route_rad = 3;
+      var route_stops = route_g.selectAll('circle.route_stops').data(self.itineraries[author_id]);
+      route_stops.enter().append('circle').classed('route_stops',true);
+      route_stops
+          .attr('cx',self.width/4 +45)
+          .attr('cy',function(d,i){
+              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
+          })
+          .attr('r',route_rad);
+      route_stops.exit().remove();
 
-        //Point labels
-        var route_point_labels = route_g.selectAll('text.route_point_labels').data(self.itineraries[author_id]);
-        route_point_labels.enter().append('text').classed('route_point_labels',true);
-        route_point_labels
-            .attr('x',self.width/4 +60)
-            .attr('y',function(d,i){
-                return (d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate))) +4;
-            })
-            .text(function(d){
-                var t1 = d.StartDate || 'Unknown',
-                    t2 = d.EndDate || 'Unknown';
-                return self.places[d.PlaceID].PlaceName + ' (' +t1 +' to ' +t2 +')';
-            });
-        route_point_labels.exit().remove();
+      //Point labels
+      var route_point_labels = route_g.selectAll('text.route_point_labels').data(self.itineraries[author_id]);
+      route_point_labels.enter().append('text').classed('route_point_labels',true);
+      route_point_labels
+          .attr('x',self.width/4 +60)
+          .attr('y',function(d,i){
+              return (d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate))) +4;
+          })
+          .text(function(d){
+              var t1 = d.StartDate || 'Unknown',
+                  t2 = d.EndDate || 'Unknown';
+              return self.places[d.PlaceID].PlaceName + ' (' +t1 +' to ' +t2 +')';
+          });
+      route_point_labels.exit().remove();
 
-    }
+  }
 
-    generate_routes(){
-        var visH = this.height*6;
-        this.svg.attr('height', visH);
-    }
+  generate_routes(){
+      var visH = this.height*6;
+      this.svg.attr('height', visH);
+  }
 
 	switch_mode(_id){
 		this.mode = _id;

@@ -111,19 +111,15 @@ a, a:link, a:visited {
     width: 62.5%;
     left: 37.5%; }
 
-#itineraries > *:nth-child(1) {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 25%;
-  float: left; }
-
-#itineraries > *:nth-child(2) {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 75%;
-  float: right; }
+#itineraries > * {
+  position: absolute;
+  top: 4em;
+  bottom: 0; }
+  #itineraries > *:nth-child(1) {
+    width: 18.75%; }
+  #itineraries > *:nth-child(2) {
+    width: 81.25%;
+    left: 18.75%; }
 
 .results .items {
   padding: 1.25em; }
