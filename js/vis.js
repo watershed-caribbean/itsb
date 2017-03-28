@@ -874,8 +874,7 @@ class CreateMap {
 				.attr('cx',0)
 				.attr('cy',0)
 				.attr('r',function(d){
-					var r_tot = d.length +this.parentNode.__data__.value.lists._02.length +this.parentNode.__data__.value.lists._03.length;
-					return r_scale(r_tot);
+					return r_scale(1);
 				});
 			points_backs.exit().remove();
 
@@ -889,8 +888,7 @@ class CreateMap {
 				.attr('cx',0)
 				.attr('cy',0)
 				.attr('r',function(d){
-					var r_tot = d.length +this.parentNode.__data__.value.lists._02.length +this.parentNode.__data__.value.lists._03.length;
-					return r_scale(r_tot);
+					return r_scale(1);
 				});
 			points_01.exit().remove();
 				
@@ -904,8 +902,7 @@ class CreateMap {
 				.attr('cx',0)
 				.attr('cy',0)
 				.attr('r',function(d){ 
-					var r_tot = d.length +this.parentNode.__data__.value.lists._03.length;
-					return r_scale(r_tot);
+					return r_scale(1);
 				});
 			points_02.exit().remove();
 				
