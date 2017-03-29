@@ -185,6 +185,25 @@ a, a:link, a:visited
 
 // Results
 
+=author-list-item
+  color: $clr1
+  text-transform: uppercase
+  height: $blh * 3
+  float: left
+  font-size: 0.9em
+  width: 50%
+  font-weight: $semibold
+  
+  &:nth-child(2n)
+    padding-left: $blh/2
+  
+  .item_date
+    text-transform: none
+    font-size: 0.8em
+    color: darken($cool_neutral,10%)
+    font-weight: $regular
+
+
 .results
   .items
     padding: $blh
@@ -200,23 +219,7 @@ a, a:link, a:visited
   .results-view
     
     > div
-      color: $clr1
-      text-transform: uppercase
-      height: $blh * 3
-      float: left
-      font-size: 0.9em
-      width: 50%
-      font-weight: $semibold
-      
-      &:nth-child(2n)
-        padding-left: $blh/2
-      
-      .item_date
-        text-transform: none
-        font-size: 0.8em
-        color: darken($cool_neutral,10%)
-        font-weight: $regular
-    
+      +author-list-item
       
 // Slider
 
@@ -390,5 +393,17 @@ path.line
 .author_right path, path.author_right, line.author_right
   fill: none
   stroke: #b2df8a
+  
+  
+// Trajector author
 
+#trajectories
+  .authors-list a
+    +author-list-item
+    padding: $blh
+    cursor: pointer
+    color: $dark_neutral
+    
+    &:hover, &.selected
+      color: $clr1
   

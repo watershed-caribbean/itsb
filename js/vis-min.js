@@ -13,6 +13,7 @@ class CreateMap {
 		this.authors = {};  // {author_id: author_name}
     this.author_names = {}; // {author_name: author_id}
 		this.continents = {};
+		this.active_authors_t = [];
 
 		//store screen height and width
 		this.width = window.innerWidth;
@@ -131,8 +132,10 @@ class CreateMap {
 		this.trajectories.map = d3.select(ui.dom.trajectories.map.view)
 		  .append('svg')
 		  .attr('width','100%');
-
-    
+        
+    d3.select(ui.dom.trajectories.authors.list)
+      .html(ui.generateAuthorList(this));
+        
 		this.svg = d3.select('#container')
 			.append('svg')
 			.attr('width',this.width);
@@ -566,7 +569,27 @@ class CreateMap {
 			generate_sidebar();
 		});
 		
-
+		// Manage active trajectory map authors
+		
+    d3.select(ui.dom.trajectories.authors.list)
+      .selectAll('.author').each(function(){
+        d3.select(this).on('click',function(){
+          var elem = d3.select(this);          
+          if (elem.classed('selected')) { // remove item from active list
+            elem.classed('selected',false);
+            var index = self.active_authors_t.indexOf(elem.attr('data-key'));
+            if (index > -1) {
+              self.active_authors_t.splice(index,1);
+            }
+          } else {
+            elem.classed('selected',true);
+            self.active_authors_t.push(elem.attr('data-key'));
+          }
+          
+          update();
+        });
+      });
+      
 		//slider
 		
 		var sliderwidth = ui.dom.trajectories.dateslider.offsetWidth;
@@ -657,7 +680,7 @@ class CreateMap {
 		map.exit().remove();
 
 		function filter_data(){
-
+  		  		
 			//clear objects
 			intersections = {};
 			intersections_unique = {};
@@ -666,22 +689,42 @@ class CreateMap {
 
 			//INTERSECTIONS
 			//filter by date range
-			var holder = d3.entries(self.intersections).filter(function(d){
+			var holder = d3.entries(self.intersections).filter(function(d){  			
 				var n = new Date(d.key);
 				return n >=self.date_start && n <=self.date_end;
 			});
+			
+			
 			//get distinct places
 			//slot author IDs into place
 			//highest likelihood score wins
 			holder.forEach(function(d){
 				if(d3.keys(d.value).length >0){
-					d3.keys(d.value).forEach(function(_d){
+					d3.keys(d.value).forEach(function(_d){  // _d is city key
+  					
+  					
+  					// Check to see if there is at least 1 valid author
+  					var b = 0;
+  					
+            d.value[_d].forEach(function(__d){
+              if (self.active_authors_t.indexOf(__d.AuthorID) > -1) {
+                b++;
+              }
+            });
+                        
+            if (b==0) { return; }
+  					
+  					// Create entry
+  					
 						if(!intersections[_d]){ 
 							intersections[_d] = {}; 
 							intersections[_d].figures = {}; 
 						}
+						
+				    // Only add valid authors
+				    		
 						d.value[_d].forEach(function(__d){
-							if(!intersections[_d].figures[__d.AuthorID] || intersections[_d].figures[__d.AuthorID] >__d.Likelihood){
+							if((!intersections[_d].figures[__d.AuthorID] || intersections[_d].figures[__d.AuthorID] >__d.Likelihood) && self.active_authors_t.indexOf(__d.AuthorID) > -1){
 								intersections[_d].figures[__d.AuthorID] = __d.Likelihood;
 							}
 						});
@@ -723,6 +766,13 @@ class CreateMap {
 					});
 				});
 			});
+      for (var author in trajectories) {
+        console.log(author);
+       if (self.active_authors_t.indexOf(author) == -1) {
+         delete trajectories[author];
+       } 
+      }
+            
 			//pair up start and end points
 			var tier = 0;
 			for(var i=0; i<d3.keys(trajectories).length; i++){
@@ -737,6 +787,7 @@ class CreateMap {
 			d3.keys(intersections).forEach(function(d){
 				if(!trajectories_unique[d]){ trajectories_unique[d] = []; }
 			});
+			
 			d3.values(trajectories).forEach(function(d){
 				d.forEach(function(_d){
 					if(!trajectories_unique[_d.PlaceID]){ trajectories_unique[_d.PlaceID] = []; }

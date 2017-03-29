@@ -336,3 +336,24 @@ path.line {
 .author_right path, path.author_right, line.author_right {
   fill: none;
   stroke: #b2df8a; }
+
+#trajectories .authors-list a {
+  color: #1C9CF2;
+  text-transform: uppercase;
+  height: 3.75em;
+  float: left;
+  font-size: 0.9em;
+  width: 50%;
+  font-weight: 600;
+  padding: 1.25em;
+  cursor: pointer;
+  color: #2D393F; }
+  #trajectories .authors-list a:nth-child(2n) {
+    padding-left: 0.625em; }
+  #trajectories .authors-list a .item_date {
+    text-transform: none;
+    font-size: 0.8em;
+    color: #c6ccd1;
+    font-weight: 400; }
+  #trajectories .authors-list a:hover, #trajectories .authors-list a.selected {
+    color: #1C9CF2; }

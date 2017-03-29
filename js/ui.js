@@ -96,6 +96,41 @@ class UI {
     }
   }
   
+  generateAuthorList(obj) {
+    
+    var list = '';
+    
+    for (var prop in obj.authors) {
+      if (obj.authors.hasOwnProperty(prop)) {
+        list += this.authorItemTemplate(obj.authors[prop],prop,'a') + "\n";
+      }
+    }
+    
+    return list;
+    
+  }
+  
+  authorItemTemplate(name,key,tag) {
+    return "<" + tag + " data-key='" + key + "' class='author' title='" + this.escapeHtml(name) + "'>" + name + "</" + tag + ">";
+  }
+  
+
+  escapeHtml (string) {
+    var entityMap = {
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;',
+      '/': '&#x2F;',
+      '`': '&#x60;',
+      '=': '&#x3D;'
+    };
+
+    return String(string).replace(/[&<>"'`=\/]/g, function (s) {
+      return entityMap[s];
+    });
+  }  
 }
 
 var ui = new UI;
