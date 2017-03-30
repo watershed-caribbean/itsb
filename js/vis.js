@@ -89,9 +89,9 @@ class CreateMap {
 		//authors
 		d3.keys(self.data.author_ids).forEach(function(k){
 			self.authors[self.data.author_ids[k]] = k;
-            self.author_names[k] = self.data.author_ids[k];
+      self.author_names[k] = self.data.author_ids[k];
 		});
-
+		
 		//intersections
 		self.intersections = self.data.intersections;
 
@@ -693,7 +693,7 @@ class CreateMap {
 			intersections_unique = {};
 			trajectories = {};
 			trajectories_unique = {};
-
+			
 			//INTERSECTIONS
 			//filter by date range
 			var holder = d3.entries(self.intersections).filter(function(d){  			
@@ -862,6 +862,8 @@ class CreateMap {
 		}
 
 		function generate_points(){
+  		
+  		//console.log(self.data);
   		  		
 			//scale for radii
 			var r_scale = d3.scale.linear()
@@ -890,7 +892,34 @@ class CreateMap {
 				})
 				.append('title')
 				.text(function(d){
-  				return self.places[d.key].PlaceName;
+  				var tooltip = [];
+  				tooltip.push(self.places[d.key].PlaceName);
+  				
+  				// Add names and citations
+  				for(var i=0;i< d.value.info.length;i++) {
+    				var info = []
+    				info.push(self.authors[d.value.info[i].AuthorID]);
+    				
+    				if (d.value.info[i].StartDate != "") {
+      				info.push(" \nFrom: " + d.value.info[i].StartDate.toString());
+    				}
+    				
+            if(d.value.info[i].StartCitation != "") {
+              info.push(" (" + d.value.info[i].StartCitation.toString() + ")")            
+            }    				
+    				if (d.value.info[i].EndDate != '') {
+      				info.push("Until: " + d.value.info[i].EndDate);
+    				}
+    				
+    				if (d.value.info[i].EndDate != '') {
+              info.push(" (" + d.value.info[i].StartCitation.toString() + ")");
+    				}
+    				
+    				info.push("\n");
+    				tooltip.push(info.join(''));
+  				}
+  				
+  				return tooltip.join("\n");
 				});
 			points_g
 				.on('mousemove',function(d){
