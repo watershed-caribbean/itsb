@@ -126,17 +126,22 @@ a, a:link, a:visited {
   border-right: 2px solid white;
   box-sizing: border-box;
   overflow: hidden; }
-
-#nav_padding {
-  height: 75px; }
+  #itineraries .header {
+    margin-bottom: 1.25em; }
+  #itineraries select {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5em; }
 
 #left_itinerary {
   float: left;
-  width: 700px; }
+  width: 50%; }
 
 #right_itinerary {
-  margin-left: 720px;
-  width: 700px; }
+  margin-left: 50%;
+  width: 50%; }
+  #right_itinerary .header {
+    background-color: #c6ccd1; }
 
 #itineraries svg {
   shape-rendering: geometricPrecision;
@@ -382,20 +387,20 @@ path.line {
   fill: none; }
 
 .author_left {
-  fill: #fb9a99;
-  color: #fb9a99; }
+  fill: #F9D5B6;
+  color: #F9D5B6; }
 
 .author_left path, path.author_left, line.author_left {
   fill: none;
-  stroke: #fb9a99; }
+  stroke: #F9D5B6; }
 
 .author_right {
-  fill: #b2df8a;
-  color: #b2df8a; }
+  fill: #D2D9AC;
+  color: #D2D9AC; }
 
 .author_right path, path.author_right, line.author_right {
   fill: none;
-  stroke: #b2df8a; }
+  stroke: #D2D9AC; }
 
 #trajectories .authors {
   background-color: #f4f4f4; }

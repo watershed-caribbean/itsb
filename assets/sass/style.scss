@@ -228,20 +228,31 @@ a, a:link, a:visited {
   border-right: 2px solid white;
   box-sizing: border-box;
   overflow: hidden;
+  
+  .header {
+    margin-bottom: $blh
+  }
+  
+  select {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5em;
+  }
 }
 
-#nav_padding {
-  height: 75px;
-}
 
 #left_itinerary {
   float: left;
-  width: 700px;
+  width: 50%;
 }
 
 #right_itinerary {
-  margin-left: 720px;
-  width: 700px;
+  margin-left: 50%;
+  width: 50%;
+  
+  .header {
+    background-color: darken($cool_neutral,10%);
+  }
 }
 
 #itineraries svg {
@@ -503,23 +514,23 @@ path.line {
 }
 
 .author_left {
-  fill: #fb9a99;
-  color: #fb9a99;
+  fill: $clr2;
+  color: $clr2;
 }
 
 .author_left path, path.author_left, line.author_left {
   fill: none;
-  stroke: #fb9a99;
+  stroke: $clr2;
 }
 
 .author_right {
-  fill: #b2df8a;
-  color: #b2df8a;
+  fill: $clr3;
+  color: $clr3;
 }
 
 .author_right path, path.author_right, line.author_right {
   fill: none;
-  stroke: #b2df8a;
+  stroke: $clr3;
 }
 
 // Trajector author

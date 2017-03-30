@@ -1110,7 +1110,7 @@ class CreateMap {
       else { curr_svg = this.right_svg; }
 
       var self = this;
-      var visH = this.height*6;
+      var visH = this.height*30;
       curr_svg.attr('height', visH);
 
       // Find the earliest and latest itinerary dates
@@ -1134,7 +1134,7 @@ class CreateMap {
           .attr('class', 'route_g author_' + _side)
           .attr('transform', function(d,i){
               var x = i*(self.width/2),
-                  y = 150;
+                  y = 75;
               return 'translate(' + x +',' + y +')';
           });
       route_g.exit().remove();
