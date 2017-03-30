@@ -76,7 +76,7 @@ a, a:link, a:visited {
     &:hover, &.active {
       text-decoration: none;
 
-      @include block-pointer($black, -1.5em);
+      // @include block-pointer($black, -1.5em);
     }
   }
 
@@ -116,7 +116,7 @@ a, a:link, a:visited {
   text-align: center;
   background-color: $cool_neutral;
 
-  @include block-pointer($cool_neutral);
+  // @include block-pointer($cool_neutral);
 }
 
 // Intersections

@@ -40,16 +40,6 @@ a, a:link, a:visited {
     float: left; }
     #nav a:hover, #nav a.active {
       text-decoration: none; }
-      #nav a:hover:after, #nav a.active:after {
-        width: 100%;
-        height: 8px;
-        background-color: #161C1E;
-        float: left;
-        position: relative;
-        bottom: -1.5em;
-        content: '';
-        -webkit-mask: url(../img/triangle.svg) no-repeat 50% 50%;
-        mask: url(../img/triangle.svg) no-repeat 50% 50%; }
   #nav > a {
     background-color: #1C9CF2; }
 
@@ -71,16 +61,6 @@ a, a:link, a:visited {
   text-transform: uppercase;
   text-align: center;
   background-color: #E2E5E8; }
-  .header:after {
-    width: 100%;
-    height: 8px;
-    background-color: #E2E5E8;
-    float: left;
-    position: relative;
-    bottom: -1em;
-    content: '';
-    -webkit-mask: url(../img/triangle.svg) no-repeat 50% 50%;
-    mask: url(../img/triangle.svg) no-repeat 50% 50%; }
 
 #intersections > * {
   position: absolute;
