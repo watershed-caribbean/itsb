@@ -236,7 +236,7 @@ a, a:link, a:visited {
 @mixin author-list-item {
   color: $clr1;
   text-transform: uppercase;
-  height: $blh * 3;
+  height: $blh * 5;
   float: left;
   font-size: 0.9em;
   width: 50%;
@@ -316,7 +316,8 @@ a, a:link, a:visited {
     fill: $black;
     stroke: transparent;
     font-weight: $regular;
-    font-size: 0.5em;
+    font-size: 0.8em;
+    margin-top: 0.2em;
   }
 }
 

@@ -141,7 +141,7 @@ a, a:link, a:visited {
 .results .results-view > div {
   color: #1C9CF2;
   text-transform: uppercase;
-  height: 3.75em;
+  height: 6.25em;
   float: left;
   font-size: 0.9em;
   width: 50%;
@@ -185,7 +185,8 @@ a, a:link, a:visited {
   fill: #161C1E;
   stroke: transparent;
   font-weight: 400;
-  font-size: 0.5em; }
+  font-size: 0.8em;
+  margin-top: 0.2em; }
 
 .date-selector {
   height: 90%;
@@ -388,7 +389,7 @@ path.line {
 #trajectories .authors-list a {
   color: #1C9CF2;
   text-transform: uppercase;
-  height: 3.75em;
+  height: 6.25em;
   float: left;
   font-size: 0.9em;
   width: 50%;

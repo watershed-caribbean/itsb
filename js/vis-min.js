@@ -262,7 +262,9 @@ class CreateMap {
 
 		var slider = d3.select(ui.dom.intersections.dateslider).call(slide);
 		
-		d3.select(ui.dom.intersections.dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)");
+		d3.select(ui.dom.intersections.dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)").text(function(d){
+  		return d3.select(this).text() + "s";
+		});
 		
 		update_datebar();
 				
