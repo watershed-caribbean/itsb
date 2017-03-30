@@ -192,6 +192,8 @@ class CreateMap {
         this.generate_routes();
     }
 	}
+	
+	/* !INTERSECTIONS MAP FUNCTION */
 
 	generate_int_map(){
 		var self = this;
@@ -373,6 +375,10 @@ class CreateMap {
 							px = p[0],
 							py = p[1];
 					return 'translate(' +px +',' +py +')';
+				})
+				.append('title')
+				.text(function(d){
+  				return self.places[d.key].PlaceName;
 				});
 			points_g
 				.on('mousemove',function(d){
@@ -553,7 +559,7 @@ class CreateMap {
 		generate_sidebar();
 	}
 	
-	// Trajectories
+	/* !TRAJECTORIES MAP FUNCTION */
 	
 	generate_traj_map(){
   	  	

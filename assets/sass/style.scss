@@ -238,7 +238,7 @@ a, a:link, a:visited {
   .item_date {
     text-transform: none;
     font-size: 0.8em;
-    color: darken($cool_neutral, 10%);
+    color: darken($cool_neutral, 20%);
     font-weight: $regular;
   }
 }
@@ -254,7 +254,6 @@ a, a:link, a:visited {
     width: 100%;
     padding-bottom: $blh / 2;
     margin-bottom: $blh / 2;
-    border-bottom: 1px solid $black;
   }
 
   .results-view {
@@ -475,12 +474,22 @@ path.line {
 // Trajector author
 
 #trajectories {
+  
+  
+  .authors {
+    background-color: darken($neutral,2%);
+    
+    .header {
+      background-color: darken($cool_neutral,10%)
+    }
+  }
+  
   .authors-list a {
     @include author-list-item;
 
     padding: $blh;
     cursor: pointer;
-    color: $dark_neutral;
+    color: darken($neutral, 40%);
 
     &:hover, &.selected {
       color: $clr1;
