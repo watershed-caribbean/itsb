@@ -726,6 +726,7 @@ class CreateMap {
 						d.value[_d].forEach(function(__d){
 							if((!intersections[_d].figures[__d.AuthorID] || intersections[_d].figures[__d.AuthorID] >__d.Likelihood) && self.active_authors_t.indexOf(__d.AuthorID) > -1){
 								intersections[_d].figures[__d.AuthorID] = __d.Likelihood;
+								intersections[_d].info = d.value[_d];
 							}
 						});
 					});
@@ -767,7 +768,6 @@ class CreateMap {
 				});
 			});
       for (var author in trajectories) {
-        console.log(author);
        if (self.active_authors_t.indexOf(author) == -1) {
          delete trajectories[author];
        } 
@@ -796,6 +796,7 @@ class CreateMap {
 					if(_d.PlaceID_End){ trajectories_unique[_d.PlaceID_End].push(_d); }
 				});
 			});
+			
 		}
 
 		function generate_lines(){
@@ -850,12 +851,14 @@ class CreateMap {
 		}
 
 		function generate_points(){
-
+  		
+  		console.log(intersections);
+  		
 			//scale for radii
 			var r_scale = d3.scale.linear()
 				.domain([0,10])
 				.range([0,36]);
-
+				
 			points_target = self.trajectories.map.selectAll('g.points_target')
 				.data([self]);
 			points_target.enter().append('g')
@@ -875,6 +878,10 @@ class CreateMap {
 							px = p[0],
 							py = p[1];
 					return 'translate(' +px +',' +py +')';
+				})
+				.append('title')
+				.text(function(d){
+  				return self.places[d.key].PlaceName;
 				});
 			points_g
 				.on('mousemove',function(d){
