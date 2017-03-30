@@ -238,29 +238,93 @@ path.line {
 
 /* Trajectories */
 .id_0 {
+  fill: #d999c9;
+  color: #d999c9; }
+  .id_0 path, .id_0 path.id_0, .id_0 line.id_0 {
+    fill: none;
+    stroke: #d999c9; }
+
+.id_1 {
+  fill: #1C9CF2;
+  color: #1C9CF2; }
+  .id_1 path, .id_1 path.id_1, .id_1 line.id_1 {
+    fill: none;
+    stroke: #1C9CF2; }
+
+.id_2 {
+  fill: #F9D5B6;
+  color: #F9D5B6; }
+  .id_2 path, .id_2 path.id_2, .id_2 line.id_2 {
+    fill: none;
+    stroke: #F9D5B6; }
+
+.id_3 {
+  fill: #D2D9AC;
+  color: #D2D9AC; }
+  .id_3 path, .id_3 path.id_3, .id_3 line.id_3 {
+    fill: none;
+    stroke: #D2D9AC; }
+
+.id_4 {
+  fill: #2D393F;
+  color: #2D393F; }
+  .id_4 path, .id_4 path.id_4, .id_4 line.id_4 {
+    fill: none;
+    stroke: #2D393F; }
+
+.id_5 {
+  fill: #ac8a6d;
+  color: #ac8a6d; }
+  .id_5 path, .id_5 path.id_5, .id_5 line.id_5 {
+    fill: none;
+    stroke: #ac8a6d; }
+
+.id_6 {
+  fill: #617a8c;
+  color: #617a8c; }
+  .id_6 path, .id_6 path.id_6, .id_6 line.id_6 {
+    fill: none;
+    stroke: #617a8c; }
+
+.id_7 {
+  fill: #8ea030;
+  color: #8ea030; }
+  .id_7 path, .id_7 path.id_7, .id_7 line.id_7 {
+    fill: none;
+    stroke: #8ea030; }
+
+/*
+  .id_0 {
   fill: #fb9a99;
-  color: #fb9a99; }
+  color: #fb9a99;
+}
 
 .id_0 path, path.id_0, line.id_0 {
   fill: none;
-  stroke: #fb9a99; }
+  stroke: #fb9a99;
+}
 
 .id_1 {
   fill: #b2df8a;
-  color: #b2df8a; }
+  color: #b2df8a;
+}
 
 .id_1 path, path.id_1, line.id_1 {
   fill: none;
-  stroke: #b2df8a; }
+  stroke: #b2df8a;
+}
 
 .id_2 {
   fill: #cab2d6;
-  color: #cab2d6; }
+  color: #cab2d6;
+}
 
 .id_2 path, path.id_2, line.id_2 {
   fill: none;
-  stroke: #cab2d6; }
+  stroke: #cab2d6;
+}
 
+  */
 ._02 .control {
   z-index: 1;
   position: absolute;

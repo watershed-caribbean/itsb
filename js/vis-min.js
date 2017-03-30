@@ -350,7 +350,7 @@ class CreateMap {
 		}
 
 		function generate_points(){
-
+  		
 			//scale for radii
 			var r_scale = d3.scale.linear()
 				.domain([0,10])
@@ -368,6 +368,7 @@ class CreateMap {
 				.classed('points_g',true);
 			points_g
 				.attr('transform',function(d){
+  				
 					var p  = projection([
 								self.places[d.key].Long,
 								self.places[d.key].Lat
@@ -773,12 +774,15 @@ class CreateMap {
 					});
 				});
 			});
+			
+			
+			
       for (var author in trajectories) {
        if (self.active_authors_t.indexOf(author) == -1) {
          delete trajectories[author];
        } 
       }
-            
+                  
 			//pair up start and end points
 			var tier = 0;
 			for(var i=0; i<d3.keys(trajectories).length; i++){
@@ -789,20 +793,21 @@ class CreateMap {
 					tier=(j%2)*10;
 				} 
 			}
+						
 			//make list of unique trajectories per place
 			d3.keys(intersections).forEach(function(d){
 				if(!trajectories_unique[d]){ trajectories_unique[d] = []; }
 			});
 			
 			d3.values(trajectories).forEach(function(d){
-				d.forEach(function(_d){
+				d.forEach(function(_d){ 
 					if(!trajectories_unique[_d.PlaceID]){ trajectories_unique[_d.PlaceID] = []; }
 					if(!trajectories_unique[_d.PlaceID_End]){ trajectories_unique[_d.PlaceID_End] = []; }
 					trajectories_unique[_d.PlaceID].push(_d);
 					if(_d.PlaceID_End){ trajectories_unique[_d.PlaceID_End].push(_d); }
 				});
 			});
-			
+						
 		}
 
 		function generate_lines(){
@@ -845,7 +850,7 @@ class CreateMap {
 						self.places[p_2].Long,
 						self.places[p_2].Lat
 					]);
-
+					
 					//this is a path builder -- creates a curved line between points
 					//src: http://stackoverflow.com/questions/13455510/curved-line-on-d3-force-directed-tree
 					var dx = target[0] -source[0],
@@ -857,9 +862,7 @@ class CreateMap {
 		}
 
 		function generate_points(){
-  		
-  		console.log(intersections);
-  		
+  		  		
 			//scale for radii
 			var r_scale = d3.scale.linear()
 				.domain([0,10])

@@ -37250,7 +37250,7 @@
                 "StartType": "arrival"
             }
         ],
-        "washington,-d.c._us": [
+        "washington_d.c._ us": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Ramsey 2014, 62",
@@ -37259,7 +37259,7 @@
                 "EntryIndex": 19,
                 "Likelihood": 3,
                 "Notes": "Performs for Haitian Minister at the Haitian Coffee Festival in Washington, D.C.",
-                "PlaceID": "washington,-d.c._us",
+                "PlaceID": "washington_d.c._ us",
                 "StartCitation": "Ramsey 2014, 62",
                 "StartDate": "1938-04-30",
                 "StartType": "arrival"
@@ -50110,7 +50110,7 @@
                 "StartType": "arrival"
             }
         ],
-        "rome--_italy": [
+        "rome_italy": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Das 2014",
@@ -50119,7 +50119,7 @@
                 "EntryIndex": 80,
                 "Likelihood": 3,
                 "Notes": "Performances of Caribbean Rhapsody; meets Bernard Berenson",
-                "PlaceID": "rome--_italy",
+                "PlaceID": "rome_italy",
                 "StartCitation": "Das 2014",
                 "StartDate": "1949-03",
                 "StartType": "arrival"
@@ -50200,7 +50200,7 @@
                 "StartType": "earliest_presence"
             }
         ],
-        "rome--_italy": [
+        "rome_italy": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Das 2014",
@@ -50209,7 +50209,7 @@
                 "EntryIndex": 80,
                 "Likelihood": 3,
                 "Notes": "Performances of Caribbean Rhapsody; meets Bernard Berenson",
-                "PlaceID": "rome--_italy",
+                "PlaceID": "rome_italy",
                 "StartCitation": "Das 2014",
                 "StartDate": "1949-03",
                 "StartType": "arrival"
@@ -51150,7 +51150,7 @@
                 "StartType": "earliest_presence"
             }
         ],
-        "rome--_italy": [
+        "rome_italy": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Love Letters from I Tatti Vol 1",
@@ -51159,7 +51159,7 @@
                 "EntryIndex": 91,
                 "Likelihood": 3,
                 "Notes": "Lists tour dates in letter to Berenson from Paris on 17 January 1950",
-                "PlaceID": "rome--_italy",
+                "PlaceID": "rome_italy",
                 "StartCitation": "Love Letters from I Tatti Vol 1",
                 "StartDate": "1950-02-13",
                 "StartType": "arrival"
@@ -54539,7 +54539,7 @@
                 "StartType": "arrival"
             }
         ],
-        "_france,-spain,-italy,-switzerland": [
+        "_france_ spain_ italy_ switzerland": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Das 2014",
@@ -54548,7 +54548,7 @@
                 "EntryIndex": 126,
                 "Likelihood": 3,
                 "Notes": "Touring Europe",
-                "PlaceID": "_france,-spain,-italy,-switzerland",
+                "PlaceID": "_france_ spain_ italy_ switzerland",
                 "StartCitation": "Das 2014",
                 "StartDate": "1952-08",
                 "StartType": "arrival"
@@ -54672,7 +54672,7 @@
                 "StartType": "arrival"
             }
         ],
-        "_france,-spain,-italy,-switzerland": [
+        "_france_ spain_ italy_ switzerland": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Das 2014",
@@ -54681,7 +54681,7 @@
                 "EntryIndex": 126,
                 "Likelihood": 3,
                 "Notes": "Touring Europe",
-                "PlaceID": "_france,-spain,-italy,-switzerland",
+                "PlaceID": "_france_ spain_ italy_ switzerland",
                 "StartCitation": "Das 2014",
                 "StartDate": "1952-08",
                 "StartType": "arrival"
@@ -54790,7 +54790,7 @@
                 "StartType": "arrival"
             }
         ],
-        "_france,-spain,-italy,-switzerland": [
+        "_france_ spain_ italy_ switzerland": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Das 2014",
@@ -54799,7 +54799,7 @@
                 "EntryIndex": 126,
                 "Likelihood": 3,
                 "Notes": "Touring Europe",
-                "PlaceID": "_france,-spain,-italy,-switzerland",
+                "PlaceID": "_france_ spain_ italy_ switzerland",
                 "StartCitation": "Das 2014",
                 "StartDate": "1952-08",
                 "StartType": "arrival"
@@ -57813,7 +57813,7 @@
                 "StartType": "arrival"
             }
         ],
-        "mexico-city,-distrito-federal_mexico": [
+        "mexico-city-(distrito-federal)_mexico": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Dunham, \"Love Letters From I Tatti\"",
@@ -57822,7 +57822,7 @@
                 "EntryIndex": 150,
                 "Likelihood": 3,
                 "Notes": "Performing at Auditorio Nacional, Teatro Lirico, and Versailles nightclub",
-                "PlaceID": "mexico-city,-distrito-federal_mexico",
+                "PlaceID": "mexico-city-(distrito-federal)_mexico",
                 "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
                 "StartDate": "1955-05",
                 "StartType": "arrival"
@@ -57903,7 +57903,7 @@
                 "StartType": "arrival"
             }
         ],
-        "mexico-city,-distrito-federal_mexico": [
+        "mexico-city-(distrito-federal)_mexico": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Dunham, \"Love Letters From I Tatti\"",
@@ -57912,7 +57912,7 @@
                 "EntryIndex": 150,
                 "Likelihood": 3,
                 "Notes": "Performing at Auditorio Nacional, Teatro Lirico, and Versailles nightclub",
-                "PlaceID": "mexico-city,-distrito-federal_mexico",
+                "PlaceID": "mexico-city-(distrito-federal)_mexico",
                 "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
                 "StartDate": "1955-05",
                 "StartType": "arrival"
@@ -57978,7 +57978,7 @@
                 "StartType": "arrival"
             }
         ],
-        "mexico-city,-distrito-federal_mexico": [
+        "mexico-city-(distrito-federal)_mexico": [
             {
                 "AuthorID": "kdunham",
                 "EndCitation": "Dunham, \"Love Letters From I Tatti\"",
@@ -57987,7 +57987,7 @@
                 "EntryIndex": 150,
                 "Likelihood": 3,
                 "Notes": "Performing at Auditorio Nacional, Teatro Lirico, and Versailles nightclub",
-                "PlaceID": "mexico-city,-distrito-federal_mexico",
+                "PlaceID": "mexico-city-(distrito-federal)_mexico",
                 "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
                 "StartDate": "1955-05",
                 "StartType": "arrival"
@@ -78101,7 +78101,7 @@
         ]
     },
     "1969-07": {
-        "algiers-_algeria": [
+        "algiers_algeria": [
             {
                 "AuthorID": "rdepestre",
                 "EndCitation": "Couffon",
@@ -78110,7 +78110,7 @@
                 "EntryIndex": 32,
                 "Likelihood": 3,
                 "Notes": "sent as journalist for Granma to cover Pan-African Festival of Algiers",
-                "PlaceID": "algiers-_algeria",
+                "PlaceID": "algiers_algeria",
                 "StartCitation": "Couffon",
                 "StartDate": "1969-07-21",
                 "StartType": "arrival"
