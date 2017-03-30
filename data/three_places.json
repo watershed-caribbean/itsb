@@ -1,18 +1,188 @@
 {
+    ", Amazon": {
+        "Lat": -10.3,
+        "Long": 149.3,
+        "PlaceID": "_amazon"
+    },
+    ", Australia": {
+        "Lat": -25.0,
+        "Long": 135.0,
+        "PlaceID": "_australia"
+    },
+    ", Colombia": {
+        "Lat": 4.0,
+        "Long": -73.25,
+        "PlaceID": "_colombia"
+    },
+    ", Cuba": {
+        "Lat": 22.0,
+        "Long": -79.5,
+        "PlaceID": "_cuba"
+    },
+    ", Ecuador": {
+        "Lat": -1.25,
+        "Long": -78.25,
+        "PlaceID": "_ecuador"
+    },
+    ", England": {
+        "Lat": 44.2056,
+        "Long": -70.3064,
+        "PlaceID": "_england"
+    },
+    ", Europe": {
+        "Lat": 51.72703,
+        "Long": 28.38867,
+        "PlaceID": "_europe"
+    },
+    ", France": {
+        "Lat": 46.0,
+        "Long": 2.0,
+        "PlaceID": "_france"
+    },
+    ", France, Spain, Italy, Switzerland": {
+        "Lat": null,
+        "Long": null,
+        "PlaceID": "_france,-spain,-italy,-switzerland"
+    },
+    ", Germany": {
+        "Lat": 51.5,
+        "Long": 10.5,
+        "PlaceID": "_germany"
+    },
+    ", Greece": {
+        "Lat": 39.0,
+        "Long": 22.0,
+        "PlaceID": "_greece"
+    },
+    ", Guadeloupe": {
+        "Lat": 16.25,
+        "Long": -61.58333,
+        "PlaceID": "_guadeloupe"
+    },
+    ", Haiti": {
+        "Lat": 19.0,
+        "Long": -72.41667,
+        "PlaceID": "_haiti"
+    },
+    ", Hong Kong": {
+        "Lat": 22.28552,
+        "Long": 114.15769,
+        "PlaceID": "_hong-kong"
+    },
+    ", India": {
+        "Lat": 22.0,
+        "Long": 79.0,
+        "PlaceID": "_india"
+    },
+    ", Ireland": {
+        "Lat": 53.0,
+        "Long": -8.0,
+        "PlaceID": "_ireland"
+    },
+    ", Italy": {
+        "Lat": 42.83333,
+        "Long": 12.83333,
+        "PlaceID": "_italy"
+    },
+    ", Malay Federation (Malaysia)": {
+        "Lat": null,
+        "Long": null,
+        "PlaceID": "_malay-federation-(malaysia)"
+    },
+    ", Martinique": {
+        "Lat": 14.66667,
+        "Long": -61.0,
+        "PlaceID": "_martinique"
+    },
+    ", Mexico": {
+        "Lat": 23.0,
+        "Long": -102.0,
+        "PlaceID": "_mexico"
+    },
+    ", New Zealand": {
+        "Lat": -42.0,
+        "Long": 174.0,
+        "PlaceID": "_new-zealand"
+    },
+    ", Philippines": {
+        "Lat": 13.0,
+        "Long": 122.0,
+        "PlaceID": "_philippines"
+    },
+    ", Singapore": {
+        "Lat": 1.28967,
+        "Long": 103.85007,
+        "PlaceID": "_singapore"
+    },
+    ", Sweden": {
+        "Lat": 62.0,
+        "Long": 15.0,
+        "PlaceID": "_sweden"
+    },
+    ", Switzerland": {
+        "Lat": 47.00016,
+        "Long": 8.01427,
+        "PlaceID": "_switzerland"
+    },
+    ", Trinidad": {
+        "Lat": -14.83333,
+        "Long": -64.9,
+        "PlaceID": "_trinidad"
+    },
+    ", US": {
+        "Lat": 54.77535,
+        "Long": -105.64453,
+        "PlaceID": "_us"
+    },
     "Abidjan, Ivory Coast": {
         "Lat": 5.30966,
         "Long": -4.01266,
         "PlaceID": "abidjan_ivory-coast"
+    },
+    "Accompong, Jamaica": {
+        "Lat": 18.22985,
+        "Long": -77.74816,
+        "PlaceID": "accompong_jamaica"
+    },
+    "Accra, Ghana": {
+        "Lat": 5.55602,
+        "Long": -0.1969,
+        "PlaceID": "accra_ghana"
     },
     "Addis-Abeba, Ethiopia": {
         "Lat": 9.02497,
         "Long": 38.74689,
         "PlaceID": "addis-abeba_ethiopia"
     },
-    "Algiers, Algeria": {
+    "Albissola Marina, Italy": {
+        "Lat": 44.33079,
+        "Long": 8.5096,
+        "PlaceID": "albissola-marina_italy"
+    },
+    "Albissola, Italy": {
+        "Lat": 44.33079,
+        "Long": 8.5096,
+        "PlaceID": "albissola_italy"
+    },
+    "Algiers , Algeria": {
         "Lat": 36.7525,
         "Long": 3.04197,
-        "PlaceID": "algiers_algeria"
+        "PlaceID": "algiers-_algeria"
+    },
+    "Alicante, Spain": {
+        "Lat": 38.34517,
+        "Long": -0.48149,
+        "PlaceID": "alicante_spain"
+    },
+    "Amsterdam, Holland": {
+        "Lat": 52.37403,
+        "Long": 4.88969,
+        "PlaceID": "amsterdam_holland"
+    },
+    "Amsterdam, Netherlands": {
+        "Lat": 52.37403,
+        "Long": 4.88969,
+        "PlaceID": "amsterdam_netherlands"
     },
     "Andé, France": {
         "Lat": 49.23163,
@@ -34,20 +204,65 @@
         "Long": 4.80892,
         "PlaceID": "avignon_france"
     },
+    "Barcelona, Spain": {
+        "Lat": 41.38879,
+        "Long": 2.15899,
+        "PlaceID": "barcelona_spain"
+    },
     "Basse-Pointe, Martinique": {
         "Lat": 14.86954,
         "Long": -61.11504,
         "PlaceID": "basse-pointe_martinique"
+    },
+    "Basseterre, St. Kitts and Nevis": {
+        "Lat": null,
+        "Long": null,
+        "PlaceID": "basseterre_st.-kitts-and-nevis"
     },
     "Beijing, China": {
         "Lat": 39.9075,
         "Long": 116.39723,
         "PlaceID": "beijing_china"
     },
+    "Belfast, Northern Ireland": {
+        "Lat": 54.59682,
+        "Long": -5.92541,
+        "PlaceID": "belfast_northern-ireland"
+    },
     "Berlin, Germany": {
         "Lat": 52.52437,
         "Long": 13.41053,
         "PlaceID": "berlin_germany"
+    },
+    "Bologna, Italy": {
+        "Lat": 44.49381,
+        "Long": 11.33875,
+        "PlaceID": "bologna_italy"
+    },
+    "Boston, US": {
+        "Lat": 42.35843,
+        "Long": -71.05977,
+        "PlaceID": "boston_us"
+    },
+    "Boston, USA": {
+        "Lat": 42.35843,
+        "Long": -71.05977,
+        "PlaceID": "boston_usa"
+    },
+    "Bournemouth, England": {
+        "Lat": 50.72048,
+        "Long": -1.8795,
+        "PlaceID": "bournemouth_england"
+    },
+    "Bridgetown, Barbados": {
+        "Lat": 13.10732,
+        "Long": -59.62021,
+        "PlaceID": "bridgetown_barbados"
+    },
+    "Brooklyn, USA": {
+        "Lat": 40.6501,
+        "Long": -73.94958,
+        "PlaceID": "brooklyn_usa"
     },
     "Brussels, Belgium": {
         "Lat": 50.85045,
@@ -64,25 +279,125 @@
         "Long": -58.37723,
         "PlaceID": "buenos-aires_argentina"
     },
+    "Cambridge, England": {
+        "Lat": 42.3751,
+        "Long": -71.10561,
+        "PlaceID": "cambridge_england"
+    },
+    "Cambridge, USA": {
+        "Lat": 42.3751,
+        "Long": -71.10561,
+        "PlaceID": "cambridge_usa"
+    },
+    "Caracas, Venezuela": {
+        "Lat": 10.48801,
+        "Long": -66.87919,
+        "PlaceID": "caracas_venezuela"
+    },
+    "Carbondale, US": {
+        "Lat": 37.72727,
+        "Long": -89.21675,
+        "PlaceID": "carbondale_us"
+    },
+    "Carbondale, USA": {
+        "Lat": 37.72727,
+        "Long": -89.21675,
+        "PlaceID": "carbondale_usa"
+    },
+    "Carmel, US": {
+        "Lat": 39.97837,
+        "Long": -86.11804,
+        "PlaceID": "carmel_us"
+    },
+    "Castries, Saint Lucia": {
+        "Lat": 13.9957,
+        "Long": -61.00614,
+        "PlaceID": "castries_saint-lucia"
+    },
     "Cherbourg, France": {
         "Lat": 49.63984,
         "Long": -1.61636,
         "PlaceID": "cherbourg_france"
+    },
+    "Chicago, US": {
+        "Lat": 41.85003,
+        "Long": -87.65005,
+        "PlaceID": "chicago_us"
+    },
+    "Chicago, USA": {
+        "Lat": 41.85003,
+        "Long": -87.65005,
+        "PlaceID": "chicago_usa"
+    },
+    "Cincinnati, US": {
+        "Lat": 39.162,
+        "Long": -84.45689,
+        "PlaceID": "cincinnati_us"
+    },
+    "Cleveland, US": {
+        "Lat": 41.4995,
+        "Long": -81.69541,
+        "PlaceID": "cleveland_us"
+    },
+    "Copenhagan, Denmark": {
+        "Lat": null,
+        "Long": null,
+        "PlaceID": "copenhagan_denmark"
+    },
+    "Copenhagen, Denmark": {
+        "Lat": 55.67594,
+        "Long": 12.56553,
+        "PlaceID": "copenhagen_denmark"
     },
     "Corfu, Greece": {
         "Lat": 39.62069,
         "Long": 19.91975,
         "PlaceID": "corfu_greece"
     },
+    "Covington, US": {
+        "Lat": 31.63322,
+        "Long": -89.55263,
+        "PlaceID": "covington_us"
+    },
+    "CowPastor, Barbados": {
+        "Lat": null,
+        "Long": null,
+        "PlaceID": "cowpastor_barbados"
+    },
     "Dakar, Senegal": {
         "Lat": 14.6937,
         "Long": -17.44406,
         "PlaceID": "dakar_senegal"
     },
+    "Detroit, US": {
+        "Lat": 42.33143,
+        "Long": -83.04575,
+        "PlaceID": "detroit_us"
+    },
+    "East St. Louis, US": {
+        "Lat": 38.6245,
+        "Long": -90.15094,
+        "PlaceID": "east-st.-louis_us"
+    },
     "Eschenau, Austria": {
         "Lat": 48.38955,
         "Long": 13.82089,
         "PlaceID": "eschenau_austria"
+    },
+    "Falmer, England": {
+        "Lat": 50.86529,
+        "Long": -0.07733,
+        "PlaceID": "falmer_england"
+    },
+    "Falun, Sweden": {
+        "Lat": 60.60357,
+        "Long": 15.62597,
+        "PlaceID": "falun_sweden"
+    },
+    "Florence, Italy": {
+        "Lat": 43.77925,
+        "Long": 11.24626,
+        "PlaceID": "florence_italy"
     },
     "Fort-de-France, Martinique": {
         "Lat": 14.60892,
@@ -99,6 +414,16 @@
         "Long": 8.91519,
         "PlaceID": "genoa_italy"
     },
+    "Georgetown , Guyana": {
+        "Lat": 6.80448,
+        "Long": -58.15527,
+        "PlaceID": "georgetown-_guyana"
+    },
+    "Glen Ellyn, US": {
+        "Lat": 41.87753,
+        "Long": -88.06701,
+        "PlaceID": "glen-ellyn_us"
+    },
     "Hanoi, Vietnam": {
         "Lat": 21.0245,
         "Long": 105.84117,
@@ -114,40 +439,175 @@
         "Long": -82.38304,
         "PlaceID": "havana_cuba"
     },
+    "Ho, Trans-Volta Togoland": {
+        "Lat": 6.60084,
+        "Long": 0.4713,
+        "PlaceID": "ho_trans-volta-togoland"
+    },
+    "Indianapolis, US": {
+        "Lat": 39.76838,
+        "Long": -86.15804,
+        "PlaceID": "indianapolis_us"
+    },
     "Jacmel, Haiti": {
         "Lat": 18.23427,
         "Long": -72.53539,
         "PlaceID": "jacmel_haiti"
+    },
+    "Joliet, US": {
+        "Lat": 41.52519,
+        "Long": -88.0834,
+        "PlaceID": "joliet_us"
+    },
+    "Kansas City, US": {
+        "Lat": 39.09973,
+        "Long": -94.57857,
+        "PlaceID": "kansas-city_us"
     },
     "Kingston, Jamaica": {
         "Lat": 17.99702,
         "Long": -76.79358,
         "PlaceID": "kingston_jamaica"
     },
+    "Las Vegas and Los Angeles, US": {
+        "Lat": null,
+        "Long": null,
+        "PlaceID": "las-vegas-and-los-angeles_us"
+    },
+    "Las Vegas, US": {
+        "Lat": 36.17497,
+        "Long": -115.13722,
+        "PlaceID": "las-vegas_us"
+    },
+    "Lecce, Italy": {
+        "Lat": 40.35481,
+        "Long": 18.17244,
+        "PlaceID": "lecce_italy"
+    },
     "Leysin, Switzerland": {
         "Lat": 46.34183,
         "Long": 7.01151,
         "PlaceID": "leysin_switzerland"
+    },
+    "Lima, Peru": {
+        "Lat": -12.04318,
+        "Long": -77.02824,
+        "PlaceID": "lima_peru"
+    },
+    "Limura, Kenya": {
+        "Lat": null,
+        "Long": null,
+        "PlaceID": "limura_kenya"
+    },
+    "London, England": {
+        "Lat": 51.50853,
+        "Long": -0.12574,
+        "PlaceID": "london_england"
+    },
+    "London, U.K.": {
+        "Lat": 41.57893,
+        "Long": -72.33904,
+        "PlaceID": "london_u.k."
+    },
+    "Los Angeles, US": {
+        "Lat": 34.05223,
+        "Long": -118.24368,
+        "PlaceID": "los-angeles_us"
+    },
+    "Louisville, US": {
+        "Lat": 38.25424,
+        "Long": -85.75941,
+        "PlaceID": "louisville_us"
     },
     "Lézignan-Corbières, France": {
         "Lat": 43.19765,
         "Long": 2.76142,
         "PlaceID": "lézignan-corbières_france"
     },
+    "Madrid, Spain": {
+        "Lat": 40.4165,
+        "Long": -3.70256,
+        "PlaceID": "madrid_spain"
+    },
+    "Manhattan, USA": {
+        "Lat": 40.78343,
+        "Long": -73.96625,
+        "PlaceID": "manhattan_usa"
+    },
+    "Mar de Plata, Argentina": {
+        "Lat": -38.00228,
+        "Long": -57.55754,
+        "PlaceID": "mar-de-plata_argentina"
+    },
+    "Maracaibo, Venezuela": {
+        "Lat": 10.66663,
+        "Long": -71.61245,
+        "PlaceID": "maracaibo_venezuela"
+    },
     "Marienbad, Czech Republic": {
         "Lat": 49.96459,
         "Long": 12.70118,
         "PlaceID": "marienbad_czech-republic"
     },
+    "Marseille, France": {
+        "Lat": 43.29695,
+        "Long": 5.38107,
+        "PlaceID": "marseille_france"
+    },
+    "Memphis, USA": {
+        "Lat": 35.14953,
+        "Long": -90.04898,
+        "PlaceID": "memphis_usa"
+    },
+    "Menton, France": {
+        "Lat": 43.77649,
+        "Long": 7.50435,
+        "PlaceID": "menton_france"
+    },
+    "Mexico City (Distrito Federal), Mexico": {
+        "Lat": 19.42847,
+        "Long": -99.12766,
+        "PlaceID": "mexico-city-(distrito-federal)_mexico"
+    },
+    "Mexico City, Distrito Federal, Mexico": {
+        "Lat": 19.42847,
+        "Long": -99.12766,
+        "PlaceID": "mexico-city,-distrito-federal_mexico"
+    },
+    "Mexico City, Mexico": {
+        "Lat": 19.42847,
+        "Long": -99.12766,
+        "PlaceID": "mexico-city_mexico"
+    },
+    "Miami, US": {
+        "Lat": 25.77427,
+        "Long": -80.19366,
+        "PlaceID": "miami_us"
+    },
+    "Miami, USA": {
+        "Lat": 25.77427,
+        "Long": -80.19366,
+        "PlaceID": "miami_usa"
+    },
     "Miami, United States": {
-        "Lat": 25.79065,
-        "Long": -80.13005,
+        "Lat": 25.77427,
+        "Long": -80.19366,
         "PlaceID": "miami_united-states"
     },
     "Milan, Italy": {
         "Lat": 45.46427,
         "Long": 9.18951,
         "PlaceID": "milan_italy"
+    },
+    "Mona, Jamaica": {
+        "Lat": 18.01331,
+        "Long": -76.75086,
+        "PlaceID": "mona_jamaica"
+    },
+    "Montevideo, Uruguay": {
+        "Lat": -34.90328,
+        "Long": -56.18816,
+        "PlaceID": "montevideo_uruguay"
     },
     "Montreal, Canada": {
         "Lat": 45.50884,
@@ -159,25 +619,100 @@
         "Long": 37.61556,
         "PlaceID": "moscow_russia"
     },
+    "Mougins, France": {
+        "Lat": 43.59873,
+        "Long": 7.00434,
+        "PlaceID": "mougins_france"
+    },
     "Munich, Germany": {
         "Lat": 48.13743,
         "Long": 11.57549,
         "PlaceID": "munich_germany"
+    },
+    "Mysore, India": {
+        "Lat": 12.29791,
+        "Long": 76.63925,
+        "PlaceID": "mysore_india"
+    },
+    "Nairobi, Kenya": {
+        "Lat": -1.28333,
+        "Long": 36.81667,
+        "PlaceID": "nairobi_kenya"
     },
     "Naples, Italy": {
         "Lat": 40.85631,
         "Long": 14.24641,
         "PlaceID": "naples_italy"
     },
+    "New Haven, US": {
+        "Lat": 41.30815,
+        "Long": -72.92816,
+        "PlaceID": "new-haven_us"
+    },
+    "New Haven, USA": {
+        "Lat": 41.30815,
+        "Long": -72.92816,
+        "PlaceID": "new-haven_usa"
+    },
+    "New York City, USA": {
+        "Lat": 40.71427,
+        "Long": -74.00597,
+        "PlaceID": "new-york-city_usa"
+    },
+    "New York City, United States": {
+        "Lat": 40.71427,
+        "Long": -74.00597,
+        "PlaceID": "new-york-city_united-states"
+    },
+    "New York, US": {
+        "Lat": 40.71427,
+        "Long": -74.00597,
+        "PlaceID": "new-york_us"
+    },
+    "New York, USA": {
+        "Lat": 40.71427,
+        "Long": -74.00597,
+        "PlaceID": "new-york_usa"
+    },
     "New York, United States": {
         "Lat": 40.71427,
         "Long": -74.00597,
         "PlaceID": "new-york_united-states"
     },
+    "Oakland, US": {
+        "Lat": 37.80437,
+        "Long": -122.2708,
+        "PlaceID": "oakland_us"
+    },
+    "Okinawa, Japan": {
+        "Lat": 26.5,
+        "Long": 127.93333,
+        "PlaceID": "okinawa_japan"
+    },
+    "Orange, United States": {
+        "Lat": 33.78779,
+        "Long": -117.85311,
+        "PlaceID": "orange_united-states"
+    },
+    "Palm Springs, US": {
+        "Lat": 33.8303,
+        "Long": -116.54529,
+        "PlaceID": "palm-springs_us"
+    },
     "Paris, France": {
         "Lat": 48.85341,
         "Long": 2.3488,
         "PlaceID": "paris_france"
+    },
+    "Philadelphia, US": {
+        "Lat": 39.95233,
+        "Long": -75.16379,
+        "PlaceID": "philadelphia_us"
+    },
+    "Pittsburgh, US": {
+        "Lat": 40.44062,
+        "Long": -79.99589,
+        "PlaceID": "pittsburgh_us"
     },
     "Point-à-Pitre, Guadeloupe": {
         "Lat": 16.34948,
@@ -194,20 +729,40 @@
         "Long": -61.5275,
         "PlaceID": "port-of-spain_trinidad"
     },
+    "Portland, US": {
+        "Lat": 45.52345,
+        "Long": -122.67621,
+        "PlaceID": "portland_us"
+    },
     "Prague, Czech Republic": {
         "Lat": 50.08804,
         "Long": 14.42076,
         "PlaceID": "prague_czech-republic"
     },
     "Quebec, Canada": {
-        "Lat": 52.00017,
-        "Long": -71.99907,
+        "Lat": 46.81228,
+        "Long": -71.21454,
         "PlaceID": "quebec_canada"
+    },
+    "Reno, US": {
+        "Lat": 39.52963,
+        "Long": -119.8138,
+        "PlaceID": "reno_us"
+    },
+    "Rome  , Italy": {
+        "Lat": 41.89193,
+        "Long": 12.51133,
+        "PlaceID": "rome--_italy"
     },
     "Rome, Italy": {
         "Lat": 41.89193,
         "Long": 12.51133,
         "PlaceID": "rome_italy"
+    },
+    "Sagua La Grande, Cuba": {
+        "Lat": 22.80667,
+        "Long": -80.07556,
+        "PlaceID": "sagua-la-grande_cuba"
     },
     "Salvador de Bahia, Brazil": {
         "Lat": -12.97111,
@@ -219,6 +774,26 @@
         "Long": 13.04399,
         "PlaceID": "salzburg_austria"
     },
+    "San Diego, US": {
+        "Lat": 32.71533,
+        "Long": -117.15726,
+        "PlaceID": "san-diego_us"
+    },
+    "San Francisco, US": {
+        "Lat": 37.77493,
+        "Long": -122.41942,
+        "PlaceID": "san-francisco_us"
+    },
+    "Santa Cruz, USA": {
+        "Lat": 36.97412,
+        "Long": -122.0308,
+        "PlaceID": "santa-cruz_usa"
+    },
+    "Santiago de Las Vegas, Cuba": {
+        "Lat": 22.97,
+        "Long": -82.38694,
+        "PlaceID": "santiago-de-las-vegas_cuba"
+    },
     "Santiago, Chile": {
         "Lat": -33.45694,
         "Long": -70.64827,
@@ -229,20 +804,70 @@
         "Long": -46.63611,
         "PlaceID": "sao-paolo_brazil"
     },
+    "Seattle, US": {
+        "Lat": 47.60621,
+        "Long": -122.33207,
+        "PlaceID": "seattle_us"
+    },
+    "Seoul, Korea": {
+        "Lat": 37.5731,
+        "Long": 126.9803,
+        "PlaceID": "seoul_korea"
+    },
     "Shanghai, China": {
         "Lat": 31.22222,
         "Long": 121.45806,
         "PlaceID": "shanghai_china"
+    },
+    "Spokane, US": {
+        "Lat": 47.65966,
+        "Long": -117.42908,
+        "PlaceID": "spokane_us"
+    },
+    "St Gall, Switzerland": {
+        "Lat": 47.42391,
+        "Long": 9.37477,
+        "PlaceID": "st-gall_switzerland"
+    },
+    "St. Louis, US": {
+        "Lat": 38.62727,
+        "Long": -90.19789,
+        "PlaceID": "st.-louis_us"
+    },
+    "St. Paul, US": {
+        "Lat": 44.94441,
+        "Long": -93.09327,
+        "PlaceID": "st.-paul_us"
+    },
+    "Stockholm, Sweden": {
+        "Lat": 59.33258,
+        "Long": 18.0649,
+        "PlaceID": "stockholm_sweden"
     },
     "Tokyo, Japan": {
         "Lat": 35.6895,
         "Long": 139.69171,
         "PlaceID": "tokyo_japan"
     },
+    "Toronto, Canada": {
+        "Lat": 43.70011,
+        "Long": -79.4163,
+        "PlaceID": "toronto_canada"
+    },
     "True Blue, Grenada": {
         "Lat": 11.99439,
         "Long": -61.76786,
         "PlaceID": "true-blue_grenada"
+    },
+    "Turin, Italy": {
+        "Lat": 45.07049,
+        "Long": 7.68682,
+        "PlaceID": "turin_italy"
+    },
+    "Vancouver, Canada": {
+        "Lat": 49.24966,
+        "Long": -123.11934,
+        "PlaceID": "vancouver_canada"
     },
     "Venice, Italy": {
         "Lat": 45.43713,
@@ -254,10 +879,25 @@
         "Long": 16.37208,
         "PlaceID": "vienna_austria"
     },
+    "Washington, D.C., US": {
+        "Lat": 38.89511,
+        "Long": -77.03637,
+        "PlaceID": "washington,-d.c._us"
+    },
+    "Worchester, USA": {
+        "Lat": 46.44466,
+        "Long": -86.2819,
+        "PlaceID": "worchester_usa"
+    },
     "Wroclaw, Poland": {
         "Lat": 51.1,
         "Long": 17.03333,
         "PlaceID": "wroclaw_poland"
+    },
+    "Zurich, Switzerland": {
+        "Lat": 47.36667,
+        "Long": 8.55,
+        "PlaceID": "zurich_switzerland"
     },
     "Šibenik, Croatia": {
         "Lat": 43.72722,
