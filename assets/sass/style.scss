@@ -1,7 +1,7 @@
 /* Primary styles for In The Same Boats
  * SASS file outputs to assets/css/style.css  */
 
-@import "susy";
+@import "vendor/_susy.scss";
 @import "partials/_mixins.sass";
 
 $blh: 1.25em;
