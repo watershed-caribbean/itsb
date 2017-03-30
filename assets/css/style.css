@@ -36,12 +36,17 @@ a, a:link, a:visited {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 18.75%;
+    width: 12.5%;
     float: left; }
     #nav a:hover, #nav a.active {
       text-decoration: none; }
   #nav > a {
-    background-color: #1C9CF2; }
+    background-color: #1C9CF2;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 18.75%;
+    float: left; }
 
 #tabs {
   position: relative; }
@@ -53,6 +58,17 @@ a, a:link, a:visited {
   height: 100%; }
   #panels .panel:nth-child(1) {
     display: block; }
+
+.about-text {
+  width: 62.5%;
+  margin: 0 auto;
+  padding-top: 1.25em; }
+  .about-text h1, .about-text h2 {
+    color: #2D393F; }
+  .about-text p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    color: #2D393F; }
 
 .header {
   width: 100%;

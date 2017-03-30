@@ -82,17 +82,19 @@ a, a:link, a:visited {
     text-transform: uppercase;
     border-right: 1px solid $white;
 
-    @include span(3 of 16 inside no-gutters);
+    @include span(2 of 16 inside no-gutters);
 
     &:hover, &.active {
       text-decoration: none;
 
-      // @include block-pointer($black, -1.5em);
+      // @include block-pointer($black, -1.5em);    
     }
+    
   }
 
   > a {
     background-color: $clr1;
+    @include span(3 of 16 inside no-gutters);
   }
 }
 
@@ -114,6 +116,24 @@ a, a:link, a:visited {
     &:nth-child(1) {
       display: block;
     }
+  }
+}
+
+// About
+
+.about-text {
+  width: 62.5%;
+  margin: 0 auto;
+  padding-top: $blh;
+  
+  h1, h2 {
+    color: $dark_neutral;
+  }
+  
+  p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    color: $dark_neutral;
   }
 }
 
