@@ -1,5 +1,5 @@
 /* Primary styles for In The Same Boats
-   SASS file outputs to assets/css/style.css */
+ * SASS file outputs to assets/css/style.css  */
 body {
   background: #F9F9F9;
   width: 100%;
@@ -112,16 +112,16 @@ a, a:link, a:visited {
     left: 37.5%; }
 
 /* #itineraries
-  > *
-    position: absolute
-    top: 4em
-    bottom: 0
-
-    &:nth-child(1)
-      width: 18.75%
-    &:nth-child(2)
-      width: 81.25%
-      left: 18.75% */
+ * > *
+ *   position: absolute
+ *   top: 4em
+ *   bottom: 0
+ *
+ *   &:nth-child(1)
+ *     width: 18.75%
+ *   &:nth-child(2)
+ *     width: 81.25%
+ *     left: 18.75% */
 #itineraries {
   height: 100%;
   width: 100%;
@@ -140,7 +140,7 @@ a, a:link, a:visited {
 
 #right_itinerary {
   margin-left: 720px;
-    margin-left-width: 700px; }
+  width: 700px; }
 
 #itineraries svg {
   shape-rendering: geometricPrecision;
@@ -310,10 +310,10 @@ line.route_line {
 line.route_points {
   stroke: #aaa;
   stroke-width: 1;
-  stroke-dasharray: 1,1; }
+  stroke-dasharray: 1, 1; }
 
 circle.route_stops {
-  /*stroke:black*/
+  /*stroke:black */
   fill: white;
   stroke: #aaa;
   stroke-width: 2; }
