@@ -14,7 +14,7 @@ $clr3: #D2D9AC;
 
 // Secondary colours for visualizations
 
-$clr4: #2D393F; // grey
+$clr4: lighten(#2D393F,30%); // grey
 $clr5: #ac8a6d; // brown
 $clr6: #617a8c; // cobalt
 $clr7: #8ea030; // green
@@ -552,9 +552,20 @@ path.line {
     padding: $blh;
     cursor: pointer;
     color: darken($neutral, 40%);
-
-    &:hover, &.selected {
-      color: $clr1;
+  }
+  
+  @for $i from 1 through 8 {
+    
+    .authors-list a:nth-child(#{$i}) {
+      &:hover, &.selected {
+        $clrindex: $i - 1;
+        $color: #{map-get($clr_map, clr#{$clrindex})};
+        color: $color;
+      }
+    
     }
   }
+  
+  
+  
 }

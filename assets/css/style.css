@@ -288,11 +288,11 @@ path.line {
     stroke: #D2D9AC; }
 
 .id_4 {
-  fill: #2D393F;
-  color: #2D393F; }
+  fill: #6e8997;
+  color: #6e8997; }
   .id_4 path, .id_4 path.id_4, .id_4 line.id_4 {
     fill: none;
-    stroke: #2D393F; }
+    stroke: #6e8997; }
 
 .id_5 {
   fill: #ac8a6d;
@@ -425,5 +425,27 @@ path.line {
     font-size: 0.8em;
     color: #a9b2bb;
     font-weight: 400; }
-  #trajectories .authors-list a:hover, #trajectories .authors-list a.selected {
-    color: #1C9CF2; }
+
+#trajectories .authors-list a:nth-child(1):hover, #trajectories .authors-list a:nth-child(1).selected {
+  color: #d999c9; }
+
+#trajectories .authors-list a:nth-child(2):hover, #trajectories .authors-list a:nth-child(2).selected {
+  color: #1C9CF2; }
+
+#trajectories .authors-list a:nth-child(3):hover, #trajectories .authors-list a:nth-child(3).selected {
+  color: #F9D5B6; }
+
+#trajectories .authors-list a:nth-child(4):hover, #trajectories .authors-list a:nth-child(4).selected {
+  color: #D2D9AC; }
+
+#trajectories .authors-list a:nth-child(5):hover, #trajectories .authors-list a:nth-child(5).selected {
+  color: #6e8997; }
+
+#trajectories .authors-list a:nth-child(6):hover, #trajectories .authors-list a:nth-child(6).selected {
+  color: #ac8a6d; }
+
+#trajectories .authors-list a:nth-child(7):hover, #trajectories .authors-list a:nth-child(7).selected {
+  color: #617a8c; }
+
+#trajectories .authors-list a:nth-child(8):hover, #trajectories .authors-list a:nth-child(8).selected {
+  color: #8ea030; }
