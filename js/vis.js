@@ -910,7 +910,7 @@ class CreateMap {
               info.push(" (" + d.value.info[i].StartCitation.toString() + ")")            
             }    				
     				if (d.value.info[i].EndDate != '') {
-      				info.push("Until: " + d.value.info[i].EndDate);
+      				info.push("\nUntil: " + d.value.info[i].EndDate);
     				}
     				
     				if (d.value.info[i].EndDate != '') {
