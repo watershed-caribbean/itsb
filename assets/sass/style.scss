@@ -130,6 +130,10 @@ a, a:link, a:visited {
     color: $dark_neutral;
   }
   
+  a {
+    text-decoration: underline;
+  }
+  
   p {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -261,20 +265,16 @@ a, a:link, a:visited {
   width: 100%;
 }
 
-// Results
+//
 
 @mixin author-list-item {
   color: $clr1;
   text-transform: uppercase;
-  height: $blh * 5;
-  float: left;
   font-size: 0.9em;
-  width: 50%;
+  width: 100%;
   font-weight: $semibold;
-
-  &:nth-child(2n) {
-    padding-left: $blh / 2;
-  }
+  padding-bottom: $blh;
+  display: block;
 
   .item_date {
     text-transform: none;

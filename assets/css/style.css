@@ -65,6 +65,8 @@ a, a:link, a:visited {
   padding-top: 1.25em; }
   .about-text h1, .about-text h2 {
     color: #2D393F; }
+  .about-text a {
+    text-decoration: underline; }
   .about-text p {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -161,13 +163,11 @@ a, a:link, a:visited {
 .results .results-view > div {
   color: #1C9CF2;
   text-transform: uppercase;
-  height: 6.25em;
-  float: left;
   font-size: 0.9em;
-  width: 50%;
-  font-weight: 600; }
-  .results .results-view > div:nth-child(2n) {
-    padding-left: 0.625em; }
+  width: 100%;
+  font-weight: 600;
+  padding-bottom: 1.25em;
+  display: block; }
   .results .results-view > div .item_date {
     text-transform: none;
     font-size: 0.8em;
@@ -409,16 +409,14 @@ path.line {
 #trajectories .authors-list a {
   color: #1C9CF2;
   text-transform: uppercase;
-  height: 6.25em;
-  float: left;
   font-size: 0.9em;
-  width: 50%;
+  width: 100%;
   font-weight: 600;
+  padding-bottom: 1.25em;
+  display: block;
   padding: 1.25em;
   cursor: pointer;
   color: #939393; }
-  #trajectories .authors-list a:nth-child(2n) {
-    padding-left: 0.625em; }
   #trajectories .authors-list a .item_date {
     text-transform: none;
     font-size: 0.8em;
