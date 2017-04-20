@@ -6,7 +6,7 @@
 
 $blh: 1.25em;
 $media_type: screen;
-$min-width: 1100px;
+$min-width: 1250px;
 
 $clr1: #1C9CF2; // blue
 $clr2: #F9D5B6; 
@@ -47,6 +47,14 @@ body {
   margin: 0;
   padding: 0;
   min-width: $min-width;
+  position: relative;
+}
+
+body > div {
+  position: relative;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
 }
 
 div, a {

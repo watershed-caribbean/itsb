@@ -1,7 +1,7 @@
 class UI {
 	
   constructor(){
-    
+            
     // Mirrors variables in assets/sass/style.css
     
     this.palette = {
@@ -74,7 +74,7 @@ class UI {
   }  
   
   initPanels() {
-        
+            
     var tabs = document.getElementById("tabs").children;
     var panels = document.getElementById("panels").children;
     
@@ -94,6 +94,12 @@ class UI {
 
       }
     }
+    
+    // set the minimum height of the panels, which should be the window height less the nav elements`. TO DO: find out why the additional factor is needed to make the slider work. Padding on the slider?
+    
+    var h = window.innerHeight - document.getElementById('nav').clientHeight - this.dom.intersections.map.header.clientHeight - 100; 
+        
+    document.getElementById('panels').setAttribute("style","min-height:" + h + "px");
   }
   
   generateAuthorList(obj) {
