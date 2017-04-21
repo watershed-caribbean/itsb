@@ -1,0 +1,2 @@
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php54 .php

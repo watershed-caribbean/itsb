@@ -1,0 +1,68 @@
+
+/* vim: set expandtab tabstop=2 shiftwidth=2 softtabstop=2 cc=80; */
+
+/**
+ * @package     omeka
+ * @subpackage  neatline-Simile
+ * @copyright   2012 Rector and Board of Visitors, University of Virginia
+ * @license     http://www.apache.org/licenses/LICENSE-2.0.html
+ */
+
+
+$textColor = #3f3f3f
+
+
+#simile
+  border-radius 2px
+  cursor ew-resize
+
+  .timeline-copyright
+    display none
+
+  .timeline-ether-bg
+    background white
+
+  .timeline-event-label
+    color $textColor !important
+
+  .timeline-date-label
+    border-left 2px solid
+    color $textColor
+    height 2em
+
+  .timeline-date-label-em
+    font-weight bold
+    font-size 1.3em
+
+  .timeline-ether-weekends
+    background none
+
+  .timeline-event-tape
+    border-radius 2px
+
+  .timeline-event-icon
+    background gray
+    border-radius 4px
+    height 8px
+    width 8px
+
+    img
+      display none
+
+  &:after
+    content ''
+    border-left 1px dashed black
+    opacity 0.3
+    z-index 999
+    position absolute
+    height 100%
+    left 50%
+    top 0
+    width 0
+
+#neatline
+  #simile
+    height 20%
+    width 70%
+    bottom 40px
+    right 40px
