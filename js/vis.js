@@ -301,8 +301,6 @@ class CreateMap {
 			intersections = {};
 			intersections_unique = {};
 			
-						console.log(self.intersections);
-
 
 			//INTERSECTIONS
 			//filter by date range
@@ -606,6 +604,8 @@ class CreateMap {
 		
 		var sliderwidth = ui.dom.trajectories.dateslider.offsetWidth;
 		
+		console.log(sliderwidth);
+		
 		var scale = d3.time.scale()
 			.domain(this.range);
 					
@@ -867,9 +867,7 @@ class CreateMap {
 		}
 
 		function generate_points(){
-  		
-  		//console.log(self.data);
-  		  		
+  		  		  		
 			//scale for radii
 			var r_scale = d3.scale.linear()
 				.domain([0,10])

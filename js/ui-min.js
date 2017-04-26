@@ -18,7 +18,7 @@ class UI {
     var eint = document.getElementById('intersections');
     var etra = document.getElementById('trajectories');
     var eiti = document.getElementById('itineraries');
-
+    
     // Model key DOM elements for each visualization
     
     this.dom = {

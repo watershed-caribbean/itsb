@@ -1,6 +1,7 @@
 /* global d3 */
 /* global ui */
 /* global dm */
+/* global topojson */
 
 // The DataManager object is designed to load JSON files once then make the data available to all visualizations.
 // In the future this should load data subsets on request.
@@ -53,6 +54,7 @@ class DataManager {
 class Visualization {
 	
 	constructor(){
+  	var self = this;
 		this.data = {};
 		this.mode = 0;
 		this.places = {};
@@ -64,17 +66,17 @@ class Visualization {
 		//store screen height and width
 		this.width = window.innerWidth;
 		this.height = window.innerHeight;
-
-
 		this.ttime = 45;
-		
+				
 	}
 	
 	init() {
+  	var self = this;
   	this.data = dm.getData();
-    this.process_data();
+    this.process_data(); 
 		this.setup();
 		this.generate();
+		
 	}
 
 	process_data(){
@@ -152,128 +154,7 @@ class DateMap extends Visualization {
   generate() {
     super.generate();  
   }
-  
-  route_change(_side){
-      var author_name = d3.select('#'+_side+'_select').property('value');
-      var author_id = this.author_names[author_name];
-            
-      var curr_svg;
-      if(_side == 'left'){ curr_svg = this.left_svg; }
-      else { curr_svg = this.right_svg; }
-
-      var self = this;
-      var visH = this.height*30;
-      curr_svg.attr('height', visH);
-
-      // Find the earliest and latest itinerary dates
-      var starts = [], ends = [];
-      d3.keys(self.itineraries).forEach(
-          function(d){
-              starts.push(d3.min(self.itineraries[d], function(_d){ return (new Date(_d.StartDate)); }));
-              ends.push(d3.max(self.itineraries[d], function(_d){ return (new Date(_d.EndDate)); }));
-      });
-
-      var earliest_date = d3.min(starts);
-      var latest_date = d3.max(ends);
-
-      //Translate days to distance
-      var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, visH -150 -60]);
-
-      //Create route container
-      var route_g = curr_svg.selectAll('g.route_g').data(author_id);
-      route_g.enter().append('g').classed('route_g',true);
-      route_g
-          .attr('class', 'route_g author_' + _side)
-          .attr('transform', function(d,i){
-              var x = i*(self.width/2),
-                  y = 75;
-              return 'translate(' + x +',' + y +')';
-          });
-      route_g.exit().remove();
-      
-      //Add background line
-      var route_line_background = route_g.selectAll('line.route_line_background')
-          .data(self.itineraries[author_id]);
-      route_line_background.enter().append('line').classed('route_line_background',true);
-      route_line_background
-          .attr('x1',self.width/4)
-          .attr('y1',function(d,i){ return route_scale(route_scale.domain()[0]); })
-          .attr('x2',self.width/4)
-          .attr('y2',function(d,i){ return route_scale(route_scale.domain()[1]); });
-      route_line_background.exit().remove();
-
-      //Add figure name
-      var route_labels = route_g.selectAll('text.route_label').data(author_id);
-      route_labels.enter().append('text').classed('route_label',true);
-      route_labels
-          .attr('x',self.width/4)
-          .attr('y',-30)
-          .text(author_name);
-      route_labels.exit().remove();
-
-      //Lines
-      var route_line = route_g.selectAll('line.route_line').data(self.itineraries[author_id]);
-      route_line.enter().append('line').classed('route_line',true);
-      route_line
-          .attr('class', 'route_line author_' + _side)
-          .attr('x1',self.width/4)
-          .attr('y1',function(d, i){
-              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
-          })
-          .attr('x2',self.width/4)
-          .attr('y2',function(d, i){
-              return d.EndDate ? route_scale(new Date(d.EndDate)) : route_scale(new Date(d.StartDate));
-          });
-      route_line.exit().remove();
-
-      //Points
-      var route_points = route_g.selectAll('line.route_points').data(self.itineraries[author_id]);
-      route_points.enter().append('line').classed('route_points',true);
-      route_points
-          .attr('x1',self.width/4 -15)
-          .attr('y1',function(d,i){
-              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
-          })
-          .attr('x2',self.width/4 +45)
-          .attr('y2',function(d,i){
-              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
-          });
-      route_points.exit().remove();
-
-      //Stops
-      var route_rad = 3;
-      var route_stops = route_g.selectAll('circle.route_stops').data(self.itineraries[author_id]);
-      route_stops.enter().append('circle').classed('route_stops',true);
-      route_stops
-          .attr('cx',self.width/4 +45)
-          .attr('cy',function(d,i){
-              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
-          })
-          .attr('r',route_rad);
-      route_stops.exit().remove();
-
-      //Point labels
-      var route_point_labels = route_g.selectAll('text.route_point_labels').data(self.itineraries[author_id]);
-      route_point_labels.enter().append('text').classed('route_point_labels',true);
-      route_point_labels
-          .attr('x',self.width/4 +60)
-          .attr('y',function(d,i){
-              return (d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate))) +4;
-          })
-          .text(function(d){
-              var t1 = d.StartDate || 'Unknown',
-                  t2 = d.EndDate || 'Unknown';
-              return self.places[d.PlaceID].PlaceName + ' (' +t1 +' to ' +t2 +')';
-          });
-      route_point_labels.exit().remove();
-
-  }
-
-  generate_routes(){
-      var visH = this.height*6;
-      this.svg.attr('height', visH);
-  }  
-  
+    
   tear_down() {
     super.tear_down();
   }
@@ -286,11 +167,11 @@ class Trajectories extends DateMap {
     super();
     this.intersections = {}
     this.trajectories = {}
+    this.mode = 2;         
   }
   
   init() {
     super.init();
-    this.mode = 2;         
   }
   
   setup() {
@@ -307,44 +188,6 @@ class Trajectories extends DateMap {
 		          
     d3.select(ui.dom.trajectories.authors.list)
       .html(ui.generateAuthorList(this));
-        
-		this.svg = d3.select('#container')
-			.append('svg')
-			.attr('width',this.width);
-
-        // Create left figure drop-down selector
-        d3.select('#left_itinerary')
-            .append('select')
-            .attr('id','left_select')
-            .on('change', function(){ self.route_change('left'); })
-            .selectAll('option')
-            .data(d3.keys(self.author_names)).enter()
-            .append('option')
-            .text(function (d) { return d; });
-
-        // Create right figure drop-down selector
-        d3.select('#right_itinerary')
-            .append('select')
-            .attr('id', 'right_select')
-            .on('change', function(){ self.route_change('right'); })
-            .selectAll('option')
-            .data(d3.keys(self.author_names)).enter()
-            .append('option')
-            .text(function (d) { return d; });
-
-        // Create left div for figure route
-        this.left_svg = d3.select('#left_itinerary')
-            .append('svg') //WAS "DIV"
-            .attr('id', 'left_route');
-
-        // Create right div for figure route
-        this.right_svg = d3.select('#right_itinerary')
-            .append('svg') //WAS "DIV"
-            .attr('id', 'right_route');
-
-        // Update left route and right route to show route for current figure
-        self.route_change('left');
-        self.route_change('right');
   }
   
   process_data() {
@@ -358,24 +201,12 @@ class Trajectories extends DateMap {
     
   }
   
-  tear_down() {
-  	super.tear_down();
-    var opp = this.mode === 1 ? 2 : 1;
-		
-		d3.select(ui.dom.trajectories.dateslider).selectAll('*').remove();
-		
-		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
-		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);
-
-		d3.selectAll('._0' +opp).style('display','none');
-		d3.selectAll('._0' +this.mode).style('display','block');
-
-		this.date_start = this.range[0];
-		this.date_end = this.range[1];
-
-	}
-
   
+  /* !-- Trajectory Generate */
+
+  // Refactoring note: Ideally the slider and map should be generated here using common code.
+
+
   generate(){
     super.generate();
     
@@ -415,7 +246,7 @@ class Trajectories extends DateMap {
 		//slider
 		
 		var sliderwidth = ui.dom.trajectories.dateslider.offsetWidth;
-		
+						
 		var scale = d3.time.scale()
 			.domain(this.range);
 					
@@ -467,12 +298,13 @@ class Trajectories extends DateMap {
 		d3.select(ui.dom.trajectories.dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)");
 		
 		update_datebar();
-				
+
 		//map
 		var projection = d3.geo.mercator()
 			.scale(180)
 			.translate([ui.dom.trajectories.map.view.offsetWidth * 0.5,ui.dom.trajectories.map.view.offsetHeight * 0.5]);
 			
+		
 		var path = d3.geo.path().projection(projection);
 
 		var features = topojson.feature(self.continents,self.continents.objects.continents);
@@ -913,20 +745,36 @@ class Trajectories extends DateMap {
 		generate_points();
 		generate_sidebar();
 	}
-}
+  
+  tear_down() {
+  	super.tear_down();
+    var opp = this.mode === 1 ? 2 : 1;
+		
+		d3.select(ui.dom.trajectories.dateslider).selectAll('*').remove();
+		
+		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
+		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);
+
+		d3.selectAll('._0' +opp).style('display','none');
+		d3.selectAll('._0' +this.mode).style('display','block');
+
+		this.date_start = this.range[0];
+		this.date_end = this.range[1];
+
+	}}
 
 /*! INTERSECTIONS CLASS */
 
 class Intersections extends DateMap {
   constructor() {
     super();
+    this.mode = 1;        
     this.intersections = {}
     this.trajectories = {}
   }
   
   init() {
     super.init();
-    this.mode = 1;        
   }
   
   setup() {
@@ -957,26 +805,6 @@ class Intersections extends DateMap {
 		this.trajectories = {};
 
   }
-  
-  tear_down() {
-  	super.tear_down();
-    var opp = this.mode === 1 ? 2 : 1;
-		
-		this.intersections.map.selectAll("*").remove();
-		d3.select(ui.dom.intersections.dateslider).selectAll('*').remove();
-		d3.select(ui.dom.trajectories.dateslider).selectAll('*').remove();
-		
-		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
-		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);
-
-		d3.selectAll('._0' +opp).style('display','none');
-		d3.selectAll('._0' +this.mode).style('display','block');
-
-		this.date_start = this.range[0];
-		this.date_end = this.range[1];
-
-	}
-
   
 	/* !-- Intersections Generate */
 
@@ -1348,22 +1176,243 @@ class Intersections extends DateMap {
 		generate_points();
 		generate_sidebar();
 	}
-  
+	
+  tear_down() {
+  	super.tear_down();
+    var opp = this.mode === 1 ? 2 : 1;
+		
+		this.intersections.map.selectAll("*").remove();
+		d3.select(ui.dom.intersections.dateslider).selectAll('*').remove();
+		
+		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
+		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);
+
+		d3.selectAll('._0' +opp).style('display','none');
+		d3.selectAll('._0' +this.mode).style('display','block');
+
+		this.date_start = this.range[0];
+		this.date_end = this.range[1];
+
+	}  
 }
 
 class Itineraries extends Visualization {
   constructor() {
     super();
   }
+  
+  init() {
+    super.init();
+  }
+  
+  setup() {
+    var self = this;
+    
+    this.svg = d3.select('#container')
+			.append('svg')
+			.attr('width',this.width);
+
+        // Create left figure drop-down selector
+        d3.select('#left_itinerary')
+            .append('select')
+            .attr('id','left_select')
+            .on('change', function(){ self.route_change('left'); })
+            .selectAll('option')
+            .data(d3.keys(self.author_names)).enter()
+            .append('option')
+            .text(function (d) { return d; });
+
+        // Create right figure drop-down selector
+        d3.select('#right_itinerary')
+            .append('select')
+            .attr('id', 'right_select')
+            .on('change', function(){ self.route_change('right'); })
+            .selectAll('option')
+            .data(d3.keys(self.author_names)).enter()
+            .append('option')
+            .text(function (d) { return d; });
+
+        // Create left div for figure route
+        this.left_svg = d3.select('#left_itinerary')
+            .append('svg') //WAS "DIV"
+            .attr('id', 'left_route');
+
+        // Create right div for figure route
+        this.right_svg = d3.select('#right_itinerary')
+            .append('svg') //WAS "DIV"
+            .attr('id', 'right_route');
+
+        // Update left route and right route to show route for current figure
+        self.route_change('left');
+        self.route_change('right');
+
+  }
+  
+  generate() {
+    super.generate();
+  }
+  
+  
+  route_change(_side){
+      var author_name = d3.select('#'+_side+'_select').property('value');
+      var author_id = this.author_names[author_name];
+            
+      var curr_svg;
+      if(_side == 'left'){ curr_svg = this.left_svg; }
+      else { curr_svg = this.right_svg; }
+
+      var self = this;
+      var visH = this.height*30;
+      curr_svg.attr('height', visH);
+
+      // Find the earliest and latest itinerary dates
+      var starts = [], ends = [];
+      d3.keys(self.itineraries).forEach(
+          function(d){
+              starts.push(d3.min(self.itineraries[d], function(_d){ return (new Date(_d.StartDate)); }));
+              ends.push(d3.max(self.itineraries[d], function(_d){ return (new Date(_d.EndDate)); }));
+      });
+
+      var earliest_date = d3.min(starts);
+      var latest_date = d3.max(ends);
+
+      //Translate days to distance
+      var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, visH -150 -60]);
+
+      //Create route container
+      var route_g = curr_svg.selectAll('g.route_g').data(author_id);
+      route_g.enter().append('g').classed('route_g',true);
+      route_g
+          .attr('class', 'route_g author_' + _side)
+          .attr('transform', function(d,i){
+              var x = i*(self.width/2),
+                  y = 75;
+              return 'translate(' + x +',' + y +')';
+          });
+      route_g.exit().remove();
+      
+      //Add background line
+      var route_line_background = route_g.selectAll('line.route_line_background')
+          .data(self.itineraries[author_id]);
+      route_line_background.enter().append('line').classed('route_line_background',true);
+      route_line_background
+          .attr('x1',self.width/4)
+          .attr('y1',function(d,i){ return route_scale(route_scale.domain()[0]); })
+          .attr('x2',self.width/4)
+          .attr('y2',function(d,i){ return route_scale(route_scale.domain()[1]); });
+      route_line_background.exit().remove();
+
+      //Add figure name
+      var route_labels = route_g.selectAll('text.route_label').data(author_id);
+      route_labels.enter().append('text').classed('route_label',true);
+      route_labels
+          .attr('x',self.width/4)
+          .attr('y',-30)
+          .text(author_name);
+      route_labels.exit().remove();
+
+      //Lines
+      var route_line = route_g.selectAll('line.route_line').data(self.itineraries[author_id]);
+      route_line.enter().append('line').classed('route_line',true);
+      route_line
+          .attr('class', 'route_line author_' + _side)
+          .attr('x1',self.width/4)
+          .attr('y1',function(d, i){
+              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
+          })
+          .attr('x2',self.width/4)
+          .attr('y2',function(d, i){
+              return d.EndDate ? route_scale(new Date(d.EndDate)) : route_scale(new Date(d.StartDate));
+          });
+      route_line.exit().remove();
+
+      //Points
+      var route_points = route_g.selectAll('line.route_points').data(self.itineraries[author_id]);
+      route_points.enter().append('line').classed('route_points',true);
+      route_points
+          .attr('x1',self.width/4 -15)
+          .attr('y1',function(d,i){
+              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
+          })
+          .attr('x2',self.width/4 +45)
+          .attr('y2',function(d,i){
+              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
+          });
+      route_points.exit().remove();
+
+      //Stops
+      var route_rad = 3;
+      var route_stops = route_g.selectAll('circle.route_stops').data(self.itineraries[author_id]);
+      route_stops.enter().append('circle').classed('route_stops',true);
+      route_stops
+          .attr('cx',self.width/4 +45)
+          .attr('cy',function(d,i){
+              return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
+          })
+          .attr('r',route_rad);
+      route_stops.exit().remove();
+
+      //Point labels
+      var route_point_labels = route_g.selectAll('text.route_point_labels').data(self.itineraries[author_id]);
+      route_point_labels.enter().append('text').classed('route_point_labels',true);
+      route_point_labels
+          .attr('x',self.width/4 +60)
+          .attr('y',function(d,i){
+              return (d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate))) +4;
+          })
+          .text(function(d){
+              var t1 = d.StartDate || 'Unknown',
+                  t2 = d.EndDate || 'Unknown';
+              return self.places[d.PlaceID].PlaceName + ' (' +t1 +' to ' +t2 +')';
+          });
+      route_point_labels.exit().remove();
+
+  }
+
+  generate_routes(){
+      var visH = this.height*6;
+      this.svg.attr('height', visH);
+  }  
 }
 
-var trajectories = new Trajectories;
+/*
+  Note for refactoring: this should be rethought once a proper MVC structure is in place.
+  
+  Notes for the current structure:
+  
+  - The DataManager class is designed to load JSON data once (on initial load).
+  - The DM class takes an object and one of its methods and calls it when the data has finished loading, ensuring its availability
+  - It currently takes the first tab’s visualization – Intersections.
+  - Other tabs are initialized when a user clicks them.
+  - Had considered initializing all visualizations at once, but encountered problems getting DOM element sizing (to set sliders, etc.).
+*/
+
 var intersections = new Intersections;
-var itineraries = new Itineraries;
+
+// var dm = new DataManager([trajectories,intersections,itineraries],'init'); // Previous approach. see note above.
+
+var dm = new DataManager([intersections],'init'); // Only load data once
 
 
+d3.selectAll(ui.dom.tabs).each(function() {
+	d3.select(this).on('click',function() {		
+  	switch(d3.select(this).attr('data-mode')) {
+      case '2':
+        if (typeof trajectories == 'undefined') {
+          var trajectories = new Trajectories;
+          trajectories.init();
+        }
+    	  break;
+    	case '3':
+        if (typeof itineraries == 'undefined') {
+          var itineraries = new Itineraries;
+          itineraries.init();
+        }
+    	  break;  
+  	}
+	});
+});
 
-var dm = new DataManager([trajectories,intersections,itineraries],'init'); // Only load data once
 
 //custom sub-selections
 d3.selection.prototype.first = function() {
