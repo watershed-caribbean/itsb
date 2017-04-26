@@ -124,9 +124,12 @@ class Visualization {
 	}
 }
 
-/* !DATEMAP SUPER CLASS */
+/* !DATEMAPCONTROLLER CLASS */
 
-class DateMap extends Visualization {
+// Refactoring note: This controller class should handle the map and date slider functionality. 
+// Right now it does nothing except establish a common date range 
+
+class DateMapController extends Visualization {
   constructor() {
     super();
     
@@ -162,7 +165,7 @@ class DateMap extends Visualization {
 
 /* !TRAJECTORIES CLASS */
 
-class Trajectories extends DateMap {
+class Trajectories extends DateMapController {
   constructor() {
     super();
     this.intersections = {}
@@ -219,7 +222,7 @@ class Trajectories extends DateMap {
 		this.trajectories.map.on('click',function(){
 			d3.event.stopPropagation();
 			unfocus();
-			generate_sidebar();
+			display_results();
 		});
 		
 		// Manage active trajectory map authors
@@ -604,7 +607,7 @@ class Trajectories extends DateMap {
 						focus = d;
 						d3.select(this).classed('focus_point',true);
 					}
-					generate_sidebar();
+					display_results();
 				});
 			points_g.exit().remove();
 
@@ -665,7 +668,7 @@ class Trajectories extends DateMap {
 			points_03.exit().remove();
 		}
 
-		function generate_sidebar(){
+		function display_results(){
 			var o_scale = d3.scale.linear()
 				.domain([0,3])
 				.range([0.5,1]);
@@ -732,7 +735,7 @@ class Trajectories extends DateMap {
 			filter_data();
 			generate_lines();
 			generate_points();
-			generate_sidebar();
+			display_results();
 		}
 
 		function unfocus(){
@@ -743,7 +746,7 @@ class Trajectories extends DateMap {
 		filter_data();
 		generate_lines();
 		generate_points();
-		generate_sidebar();
+		display_results();
 	}
   
   tear_down() {
@@ -765,7 +768,7 @@ class Trajectories extends DateMap {
 
 /*! INTERSECTIONS CLASS */
 
-class Intersections extends DateMap {
+class Intersections extends DateMapController {
   constructor() {
     super();
     this.mode = 1;        
@@ -820,7 +823,7 @@ class Intersections extends DateMap {
 		this.intersections.map.on('click',function(){
 			d3.event.stopPropagation();
 			unfocus();
-			generate_sidebar();
+			display_results();
 		});
 		
 		//slider
@@ -914,7 +917,7 @@ class Intersections extends DateMap {
 			//clear objects
 			intersections = {};
 			intersections_unique = {};
-						
+									
 			//INTERSECTIONS
 			//filter by date range
 			var holder = d3.entries(self.intersections).filter(function(d){
@@ -951,7 +954,7 @@ class Intersections extends DateMap {
   				intersections[d].lists[key] = d3.values(intersections[d].figures).filter(function(_d){ return _d === i; });
         }
 			});
-			
+						
 			//make list of unique intersections per place
 			holder.forEach(function(d){
 				d3.keys(d.value).forEach(function(_d){
@@ -963,6 +966,24 @@ class Intersections extends DateMap {
 					});
 				});
 			});
+			
+			
+			// vet places with only one figure
+			
+			var vetted = [];
+			
+			for(var city in intersections) {
+  			if(Object.keys(intersections[city].figures).length < 2) {
+    			vetted.push(city);
+          delete intersections[city];
+  			}
+			}
+			
+			for(var iucity in intersections_unique) {
+  			if(vetted.indexOf(iucity) > -1) {
+    			delete intersections_unique[iucity];
+  			}
+  		}
 
 		}
 
@@ -1034,7 +1055,7 @@ class Intersections extends DateMap {
 						focus = d;
 						d3.select(this).classed('focus_point',true);
 					}
-					generate_sidebar();
+  					display_results();
 				});
 			points_g.exit().remove();
 
@@ -1098,7 +1119,7 @@ class Intersections extends DateMap {
 			points_03.exit().remove();
 		}
 
-		function generate_sidebar(){
+		function display_results(){
 			var o_scale = d3.scale.linear()
 				.domain([0,3])
 				.range([0.5,1]);
@@ -1164,7 +1185,7 @@ class Intersections extends DateMap {
 		function update(){
 			filter_data();
 			generate_points();
-			generate_sidebar();
+			display_results();
 		}
 
 		function unfocus(){
@@ -1174,7 +1195,7 @@ class Intersections extends DateMap {
 
 		filter_data();
 		generate_points();
-		generate_sidebar();
+		display_results();
 	}
 	
   tear_down() {
