@@ -117,6 +117,8 @@ a, a:link, a:visited {
 // Panels
 
 #panels {
+  border-top: 2px solid $white;
+  
   .panel {
     display: none;
     height: 100%;
@@ -171,17 +173,18 @@ a, a:link, a:visited {
     bottom: 0;
 
     &:nth-child(1) {
-      width: 18.75%;
+      width: 15%;
+      left: 0;
     }
 
     &:nth-child(2) {
-      width: 62.5%;
-      left: 18.75%;
+      width: 60%;
+      left: 15%;
     }
 
     &:nth-child(3) {
-      width: 18.75%;
-      left: 81.25%;
+      width: 25%;
+      left: 75%;
     }
   }
 
@@ -201,17 +204,18 @@ a, a:link, a:visited {
     bottom: 0;
 
     &:nth-child(1) {
-      width: 18.75%;
+      width: 15%;
+      left: 0;
     }
 
     &:nth-child(2) {
-      width: 18.75%;
-      left: 18.75%;
+      width: 25%;
+      left: 15%;
     }
 
     &:nth-child(3) {
-      width: 62.5%;
-      left: 37.5%;
+      width: 60%;
+      left: 40%;
     }
   }
 }

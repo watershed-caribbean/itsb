@@ -60,11 +60,13 @@ a, a:link, a:visited {
   #tabs > a:hover, #tabs a.active {
     background-color: black; }
 
-#panels .panel {
-  display: none;
-  height: 100%; }
-  #panels .panel:nth-child(1) {
-    display: block; }
+#panels {
+  border-top: 2px solid #F7F8F9; }
+  #panels .panel {
+    display: none;
+    height: 100%; }
+    #panels .panel:nth-child(1) {
+      display: block; }
 
 .about-text {
   width: 62.5%;
@@ -92,13 +94,14 @@ a, a:link, a:visited {
   top: 4em;
   bottom: 0; }
   #intersections > *:nth-child(1) {
-    width: 18.75%; }
+    width: 15%;
+    left: 0; }
   #intersections > *:nth-child(2) {
-    width: 62.5%;
-    left: 18.75%; }
+    width: 60%;
+    left: 15%; }
   #intersections > *:nth-child(3) {
-    width: 18.75%;
-    left: 81.25%; }
+    width: 25%;
+    left: 75%; }
 
 #intersections .location .header {
   background-color: #d4d8dd; }
@@ -108,13 +111,14 @@ a, a:link, a:visited {
   top: 4em;
   bottom: 0; }
   #trajectories > *:nth-child(1) {
-    width: 18.75%; }
+    width: 15%;
+    left: 0; }
   #trajectories > *:nth-child(2) {
-    width: 18.75%;
-    left: 18.75%; }
+    width: 25%;
+    left: 15%; }
   #trajectories > *:nth-child(3) {
-    width: 62.5%;
-    left: 37.5%; }
+    width: 60%;
+    left: 40%; }
 
 /* #itineraries
  * > *
