@@ -28,6 +28,8 @@ class UI {
     this.dom.intersections = {
       elem: eint,
       dateslider: eint.getElementsByClassName('slider')[0],
+      datestart: eint.getElementsByClassName('date-start')[0],
+      dateend: eint.getElementsByClassName('date-end')[0],
       map: {
         header: eint.getElementsByClassName('header')[1],
         view: eint.getElementsByClassName('map')[0]
@@ -42,6 +44,8 @@ class UI {
     this.dom.trajectories = {
       elem: etra,
       dateslider: etra.getElementsByClassName('slider')[0],
+      datestart: etra.getElementsByClassName('date-start')[0],
+      dateend: etra.getElementsByClassName('date-end')[0],
       authors: {
         header: etra.getElementsByClassName('header')[1],
         list: etra.getElementsByClassName('authors-list')[0]

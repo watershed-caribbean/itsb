@@ -188,6 +188,13 @@ a, a:link, a:visited {
 .date-range {
   background-color: #ececec; }
 
+.indicator {
+  height: 3em;
+  text-align: center;
+  padding: 0.9em;
+  font-size: 0.8em;
+  text-transform: uppercase; }
+
 .d3-slider {
   font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif; }
 
@@ -200,14 +207,22 @@ a, a:link, a:visited {
   border-right: 2px solid #1C9CF2; }
 
 .d3-slider-vertical .d3-slider-handle {
-  right: -0.36em;
+  right: -0.54em;
   left: initial;
   background: #1C9CF2;
-  width: 0.8em;
-  height: 0.8em;
-  margin-bottom: -0.4em;
-  border-radius: 0.4em;
+  width: 1.2em;
+  height: 1.2em;
+  margin-bottom: -0.6em;
+  border-radius: 0.6em;
   border-color: #1C9CF2; }
+
+@media only screen and (min-width: 640px) {
+  .d3-slider-vertical .d3-slider-handle {
+    right: -0.36em;
+    width: 0.8em;
+    height: 0.8em;
+    margin-bottom: -0.4em;
+    border-radius: 0.4em; } }
 
 .d3-slider-axis line {
   stroke: #F7F8F9; }

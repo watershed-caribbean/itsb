@@ -8,6 +8,8 @@ $blh: 1.25em;
 $media_type: screen;
 $min-width: 1250px;
 
+$bp_mobile: 640px;
+
 $clr1: #1C9CF2; // blue
 $clr2: #F9D5B6; 
 $clr3: #D2D9AC;
@@ -322,6 +324,14 @@ a, a:link, a:visited {
   background-color: darken($neutral, 5%);
 }
 
+.indicator {
+  height: 3em;
+  text-align: center;
+  padding: 0.9em;
+  font-size: 0.8em;
+  text-transform: uppercase
+}
+
 .d3-slider {
   font-family: $basefont;
 }
@@ -337,16 +347,28 @@ a, a:link, a:visited {
 }
 
 .d3-slider-vertical {
+  
   .d3-slider-handle {
-    right: -0.36em;
+    right: -0.54em;
     left: initial;
     background: $clr1;
-    width: 0.8em;
-    height: 0.8em;
-    margin-bottom: -0.4em;
-    border-radius: 0.4em;
+    width: 1.2em;
+    height: 1.2em;
+    margin-bottom: -0.6em;
+    border-radius: 0.6em;
     border-color: $clr1;
   }
+  
+  @media only screen and (min-width: $bp_mobile) {
+    .d3-slider-handle {
+      right: -0.36em;
+      width: 0.8em;
+      height: 0.8em;
+      margin-bottom: -0.4em;
+      border-radius: 0.4em;
+  }
+  }
+
 }
 
 .d3-slider-axis {

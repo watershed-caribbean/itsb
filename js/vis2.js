@@ -136,8 +136,8 @@ class DateMapController extends Visualization {
     super();
     
 		this.range = [
-			new Date(1890,1,1),
-			new Date(2010,1,1)
+			new Date(1890,0,1),
+			new Date(2010,0,1)
 		];
 		
 		this.date_start = this.range[0];
@@ -835,7 +835,7 @@ class Intersections extends DateMapController {
 		
 		var scale = d3.time.scale()
 			.domain(this.range);
-					
+							
 		var scale_axis = d3.svg.axis()
 			.orient('right')
 			.ticks(10)
@@ -1180,9 +1180,9 @@ class Intersections extends DateMapController {
 		}
 
 		function update_datebar(){
-			var f = d3.time.format('%b. %Y');
-			d3.select('#date_start').html(f(self.date_start));
-			d3.select('#date_end').html(f(self.date_end));
+			var f = d3.time.format('%b %Y');
+			d3.select(ui.dom[self.classkey].datestart).html(f(self.date_start));
+			d3.select(ui.dom[self.classkey].dateend).html(f(self.date_end));
 		}
 
 		function update(){
