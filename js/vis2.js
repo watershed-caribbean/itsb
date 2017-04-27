@@ -62,6 +62,8 @@ class Visualization {
     this.author_names = {}; // {author_name: author_id}
 		this.continents = {};
 		this.active_authors_t = [];
+		this.classkey = 'visualization';   
+
 
 		//store screen height and width
 		this.width = window.innerWidth;
@@ -171,6 +173,7 @@ class Trajectories extends DateMapController {
     this.intersections = {}
     this.trajectories = {}
     this.mode = 2;         
+    this.classkey = 'trajectories';
   }
   
   init() {
@@ -216,10 +219,10 @@ class Trajectories extends DateMapController {
 		var self = this;
 		var focus = false;
 
-		this.trajectories.map.attr('height',this.height);
+		this[this.classkey].map.attr('height',this.height);
 
 		//click handlers
-		this.trajectories.map.on('click',function(){
+		this[this.classkey].map.on('click',function(){
 			d3.event.stopPropagation();
 			unfocus();
 			display_results();
@@ -227,7 +230,7 @@ class Trajectories extends DateMapController {
 		
 		// Manage active trajectory map authors
 		
-    d3.select(ui.dom.trajectories.authors.list)
+    d3.select(ui.dom[this.classkey].authors.list)
       .selectAll('.author').each(function(){
         d3.select(this).on('click',function(){
           var elem = d3.select(this);          
@@ -248,7 +251,7 @@ class Trajectories extends DateMapController {
       
 		//slider
 		
-		var sliderwidth = ui.dom.trajectories.dateslider.offsetWidth;
+		var sliderwidth = ui.dom[this.classkey].dateslider.offsetWidth;
 						
 		var scale = d3.time.scale()
 			.domain(this.range);
@@ -296,16 +299,16 @@ class Trajectories extends DateMapController {
 			return s.invert((self.height -(s(_val))));
 		}    
 
-		var slider = d3.select(ui.dom.trajectories.dateslider).call(slide);
+		var slider = d3.select(ui.dom[this.classkey].dateslider).call(slide);
 		
-		d3.select(ui.dom.trajectories.dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)");
+		d3.select(ui.dom[this.classkey].dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)");
 		
 		update_datebar();
 
 		//map
 		var projection = d3.geo.mercator()
 			.scale(180)
-			.translate([ui.dom.trajectories.map.view.offsetWidth * 0.5,ui.dom.trajectories.map.view.offsetHeight * 0.5]);
+			.translate([ui.dom[this.classkey].map.view.offsetWidth * 0.5,ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
 			
 		
 		var path = d3.geo.path().projection(projection);
@@ -328,7 +331,7 @@ class Trajectories extends DateMapController {
 
 		//draw vector map
 		var map;
-		map = self.trajectories.map.selectAll('path.map')
+		map = self[this.classkey].map.selectAll('path.map')
 			.data([features]);
 		map.enter().append ('path')
 			.classed('map',true);
@@ -463,7 +466,7 @@ class Trajectories extends DateMapController {
 
 		function generate_lines(){
 
-			lines_target = self.trajectories.map.selectAll('g.lines_target')
+			lines_target = self[self.classkey].map.selectAll('g.lines_target')
 				.data([self]);
 			lines_target.enter().append('g')
 				.classed('lines_target',true);
@@ -514,19 +517,18 @@ class Trajectories extends DateMapController {
 
 		function generate_points(){
   		
-  		  		
 			//scale for radii
 			var r_scale = d3.scale.linear()
 				.domain([0,10])
 				.range([0,36]);
 				
-			points_target = self.trajectories.map.selectAll('g.points_target')
+			points_target = self[self.classkey].map.selectAll('g.points_target')
 				.data([self]);
 			points_target.enter().append('g')
 				.classed('points_target',true);
 			points_target.exit().remove();
 
-			points_g = self.trajectories.map.selectAll('g.points_g')
+			points_g = self[self.classkey].map.selectAll('g.points_g')
 				.data(d3.entries(intersections));
 			points_g.enter().append('g')
 				.classed('points_g',true);
@@ -753,7 +755,7 @@ class Trajectories extends DateMapController {
   	super.tear_down();
     var opp = this.mode === 1 ? 2 : 1;
 		
-		d3.select(ui.dom.trajectories.dateslider).selectAll('*').remove();
+		d3.select(ui.dom[this.classkey].dateslider).selectAll('*').remove();
 		
 		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
 		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);
@@ -771,7 +773,8 @@ class Trajectories extends DateMapController {
 class Intersections extends DateMapController {
   constructor() {
     super();
-    this.mode = 1;        
+    this.mode = 1; 
+    this.classkey = 'intersections';   
     this.intersections = {}
     this.trajectories = {}
   }
@@ -788,7 +791,7 @@ class Intersections extends DateMapController {
 		
 		// Intersections setup
 		
-		this.intersections.map = d3.select(ui.dom.intersections.map.view)
+		this[this.classkey].map = d3.select(ui.dom[this.classkey].map.view)
 		  .append('svg')
 		  .attr('width','100%');
         
@@ -817,10 +820,10 @@ class Intersections extends DateMapController {
 		var self = this;
 		var focus = false;
     
-		this.intersections.map.attr('height',this.height);
+		this[this.classkey].map.attr('height',this.height);
 
 		//click handlers
-		this.intersections.map.on('click',function(){
+		this[this.classkey].map.on('click',function(){
 			d3.event.stopPropagation();
 			unfocus();
 			display_results();
@@ -828,7 +831,7 @@ class Intersections extends DateMapController {
 		
 		//slider
 
-		var sliderwidth = ui.dom.intersections.dateslider.offsetWidth;
+		var sliderwidth = ui.dom[this.classkey].dateslider.offsetWidth;
 		
 		var scale = d3.time.scale()
 			.domain(this.range);
@@ -876,9 +879,9 @@ class Intersections extends DateMapController {
 			return s.invert((self.height -(s(_val))));
 		}    
 
-		var slider = d3.select(ui.dom.intersections.dateslider).call(slide);
+		var slider = d3.select(ui.dom[this.classkey].dateslider).call(slide);
 		
-		d3.select(ui.dom.intersections.dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)").text(function(d){
+		d3.select(ui.dom[this.classkey].dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)").text(function(d){
   		return d3.select(this).text() + "s";
 		});
 		
@@ -888,7 +891,7 @@ class Intersections extends DateMapController {
 		
 		var projection = d3.geo.mercator()
 			.scale(180)
-			.translate([ui.dom.intersections.map.view.offsetWidth * 0.5,ui.dom.intersections.map.view.offsetHeight * 0.5]);
+			.translate([ui.dom[this.classkey].map.view.offsetWidth * 0.5,ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
 			
 		var path = d3.geo.path().projection(projection);
 
@@ -904,7 +907,7 @@ class Intersections extends DateMapController {
 
 		//draw vector map
 		var map;
-		map = self.intersections.map.selectAll('path.map')
+		map = self[self.classkey].map.selectAll('path.map')
 			.data([features]);
 		map.enter().append ('path')
 			.classed('map',true);
@@ -1125,11 +1128,11 @@ class Intersections extends DateMapController {
 				.range([0.5,1]);
 
 			if(focus){
-				d3.select(ui.dom.intersections.results.title).html(self.places[focus.key].PlaceName);
+				d3.select(ui.dom[self.classkey].results.title).html(self.places[focus.key].PlaceName);
 
 				//var data = sidebar_mode === 1 ? (intersections_unique[focus.key] || []) : (trajectories_unique[focus.key]);
 				var data = (intersections_unique[focus.key] || []);
-				var items_target = d3.select(ui.dom.intersections.results.view);
+				var items_target = d3.select(ui.dom[self.classkey].results.view);
 				var items,
 						items_date;
 
@@ -1203,7 +1206,7 @@ class Intersections extends DateMapController {
     var opp = this.mode === 1 ? 2 : 1;
 		
 		this.intersections.map.selectAll("*").remove();
-		d3.select(ui.dom.intersections.dateslider).selectAll('*').remove();
+		d3.select(ui.dom[this.classkey].dateslider).selectAll('*').remove();
 		
 		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
 		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);
@@ -1217,9 +1220,13 @@ class Intersections extends DateMapController {
 	}  
 }
 
+/* !ITINERARIES CLASS */
+
 class Itineraries extends Visualization {
   constructor() {
     super();
+    this.classkey = 'itineraries';   
+
   }
   
   init() {
