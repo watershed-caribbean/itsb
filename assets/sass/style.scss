@@ -10,24 +10,29 @@ $min-width: 1250px;
 
 $bp_mobile: 640px;
 
-$clr1: #1C9CF2; // blue
-$clr2: #F9D5B6; 
-$clr3: #D2D9AC;
+$clr1: #F89E1C; // Orange
+$clr2: #b19971; // Butter Yellow 
+$clr3: #936A28; // Brown
 
 // Secondary colours for visualizations
 
-$clr4: lighten(#2D393F,30%); // grey
-$clr5: #ac8a6d; // brown
+$clr4: #CF6428; // Orange Brick
+$clr5: #f9ce89; // Canteloupe
 $clr6: #617a8c; // cobalt
 $clr7: #8ea030; // green
+$clr8: #2893cf; // Blue
 
-$clr0: #d999c9; // pink
+$clr0: lighten(#1a82ff,10%); // Blue
+$clr9: lighten(#7f93ba,10%);
+$clr10: #fdeaaf;
+$clr11: #ddcfa4;
 
-$clr_map: (clr0: $clr0, clr1: $clr1, clr2: $clr2, clr3: $clr3, clr4: $clr4, clr5: $clr5, clr6: $clr6, clr7: $clr7);
+
+$clr_map: (clr0: $clr0, clr1: $clr1, clr2: $clr2, clr3: $clr3, clr4: $clr4, clr5: darken($clr5,10%), clr6: $clr6, clr7: $clr7, clr8: $clr8, clr9: $clr9);
 
 $black: #161C1E;
 $white: #F7F8F9;
-$neutral: #F9F9F9;
+$neutral: #fcfcfc;
 $dark_neutral: #2D393F;
 $cool_neutral: #E2E5E8;
 
@@ -103,8 +108,13 @@ a, a:link, a:visited {
   }
 
   > a {
-    background-color: $clr1;
+    background-color: #f9ce89;
     @include span(3 of 16 inside no-gutters);
+    
+    &#title {
+      color: $black;
+    }
+    
   }
 }
 
@@ -417,8 +427,8 @@ path.map {
 }
 
 .point {
-  fill: #3399ff;
-  stroke: #3399ff;
+  fill: $clr1;
+  stroke: $clr1;
   stroke-width: 0.5;
 }
 
@@ -587,7 +597,7 @@ path.line {
     color: darken($neutral, 40%);
   }
   
-  @for $i from 1 through 8 {
+  @for $i from 1 through 9 {
     
     .authors-list a:nth-child(#{$i}) {
       &:hover, &.selected {

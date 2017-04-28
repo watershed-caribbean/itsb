@@ -128,8 +128,15 @@ class Visualization {
 
 /* !DATEMAPCONTROLLER CLASS */
 
-// Refactoring note: This controller class should handle the map and date slider functionality. 
-// Right now it does nothing except establish a common date range 
+/* Refactoring note: This controller class should handle the map and date slider functionality. 
+   Right now it does nothing except establish a common date range (which itself should be configurable).
+   
+   The structure of the current map and slider code will prove a challenge here. They currently rely on
+   localized functions, which themselves are very tied to their individual visualizations and are not
+   very portable. This will need to be rethought.
+*/
+
+
 
 class DateMapController extends Visualization {
   constructor() {
@@ -728,9 +735,9 @@ class Trajectories extends DateMapController {
 		}
 
 		function update_datebar(){
-			var f = d3.time.format('%b. %Y');
-			d3.select('#date_start').html(f(self.date_start));
-			d3.select('#date_end').html(f(self.date_end));
+			var f = d3.time.format('%b %Y');
+			d3.select(ui.dom[self.classkey].datestart).html(f(self.date_start));
+			d3.select(ui.dom[self.classkey].dateend).html(f(self.date_end));
 		}
 
 		function update(){

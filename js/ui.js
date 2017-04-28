@@ -5,7 +5,7 @@ class UI {
     // Mirrors variables in assets/sass/style.css
     
     this.palette = {
-      clr1:        '#1C9CF2', // Blue
+      clr1:        '#EE7B22', // Orange
       clr2:        '#F9D5B6', // Canteloupe
       clr3:        '#D2D9AC', // Green 
       black:       '#161C1E',

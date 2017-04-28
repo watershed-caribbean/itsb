@@ -1,7 +1,7 @@
 /* Primary styles for In The Same Boats
  * SASS file outputs to assets/css/style.css  */
 body {
-  background: #F9F9F9;
+  background: #fcfcfc;
   width: 100%;
   height: 100%;
   font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
@@ -48,12 +48,14 @@ a, a:link, a:visited {
     #nav a:hover, #nav a.active {
       text-decoration: none; }
   #nav > a {
-    background-color: #1C9CF2;
+    background-color: #f9ce89;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 18.75%;
     float: left; }
+    #nav > a#title {
+      color: #161C1E; }
 
 #tabs {
   position: relative; }
@@ -172,7 +174,7 @@ a, a:link, a:visited {
   margin-bottom: 0.625em; }
 
 .results .results-view > div {
-  color: #1C9CF2;
+  color: #F89E1C;
   text-transform: uppercase;
   font-size: 0.9em;
   width: 100%;
@@ -186,7 +188,7 @@ a, a:link, a:visited {
     font-weight: 400; }
 
 .date-range {
-  background-color: #ececec; }
+  background-color: #efefef; }
 
 .indicator {
   height: 3em;
@@ -203,18 +205,18 @@ a, a:link, a:visited {
   height: 100%; }
 
 .d3-slider-range-vertical {
-  background-color: #e0dfdf;
-  border-right: 2px solid #1C9CF2; }
+  background-color: #e3e2e2;
+  border-right: 2px solid #F89E1C; }
 
 .d3-slider-vertical .d3-slider-handle {
   right: -0.54em;
   left: initial;
-  background: #1C9CF2;
+  background: #F89E1C;
   width: 1.2em;
   height: 1.2em;
   margin-bottom: -0.6em;
   border-radius: 0.6em;
-  border-color: #1C9CF2; }
+  border-color: #F89E1C; }
 
 @media only screen and (min-width: 640px) {
   .d3-slider-vertical .d3-slider-handle {
@@ -259,8 +261,8 @@ path.map {
   stroke-opacity: 1; }
 
 .point {
-  fill: #3399ff;
-  stroke: #3399ff;
+  fill: #F89E1C;
+  stroke: #F89E1C;
   stroke-width: 0.5; }
 
 .point_back {
@@ -285,46 +287,46 @@ path.line {
 
 /* Trajectories */
 .id_0 {
-  fill: #d999c9;
-  color: #d999c9; }
+  fill: #4d9eff;
+  color: #4d9eff; }
   .id_0 path, .id_0 path.id_0, .id_0 line.id_0 {
     fill: none;
-    stroke: #d999c9; }
+    stroke: #4d9eff; }
 
 .id_1 {
-  fill: #1C9CF2;
-  color: #1C9CF2; }
+  fill: #F89E1C;
+  color: #F89E1C; }
   .id_1 path, .id_1 path.id_1, .id_1 line.id_1 {
     fill: none;
-    stroke: #1C9CF2; }
+    stroke: #F89E1C; }
 
 .id_2 {
-  fill: #F9D5B6;
-  color: #F9D5B6; }
+  fill: #b19971;
+  color: #b19971; }
   .id_2 path, .id_2 path.id_2, .id_2 line.id_2 {
     fill: none;
-    stroke: #F9D5B6; }
+    stroke: #b19971; }
 
 .id_3 {
-  fill: #D2D9AC;
-  color: #D2D9AC; }
+  fill: #936A28;
+  color: #936A28; }
   .id_3 path, .id_3 path.id_3, .id_3 line.id_3 {
     fill: none;
-    stroke: #D2D9AC; }
+    stroke: #936A28; }
 
 .id_4 {
-  fill: #6e8997;
-  color: #6e8997; }
+  fill: #CF6428;
+  color: #CF6428; }
   .id_4 path, .id_4 path.id_4, .id_4 line.id_4 {
     fill: none;
-    stroke: #6e8997; }
+    stroke: #CF6428; }
 
 .id_5 {
-  fill: #ac8a6d;
-  color: #ac8a6d; }
+  fill: #f7ba58;
+  color: #f7ba58; }
   .id_5 path, .id_5 path.id_5, .id_5 line.id_5 {
     fill: none;
-    stroke: #ac8a6d; }
+    stroke: #f7ba58; }
 
 .id_6 {
   fill: #617a8c;
@@ -412,28 +414,28 @@ path.line {
   fill: none; }
 
 .author_left {
-  fill: #F9D5B6;
-  color: #F9D5B6; }
+  fill: #b19971;
+  color: #b19971; }
 
 .author_left path, path.author_left, line.author_left {
   fill: none;
-  stroke: #F9D5B6; }
+  stroke: #b19971; }
 
 .author_right {
-  fill: #D2D9AC;
-  color: #D2D9AC; }
+  fill: #936A28;
+  color: #936A28; }
 
 .author_right path, path.author_right, line.author_right {
   fill: none;
-  stroke: #D2D9AC; }
+  stroke: #936A28; }
 
 #trajectories .authors {
-  background-color: #f4f4f4; }
+  background-color: #f7f7f7; }
   #trajectories .authors .header {
     background-color: #c6ccd1; }
 
 #trajectories .authors-list a {
-  color: #1C9CF2;
+  color: #F89E1C;
   text-transform: uppercase;
   font-size: 0.9em;
   width: 100%;
@@ -442,7 +444,7 @@ path.line {
   display: block;
   padding: 1.25em;
   cursor: pointer;
-  color: #939393; }
+  color: #969696; }
   #trajectories .authors-list a .item_date {
     text-transform: none;
     font-size: 0.8em;
@@ -450,25 +452,28 @@ path.line {
     font-weight: 400; }
 
 #trajectories .authors-list a:nth-child(1):hover, #trajectories .authors-list a:nth-child(1).selected {
-  color: #d999c9; }
+  color: #4d9eff; }
 
 #trajectories .authors-list a:nth-child(2):hover, #trajectories .authors-list a:nth-child(2).selected {
-  color: #1C9CF2; }
+  color: #F89E1C; }
 
 #trajectories .authors-list a:nth-child(3):hover, #trajectories .authors-list a:nth-child(3).selected {
-  color: #F9D5B6; }
+  color: #b19971; }
 
 #trajectories .authors-list a:nth-child(4):hover, #trajectories .authors-list a:nth-child(4).selected {
-  color: #D2D9AC; }
+  color: #936A28; }
 
 #trajectories .authors-list a:nth-child(5):hover, #trajectories .authors-list a:nth-child(5).selected {
-  color: #6e8997; }
+  color: #CF6428; }
 
 #trajectories .authors-list a:nth-child(6):hover, #trajectories .authors-list a:nth-child(6).selected {
-  color: #ac8a6d; }
+  color: #f7ba58; }
 
 #trajectories .authors-list a:nth-child(7):hover, #trajectories .authors-list a:nth-child(7).selected {
   color: #617a8c; }
 
 #trajectories .authors-list a:nth-child(8):hover, #trajectories .authors-list a:nth-child(8).selected {
   color: #8ea030; }
+
+#trajectories .authors-list a:nth-child(9):hover, #trajectories .authors-list a:nth-child(9).selected {
+  color: #2893cf; }
