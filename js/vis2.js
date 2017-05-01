@@ -303,7 +303,7 @@ class Trajectories extends DateMapController {
 				.range([0,self.height])
 				.nice(d3.time.month)
 				;
-			return s.invert((self.height -(s(_val))));
+			return s.invert(self.height -s(_val));
 		}    
 
 		var slider = d3.select(ui.dom[this.classkey].dateslider).call(slide);
@@ -686,7 +686,7 @@ class Trajectories extends DateMapController {
 				d3.select(ui.dom.intersections.results.title).html(self.places[focus.key].PlaceName);
 
 				//var data = sidebar_mode === 1 ? (intersections_unique[focus.key] || []) : (trajectories_unique[focus.key]);
-				var data = (intersections_unique[focus.key] || []);
+				var data = intersections_unique[focus.key] || [];
 				var items_target = d3.select(ui.dom.intersections.results.view);
 				var items,
 						items_date;
@@ -883,7 +883,7 @@ class Intersections extends DateMapController {
 				.range([0,self.height])
 				.nice(d3.time.month)
 				;
-			return s.invert((self.height -(s(_val))));
+			return s.invert(self.height -s(_val));
 		}    
 
 		var slider = d3.select(ui.dom[this.classkey].dateslider).call(slide);
@@ -1138,7 +1138,7 @@ class Intersections extends DateMapController {
 				d3.select(ui.dom[self.classkey].results.title).html(self.places[focus.key].PlaceName);
 
 				//var data = sidebar_mode === 1 ? (intersections_unique[focus.key] || []) : (trajectories_unique[focus.key]);
-				var data = (intersections_unique[focus.key] || []);
+				var data = intersections_unique[focus.key] || [];
 				var items_target = d3.select(ui.dom[self.classkey].results.view);
 				var items,
 						items_date;
@@ -1278,13 +1278,17 @@ class Itineraries extends Visualization {
             .attr('id', 'right_route');
 
         // Update left route and right route to show route for current figure
-        self.route_change('left');
-        self.route_change('right');
+        // self.route_change('left');
+        // self.route_change('right');
 
   }
   
   generate() {
     super.generate();
+  }
+  
+  route_change2(author,_side) {
+    
   }
   
   
@@ -1304,8 +1308,8 @@ class Itineraries extends Visualization {
       var starts = [], ends = [];
       d3.keys(self.itineraries).forEach(
           function(d){
-              starts.push(d3.min(self.itineraries[d], function(_d){ return (new Date(_d.StartDate)); }));
-              ends.push(d3.max(self.itineraries[d], function(_d){ return (new Date(_d.EndDate)); }));
+              starts.push(d3.min(self.itineraries[d], function(_d){ return new Date(_d.StartDate); }));
+              ends.push(d3.max(self.itineraries[d], function(_d){ return new Date(_d.EndDate); }));
       });
 
       var earliest_date = d3.min(starts);
