@@ -232,6 +232,7 @@ a, a:link, a:visited {
   }
 }
 
+
 // Itineraries
 
 #itineraries
@@ -272,6 +273,71 @@ a, a:link, a:visited {
     }
   }
        
+}
+
+@mixin author-list-item {
+  color: $clr1;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  width: 100%;
+  font-weight: $semibold;
+  padding-bottom: $blh;
+  display: block;
+
+  .item_date {
+    text-transform: none;
+    font-size: 0.8em;
+    color: darken($cool_neutral, 20%);
+    font-weight: $regular;
+  }
+}
+
+
+
+// Authors
+
+.authors {
+  background-color: darken($neutral,2%);
+  
+  .header {
+    background-color: darken($cool_neutral,10%)
+  }
+}
+
+.authors-list a {
+  @include author-list-item;
+
+  padding: $blh;
+  cursor: pointer;
+  color: darken($neutral, 40%);
+}
+
+
+// Trajectories author
+
+#trajectories {
+  
+  @for $i from 1 through 9 {
+    
+    .authors-list a:nth-child(#{$i}) {
+      &:hover, &.selected {
+        $clrindex: $i - 1;
+        $color: #{map-get($clr_map, clr#{$clrindex})};
+        color: $color;
+      }
+    
+    }
+  }
+    
+}
+
+// Itineraries author
+
+#itineraries {
+  .authors-list a.selected {
+    color: $clr1;
+    cursor: pointer;
+  }
 }
 
 
@@ -319,24 +385,6 @@ a, a:link, a:visited {
   width: 100%;
 }
 
-//
-
-@mixin author-list-item {
-  color: $clr1;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  width: 100%;
-  font-weight: $semibold;
-  padding-bottom: $blh;
-  display: block;
-
-  .item_date {
-    text-transform: none;
-    font-size: 0.8em;
-    color: darken($cool_neutral, 20%);
-    font-weight: $regular;
-  }
-}
 
 .results {
   .items {
@@ -606,39 +654,3 @@ path.line {
   stroke: $clr3;
 }
 
-// Trajector author
-
-#trajectories {
-  
-  
-  .authors {
-    background-color: darken($neutral,2%);
-    
-    .header {
-      background-color: darken($cool_neutral,10%)
-    }
-  }
-  
-  .authors-list a {
-    @include author-list-item;
-
-    padding: $blh;
-    cursor: pointer;
-    color: darken($neutral, 40%);
-  }
-  
-  @for $i from 1 through 9 {
-    
-    .authors-list a:nth-child(#{$i}) {
-      &:hover, &.selected {
-        $clrindex: $i - 1;
-        $color: #{map-get($clr_map, clr#{$clrindex})};
-        color: $color;
-      }
-    
-    }
-  }
-  
-  
-  
-}

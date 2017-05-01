@@ -314,7 +314,7 @@ class Trajectories extends DateMapController {
 
 		//map
 		var projection = d3.geo.mercator()
-			.scale(180)
+			.scale(160)
 			.translate([ui.dom[this.classkey].map.view.offsetWidth * 0.5,ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
 			
 		
@@ -368,7 +368,6 @@ class Trajectories extends DateMapController {
 			holder.forEach(function(d){
 				if(d3.keys(d.value).length >0){
 					d3.keys(d.value).forEach(function(_d){  // _d is city key
-  					
   					
   					// Check to see if there is at least 1 valid author
   					var b = 0;
@@ -897,7 +896,7 @@ class Intersections extends DateMapController {
 		//map
 		
 		var projection = d3.geo.mercator()
-			.scale(180)
+			.scale(160)
 			.translate([ui.dom[this.classkey].map.view.offsetWidth * 0.5,ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
 			
 		var path = d3.geo.path().projection(projection);
@@ -1233,6 +1232,7 @@ class Itineraries extends Visualization {
   constructor() {
     super();
     this.classkey = 'itineraries';   
+    this.selectedauthors = [null,null];
 
   }
   
@@ -1243,10 +1243,35 @@ class Itineraries extends Visualization {
   setup() {
     var self = this;
     
-    this.svg = d3.select('#container')
-			.append('svg')
-			.attr('width',this.width);
-
+    // Set up author selection UI
+    
+    d3.select(ui.dom[this.classkey].authors.list)
+      .html(ui.generateAuthorList(this));
+		
+		// Manage active trajectory map authors
+		
+    d3.select(ui.dom[this.classkey].authors.list)
+      .selectAll('.author').each(function(){
+        d3.select(this).on('click',function(){
+          var elem = d3.select(this);  
+          var akey = elem.attr('data-key');
+          var max = d3.select(ui.dom[self.classkey].authors.list).selectAll('a.selected')[0].length == self.selectedauthors.length;
+                              
+          if(elem.classed('selected')) {
+            elem.classed('selected',false);
+            self.selectedauthors[self.selectedauthors.indexOf(akey)] = null;
+          } else {
+            if (!max) {
+              elem.classed('selected',true);
+              self.selectedauthors[self.selectedauthors.indexOf(null)] = akey;
+            } 
+          }
+          
+          self.generate();  
+        });
+      });
+    			
+		/*
         // Create left figure drop-down selector
         d3.select('#left_itinerary')
             .append('select')
@@ -1280,16 +1305,26 @@ class Itineraries extends Visualization {
         // Update left route and right route to show route for current figure
         // self.route_change('left');
         // self.route_change('right');
-
+        */
   }
+  
+  /* --Itineraries Generate */
   
   generate() {
     super.generate();
+    
+    for(var i=0; i<this.selectedauthors.length; i++) {
+      var slot = i;
+      var akey = this.selectedauthors[i];
+      var header = ui.dom[this.classkey].selections[i].header;
+      var view = ui.dom[this.classkey].selections[i].view;
+      
+      d3.select(header).html(this.authors[akey]);
+      
+      
+    }
   }
   
-  route_change2(author,_side) {
-    
-  }
   
   
   route_change(_side){

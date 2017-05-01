@@ -153,6 +153,59 @@ a, a:link, a:visited {
       width: 100%;
       text-align: center; }
 
+.authors {
+  background-color: #f7f7f7; }
+  .authors .header {
+    background-color: #c6ccd1; }
+
+.authors-list a {
+  color: #F89E1C;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  width: 100%;
+  font-weight: 600;
+  padding-bottom: 1.25em;
+  display: block;
+  padding: 1.25em;
+  cursor: pointer;
+  color: #969696; }
+  .authors-list a .item_date {
+    text-transform: none;
+    font-size: 0.8em;
+    color: #a9b2bb;
+    font-weight: 400; }
+
+#trajectories .authors-list a:nth-child(1):hover, #trajectories .authors-list a:nth-child(1).selected {
+  color: #4d9eff; }
+
+#trajectories .authors-list a:nth-child(2):hover, #trajectories .authors-list a:nth-child(2).selected {
+  color: #F89E1C; }
+
+#trajectories .authors-list a:nth-child(3):hover, #trajectories .authors-list a:nth-child(3).selected {
+  color: #b19971; }
+
+#trajectories .authors-list a:nth-child(4):hover, #trajectories .authors-list a:nth-child(4).selected {
+  color: #936A28; }
+
+#trajectories .authors-list a:nth-child(5):hover, #trajectories .authors-list a:nth-child(5).selected {
+  color: #CF6428; }
+
+#trajectories .authors-list a:nth-child(6):hover, #trajectories .authors-list a:nth-child(6).selected {
+  color: #f7ba58; }
+
+#trajectories .authors-list a:nth-child(7):hover, #trajectories .authors-list a:nth-child(7).selected {
+  color: #617a8c; }
+
+#trajectories .authors-list a:nth-child(8):hover, #trajectories .authors-list a:nth-child(8).selected {
+  color: #8ea030; }
+
+#trajectories .authors-list a:nth-child(9):hover, #trajectories .authors-list a:nth-child(9).selected {
+  color: #2893cf; }
+
+#itineraries .authors-list a.selected {
+  color: #F89E1C;
+  cursor: pointer; }
+
 #itineraries {
   height: 100%;
   width: 100%;
@@ -448,52 +501,3 @@ path.line {
 .author_right path, path.author_right, line.author_right {
   fill: none;
   stroke: #936A28; }
-
-#trajectories .authors {
-  background-color: #f7f7f7; }
-  #trajectories .authors .header {
-    background-color: #c6ccd1; }
-
-#trajectories .authors-list a {
-  color: #F89E1C;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  width: 100%;
-  font-weight: 600;
-  padding-bottom: 1.25em;
-  display: block;
-  padding: 1.25em;
-  cursor: pointer;
-  color: #969696; }
-  #trajectories .authors-list a .item_date {
-    text-transform: none;
-    font-size: 0.8em;
-    color: #a9b2bb;
-    font-weight: 400; }
-
-#trajectories .authors-list a:nth-child(1):hover, #trajectories .authors-list a:nth-child(1).selected {
-  color: #4d9eff; }
-
-#trajectories .authors-list a:nth-child(2):hover, #trajectories .authors-list a:nth-child(2).selected {
-  color: #F89E1C; }
-
-#trajectories .authors-list a:nth-child(3):hover, #trajectories .authors-list a:nth-child(3).selected {
-  color: #b19971; }
-
-#trajectories .authors-list a:nth-child(4):hover, #trajectories .authors-list a:nth-child(4).selected {
-  color: #936A28; }
-
-#trajectories .authors-list a:nth-child(5):hover, #trajectories .authors-list a:nth-child(5).selected {
-  color: #CF6428; }
-
-#trajectories .authors-list a:nth-child(6):hover, #trajectories .authors-list a:nth-child(6).selected {
-  color: #f7ba58; }
-
-#trajectories .authors-list a:nth-child(7):hover, #trajectories .authors-list a:nth-child(7).selected {
-  color: #617a8c; }
-
-#trajectories .authors-list a:nth-child(8):hover, #trajectories .authors-list a:nth-child(8).selected {
-  color: #8ea030; }
-
-#trajectories .authors-list a:nth-child(9):hover, #trajectories .authors-list a:nth-child(9).selected {
-  color: #2893cf; }
