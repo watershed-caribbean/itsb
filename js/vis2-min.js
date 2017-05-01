@@ -1233,7 +1233,7 @@ class Itineraries extends Visualization {
     super();
     this.classkey = 'itineraries';   
     this.selectedauthors = [null,null];
-
+    this.routes = [];
   }
   
   init() {
@@ -1270,7 +1270,7 @@ class Itineraries extends Visualization {
           self.generate();  
         });
       });
-    			
+          			
 		/*
         // Create left figure drop-down selector
         d3.select('#left_itinerary')
@@ -1313,16 +1313,60 @@ class Itineraries extends Visualization {
   generate() {
     super.generate();
     
+    var self = this;
+    
+    this.tear_down();
+    
+    // Checks to see if at least one author is selected
+    
+    if (d3.select(ui.dom[self.classkey].authors.list).selectAll('a.selected')[0].length == 0) {
+      return;
+    }
+    
+    var merge = [];
+        
     for(var i=0; i<this.selectedauthors.length; i++) {
       var slot = i;
       var akey = this.selectedauthors[i];
       var header = ui.dom[this.classkey].selections[i].header;
       var view = ui.dom[this.classkey].selections[i].view;
       
-      d3.select(header).html(this.authors[akey]);
-      
-      
+      if (akey != null) {
+        d3.select(header).html(this.authors[akey]);
+        this.routes[i] = this.itineraries[akey];
+        merge = merge.concat(this.itineraries[akey]);
+        d3.select(ui.dom[this.classkey].selections[i].view).append('svg')        
+      } else {
+        d3.select(header).html("Select an author");
+        this.routes[i] = [];
+        d3.select(ui.dom[this.classkey].selections[i].view).selectAll('*').remove();        
+      }
     }
+                        
+    // Find the earliest and latest itinerary dates
+    var starts = [], ends = [];
+    merge.forEach(
+        function(d){
+          starts.push(new Date(d.StartDate));
+          ends.push(new Date(d.EndDate));
+      });
+      
+    var earliest_date = d3.min(starts);
+    var latest_date = d3.max(ends);
+    
+    var visH = this.height*30;
+
+    //Translate days to distance
+    var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, visH -150 -60]);
+    
+    for(var i=0; i<this.selectedauthors.length; i++) {
+    
+    }
+        
+  }
+  
+  generate_route() {
+    
   }
   
   
