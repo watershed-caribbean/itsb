@@ -151,7 +151,67 @@ a, a:link, a:visited {
     #itineraries
 > * .itinerary .itinerary-header {
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      padding: 0.625em; }
+    #itineraries
+> * .itinerary .itinerary-view {
+      text-align: center;
+      padding-top: 1.25em; }
+    #itineraries
+> * .itinerary svg {
+      width: 60px;
+      display: inline-block;
+      background-color: #E2E5E8;
+      padding: 1.25em 0; }
+
+/* Itineraries / Routes */
+text.route_label {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-anchor: middle; }
+
+text.route_point_labels {
+  font-size: 11px;
+  letter-spacing: 1px;
+  fill: #aaa; }
+
+line.route_line_background {
+  stroke: #ddd;
+  stroke-width: 30; }
+
+line.route_line {
+  stroke-width: 30; }
+
+line.route_points {
+  stroke: #aaa;
+  stroke-width: 1;
+  stroke-dasharray: 1, 1; }
+
+circle.route_stops {
+  fill: #b0afaf;
+  stroke: #b0afaf;
+  stroke-width: 1; }
+
+path.line {
+  fill: none; }
+
+.author_left {
+  fill: #b19971;
+  color: #b19971; }
+
+.author_left path, path.author_left, line.author_left {
+  fill: none;
+  stroke: #b19971; }
+
+.author_right {
+  fill: #936A28;
+  color: #936A28; }
+
+.author_right path, path.author_right, line.author_right {
+  fill: none;
+  stroke: #936A28; }
 
 .authors {
   background-color: #f7f7f7; }
@@ -205,30 +265,6 @@ a, a:link, a:visited {
 #itineraries .authors-list a.selected {
   color: #F89E1C;
   cursor: pointer; }
-
-#itineraries {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  border-right: 2px solid white;
-  box-sizing: border-box;
-  overflow: hidden; }
-  #itineraries .header {
-    margin-bottom: 1.25em; }
-  #itineraries select {
-    display: block;
-    margin: 0 auto; }
-
-#left_itinerary {
-  float: left;
-  width: 50%; }
-
-#right_itinerary {
-  margin-left: 50%;
-  width: 50%; }
-  #right_itinerary .header {
-    background-color: #c6ccd1; }
 
 #itineraries svg {
   shape-rendering: geometricPrecision;
@@ -451,53 +487,3 @@ path.line {
   z-index: 1;
   position: absolute;
   background: rgba(255, 255, 255, 0.9); }
-
-/* Itineraries / Routes */
-text.route_label {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-anchor: middle; }
-
-text.route_point_labels {
-  font-size: 11px;
-  letter-spacing: 1px;
-  fill: #aaa; }
-
-line.route_line_background {
-  stroke: #ddd;
-  stroke-width: 30; }
-
-line.route_line {
-  stroke-width: 30; }
-
-line.route_points {
-  stroke: #aaa;
-  stroke-width: 1;
-  stroke-dasharray: 1, 1; }
-
-circle.route_stops {
-  /*stroke:black */
-  fill: white;
-  stroke: #aaa;
-  stroke-width: 2; }
-
-path.line {
-  fill: none; }
-
-.author_left {
-  fill: #b19971;
-  color: #b19971; }
-
-.author_left path, path.author_left, line.author_left {
-  fill: none;
-  stroke: #b19971; }
-
-.author_right {
-  fill: #936A28;
-  color: #936A28; }
-
-.author_right path, path.author_right, line.author_right {
-  fill: none;
-  stroke: #936A28; }

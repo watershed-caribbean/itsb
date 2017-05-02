@@ -1234,6 +1234,7 @@ class Itineraries extends Visualization {
     this.classkey = 'itineraries';   
     this.selectedauthors = [null,null];
     this.routes = [];
+    this.visHeight = this.height
   }
   
   init() {
@@ -1308,7 +1309,7 @@ class Itineraries extends Visualization {
         */
   }
   
-  /* --Itineraries Generate */
+  /* !--Itineraries Generate */
   
   generate() {
     super.generate();
@@ -1338,35 +1339,72 @@ class Itineraries extends Visualization {
         d3.select(ui.dom[this.classkey].selections[i].view).append('svg')        
       } else {
         d3.select(header).html("Select an author");
-        this.routes[i] = [];
-        d3.select(ui.dom[this.classkey].selections[i].view).selectAll('*').remove();        
+        this.routes[i] = null;
       }
     }
                         
     // Find the earliest and latest itinerary dates
     var starts = [], ends = [];
-    merge.forEach(
-        function(d){
-          starts.push(new Date(d.StartDate));
-          ends.push(new Date(d.EndDate));
-      });
+    d3.keys(self.itineraries).forEach(
+      function(d){
+        starts.push(d3.min(self.itineraries[d], function(_d){ return new Date(_d.StartDate); }));
+        ends.push(d3.max(self.itineraries[d], function(_d){ return new Date(_d.EndDate); }));
+    });
       
     var earliest_date = d3.min(starts);
     var latest_date = d3.max(ends);
     
-    var visH = this.height*30;
-
+    this.visHeight *= 1;
+        
     //Translate days to distance
-    var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, visH -150 -60]);
+    var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, this.visHeight]);
     
-    for(var i=0; i<this.selectedauthors.length; i++) {
     
+    for(var j=0; j<this.selectedauthors.length; j++) {
+      this.generate_route(j,route_scale);
     }
         
   }
   
-  generate_route() {
+  generate_route(index,route_scale) {
+    var self = this;
+    var author_id = this.selectedauthors[index];
+    var route = this.routes[index];
+    var view = ui.dom[this.classkey].selections[index].view;
+        
+    if (route == null) {
+      return;
+    }
     
+    var svg = d3.select(view).select('svg');
+    
+    svg.attr('height', this.visHeight);
+    
+    //Create route container
+    var route_g = svg.selectAll('g.route_g').data(author_id);
+    route_g.enter().append('g').classed('route_g',true);
+    route_g
+        .attr('class', 'route_g author_' + index)
+        .attr('transform', function(d,i){
+            var x = 0,
+                y = 0;
+            return 'translate(' + x +',' + y +')';
+        });
+        
+    route_g.exit().remove();
+    
+    //Stops
+    var route_rad = 4;
+    var route_stops = route_g.selectAll('circle.route_stops').data(route);
+    route_stops.enter().append('circle').classed('route_stops',true);
+    route_stops
+        .attr('cx',30)
+        .attr('cy',function(d,i){
+            console.log(d.StartDate + " : " + route_scale(new Date(d.StartDate)));
+            return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
+        })
+        .attr('r',route_rad);
+    route_stops.exit().remove();
   }
   
   
@@ -1491,6 +1529,15 @@ class Itineraries extends Visualization {
       var visH = this.height*6;
       this.svg.attr('height', visH);
   }  
+  
+  /* !--Itineraries Tear Down */
+  
+  tear_down() {
+    super.tear_down();
+    for(var i=0;i<this.selectedauthors.length;i++) {
+      d3.select(ui.dom[this.classkey].selections[i].view).selectAll('*').remove();       
+    } 
+  }
 }
 
 /*

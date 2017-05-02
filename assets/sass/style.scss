@@ -270,9 +270,84 @@ a, a:link, a:visited {
     .itinerary-header {
       width: 100%;
       text-align: center;
+      padding: $blh/2
+
+    }
+    
+    .itinerary-view {
+      text-align: center;
+      padding-top: $blh;
+    }
+    
+    svg {
+      width: 60px;
+      display: inline-block;
+      background-color: $cool_neutral;
+      padding: $blh 0;
     }
   }
        
+}
+
+/* Itineraries / Routes */
+
+text.route_label {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-anchor: middle;
+}
+
+text.route_point_labels {
+  font-size: 11px;
+  letter-spacing: 1px;
+  fill: #aaa;
+}
+
+line.route_line_background {
+  stroke: #ddd;
+  stroke-width: 30;
+}
+
+line.route_line {
+  stroke-width: 30;
+}
+
+line.route_points {
+  stroke: #aaa;
+  stroke-width: 1;
+  stroke-dasharray: 1, 1;
+}
+
+circle.route_stops {
+  fill: darken($neutral, 30%) ;
+  stroke: darken($neutral, 30%);
+  stroke-width: 1;
+}
+
+path.line {
+  fill: none;
+}
+
+.author_left {
+  fill: $clr2;
+  color: $clr2;
+}
+
+.author_left path, path.author_left, line.author_left {
+  fill: none;
+  stroke: $clr2;
+}
+
+.author_right {
+  fill: $clr3;
+  color: $clr3;
+}
+
+.author_right path, path.author_right, line.author_right {
+  fill: none;
+  stroke: $clr3;
 }
 
 @mixin author-list-item {
@@ -340,43 +415,6 @@ a, a:link, a:visited {
   }
 }
 
-
-
-// Previous CSS
-
-#itineraries {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  border-right: 2px solid white;
-  box-sizing: border-box;
-  overflow: hidden;
-  
-  .header {
-    margin-bottom: $blh
-  }
-  
-  select {
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-
-#left_itinerary {
-  float: left;
-  width: 50%;
-}
-
-#right_itinerary {
-  margin-left: 50%;
-  width: 50%;
-  
-  .header {
-    background-color: darken($cool_neutral,10%);
-  }
-}
 
 #itineraries svg {
   shape-rendering: geometricPrecision;
@@ -590,67 +628,5 @@ path.line {
   z-index: 1;
   position: absolute;
   background: rgba(255, 255, 255, 0.9);
-}
-
-/* Itineraries / Routes */
-
-text.route_label {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-anchor: middle;
-}
-
-text.route_point_labels {
-  font-size: 11px;
-  letter-spacing: 1px;
-  fill: #aaa;
-}
-
-line.route_line_background {
-  stroke: #ddd;
-  stroke-width: 30;
-}
-
-line.route_line {
-  stroke-width: 30;
-}
-
-line.route_points {
-  stroke: #aaa;
-  stroke-width: 1;
-  stroke-dasharray: 1, 1;
-}
-
-circle.route_stops {
-  /*stroke:black */
-  fill: white;
-  stroke: #aaa;
-  stroke-width: 2;
-}
-
-path.line {
-  fill: none;
-}
-
-.author_left {
-  fill: $clr2;
-  color: $clr2;
-}
-
-.author_left path, path.author_left, line.author_left {
-  fill: none;
-  stroke: $clr2;
-}
-
-.author_right {
-  fill: $clr3;
-  color: $clr3;
-}
-
-.author_right path, path.author_right, line.author_right {
-  fill: none;
-  stroke: $clr3;
 }
 
