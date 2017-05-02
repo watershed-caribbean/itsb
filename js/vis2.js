@@ -1354,21 +1354,24 @@ class Itineraries extends Visualization {
     var earliest_date = d3.min(starts);
     var latest_date = d3.max(ends);
     
-    this.visHeight *= 2;
+    console.log(earliest_date);
+    console.log(latest_date);
+    
+    this.visHeight *= 3;
     
     // Set up containers
     
     var cheight = this.visHeight 
                     + 16 
                     + d3.select(ui.dom[this.classkey].authors.header).node().getBoundingClientRect().height 
-                    + d3.select(ui.dom[this.classkey].selections[0].header).node().getBoundingClientRect().height;
+                    + d3.select(ui.dom[this.classkey].selections[0].header).node().getBoundingClientRect().height ;
     
     d3.select(ui.dom[this.classkey].elem).style('height',cheight + 'px');
     d3.select(ui.dom[this.classkey].authors.list).style('height',cheight + 'px');
 
     //Translate days to distance
-    var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, this.visHeight]);
     
+    var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, this.visHeight]);
     
     for(var j=0; j<this.selectedauthors.length; j++) {
       this.generate_route(j,route_scale);

@@ -129,7 +129,8 @@ a, a:link, a:visited {
   height: auto; }
   #itineraries
 > *:nth-child(1) {
-    width: 25%; }
+    width: 25%;
+    min-height: 100%; }
     #itineraries
 > *:nth-child(1) .header {
       background-color: #c6ccd1; }
@@ -153,7 +154,10 @@ a, a:link, a:visited {
 > * .itinerary .itinerary-header {
       width: 100%;
       text-align: center;
-      padding: 0.625em; }
+      padding: 1.25em 0 0.625em 0;
+      text-transform: uppercase;
+      color: #F89E1C;
+      font-weight: 700; }
     #itineraries
 > * .itinerary .itinerary-view {
       text-align: center;
