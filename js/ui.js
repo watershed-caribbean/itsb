@@ -59,6 +59,7 @@ class UI {
     this.dom.itineraries = {
       elem: eiti,
       authors: {
+        selections: eiti.getElementsByClassName('selections')[0],
         header: eiti.getElementsByClassName('header')[0],
         list: eiti.getElementsByClassName('authors-list')[0],
         author1: eiti.getElementsByClassName('author')[0],

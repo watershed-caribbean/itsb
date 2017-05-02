@@ -33,6 +33,7 @@ $clr_map: (clr0: $clr0, clr1: $clr1, clr2: $clr2, clr3: $clr3, clr4: $clr4, clr5
 $black: #161C1E;
 $white: #F7F8F9;
 $neutral: #fcfcfc;
+$darker_neutral: #C6C6C6;
 $dark_neutral: #2D393F;
 $cool_neutral: #E2E5E8;
 
@@ -265,6 +266,11 @@ a, a:link, a:visited {
     width: 50%;
     height: auto;
     
+    &:nth-child(1) {
+      float: left;
+      z-index: 10; // Necessary to ensure tick lines overlap right itinerary
+    }
+    
     &:nth-child(2) {
       left: 50%;
     }
@@ -274,8 +280,8 @@ a, a:link, a:visited {
       text-align: center;
       padding: $blh 0 $blh/2 0;
       text-transform: uppercase;
-      color: $clr1;
-      font-weight: $bold;
+      color: $clr4;
+      font-weight: $semibold;
 
     }
     
@@ -290,12 +296,25 @@ a, a:link, a:visited {
       display: inline-block;
       background-color: $cool_neutral;
       padding: $blh 0;
+      overflow: visible;
     }
   }
        
 }
 
 /* Itineraries / Routes */
+
+#itinerary-axis {
+  
+  text {
+    fill: darken($darker_neutral,10%);
+    font-size: 11px;
+  }
+  
+  line {
+    stroke: $darker_neutral;
+  }
+}
 
 text.route_label {
   font-size: 18px;
@@ -327,8 +346,8 @@ line.route_points {
 }
 
 circle.route_stops {
-  fill: darken($neutral, 30%) ;
-  stroke: darken($neutral, 30%);
+  fill: $clr1;
+  stroke: $clr1;
   stroke-width: 1;
 }
 
@@ -357,7 +376,7 @@ path.line {
 }
 
 @mixin author-list-item {
-  color: $clr1;
+  color: $clr4;
   text-transform: uppercase;
   font-size: 0.9em;
   width: 100%;
@@ -416,7 +435,7 @@ path.line {
 
 #itineraries {
   .authors-list a.selected {
-    color: $clr1;
+    color: $clr4;
     cursor: pointer;
   }
 }

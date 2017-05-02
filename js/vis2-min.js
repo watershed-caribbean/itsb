@@ -1234,7 +1234,8 @@ class Itineraries extends Visualization {
     this.classkey = 'itineraries';   
     this.selectedauthors = [null,null];
     this.routes = [];
-    this.visHeight = this.height
+    this.visHeight = this.height * 2;
+    this.selectionsw = d3.select(ui.dom.itineraries.authors.selections).node().getBoundingClientRect().width;
   }
   
   init() {
@@ -1271,42 +1272,6 @@ class Itineraries extends Visualization {
           self.generate();  
         });
       });
-          			
-		/*
-        // Create left figure drop-down selector
-        d3.select('#left_itinerary')
-            .append('select')
-            .attr('id','left_select')
-            .on('change', function(){ self.route_change('left'); })
-            .selectAll('option')
-            .data(d3.keys(self.author_names)).enter()
-            .append('option')
-            .text(function (d) { return d; });
-
-        // Create right figure drop-down selector
-        d3.select('#right_itinerary')
-            .append('select')
-            .attr('id', 'right_select')
-            .on('change', function(){ self.route_change('right'); })
-            .selectAll('option')
-            .data(d3.keys(self.author_names)).enter()
-            .append('option')
-            .text(function (d) { return d; });
-
-        // Create left div for figure route
-        this.left_svg = d3.select('#left_itinerary')
-            .append('svg') //WAS "DIV"
-            .attr('id', 'left_route');
-
-        // Create right div for figure route
-        this.right_svg = d3.select('#right_itinerary')
-            .append('svg') //WAS "DIV"
-            .attr('id', 'right_route');
-
-        // Update left route and right route to show route for current figure
-        // self.route_change('left');
-        // self.route_change('right');
-        */
   }
   
   /* !--Itineraries Generate */
@@ -1353,11 +1318,8 @@ class Itineraries extends Visualization {
       
     var earliest_date = d3.min(starts);
     var latest_date = d3.max(ends);
-    
-    console.log(earliest_date);
-    console.log(latest_date);
-    
-    this.visHeight *= 3;
+        
+    this.visHeight;
     
     // Set up containers
     
@@ -1373,13 +1335,24 @@ class Itineraries extends Visualization {
     
     var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, this.visHeight]);
     
+    // Create Axis
+        
+    var axisScale = d3.time.scale().domain([earliest_date, latest_date]).range([0,this.visHeight]);
+    var yAxis = d3.svg.axis()
+                  .scale(axisScale)
+                  .orient('left')
+                  .tickSize(this.selectionsw * .95, 0)
+                  .tickPadding(-25)
+                  .tickFormat(d3.time.format("%Y"));
+    
+    
     for(var j=0; j<this.selectedauthors.length; j++) {
-      this.generate_route(j,route_scale);
-    }
+      this.generate_route(j,route_scale,yAxis);
+    } 
         
   }
   
-  generate_route(index,route_scale) {
+  generate_route(index,route_scale,yAxis) {
     var self = this;
     var author_id = this.selectedauthors[index];
     var route = this.routes[index];
@@ -1393,6 +1366,20 @@ class Itineraries extends Visualization {
     
     svg.attr('height', this.visHeight);
     d3.select(view).style('height',this.visHeight);
+    
+    // add axis to first visualization
+    var w = this.selectionsw *.95 * .8 -10;
+
+    if (index==0) {
+      svg.append('g')
+        .attr('id','itinerary-axis')
+        .call(yAxis)
+        .call(function(l){
+          l.style('transform','translateX(' + w + 'px)'); // moves lines into position
+          l.selectAll('text').attr('y',15); // moves labels below lines
+        });
+
+    }
     
     //Create route container
     var route_g = svg.selectAll('g.route_g').data(author_id);
