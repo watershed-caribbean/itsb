@@ -239,8 +239,8 @@ a, a:link, a:visited {
  > * {
   position: absolute;
   top: 4em;
-  bottom: 0;
-
+  height: auto;
+  
   &:nth-child(1) {
     width: 25%;
     
@@ -256,12 +256,13 @@ a, a:link, a:visited {
   
   .selections {
     width: 100%;
-    height: 100%;
+    height: 2000px;
   }
   
   .itinerary {
     position: absolute;
     width: 50%;
+    height: auto;
     
     &:nth-child(2) {
       left: 50%;
@@ -277,6 +278,7 @@ a, a:link, a:visited {
     .itinerary-view {
       text-align: center;
       padding-top: $blh;
+      height: auto;
     }
     
     svg {

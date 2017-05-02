@@ -126,7 +126,7 @@ a, a:link, a:visited {
 > * {
   position: absolute;
   top: 4em;
-  bottom: 0; }
+  height: auto; }
   #itineraries
 > *:nth-child(1) {
     width: 25%; }
@@ -140,11 +140,12 @@ a, a:link, a:visited {
   #itineraries
 > * .selections {
     width: 100%;
-    height: 100%; }
+    height: 2000px; }
   #itineraries
 > * .itinerary {
     position: absolute;
-    width: 50%; }
+    width: 50%;
+    height: auto; }
     #itineraries
 > * .itinerary:nth-child(2) {
       left: 50%; }
@@ -156,7 +157,8 @@ a, a:link, a:visited {
     #itineraries
 > * .itinerary .itinerary-view {
       text-align: center;
-      padding-top: 1.25em; }
+      padding-top: 1.25em;
+      height: auto; }
     #itineraries
 > * .itinerary svg {
       width: 60px;

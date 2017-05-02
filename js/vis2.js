@@ -1354,7 +1354,9 @@ class Itineraries extends Visualization {
     var earliest_date = d3.min(starts);
     var latest_date = d3.max(ends);
     
-    this.visHeight *= 1;
+    this.visHeight *= 2;
+    
+    d3.select(ui.dom[this.classkey].elem).style('height',(this.visHeight + 16) + 'px');
         
     //Translate days to distance
     var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, this.visHeight]);
@@ -1379,6 +1381,7 @@ class Itineraries extends Visualization {
     var svg = d3.select(view).select('svg');
     
     svg.attr('height', this.visHeight);
+    d3.select(view).style('height',this.visHeight);
     
     //Create route container
     var route_g = svg.selectAll('g.route_g').data(author_id);
@@ -1400,7 +1403,6 @@ class Itineraries extends Visualization {
     route_stops
         .attr('cx',30)
         .attr('cy',function(d,i){
-            console.log(d.StartDate + " : " + route_scale(new Date(d.StartDate)));
             return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
         })
         .attr('r',route_rad);
