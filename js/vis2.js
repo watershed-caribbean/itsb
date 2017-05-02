@@ -573,7 +573,6 @@ class Trajectories extends DateMapController {
               info.push(" (" + d.value.info[i].StartCitation.toString() + ")");
     				}
     				
-    				info.push("\n");
     				tooltip.push(info.join(''));
   				}
   				
@@ -1357,7 +1356,7 @@ class Itineraries extends Visualization {
     var author_id = this.selectedauthors[index];
     var route = this.routes[index];
     var view = ui.dom[this.classkey].selections[index].view;
-        
+            
     if (route == null) {
       return;
     }
@@ -1380,10 +1379,12 @@ class Itineraries extends Visualization {
         });
 
     }
-    
+        
     //Create route container
-    var route_g = svg.selectAll('g.route_g').data(author_id);
+    var route_g = svg.selectAll('g.route_g').data([author_id]);
+    
     route_g.enter().append('g').classed('route_g',true);
+
     route_g
         .attr('class', 'route_g author_' + index)
         .attr('transform', function(d,i){
@@ -1403,8 +1404,39 @@ class Itineraries extends Visualization {
         .attr('cy',function(d,i){
             return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
         })
-        .attr('r',route_rad);
+        .attr('r',route_rad)
+        .append("svg:title")
+          .text(function(d) {
+    				var tooltip = [];
+    				
+    				if(typeof self.places[d.PlaceID] == 'undefined') {
+      				return;
+    				}
+    				tooltip.push(self.places[d.PlaceID].PlaceName);
+    				// Add names and citations
+    				var info = []
+    				
+    				if (d.StartDate != "") {
+      				info.push(" \nFrom: " + d.StartDate.toString());
+    				}
+    				
+            if(d.StartCitation != "") {
+              info.push(" (" + d.StartCitation.toString() + ")")            
+            }    				
+    				if (d.EndDate != '') {
+      				info.push("\nUntil: " + d.EndDate);
+    				}
+    				
+    				if (d.EndDate != '') {
+              info.push(" (" + d.StartCitation.toString() + ")");
+    				}
+    				
+    				tooltip.push(info.join(''));
+      		  
+      		  return tooltip.join("\n");
+          });
     route_stops.exit().remove();
+    
   }
   
   
