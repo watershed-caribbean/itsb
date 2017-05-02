@@ -1356,8 +1356,16 @@ class Itineraries extends Visualization {
     
     this.visHeight *= 2;
     
-    d3.select(ui.dom[this.classkey].elem).style('height',(this.visHeight + 16) + 'px');
-        
+    // Set up containers
+    
+    var cheight = this.visHeight 
+                    + 16 
+                    + d3.select(ui.dom[this.classkey].authors.header).node().getBoundingClientRect().height 
+                    + d3.select(ui.dom[this.classkey].selections[0].header).node().getBoundingClientRect().height;
+    
+    d3.select(ui.dom[this.classkey].elem).style('height',cheight + 'px');
+    d3.select(ui.dom[this.classkey].authors.list).style('height',cheight + 'px');
+
     //Translate days to distance
     var route_scale = d3.time.scale().domain([earliest_date, latest_date]).range([0, this.visHeight]);
     
