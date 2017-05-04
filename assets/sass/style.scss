@@ -655,3 +655,16 @@ path.line {
   background: rgba(255, 255, 255, 0.9);
 }
 
+
+// Search
+
+#search {
+  padding: $blh;
+  
+  input {
+    width: $blh * 20;
+    height: $blh * 2;
+    font-size: $blh;
+    padding: $blh/4;
+  }
+}

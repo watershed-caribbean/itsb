@@ -505,3 +505,11 @@ path.line {
   z-index: 1;
   position: absolute;
   background: rgba(255, 255, 255, 0.9); }
+
+#search {
+  padding: 1.25em; }
+  #search input {
+    width: 25em;
+    height: 2.5em;
+    font-size: 1.25em;
+    padding: 0.3125em; }

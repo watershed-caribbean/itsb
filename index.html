@@ -19,6 +19,7 @@
   	<script type='text/javascript' src='js/libs/d3.slider.js'></script>
   	<script type='text/javascript' src='js/libs/d3-collection.v1.min.js'></script>
     <script type='text/javascript' src='js/libs/d3-queue.js'></script>
+    <script type='text/javascript' src='js/libs/lunr-2.01-min.js'></script>
 
   </head>
   <body>
@@ -30,6 +31,7 @@
           <a href='#' data-mode='2'>Trajectories</a>
           <a href='#' data-mode='3'>Itineraries</a>
           <a href='#'>About</a>
+          <a href='#'>Search</a>
         </div>
       </div>
       <div id='panels'>
@@ -181,10 +183,19 @@
             
           </div>
         </div>
+        <div id='search' class='panel'>
+          <form action='#' name='search'>
+            <input type='text' placeholder="Search authors and citations" />
+          </form>
+          <div id='search-results'>
+            <p>Search not functional (yet).</p>
+          </div>
+        </div>
       </div>
       <div id='container'></div>
     </div>
   </body>
   <script type='text/javascript' src='js/ui.js'></script>
-  <script type='text/javascript' src='js/vis2.js'></script>
+  <script type='text/javascript' src='js/vis.js'></script>
+  <script type='text/javascript' src='js/itsb-search.js'></script>
 </html>
