@@ -659,13 +659,16 @@ path.line {
 // Search
 
 #search {
-  padding: $blh * 2;
+  width: 62.5%;
+  margin: 0 auto;
+  padding-top: $blh;
   
   input {
-    width: $blh * 20;
+    width: 100%;
     height: $blh * 2;
     font-size: $blh;
     padding: $blh/4;
+    box-sizing: border-box;
   }
 }
 
@@ -674,7 +677,7 @@ path.line {
   
   .search-result {
     padding-bottom: $blh;
-    width: 500px;
+    width: 650px;
   }
   
   .term {
