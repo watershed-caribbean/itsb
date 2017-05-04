@@ -507,9 +507,38 @@ path.line {
   background: rgba(255, 255, 255, 0.9); }
 
 #search {
-  padding: 1.25em; }
+  padding: 2.5em; }
   #search input {
     width: 25em;
     height: 2.5em;
     font-size: 1.25em;
     padding: 0.3125em; }
+
+#search-results {
+  margin-top: 1.25em; }
+  #search-results .search-result {
+    padding-bottom: 1.25em;
+    width: 500px; }
+  #search-results .term {
+    color: #CF6428;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    width: 100%;
+    font-weight: 600;
+    padding-bottom: 1.25em;
+    display: block;
+    padding-bottom: 0; }
+    #search-results .term .item_date {
+      text-transform: none;
+      font-size: 0.8em;
+      color: #a9b2bb;
+      font-weight: 400; }
+  #search-results .subhead {
+    text-transform: none;
+    font-size: 0.8em;
+    color: #a9b2bb;
+    font-weight: 400;
+    padding-bottom: 0.3125em; }
+  #search-results .description {
+    font-size: 0.8em;
+    color: #161C1E; }

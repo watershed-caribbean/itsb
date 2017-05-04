@@ -2,6 +2,7 @@
 /* global ui */
 /* global dm */
 /* global topojson */
+/* global lunr */
 
 // The DataManager object is designed to load JSON files once then make the data available to all visualizations.
 // In the future this should load data subsets on request.
@@ -14,6 +15,12 @@ class DataManager {
     var self = this;
     this.loading = [];
     this.data = {};
+    this.idx;
+    this.compiled = {};
+    
+    this.authors = {};
+    this.author_names = {};
+    this.places = {};
     
     var datasets = ['author_ids','intersections','itineraries','places','continents'];    
 		
@@ -42,15 +49,143 @@ class DataManager {
     		o[method]();
   		})
   		
-		});	
+  		// Index
+  
+  		self.indexData();
+  		
+  		// Bind Search Field
+
+      console.log(d3.select(ui.dom.searchfield));
+      		
+  		d3.select(ui.dom.searchfield).on('input',function(){
+    		if(this.value.length>2) {
+      	  d3.select(ui.dom.searchresults).html(self.DisplaySearchResults(this.value));
+    		}
+  		});
+  		
+		});
+			
+  }
+  
+  buildAuthors() {
+    var self = this;
+		//authors
+		d3.keys(self.data.author_ids).forEach(function(k){
+			self.authors[self.data.author_ids[k]] = k;
+      self.author_names[k] = self.data.author_ids[k];
+		});
+  }
+  
+  buildPlaces() {
+    var self = this;
+    //places
+		d3.keys(self.data.places).forEach(function(d){
+			var k = d.split(',');
+			k[0] = k[0].trim().split(' ').join('-');
+			k[1] = k[1].trim().split(' ').join('-');
+			k = k.join('_').toLowerCase();
+			self.places[k] = self.data.places[d];
+			self.places[k].PlaceName = d;
+		});
+
+  }
+  
+  indexData() {
+    
+    var self = this;
+    
+    this.buildAuthors();
+    this.buildPlaces();
+            
+    
+    var i=0;
+    
+    for(var date in this.data.itineraries) { 
+      this.data.itineraries[date].forEach(function(entry){  
+        var place = self.places[entry.PlaceID.replace('-', '_')]; // Place keys use underscores instead of dashes.
+        var placename = '';
+        
+        
+        if (typeof place != 'undefined') {
+          placename = place.PlaceName;
+        } 
+        
+        self.compiled[i] = {
+          'ID' : i,
+          'Author' : self.authors[entry.AuthorID],
+          'AuthorID' : entry.AuthorID,
+          'Place' : placename,
+          'StartCitation' :  entry.StartCitation,
+          'StartDate' :  entry.StartDate,
+          'EndCitation' :  entry.EndCitation,
+          'EndDate' : entry.EndDate,
+          'Notes' : entry.Notes,
+          'FullEntry' : entry
+        };
+        
+        i++;
+      });     
+    }
+
+    this.idx = lunr(function(){
+      var thislunr = this;
+      
+      this.ref('ID'); 
+            
+      this.field('Author');
+      this.field('Place');
+      this.field('StartCitation');
+      this.field('EndCitation');
+      this.field('Notes');
+      
+      for (var id in self.compiled) {
+        thislunr.add(self.compiled[id]);
+      }
+    });    
+  }
+  
+  Search(term) {
+    return this.idx.search(term);
+  }
+  
+  DisplaySearchResults(term) {
+    var results = this.Search(term);
+    
+    if (results.length == 0) {
+      return "<p>No search results found.</p>";
+    }
+    
+    var html = [];
+    
+    for(var i=0;i<results.length;i++) {
+      var result = this.compiled[results[i].ref];
+      
+      var date = [];
+      
+      if (result.StartDate != '') {
+        date.push(result.StartDate);
+      }
+      
+      if (result.EndDate != '') {
+        date.push(result.EndDate);
+      }
+      
+      html.push(
+        "<div class='search-result'>" +
+          "<div class='term'>" + result.Author + "</div>" +
+          "<div class='subhead'>" + result.Place + " (" + date.join(' – ') + ")</div>" +
+          (result.Notes != '' ? "<div class='description'>" + result.Notes + "</div>" : '') + 
+        "</div>"
+      );
+    }
+    
+    return html.join("\n");
   }
   
   getData() {
     return this.data;
   }
 }
-
-
 class Visualization {
 	
 	constructor(){
@@ -1248,9 +1383,7 @@ class Itineraries extends Visualization {
     
     d3.select(ui.dom[this.classkey].authors.list)
       .html(ui.generateAuthorList(this));
-		
-		// Manage active trajectory map authors
-		
+				
     d3.select(ui.dom[this.classkey].authors.list)
       .selectAll('.author').each(function(){
         d3.select(this).on('click',function(){
@@ -1619,3 +1752,4 @@ d3.selection.prototype.last = function() {
   var last = this.size() - 1;
   return d3.select(this[0][last]);
 };
+

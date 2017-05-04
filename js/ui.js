@@ -22,7 +22,9 @@ class UI {
     // Model key DOM elements for each visualization
     
     this.dom = {
-      tabs: document.getElementById('tabs').getElementsByTagName('a')
+      tabs: document.getElementById('tabs').getElementsByTagName('a'),
+      searchfield: document.getElementById('search-field'),
+      searchresults: document.getElementById('search-results')
     };
         
     this.dom.intersections = {

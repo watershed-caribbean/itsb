@@ -659,12 +659,39 @@ path.line {
 // Search
 
 #search {
-  padding: $blh;
+  padding: $blh * 2;
   
   input {
     width: $blh * 20;
     height: $blh * 2;
     font-size: $blh;
     padding: $blh/4;
+  }
+}
+
+#search-results {
+  margin-top: $blh;
+  
+  .search-result {
+    padding-bottom: $blh;
+    width: 500px;
+  }
+  
+  .term {
+    @include author-list-item;
+    padding-bottom: 0;
+  }
+  
+  .subhead {
+    text-transform: none;
+    font-size: 0.8em;
+    color: darken($cool_neutral, 20%);
+    font-weight: $regular;
+    padding-bottom: $blh/4
+  }
+  
+  .description {
+    font-size: 0.8em;
+    color: $black;
   }
 }
