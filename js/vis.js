@@ -54,8 +54,6 @@ class DataManager {
   		self.indexData();
   		
   		// Bind Search Field
-
-      console.log(d3.select(ui.dom.searchfield));
       		
   		d3.select(ui.dom.searchfield).on('input',function(){
     		if(this.value.length>2) {
@@ -186,6 +184,9 @@ class DataManager {
     return this.data;
   }
 }
+
+/* !VISUALIZATION SUPER CLASS */
+
 class Visualization {
 	
 	constructor(){
@@ -196,8 +197,8 @@ class Visualization {
 		this.authors = {};  // {author_id: author_name}
     this.author_names = {}; // {author_name: author_id}
 		this.continents = {};
-		this.active_authors_t = [];
 		this.classkey = 'visualization';   
+		this.initialized = false;
 
 
 		//store screen height and width
@@ -213,6 +214,8 @@ class Visualization {
     this.process_data(); 
 		this.setup();
 		this.generate();
+		
+		this.intialized = true;
 		
 	}
 
@@ -316,6 +319,7 @@ class Trajectories extends DateMapController {
     this.trajectories = {}
     this.mode = 2;         
     this.classkey = 'trajectories';
+		this.active_authors_t = [];
   }
   
   init() {
@@ -1722,20 +1726,24 @@ var intersections = new Intersections;
 // var dm = new DataManager([trajectories,intersections,itineraries],'init'); // Previous approach. see note above.
 
 var dm = new DataManager([intersections],'init'); // Only load data once
+var trajectories;
+var itineraries;
 
 
 d3.selectAll(ui.dom.tabs).each(function() {
 	d3.select(this).on('click',function() {		
   	switch(d3.select(this).attr('data-mode')) {
-      case '2':
-        if (typeof trajectories == 'undefined') {
-          var trajectories = new Trajectories;
+      case '2':      
+        // only initialize once. perhaps should be handled in the init() function itself.
+        
+        if (!trajectories.hasOwnProperty('initialized')) {
+          trajectories = new Trajectories;
           trajectories.init();
         }
     	  break;
     	case '3':
-        if (typeof itineraries == 'undefined') {
-          var itineraries = new Itineraries;
+        if (!itineraries.hasOwnProperty('initialized')) {
+          itineraries = new Itineraries;
           itineraries.init();
         }
     	  break;  
