@@ -1018,8 +1018,7 @@ class Intersections extends DateMapController {
 			var s = d3.time.scale()
 				.domain(scale.domain())
 				.range([0,self.height])
-				.nice(d3.time.month)
-				;
+				.nice(d3.time.month);
 			return s.invert(self.height -s(_val));
 		}    
 
@@ -1167,8 +1166,34 @@ class Intersections extends DateMapController {
   				return self.places[d.key].PlaceName;
 				});
 			points_g
-				.on('mousemove',function(d){
-					d3.select(this)
+				.on('click',function(d){
+					d3.event.stopPropagation();
+					
+  				var point = d3.select(this);
+  				  				
+  				// Scale point
+  				
+  				var scale = 1.5;
+  				
+  				// reset all points
+  				points_g.forEach(function(d){
+    				d3.select(this)
+    				  .classed('selected',false)
+  						.transition()
+  						.duration(self.ttime)
+  						.attr('transform',function(_d){
+  							var p  = projection([
+  										self.places[_d.key].Long,
+  										self.places[_d.key].Lat
+  									]),
+  									px = p[0],
+  									py = p[1];
+  							return 'translate(' +px +',' +py +')scale(1)';
+  						});
+  				});
+  				  				
+					point
+					  .classed('selected',true)
 						.transition()
 						.duration(self.ttime)
 						.attr('transform',function(_d){
@@ -1178,25 +1203,11 @@ class Intersections extends DateMapController {
 									]),
 									px = p[0],
 									py = p[1];
-							return 'translate(' +px +',' +py +')scale(1.5)';
+							return 'translate(' +px +',' +py +')scale(' + scale + ')';
 						});
-				})
-				.on('mouseout',function(d){
-					d3.select(this)
-						.transition()
-						.duration(self.ttime/2)
-						.attr('transform',function(_d){
-							var p  = projection([
-										self.places[_d.key].Long,
-										self.places[_d.key].Lat
-									]),
-									px = p[0],
-									py = p[1];
-							return 'translate(' +px +',' +py +')scale(1)';
-						});
-				})
-				.on('click',function(d){
-					d3.event.stopPropagation();
+  				
+  				// display results
+  				
 					unfocus();
 					if(d.key !== focus.key){
 						focus = d;
