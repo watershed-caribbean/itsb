@@ -667,6 +667,58 @@ path.line {
   background: rgba(255, 255, 255, 0.9);
 }
 
+// Legend
+
+.legend {
+  width: 250px;
+  position: absolute;
+  top: 75%;
+  right: 15%;
+  float: right;
+  z-index: 10;
+  font-size: 0.9em;
+  border: 1px solid $clr1;
+  height: auto;
+  cursor: pointer;
+}
+
+.legend-header {
+  background-color: $clr1;
+  color: white;
+  text-transform: uppercase;
+  padding: $blh/4;
+  font-weight: $semibold;
+}
+
+.legend-body {
+  padding: $blh/4;
+  background-color: $white;
+  opacity: 0.95;
+}
+
+.legend-item {
+  display: table-row;
+  height: 40px;
+  
+  > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.legend-text {
+  width: 190px;
+  height: inherit;
+  font-size: 0.9em;
+}
+
+.legend-illustration {
+  width: 60px;
+  height: inherit;
+}
+
+
+
 
 // Search
 

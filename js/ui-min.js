@@ -1,3 +1,5 @@
+/* global d3 */
+
 class UI {
 	
   constructor(){
@@ -29,6 +31,7 @@ class UI {
         
     this.dom.intersections = {
       elem: eint,
+      legend: eint.getElementsByClassName('legend')[0],
       dateslider: eint.getElementsByClassName('slider')[0],
       datestart: eint.getElementsByClassName('date-start')[0],
       dateend: eint.getElementsByClassName('date-end')[0],
@@ -78,7 +81,19 @@ class UI {
         }
       ]
     }
+    
+    this.initLegendUI();
   }  
+  
+  initLegendUI() {
+    d3.select(this.dom.intersections.legend).on('click',function(){
+      d3.select(this)
+        .transition()
+        .duration(800)
+        .style('opacity',0)
+        .remove();
+    });
+  }
   
   initPanels() {
             
