@@ -315,7 +315,10 @@ path.line {
   width: 100%;
   font-weight: 600;
   padding-bottom: 1.25em;
-  display: block; }
+  display: block;
+  width: 50%;
+  float: left;
+  display: inline-block; }
   .results .results-view > div .item_date {
     text-transform: none;
     font-size: 0.8em;

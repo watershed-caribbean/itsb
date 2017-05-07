@@ -477,6 +477,9 @@ path.line {
   .results-view {
     > div {
       @include author-list-item;
+      width: 50%;
+      float: left;
+      display: inline-block;
     }
   }
 }

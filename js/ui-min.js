@@ -173,6 +173,7 @@ class UI {
       return entityMap[s];
     });
   }  
+  
 }
 
 var ui = new UI;

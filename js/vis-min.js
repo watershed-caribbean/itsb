@@ -1316,14 +1316,6 @@ class Intersections extends DateMapController {
 					.html(function(d){
 						var str;
 						str = d.StartDate && d.EndDate ? d.StartDate +'&nbsp;&ndash;&nbsp;' +d.EndDate : d.StartDate ? d.StartDate +'&nbsp;&ndash;' : d.EndDate ? '&nbsp;&ndash;' +d.EndDate : '';
-						
-						/* // Trajectory code
-							var a1 = d.PlaceID === focus.key ? 'accent' : '',
-									a2 = d.PlaceID_End && d.PlaceID_End === focus.key ? 'accent' : '';
-							var p1 = '<span class="_' +d.Likelihood +' ' +a1 +'">' +self.places[d.PlaceID].PlaceName +'</span>',
-									p2 = '<span class="_' +d.Likelihood_End +' ' +a2 +'">' +(d.PlaceID_End ? self.places[d.PlaceID_End].PlaceName : '') +'</span>';
-							str = '<div class="b">' +(d.EndDate || '') +'</div><div>' +p1 +'&nbsp;&rarr;&nbsp;' +p2 +'</div>';
-						*/
 						return str;
 					});
 				items_date.exit().remove();
