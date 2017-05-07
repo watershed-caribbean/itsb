@@ -236,6 +236,10 @@ path.line {
   .authors .header {
     background-color: #c6ccd1; }
 
+.authors-list .arow {
+  display: table-row;
+  width: 100%; }
+
 .authors-list a {
   color: #CF6428;
   text-transform: uppercase;
@@ -244,40 +248,44 @@ path.line {
   font-weight: 600;
   padding-bottom: 1.25em;
   display: block;
+  width: 50%;
+  display: table-cell;
+  vertical-align: top;
   padding: 1.25em;
   cursor: pointer;
-  color: #969696; }
+  color: #969696;
+  padding-bottom: 0.078125em; }
   .authors-list a .item_date {
     text-transform: none;
     font-size: 0.8em;
     color: #a9b2bb;
     font-weight: 400; }
 
-#trajectories .authors-list a:nth-child(1):hover, #trajectories .authors-list a:nth-child(1).selected {
+#trajectories .a-1:hover, #trajectories .a-1.selected {
   color: #4d9eff; }
 
-#trajectories .authors-list a:nth-child(2):hover, #trajectories .authors-list a:nth-child(2).selected {
+#trajectories .a-2:hover, #trajectories .a-2.selected {
   color: #F89E1C; }
 
-#trajectories .authors-list a:nth-child(3):hover, #trajectories .authors-list a:nth-child(3).selected {
+#trajectories .a-3:hover, #trajectories .a-3.selected {
   color: #b19971; }
 
-#trajectories .authors-list a:nth-child(4):hover, #trajectories .authors-list a:nth-child(4).selected {
+#trajectories .a-4:hover, #trajectories .a-4.selected {
   color: #936A28; }
 
-#trajectories .authors-list a:nth-child(5):hover, #trajectories .authors-list a:nth-child(5).selected {
+#trajectories .a-5:hover, #trajectories .a-5.selected {
   color: #CF6428; }
 
-#trajectories .authors-list a:nth-child(6):hover, #trajectories .authors-list a:nth-child(6).selected {
+#trajectories .a-6:hover, #trajectories .a-6.selected {
   color: #f7ba58; }
 
-#trajectories .authors-list a:nth-child(7):hover, #trajectories .authors-list a:nth-child(7).selected {
+#trajectories .a-7:hover, #trajectories .a-7.selected {
   color: #617a8c; }
 
-#trajectories .authors-list a:nth-child(8):hover, #trajectories .authors-list a:nth-child(8).selected {
+#trajectories .a-8:hover, #trajectories .a-8.selected {
   color: #8ea030; }
 
-#trajectories .authors-list a:nth-child(9):hover, #trajectories .authors-list a:nth-child(9).selected {
+#trajectories .a-9:hover, #trajectories .a-9.selected {
   color: #2893cf; }
 
 #itineraries .authors-list a.selected {

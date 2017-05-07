@@ -112,19 +112,33 @@ class UI {
   generateAuthorList(obj) {
     
     var list = '';
+    var i = 1;
+    var count = 1;
     
     for (var prop in obj.authors) {
-      if (obj.authors.hasOwnProperty(prop)) {
-        list += this.authorItemTemplate(obj.authors[prop],prop,'a') + "\n";
+      
+      if (i%2 != 0) {
+        list += "<div class='arow'>\n";
       }
+      
+      if (obj.authors.hasOwnProperty(prop)) {        
+        list += this.authorItemTemplate(obj.authors[prop],prop,'a',count) + "\n";
+      }
+      
+      if (i%2 == 0) {
+        list += "</div>\n";
+      }
+      
+      i = i == 2 ? 1 : 2;
+      count++;
     }
     
     return list;
     
   }
   
-  authorItemTemplate(name,key,tag) {
-    return "<" + tag + " data-key='" + key + "' class='author' title='" + this.escapeHtml(name) + "'>" + name + "</" + tag + ">";
+  authorItemTemplate(name,key,tag,count) {
+    return "<" + tag + " data-key='" + key + "' class='author a-" + count + "' title='" + this.escapeHtml(name) + "'>" + name + "</" + tag + ">";
   }
   
 

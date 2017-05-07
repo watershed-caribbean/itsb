@@ -404,12 +404,24 @@ path.line {
   }
 }
 
-.authors-list a {
-  @include author-list-item;
 
-  padding: $blh;
-  cursor: pointer;
-  color: darken($neutral, 40%);
+
+.authors-list {
+  .arow {
+    display: table-row;
+    width: 100%;
+  }
+  
+  a {
+    @include author-list-item;
+    width: 50%;
+    display: table-cell;
+    vertical-align: top;
+    padding: $blh;
+    cursor: pointer;
+    color: darken($neutral, 40%);
+    padding-bottom: $blh/16
+  }
 }
 
 
@@ -419,7 +431,7 @@ path.line {
   
   @for $i from 1 through 9 {
     
-    .authors-list a:nth-child(#{$i}) {
+    .a-#{$i} {
       &:hover, &.selected {
         $clrindex: $i - 1;
         $color: #{map-get($clr_map, clr#{$clrindex})};
