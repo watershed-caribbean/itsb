@@ -337,7 +337,7 @@ path.line {
 
 .d3-slider-vertical {
   width: 100%;
-  height: 100%; }
+  height: calc(100% - 3em); }
 
 .d3-slider-range-vertical {
   background-color: #e3e2e2;
