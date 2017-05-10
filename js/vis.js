@@ -4,14 +4,14 @@
 /* global topojson */
 /* global lunr */
 
+
 // The DataManager object is designed to load JSON files once then make the data available to all visualizations.
-// In the future this should load data subsets on request.
-// Special handling is required to compensate for asynchronoous load (the d3.json method does not have a
+// Special handling is required to compensate for asynchronous load (the d3.json method does not have a
 // synchronous loading method). We could consider jQuery’s ajax method here, but the queue.js library
 // is more lightweight.
 
 class DataManager {
-  constructor(objects,method) {
+  constructor(func) {
     var self = this;
     this.loading = [];
     this.data = {};
@@ -43,23 +43,7 @@ class DataManager {
     		self.data[datasets[darg]] = arguments[i];
   		}
   		
-  		// initialize visualizations 
-  		
-  		objects.forEach(function(o){
-    		o[method]();
-  		})
-  		
-  		// Index
-  
-  		self.indexData();
-  		
-  		// Bind Search Field
-      		
-  		d3.select(ui.dom.searchfield).on('input',function(){
-    		if(this.value.length>2) {
-      	  d3.select(ui.dom.searchresults).html(self.DisplaySearchResults(this.value));
-    		}
-  		});
+  		var invoke = func.call(invoke);
   		
 		});
 			
@@ -1711,48 +1695,70 @@ class Itineraries extends Visualization {
   }
 }
 
+/* !INITIALIZATION */
+
 /*
   Note for refactoring: this should be rethought once a proper MVC structure is in place.
   
   Notes for the current structure:
   
   - The DataManager class is designed to load JSON data once (on initial load).
-  - The DM class takes an object and one of its methods and calls it when the data has finished loading, ensuring its availability
-  - It currently takes the first tab’s visualization – Intersections.
-  - Other tabs are initialized when a user clicks them.
-  - Had considered initializing all visualizations at once, but encountered problems getting DOM element sizing (to set sliders, etc.).
+  - It the function passed to it once the dataset is loaded completely.
+
 */
 
 var intersections = new Intersections;
-
-// var dm = new DataManager([trajectories,intersections,itineraries],'init'); // Previous approach. see note above.
-
-var dm = new DataManager([intersections],'init'); // Only load data once
 var trajectories = new Object;
 var itineraries = new Object;
 
+d3.select('body').style('opacity',0.3);
 
-d3.selectAll(ui.dom.tabs).each(function() {
-	d3.select(this).on('click',function() {		
-  	switch(d3.select(this).attr('data-mode')) {
-      case '2':      
-        // only initialize once. perhaps should be handled in the init() function itself.
-                
-        if (!trajectories.hasOwnProperty('initialized')) {
-          trajectories = new Trajectories;
-          trajectories.init();
-        }
-    	  break;
-    	case '3':
-        if (!itineraries.hasOwnProperty('initialized')) {
-          itineraries = new Itineraries;
-          itineraries.init();
-        }
-    	  break;  
-  	}
-	});
+// Intersections are initialized immediately. The second argument is a function to handle data-reliant functionality.
+
+var dm = new DataManager(function(){
+  
+  intersections.init();
+  
+  d3.selectAll(ui.dom.tabs).each(function() {
+  	d3.select(this).on('click',function() {		
+    	switch(d3.select(this).attr('data-mode')) {
+        case '2':      
+          // only initialize once. perhaps should be handled in the init() function itself.
+                  
+          if (!trajectories.hasOwnProperty('initialized')) {
+            trajectories = new Trajectories;
+            trajectories.init();
+          }
+      	  break;
+      	case '3':
+          if (!itineraries.hasOwnProperty('initialized')) {
+            itineraries = new Itineraries;
+            itineraries.init();
+          }
+      	  break;  
+      	 case '4':
+      		// Index when Search tab is clicked.
+      		
+      		dm.indexData();
+      		
+      		// Bind Search Field
+          		
+      		d3.select(ui.dom.searchfield).on('input',function(){
+        		if(this.value.length>2) {
+          	  d3.select(ui.dom.searchresults).html(dm.DisplaySearchResults(this.value));
+        		}
+      		});
+      	  break;
+    	}
+  	});
+  });
+  
+  // console.log(performance.now() / 1000);
+  
+  d3.select('body').transition(200).style('opacity',1);
+  
+  
 });
-
 
 //custom sub-selections
 d3.selection.prototype.first = function() {
