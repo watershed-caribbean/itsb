@@ -1728,8 +1728,8 @@ var intersections = new Intersections;
 // var dm = new DataManager([trajectories,intersections,itineraries],'init'); // Previous approach. see note above.
 
 var dm = new DataManager([intersections],'init'); // Only load data once
-var trajectories;
-var itineraries;
+var trajectories = new Object;
+var itineraries = new Object;
 
 
 d3.selectAll(ui.dom.tabs).each(function() {
@@ -1737,7 +1737,7 @@ d3.selectAll(ui.dom.tabs).each(function() {
   	switch(d3.select(this).attr('data-mode')) {
       case '2':      
         // only initialize once. perhaps should be handled in the init() function itself.
-        
+                
         if (!trajectories.hasOwnProperty('initialized')) {
           trajectories = new Trajectories;
           trajectories.init();
