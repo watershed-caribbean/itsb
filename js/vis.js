@@ -4,6 +4,13 @@
 /* global topojson */
 /* global lunr */
 
+// Used in some instances for String.replace()
+
+String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
+
 
 // The DataManager object is designed to load JSON files once then make the data available to all visualizations.
 // Special handling is required to compensate for asynchronous load (the d3.json method does not have a
@@ -46,7 +53,7 @@ class DataManager {
   		var invoke = func.call(invoke);
   		
 		});
-			
+					
   }
   
   buildAuthors() {
@@ -61,16 +68,20 @@ class DataManager {
   buildPlaces() {
     var self = this;
     //places
+  
+  // Places Hack: Replaces dashes with underscores to enforce consistency
+  
 		d3.keys(self.data.places).forEach(function(d){
 			var k = d.split(',');
-			k[0] = k[0].trim().split(' ').join('-');
-			k[1] = k[1].trim().split(' ').join('-');
-			k = k.join('_').toLowerCase();
+			k[0] = k[0].trim().split(' ').join('_');
+			k[1] = k[1].trim().split(' ').join('_');
+			k = k.join('_').toLowerCase().replaceAll('-','_');
 			self.places[k] = self.data.places[d];
 			self.places[k].PlaceName = d;
 		});
-
+		
   }
+  
   
   indexData() {
     
@@ -78,19 +89,19 @@ class DataManager {
     
     this.buildAuthors();
     this.buildPlaces();
-            
-    
     var i=0;
     
     for(var date in this.data.itineraries) { 
-      this.data.itineraries[date].forEach(function(entry){  
-        var place = self.places[entry.PlaceID.replace('-', '_')]; // Place keys use underscores instead of dashes.
+      this.data.itineraries[date].forEach(function(entry){
+        
+        // Places Hack: Replaces dashes with underscores to enforce consistency
+        var place = self.places[entry.PlaceID.replaceAll('-', '_')]; 
         var placename = '';
         
         
         if (typeof place != 'undefined') {
           placename = place.PlaceName;
-        } 
+        }
         
         self.compiled[i] = {
           'ID' : i,
@@ -169,7 +180,7 @@ class DataManager {
   }
 }
 
-/* !VISUALIZATION SUPER CLASS */
+/* !VISUALIZATION CLASS */
 
 class Visualization {
 	
@@ -207,33 +218,45 @@ class Visualization {
 		var self = this;		
 		self.continents = self.data.continents;
 
-		//WEAKPOINT ** fix later
-		//places
-		d3.keys(self.data.places).forEach(function(d){
-			var k = d.split(',');
-			k[0] = k[0].trim().split(' ').join('-');
-			k[1] = k[1].trim().split(' ').join('-');
-			k = k.join('_').toLowerCase();
-			self.places[k] = self.data.places[d];
-			self.places[k].PlaceName = d;
-		});
-
-		//authors
+		// places
+		
+		dm.buildPlaces();
+		self.places = dm.places;
+		
+		// authors
 		d3.keys(self.data.author_ids).forEach(function(k){
 			self.authors[self.data.author_ids[k]] = k;
       self.author_names[k] = self.data.author_ids[k];
 		});
 		
-		//itineraries
+		// itineraries
 		self.itineraries = {};
 		d3.keys(self.authors).forEach(function(d){
 			if(!self.itineraries[d]){ self.itineraries[d] = []; }
 		});
 		d3.keys(self.data.itineraries).forEach(function(d){
 			self.data.itineraries[d].forEach(function(_d){
+  			// Places Hack: Replaces dashes with underscores to enforce consistency
+  			_d.PlaceID = _d.PlaceID.replaceAll('-','_');
 				self.itineraries[_d.AuthorID].push(_d);
 			});
 		});
+    
+    // intersections
+    
+		self.intersections = {};
+		
+		// Places Hack: Replaces dashes with underscores to enforce consistency
+    // Original code was simply:
+    // self.intersections = self.data.intersections
+		
+		d3.keys(this.data.intersections).forEach(function(key) {
+  		self.intersections[key] = {};
+  		d3.keys(self.data.intersections[key]).forEach(function(_key) {
+        self.intersections[key][_key.replaceAll('-','_')] = self.data.intersections[key][_key];
+      });
+    });
+		
 	}
 
 	setup(){
@@ -328,10 +351,7 @@ class Trajectories extends DateMapController {
   
   process_data() {
     super.process_data();
-    
-		//intersections
-		this.intersections = this.data.intersections;
-				    
+    				    
     //trajectories
 		this.trajectories = {};
     
@@ -341,7 +361,6 @@ class Trajectories extends DateMapController {
   /* !-- Trajectory Generate */
 
   // Refactoring note: Ideally the slider and map should be generated here using common code.
-
 
   generate(){
     super.generate();
@@ -439,7 +458,6 @@ class Trajectories extends DateMapController {
 		var projection = d3.geo.mercator()
 			.scale(160)
 			.translate([ui.dom[this.classkey].map.view.offsetWidth * 0.5,ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
-			
 		
 		var path = d3.geo.path().projection(projection);
 
@@ -479,11 +497,11 @@ class Trajectories extends DateMapController {
 			
 			//INTERSECTIONS
 			//filter by date range
+
 			var holder = d3.entries(self.intersections).filter(function(d){  			
 				var n = new Date(d.key);
-				return n >=self.date_start && n <=self.date_end;
+				return n >= self.date_start && n <=self.date_end;
 			});
-			
 			
 			//get distinct places
 			//slot author IDs into place
@@ -533,7 +551,7 @@ class Trajectories extends DateMapController {
   				intersections[d].lists[key] = d3.values(intersections[d].figures).filter(function(_d){ return _d === i; });
         }
 			});
-			
+
 			//make list of unique intersections per place
 			holder.forEach(function(d){
 				d3.keys(d.value).forEach(function(_d){
@@ -545,8 +563,9 @@ class Trajectories extends DateMapController {
 					});
 				});
 			});
-
+			
 			//TRAJECTORIES
+			
 			holder.forEach(function(d){
 				d3.keys(d.value).forEach(function(_d){
 					d.value[_d].forEach(function(__d){
@@ -557,15 +576,21 @@ class Trajectories extends DateMapController {
 					});
 				});
 			});
-			
-			
-			
+									
       for (var author in trajectories) {
        if (self.active_authors_t.indexOf(author) == -1) {
          delete trajectories[author];
        } 
       }
-                  
+      
+      // Places Hack: Replaces dashes with underscores to enforce consistency
+      
+      d3.keys(trajectories).forEach(function(key) {
+        d3.keys(trajectories[key]).forEach(function(__key) {
+          trajectories[key][__key].PlaceID = trajectories[key][__key].PlaceID.replaceAll('-','_');
+        });
+      });
+                              
 			//pair up start and end points
 			var tier = 0;
 			for(var i=0; i<d3.keys(trajectories).length; i++){
@@ -594,7 +619,7 @@ class Trajectories extends DateMapController {
 		}
 
 		function generate_lines(){
-
+  		
 			lines_target = self[self.classkey].map.selectAll('g.lines_target')
 				.data([self]);
 			lines_target.enter().append('g')
@@ -623,6 +648,7 @@ class Trajectories extends DateMapController {
 							p_2 = d.PlaceID_End || d.PlaceID;
 							
 					//isolate x and y start coordinates using projection
+					
 					source = projection([
 						self.places[p_1].Long,
 						self.places[p_1].Lat
@@ -931,10 +957,7 @@ class Intersections extends DateMapController {
   
   process_data() {
     super.process_data();
-    
-    //intersections
-		this.intersections = this.data.intersections;
-				    
+    						    
     //trajectories
 		this.trajectories = {};
 
@@ -1358,7 +1381,7 @@ class Itineraries extends Visualization {
     this.classkey = 'itineraries';   
     this.selectedauthors = [null,null];
     this.routes = [];
-    this.visHeight = this.height * 2;
+    this.visHeight = this.height * 4;
     this.selectionsw = d3.select(ui.dom.itineraries.authors.selections).node().getBoundingClientRect().width;
   }
   
