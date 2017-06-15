@@ -12,6 +12,7 @@ String.prototype.replaceAll = function(search, replacement) {
 };
 
 
+
 // The DataManager object is designed to load JSON files once then make the data available to all visualizations.
 // Special handling is required to compensate for asynchronous load (the d3.json method does not have a
 // synchronous loading method). We could consider jQuery’s ajax method here, but the queue.js library
@@ -210,8 +211,7 @@ class Visualization {
 		this.setup();
 		this.generate();
 		
-		this.intialized = true;
-		
+		this.intialized = true;		
 	}
 
 	process_data(){
@@ -697,7 +697,8 @@ class Trajectories extends DateMapController {
 							py = p[1];
 					return 'translate(' +px +',' +py +')';
 				})
-				.append('title')
+				.append('text')
+				.attr("class", "tip")				
 				.text(function(d){
   				var tooltip = [];
   				tooltip.push(self.places[d.key].PlaceName);
@@ -725,7 +726,7 @@ class Trajectories extends DateMapController {
     				tooltip.push(info.join(''));
   				}
   				
-  				return tooltip.join("\n");
+  				return tooltip.join("<br />");
 				});
 			points_g
 				.on('mousemove',function(d){
@@ -763,8 +764,62 @@ class Trajectories extends DateMapController {
 						focus = d;
 						d3.select(this).classed('focus_point',true);
 					}
+										
+					// Tooltip code.
+					// Leverages CSS3 Animations instead of D3.
+					// Fade out and removal of tooltips needs a new methodlogy. 
+					
+					var g = d3.select(this);
+					var t = d3.select(this).select('text').text();
+					
+					
+					// Get bounding rectangle size for general positioning.
+					
+					var rect = this.getBoundingClientRect();
+					var top = rect.top + window.pageYOffset + 20;
+					var left = rect.left + window.pageXOffset + 20;
+					
+					// Remove existing tooltips
+					
+				  d3.select('.tooltip').remove();
+				  
+				  // Add an absolutely positioned tooltip to the viz frame
+
+					d3.select(ui.dom.trajectories.elem)
+					  .append('div')
+					  .attr('class','tooltip')
+            .style({
+  					  'top': top + "px",
+  					  'left': left + "px",
+  					  'bottom' : 'auto',
+  					  'right' : 'auto'
+					  })
+					  .html(t)
+					  .on('click',function() {
+  					  // Click event behaviour for tooltip itself.
+  					    
+  					  // Animation is controlled through CSS.
+  					  // Not working as expected.
+  					  // Prefered behaviour: on click, the tooltip reverses the CSS animation and fades. Once the animation is complete
+  					  // the tooltip is removed from the DOM.
+  					  // Trickier than it sounds: d3 doesn’t offer an effective way of running a callback when animations are complete,
+  					  // and this CSS based implementation is not working as expected.
+  					  // Left here for future consideration.
+  					  
+  					  d3.select(this)
+  				      .style({
+    				      'animation-direction':'reverse',
+    				      'animaiton-play-state': 'running',
+    				      'animation-fill-mode': 'backwards'
+    				      })
+    				    .transition()
+    				    .delay(800)
+  				      .remove();
+  				  });
+  				  
 					display_results();
 				});
+				
 			points_g.exit().remove();
 
 			//circlebacks (most certain size)
@@ -1551,7 +1606,8 @@ class Itineraries extends Visualization {
             return d.StartDate ? route_scale(new Date(d.StartDate)) : route_scale(new Date(d.EndDate));
         })
         .attr('r',route_rad)
-        .append("svg:title")
+        .append("text")
+          .attr('class','tip')
           .text(function(d) {
     				var tooltip = [];
     				
@@ -1579,8 +1635,51 @@ class Itineraries extends Visualization {
     				
     				tooltip.push(info.join(''));
       		  
-      		  return tooltip.join("\n");
+      		  return tooltip.join("<br />");
           });
+        route_stops
+          .on('click',function() {
+                        
+  					// Tooltip code.
+  					// Leverages CSS3 Animations instead of D3.
+  					// Fade out and removal of tooltips needs a new methodlogy. 
+  					
+  					var g = d3.select(this);
+  					var t = d3.select(this).select('text').text();
+  					
+  					var rect = this.getBoundingClientRect();
+  					var top = rect.top + window.pageYOffset - 10;
+  					var left = rect.left + window.pageXOffset + 50;
+  					
+  				  d3.select('.tooltip').remove();
+  
+					d3.select(ui.dom.itineraries.elem)
+					  .append('div')
+					  .attr('class','tooltip')
+            .style({
+  					  'top': top + "px",
+  					  'left': left + "px",
+  					  'bottom' : 'auto',
+  					  'right' : 'auto'
+					  })
+					  .html(t)
+					  .on('click',function() {
+  					  // Click event behaviour for tooltip itself.
+  					  // See notes in “trajectories” above.
+  					  
+  					  d3.select(this)
+  				      .style({
+    				      'animation-direction':'reverse',
+    				      'animaiton-play-state': 'running',
+    				      'animation-fill-mode': 'backwards'
+    				      })
+    				    .transition()
+    				    .delay(800)
+  				      .remove();
+  				  });
+          });
+          
+  
     route_stops.exit().remove();
     
   }
@@ -1743,7 +1842,11 @@ var dm = new DataManager(function(){
   intersections.init();
   
   d3.selectAll(ui.dom.tabs).each(function() {
-  	d3.select(this).on('click',function() {		
+  	d3.select(this).on('click',function() {	
+    		
+  		// Remove active tooltips from the DOM
+  		d3.select('.tooltip').remove();
+    	
     	switch(d3.select(this).attr('data-mode')) {
         case '2':      
           // only initialize once. perhaps should be handled in the init() function itself.
@@ -1791,4 +1894,3 @@ d3.selection.prototype.last = function() {
   var last = this.size() - 1;
   return d3.select(this[0][last]);
 };
-

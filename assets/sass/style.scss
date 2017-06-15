@@ -720,7 +720,43 @@ path.line {
   height: inherit;
 }
 
+/* tooltip */
 
+.tip {
+  visibility: hidden;
+}
+
+.tooltip {
+  position: absolute;
+  font-family: $basefont;
+  font-size: 12px;
+  width: 120px;
+  border: 1px solid $clr1;
+  background-color: $clr5;  
+  opacity: 0;
+  padding: $blh/2;
+  cursor: pointer;
+  animation: tooltip 0.4s ease-in forwards;
+  bottom: auto;
+  right: auto;
+}
+
+#itineraries .tooltip {
+  transform: translate (0,100px);
+  z-index: 10;
+}
+
+
+
+@keyframes tooltip {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 0.9;
+  }
+}
 
 
 // Search

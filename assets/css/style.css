@@ -557,6 +557,34 @@ path.line {
   width: 60px;
   height: inherit; }
 
+/* tooltip */
+.tip {
+  visibility: hidden; }
+
+.tooltip {
+  position: absolute;
+  font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
+  font-size: 12px;
+  width: 120px;
+  border: 1px solid #F89E1C;
+  background-color: #f9ce89;
+  opacity: 0;
+  padding: 0.625em;
+  cursor: pointer;
+  animation: tooltip 0.4s ease-in forwards;
+  bottom: auto;
+  right: auto; }
+
+#itineraries .tooltip {
+  transform: translate 0, 100px;
+  z-index: 10; }
+
+@keyframes tooltip {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0.9; } }
+
 #search {
   width: 62.5%;
   margin: 0 auto;
