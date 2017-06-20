@@ -198,8 +198,8 @@ class Visualization {
 
 
 		//store screen height and width
-		this.width = 0;
-		this.height = 0;
+		this.width = window.innerWidth;
+		this.height = window.innerHeight;
 		this.ttime = 45;
 				
 	}
@@ -215,6 +215,8 @@ class Visualization {
 	}
 	
 	focus() {
+    d3.select('body').style('position','absolute');
+		d3.select('body').style('bottom','0');
 		this.width = window.innerWidth;
 		this.height = window.innerHeight;
 	}
@@ -1443,10 +1445,16 @@ class Itineraries extends Visualization {
     this.routes = [];
     this.visHeight = this.height * 4;
     this.selectionsw = d3.select(ui.dom.itineraries.authors.selections).node().getBoundingClientRect().width;
+    console.log('init height: ' + this.visHeight)
   }
   
   init() {
     super.init();
+  }
+  
+  focus() {
+    d3.select('body').style('position','inherit');
+    d3.select('body').style('bottom','auto');
   }
   
   setup() {
@@ -1523,16 +1531,19 @@ class Itineraries extends Visualization {
       
     var earliest_date = d3.min(starts);
     var latest_date = d3.max(ends);
-        
-    this.visHeight;
     
+    console.log("Generate height: " + this.visHeight)
+            
     // Set up containers
-    
+        
     var cheight = this.visHeight 
                     + 16 
                     + d3.select(ui.dom[this.classkey].authors.header).node().getBoundingClientRect().height 
                     + d3.select(ui.dom[this.classkey].selections[0].header).node().getBoundingClientRect().height ;
+                    
+    console.log("Container Height: " + cheight);
     
+    d3.select(ui.dom[this.classkey].authors.selections).style('height',cheight + 'px');
     d3.select(ui.dom[this.classkey].elem).style('height',cheight + 'px');
     d3.select(ui.dom[this.classkey].authors.list).style('height',cheight + 'px');
 

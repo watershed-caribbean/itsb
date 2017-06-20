@@ -141,8 +141,7 @@ a, a:link, a:visited {
     left: 25%; }
   #itineraries
 > * .selections {
-    width: 100%;
-    height: 2000px; }
+    width: 100%; }
   #itineraries
 > * .itinerary {
     position: absolute;
