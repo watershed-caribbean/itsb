@@ -118,9 +118,9 @@ var UI = function () {
         };
       }
 
-      // set the minimum height of the panels, which should be the window height less the nav elements`. TO DO: find out why the additional factor is needed to make the slider work. Padding on the slider?
+      // set the minimum height of the panels, which should be the window height less the nav elements`.
 
-      var h = window.innerHeight - document.getElementById('nav').clientHeight - this.dom.intersections.map.header.clientHeight - 100;
+      var h = window.innerHeight - document.getElementById('nav').clientHeight - this.dom.intersections.map.header.clientHeight;
 
       document.getElementById('panels').setAttribute("style", "min-height:" + h + "px");
     }

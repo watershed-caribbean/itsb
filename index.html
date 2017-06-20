@@ -27,14 +27,97 @@
       <div id='nav'>
         <a id='title' href='/' title='In the Same Boats'>In the Same Boats</a>
         <div id='tabs'>
-          <a href='#' class='active'  data-mode='1'>Intersections</a>
+          <a href='#' class='active'>About</a>
           <a href='#' data-mode='2'>Trajectories</a>
+          <a href='#' data-mode='1'>Intersections</a>
           <a href='#' data-mode='3'>Itineraries</a>
-          <a href='#'>About</a>
           <a href='#' data-mode='4'>Search</a>
         </div>
       </div>
       <div id='panels'>
+         <!-- ABOUT -->
+        <div id='about' class='panel'>
+          <div class='about-text'>
+            <p><em>In the Same Boats</em> is a work of multimodal scholarship designed to encourage the collaborative production of humanistic knowledge within scholarly communities. Comprising two interactive visualizations that trace the movements of seminal cultural actors from the Caribbean and wider Americas, Africa, and Europe within the 20th century Afro-Atlantic world, the platform seeks to push back against the ways in which “Global South” intellectual production has been stubbornly balkanized in the academy, its limits and contours largely determined by imperial metropoles.</p>
+            <p>The project charts the extent to which Caribbean, African, Latin American, European, and Afro-American intellectuals have had opportunities to be in both punctual and sustained conversation with one another: attending the same conferences, publishing in the same journals and presses, active in the same political groups, perhaps even elbow-to-elbow in the same Parisian cafés and on the same transatlantic crossings – literally and metaphorically in the same boats – as they circulate throughout the Americas, Africa, Europe, and beyond.</p>
+            <p>Leveraging the affordances of digital technology to facilitate a literal retracing of hemispheric black studies, the project draws attention to multiple sites of potentially interconnected Afro-Atlantic theoretical and creative production. Easily accessible, visually impactful, and content-rich, the combination of these two visualizations proposes a generative resource for twenty-first century scholarship concerning the long-historical impact of Afro-Atlantic figures across a vast networked geo-cultural space.</p>
+      
+            <p>For more information and/or to participate, please contact project-wranglers Kaiama L. Glover & Alex Gil – <a href="mailto:thesameboats@gmail.com">thesameboats@gmail.com</a>.</p>
+            <h2>Credits</h2>
+            
+            <p><strong>Marina Bilbija</strong><br />
+            Williams College<br />
+            Mohammed Duse Ali</p>
+            
+            <p><strong>Laurent Dubois</strong><br />
+            Duke University<br />
+            Katherine Dunham</p>
+            
+            <p><strong>Alex Gil</strong><br />
+            Columbia University<br />
+            Aimé Césaire</p>
+            
+            <p><strong>Kaiama L. Glover</strong><br />
+            Barnard College, Columbia University<br />
+            René Depestre</p>
+            
+            <p><strong>Tao Goffe</strong><br />
+            New York University<br />
+            Wifredo Lam</p>
+            
+            <p><strong>Kelly Baker Josephs</strong><br />
+            York College, CUNY<br />
+            Kamau Brathwaite</p>
+            
+            <p><strong>Kora Véron Leblé</strong><br />
+            Institut de Textes et Manuscrits, CNRS<br />
+            Aimé Césaire</p>
+            
+            <p><strong>Buck Wanner</strong><br />
+            Columbia University<br />
+            Visualization Design</p>
+            
+            <p><strong>Emily Fuhrman</strong><br />
+            Columbia University<br />
+            Visualization & Project Design</p>
+            
+            <p><strong>Alyssa Vann</strong><br />
+            Stanford University<br />
+            Data Analyst<br />
+            Lydia Cabrera</p>
+            
+            <p><strong>Dean Irvine</strong><br />
+            <a href='http://www.agilehumanities.ca' target="_blank">Agile Humanities Agency</a><br />
+            Project Consultant</p>
+            
+            <p><strong>Bill Kennedy</strong><br />
+            <a href='http://www.intelligentmachines.ca' target="_blank">Intelligent Machines</a> / <a href='http://www.agilehumanities.ca' target="_blank">Agile Humanities Agency</a><br />
+            Visualization, UI/UX and Production Design</p>
+            
+          </div>
+        </div>
+        
+        <!-- Trajectories -->
+        
+        <div id='trajectories' class='panel'>
+          <div class='date-range'>
+            <div class='header'>Select Date Range</div>
+            <div class='date-selector'>
+              <div class='indicator'>
+                <span class='date-start'></span> – <span class='date-end'></span>
+              </div>
+              <div class='slider'></div>
+            </div>
+          </div> 
+          <div class='authors'>
+            <div class='header'>Select authors</div>
+            <div class='authors-list'></div>
+          </div>
+          <div class='location'>
+            <div class='header'>Locations</div>
+            <div class='map'></div>
+          </div>   
+        </div>
         
         <!-- Intersections -->
         
@@ -92,29 +175,7 @@
             </div>
           </div>      
         </div>
-        
-        <!-- Trajectories -->
-        
-        <div id='trajectories' class='panel'>
-          <div class='date-range'>
-            <div class='header'>Select Date Range</div>
-            <div class='date-selector'>
-              <div class='indicator'>
-                <span class='date-start'></span> – <span class='date-end'></span>
-              </div>
-              <div class='slider'></div>
-            </div>
-          </div> 
-          <div class='authors'>
-            <div class='header'>Select authors</div>
-            <div class='authors-list'></div>
-          </div>
-          <div class='location'>
-            <div class='header'>Locations</div>
-            <div class='map'></div>
-          </div>   
-        </div>
-        
+                
         <!-- Itineraries -->
         
         <!-- Previous Begin
@@ -147,67 +208,6 @@
               </div>
             </div>
           </div>   
-        </div>
-        
-        <!-- ABOUT -->
-        
-        <div id='about' class='panel'>
-          <div class='about-text'>
-            <p><em>In the Same Boats</em> is a work of multimodal scholarship designed to encourage the collaborative production of humanistic knowledge within scholarly communities. Comprising two interactive visualizations that trace the movements of seminal cultural actors from the Caribbean and wider Americas, Africa, and Europe within the 20th century Afro-Atlantic world, the platform seeks to push back against the ways in which “Global South” intellectual production has been stubbornly balkanized in the academy, its limits and contours largely determined by imperial metropoles. The project charts the extent to which Caribbean, African, Latin American, European, and Afro-American intellectuals have had opportunities to be in both punctual and sustained conversation with one another: attending the same conferences, publishing in the same journals and presses, active in the same political groups, perhaps even elbow-to-elbow in the same Parisian cafés and on the same transatlantic crossings – literally and metaphorically in the same boats – as they circulate throughout the Americas, Africa, Europe, and beyond. Leveraging the affordances of digital technology to facilitate a literal retracing of hemispheric black studies, the project draws attention to multiple sites of potentially interconnected Afro-Atlantic theoretical and creative production. Easily accessible, visually impactful, and content-rich, the combination of these two visualizations proposes a generative resource for twenty-first century scholarship concerning the long-historical impact of Afro-Atlantic figures across a vast networked geo-cultural space.</p>
-      
-            <p>For more information and/or to participate, please contact project-wranglers Kaiama L. Glover & Alex Gil – <a href="mailto:thesameboats@gmail.com">thesameboats@gmail.com</a>.</p>
-            <h2>Credits</h2>
-            
-            <p><strong>Marina Bilbija</strong><br />
-            Williams College<br />
-            Mohammed Duse Ali</p>
-            
-            <p><strong>Laurent Dubois</strong><br />
-            Duke University<br />
-            Katherine Dunham</p>
-            
-            <p><strong>Alex Gil</strong><br />
-            Columbia University<br />
-            Aimé Césaire</p>
-            
-            <p><strong>Kaiama L. Glover</strong><br />
-            Barnard College, Columbia University<br />
-            René Depestre</p>
-            
-            <p><strong>Tao Goffe</strong><br />
-            New York University<br />
-            Wifredo Lam</p>
-            
-            <p><strong>Kelly Baker Josephs</strong><br />
-            York College, CUNY<br />
-            Kamau Brathwaite</p>
-            
-            <p><strong>Kora Véron Leblé</strong><br />
-            Institut de Textes et Manuscrits, CNRS<br />
-            Aimé Césaire</p>
-            
-            <p><strong>Buck Wanner</strong><br />
-            Columbia University<br />
-            Visualization Design</p>
-            
-            <p><strong>Emily Fuhrman</strong><br />
-            Columbia University<br />
-            Visualization & Project Design</p>
-            
-            <p><strong>Alyssa Vann</strong><br />
-            Stanford University<br />
-            Data Analyst<br />
-            Lydia Cabrera</p>
-            
-            <p><strong>Dean Irvine</strong><br />
-            <a href='http://www.agilehumanities.ca' target="_blank">Agile Humanities Agency</a><br />
-            Project Consultant</p>
-            
-            <p><strong>Bill Kennedy</strong><br />
-            <a href='http://www.intelligentmachines.ca' target="_blank">Intelligent Machines</a> / <a href='http://www.agilehumanities.ca' target="_blank">Agile Humanities Agency</a><br />
-            Visualization, UI/UX and Production Design</p>
-            
-          </div>
         </div>
         <div id='search' class='panel'>
           <form action='#' name='search'>

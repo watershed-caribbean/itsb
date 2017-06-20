@@ -9,12 +9,13 @@ body {
   margin: 0;
   padding: 0;
   min-width: 1250px;
-  position: relative; }
+  position: absolute;
+  bottom: 0; }
 
 body > div {
   position: relative;
-  height: auto;
   width: 100%;
+  height: 100%;
   overflow: hidden; }
 
 div, a {
@@ -79,7 +80,7 @@ a, a:link, a:visited {
   .about-text a {
     text-decoration: underline; }
   .about-text p {
-    font-size: 0.9em;
+    font-size: 1.2em;
     line-height: 1.5em;
     color: #2D393F; }
 

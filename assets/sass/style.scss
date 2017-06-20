@@ -55,13 +55,14 @@ body {
   margin: 0;
   padding: 0;
   min-width: $min-width;
-  position: relative;
+  position: absolute;
+  bottom: 0;
 }
 
 body > div {
   position: relative;
-  height: auto;
   width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -158,7 +159,7 @@ a, a:link, a:visited {
   }
   
   p {
-    font-size: 0.9em;
+    font-size: 1.2em;
     line-height: 1.5em;
     color: $dark_neutral;
   }

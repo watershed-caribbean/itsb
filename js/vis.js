@@ -198,8 +198,8 @@ class Visualization {
 
 
 		//store screen height and width
-		this.width = window.innerWidth;
-		this.height = window.innerHeight;
+		this.width = 0;
+		this.height = 0;
 		this.ttime = 45;
 				
 	}
@@ -207,11 +207,16 @@ class Visualization {
 	init() {
   	var self = this;
   	this.data = dm.getData();
+    this.focus();
     this.process_data(); 
 		this.setup();
 		this.generate();
-		
 		this.intialized = true;		
+	}
+	
+	focus() {
+		this.width = window.innerWidth;
+		this.height = window.innerHeight;
 	}
 
 	process_data(){
@@ -1829,7 +1834,7 @@ class Itineraries extends Visualization {
 
 */
 
-var intersections = new Intersections;
+var intersections = new Object;
 var trajectories = new Object;
 var itineraries = new Object;
 
@@ -1838,29 +1843,41 @@ d3.select('body').style('opacity',0.3);
 // Intersections are initialized immediately. The second argument is a function to handle data-reliant functionality.
 
 var dm = new DataManager(function(){
-  
-  intersections.init();
-  
+    
   d3.selectAll(ui.dom.tabs).each(function() {
   	d3.select(this).on('click',function() {	
     		
   		// Remove active tooltips from the DOM
   		d3.select('.tooltip').remove();
-    	
+  		  		    	
     	switch(d3.select(this).attr('data-mode')) {
+      	case '1':
+          if (!intersections.hasOwnProperty('initialized')) {
+            intersections = new Intersections;
+            intersections.init();
+          } else {
+            intersections.focus();
+          }
+          break;
         case '2':      
           // only initialize once. perhaps should be handled in the init() function itself.
                   
           if (!trajectories.hasOwnProperty('initialized')) {
             trajectories = new Trajectories;
             trajectories.init();
+          } else {
+            trajectories.focus();
           }
+
       	  break;
       	case '3':
           if (!itineraries.hasOwnProperty('initialized')) {
             itineraries = new Itineraries;
             itineraries.init();
+          } else {
+            itineraries.focus();
           }
+
       	  break;  
       	 case '4':
       		// Index when Search tab is clicked.
