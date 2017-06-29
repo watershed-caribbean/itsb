@@ -1,0 +1,12 @@
+{
+
+  "settings": {
+
+    "save": {
+      "success": "The timeline settings were saved successfully!",
+      "error": "There was an error - the timeline settings were not saved."
+    }
+
+  }
+
+}

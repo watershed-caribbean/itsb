@@ -1,0 +1,12 @@
+#simile{border-radius:2px;cursor:ew-resize;}
+#simile .timeline-copyright{display:none}
+#simile .timeline-ether-bg{background:#fff}
+#simile .timeline-event-label{color:#3f3f3f !important}
+#simile .timeline-date-label{border-left:2px solid;color:#3f3f3f;height:2em}
+#simile .timeline-date-label-em{font-weight:bold;font-size:1.3em}
+#simile .timeline-ether-weekends{background:none}
+#simile .timeline-event-tape{border-radius:2px}
+#simile .timeline-event-icon{background:#808080;border-radius:4px;height:8px;width:8px;}
+#simile .timeline-event-icon img{display:none}
+#simile:after{content:'';border-left:1px dashed #000;opacity:.3;z-index:999;position:absolute;height:100%;left:50%;top:0;width:0}
+#neatline #simile{height:20%;width:70%;bottom:40px;right:40px}
