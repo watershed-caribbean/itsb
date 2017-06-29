@@ -9,8 +9,7 @@ body {
   margin: 0;
   padding: 0;
   min-width: 1250px;
-  position: absolute;
-  bottom: 0; }
+  position: inherit; }
 
 body > div {
   position: relative;
