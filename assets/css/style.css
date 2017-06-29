@@ -1,7 +1,7 @@
 /* Primary styles for In The Same Boats
  * SASS file outputs to assets/css/style.css  */
 body {
-  background: #F9F9F9;
+  background: #fcfcfc;
   width: 100%;
   height: 100%;
   font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
@@ -9,12 +9,13 @@ body {
   margin: 0;
   padding: 0;
   min-width: 1250px;
-  position: relative; }
+  position: absolute;
+  bottom: 0; }
 
 body > div {
   position: relative;
-  height: auto;
   width: 100%;
+  height: 100%;
   overflow: hidden; }
 
 div, a {
@@ -48,23 +49,27 @@ a, a:link, a:visited {
     #nav a:hover, #nav a.active {
       text-decoration: none; }
   #nav > a {
-    background-color: #1C9CF2;
+    background-color: #f9ce89;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 18.75%;
     float: left; }
+    #nav > a#title {
+      color: #161C1E; }
 
 #tabs {
   position: relative; }
   #tabs > a:hover, #tabs a.active {
     background-color: black; }
 
-#panels .panel {
-  display: none;
-  height: 100%; }
-  #panels .panel:nth-child(1) {
-    display: block; }
+#panels {
+  border-top: 2px solid #F7F8F9; }
+  #panels .panel {
+    display: none;
+    height: 100%; }
+    #panels .panel:nth-child(1) {
+      display: block; }
 
 .about-text {
   width: 62.5%;
@@ -75,7 +80,7 @@ a, a:link, a:visited {
   .about-text a {
     text-decoration: underline; }
   .about-text p {
-    font-size: 0.9em;
+    font-size: 1.2em;
     line-height: 1.5em;
     color: #2D393F; }
 
@@ -92,13 +97,14 @@ a, a:link, a:visited {
   top: 4em;
   bottom: 0; }
   #intersections > *:nth-child(1) {
-    width: 18.75%; }
+    width: 15%;
+    left: 0; }
   #intersections > *:nth-child(2) {
-    width: 62.5%;
-    left: 18.75%; }
+    width: 60%;
+    left: 15%; }
   #intersections > *:nth-child(3) {
-    width: 18.75%;
-    left: 81.25%; }
+    width: 25%;
+    left: 75%; }
 
 #intersections .location .header {
   background-color: #d4d8dd; }
@@ -108,48 +114,183 @@ a, a:link, a:visited {
   top: 4em;
   bottom: 0; }
   #trajectories > *:nth-child(1) {
-    width: 18.75%; }
+    width: 15%;
+    left: 0; }
   #trajectories > *:nth-child(2) {
-    width: 18.75%;
-    left: 18.75%; }
+    width: 25%;
+    left: 15%; }
   #trajectories > *:nth-child(3) {
-    width: 62.5%;
-    left: 37.5%; }
+    width: 60%;
+    left: 40%; }
 
-/* #itineraries
- * > *
- *   position: absolute
- *   top: 4em
- *   bottom: 0
- *
- *   &:nth-child(1)
- *     width: 18.75%
- *   &:nth-child(2)
- *     width: 81.25%
- *     left: 18.75% */
-#itineraries {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  border-right: 2px solid white;
-  box-sizing: border-box;
-  overflow: hidden; }
-  #itineraries .header {
-    margin-bottom: 1.25em; }
-  #itineraries select {
-    display: block;
-    margin: 0 auto; }
+#itineraries
+> * {
+  position: absolute;
+  top: 4em;
+  height: auto; }
+  #itineraries
+> *:nth-child(1) {
+    width: 25%;
+    min-height: 100%; }
+    #itineraries
+> *:nth-child(1) .header {
+      background-color: #c6ccd1; }
+  #itineraries
+> *:nth-child(2) {
+    width: 75%;
+    left: 25%; }
+  #itineraries
+> * .selections {
+    width: 100%; }
+  #itineraries
+> * .itinerary {
+    position: absolute;
+    width: 50%;
+    height: auto; }
+    #itineraries
+> * .itinerary:nth-child(1) {
+      float: left;
+      z-index: 10; }
+    #itineraries
+> * .itinerary:nth-child(2) {
+      left: 50%; }
+    #itineraries
+> * .itinerary .itinerary-header {
+      width: 100%;
+      text-align: center;
+      padding: 1.25em 0 0.625em 0;
+      text-transform: uppercase;
+      color: #CF6428;
+      font-weight: 600; }
+    #itineraries
+> * .itinerary .itinerary-view {
+      text-align: center;
+      padding-top: 1.25em;
+      height: auto; }
+    #itineraries
+> * .itinerary svg {
+      width: 60px;
+      display: inline-block;
+      background-color: #E2E5E8;
+      padding: 1.25em 0;
+      overflow: visible; }
 
-#left_itinerary {
-  float: left;
-  width: 50%; }
+/* Itineraries / Routes */
+#itinerary-axis text {
+  fill: #adacac;
+  font-size: 11px; }
 
-#right_itinerary {
-  margin-left: 50%;
-  width: 50%; }
-  #right_itinerary .header {
+#itinerary-axis line {
+  stroke: #C6C6C6; }
+
+text.route_label {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-anchor: middle; }
+
+text.route_point_labels {
+  font-size: 11px;
+  letter-spacing: 1px;
+  fill: #aaa; }
+
+line.route_line_background {
+  stroke: #ddd;
+  stroke-width: 30; }
+
+line.route_line {
+  stroke-width: 30; }
+
+line.route_points {
+  stroke: #aaa;
+  stroke-width: 1;
+  stroke-dasharray: 1, 1; }
+
+circle.route_stops {
+  fill: #F89E1C;
+  stroke: #F89E1C;
+  stroke-width: 1; }
+
+path.line {
+  fill: none; }
+
+.author_left {
+  fill: #b19971;
+  color: #b19971; }
+
+.author_left path, path.author_left, line.author_left {
+  fill: none;
+  stroke: #b19971; }
+
+.author_right {
+  fill: #936A28;
+  color: #936A28; }
+
+.author_right path, path.author_right, line.author_right {
+  fill: none;
+  stroke: #936A28; }
+
+.authors {
+  background-color: #f7f7f7; }
+  .authors .header {
     background-color: #c6ccd1; }
+
+.authors-list .arow {
+  display: table-row;
+  width: 100%; }
+
+.authors-list a {
+  color: #CF6428;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  width: 100%;
+  font-weight: 600;
+  padding-bottom: 1.25em;
+  display: block;
+  width: 50%;
+  display: table-cell;
+  vertical-align: top;
+  padding: 1.25em;
+  cursor: pointer;
+  color: #969696;
+  padding-bottom: 0.078125em; }
+  .authors-list a .item_date {
+    text-transform: none;
+    font-size: 0.8em;
+    color: #a9b2bb;
+    font-weight: 400; }
+
+#trajectories .a-1:hover, #trajectories .a-1.selected {
+  color: #4d9eff; }
+
+#trajectories .a-2:hover, #trajectories .a-2.selected {
+  color: #F89E1C; }
+
+#trajectories .a-3:hover, #trajectories .a-3.selected {
+  color: #b19971; }
+
+#trajectories .a-4:hover, #trajectories .a-4.selected {
+  color: #936A28; }
+
+#trajectories .a-5:hover, #trajectories .a-5.selected {
+  color: #CF6428; }
+
+#trajectories .a-6:hover, #trajectories .a-6.selected {
+  color: #f7ba58; }
+
+#trajectories .a-7:hover, #trajectories .a-7.selected {
+  color: #617a8c; }
+
+#trajectories .a-8:hover, #trajectories .a-8.selected {
+  color: #8ea030; }
+
+#trajectories .a-9:hover, #trajectories .a-9.selected {
+  color: #2893cf; }
+
+#itineraries .authors-list a.selected {
+  color: #CF6428;
+  cursor: pointer; }
 
 #itineraries svg {
   shape-rendering: geometricPrecision;
@@ -168,13 +309,16 @@ a, a:link, a:visited {
   margin-bottom: 0.625em; }
 
 .results .results-view > div {
-  color: #1C9CF2;
+  color: #CF6428;
   text-transform: uppercase;
   font-size: 0.9em;
   width: 100%;
   font-weight: 600;
   padding-bottom: 1.25em;
-  display: block; }
+  display: block;
+  width: 50%;
+  float: left;
+  display: inline-block; }
   .results .results-view > div .item_date {
     text-transform: none;
     font-size: 0.8em;
@@ -182,28 +326,43 @@ a, a:link, a:visited {
     font-weight: 400; }
 
 .date-range {
-  background-color: #ececec; }
+  background-color: #efefef; }
+
+.indicator {
+  height: 3em;
+  text-align: center;
+  padding: 0.9em;
+  font-size: 0.8em;
+  text-transform: uppercase; }
 
 .d3-slider {
   font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif; }
 
 .d3-slider-vertical {
   width: 100%;
-  height: 100%; }
+  height: calc(100% - 3em); }
 
 .d3-slider-range-vertical {
-  background-color: #e0dfdf;
-  border-right: 2px solid #1C9CF2; }
+  background-color: #e3e2e2;
+  border-right: 2px solid #F89E1C; }
 
 .d3-slider-vertical .d3-slider-handle {
-  right: -0.36em;
+  right: -0.54em;
   left: initial;
-  background: #1C9CF2;
-  width: 0.8em;
-  height: 0.8em;
-  margin-bottom: -0.4em;
-  border-radius: 0.4em;
-  border-color: #1C9CF2; }
+  background: #F89E1C;
+  width: 1.2em;
+  height: 1.2em;
+  margin-bottom: -0.6em;
+  border-radius: 0.6em;
+  border-color: #F89E1C; }
+
+@media only screen and (min-width: 640px) {
+  .d3-slider-vertical .d3-slider-handle {
+    right: -0.36em;
+    width: 0.8em;
+    height: 0.8em;
+    margin-bottom: -0.4em;
+    border-radius: 0.4em; } }
 
 .d3-slider-axis line {
   stroke: #F7F8F9; }
@@ -240,8 +399,8 @@ path.map {
   stroke-opacity: 1; }
 
 .point {
-  fill: #3399ff;
-  stroke: #3399ff;
+  fill: #F89E1C;
+  stroke: #F89E1C;
   stroke-width: 0.5; }
 
 .point_back {
@@ -266,46 +425,46 @@ path.line {
 
 /* Trajectories */
 .id_0 {
-  fill: #d999c9;
-  color: #d999c9; }
+  fill: #4d9eff;
+  color: #4d9eff; }
   .id_0 path, .id_0 path.id_0, .id_0 line.id_0 {
     fill: none;
-    stroke: #d999c9; }
+    stroke: #4d9eff; }
 
 .id_1 {
-  fill: #1C9CF2;
-  color: #1C9CF2; }
+  fill: #F89E1C;
+  color: #F89E1C; }
   .id_1 path, .id_1 path.id_1, .id_1 line.id_1 {
     fill: none;
-    stroke: #1C9CF2; }
+    stroke: #F89E1C; }
 
 .id_2 {
-  fill: #F9D5B6;
-  color: #F9D5B6; }
+  fill: #b19971;
+  color: #b19971; }
   .id_2 path, .id_2 path.id_2, .id_2 line.id_2 {
     fill: none;
-    stroke: #F9D5B6; }
+    stroke: #b19971; }
 
 .id_3 {
-  fill: #D2D9AC;
-  color: #D2D9AC; }
+  fill: #936A28;
+  color: #936A28; }
   .id_3 path, .id_3 path.id_3, .id_3 line.id_3 {
     fill: none;
-    stroke: #D2D9AC; }
+    stroke: #936A28; }
 
 .id_4 {
-  fill: #6e8997;
-  color: #6e8997; }
+  fill: #CF6428;
+  color: #CF6428; }
   .id_4 path, .id_4 path.id_4, .id_4 line.id_4 {
     fill: none;
-    stroke: #6e8997; }
+    stroke: #CF6428; }
 
 .id_5 {
-  fill: #ac8a6d;
-  color: #ac8a6d; }
+  fill: #f7ba58;
+  color: #f7ba58; }
   .id_5 path, .id_5 path.id_5, .id_5 line.id_5 {
     fill: none;
-    stroke: #ac8a6d; }
+    stroke: #f7ba58; }
 
 .id_6 {
   fill: #617a8c;
@@ -358,98 +517,110 @@ path.line {
   position: absolute;
   background: rgba(255, 255, 255, 0.9); }
 
-/* Itineraries / Routes */
-text.route_label {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-anchor: middle; }
-
-text.route_point_labels {
-  font-size: 11px;
-  letter-spacing: 1px;
-  fill: #aaa; }
-
-line.route_line_background {
-  stroke: #ddd;
-  stroke-width: 30; }
-
-line.route_line {
-  stroke-width: 30; }
-
-line.route_points {
-  stroke: #aaa;
-  stroke-width: 1;
-  stroke-dasharray: 1, 1; }
-
-circle.route_stops {
-  /*stroke:black */
-  fill: white;
-  stroke: #aaa;
-  stroke-width: 2; }
-
-path.line {
-  fill: none; }
-
-.author_left {
-  fill: #F9D5B6;
-  color: #F9D5B6; }
-
-.author_left path, path.author_left, line.author_left {
-  fill: none;
-  stroke: #F9D5B6; }
-
-.author_right {
-  fill: #D2D9AC;
-  color: #D2D9AC; }
-
-.author_right path, path.author_right, line.author_right {
-  fill: none;
-  stroke: #D2D9AC; }
-
-#trajectories .authors {
-  background-color: #f4f4f4; }
-  #trajectories .authors .header {
-    background-color: #c6ccd1; }
-
-#trajectories .authors-list a {
-  color: #1C9CF2;
-  text-transform: uppercase;
+.legend {
+  width: 250px;
+  position: absolute;
+  top: 75%;
+  right: 15%;
+  float: right;
+  z-index: 10;
   font-size: 0.9em;
-  width: 100%;
-  font-weight: 600;
-  padding-bottom: 1.25em;
-  display: block;
-  padding: 1.25em;
+  border: 1px solid #F89E1C;
+  height: auto;
+  cursor: pointer; }
+
+.legend-header {
+  background-color: #F89E1C;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.3125em;
+  font-weight: 600; }
+
+.legend-body {
+  padding: 0.3125em;
+  background-color: #F7F8F9;
+  opacity: 0.95; }
+
+.legend-item {
+  display: table-row;
+  height: 40px; }
+  .legend-item > * {
+    display: table-cell;
+    vertical-align: middle; }
+
+.legend-text {
+  width: 190px;
+  height: inherit;
+  font-size: 0.9em; }
+
+.legend-illustration {
+  width: 60px;
+  height: inherit; }
+
+/* tooltip */
+.tip {
+  visibility: hidden; }
+
+.tooltip {
+  position: absolute;
+  font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
+  font-size: 12px;
+  width: 120px;
+  border: 1px solid #F89E1C;
+  background-color: #f9ce89;
+  opacity: 0;
+  padding: 0.625em;
   cursor: pointer;
-  color: #939393; }
-  #trajectories .authors-list a .item_date {
+  animation: tooltip 0.4s ease-in forwards;
+  bottom: auto;
+  right: auto; }
+
+#itineraries .tooltip {
+  transform: translate 0, 100px;
+  z-index: 10; }
+
+@keyframes tooltip {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0.9; } }
+
+#search {
+  width: 62.5%;
+  margin: 0 auto;
+  padding-top: 1.25em; }
+  #search input {
+    width: 100%;
+    height: 2.5em;
+    font-size: 1.25em;
+    padding: 0.3125em;
+    box-sizing: border-box; }
+
+#search-results {
+  margin-top: 1.25em; }
+  #search-results .search-result {
+    padding-bottom: 1.25em;
+    width: 650px; }
+  #search-results .term {
+    color: #CF6428;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    width: 100%;
+    font-weight: 600;
+    padding-bottom: 1.25em;
+    display: block;
+    padding-bottom: 0; }
+    #search-results .term .item_date {
+      text-transform: none;
+      font-size: 0.8em;
+      color: #a9b2bb;
+      font-weight: 400; }
+  #search-results .subhead {
     text-transform: none;
     font-size: 0.8em;
     color: #a9b2bb;
-    font-weight: 400; }
-
-#trajectories .authors-list a:nth-child(1):hover, #trajectories .authors-list a:nth-child(1).selected {
-  color: #d999c9; }
-
-#trajectories .authors-list a:nth-child(2):hover, #trajectories .authors-list a:nth-child(2).selected {
-  color: #1C9CF2; }
-
-#trajectories .authors-list a:nth-child(3):hover, #trajectories .authors-list a:nth-child(3).selected {
-  color: #F9D5B6; }
-
-#trajectories .authors-list a:nth-child(4):hover, #trajectories .authors-list a:nth-child(4).selected {
-  color: #D2D9AC; }
-
-#trajectories .authors-list a:nth-child(5):hover, #trajectories .authors-list a:nth-child(5).selected {
-  color: #6e8997; }
-
-#trajectories .authors-list a:nth-child(6):hover, #trajectories .authors-list a:nth-child(6).selected {
-  color: #ac8a6d; }
-
-#trajectories .authors-list a:nth-child(7):hover, #trajectories .authors-list a:nth-child(7).selected {
-  color: #617a8c; }
-
-#trajectories .authors-list a:nth-child(8):hover, #trajectories .authors-list a:nth-child(8).selected {
-  color: #8ea030; }
+    font-weight: 400;
+    padding-bottom: 0.3125em; }
+  #search-results .description {
+    font-size: 0.8em;
+    color: #161C1E; }

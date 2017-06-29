@@ -1,3 +1,5 @@
+/* global d3 */
+
 class UI {
 	
   constructor(){
@@ -5,7 +7,7 @@ class UI {
     // Mirrors variables in assets/sass/style.css
     
     this.palette = {
-      clr1:        '#1C9CF2', // Blue
+      clr1:        '#EE7B22', // Orange
       clr2:        '#F9D5B6', // Canteloupe
       clr3:        '#D2D9AC', // Green 
       black:       '#161C1E',
@@ -18,16 +20,21 @@ class UI {
     var eint = document.getElementById('intersections');
     var etra = document.getElementById('trajectories');
     var eiti = document.getElementById('itineraries');
-
+    
     // Model key DOM elements for each visualization
     
     this.dom = {
-      tabs: document.getElementById('tabs').getElementsByTagName('a')
+      tabs: document.getElementById('tabs').getElementsByTagName('a'),
+      searchfield: document.getElementById('search-field'),
+      searchresults: document.getElementById('search-results')
     };
         
     this.dom.intersections = {
       elem: eint,
+      legend: eint.getElementsByClassName('legend')[0],
       dateslider: eint.getElementsByClassName('slider')[0],
+      datestart: eint.getElementsByClassName('date-start')[0],
+      dateend: eint.getElementsByClassName('date-end')[0],
       map: {
         header: eint.getElementsByClassName('header')[1],
         view: eint.getElementsByClassName('map')[0]
@@ -42,6 +49,8 @@ class UI {
     this.dom.trajectories = {
       elem: etra,
       dateslider: etra.getElementsByClassName('slider')[0],
+      datestart: etra.getElementsByClassName('date-start')[0],
+      dateend: etra.getElementsByClassName('date-end')[0],
       authors: {
         header: etra.getElementsByClassName('header')[1],
         list: etra.getElementsByClassName('authors-list')[0]
@@ -55,6 +64,7 @@ class UI {
     this.dom.itineraries = {
       elem: eiti,
       authors: {
+        selections: eiti.getElementsByClassName('selections')[0],
         header: eiti.getElementsByClassName('header')[0],
         list: eiti.getElementsByClassName('authors-list')[0],
         author1: eiti.getElementsByClassName('author')[0],
@@ -71,7 +81,19 @@ class UI {
         }
       ]
     }
+    
+    this.initLegendUI();
   }  
+  
+  initLegendUI() {
+    d3.select(this.dom.intersections.legend).on('click',function(){
+      d3.select(this)
+        .transition()
+        .duration(800)
+        .style('opacity',0)
+        .remove();
+    });
+  }
   
   initPanels() {
             
@@ -95,9 +117,9 @@ class UI {
       }
     }
     
-    // set the minimum height of the panels, which should be the window height less the nav elements`. TO DO: find out why the additional factor is needed to make the slider work. Padding on the slider?
+    // set the minimum height of the panels, which should be the window height less the nav elements`.
     
-    var h = window.innerHeight - document.getElementById('nav').clientHeight - this.dom.intersections.map.header.clientHeight - 100; 
+    var h = window.innerHeight - document.getElementById('nav').clientHeight - this.dom.intersections.map.header.clientHeight; 
         
     document.getElementById('panels').setAttribute("style","min-height:" + h + "px");
   }
@@ -105,19 +127,33 @@ class UI {
   generateAuthorList(obj) {
     
     var list = '';
+    var i = 1;
+    var count = 1;
     
     for (var prop in obj.authors) {
-      if (obj.authors.hasOwnProperty(prop)) {
-        list += this.authorItemTemplate(obj.authors[prop],prop,'a') + "\n";
+      
+      if (i%2 != 0) {
+        list += "<div class='arow'>\n";
       }
+      
+      if (obj.authors.hasOwnProperty(prop)) {        
+        list += this.authorItemTemplate(obj.authors[prop],prop,'a',count) + "\n";
+      }
+      
+      if (i%2 == 0) {
+        list += "</div>\n";
+      }
+      
+      i = i == 2 ? 1 : 2;
+      count++;
     }
     
     return list;
     
   }
   
-  authorItemTemplate(name,key,tag) {
-    return "<" + tag + " data-key='" + key + "' class='author' title='" + this.escapeHtml(name) + "'>" + name + "</" + tag + ">";
+  authorItemTemplate(name,key,tag,count) {
+    return "<" + tag + " data-key='" + key + "' class='author a-" + count + "' title='" + this.escapeHtml(name) + "'>" + name + "</" + tag + ">";
   }
   
 
@@ -137,6 +173,7 @@ class UI {
       return entityMap[s];
     });
   }  
+  
 }
 
 var ui = new UI;

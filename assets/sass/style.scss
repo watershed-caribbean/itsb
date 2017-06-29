@@ -8,24 +8,32 @@ $blh: 1.25em;
 $media_type: screen;
 $min-width: 1250px;
 
-$clr1: #1C9CF2; // blue
-$clr2: #F9D5B6; 
-$clr3: #D2D9AC;
+$bp_mobile: 640px;
+
+$clr1: #F89E1C; // Orange
+$clr2: #b19971; // Butter Yellow 
+$clr3: #936A28; // Brown
 
 // Secondary colours for visualizations
 
-$clr4: lighten(#2D393F,30%); // grey
-$clr5: #ac8a6d; // brown
+$clr4: #CF6428; // Orange Brick
+$clr5: #f9ce89; // Canteloupe
 $clr6: #617a8c; // cobalt
 $clr7: #8ea030; // green
+$clr8: #2893cf; // Blue
 
-$clr0: #d999c9; // pink
+$clr0: lighten(#1a82ff,10%); // Blue
+$clr9: lighten(#7f93ba,10%);
+$clr10: #fdeaaf;
+$clr11: #ddcfa4;
 
-$clr_map: (clr0: $clr0, clr1: $clr1, clr2: $clr2, clr3: $clr3, clr4: $clr4, clr5: $clr5, clr6: $clr6, clr7: $clr7);
+
+$clr_map: (clr0: $clr0, clr1: $clr1, clr2: $clr2, clr3: $clr3, clr4: $clr4, clr5: darken($clr5,10%), clr6: $clr6, clr7: $clr7, clr8: $clr8, clr9: $clr9);
 
 $black: #161C1E;
 $white: #F7F8F9;
-$neutral: #F9F9F9;
+$neutral: #fcfcfc;
+$darker_neutral: #C6C6C6;
 $dark_neutral: #2D393F;
 $cool_neutral: #E2E5E8;
 
@@ -47,13 +55,14 @@ body {
   margin: 0;
   padding: 0;
   min-width: $min-width;
-  position: relative;
+  position: absolute;
+  bottom: 0;
 }
 
 body > div {
   position: relative;
-  height: auto;
   width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -101,8 +110,13 @@ a, a:link, a:visited {
   }
 
   > a {
-    background-color: $clr1;
+    background-color: #f9ce89;
     @include span(3 of 16 inside no-gutters);
+    
+    &#title {
+      color: $black;
+    }
+    
   }
 }
 
@@ -117,6 +131,8 @@ a, a:link, a:visited {
 // Panels
 
 #panels {
+  border-top: 2px solid $white;
+  
   .panel {
     display: none;
     height: 100%;
@@ -143,7 +159,7 @@ a, a:link, a:visited {
   }
   
   p {
-    font-size: 0.9em;
+    font-size: 1.2em;
     line-height: 1.5em;
     color: $dark_neutral;
   }
@@ -171,17 +187,18 @@ a, a:link, a:visited {
     bottom: 0;
 
     &:nth-child(1) {
-      width: 18.75%;
+      width: 15%;
+      left: 0;
     }
 
     &:nth-child(2) {
-      width: 62.5%;
-      left: 18.75%;
+      width: 60%;
+      left: 15%;
     }
 
     &:nth-child(3) {
-      width: 18.75%;
-      left: 81.25%;
+      width: 25%;
+      left: 75%;
     }
   }
 
@@ -201,82 +218,165 @@ a, a:link, a:visited {
     bottom: 0;
 
     &:nth-child(1) {
-      width: 18.75%;
+      width: 15%;
+      left: 0;
     }
 
     &:nth-child(2) {
-      width: 18.75%;
-      left: 18.75%;
+      width: 25%;
+      left: 15%;
     }
 
     &:nth-child(3) {
-      width: 62.5%;
-      left: 37.5%;
+      width: 60%;
+      left: 40%;
     }
   }
 }
 
+
 // Itineraries
 
-/* #itineraries
- * > *
- *   position: absolute
- *   top: 4em
- *   bottom: 0
- *
- *   &:nth-child(1)
- *     width: 18.75%
- *   &:nth-child(2)
- *     width: 81.25%
- *     left: 18.75% */
-
-// Previous CSS
-
-#itineraries {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  border-right: 2px solid white;
-  box-sizing: border-box;
-  overflow: hidden;
+#itineraries
+ > * {
+  position: absolute;
+  top: 4em;
+  height: auto;
   
-  .header {
-    margin-bottom: $blh
+  &:nth-child(1) {
+    width: 25%;
+    min-height: 100%;
+    
+    .header {
+      background-color: darken($cool_neutral,10%);
+    }
   }
   
-  select {
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-
-#left_itinerary {
-  float: left;
-  width: 50%;
-}
-
-#right_itinerary {
-  margin-left: 50%;
-  width: 50%;
+  &:nth-child(2) {
+    width: 75%;
+    left: 25%;
+  } 
   
-  .header {
-    background-color: darken($cool_neutral,10%);
+  .selections {
+    width: 100%;
+  }
+  
+  .itinerary {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    
+    &:nth-child(1) {
+      float: left;
+      z-index: 10; // Necessary to ensure tick lines overlap right itinerary
+    }
+    
+    &:nth-child(2) {
+      left: 50%;
+    }
+    
+    .itinerary-header {
+      width: 100%;
+      text-align: center;
+      padding: $blh 0 $blh/2 0;
+      text-transform: uppercase;
+      color: $clr4;
+      font-weight: $semibold;
+
+    }
+    
+    .itinerary-view {
+      text-align: center;
+      padding-top: $blh;
+      height: auto;
+    }
+    
+    svg {
+      width: 60px;
+      display: inline-block;
+      background-color: $cool_neutral;
+      padding: $blh 0;
+      overflow: visible;
+    }
+  }
+       
+}
+
+/* Itineraries / Routes */
+
+#itinerary-axis {
+  
+  text {
+    fill: darken($darker_neutral,10%);
+    font-size: 11px;
+  }
+  
+  line {
+    stroke: $darker_neutral;
   }
 }
 
-#itineraries svg {
-  shape-rendering: geometricPrecision;
-  cursor: pointer;
-  display: block;
-  width: 100%;
+text.route_label {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-anchor: middle;
 }
 
-//
+text.route_point_labels {
+  font-size: 11px;
+  letter-spacing: 1px;
+  fill: #aaa;
+}
+
+line.route_line_background {
+  stroke: #ddd;
+  stroke-width: 30;
+}
+
+line.route_line {
+  stroke-width: 30;
+}
+
+line.route_points {
+  stroke: #aaa;
+  stroke-width: 1;
+  stroke-dasharray: 1, 1;
+}
+
+circle.route_stops {
+  fill: $clr1;
+  stroke: $clr1;
+  stroke-width: 1;
+}
+
+path.line {
+  fill: none;
+}
+
+.author_left {
+  fill: $clr2;
+  color: $clr2;
+}
+
+.author_left path, path.author_left, line.author_left {
+  fill: none;
+  stroke: $clr2;
+}
+
+.author_right {
+  fill: $clr3;
+  color: $clr3;
+}
+
+.author_right path, path.author_right, line.author_right {
+  fill: none;
+  stroke: $clr3;
+}
 
 @mixin author-list-item {
-  color: $clr1;
+  color: $clr4;
   text-transform: uppercase;
   font-size: 0.9em;
   width: 100%;
@@ -291,6 +391,75 @@ a, a:link, a:visited {
     font-weight: $regular;
   }
 }
+
+
+
+// Authors
+
+.authors {
+  background-color: darken($neutral,2%);
+  
+  .header {
+    background-color: darken($cool_neutral,10%)
+  }
+}
+
+
+
+.authors-list {
+  .arow {
+    display: table-row;
+    width: 100%;
+  }
+  
+  a {
+    @include author-list-item;
+    width: 50%;
+    display: table-cell;
+    vertical-align: top;
+    padding: $blh;
+    cursor: pointer;
+    color: darken($neutral, 40%);
+    padding-bottom: $blh/16
+  }
+}
+
+
+// Trajectories author
+
+#trajectories {
+  
+  @for $i from 1 through 9 {
+    
+    .a-#{$i} {
+      &:hover, &.selected {
+        $clrindex: $i - 1;
+        $color: #{map-get($clr_map, clr#{$clrindex})};
+        color: $color;
+      }
+    
+    }
+  }
+    
+}
+
+// Itineraries author
+
+#itineraries {
+  .authors-list a.selected {
+    color: $clr4;
+    cursor: pointer;
+  }
+}
+
+
+#itineraries svg {
+  shape-rendering: geometricPrecision;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
 
 .results {
   .items {
@@ -308,6 +477,9 @@ a, a:link, a:visited {
   .results-view {
     > div {
       @include author-list-item;
+      width: 50%;
+      float: left;
+      display: inline-block;
     }
   }
 }
@@ -318,13 +490,21 @@ a, a:link, a:visited {
   background-color: darken($neutral, 5%);
 }
 
+.indicator {
+  height: 3em;
+  text-align: center;
+  padding: 0.9em;
+  font-size: 0.8em;
+  text-transform: uppercase
+}
+
 .d3-slider {
   font-family: $basefont;
 }
 
 .d3-slider-vertical {
   width: 100%;
-  height: 100%;
+  height: calc(100% - 3em);
 }
 
 .d3-slider-range-vertical {
@@ -333,16 +513,28 @@ a, a:link, a:visited {
 }
 
 .d3-slider-vertical {
+  
   .d3-slider-handle {
-    right: -0.36em;
+    right: -0.54em;
     left: initial;
     background: $clr1;
-    width: 0.8em;
-    height: 0.8em;
-    margin-bottom: -0.4em;
-    border-radius: 0.4em;
+    width: 1.2em;
+    height: 1.2em;
+    margin-bottom: -0.6em;
+    border-radius: 0.6em;
     border-color: $clr1;
   }
+  
+  @media only screen and (min-width: $bp_mobile) {
+    .d3-slider-handle {
+      right: -0.36em;
+      width: 0.8em;
+      height: 0.8em;
+      margin-bottom: -0.4em;
+      border-radius: 0.4em;
+  }
+  }
+
 }
 
 .d3-slider-axis {
@@ -391,8 +583,8 @@ path.map {
 }
 
 .point {
-  fill: #3399ff;
-  stroke: #3399ff;
+  fill: $clr1;
+  stroke: $clr1;
   stroke-width: 0.5;
 }
 
@@ -478,101 +670,134 @@ path.line {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* Itineraries / Routes */
+// Legend
 
-text.route_label {
-  font-size: 18px;
-  font-weight: bold;
+.legend {
+  width: 250px;
+  position: absolute;
+  top: 75%;
+  right: 15%;
+  float: right;
+  z-index: 10;
+  font-size: 0.9em;
+  border: 1px solid $clr1;
+  height: auto;
+  cursor: pointer;
+}
+
+.legend-header {
+  background-color: $clr1;
+  color: white;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  text-anchor: middle;
+  padding: $blh/4;
+  font-weight: $semibold;
 }
 
-text.route_point_labels {
-  font-size: 11px;
-  letter-spacing: 1px;
-  fill: #aaa;
+.legend-body {
+  padding: $blh/4;
+  background-color: $white;
+  opacity: 0.95;
 }
 
-line.route_line_background {
-  stroke: #ddd;
-  stroke-width: 30;
-}
-
-line.route_line {
-  stroke-width: 30;
-}
-
-line.route_points {
-  stroke: #aaa;
-  stroke-width: 1;
-  stroke-dasharray: 1, 1;
-}
-
-circle.route_stops {
-  /*stroke:black */
-  fill: white;
-  stroke: #aaa;
-  stroke-width: 2;
-}
-
-path.line {
-  fill: none;
-}
-
-.author_left {
-  fill: $clr2;
-  color: $clr2;
-}
-
-.author_left path, path.author_left, line.author_left {
-  fill: none;
-  stroke: $clr2;
-}
-
-.author_right {
-  fill: $clr3;
-  color: $clr3;
-}
-
-.author_right path, path.author_right, line.author_right {
-  fill: none;
-  stroke: $clr3;
-}
-
-// Trajector author
-
-#trajectories {
+.legend-item {
+  display: table-row;
+  height: 40px;
   
-  
-  .authors {
-    background-color: darken($neutral,2%);
-    
-    .header {
-      background-color: darken($cool_neutral,10%)
-    }
+  > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.legend-text {
+  width: 190px;
+  height: inherit;
+  font-size: 0.9em;
+}
+
+.legend-illustration {
+  width: 60px;
+  height: inherit;
+}
+
+/* tooltip */
+
+.tip {
+  visibility: hidden;
+}
+
+.tooltip {
+  position: absolute;
+  font-family: $basefont;
+  font-size: 12px;
+  width: 120px;
+  border: 1px solid $clr1;
+  background-color: $clr5;  
+  opacity: 0;
+  padding: $blh/2;
+  cursor: pointer;
+  animation: tooltip 0.4s ease-in forwards;
+  bottom: auto;
+  right: auto;
+}
+
+#itineraries .tooltip {
+  transform: translate (0,100px);
+  z-index: 10;
+}
+
+
+
+@keyframes tooltip {
+  0% {
+    opacity: 0;
   }
   
-  .authors-list a {
+  100% {
+    opacity: 0.9;
+  }
+}
+
+
+// Search
+
+#search {
+  width: 62.5%;
+  margin: 0 auto;
+  padding-top: $blh;
+  
+  input {
+    width: 100%;
+    height: $blh * 2;
+    font-size: $blh;
+    padding: $blh/4;
+    box-sizing: border-box;
+  }
+}
+
+#search-results {
+  margin-top: $blh;
+  
+  .search-result {
+    padding-bottom: $blh;
+    width: 650px;
+  }
+  
+  .term {
     @include author-list-item;
-
-    padding: $blh;
-    cursor: pointer;
-    color: darken($neutral, 40%);
+    padding-bottom: 0;
   }
   
-  @for $i from 1 through 8 {
-    
-    .authors-list a:nth-child(#{$i}) {
-      &:hover, &.selected {
-        $clrindex: $i - 1;
-        $color: #{map-get($clr_map, clr#{$clrindex})};
-        color: $color;
-      }
-    
-    }
+  .subhead {
+    text-transform: none;
+    font-size: 0.8em;
+    color: darken($cool_neutral, 20%);
+    font-weight: $regular;
+    padding-bottom: $blh/4
   }
   
-  
-  
+  .description {
+    font-size: 0.8em;
+    color: $black;
+  }
 }
