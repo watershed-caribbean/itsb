@@ -55,8 +55,7 @@ body {
   margin: 0;
   padding: 0;
   min-width: $min-width;
-  position: absolute;
-  bottom: 0;
+  position: inherit;
 }
 
 body > div {

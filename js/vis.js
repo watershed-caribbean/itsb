@@ -1862,6 +1862,10 @@ var dm = new DataManager(function(){
   		d3.select('.tooltip').remove();
   		  		    	
     	switch(d3.select(this).attr('data-mode')) {
+      	case '0':
+          d3.select('body').style('position','inherit');
+      		d3.select('body').style('bottom','auto');
+      	break;
       	case '1':
           if (!intersections.hasOwnProperty('initialized')) {
             intersections = new Intersections;
