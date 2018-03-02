@@ -3,3 +3,6 @@
 .DS_Store
 /.config.codekit3
 /build
+.buildpath
+.settings
+.project
