@@ -1,0 +1,28 @@
+---
+layout: compress
+---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
+
+  {% include head.html %}
+
+  <body>
+    <div>
+
+    {% include header.html %}
+
+    <div id='panels'>
+      <div id='search' class='panel'>
+          <form action='#' name='search'>
+            <input id='search-field' type='text' placeholder="Search authors, cities, notes and citations." />
+          </form>
+          <div id='search-results'>
+            <p>Begin typing above.</p>
+          </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+	</div>
+  </body>
+
+</html>

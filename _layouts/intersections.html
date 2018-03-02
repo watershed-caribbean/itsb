@@ -1,0 +1,74 @@
+---
+layout: compress
+---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
+
+  {% include head.html %}
+
+  <body>
+    <div>
+
+    {% include header.html %}
+
+    <div id='panels'>
+      <div id='intersections' class='panel selected'>
+          <div class='date-range'>
+            <div class='header'>
+              Select Range
+            </div>
+            <div class='date-selector'>
+              <div class='indicator'>
+                <span class='date-start'></span> – <span class='date-end'></span>
+              </div>
+              <div class='slider'></div>
+            </div>
+          </div> 
+          <div class='location'>
+            <div class='header'>
+              Select Location
+            </div>
+            <div class='map'></div>
+            <div class='legend'>
+              <div class='legend-header'>Legend</div>
+              <div class='legend-body'>
+                  <div class='legend-item'>
+                    <div class='legend-text'>Rings indicate possible intersections.</div>
+                    <div class='legend-illustration'>
+                      <svg height='100%' width='100%'>
+                        <g class="points_g"transform="translate(25,20)">
+                          <circle class="point_back" cx="0" cy="0" r="7.2"></circle><circle class="point_01 point" cx="0" cy="0" r="10"></circle><circle class="point_02 point" cx="0" cy="0" r="7.2"></circle>
+                          <circle class="point_03 point" cx="0" cy="0" r="4"></circle>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class='legend-item'>
+                    <div class='legend-text'>Solid circles indicate certain intersections.</div>
+                    <div class='legend-illustration'>
+                      <svg height='100%' width='100%'>
+                        <g class="points_g"transform="translate(25,20)">
+                          <circle class="point_03 point" cx="0" cy="0" r="7.2"></circle>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>   
+          <div class='results'>
+            <div class='header'>
+              Intersecting Authors
+            </div>
+            <div class='items'>
+              <div class='title'></div>
+              <div class='results-view' id='intersections-results'></div>
+            </div>
+          </div>      
+        </div>
+    </div>
+
+    {% include footer.html %}
+	</div>
+  </body>
+
+</html>

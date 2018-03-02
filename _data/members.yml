@@ -1,0 +1,142 @@
+- name: "Marina Bilbija"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Williams College"
+  assistants:
+  - name: "Mohammed Duse Ali"
+
+- name: "Laurent Dubois"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Duke University"
+  assistants:
+  - name: "Katherine Dunham"
+ 
+- name: "Alex Gil"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Columbia University"
+  assistants:
+  - name: "Aimé Césaire"
+
+- name: "Kaiama L. Glover"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Barnard College, Columbia University"
+  assistants:
+  - name: "René Depestre"
+   
+- name: "Tao Goffe"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "New York University"
+  assistants:
+  - name: "Wifredo Lam"
+
+- name: "Kelly Baker Josephs"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle:
+  homepageurl:
+  institution: "York College, CUNY"
+  assistants:
+  - name: "Kamau Brathwaite"
+ 
+- name: "Clara Pomi"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Williams College"
+  assistants:
+  - name: "Kamau Brathwaite"
+
+- name: "Kora Véron Leblé"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Institut de Textes et Manuscrits, CNRS"
+  assistants:
+  - name: "Aimé Césaire"
+ 
+- name: "Buck Wanner"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Columbia University, Visualization Design"
+  assistants:
+  - name: 
+
+- name: "Emily Fuhrman"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle:
+  homepageurl:
+  institution: "Columbia University, Visualization & Project Design"
+  assistants:
+  - name: 
+ 
+- name: "Alyssa Vann"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Stanford University, Data Analyst"
+  assistants:
+  - name: "Lydia Cabrera"
+
+- name: "Dean Irvine"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: "Agile Humanities Agency"
+  homepageurl: "http://www.agilehumanities.ca"
+  institution: "Project Consultant"
+  assistants:
+  - name: 
+ 
+- name: "Bill Kennedy"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: "Intelligent Machines"
+  homepageurl: "http://www.intelligentmachines.ca"
+  institution: "Visualization, UI/UX and Production Design"
+  assistants:
+  - name: 

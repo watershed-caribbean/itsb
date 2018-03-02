@@ -1,3 +1,0 @@
-# Use PHP5.4 as default
-# Changed PHP handler from application/x-httpd-php54 to application/x-httpd-phpbeta on Wed Jan 13 23:54:44 MST 2016.
-AddHandler application/x-httpd-phpbeta .php

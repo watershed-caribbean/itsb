@@ -1,8 +1,6 @@
-.idea
-.idea/workspace.xml
-.DS_Store
-/.config.codekit3
-/build
+_site/
+.sass-cache/
+.jekyll-metadata
+.project
 .buildpath
 .settings
-.project

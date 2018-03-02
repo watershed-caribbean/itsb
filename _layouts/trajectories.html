@@ -1,0 +1,39 @@
+---
+layout: compress
+---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
+
+  {% include head.html %}
+
+  <body>
+    <div>
+
+    {% include header.html %}
+
+    <div id='panels'>
+      <div id='trajectories' class='panel'>
+          <div class='date-range'>
+            <div class='header'>Select Date Range</div>
+            <div class='date-selector'>
+              <div class='indicator'>
+                <span class='date-start'></span> – <span class='date-end'></span>
+              </div>
+              <div class='slider'></div>
+            </div>
+          </div> 
+          <div class='authors'>
+            <div class='header'>Select authors</div>
+            <div class='authors-list'></div>
+          </div>
+          <div class='location'>
+            <div class='header'>Locations</div>
+            <div class='map'></div>
+          </div>   
+        </div>
+    </div>
+
+    {% include footer.html %}
+	</div>
+  </body>
+
+</html>

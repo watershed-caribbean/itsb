@@ -1,0 +1,28 @@
+<div id="directors">
+  {% for member in site.data.members %}
+    {% if member.roles contains 'director' %}
+      <p><strong id="{{member.id}}">{{member.name}}</strong><br />
+        {{member.institution}}<br />
+        {% for assistant in member.assistants %}<br />
+          {{assistant.name}}<br />
+        {% endfor %}
+      </p>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div id="members">
+  {% for member in site.data.members %}
+    {% if member.roles contains 'member' %}
+      <p><strong id="{{member.id}}">{{member.name}}</strong><br />
+        {{member.institution}}<br />
+        {% if member.homepageurl %}
+          <a href='{{member.homepageurl}}' target="_blank">{{member.homepagetitle}}</a><br>
+        {% endif %}
+        {% for assistant in member.assistants %}<br />
+          {{assistant.name}}<br />
+        {% endfor %}
+      </p>
+    {% endif %}
+  {% endfor %}
+</div>

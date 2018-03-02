@@ -1,3 +1,0 @@
-[22-Aug-2014 08:52:47 America/Denver] PHP Fatal error:  Call to undefined function add_shortcode() in /home4/sameboat/public_html/omeka/plugins/ExhibitBuilder/functions.php on line 14
-[22-Aug-2014 08:52:56 America/Denver] PHP Fatal error:  Call to undefined function add_shortcode() in /home4/sameboat/public_html/omeka/plugins/ExhibitBuilder/functions.php on line 14
-[22-Aug-2014 08:53:00 America/Denver] PHP Fatal error:  Call to undefined function add_shortcode() in /home4/sameboat/public_html/omeka/plugins/ExhibitBuilder/functions.php on line 14

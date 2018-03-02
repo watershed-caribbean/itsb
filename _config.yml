@@ -1,0 +1,32 @@
+title: In the Same Boats # your site title
+author: 
+email:  # email for form submission, you also have to change it in _js/scripts.js
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://www.oneequallmusick.org" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge # or pygments or null
+exclude:
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+
+encoding: utf-8
