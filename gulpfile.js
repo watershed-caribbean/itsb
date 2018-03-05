@@ -27,10 +27,12 @@ const imagemin = require('gulp-imagemin');
 const src = {
   css: '_sass/main.scss',
   js: '_js/**/*.js',
+  data: 'data/**/*',
 }
 const dist = {
   css: '_site/assets/css',
   js: '_site/assets/js',
+  data: '_site/assets/data',
 }
 
 // Build the Jekyll Site
@@ -152,4 +154,12 @@ gulp.task('img', function() {
     }))
     .pipe(imagemin())
     .pipe(gulp.dest('assets/img/posts/'));
+});
+
+//Data
+gulp.task('data', function() {
+  return gulp.src(src.data)
+    .pipe(gulp.dest(dist.css))
+    .pipe(browserSync.reload({ stream: true }))
+    .pipe(gulp.dest('assets/data'));
 });
