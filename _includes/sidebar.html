@@ -1,0 +1,12 @@
+<div class="sidebar">
+  {% for visualization in site.data.visualizations %}
+    <div class="sidebar_item">
+      <div class="item_icon"></div>
+      <div class="item_info">
+        <h3>{{visualization.name}}</h3>
+        <p>{{visualization.description}}</p>
+        <p><a href="{{visualization.url}}">Go</a> &gt;</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

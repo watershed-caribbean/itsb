@@ -4,14 +4,16 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
 
   {% include head.html %}
-
-  <body>
-    <div>
-
-    {% include header.html %}
-
+  {% if page.categories contains 'visualization' %}
+    <body class="visualization">
+  {% else %}
+    <body>
+  {% endif %}
+  {% include header.html %}
+  <div id="contents">
     <div id='panels'>
-      <div id='about' class='panel'>
+      <div id="maintitle"><h1>Welcome.</h1></div>
+      <div id='about'>
          <div class='about-text'>
            <p><em>In the Same Boats</em> is a work of multimodal scholarship designed to encourage the collaborative production of humanistic knowledge within scholarly communities. Comprising two interactive visualizations that trace the movements of seminal cultural actors from the Caribbean and wider Americas, Africa, and Europe within the 20th century Afro-Atlantic world, the platform seeks to push back against the ways in which “Global South” intellectual production has been stubbornly balkanized in the academy, its limits and contours largely determined by imperial metropoles.</p>
            <p>The project charts the extent to which Caribbean, African, Latin American, European, and Afro-American intellectuals have had opportunities to be in both punctual and sustained conversation with one another: attending the same conferences, publishing in the same journals and presses, active in the same political groups, perhaps even elbow-to-elbow in the same Parisian cafés and on the same transatlantic crossings – literally and metaphorically in the same boats – as they circulate throughout the Americas, Africa, Europe, and beyond.</p>
@@ -22,11 +24,11 @@ layout: compress
            
            {% include members.html %}
          </div>
+         {% include sidebar.html %}
       </div>
     </div>
-
+</div>
     {% include footer.html %}
-	</div>
   </body>
   {% include endjs.html %}
 </html>

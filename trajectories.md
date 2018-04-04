@@ -6,4 +6,5 @@
 #
 layout: trajectories
 title: In the Same Boats
+categories: [visualization]
 ---

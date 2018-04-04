@@ -4,12 +4,13 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
 
   {% include head.html %}
-
-  <body>
-    <div>
-
-    {% include header.html %}
-
+  {% if page.categories contains 'visualization' %}
+    <body class="visualization">
+  {% else %}
+    <body>
+  {% endif %}
+  {% include header.html %}
+  <div id="contents">
     <div id='panels'>
       <div id='trajectories' class='panel'>
           <div class='date-range'>
@@ -31,9 +32,8 @@ layout: compress
           </div>   
         </div>
     </div>
-
-    {% include footer.html %}
 	</div>
+    {% include footer.html %}
   </body>
 
 </html>

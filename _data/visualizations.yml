@@ -1,0 +1,9 @@
+- name: "Trajectories"
+  description: "Something about the trajectories visualization. Lorem ipsum dolor sit amet nonummy elit."
+  id: "trajectories"
+  url: "/trajectories"
+
+- name: "Intersections"
+  description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
+  id: "intersections"
+  url: "/intersections"

@@ -6,4 +6,5 @@
 #
 layout: itineraries
 title: In the Same Boats
+categories: [visualization]
 ---

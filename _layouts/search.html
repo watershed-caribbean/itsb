@@ -4,14 +4,15 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
 
   {% include head.html %}
-
-  <body>
-    <div>
-
-    {% include header.html %}
-
+  {% if page.categories contains 'visualization' %}
+    <body class="visualization">
+  {% else %}
+    <body>
+  {% endif %}
+  {% include header.html %}
+  <div id="contents">
     <div id='panels'>
-      <div id='search' class='panel'>
+      <div id='search'>
           <form action='#' name='search'>
             <input id='search-field' type='text' placeholder="Search authors, cities, notes and citations." />
           </form>
@@ -20,9 +21,8 @@ layout: compress
           </div>
         </div>
     </div>
-
+</div>
     {% include footer.html %}
-	</div>
   </body>
 
 </html>
