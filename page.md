@@ -4,8 +4,9 @@
 # Edit sleeks's default layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-layout: itineraries
+layout: page
 title: In the Same Boats
-categories: [visualization]
-id: itineraries
+id: page
+pagetitle: Page Title
 ---
+This is a blank generic page

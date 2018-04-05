@@ -77,7 +77,10 @@ a:hover, a:link:hover, a:visited:hover {
 #nav > a#title {
   color: #fff;
 }
-
+.navicon {
+  vertical-align: middle;
+  margin-right: 3em;
+}
 #tabs {
   position: relative;
   letter-spacing: 0.1em;
@@ -87,7 +90,7 @@ a:hover, a:link:hover, a:visited:hover {
   color: #fff;
 }
 .visualization #nav{
-  width: 5%;
+  width: 4em;
 }
 .visualization #nav .navtext{
   display: none;
@@ -103,11 +106,11 @@ a:hover, a:link:hover, a:visited:hover {
   width: 80%;
 }
 .visualization #contents{
-  margin-left: 5%;
-  width: 95%;
+  margin-left: 4em;
+  width: unset;
 }
 #panels {
-  border-top: 2px solid #F7F8F9;
+
 }
 .visualization #contents > #panels {
   overflow: hidden; 
@@ -119,31 +122,34 @@ a:hover, a:link:hover, a:visited:hover {
 
 }
 
-#maintitle {
+#page-title {
   width: 90%;
   margin: 0 auto;
   font-size: 2em;
 }
-#maintitle h1{
+#page-title h1{
   margin: 1.25em auto 0em;
   font-weight: normal;
 }
-#about{
+#page{
   display: flex;
   flex-direction: row;
 }
-.about-text {
-  width: 55%;
+.page-text {
+  width: 90%;
   margin: 0 auto;
   font-size: 0.9em;
 }
-.about-text h1, .about-text h2 {
+.page-text.has-sidebar {
+  width: 55%;
+}
+.page-text h1, .page-text h2 {
   color: #2D393F; 
 }
-.about-text a {
+.page-text a {
   text-decoration: underline; 
 }
-.about-text p {
+.page-text p {
   font-size: 1.2em;
   line-height: 1.5em;
   color: #2D393F;
@@ -160,6 +166,24 @@ a:hover, a:link:hover, a:visited:hover {
 .sidebar h3{
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+.sidebar_item {
+  height: max-content;
+  clear: both;
+}
+.item_icon {
+  float: left;
+  width: 20%;
+}
+.item_icon img{
+  width: 3em;
+}
+.item_info {
+  float: right;
+  width: 80%;
+}
+.item_info h3{
+  margin-top: 0;
 }
 .header {
   width: 100%;
@@ -210,7 +234,6 @@ a:hover, a:link:hover, a:visited:hover {
 #itineraries
 > * {
   position: absolute;
-  top: 4em;
   height: auto; }
 #itineraries
 > *:nth-child(1) {
