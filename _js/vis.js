@@ -37,7 +37,7 @@ class DataManager {
 		var q = d3.queue();
 		
 		datasets.forEach(function(d){
-  		var filepath = 'data/three_' + d +'.json';
+  		var filepath = '/data/three_' + d +'.json';
   		q.defer(d3.json,filepath)
 		});	
 		

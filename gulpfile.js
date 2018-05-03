@@ -15,7 +15,7 @@ const htmlmin = require('gulp-htmlmin');
 const prefix = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
 const concat = require('gulp-concat');
-const uglify = require('gulp-uglify');
+const uglify = require('gulp-uglify-es').default;
 const critical = require('critical');
 
 // Image Generation TODO
@@ -32,8 +32,19 @@ const src = {
 const dist = {
   css: '_site/assets/css',
   js: '_site/assets/js',
+  jslib: '_site/assets/js/libs',
   data: '_site/assets/data',
 }
+
+const assets = {
+  css: 'assets/css',
+  js: 'assets/js',
+  jslib: 'assets/js/libs',
+  data: 'assets/data',
+}
+
+var gutil = require('gulp-util');
+
 
 // Build the Jekyll Site
 gulp.task('jekyll-build', function (done) {
@@ -78,23 +89,52 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('assets/css'));
 });
 
-// Uglify JS
-gulp.task('js', function() {
+gulp.task('jslib', function(){
   return gulp.src([
+      // ITSB JS Libraries
       'node_modules/jquery/dist/jquery.js',
+      'node_modules/d3/d3.js',
+      'node_modules/d3-collection/build/d3-collection.js',
+      'node_modules/d3-queue/build/d3-queue.js',
+      'node_modules/lunr/lunr.js',
+      // Jekyll Libraries
       'node_modules/lazysizes/plugins/unveilhooks/ls.unveilhooks.js',
       'node_modules/lazysizes/lazysizes.js',
       'node_modules/velocity-animate/velocity.js',
+    ])
+    .pipe(uglify())
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest(dist.jslib))
+    .pipe(browserSync.reload({stream: true}))
+    .pipe(gulp.dest(assets.jslib))
+    .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
+});
+
+// Uglify JS
+gulp.task('js',['jslib'], function() {
+  return gulp.src([
       src.js
     ])
-    .pipe(concat('bundle.js'))
+    //.pipe(concat('bundle.js'))
     .pipe(uglify())
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(dist.js))
     .pipe(browserSync.reload({stream: true}))
-    .pipe(gulp.dest('assets/js'))
-    .on('error', function(err){
-      console.error('Error in uglify taks', err.toString());
-    });
+    .pipe(gulp.dest(assets.js))
+    .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
+});
+
+
+// Uglify reporting
+
+var pump = require('pump');
+
+gulp.task('uglify-error-debugging', function (cb) {
+  pump([
+    gulp.src(src.js),
+    uglify(),
+    gulp.dest(dist.js)
+  ], cb);
 });
 
 gulp.task('watch', function() {

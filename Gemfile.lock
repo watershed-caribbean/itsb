@@ -76,4 +76,4 @@ DEPENDENCIES
   rake (~> 10.0)
 
 BUNDLED WITH
-   1.15.4
+   1.16.1

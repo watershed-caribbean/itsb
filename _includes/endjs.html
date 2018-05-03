@@ -1,2 +1,10 @@
-<!--  <script src="{{ '/assets/js/ui-min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/vis-min.js' | relative_url }}"></script> -->
+<script src="{{ '/assets/js/ui.min.js' | relative_url }}"></script>
+
+{% if page.categories contains 'visualization' %}
+  <script src="{{ '/assets/js/vis.min.js' | relative_url }}"></script> 
+{% endif %}
+
+{% if page.categories contains 'search' %}
+  <script type='text/javascript' src="/assets/js/libs/lunr.min.js"></script>
+  <script src="{{ '/assets/js/vis.min.js' | relative_url }}"></script>
+{% endif %}

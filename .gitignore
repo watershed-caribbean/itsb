@@ -4,3 +4,4 @@ _site/
 .project
 .buildpath
 .settings
+/node_modules
