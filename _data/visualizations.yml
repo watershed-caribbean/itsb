@@ -10,14 +10,14 @@
   url: "/intersections"
   visclass: "Intersections"
   
-- name: "Intineraries"
-  description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
+- name: "Itineraries"
+  description: "Something about the itineraries visualization. This will likely not be included in the release build."
   id: "itineraries"
   url: "/itineraries"
   visclass: "Itineraries"
   
 - name: "Search"
-  description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
+  description: "Not really a visualization. To be removed from this list."
   id: "search"
   url: "/search"
   visclass: "Search"
