@@ -2,8 +2,25 @@
   description: "Something about the trajectories visualization. Lorem ipsum dolor sit amet nonummy elit."
   id: "trajectories"
   url: "/trajectories"
+  visclass: "Trajectories"
 
 - name: "Intersections"
   description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
   id: "intersections"
   url: "/intersections"
+  visclass: "Intersections"
+  
+- name: "Intineraries"
+  description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
+  id: "itineraries"
+  url: "/itineraries"
+  visclass: "Itineraries"
+  
+- name: "Search"
+  description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
+  id: "search"
+  url: "/search"
+  visclass: "Search"
+
+
+  

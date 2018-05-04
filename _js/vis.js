@@ -1,6 +1,4 @@
 /* global d3 */
-/* global ui */
-/* global dm */
 /* global topojson */
 /* global lunr */
 
@@ -12,6 +10,8 @@ String.prototype.replaceAll = function(search, replacement) {
 };
 
 
+/* !DATA MANAGER */
+
 
 // The DataManager object is designed to load JSON files once then make the data available to all visualizations.
 // Special handling is required to compensate for asynchronous load (the d3.json method does not have a
@@ -19,7 +19,7 @@ String.prototype.replaceAll = function(search, replacement) {
 // is more lightweight.
 
 class DataManager {
-  constructor(func) {
+  constructor() {
     var self = this;
     this.loading = [];
     this.data = {};
@@ -29,14 +29,19 @@ class DataManager {
     this.authors = {};
     this.author_names = {};
     this.places = {};
-    
-    var datasets = ['author_ids','intersections','itineraries','places','continents'];    
+    this.datasets = ['author_ids','intersections','itineraries','places','continents'];    
 		
-		// d3-queue.js manages deferred processing
-		
+					
+  }
+  
+  // Loads the Datasets
+  // d3-queue.js manages deferred processing
+  
+  load(func) {
+		var self = this;
 		var q = d3.queue();
 		
-		datasets.forEach(function(d){
+		this.datasets.forEach(function(d){
   		var filepath = '/data/three_' + d +'.json';
   		q.defer(d3.json,filepath)
 		});	
@@ -48,13 +53,12 @@ class DataManager {
   		
   		for(var i=1;i < arguments.length; i++) {
     		var darg = i-1;
-    		self.data[datasets[darg]] = arguments[i];
+    		self.data[self.datasets[darg]] = arguments[i];
   		}
   		
   		var invoke = func.call(invoke);
   		
 		});
-					
   }
   
   buildAuthors() {
@@ -187,7 +191,7 @@ class Visualization {
 	
 	constructor(){
   	var self = this;
-		this.data = {};
+  	this.data = {};
 		this.mode = 0;
 		this.places = {};
 		this.authors = {};  // {author_id: author_name}
@@ -195,6 +199,13 @@ class Visualization {
 		this.continents = {};
 		this.classkey = 'visualization';   
 		this.initialized = false;
+		
+		var self = this;
+		
+		this.dm = new DataManager();
+		this.dm.load(function() {
+  		self.init();
+		});
 
 
 		//store screen height and width
@@ -206,7 +217,7 @@ class Visualization {
 	
 	init() {
   	var self = this;
-  	this.data = dm.getData();
+  	this.data = this.dm.getData();
     this.focus();
     this.process_data(); 
 		this.setup();
@@ -227,8 +238,8 @@ class Visualization {
 
 		// places
 		
-		dm.buildPlaces();
-		self.places = dm.places;
+		self.dm.buildPlaces();
+		self.places = self.dm.places;
 		
 		// authors
 		d3.keys(self.data.author_ids).forEach(function(k){
@@ -334,6 +345,7 @@ class Trajectories extends DateMapController {
     this.mode = 2;         
     this.classkey = 'trajectories';
 		this.active_authors_t = [];
+		this.ui = new TrajectoriesUI();
   }
   
   init() {
@@ -348,12 +360,12 @@ class Trajectories extends DateMapController {
 
     // Trajectories setup
     
-		this.trajectories.map = d3.select(ui.dom.trajectories.map.view)
+		this.trajectories.map = d3.select(self.ui.dom.trajectories.map.view)
 		  .append('svg')
 		  .attr('width','100%');
 		          
-    d3.select(ui.dom.trajectories.authors.list)
-      .html(ui.generateAuthorList(this));
+    d3.select(self.ui.dom.trajectories.authors.list)
+      .html(self.ui.generateAuthorList(this));
   }
   
   process_data() {
@@ -386,7 +398,7 @@ class Trajectories extends DateMapController {
 		
 		// Manage active trajectory map authors
 		
-    d3.select(ui.dom[this.classkey].authors.list)
+    d3.select(self.ui.dom[this.classkey].authors.list)
       .selectAll('.author').each(function(){
         d3.select(this).on('click',function(){
           var elem = d3.select(this);          
@@ -407,7 +419,7 @@ class Trajectories extends DateMapController {
       
 		//slider
 		
-		var sliderwidth = ui.dom[this.classkey].dateslider.offsetWidth;
+		var sliderwidth = self.ui.dom[this.classkey].dateslider.offsetWidth;
 						
 		var scale = d3.time.scale()
 			.domain(this.range);
@@ -455,16 +467,16 @@ class Trajectories extends DateMapController {
 			return s.invert(self.height -s(_val));
 		}    
 
-		var slider = d3.select(ui.dom[this.classkey].dateslider).call(slide);
+		var slider = d3.select(self.ui.dom[this.classkey].dateslider).call(slide);
 		
-		d3.select(ui.dom[this.classkey].dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)");
+		d3.select(self.ui.dom[this.classkey].dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)");
 		
 		update_datebar();
 
 		//map
 		var projection = d3.geo.mercator()
 			.scale(160)
-			.translate([ui.dom[this.classkey].map.view.offsetWidth * 0.5,ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
+			.translate([self.ui.dom[this.classkey].map.view.offsetWidth * 0.5,self.ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
 		
 		var path = d3.geo.path().projection(projection);
 
@@ -678,7 +690,7 @@ class Trajectories extends DateMapController {
 		}
 
 		function generate_points(){
-  		
+  		  		
 			//scale for radii
 			var r_scale = d3.scale.linear()
 				.domain([0,10])
@@ -792,7 +804,7 @@ class Trajectories extends DateMapController {
 				  
 				  // Add an absolutely positioned tooltip to the viz frame
 
-					d3.select(ui.dom.trajectories.elem)
+					d3.select(self.ui.dom.trajectories.elem)
 					  .append('div')
 					  .attr('class','tooltip')
             .style({
@@ -887,16 +899,18 @@ class Trajectories extends DateMapController {
 		}
 
 		function display_results(){
+  		var self = this;
+  		
 			var o_scale = d3.scale.linear()
 				.domain([0,3])
 				.range([0.5,1]);
 
 			if(focus){
-				d3.select(ui.dom.intersections.results.title).html(self.places[focus.key].PlaceName);
+				d3.select(self.ui.dom.intersections.results.title).html(self.places[focus.key].PlaceName);
 
 				//var data = sidebar_mode === 1 ? (intersections_unique[focus.key] || []) : (trajectories_unique[focus.key]);
 				var data = intersections_unique[focus.key] || [];
-				var items_target = d3.select(ui.dom.intersections.results.view);
+				var items_target = d3.select(self.ui.dom.intersections.results.view);
 				var items,
 						items_date;
 
@@ -945,8 +959,8 @@ class Trajectories extends DateMapController {
 
 		function update_datebar(){
 			var f = d3.time.format('%b %Y');
-			d3.select(ui.dom[self.classkey].datestart).html(f(self.date_start));
-			d3.select(ui.dom[self.classkey].dateend).html(f(self.date_end));
+			d3.select(self.ui.dom[self.classkey].datestart).html(f(self.date_start));
+			d3.select(self.ui.dom[self.classkey].dateend).html(f(self.date_end));
 		}
 
 		function update(){
@@ -969,9 +983,10 @@ class Trajectories extends DateMapController {
   
   tear_down() {
   	super.tear_down();
+  	var self = this;
     var opp = this.mode === 1 ? 2 : 1;
 		
-		d3.select(ui.dom[this.classkey].dateslider).selectAll('*').remove();
+		d3.select(self.ui.dom[this.classkey].dateslider).selectAll('*').remove();
 		
 		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
 		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);
@@ -993,6 +1008,8 @@ class Intersections extends DateMapController {
     this.classkey = 'intersections';   
     this.intersections = {}
     this.trajectories = {}
+    this.ui = new IntersectionsUI();
+
   }
   
   init() {
@@ -1007,7 +1024,7 @@ class Intersections extends DateMapController {
 		
 		// Intersections setup
 		
-		this[this.classkey].map = d3.select(ui.dom[this.classkey].map.view)
+		this[this.classkey].map = d3.select(self.ui.dom[this.classkey].map.view)
 		  .append('svg')
 		  .attr('width','100%');
         
@@ -1044,7 +1061,7 @@ class Intersections extends DateMapController {
 		
 		//slider
 
-		var sliderwidth = ui.dom[this.classkey].dateslider.offsetWidth;
+		var sliderwidth = self.ui.dom[this.classkey].dateslider.offsetWidth;
 		
 		var scale = d3.time.scale()
 			.domain(this.range);
@@ -1091,9 +1108,9 @@ class Intersections extends DateMapController {
 			return s.invert(self.height -s(_val));
 		}    
 
-		var slider = d3.select(ui.dom[this.classkey].dateslider).call(slide);
+		var slider = d3.select(self.ui.dom[this.classkey].dateslider).call(slide);
 		
-		d3.select(ui.dom[this.classkey].dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)").text(function(d){
+		d3.select(self.ui.dom[this.classkey].dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)").text(function(d){
   		return d3.select(this).text() + "s";
 		});
 		
@@ -1103,7 +1120,7 @@ class Intersections extends DateMapController {
 		
 		var projection = d3.geo.mercator()
 			.scale(160)
-			.translate([ui.dom[this.classkey].map.view.offsetWidth * 0.5,ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
+			.translate([self.ui.dom[this.classkey].map.view.offsetWidth * 0.5,self.ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
 			
 		var path = d3.geo.path().projection(projection);
 
@@ -1352,11 +1369,11 @@ class Intersections extends DateMapController {
 				.range([0.5,1]);
 
 			if(focus){
-				d3.select(ui.dom[self.classkey].results.title).html(self.places[focus.key].PlaceName);
+				d3.select(self.ui.dom[self.classkey].results.title).html(self.places[focus.key].PlaceName);
 
 				//var data = sidebar_mode === 1 ? (intersections_unique[focus.key] || []) : (trajectories_unique[focus.key]);
 				var data = intersections_unique[focus.key] || [];
-				var items_target = d3.select(ui.dom[self.classkey].results.view);
+				var items_target = d3.select(self.ui.dom[self.classkey].results.view);
 				var items,
 						items_date;
 
@@ -1396,8 +1413,8 @@ class Intersections extends DateMapController {
 
 		function update_datebar(){
 			var f = d3.time.format('%b %Y');
-			d3.select(ui.dom[self.classkey].datestart).html(f(self.date_start));
-			d3.select(ui.dom[self.classkey].dateend).html(f(self.date_end));
+			d3.select(self.ui.dom[self.classkey].datestart).html(f(self.date_start));
+			d3.select(self.ui.dom[self.classkey].dateend).html(f(self.date_end));
 		}
 
 		function update(){
@@ -1418,10 +1435,11 @@ class Intersections extends DateMapController {
 	
   tear_down() {
   	super.tear_down();
+  	var self = this;
     var opp = this.mode === 1 ? 2 : 1;
 		
 		this.intersections.map.selectAll("*").remove();
-		d3.select(ui.dom[this.classkey].dateslider).selectAll('*').remove();
+		d3.select(self.ui.dom[this.classkey].dateslider).selectAll('*').remove();
 		
 		d3.selectAll('.sidebar_tab.selected').classed('selected',false);
 		d3.select('.sidebar_tab#sidebar_01').classed('selected',true);
@@ -1444,8 +1462,9 @@ class Itineraries extends Visualization {
     this.selectedauthors = [null,null];
     this.routes = [];
     this.visHeight = this.height * 4;
-    this.selectionsw = d3.select(ui.dom.itineraries.authors.selections).node().getBoundingClientRect().width;
-    console.log('init height: ' + this.visHeight)
+    this.ui = new ItinerariesUI();
+    this.selectionsw = d3.select(this.ui.dom.itineraries.authors.selections).node().getBoundingClientRect().width;
+
   }
   
   init() {
@@ -1462,15 +1481,15 @@ class Itineraries extends Visualization {
     
     // Set up author selection UI
     
-    d3.select(ui.dom[this.classkey].authors.list)
-      .html(ui.generateAuthorList(this));
+    d3.select(self.ui.dom[this.classkey].authors.list)
+      .html(self.ui.generateAuthorList(this));
 				
-    d3.select(ui.dom[this.classkey].authors.list)
+    d3.select(self.ui.dom[this.classkey].authors.list)
       .selectAll('.author').each(function(){
         d3.select(this).on('click',function(){
           var elem = d3.select(this);  
           var akey = elem.attr('data-key');
-          var max = d3.select(ui.dom[self.classkey].authors.list).selectAll('a.selected')[0].length == self.selectedauthors.length;
+          var max = d3.select(self.ui.dom[self.classkey].authors.list).selectAll('a.selected')[0].length == self.selectedauthors.length;
                               
           if(elem.classed('selected')) {
             elem.classed('selected',false);
@@ -1498,7 +1517,7 @@ class Itineraries extends Visualization {
     
     // Checks to see if at least one author is selected
     
-    if (d3.select(ui.dom[self.classkey].authors.list).selectAll('a.selected')[0].length == 0) {
+    if (d3.select(self.ui.dom[self.classkey].authors.list).selectAll('a.selected')[0].length == 0) {
       return;
     }
     
@@ -1507,14 +1526,14 @@ class Itineraries extends Visualization {
     for(var i=0; i<this.selectedauthors.length; i++) {
       var slot = i;
       var akey = this.selectedauthors[i];
-      var header = ui.dom[this.classkey].selections[i].header;
-      var view = ui.dom[this.classkey].selections[i].view;
+      var header = self.ui.dom[this.classkey].selections[i].header;
+      var view = self.ui.dom[this.classkey].selections[i].view;
       
       if (akey != null) {
         d3.select(header).html(this.authors[akey]);
         this.routes[i] = this.itineraries[akey];
         merge = merge.concat(this.itineraries[akey]);
-        d3.select(ui.dom[this.classkey].selections[i].view).append('svg')        
+        d3.select(self.ui.dom[this.classkey].selections[i].view).append('svg')        
       } else {
         d3.select(header).html("Select an author");
         this.routes[i] = null;
@@ -1531,21 +1550,17 @@ class Itineraries extends Visualization {
       
     var earliest_date = d3.min(starts);
     var latest_date = d3.max(ends);
-    
-    console.log("Generate height: " + this.visHeight)
-            
+                
     // Set up containers
         
     var cheight = this.visHeight 
                     + 16 
-                    + d3.select(ui.dom[this.classkey].authors.header).node().getBoundingClientRect().height 
-                    + d3.select(ui.dom[this.classkey].selections[0].header).node().getBoundingClientRect().height ;
-                    
-    console.log("Container Height: " + cheight);
-    
-    d3.select(ui.dom[this.classkey].authors.selections).style('height',cheight + 'px');
-    d3.select(ui.dom[this.classkey].elem).style('height',cheight + 'px');
-    d3.select(ui.dom[this.classkey].authors.list).style('height',cheight + 'px');
+                    + d3.select(self.ui.dom[this.classkey].authors.header).node().getBoundingClientRect().height 
+                    + d3.select(self.ui.dom[this.classkey].selections[0].header).node().getBoundingClientRect().height ;
+                        
+    d3.select(self.ui.dom[this.classkey].authors.selections).style('height',cheight + 'px');
+    d3.select(self.ui.dom[this.classkey].elem).style('height',cheight + 'px');
+    d3.select(self.ui.dom[this.classkey].authors.list).style('height',cheight + 'px');
 
     //Translate days to distance
     
@@ -1572,7 +1587,7 @@ class Itineraries extends Visualization {
     var self = this;
     var author_id = this.selectedauthors[index];
     var route = this.routes[index];
-    var view = ui.dom[this.classkey].selections[index].view;
+    var view = self.ui.dom[this.classkey].selections[index].view;
             
     if (route == null) {
       return;
@@ -1669,7 +1684,7 @@ class Itineraries extends Visualization {
   					
   				  d3.select('.tooltip').remove();
   
-					d3.select(ui.dom.itineraries.elem)
+					d3.select(self.ui.dom.itineraries.elem)
 					  .append('div')
 					  .attr('class','tooltip')
             .style({
@@ -1827,8 +1842,9 @@ class Itineraries extends Visualization {
   
   tear_down() {
     super.tear_down();
+    var self = this;
     for(var i=0;i<this.selectedauthors.length;i++) {
-      d3.select(ui.dom[this.classkey].selections[i].view).selectAll('*').remove();       
+      d3.select(self.ui.dom[this.classkey].selections[i].view).selectAll('*').remove();       
     } 
   }
 }
@@ -1844,6 +1860,8 @@ class Itineraries extends Visualization {
   - It the function passed to it once the dataset is loaded completely.
 
 */
+
+/*
 
 var intersections = new Object;
 var trajectories = new Object;
@@ -1917,6 +1935,8 @@ var dm = new DataManager(function(){
   
   
 });
+
+*/
 
 //custom sub-selections
 d3.selection.prototype.first = function() {

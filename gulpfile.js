@@ -115,9 +115,11 @@ gulp.task('js',['jslib'], function() {
   return gulp.src([
       src.js
     ])
+    .pipe(sourcemaps.init())
     //.pipe(concat('bundle.js'))
     .pipe(uglify())
     .pipe(rename({ suffix: '.min' }))
+    .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest(dist.js))
     .pipe(browserSync.reload({stream: true}))
     .pipe(gulp.dest(assets.js))

@@ -205,5 +205,3 @@ class SearchUI extends UI {
     };
   }
 }
-
-var ui = new UI;
