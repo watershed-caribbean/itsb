@@ -1849,7 +1849,36 @@ class Itineraries extends Visualization {
   }
 }
 
-/* !INITIALIZATION */
+/* !SEARCH  */
+
+class Search extends Visualization {
+	constructor() {
+  	super();
+  	var self = this;
+  	this.ui = new SearchUI();
+  	this.dm = new DataManager();
+    this.dm.load(function() {
+      self.init();
+	  });
+	  
+	  
+  }
+  
+  init() {
+    var self = this;
+    
+    this.dm.indexData();
+    
+		d3.select(self.ui.dom.searchfield).on('input',function(){
+  		if(this.value.length>2) {
+    	  d3.select(self.ui.dom.searchresults).html(self.dm.DisplaySearchResults(this.value));
+  		}
+		});
+    
+  }
+}
+
+/* INITIALIZATION */
 
 /*
   Note for refactoring: this should be rethought once a proper MVC structure is in place.
