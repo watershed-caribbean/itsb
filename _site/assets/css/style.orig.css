@@ -1,0 +1,436 @@
+html,
+body {
+	background:#f3f3f3;
+	width:100%;
+	height:100%;
+	color:#666;
+	font-family: "Proxima Nova", "Montserrat", "Arial", sans-serif;
+	margin:0;
+	padding:0;
+}
+
+svg {
+	display:block;
+	width:100%;
+	/*height:100%;*/
+	shape-rendering:geometricPrecision;
+	cursor:pointer;
+}
+
+.b {
+	font-weight:bold;
+}
+
+/* Top bar */
+
+#nav_top {
+	z-index:2;
+	background:rgba(255,255,255,0.9);
+	position:absolute;
+	width:100%;
+	height:auto;
+	top:0;
+	left:0;
+	box-shadow:0 0 1px 1px rgba(0,0,0,0.25);
+}
+#nav_top .float {
+	float:left;
+	display:inline-block;
+	margin:0;
+	box-sizing:border-box;
+	margin:0 18px 0 0;
+	padding:18px 0 0;
+}
+#nav_top .float span {
+	cursor:pointer;
+}
+#nav_top .float#title {
+	background:#3399ff;
+	color:white;
+	font-size:13px;
+	letter-spacing:1px;
+	text-align:center;
+	text-transform:uppercase;
+	width:276px;
+	height:54px;
+	padding:20px 0 18px;
+	cursor:default;
+}
+#nav_top .float#title span {
+	cursor:default;
+}
+#nav_top .tab {
+	height:54px;
+	font-size:15px;
+	cursor:pointer;
+}
+#nav_top .tab:hover {
+	color:#3399ff;
+}
+#nav_top .tab.selected {
+	color:#3399ff;
+	border-bottom:6px solid #3399ff;
+}
+
+#nav_top #date_display {
+	background:#eee;
+	float:right;
+	color:#3399ff;
+	font-size:11px;
+	width:138px;
+	margin:0;
+	padding:15px 9px;
+	border-left:6px solid #3399ff;
+}
+#nav_top #date_display span {
+	float:left;
+}
+
+/* Body */
+
+#container {
+	width:100%;
+	height:100%;
+}
+
+/* Controls */
+._01 .control {
+	z-index:1;
+	position:absolute;
+	background:rgba(255,255,255,0.9);
+}
+
+#sidebar {
+	height:100%;
+	width:276px;
+	left:0;
+	top:0;
+	border-right:2px solid white;
+	box-sizing:border-box;
+}
+#sidebar .sidebar_tab {
+	float:left;
+	display:block;
+	background:#eee;
+	color:#aaa;
+	width:50%;
+	height:30px;
+  font-size:11px;
+  font-weight:bold;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:1px;
+	margin-top:54px;
+	padding:15px 15px 30px;
+	box-sizing:border-box;
+	cursor:pointer;
+}
+#sidebar .sidebar_tab:first-child {
+	border-right:2px solid white;
+}
+#sidebar .sidebar_tab.selected {
+	background:transparent;
+	color:#222;
+}
+#sidebar .sidebar_item {
+	float:left;
+	width:100%;
+	font-size:14px;
+	list-style-type:none;
+	padding:6px 18px;
+	box-sizing:border-box;
+}
+#sidebar .sidebar_item#sidebar_title {
+	color:#aaa;
+	/*color:#33cbff;*/
+	font-style:italic;
+	padding-top:24px;
+}
+#sidebar .sidebar_item#sidebar_items {
+	font-weight:bold;
+	font-size:13px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	height:80%;
+	height:calc(100% - 185px);
+	overflow-y:scroll;
+}
+#sidebar .sidebar_item#sidebar_items li {
+	padding:6px 0;
+}
+#sidebar .sidebar_item#sidebar_items li .item_date {
+	color:#aaa;
+	font-size:11px;
+	font-weight:normal;
+	/*text-transform:none;
+	letter-spacing:0;*/
+}
+#sidebar .sidebar_item#sidebar_items li .item_date span._1 {
+	color:#bebebe;
+}
+#sidebar .sidebar_item#sidebar_items li .item_date span._2 {
+	color:#b4b4b4;
+}
+#sidebar .sidebar_item#sidebar_items li .item_date span._3 {
+	color:#aaa;
+}
+/*#sidebar .sidebar_item#sidebar_items li .item_date span.accent {
+	color:#33cbff;
+}
+#sidebar .sidebar_item#sidebar_items li .item_date span._1.accent {
+	color:#47dfff;
+}
+#sidebar .sidebar_item#sidebar_items li .item_date span._2.accent {
+	color:#3dd5ff;
+}
+#sidebar .sidebar_item#sidebar_items li .item_date span._3.accent {
+	color:#33cbff;
+}*/
+
+#slider {
+	height:100%;
+	width:138px;
+	right:0;
+	top:0;
+}
+#slider .slider_body {
+	position:relative;
+	background:#666;
+	height:100%;
+	height:calc(100% - 90px);
+	width:138px;
+	top:72px;
+	margin:0;
+	padding:0;
+}
+#slider .slider_body path,
+#slider .slider_body line {
+	fill:none;
+	stroke:white;
+}
+#slider .slider_body text {
+	fill:white;
+	font-size:10px;
+}
+#slider .slider_body .tick:last-child {
+	display:none;
+}
+
+/* Map */
+
+.map {
+	fill:#ddd;
+	stroke:transparent;
+	stroke-width:0;
+	stroke-opacity:0;
+	stroke-linejoin:miter;
+}
+
+.points_g {
+	cursor:pointer;
+}
+.points_g.focus_point .point {
+	fill:#33cbff;
+	stroke:#33cbff;
+	stroke-width:1;
+	stroke-opacity:1;
+}
+.point {
+	fill:#3399ff;
+	stroke:#3399ff;
+	stroke-width:0.5;
+}
+.point_back {
+	fill:white;
+	fill-opacity:0.5;
+	stroke:transparent;
+}
+.point.point_01 {
+	fill-opacity:0.25;
+	stroke-opacity:0.25;
+}
+.point.point_02 {
+	fill-opacity:0.5;
+	stroke-opacity:0.5;
+}
+.point.point_03 {
+	fill-opacity:1;
+	stroke-opacity:1;
+}
+
+path.line {
+	stroke-width:1;
+}
+
+/* Routes */
+
+text.route_label {
+	font-size:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	text-anchor:middle;
+}
+text.route_point_labels {
+	font-size:11px;
+	letter-spacing:1px;
+	fill:#aaa;
+}
+line.route_line_background {
+	stroke:#ddd;
+	stroke-width:30;
+}
+line.route_line {
+	stroke-width:30;
+}
+line.route_points {
+	stroke:#aaa;
+	stroke-width:1;
+	stroke-dasharray:1,1;
+}
+circle.route_stops {
+	/*stroke:black;*/
+	fill:white;
+	stroke:#aaa;
+	stroke-width:2;
+}
+path.line {
+	fill:none;
+}
+
+
+/* OLD ROUTES */
+text.routes_labels {
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-anchor:middle;
+}
+text.routes_points_labels {
+    font-size:11px;
+    letter-spacing:1px;
+    fill:#aaa;
+}
+line.routes_lines_bknd {
+    stroke:#ddd;
+    stroke-width:30;
+}
+line.routes_lines {
+    stroke-width:30;
+}
+line.routes_points {
+    stroke:#aaa;
+    stroke-width:1;
+    stroke-dasharray:1,1;
+}
+circle.routes_stops {
+    /*stroke:black;*/
+    fill:white;
+    stroke:#aaa;
+    stroke-width:2;
+}
+path.line {
+    fill:none;
+}
+
+/* Colors */
+.author_left {
+    fill:#fb9a99;
+    color:#fb9a99;
+}
+.author_left path,
+path.author_left,
+line.author_left {
+    fill:none;
+    stroke:#fb9a99;
+}
+
+.author_right {
+    fill:#b2df8a;
+    color:#b2df8a;
+}
+.author_right path,
+path.author_right,
+line.author_right {
+    fill:none;
+    stroke:#b2df8a;
+}
+
+
+
+.id_0 {
+	fill:#fb9a99;
+	color:#fb9a99;
+}
+.id_0 path,
+path.id_0,
+line.id_0 {
+	fill:none;
+	stroke:#fb9a99;
+}
+
+.id_1 {
+	fill:#b2df8a;
+	color:#b2df8a;
+}
+.id_1 path,
+path.id_1,
+line.id_1 {
+	fill:none;
+	stroke:#b2df8a;
+}
+
+.id_2 {
+	fill:#cab2d6;
+	color:#cab2d6;
+}
+.id_2 path,
+path.id_2,
+line.id_2 {
+	fill:none;
+	stroke:#cab2d6;
+}
+
+
+._02 .control {
+	z-index:1;
+	position:absolute;
+	background:rgba(255,255,255,0.9);
+}
+
+#itineraries {
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+	border-right:2px solid white;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+
+#nav_padding {
+	height: 75px;
+}
+
+#left_itinerary {
+	float: left;
+	width: 700px;
+}
+
+#right_itinerary {
+	margin-left: 720px;
+    width: 700px;
+}
+
+/*
+#a6cee3
+#1f78b4
+#b2df8a
+#33a02c
+#fb9a99
+#e31a1c
+#fdbf6f
+#ff7f00
+#cab2d6
+*/
