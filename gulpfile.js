@@ -25,7 +25,7 @@ const rename = require('gulp-rename');
 const imagemin = require('gulp-imagemin');
 
 const src = {
-  css: '_sass/main.scss',
+  css: '_sass/style.scss',
   js: '_js/**/*.js',
   data: 'data/**/*',
 }
@@ -72,12 +72,12 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
     });
 });
 
-// Complie SCSS to CSS & Prefix
+// Compile SCSS to CSS & Prefix
 gulp.task('sass', function() {
   return gulp.src(src.css)
     .pipe(sourcemaps.init())
     .pipe(sass({
-      outputStyle: 'compressed',
+      outputStyle: 'expanded',
       includePaths: ['scss'],
       // functions: sassFunctions(),
       onError: browserSync.notify
@@ -103,7 +103,7 @@ gulp.task('jslib', function(){
       'node_modules/velocity-animate/velocity.js',
     ])
     .pipe(uglify())
-    .pipe(rename({ suffix: '.min' }))
+    //.pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(dist.jslib))
     .pipe(browserSync.reload({stream: true}))
     .pipe(gulp.dest(assets.jslib))
@@ -118,7 +118,7 @@ gulp.task('js',['jslib'], function() {
     .pipe(sourcemaps.init())
     //.pipe(concat('bundle.js'))
     .pipe(uglify())
-    .pipe(rename({ suffix: '.min' }))
+    //.pipe(rename({ suffix: '.min' }))
     .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest(dist.js))
     .pipe(browserSync.reload({stream: true}))

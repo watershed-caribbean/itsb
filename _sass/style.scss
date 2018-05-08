@@ -1,0 +1,922 @@
+/* Primary styles for In The Same Boats
+ * SASS file outputs to assets/css/style.css  */
+
+//@import "vendor/_susy.scss";
+//@import "partials/_mixins.sass";
+
+$blh: 1.25em;
+$media_type: screen;
+$min-width: 1250px;
+
+$bp_mobile: 640px;
+
+$clr1: #F89E1C; // Orange
+$clr2: #b19971; // Butter Yellow 
+$clr3: #936A28; // Brown
+
+// Secondary colours for visualizations
+
+$clr4: #CF6428; // Orange Brick
+$clr5: #f9ce89; // Canteloupe
+$clr6: #617a8c; // cobalt
+$clr7: #8ea030; // green
+$clr8: #2893cf; // Blue
+
+$clr0: lighten(#1a82ff,10%); // Blue
+$clr9: lighten(#7f93ba,10%);
+$clr10: #fdeaaf;
+$clr11: #ddcfa4;
+
+$clr_map: (clr0: $clr0, clr1: $clr1, clr2: $clr2, clr3: $clr3, clr4: $clr4, clr5: darken($clr5,10%), clr6: $clr6, clr7: $clr7, clr8: $clr8, clr9: $clr9);
+
+$black: #000000;  // Black
+$white: #F7F8F9; // Practically White
+$neutral: #fcfcfc;
+$darker_neutral: #C6C6C6;
+$dark_neutral: #2D393F;
+$cool_neutral: #E2E5E8;
+
+$orange: #FCB040; //Sunrise Orange
+$blue: #406AFC; //Bright Azure
+
+$maingrey: #585F66; //Storm Grey
+$grey1: #6A727C; //Storm Grey 80%
+$grey2: #A5ACAF; //Storm Grey 50%
+$grey3: #E6E7E9; //Storm Grey 30%
+$grey4: #F0F1F2; //Storm Grey 10%
+
+$basefont: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
+
+$light: 300;
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+
+// Elements
+
+body {
+  background: $white;
+  width: 100%;
+  height: 100%;
+  font-family: $basefont;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  min-width: $min-width;
+  position: inherit;
+}
+
+body > div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+div, a {
+  box-sizing: border-box;
+}
+
+a, a:link, a:visited {
+  color: $black;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Navigation
+
+#nav {
+  width: 20%;
+  height: 4em;
+  background-color: $black;
+  color: $white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 3;
+  border-right: solid 1px $white;
+
+  a, a:link, a:visited {
+    color: $white;
+  }
+
+  a {
+    font-weight: $semibold;
+    padding-top: 1.5em;
+	padding-left: 1em;
+    height: 4em;
+    text-align: left;
+    text-transform: uppercase;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+
+    //@include span(2 of 16 inside no-gutters);
+
+    &:hover, &.active {
+      text-decoration: none;
+
+      // @include block-pointer($black, -1.5em);    
+    }
+    
+  }
+
+  > a {
+    background-color: $orange;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    
+    &#title {
+      color: $white;
+    }
+    
+  }
+}
+
+.navicon {
+  vertical-align: middle;
+  margin-right: 3em;
+}
+#tabs {
+  position: relative;
+  letter-spacing: 0.1em;
+
+  > a:hover, a.active {
+    background-color: $black;
+	color: $white
+  }
+}
+
+// Panels
+
+#panels {
+  .panel {
+    height: 100%;
+  }
+}
+#title {
+  .navtext {
+    color: $black;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+#contents {
+  position: relative;
+  margin-left: 20%;
+  width: 80%;
+}
+
+.visualization {
+  #nav {
+    width: 4em;
+	.navtext {
+	  display: none;
+	}
+  }
+  #contents {
+    margin-left: 4em;
+    width: unset;
+	> #panels {
+	  overflow: hidden;
+    }
+  }
+}
+// Page Layout
+
+#page-title {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2em;
+  h1 {
+    margin: 1.25em auto 0em;
+    font-weight: normal;
+  }
+}  
+#page {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-text {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.9em;
+  &.has-sidebar {
+    width: 55%;
+  }
+  h1,h2 {
+    color: $black;
+  }
+  a {
+    text-decoration: underline;
+  }
+  p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: $black;
+  }
+}
+
+.sidebar {
+  width: 25%;
+  margin: 0 auto;
+  a {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+}
+
+.sidebar_item {
+  height: max-content;
+  clear: both;
+}
+.item_icon {
+  float: left;
+  width: 20%;
+  img {
+    width: 3em;
+  }
+}
+
+.item_info {
+  float: right;
+  width: 80%;
+  h3 {
+    margin-top: 0;
+  }
+}
+
+// About
+
+.about-text {
+  width: 62.5%;
+  margin: 0 auto;
+  padding-top: $blh;
+  
+  h1, h2 {
+    color: $maingrey;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: $maingrey;
+  }
+}
+// Headers
+
+.header {
+  width: 100%;
+  height: 4em;
+  padding: 1em 0;
+  line-height: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: $maingrey;
+  color: $white;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  border-right: solid 1px $white;
+
+  // @include block-pointer($cool_neutral);
+}
+
+// Intersections
+
+#intersections {
+  > * {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    &:nth-child(1) {
+      width: 15%;
+      left: 0;
+    }
+
+    &:nth-child(2) {
+      width: 60%;
+      left: 15%;
+    }
+
+    &:nth-child(3) {
+      width: 25%;
+      left: 75%;
+    }
+  }
+
+  .location {
+    .header {
+      background-color: $maingrey;
+    }
+  }
+}
+
+// Trajectories
+
+#trajectories {
+  > * {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    &:nth-child(1) {
+      width: 15%;
+      left: 0;
+    }
+
+    &:nth-child(2) {
+      width: 25%;
+      left: 15%;
+    }
+
+    &:nth-child(3) {
+      width: 60%;
+      left: 40%;
+    }
+  }
+}
+
+
+// Itineraries
+
+#itineraries
+ > * {
+  position: absolute;
+  top: 0;
+  height: auto;
+  
+  &:nth-child(1) {
+    width: 25%;
+    min-height: 100%;
+    
+    .header {
+      background-color: $grey1;
+    }
+  }
+  
+  &:nth-child(2) {
+    width: 75%;
+    left: 25%;
+  } 
+  
+  .selections {
+    width: 100%;
+  }
+  
+  .itinerary {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    
+    &:nth-child(1) {
+      float: left;
+      z-index: 10; // Necessary to ensure tick lines overlap right itinerary
+    }
+    
+    &:nth-child(2) {
+      left: 50%;
+    }
+    
+    .itinerary-header {
+      width: 100%;
+      text-align: center;
+      padding: $blh 0 $blh/2 0;
+      text-transform: uppercase;
+      color: $clr4;
+      font-weight: $semibold;
+
+    }
+    
+    .itinerary-view {
+      text-align: center;
+      padding-top: $blh;
+      height: auto;
+    }
+    
+    svg {
+      width: 60px;
+      display: inline-block;
+      background-color: $cool_neutral;
+      padding: $blh 0;
+      overflow: visible;
+    }
+  }
+       
+}
+
+/* Itineraries / Routes */
+
+#itinerary-axis {
+  
+  text {
+    fill: darken($darker_neutral,10%);
+    font-size: 11px;
+  }
+  
+  line {
+    stroke: $darker_neutral;
+  }
+}
+
+text.route_label {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-anchor: middle;
+}
+
+text.route_point_labels {
+  font-size: 11px;
+  letter-spacing: 1px;
+  fill: #aaa;
+}
+
+line.route_line_background {
+  stroke: #ddd;
+  stroke-width: 30;
+}
+
+line.route_line {
+  stroke-width: 30;
+}
+
+line.route_points {
+  stroke: #aaa;
+  stroke-width: 1;
+  stroke-dasharray: 1, 1;
+}
+
+circle.route_stops {
+  fill: $clr1;
+  stroke: $clr1;
+  stroke-width: 1;
+}
+
+path.line {
+  fill: none;
+}
+
+.author_left {
+  fill: $clr2;
+  color: $clr2;
+}
+
+.author_left path, path.author_left, line.author_left {
+  fill: none;
+  stroke: $clr2;
+}
+
+.author_right {
+  fill: $clr3;
+  color: $clr3;
+}
+
+.author_right path, path.author_right, line.author_right {
+  fill: none;
+  stroke: $clr3;
+}
+
+@mixin author-list-item {
+  color: $clr4;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  width: 100%;
+  font-weight: $semibold;
+  padding-bottom: $blh;
+  display: block;
+
+  .item_date {
+    text-transform: none;
+    font-size: 0.8em;
+    color: darken($cool_neutral, 20%);
+    font-weight: $regular;
+  }
+}
+
+
+
+// Authors
+
+.authors {
+  background-color: $grey4;
+  
+  .header {
+    background-color: $grey1;
+  }
+}
+
+
+
+.authors-list {
+  .arow {
+    display: table-row;
+    width: 100%;
+  }
+  
+  a {
+    @include author-list-item;
+    width: 50%;
+    display: table-cell;
+    vertical-align: top;
+    padding: $blh;
+    cursor: pointer;
+    color: darken($neutral, 40%);
+    padding-bottom: $blh/16
+  }
+}
+
+
+// Trajectories author
+
+#trajectories {
+  
+  @for $i from 1 through 9 {
+    
+    .a-#{$i} {
+      &:hover, &.selected {
+        $clrindex: $i - 1;
+        $color: #{map-get($clr_map, clr#{$clrindex})};
+        color: $color;
+      }
+    
+    }
+  }
+    
+}
+
+// Itineraries author
+
+#itineraries {
+  .authors-list a.selected {
+    color: $clr4;
+    cursor: pointer;
+  }
+}
+
+
+#itineraries svg {
+  shape-rendering: geometricPrecision;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+
+.results {
+  .items {
+    padding: $blh;
+  }
+
+  .title {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    width: 100%;
+    padding-bottom: $blh / 2;
+    margin-bottom: $blh / 2;
+  }
+
+  .results-view {
+    > div {
+      @include author-list-item;
+      width: 50%;
+      float: left;
+      display: inline-block;
+    }
+  }
+}
+
+// Slider
+
+.date-range {
+  background-color: darken($neutral, 5%);
+}
+
+.indicator {
+  height: 3em;
+  text-align: center;
+  padding: 0.9em;
+  font-size: 0.8em;
+  text-transform: uppercase
+}
+
+.d3-slider {
+  font-family: $basefont;
+}
+
+.d3-slider-vertical {
+  width: 100%;
+  height: calc(100% - 3em);
+}
+
+.d3-slider-range-vertical {
+  background-color: darken($neutral, 10%);
+  border-right: 2px solid $clr1;
+}
+
+.d3-slider-vertical {
+  
+  .d3-slider-handle {
+    right: -0.54em;
+    left: initial;
+    background: $clr1;
+    width: 1.2em;
+    height: 1.2em;
+    margin-bottom: -0.6em;
+    border-radius: 0.6em;
+    border-color: $clr1;
+  }
+  
+  @media only screen and (min-width: $bp_mobile) {
+    .d3-slider-handle {
+      right: -0.36em;
+      width: 0.8em;
+      height: 0.8em;
+      margin-bottom: -0.4em;
+      border-radius: 0.4em;
+    }
+  }
+
+}
+
+.d3-slider-axis {
+  line {
+    stroke: $white;
+  }
+
+  text {
+    fill: $black;
+    stroke: transparent;
+    font-weight: $regular;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+  }
+}
+
+.date-selector {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+
+  svg {
+    width: 100%;
+  }
+}
+
+/* Map */
+
+path.map {
+  fill: #ddd;
+  stroke: transparent;
+  stroke-width: 0;
+  stroke-opacity: 0;
+  stroke-linejoin: miter;
+}
+
+.points_g {
+  cursor: pointer;
+}
+
+.points_g.focus_point .point {
+  fill: #33cbff;
+  stroke: #33cbff;
+  stroke-width: 1;
+  stroke-opacity: 1;
+}
+
+.point {
+  fill: $clr1;
+  stroke: $clr1;
+  stroke-width: 0.5;
+}
+
+.point_back {
+  fill: white;
+  fill-opacity: 0.5;
+  stroke: transparent;
+}
+
+.point.point_01 {
+  fill-opacity: 0.25;
+  stroke-opacity: 0.25;
+}
+
+.point.point_02 {
+  fill-opacity: 0.5;
+  stroke-opacity: 0.5;
+}
+
+.point.point_03 {
+  fill-opacity: 1;
+  stroke-opacity: 1;
+}
+
+path.line {
+  stroke-width: 1;
+}
+
+/* Trajectories */
+
+@for $i from 0 through 7 {
+  
+  $color: #{map-get($clr_map, clr#{$i})};
+  
+  .id_#{$i} {
+    fill: $color;
+    color: $color;
+  
+    
+    path, path.id_#{$i}, line.id_#{$i} {
+      fill: none;
+      stroke: $color;
+    }
+  }
+}
+
+/*
+  .id_0 {
+  fill: #fb9a99;
+  color: #fb9a99;
+}
+
+.id_0 path, path.id_0, line.id_0 {
+  fill: none;
+  stroke: #fb9a99;
+}
+
+.id_1 {
+  fill: #b2df8a;
+  color: #b2df8a;
+}
+
+.id_1 path, path.id_1, line.id_1 {
+  fill: none;
+  stroke: #b2df8a;
+}
+
+.id_2 {
+  fill: #cab2d6;
+  color: #cab2d6;
+}
+
+.id_2 path, path.id_2, line.id_2 {
+  fill: none;
+  stroke: #cab2d6;
+}
+
+  */
+
+._02 .control {
+  z-index: 1;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+// Legend
+
+.legend {
+  width: 250px;
+  position: absolute;
+  top: 75%;
+  right: 15%;
+  float: right;
+  z-index: 10;
+  font-size: 0.9em;
+  border: 1px solid $blue;
+  height: auto;
+  cursor: pointer;
+}
+
+.legend-header {
+  background-color: $blue;
+  color: white;
+  text-transform: uppercase;
+  padding: $blh/4;
+  font-weight: $semibold;
+}
+
+.legend-body {
+  padding: $blh/4;
+  background-color: $white;
+  opacity: 0.95;
+}
+
+.legend-item {
+  display: table-row;
+  height: 40px;
+  
+  > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.legend-text {
+  width: 190px;
+  height: inherit;
+  font-size: 0.9em;
+}
+
+.legend-illustration {
+  width: 60px;
+  height: inherit;
+}
+
+/* tooltip */
+
+.tip {
+  visibility: hidden;
+}
+
+.tooltip {
+  position: absolute;
+  font-family: $basefont;
+  font-size: 12px;
+  width: 120px;
+  border: 1px solid $clr1;
+  background-color: $clr5;  
+  opacity: 0;
+  padding: $blh/2;
+  cursor: pointer;
+  animation: tooltip 0.4s ease-in forwards;
+  bottom: auto;
+  right: auto;
+}
+
+#itineraries .tooltip {
+  transform: translate (0,100px);
+  z-index: 10;
+}
+
+
+
+@keyframes tooltip {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 0.9;
+  }
+}
+
+
+// Search
+
+#search {
+  width: 62.5%;
+  margin: 0 auto;
+  padding-top: $blh;
+  
+  input {
+    width: 100%;
+    height: $blh * 2;
+    font-size: $blh;
+    padding: $blh/4;
+    box-sizing: border-box;
+  }
+}
+
+#search-results {
+  margin-top: $blh;
+  
+  .search-result {
+    padding-bottom: $blh;
+    width: 650px;
+  }
+  
+  .term {
+    @include author-list-item;
+    padding-bottom: 0;
+  }
+  
+  .subhead {
+    text-transform: none;
+    font-size: 0.8em;
+    color: darken($cool_neutral, 20%);
+    font-weight: $regular;
+    padding-bottom: $blh/4
+  }
+  
+  .description {
+    font-size: 0.8em;
+    color: $black;
+  }
+}

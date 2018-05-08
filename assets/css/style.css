@@ -1,37 +1,33 @@
 /* Primary styles for In The Same Boats
  * SASS file outputs to assets/css/style.css  */
 body {
-  background: #fcfcfc;
+  background: #F7F8F9;
   width: 100%;
   height: 100%;
-  font-family: "proxima-nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
-  color: #161C1E;
+  font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
+  color: #000000;
   margin: 0;
   padding: 0;
   min-width: 1250px;
   position: inherit;
 }
 
-body.visualization{
-  overflow: hidden; 
-}
-
-body.visualization > div {
+body > div {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-body > div {
-  overflow: hidden; 
-}
 div, a {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 a, a:link, a:visited {
-  color: #161C1E;
+  color: #000000;
   text-decoration: none;
 }
+
 a:hover, a:link:hover, a:visited:hover {
   text-decoration: underline;
 }
@@ -40,17 +36,19 @@ a:hover, a:link:hover, a:visited:hover {
   width: 20%;
   height: 4em;
   background-color: #000000;
-  color: #fff; 
+  color: #F7F8F9;
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   z-index: 3;
-  border-right: solid 1px #fff;
+  border-right: solid 1px #F7F8F9;
 }
+
 #nav a, #nav a:link, #nav a:visited {
-  color: #F7F8F9; 
+  color: #F7F8F9;
 }
+
 #nav a {
   font-weight: 600;
   padding-top: 1.5em;
@@ -58,68 +56,73 @@ a:hover, a:link:hover, a:visited:hover {
   height: 4em;
   text-align: left;
   text-transform: uppercase;
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   float: left;
 }
+
 #nav a:hover, #nav a.active {
-  text-decoration: none; 
+  text-decoration: none;
 }
+
 #nav > a {
   background-color: #FCB040;
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
 }
+
 #nav > a#title {
-  color: #fff;
+  color: #F7F8F9;
 }
+
 .navicon {
   vertical-align: middle;
   margin-right: 3em;
 }
+
 #tabs {
   position: relative;
   letter-spacing: 0.1em;
 }
+
 #tabs > a:hover, #tabs a.active {
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #F7F8F9;
 }
-.visualization #nav{
-  width: 4em;
+
+#panels .panel {
+  height: 100%;
 }
-.visualization #nav .navtext{
-  display: none;
-}
+
 #title .navtext {
-  color: #000;
+  color: #000000;
   font-size: 1.5em;
   font-weight: bold;
 }
-#contents{
+
+#contents {
   position: relative;
   margin-left: 20%;
   width: 80%;
 }
-.visualization #contents{
+
+.visualization #nav {
+  width: 4em;
+}
+
+.visualization #nav .navtext {
+  display: none;
+}
+
+.visualization #contents {
   margin-left: 4em;
   width: unset;
 }
-#panels {
 
-}
 .visualization #contents > #panels {
-  overflow: hidden; 
-}
-#panels .panel {
-  height: 100%;
-}
-#panels .panel:nth-child(1) {
-
+  overflow: hidden;
 }
 
 #page-title {
@@ -127,64 +130,106 @@ a:hover, a:link:hover, a:visited:hover {
   margin: 0 auto;
   font-size: 2em;
 }
-#page-title h1{
+
+#page-title h1 {
   margin: 1.25em auto 0em;
   font-weight: normal;
 }
-#page{
+
+#page {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
+
 .page-text {
   width: 90%;
   margin: 0 auto;
   font-size: 0.9em;
 }
+
 .page-text.has-sidebar {
   width: 55%;
 }
+
 .page-text h1, .page-text h2 {
-  color: #2D393F; 
+  color: #000000;
 }
+
 .page-text a {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
+
 .page-text p {
   font-size: 1.2em;
   line-height: 1.5em;
-  color: #2D393F;
+  color: #000000;
 }
 
 .sidebar {
   width: 25%;
   margin: 0 auto;
 }
-.sidebar a{
+
+.sidebar a {
   text-transform: uppercase;
   font-weight: bold;
 }
-.sidebar h3{
+
+.sidebar h3 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+
 .sidebar_item {
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   clear: both;
 }
+
 .item_icon {
   float: left;
   width: 20%;
 }
-.item_icon img{
+
+.item_icon img {
   width: 3em;
 }
+
 .item_info {
   float: right;
   width: 80%;
 }
-.item_info h3{
+
+.item_info h3 {
   margin-top: 0;
 }
+
+.about-text {
+  width: 62.5%;
+  margin: 0 auto;
+  padding-top: 1.25em;
+}
+
+.about-text h1, .about-text h2 {
+  color: #585F66;
+}
+
+.about-text a {
+  text-decoration: underline;
+}
+
+.about-text p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #585F66;
+}
+
 .header {
   width: 100%;
   height: 4em;
@@ -193,10 +238,10 @@ a:hover, a:link:hover, a:visited:hover {
   text-transform: uppercase;
   text-align: center;
   background-color: #585F66;
-  color: #fff;
+  color: #F7F8F9;
   letter-spacing: 0.1em;
   font-weight: bold;
-  border-right: solid 1px #fff;
+  border-right: solid 1px #F7F8F9;
 }
 
 #intersections > * {
@@ -204,63 +249,94 @@ a:hover, a:link:hover, a:visited:hover {
   top: 0;
   bottom: 0;
 }
+
 #intersections > *:nth-child(1) {
   width: 15%;
-  left: 0; }
+  left: 0;
+}
+
 #intersections > *:nth-child(2) {
   width: 60%;
-  left: 15%; }
+  left: 15%;
+}
+
 #intersections > *:nth-child(3) {
   width: 25%;
-  left: 75%; }
+  left: 75%;
+}
 
 #intersections .location .header {
-  background-color: #585F66; }
+  background-color: #585F66;
+}
 
 #trajectories > * {
   position: absolute;
   top: 0;
-  bottom: 0; }
+  bottom: 0;
+}
+
 #trajectories > *:nth-child(1) {
   width: 15%;
-  left: 0; }
+  left: 0;
+}
+
 #trajectories > *:nth-child(2) {
   width: 25%;
-  left: 15%; }
+  left: 15%;
+}
+
 #trajectories > *:nth-child(3) {
   width: 60%;
-  left: 40%; }
+  left: 40%;
+}
 
 #itineraries
 > * {
   position: absolute;
-  height: auto; }
+  top: 0;
+  height: auto;
+}
+
 #itineraries
 > *:nth-child(1) {
   width: 25%;
-  min-height: 100%; }
+  min-height: 100%;
+}
+
 #itineraries
 > *:nth-child(1) .header {
-  background-color: #6A727C; }
+  background-color: #6A727C;
+}
+
 #itineraries
 > *:nth-child(2) {
   width: 75%;
-  left: 25%; }
+  left: 25%;
+}
+
 #itineraries
 > * .selections {
-  width: 100%; }
+  width: 100%;
+}
+
 #itineraries
 > * .itinerary {
   position: absolute;
   width: 50%;
-  height: auto; }
+  height: auto;
+}
+
 #itineraries
 > * .itinerary:nth-child(1) {
   float: left;
-  z-index: 10; }
+  z-index: 10;
+}
+
 #itineraries
 > * .itinerary:nth-child(2) {
-  left: 50%; }
+  left: 50%;
+}
+
 #itineraries
 > * .itinerary .itinerary-header {
   width: 100%;
@@ -268,84 +344,106 @@ a:hover, a:link:hover, a:visited:hover {
   padding: 1.25em 0 0.625em 0;
   text-transform: uppercase;
   color: #CF6428;
-  font-weight: 600; }
+  font-weight: 600;
+}
+
 #itineraries
 > * .itinerary .itinerary-view {
   text-align: center;
   padding-top: 1.25em;
-  height: auto; }
+  height: auto;
+}
+
 #itineraries
 > * .itinerary svg {
   width: 60px;
   display: inline-block;
-  background-color: #585F66;
+  background-color: #E2E5E8;
   padding: 1.25em 0;
-  overflow: visible; }
+  overflow: visible;
+}
 
 /* Itineraries / Routes */
 #itinerary-axis text {
-  fill: #adacac;
-  font-size: 11px; }
+  fill: #adadad;
+  font-size: 11px;
+}
 
 #itinerary-axis line {
-  stroke: #C6C6C6; }
+  stroke: #C6C6C6;
+}
 
 text.route_label {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-anchor: middle; }
+  text-anchor: middle;
+}
 
 text.route_point_labels {
   font-size: 11px;
   letter-spacing: 1px;
-  fill: #aaa; }
+  fill: #aaa;
+}
 
 line.route_line_background {
   stroke: #ddd;
-  stroke-width: 30; }
+  stroke-width: 30;
+}
 
 line.route_line {
-  stroke-width: 30; }
+  stroke-width: 30;
+}
 
 line.route_points {
   stroke: #aaa;
   stroke-width: 1;
-  stroke-dasharray: 1, 1; }
+  stroke-dasharray: 1, 1;
+}
 
 circle.route_stops {
   fill: #F89E1C;
   stroke: #F89E1C;
-  stroke-width: 1; }
+  stroke-width: 1;
+}
 
 path.line {
-  fill: none; }
+  fill: none;
+}
 
 .author_left {
   fill: #b19971;
-  color: #b19971; }
+  color: #b19971;
+}
 
 .author_left path, path.author_left, line.author_left {
   fill: none;
-  stroke: #b19971; }
+  stroke: #b19971;
+}
 
 .author_right {
   fill: #936A28;
-  color: #936A28; }
+  color: #936A28;
+}
 
 .author_right path, path.author_right, line.author_right {
   fill: none;
-  stroke: #936A28; }
+  stroke: #936A28;
+}
 
 .authors {
-  background-color: #f7f7f7; }
-  .authors .header {
-  background-color: #6A727C; }
+  background-color: #F0F1F2;
+}
+
+.authors .header {
+  background-color: #6A727C;
+}
 
 .authors-list .arow {
   display: table-row;
-  width: 100%; }
+  width: 100%;
+}
 
 .authors-list a {
   color: #CF6428;
@@ -361,59 +459,75 @@ path.line {
   padding: 1.25em;
   cursor: pointer;
   color: #969696;
-  padding-bottom: 0.078125em; }
-  .authors-list a .item_date {
+  padding-bottom: 0.07812em;
+}
+
+.authors-list a .item_date {
   text-transform: none;
   font-size: 0.8em;
   color: #a9b2bb;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 #trajectories .a-1:hover, #trajectories .a-1.selected {
-  color: #4d9eff; }
+  color: #4d9eff;
+}
 
 #trajectories .a-2:hover, #trajectories .a-2.selected {
-  color: #F89E1C; }
+  color: #F89E1C;
+}
 
 #trajectories .a-3:hover, #trajectories .a-3.selected {
-  color: #b19971; }
+  color: #b19971;
+}
 
 #trajectories .a-4:hover, #trajectories .a-4.selected {
-  color: #936A28; }
+  color: #936A28;
+}
 
 #trajectories .a-5:hover, #trajectories .a-5.selected {
-  color: #CF6428; }
+  color: #CF6428;
+}
 
 #trajectories .a-6:hover, #trajectories .a-6.selected {
-  color: #f7ba58; }
+  color: #f7ba58;
+}
 
 #trajectories .a-7:hover, #trajectories .a-7.selected {
-  color: #617a8c; }
+  color: #617a8c;
+}
 
 #trajectories .a-8:hover, #trajectories .a-8.selected {
-  color: #8ea030; }
+  color: #8ea030;
+}
 
 #trajectories .a-9:hover, #trajectories .a-9.selected {
-  color: #2893cf; }
+  color: #2893cf;
+}
 
 #itineraries .authors-list a.selected {
   color: #CF6428;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 #itineraries svg {
   shape-rendering: geometricPrecision;
   cursor: pointer;
   display: block;
-  width: 100%; }
+  width: 100%;
+}
 
 .results .items {
-  padding: 1.25em; }
+  padding: 1.25em;
+}
 
 .results .title {
   font-size: 1.2em;
   text-transform: uppercase;
   width: 100%;
   padding-bottom: 0.625em;
-  margin-bottom: 0.625em; }
+  margin-bottom: 0.625em;
+}
 
 .results .results-view > div {
   color: #CF6428;
@@ -425,33 +539,41 @@ path.line {
   display: block;
   width: 50%;
   float: left;
-  display: inline-block; }
-  .results .results-view > div .item_date {
+  display: inline-block;
+}
+
+.results .results-view > div .item_date {
   text-transform: none;
   font-size: 0.8em;
   color: #a9b2bb;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 .date-range {
-  background-color: #efefef; }
+  background-color: #efefef;
+}
 
 .indicator {
   height: 3em;
   text-align: center;
   padding: 0.9em;
   font-size: 0.8em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .d3-slider {
-  font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif; }
+  font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
+}
 
 .d3-slider-vertical {
   width: 100%;
-  height: calc(100% - 3em); }
+  height: calc(100% - 3em);
+}
 
 .d3-slider-range-vertical {
-  background-color: #e3e2e2;
-  border-right: 2px solid #F89E1C; }
+  background-color: #e3e3e3;
+  border-right: 2px solid #F89E1C;
+}
 
 .d3-slider-vertical .d3-slider-handle {
   right: -0.54em;
@@ -461,32 +583,40 @@ path.line {
   height: 1.2em;
   margin-bottom: -0.6em;
   border-radius: 0.6em;
-  border-color: #F89E1C; }
+  border-color: #F89E1C;
+}
 
 @media only screen and (min-width: 640px) {
   .d3-slider-vertical .d3-slider-handle {
-  right: -0.36em;
-  width: 0.8em;
-  height: 0.8em;
-  margin-bottom: -0.4em;
-  border-radius: 0.4em; } }
+    right: -0.36em;
+    width: 0.8em;
+    height: 0.8em;
+    margin-bottom: -0.4em;
+    border-radius: 0.4em;
+  }
+}
 
 .d3-slider-axis line {
-  stroke: #F7F8F9; }
+  stroke: #F7F8F9;
+}
 
 .d3-slider-axis text {
-  fill: #161C1E;
+  fill: #000000;
   stroke: transparent;
   font-weight: 400;
   font-size: 0.8em;
-  margin-top: 0.2em; }
+  margin-top: 0.2em;
+}
 
 .date-selector {
   height: 90%;
   margin: 0;
-  padding: 0; }
-  .date-selector svg {
-  width: 100%; }
+  padding: 0;
+}
+
+.date-selector svg {
+  width: 100%;
+}
 
 /* Map */
 path.map {
@@ -494,98 +624,131 @@ path.map {
   stroke: transparent;
   stroke-width: 0;
   stroke-opacity: 0;
-  stroke-linejoin: miter; }
+  stroke-linejoin: miter;
+}
 
 .points_g {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .points_g.focus_point .point {
   fill: #33cbff;
   stroke: #33cbff;
   stroke-width: 1;
-  stroke-opacity: 1; }
+  stroke-opacity: 1;
+}
 
 .point {
-  fill: #406AFC;
-  stroke: #406AFC;
-  stroke-width: 0.5; }
+  fill: #F89E1C;
+  stroke: #F89E1C;
+  stroke-width: 0.5;
+}
 
 .point_back {
   fill: white;
   fill-opacity: 0.5;
-  stroke: transparent; }
+  stroke: transparent;
+}
 
 .point.point_01 {
   fill-opacity: 0.25;
-  stroke-opacity: 0.25; }
+  stroke-opacity: 0.25;
+}
 
 .point.point_02 {
   fill-opacity: 0.5;
-  stroke-opacity: 0.5; }
+  stroke-opacity: 0.5;
+}
 
 .point.point_03 {
   fill-opacity: 1;
-  stroke-opacity: 1; }
+  stroke-opacity: 1;
+}
 
 path.line {
-  stroke-width: 1; }
+  stroke-width: 1;
+}
 
 /* Trajectories */
 .id_0 {
   fill: #4d9eff;
-  color: #4d9eff; }
-  .id_0 path, .id_0 path.id_0, .id_0 line.id_0 {
+  color: #4d9eff;
+}
+
+.id_0 path, .id_0 path.id_0, .id_0 line.id_0 {
   fill: none;
-  stroke: #4d9eff; }
+  stroke: #4d9eff;
+}
 
 .id_1 {
   fill: #F89E1C;
-  color: #F89E1C; }
-  .id_1 path, .id_1 path.id_1, .id_1 line.id_1 {
+  color: #F89E1C;
+}
+
+.id_1 path, .id_1 path.id_1, .id_1 line.id_1 {
   fill: none;
-  stroke: #F89E1C; }
+  stroke: #F89E1C;
+}
 
 .id_2 {
   fill: #b19971;
-  color: #b19971; }
-  .id_2 path, .id_2 path.id_2, .id_2 line.id_2 {
+  color: #b19971;
+}
+
+.id_2 path, .id_2 path.id_2, .id_2 line.id_2 {
   fill: none;
-  stroke: #b19971; }
+  stroke: #b19971;
+}
 
 .id_3 {
   fill: #936A28;
-  color: #936A28; }
-  .id_3 path, .id_3 path.id_3, .id_3 line.id_3 {
+  color: #936A28;
+}
+
+.id_3 path, .id_3 path.id_3, .id_3 line.id_3 {
   fill: none;
-  stroke: #936A28; }
+  stroke: #936A28;
+}
 
 .id_4 {
   fill: #CF6428;
-  color: #CF6428; }
-  .id_4 path, .id_4 path.id_4, .id_4 line.id_4 {
+  color: #CF6428;
+}
+
+.id_4 path, .id_4 path.id_4, .id_4 line.id_4 {
   fill: none;
-  stroke: #CF6428; }
+  stroke: #CF6428;
+}
 
 .id_5 {
   fill: #f7ba58;
-  color: #f7ba58; }
-  .id_5 path, .id_5 path.id_5, .id_5 line.id_5 {
+  color: #f7ba58;
+}
+
+.id_5 path, .id_5 path.id_5, .id_5 line.id_5 {
   fill: none;
-  stroke: #f7ba58; }
+  stroke: #f7ba58;
+}
 
 .id_6 {
   fill: #617a8c;
-  color: #617a8c; }
-  .id_6 path, .id_6 path.id_6, .id_6 line.id_6 {
+  color: #617a8c;
+}
+
+.id_6 path, .id_6 path.id_6, .id_6 line.id_6 {
   fill: none;
-  stroke: #617a8c; }
+  stroke: #617a8c;
+}
 
 .id_7 {
   fill: #8ea030;
-  color: #8ea030; }
-  .id_7 path, .id_7 path.id_7, .id_7 line.id_7 {
+  color: #8ea030;
+}
+
+.id_7 path, .id_7 path.id_7, .id_7 line.id_7 {
   fill: none;
-  stroke: #8ea030; }
+  stroke: #8ea030;
+}
 
 /*
   .id_0 {
@@ -622,7 +785,8 @@ path.line {
 ._02 .control {
   z-index: 1;
   position: absolute;
-  background: rgba(255, 255, 255, 0.9); }
+  background: rgba(255, 255, 255, 0.9);
+}
 
 .legend {
   width: 250px;
@@ -634,39 +798,48 @@ path.line {
   font-size: 0.9em;
   border: 1px solid #406AFC;
   height: auto;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .legend-header {
   background-color: #406AFC;
   color: white;
   text-transform: uppercase;
   padding: 0.3125em;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 .legend-body {
   padding: 0.3125em;
   background-color: #F7F8F9;
-  opacity: 0.95; }
+  opacity: 0.95;
+}
 
 .legend-item {
   display: table-row;
-  height: 40px; }
-  .legend-item > * {
+  height: 40px;
+}
+
+.legend-item > * {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 .legend-text {
   width: 190px;
   height: inherit;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+}
 
 .legend-illustration {
   width: 60px;
-  height: inherit; }
+  height: inherit;
+}
 
 /* tooltip */
 .tip {
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 .tooltip {
   position: absolute;
@@ -678,37 +851,60 @@ path.line {
   opacity: 0;
   padding: 0.625em;
   cursor: pointer;
-  animation: tooltip 0.4s ease-in forwards;
+  -webkit-animation: tooltip 0.4s ease-in forwards;
+          animation: tooltip 0.4s ease-in forwards;
   bottom: auto;
-  right: auto; }
+  right: auto;
+}
 
 #itineraries .tooltip {
-  transform: translate 0, 100px;
-  z-index: 10; }
+  -webkit-transform: translate 0, 100px;
+          transform: translate 0, 100px;
+  z-index: 10;
+}
+
+@-webkit-keyframes tooltip {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
 
 @keyframes tooltip {
   0% {
-  opacity: 0; }
+    opacity: 0;
+  }
   100% {
-  opacity: 0.9; }
- }
+    opacity: 0.9;
+  }
+}
 
 #search {
   width: 62.5%;
   margin: 0 auto;
-  padding-top: 1.25em; }
+  padding-top: 1.25em;
+}
+
 #search input {
   width: 100%;
   height: 2.5em;
   font-size: 1.25em;
   padding: 0.3125em;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 #search-results {
-  margin-top: 1.25em; }
+  margin-top: 1.25em;
+}
+
 #search-results .search-result {
   padding-bottom: 1.25em;
-  width: 650px; }
+  width: 650px;
+}
+
 #search-results .term {
   color: #CF6428;
   text-transform: uppercase;
@@ -717,18 +913,27 @@ path.line {
   font-weight: 600;
   padding-bottom: 1.25em;
   display: block;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+}
+
 #search-results .term .item_date {
   text-transform: none;
   font-size: 0.8em;
   color: #a9b2bb;
-  font-weight: 400; }
+  font-weight: 400;
+}
+
 #search-results .subhead {
   text-transform: none;
   font-size: 0.8em;
   color: #a9b2bb;
   font-weight: 400;
-  padding-bottom: 0.3125em; }
+  padding-bottom: 0.3125em;
+}
+
 #search-results .description {
   font-size: 0.8em;
-  color: #161C1E; }
+  color: #000000;
+}
+
+/*# sourceMappingURL=maps/style.css.map */

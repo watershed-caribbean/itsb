@@ -6,6 +6,5 @@
 #
 layout: search
 title: In the Same Boats
-categories: [search, visualization]
 id: search
 ---
