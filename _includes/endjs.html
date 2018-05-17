@@ -1,2 +1,14 @@
-<!--  <script src="{{ '/assets/js/ui-min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/vis-min.js' | relative_url }}"></script> -->
+<script src="{{ '/assets/js/ui.min.js' | relative_url }}"></script>
+
+{% if page.categories contains 'search' %}
+  <script type='text/javascript' src="/assets/js/libs/lunr.min.js"></script>
+{% endif %}
+
+{% for visualization in site.data.visualizations %}
+  {% if visualization.id == page.id %}
+    <script src="{{ '/assets/js/vis.min.js' | relative_url }}"></script> 
+    <script type="text/javascript">
+      var vis = new {{ visualization.visclass }}();
+    </script>
+  {% endif %}
+{% endfor %}
