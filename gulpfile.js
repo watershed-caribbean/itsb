@@ -118,7 +118,7 @@ gulp.task('js',['jslib'], function() {
     .pipe(sourcemaps.init())
     //.pipe(concat('bundle.js'))
     .pipe(uglify())
-    //.pipe(rename({ suffix: '.min' }))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest(dist.js))
     .pipe(browserSync.reload({stream: true}))

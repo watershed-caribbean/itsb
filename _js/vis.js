@@ -235,7 +235,6 @@ class Visualization {
 	process_data(){
 		var self = this;		
 		self.continents = self.data.continents;
-
 		// places
 		
 		self.dm.buildPlaces();
@@ -1014,6 +1013,9 @@ class Intersections extends DateMapController {
   
   init() {
     super.init();
+    console.log('itineraries');
+    		console.log(this.data);
+
   }
   
   setup() {
