@@ -2,7 +2,6 @@ import os
 import csv
 import codecs
 import json
-import gzip
 from geopy import geocoders
 from operator import itemgetter
 
@@ -15,18 +14,16 @@ from operator import itemgetter
 # Settings
 # ---------
 
-PLACES_CSV_LOCATION = os.getcwd() + '/in/places/'
-ITINERARIES_CSV_LOCATION = os.getcwd() + '/in/itineraries/'
-AUTHOR_ID_JSON = os.path.dirname(os.getcwd()) + '/python/out/author_ids.json'
-ITINERARIES_JSON = os.path.dirname(os.getcwd()) + '/python/out/itineraries.json'
-INTERSECTIONS_JSON = os.path.dirname(os.getcwd()) + '/python/out/intersections.json'
-PLACES_JSON = os.path.dirname(os.getcwd()) + '/python/out/places.json'
-LOGFILE = os.path.dirname(os.getcwd()) + '/python/out/logs/process_log.txt'
+CSV_LOCATION = os.getcwd() + '/raw-data/'
+AUTHOR_ID_JSON = os.path.dirname(os.getcwd()) + '/data/three_author_ids.json'
+ITINERARIES_JSON = os.path.dirname(os.getcwd()) + '/data/three_itineraries.json'
+INTERSECTIONS_JSON = os.path.dirname(os.getcwd()) + '/data/three_intersections.json'
+PLACES_JSON = os.path.dirname(os.getcwd()) + '/data/three_places.json'
 GEONAMES_USERNAME = 'alyv'
 
 
 # ----------
-# Functions	
+# Functions
 # ----------
 
 #-------------------------------------------------------------------------
@@ -143,37 +140,6 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
             csv_file.close()
 
     return author_ids, author_movements, places
-
-
-#-------------------------------------------------------------------------
-# Generates a list of places keyed by Place ID
-# Looks up geocode if geocode not provided in CSV
-#-------------------------------------------------------------------------
-def process_places(csv_path, csv_list, geonames_username):
-    places = {}
-    
-    for csv_name in csv_list:
-        with open(csv_path+csv_name) as csv_file:
-            reader = csv.DictReader(csv_file)
-            
-            for row in reader:
-                place_id = row['Place ID']
-
-                if not place_id in places:
-                  place_info = {}
-                 
-                  if row['Latitude'] == '' or row['Longitude'] == '':
-                      row['Latitude'], row['Longitude'] = get_lat_long(row['Label'],geonames_username)
-                     
-                  else:
-                      #ensures lat/long values are typed consistently regardless of their source
-                      row['Latitude'] = float(row['Latitude'])
-                      row['Longitude'] = float(row['Longitude'])
-                 
-                  places[place_id] = row
-    
-    return places
-                   
 
 
 #-------------------------------------------------------------------------
@@ -415,34 +381,27 @@ def get_intersections(author_movements):
 # Function calls
 # ---------------
 
+csv_list = get_csv_list(CSV_LOCATION)
+author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list, GEONAMES_USERNAME)
 
+itineraries = get_itineraries(author_movements)
+intersections = get_intersections(author_movements)
 
-
-with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
-    f.write(json.dumps(process_places(PLACES_CSV_LOCATION,get_csv_list(PLACES_CSV_LOCATION),GEONAMES_USERNAME), sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
     f.close()
 
-#csv_list = get_csv_list(CSV_LOCATION)
-#author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list, GEONAMES_USERNAME)
+with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
 
-#itineraries = get_itineraries(author_movements)
-#intersections = get_intersections(author_movements)
+with codecs.open(ITINERARIES_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(itineraries, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
 
-#with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
-#    f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-#    f.close()
-
-#with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
-#    f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-#    f.close()
-
-#with codecs.open(ITINERARIES_JSON, 'w', 'utf8') as f:
-#    f.write(json.dumps(itineraries, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-#    f.close()
-
-#with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
-#    f.write(json.dumps(intersections, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-#    f.close()
+with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(intersections, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
 
 
 
