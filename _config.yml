@@ -21,7 +21,7 @@ exclude:
   - npm-debug.log
   - gulpfile.js
 
-include: ['_pages']
+include: ['_pages','.htaccess']
 permalink: /:title/
 
 compress_html:

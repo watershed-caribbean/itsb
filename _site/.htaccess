@@ -1,0 +1,6 @@
+# Adds RequestHeaders that allow the XHR request to decompress on the fly
+
+<FilesMatch .*\.json.gz>
+    Header set Content-Encoding gzip
+    ForceType text/plain
+</FilesMatch>

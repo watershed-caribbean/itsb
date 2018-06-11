@@ -30,8 +30,6 @@ class DataManager {
     this.author_names = {};
     this.places = {};
     this.datasets = ['author_ids','intersections','itineraries','places','continents'];    
-		
-					
   }
   
   // Loads the Datasets
@@ -41,19 +39,38 @@ class DataManager {
 		var self = this;
 		var q = d3.queue();
 		
+		/* 
+  		partial (non-deferred) jQuery implementation 
+  		
+  				  var i = 0;
+		
+  		self.datasets.forEach(function(d){
+    		var filepath = '/data/sixty_' + d +'.json.gz';
+    		jQuery.ajax({
+      		url: filepath,
+      		success: function(data) {
+        		self.data[i] = JSON.parse(data);
+        		i++;
+        		console.log(self.data)
+      		}
+    		});
+  		});	
+
+    */
+				
 		this.datasets.forEach(function(d){
   		var filepath = '/data/' + d +'.json.gz';
-  		q.defer(d3.json,filepath)
+  		q.defer(d3.xhr,filepath);
 		});	
 		
 		q.await(function(error){
   		if (error) throw error;
   		
   		// the first argument is an error object, the subsequent ones correspond to the json datasets
-  		
   		for(var i=1;i < arguments.length; i++) {
     		var darg = i-1;
-    		self.data[self.datasets[darg]] = arguments[i];
+    	//	console.log(arguments[i].responseText);
+    		self.data[self.datasets[darg]] = JSON.parse(arguments[i].responseText);
   		}
   		
   		var invoke = func.call(invoke);
@@ -658,34 +675,43 @@ class Trajectories extends DateMapController {
 				.data(function(d){ return d.value.filter(function(_d){ return _d.PlaceID_End; }); });
 			lines.enter().append('path')
 				.classed('line',true);
+				
+      try {
 			lines
-				.attr('d',function(d){
-					var source = {},
-							target = {};
-					var p_1 = d.PlaceID || d.PlaceID_End,
-							p_2 = d.PlaceID_End || d.PlaceID;
-							
-					//isolate x and y start coordinates using projection
-					
-					source = projection([
-						self.places[p_1].Long,
-						self.places[p_1].Lat
-					]);
-					// if(!self.places[p_2]){debugger;}
-					//isolate x and y end coordinates using projection
-					target = projection([
-						self.places[p_2].Long,
-						self.places[p_2].Lat
-					]);
-					
-					//this is a path builder -- creates a curved line between points
-					//src: http://stackoverflow.com/questions/13455510/curved-line-on-d3-force-directed-tree
-					var dx = target[0] -source[0],
-							dy = target[1] -source[1],
-							dr = Math.sqrt((dx +d.tier) * (dx +d.tier) + (dy +d.tier) * (dy +d.tier));
-					return 'M' + source[0] + ',' + source[1] + 'A' + dr + ',' + dr + ' 0 0,1 ' + target[0] + ',' + target[1];
-				});
-			lines.exit().remove();
+  				.attr('d',function(d){
+  					var source = {},
+  							target = {};
+  					var p_1 = d.PlaceID || d.PlaceID_End,
+  							p_2 = d.PlaceID_End || d.PlaceID;
+  							
+  					//isolate x and y start coordinates using projection
+  					
+  					if (typeof self.places[p_1] == "undefined" || typeof self.places[p_2] == "undefined") {
+    					console.log("There was a problem with the PlaceID " + d.PlaceID);
+  					}
+  					
+  					source = projection([
+  						self.places[p_1].Long,
+  						self.places[p_1].Lat
+  					]);
+  					// if(!self.places[p_2]){debugger;}
+  					//isolate x and y end coordinates using projection
+  					target = projection([
+  						self.places[p_2].Long,
+  						self.places[p_2].Lat
+  					]);
+  					
+  					//this is a path builder -- creates a curved line between points
+  					//src: http://stackoverflow.com/questions/13455510/curved-line-on-d3-force-directed-tree
+  					var dx = target[0] -source[0],
+  							dy = target[1] -source[1],
+  							dr = Math.sqrt((dx +d.tier) * (dx +d.tier) + (dy +d.tier) * (dy +d.tier));
+  					return 'M' + source[0] + ',' + source[1] + 'A' + dr + ',' + dr + ' 0 0,1 ' + target[0] + ',' + target[1];
+  				});
+  			lines.exit().remove();
+			} catch(e) {
+  			console.log(e);
+			}
 		}
 
 		function generate_points(){
@@ -705,47 +731,57 @@ class Trajectories extends DateMapController {
 				.data(d3.entries(intersections));
 			points_g.enter().append('g')
 				.classed('points_g',true);
-			points_g
-				.attr('transform',function(d){
-					var p  = projection([
-								self.places[d.key].Long,
-								self.places[d.key].Lat
-							]),
-							px = p[0],
-							py = p[1];
-					return 'translate(' +px +',' +py +')';
-				})
-				.append('text')
-				.attr("class", "tip")				
-				.text(function(d){
-  				var tooltip = [];
-  				tooltip.push(self.places[d.key].PlaceName);
-  				
-  				// Add names and citations
-  				for(var i=0;i< d.value.info.length;i++) {
-    				var info = []
-    				info.push(self.authors[d.value.info[i].AuthorID]);
+				
+			try {	
+  			points_g
+  				.attr('transform',function(d){
     				
-    				if (d.value.info[i].StartDate != "") {
-      				info.push(" \nFrom: " + d.value.info[i].StartDate.toString());
+    				if (typeof(self.places[d.key] === "undefined")) {
+      				console.log("There was a problem with the PlaceID " + d.key);
     				}
     				
-            if(d.value.info[i].StartCitation != "") {
-              info.push(" (" + d.value.info[i].StartCitation.toString() + ")")            
-            }    				
-    				if (d.value.info[i].EndDate != '') {
-      				info.push("\nUntil: " + d.value.info[i].EndDate);
+  					var p  = projection([
+  								self.places[d.key].Long,
+  								self.places[d.key].Lat
+  							]),
+  							px = p[0],
+  							py = p[1];
+  					return 'translate(' +px +',' +py +')';
+  				})
+  				.append('text')
+  				.attr("class", "tip")				
+  				.text(function(d){
+    				var tooltip = [];
+    				tooltip.push(self.places[d.key].PlaceName);
+    				
+    				// Add names and citations
+    				for(var i=0;i< d.value.info.length;i++) {
+      				var info = []
+      				info.push(self.authors[d.value.info[i].AuthorID]);
+      				
+      				if (d.value.info[i].StartDate != "") {
+        				info.push(" \nFrom: " + d.value.info[i].StartDate.toString());
+      				}
+      				
+              if(d.value.info[i].StartCitation != "") {
+                info.push(" (" + d.value.info[i].StartCitation.toString() + ")")            
+              }    				
+      				if (d.value.info[i].EndDate != '') {
+        				info.push("\nUntil: " + d.value.info[i].EndDate);
+      				}
+      				
+      				if (d.value.info[i].EndDate != '') {
+                info.push(" (" + d.value.info[i].StartCitation.toString() + ")");
+      				}
+      				
+      				tooltip.push(info.join(''));
     				}
     				
-    				if (d.value.info[i].EndDate != '') {
-              info.push(" (" + d.value.info[i].StartCitation.toString() + ")");
-    				}
-    				
-    				tooltip.push(info.join(''));
-  				}
-  				
-  				return tooltip.join("<br />");
-				});
+    				return tooltip.join("<br />");
+  				});
+      } catch(e) {
+        console.log(e);
+      }
 			points_g
 				.on('mousemove',function(d){
 					d3.select(this)
@@ -1013,9 +1049,6 @@ class Intersections extends DateMapController {
   
   init() {
     super.init();
-    console.log('itineraries');
-    		console.log(this.data);
-
   }
   
   setup() {
@@ -1238,21 +1271,30 @@ class Intersections extends DateMapController {
 				.data(d3.entries(intersections));
 			points_g.enter().append('g')
 				.classed('points_g',true);
-			points_g
-				.attr('transform',function(d){
-  				
-					var p  = projection([
-								self.places[d.key].Long,
-								self.places[d.key].Lat
-							]),
-							px = p[0],
-							py = p[1];
-					return 'translate(' +px +',' +py +')';
-				})
-				.append('title')
-				.text(function(d){
-  				return self.places[d.key].PlaceName;
-				});
+				
+      try {
+  			points_g
+  				.attr('transform',function(d){
+    				
+    				if (typeof self.places[d.key] == "undefined") {
+      				console.log("There was a problem with the PlaceID: " + d.key); 
+    				}
+    				
+  					var p  = projection([
+  								self.places[d.key].Long,
+  								self.places[d.key].Lat
+  							]),
+  							px = p[0],
+  							py = p[1];
+  					return 'translate(' +px +',' +py +')';
+  				})
+  				.append('title')
+  				.text(function(d){
+    				return self.places[d.key].PlaceName;
+  				});
+      } catch (e) {
+        console.log(e);
+      }
 			points_g
 				.on('click',function(d){
 					d3.event.stopPropagation();
