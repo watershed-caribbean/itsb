@@ -28,26 +28,21 @@ const src = {
   css: '_sass/style.scss',
   js: '_js/**/*.js',
   data: 'data/**/*',
+  img: '_img/**/*'
 }
 const dist = {
   css: '_site/assets/css',
   js: '_site/assets/js',
   jslib: '_site/assets/js/libs',
   data: '_site/data',
-}
-
-const assets = {
-  css: 'assets/css',
-  js: 'assets/js',
-  jslib: 'assets/js/libs',
-  data: 'assets/data',
+  img: '_site/assets/img'
 }
 
 var gutil = require('gulp-util');
 
 
 // Build the Jekyll Site
-gulp.task('build',['sass','js'], function (done) {
+gulp.task('build', function (done) {
     browserSync.notify(messages.jekyllBuild);
     return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
         .on('close', done);
@@ -59,7 +54,7 @@ gulp.task('deploy', ['build'], function () {
 });
 
 // Rebuild Jekyll & do page reload
-gulp.task('rebuild', ['build'], function () {
+gulp.task('rebuild', ['sass','js','img','build'], function () {
     browserSync.reload();
 });
 
@@ -86,7 +81,6 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest(dist.css))
     .pipe(browserSync.reload({ stream: true }))
-    .pipe(gulp.dest('assets/css'));
 });
 
 gulp.task('jslib', function(){
@@ -106,7 +100,6 @@ gulp.task('jslib', function(){
     //.pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(dist.jslib))
     .pipe(browserSync.reload({stream: true}))
-    .pipe(gulp.dest(assets.jslib))
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
 });
 
@@ -122,7 +115,6 @@ gulp.task('js',['jslib'], function() {
     .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest(dist.js))
     .pipe(browserSync.reload({stream: true}))
-    .pipe(gulp.dest(assets.js))
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
 });
 
@@ -158,7 +150,17 @@ gulp.task('html', function() {
 });
 
 // Images
-gulp.task('img', function() {
+
+gulp.task('img',function(){
+  return gulp.src([
+      src.img
+    ])
+    .pipe(gulp.dest(dist.img))
+    .pipe(browserSync.reload({stream: true}))
+    .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
+});
+
+gulp.task('img-posts', function() {
   return gulp.src('_img/posts/*.{png,jpg}')
     .pipe($.responsive({
       // For all the images in the folder
@@ -195,12 +197,12 @@ gulp.task('img', function() {
       withMetadata: false,
     }))
     .pipe(imagemin())
-    .pipe(gulp.dest('assets/img/posts/'));
+    .pipe(gulp.dest('_site/assets/img/posts/'));
 });
 
 //Data
 gulp.task('data', function() {
   return gulp.src(src.data)
-    .pipe(gulp.dest(dist.css))
+    .pipe(gulp.dest(dist.data))
     .pipe(browserSync.reload({ stream: true }))
 });
