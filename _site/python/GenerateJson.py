@@ -2,28 +2,43 @@ import os
 import csv
 import codecs
 import json
+import gzip
+import datetime
+import shutil
 from geopy import geocoders
 from operator import itemgetter
-
-
-## TO DO ##
-## add State/Province/County information for location data ##
 
 
 # ---------
 # Settings
 # ---------
 
-CSV_LOCATION = os.getcwd() + '/raw-data/'
-AUTHOR_ID_JSON = os.path.dirname(os.getcwd()) + '/data/three_author_ids.json'
-ITINERARIES_JSON = os.path.dirname(os.getcwd()) + '/data/three_itineraries.json'
-INTERSECTIONS_JSON = os.path.dirname(os.getcwd()) + '/data/three_intersections.json'
-PLACES_JSON = os.path.dirname(os.getcwd()) + '/data/three_places.json'
+PLACES_CSV_LOCATION = os.getcwd() + '/in/places/'
+MOVEMENTS_CSV_LOCATION = os.getcwd() + '/in/movements/'
+
+AUTHOR_ID_JSON = os.path.dirname(os.getcwd()) + '/python/out/author_ids.json'
+ITINERARIES_JSON = os.path.dirname(os.getcwd()) + '/python/out/itineraries.json'
+INTERSECTIONS_JSON = os.path.dirname(os.getcwd()) + '/python/out/intersections.json'
+PLACES_JSON = os.path.dirname(os.getcwd()) + '/python/out/places.json'
+
+AUTHOR_ID_GZ = os.path.dirname(os.getcwd()) + '/data/author_ids.json.gz'
+ITINERARIES_GZ = os.path.dirname(os.getcwd()) + '/data/itineraries.json.gz'
+INTERSECTIONS_GZ = os.path.dirname(os.getcwd()) + '/data/intersections.json.gz'
+PLACES_GZ = os.path.dirname(os.getcwd()) + '/data/places.json.gz'
+
+
+LOGFILE = os.path.dirname(os.getcwd()) + '/python/logs/process_log.txt'
 GEONAMES_USERNAME = 'alyv'
 
 
+# ---------
+# Logfile
+# ---------
+
+logf = open(LOGFILE,'a')
+
 # ----------
-# Functions
+# Functions	
 # ----------
 
 #-------------------------------------------------------------------------
@@ -47,7 +62,9 @@ def get_lat_long(place_name, geonames_username):
     gn = geocoders.GeoNames(username=geonames_username, timeout=None)
     location = gn.geocode(place_name,timeout=None)
     if location == None:
-        print(place_name, "not found.")
+        message = place_name + " geocode not found"
+        print(message)
+        logf.write(message + "\n")
         return None, None
     else:
         return location.latitude, location.longitude
@@ -56,19 +73,16 @@ def get_lat_long(place_name, geonames_username):
 # -------------------------------------------------------------------------
 # Returns a dictionary of author ids (key is the author name and the value is their id)
 # author_ids = { 'Aime Cesaire':'acesaire', 'Lydia Cabrera':'lcabrera', ...}
-# Returns a dictionary of places
-# places = { 'PlaceName': {'Lat': xxx, 'Long': yyy, 'Place ID': ##}, ... }
 # Returns a dictionary each author movement
 # author_movements =  { 'acesaire': [{'PlaceID':'paris_france', 'StartDate': ''}, {...}, ... ], 'lcabrera': [ {}...] , ... }
 # The keys for each movement in the author_movements dictionary are as follows:
 # PlaceID, Notes, EntryIndex, StartDate, StartType, StartCitation, EndDate, EndType, EndCitation
 #-------------------------------------------------------------------------
-def process_scholar_files(csv_path, csv_list, geonames_username):
+def process_movements(csv_path):
     author_ids = {}
     author_movements = {}
-    places = {}
 
-    for csv_name in csv_list:
+    for csv_name in get_csv_list(csv_path):
 
         with open(csv_path+csv_name) as csv_file:
 
@@ -78,7 +92,7 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
             author_info = reader.__next__()
             author_name = author_info[0]
             author_id = author_info[1]
-            author_ids[author_name] = author_id
+            author_ids[author_id] = author_name
 
             #read the rest of the csv to get the author's movements
             author_movements[author_id] = []
@@ -88,21 +102,8 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
             for row in reader:
                 if not(row['Arrival'] == '' and row['Departure'] == '' and row['Earliest Presence'] == '' and row['Latest Presence'] == ''):
 
-                    place_name = row['City'] + ', ' + row['Country']
-                    if not place_name in places:
-                        place_info = {}
-
-                        lat, long = get_lat_long(place_name, geonames_username)
-                        place_info['Lat'] = lat
-                        place_info['Long'] = long
-
-                        place_id = row['City'].lower().replace(' ', '-') + '_' + row['Country'].lower().replace(' ', '-')
-                        place_info['PlaceID'] = place_id
-
-                        places[place_name] = place_info
-
                     movement = {}
-                    movement['PlaceID'] = places[place_name]['PlaceID']
+                    movement['PlaceID'] = row['Place ID']
                     movement['Notes'] = row['Notes']
                     movement['EntryIndex'] = row_index
 
@@ -139,7 +140,39 @@ def process_scholar_files(csv_path, csv_list, geonames_username):
 
             csv_file.close()
 
-    return author_ids, author_movements, places
+    return author_ids, author_movements
+
+
+#-------------------------------------------------------------------------
+# Returns a dictionary of places
+# places = { 'PlaceID': {'Lat': xxx, 'Long': yyy, 'Label': ##}, ... }
+#-------------------------------------------------------------------------
+def process_places(csv_path, csv_list, geonames_username):
+    places = {}
+    
+    for csv_name in csv_list:
+        with open(csv_path+csv_name) as csv_file:
+            reader = csv.DictReader(csv_file)
+            
+            for row in reader:
+                place_id = row['Place ID']
+
+                if not place_id in places:
+                  place_info = {}
+                 
+                  # Uses the geopy library if latitude and longitude not supplied in the spreadsheet
+                  if row['Latitude'] == '' or row['Longitude'] == '':
+                      row['Latitude'], row['Longitude'] = get_lat_long(row['Label'],geonames_username)
+                     
+                  else:
+                      #ensures lat/long values are typed consistently regardless of their source
+                      row['Latitude'] = float(row['Latitude'])
+                      row['Longitude'] = float(row['Longitude'])
+                 
+                  places[place_id] = row
+    
+    return places
+                   
 
 
 #-------------------------------------------------------------------------
@@ -381,29 +414,49 @@ def get_intersections(author_movements):
 # Function calls
 # ---------------
 
-csv_list = get_csv_list(CSV_LOCATION)
-author_ids, author_movements, places = process_scholar_files(CSV_LOCATION, csv_list, GEONAMES_USERNAME)
+logf.write("Run time: " + datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S") + "\n\n");
 
-itineraries = get_itineraries(author_movements)
-intersections = get_intersections(author_movements)
+with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
+    f.write(json.dumps(process_places(PLACES_CSV_LOCATION,get_csv_list(PLACES_CSV_LOCATION),GEONAMES_USERNAME), sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.close()
+
+author_ids, author_movements = process_movements(MOVEMENTS_CSV_LOCATION)
 
 with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
     f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
     f.close()
 
-with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
-    f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-    f.close()
-
 with codecs.open(ITINERARIES_JSON, 'w', 'utf8') as f:
-    f.write(json.dumps(itineraries, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.write(json.dumps(get_itineraries(author_movements), sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
     f.close()
 
 with codecs.open(INTERSECTIONS_JSON, 'w', 'utf8') as f:
-    f.write(json.dumps(intersections, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.write(json.dumps(get_intersections(author_movements), sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
     f.close()
+    
+#-------------------------------------------------------------------------
+# Copy compressed JSON files to /data folder 
+#-------------------------------------------------------------------------
+    
+with open(PLACES_JSON, 'rb') as f_in:
+    with gzip.open(PLACES_GZ, 'wb') as f_out:
+        shutil.copyfileobj(f_in, f_out)
+
+with open(AUTHOR_ID_JSON, 'rb') as f_in:
+    with gzip.open(AUTHOR_ID_GZ, 'wb') as f_out:
+        shutil.copyfileobj(f_in, f_out)
+
+with open(ITINERARIES_JSON, 'rb') as f_in:
+    with gzip.open(ITINERARIES_GZ, 'wb') as f_out:
+        shutil.copyfileobj(f_in, f_out)
+    
+with open(INTERSECTIONS_JSON, 'rb') as f_in:
+    with gzip.open(INTERSECTIONS_GZ, 'wb') as f_out:
+        shutil.copyfileobj(f_in, f_out)
 
 
+logf.write("\n---------------------------------------------------\n\n\n");
+logf.close()
 
 #-------------------------------------------------------------------------
 # Unused code (maybe, maybe helpful)

@@ -33,7 +33,7 @@ const dist = {
   css: '_site/assets/css',
   js: '_site/assets/js',
   jslib: '_site/assets/js/libs',
-  data: '_site/assets/data',
+  data: '_site/data',
 }
 
 const assets = {
@@ -47,24 +47,24 @@ var gutil = require('gulp-util');
 
 
 // Build the Jekyll Site
-gulp.task('jekyll-build', function (done) {
+gulp.task('build',['sass','js'], function (done) {
     browserSync.notify(messages.jekyllBuild);
     return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
         .on('close', done);
 });
 
-gulp.task('deploy', ['jekyll-build'], function () {
+gulp.task('deploy', ['build'], function () {
     return gulp.src('./_site/**/*')
         .pipe(deploy());
 });
 
 // Rebuild Jekyll & do page reload
-gulp.task('rebuild', ['jekyll-build'], function () {
+gulp.task('rebuild', ['build'], function () {
     browserSync.reload();
 });
 
 // Rebuild Jekyll & do page reload
-gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['build'], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -203,5 +203,4 @@ gulp.task('data', function() {
   return gulp.src(src.data)
     .pipe(gulp.dest(dist.css))
     .pipe(browserSync.reload({ stream: true }))
-    .pipe(gulp.dest('assets/data'));
 });
