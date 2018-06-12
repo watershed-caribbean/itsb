@@ -7,14 +7,14 @@ class UI {
     // Mirrors variables in assets/sass/style.css
     
     this.palette = {
-      clr1:        '#EE7B22', // Orange
-      clr2:        '#F9D5B6', // Canteloupe
-      clr3:        '#D2D9AC', // Green 
-      black:       '#161C1E',
+      clr1:        '#FCB040', // Sunrise Orange
+      clr2:        '#406AFC', // Bright Azure
+      clr3:        '#585F66', // Storm Grey 
+      black:       '#000000',
       white:       '#F7F8F9',
-      neutral:     '#F9F9F9',
-      darkneutral: '#2D393F', // Charcoal
-      coolneutral: '#E2E5E8' // Cool blue
+      neutral:     '#F0F1F2', // Lightest Neutral in SASS
+      darkneutral: '#A5ACAF', 
+      coolneutral: '#E6E7E9'  
     }
     
     this.dom = {};

@@ -92,8 +92,6 @@ class DataManager {
     var self = this;
     self.places = self.data.places;      // Place JSON no longer requires processing.
 
-
-    console.log(self.data.places);
     /*
     // Places Hack: Replaces dashes with underscores to enforce consistency
 		d3.keys(self.data.places).forEach(function(d){

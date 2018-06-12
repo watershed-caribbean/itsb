@@ -10,40 +10,91 @@ $min-width: 1250px;
 
 $bp_mobile: 640px;
 
-$clr1: #F89E1C; // Orange
-$clr2: #b19971; // Butter Yellow 
-$clr3: #936A28; // Brown
 
-// Secondary colours for visualizations
+// Converts HSB colours to native HSL(A) colours
 
-$clr4: #CF6428; // Orange Brick
-$clr5: #f9ce89; // Canteloupe
-$clr6: #617a8c; // cobalt
-$clr7: #8ea030; // green
-$clr8: #2893cf; // Blue
+@function hsb($h-hsb, $s-hsb, $b-hsb, $a: 1) {
+  @if $b-hsb == 0 {
+    @return hsla(0, 0, 0, $a)
+  } @else {
+    $l-hsl: ($b-hsb/2) * (2 - ($s-hsb/100));
+    $s-hsl: ($b-hsb * $s-hsb) / if($l-hsl < 50, $l-hsl * 2, 200 - $l-hsl * 2);
+    @return hsla($h-hsb, $s-hsl, $l-hsl, $a);
+  }
+}
 
-$clr0: lighten(#1a82ff,10%); // Blue
-$clr9: lighten(#7f93ba,10%);
-$clr10: #fdeaaf;
-$clr11: #ddcfa4;
 
-$clr_map: (clr0: $clr0, clr1: $clr1, clr2: $clr2, clr3: $clr3, clr4: $clr4, clr5: darken($clr5,10%), clr6: $clr6, clr7: $clr7, clr8: $clr8, clr9: $clr9);
+$clr1: hsb(35.74, 74.6, 98.82);  // Sunrise Orange  | #FCB040
+$clr2: hsb(226.67, 74.6, 98.82); // Bright Azure    | #406AFC 
+$clr3: hsb(210, 13.73, 40);      // Storm Grey      | #585F66
 
 $black: #000000;  // Black
 $white: #F7F8F9; // Practically White
-$neutral: #fcfcfc;
-$darker_neutral: #C6C6C6;
-$dark_neutral: #2D393F;
-$cool_neutral: #E2E5E8;
 
-$orange: #FCB040; //Sunrise Orange
-$blue: #406AFC; //Bright Azure
+// Secondary colours for visualizations
 
-$maingrey: #585F66; //Storm Grey
-$grey1: #6A727C; //Storm Grey 80%
-$grey2: #A5ACAF; //Storm Grey 50%
-$grey3: #E6E7E9; //Storm Grey 30%
-$grey4: #F0F1F2; //Storm Grey 10%
+$colour_index: (
+  0: $clr1,                          // Sunrise Orange
+  1: $clr2,                          // Bright Azure
+  2: hsb(319.8, 89.57, 45.1),   // Plum          | #730C51
+  3: hsb(272, 60, 58.82),       // Violet        | #6C3C96
+  4: hsb(37.6, 68, 98.82),      // Spring Green  | #59FC89
+  5: hsb(45.5, 84.51, 88.63),   // Amaranth      | #E22351
+  6: hsb(182.6, 100, 88.63),    // Turquoise     | #00D8E2
+  7: hsb(112, 47.15, 75.69),    // Mantis Green  | #72C166
+  8: hsb(48.12, 79.52, 99.61),  // Bumblebee     | #FED634
+  9: hsb(18.42, 79.53, 99.51),  // Bright Autumn | #FE7234
+);
+
+
+// Extract the brightness value from each colour. 
+// Colours brighter than 50% will graduate lighter (tint) while
+// colours lighter than 50% will graduate darker (shade).
+
+$si_brightness: (
+  0: 98.82,
+  1: 98.82,
+  2: 45.1,
+  3: 58.82,
+  4: 98.8,
+  5: 88.63,
+  6: 88.63,
+  7: 75.69,
+  8: 99.61,
+  9: 99.51
+);
+
+$clr_map: (
+  
+);
+
+@each $key,$colour in $colour_index {
+  @for $i from 0 through 4 {
+      $index: $key + (10 * $i);
+      
+    // Colour shift index colour from 0-40%
+        
+    $colour_shift: 10 * $i;
+    
+    @if map-get($si_brightness,$key) > 50 {
+      $clr_map: map-merge($clr_map,($index: mix($black,$colour,$colour_shift))); // shade
+    } @else {
+      $clr_map: map-merge($clr_map,($index: mix($white,$colour,$colour_shift))); // tint
+    }      
+  }
+}
+
+
+$black: #000000;              // Black
+$white: #FFFFFF;              // Practically White
+$darkest_neutral: $clr3;      // Storm Grey
+$darker_neutral: #6A727C;     // Storm Grey 80%
+$dark_neutral: #A5ACAF;       // Storm Grey 50%
+$neutral: lighten($clr3,40%);
+$light_neutral: #E6E7E9;      // Storm Grey 30%
+$lighter_neutral: #F0F1F2;    // Storm Grey 10%
+$lightest_neutral: #F7F8F9;    // Practically White
+
 
 $basefont: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
 
@@ -127,7 +178,7 @@ a, a:link, a:visited {
   }
 
   > a {
-    background-color: $orange;
+    background-color: $clr1;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -266,7 +317,7 @@ a, a:link, a:visited {
   padding-top: $blh;
   
   h1, h2 {
-    color: $maingrey;
+    color: $darker_neutral;
   }
   
   a {
@@ -276,7 +327,7 @@ a, a:link, a:visited {
   p {
     font-size: 1.2em;
     line-height: 1.5em;
-    color: $maingrey;
+    color: $darker_neutral;
   }
 }
 // Headers
@@ -288,13 +339,13 @@ a, a:link, a:visited {
   line-height: 2em;
   text-transform: uppercase;
   text-align: center;
-  background-color: $maingrey;
+  background-color: $darkest_neutral;
   color: $white;
   letter-spacing: 0.1em;
   font-weight: bold;
   border-right: solid 1px $white;
 
-  // @include block-pointer($cool_neutral);
+  // @include block-pointer($lightest_neutral);
 }
 
 // Intersections
@@ -323,7 +374,7 @@ a, a:link, a:visited {
 
   .location {
     .header {
-      background-color: $maingrey;
+      background-color: $darker_neutral;
     }
   }
 }
@@ -367,7 +418,7 @@ a, a:link, a:visited {
     min-height: 100%;
     
     .header {
-      background-color: $grey1;
+      background-color: $darker_neutral;
     }
   }
   
@@ -399,7 +450,7 @@ a, a:link, a:visited {
       text-align: center;
       padding: $blh 0 $blh/2 0;
       text-transform: uppercase;
-      color: $clr4;
+      color: $clr2;
       font-weight: $semibold;
 
     }
@@ -413,7 +464,7 @@ a, a:link, a:visited {
     svg {
       width: 60px;
       display: inline-block;
-      background-color: $cool_neutral;
+      background-color: $lightest_neutral;
       padding: $blh 0;
       overflow: visible;
     }
@@ -426,7 +477,7 @@ a, a:link, a:visited {
 #itinerary-axis {
   
   text {
-    fill: darken($darker_neutral,10%);
+    fill: $darker_neutral;
     font-size: 11px;
   }
   
@@ -495,7 +546,7 @@ path.line {
 }
 
 @mixin author-list-item {
-  color: $clr4;
+  color: $clr2;
   text-transform: uppercase;
   font-size: 0.9em;
   width: 100%;
@@ -506,20 +557,18 @@ path.line {
   .item_date {
     text-transform: none;
     font-size: 0.8em;
-    color: darken($cool_neutral, 20%);
+    color: $neutral;
     font-weight: $regular;
   }
 }
 
-
-
 // Authors
 
 .authors {
-  background-color: $grey4;
+  background-color: $lighter_neutral;
   
   .header {
-    background-color: $grey1;
+    background-color: $darkest_neutral;
   }
 }
 
@@ -538,7 +587,7 @@ path.line {
     vertical-align: top;
     padding: $blh;
     cursor: pointer;
-    color: darken($neutral, 40%);
+    color: $darker_neutral;
     padding-bottom: $blh/16
   }
 }
@@ -548,12 +597,12 @@ path.line {
 
 #trajectories {
   
-  @for $i from 1 through 9 {
+  @for $i from 1 through 50 {
     
     .a-#{$i} {
       &:hover, &.selected {
         $clrindex: $i - 1;
-        $color: #{map-get($clr_map, clr#{$clrindex})};
+        $color: #{map-get($clr_map, $clrindex)};
         color: $color;
       }
     
@@ -566,7 +615,7 @@ path.line {
 
 #itineraries {
   .authors-list a.selected {
-    color: $clr4;
+    color: $clr2;
     cursor: pointer;
   }
 }
@@ -606,7 +655,7 @@ path.line {
 // Slider
 
 .date-range {
-  background-color: darken($neutral, 5%);
+  background-color: $lightest_neutral;
 }
 
 .indicator {
@@ -627,8 +676,8 @@ path.line {
 }
 
 .d3-slider-range-vertical {
-  background-color: darken($neutral, 10%);
-  border-right: 2px solid $clr1;
+  background-color: $light_neutral;
+  border-right: 2px solid $clr2;
 }
 
 .d3-slider-vertical {
@@ -636,12 +685,12 @@ path.line {
   .d3-slider-handle {
     right: -0.54em;
     left: initial;
-    background: $clr1;
+    background: $clr2;
     width: 1.2em;
     height: 1.2em;
     margin-bottom: -0.6em;
     border-radius: 0.6em;
-    border-color: $clr1;
+    border-color: $clr2;
   }
   
   @media only screen and (min-width: $bp_mobile) {
@@ -683,7 +732,7 @@ path.line {
 /* Map */
 
 path.map {
-  fill: #ddd;
+  fill: $light_neutral;
   stroke: transparent;
   stroke-width: 0;
   stroke-opacity: 0;
@@ -695,8 +744,8 @@ path.map {
 }
 
 .points_g.focus_point .point {
-  fill: #33cbff;
-  stroke: #33cbff;
+  fill: $clr2;
+  stroke: $clr2;
   stroke-width: 1;
   stroke-opacity: 1;
 }
@@ -734,9 +783,9 @@ path.line {
 
 /* Trajectories */
 
-@for $i from 0 through 7 {
+@for $i from 0 through 50 {
   
-  $color: #{map-get($clr_map, clr#{$i})};
+  $color: #{map-get($clr_map, $i)};
   
   .id_#{$i} {
     fill: $color;
@@ -799,13 +848,13 @@ path.line {
   float: right;
   z-index: 10;
   font-size: 0.9em;
-  border: 1px solid $blue;
+  border: 1px solid $clr2;
   height: auto;
   cursor: pointer;
 }
 
 .legend-header {
-  background-color: $blue;
+  background-color: $clr2;
   color: white;
   text-transform: uppercase;
   padding: $blh/4;
@@ -851,7 +900,7 @@ path.line {
   font-size: 12px;
   width: 120px;
   border: 1px solid $clr1;
-  background-color: $clr5;  
+  background-color: $clr2;  
   opacity: 0;
   padding: $blh/2;
   cursor: pointer;
@@ -910,7 +959,7 @@ path.line {
   .subhead {
     text-transform: none;
     font-size: 0.8em;
-    color: darken($cool_neutral, 20%);
+    color: $light_neutral;
     font-weight: $regular;
     padding-bottom: $blh/4
   }
