@@ -26,6 +26,7 @@ const imagemin = require('gulp-imagemin');
 
 const src = {
   css: '_sass/style.scss',
+  csslib: '_csslib/*',
   js: '_js/**/*.js',
   data: 'data/**/*',
   img: '_img/**/*'
@@ -48,13 +49,13 @@ gulp.task('build', function (done) {
         .on('close', done);
 });
 
-gulp.task('deploy', ['build'], function () {
+gulp.task('deploy', ['rebuild'], function () {
     return gulp.src('./_site/**/*')
         .pipe(deploy());
 });
 
 // Rebuild Jekyll & do page reload
-gulp.task('rebuild', ['sass','js','img','build'], function () {
+gulp.task('rebuild', ['build','sass','js','img'], function () {
     browserSync.reload();
 });
 
@@ -68,7 +69,7 @@ gulp.task('browser-sync', ['build'], function() {
 });
 
 // Compile SCSS to CSS & Prefix
-gulp.task('sass', function() {
+gulp.task('sass',['csslib'], function() {
   return gulp.src(src.css)
     .pipe(sourcemaps.init())
     .pipe(sass({
@@ -81,6 +82,12 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest(dist.css))
     .pipe(browserSync.reload({ stream: true }))
+});
+
+gulp.task('csslib',function() {
+  return gulp.src(src.csslib)
+    .pipe(gulp.dest(dist.css))
+    .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
 });
 
 gulp.task('jslib', function(){
