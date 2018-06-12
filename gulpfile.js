@@ -97,7 +97,7 @@ gulp.task('jslib', function(){
       'node_modules/velocity-animate/velocity.js',
     ])
     .pipe(uglify())
-    //.pipe(rename({ suffix: '.min' }))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(dist.jslib))
     .pipe(browserSync.reload({stream: true}))
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
