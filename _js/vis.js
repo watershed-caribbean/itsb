@@ -87,12 +87,15 @@ class DataManager {
 		});
   }
   
+  
   buildPlaces() {
     var self = this;
-    //places
-  
-  // Places Hack: Replaces dashes with underscores to enforce consistency
-  
+    self.places = self.data.places;      // Place JSON no longer requires processing.
+
+
+    console.log(self.data.places);
+    /*
+    // Places Hack: Replaces dashes with underscores to enforce consistency
 		d3.keys(self.data.places).forEach(function(d){
 			var k = d.split(',');
 			k[0] = k[0].trim().split(' ').join('_');
@@ -101,6 +104,8 @@ class DataManager {
 			self.places[k] = self.data.places[d];
 			self.places[k].PlaceName = d;
 		});
+		
+		*/
 		
   }
   
@@ -257,25 +262,30 @@ class Visualization {
 		self.dm.buildPlaces();
 		self.places = self.dm.places;
 		
+				
 		// authors
-		d3.keys(self.data.author_ids).forEach(function(k){
-			self.authors[self.data.author_ids[k]] = k;
-      self.author_names[k] = self.data.author_ids[k];
-		});
+		// self.authors lists authors by key
+		// self.author_names is inverted, listing author ids by name
+		// TO DO: this.author_names is deprecated and should be removed from code
 		
+		self.authors = self.data.author_ids;
+		
+		d3.keys(self.data.author_ids).forEach(function(k){
+      self.author_names[self.data.author_ids[k]] = k;
+		});
+				
 		// itineraries
 		self.itineraries = {};
 		d3.keys(self.authors).forEach(function(d){
 			if(!self.itineraries[d]){ self.itineraries[d] = []; }
 		});
+		
 		d3.keys(self.data.itineraries).forEach(function(d){
 			self.data.itineraries[d].forEach(function(_d){
-  			// Places Hack: Replaces dashes with underscores to enforce consistency
-  			_d.PlaceID = _d.PlaceID.replaceAll('-','_');
 				self.itineraries[_d.AuthorID].push(_d);
 			});
 		});
-    
+		    
     // intersections
     
 		self.intersections = {};
@@ -736,7 +746,7 @@ class Trajectories extends DateMapController {
   			points_g
   				.attr('transform',function(d){
     				
-    				if (typeof(self.places[d.key] === "undefined")) {
+    				if (typeof self.places[d.key] === "undefined") {
       				console.log("There was a problem with the PlaceID " + d.key);
     				}
     				

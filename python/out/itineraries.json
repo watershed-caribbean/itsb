@@ -12,7 +12,7 @@
             "EndType": "departure",
             "EntryIndex": 0,
             "Notes": "Born in hospital in Chicago, Illinois but family lived in Glen Ellyn. Beckford has birth at as 1912 and departure to Chicago at age of 5, but Aschenbrenner concords with other sources on 1909 date of birth. Exact dates of childhood residence need further clarification.",
-            "PlaceID": "",
+            "PlaceID": "glen_ellyn_illinois_usa",
             "StartCitation": "Aschenbrenner 2002, 7; Beckford 1979, 10-11. ",
             "StartDate": "1909-06-22",
             "StartType": "arrival"
@@ -93,7 +93,7 @@
             "EndType": "departure",
             "EntryIndex": 0,
             "Notes": "Born in hospital in Chicago, Illinois but family lived in Glen Ellyn. Beckford has birth at as 1912 and departure to Chicago at age of 5, but Aschenbrenner concords with other sources on 1909 date of birth. Exact dates of childhood residence need further clarification.",
-            "PlaceID": "",
+            "PlaceID": "glen_ellyn_illinois_usa",
             "StartCitation": "Aschenbrenner 2002, 7; Beckford 1979, 10-11. ",
             "StartDate": "1909-06-22",
             "StartType": "arrival"
@@ -105,7 +105,7 @@
             "EndType": "departure",
             "EntryIndex": 1,
             "Notes": "",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Beckford 1979, 11, 15",
             "StartDate": "1914",
             "StartType": "arrival"
@@ -154,7 +154,7 @@
             "EndType": "departure",
             "EntryIndex": 1,
             "Notes": "",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Beckford 1979, 11, 15",
             "StartDate": "1914",
             "StartType": "arrival"
@@ -166,7 +166,7 @@
             "EndType": "departure",
             "EntryIndex": 2,
             "Notes": "",
-            "PlaceID": "",
+            "PlaceID": "joliet_illinois_usa",
             "StartCitation": "Aschenbrenner 2002, 19",
             "StartDate": "1917",
             "StartType": "arrival"
@@ -324,7 +324,7 @@
             "EndType": "departure",
             "EntryIndex": 2,
             "Notes": "",
-            "PlaceID": "",
+            "PlaceID": "joliet_illinois_usa",
             "StartCitation": "Aschenbrenner 2002, 19",
             "StartDate": "1917",
             "StartType": "arrival"
@@ -349,7 +349,7 @@
             "EndType": "departure",
             "EntryIndex": 3,
             "Notes": "Enters University of Chicago in 1929",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Clark and Johnson 2005, xvii",
             "StartDate": "1929",
             "StartType": "arrival"
@@ -361,7 +361,7 @@
             "EndType": "departure",
             "EntryIndex": 4,
             "Notes": "Performs in \"The Man Who Died at Twelve O'Clock, a one-act play by Paul Green, at the Cube Theatre",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Das 2014, 27",
             "StartDate": "1929-01",
             "StartType": "arrival"
@@ -386,7 +386,7 @@
             "EndType": "departure",
             "EntryIndex": 5,
             "Notes": "Meets Mark Turbyfill at Mary Hunter's Apartment",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Barzel 1983, 94",
             "StartDate": "1930-01",
             "StartType": "arrival"
@@ -400,7 +400,7 @@
             "EndType": "departure",
             "EntryIndex": 6,
             "Notes": "Runs a ballet school with Mary Turbyfill",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Barzel 1983, 94-98",
             "StartDate": "1930-02",
             "StartType": "arrival"
@@ -416,7 +416,7 @@
             "EndType": "departure",
             "EntryIndex": 0,
             "Notes": "Birth",
-            "PlaceID": "Bridgetown",
+            "PlaceID": "bridgetown_barbados",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Authors Online",
             "StartDate": "1930-05-11",
             "StartType": "arrival"
@@ -428,7 +428,7 @@
             "EndType": "",
             "EntryIndex": 7,
             "Notes": "Marriage to Jordis McCoo",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Das 2014, 31",
             "StartDate": "1930-05-29",
             "StartType": "arrival"
@@ -449,7 +449,7 @@
             "EndType": "departure",
             "EntryIndex": 6,
             "Notes": "Runs a ballet school with Mary Turbyfill",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Barzel 1983, 94-98",
             "StartDate": "1930-02",
             "StartType": "arrival"
@@ -498,7 +498,7 @@
             "EndType": "departure",
             "EntryIndex": 8,
             "Notes": "Negro Dance Group (which Dunham co-directs with Ludmila Speranzeva) performs at the Chicago Beaux Arts Ball, which Chicago Daily News calls \"the first Negro ballet ever danced.\"",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Das 2014, 33",
             "StartDate": "1932-12",
             "StartType": "arrival"
@@ -534,7 +534,7 @@
             "EndType": "departure",
             "EntryIndex": 9,
             "Notes": "Dunham dances title role in Ruth Page's ballet, La Guiablesse",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Das 2014, 36",
             "StartDate": "1934-11-30",
             "StartType": "arrival"
@@ -549,7 +549,7 @@
             "EndType": "departure",
             "EntryIndex": 3,
             "Notes": "Enters University of Chicago in 1929",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Clark and Johnson 2005, xvii",
             "StartDate": "1929",
             "StartType": "arrival"
@@ -567,7 +567,7 @@
             "EndType": "departure",
             "EntryIndex": 10,
             "Notes": "Fieldwork in Haiti; dates are from letters between Dunham and Herksovits, documenting her arrival and departure",
-            "PlaceID": "",
+            "PlaceID": "port_au_prince_haiti",
             "StartCitation": "Melville Herskovits Papers/Katherine Mary Dunham Papers",
             "StartDate": "1935-06-03",
             "StartType": "arrival"
@@ -581,7 +581,7 @@
             "EndType": "departure",
             "EntryIndex": 11,
             "Notes": "Fieldwork in Jamaica",
-            "PlaceID": "",
+            "PlaceID": "accompong_jamaica",
             "StartCitation": "Das 2014, 42-3",
             "StartDate": "1935-07",
             "StartType": "arrival"
@@ -607,7 +607,7 @@
             "EndType": "departure",
             "EntryIndex": 11,
             "Notes": "Fieldwork in Jamaica",
-            "PlaceID": "",
+            "PlaceID": "accompong_jamaica",
             "StartCitation": "Das 2014, 42-3",
             "StartDate": "1935-07",
             "StartType": "arrival"
@@ -619,7 +619,7 @@
             "EndType": "departure",
             "EntryIndex": 12,
             "Notes": "Fieldwork in Martinique",
-            "PlaceID": "",
+            "PlaceID": "martinique",
             "StartCitation": "Das 2014, ",
             "StartDate": "1935-08",
             "StartType": "arrival"
@@ -647,7 +647,7 @@
             "EndType": "departure",
             "EntryIndex": 12,
             "Notes": "Fieldwork in Martinique",
-            "PlaceID": "",
+            "PlaceID": "martinique",
             "StartCitation": "Das 2014, ",
             "StartDate": "1935-08",
             "StartType": "arrival"
@@ -659,7 +659,7 @@
             "EndType": "departure",
             "EntryIndex": 13,
             "Notes": "Fieldwork in Trinidad",
-            "PlaceID": "",
+            "PlaceID": "trinidad",
             "StartCitation": "Melville Herskovits Papers/Katherine Mary Dunham Papers",
             "StartDate": "1935-10",
             "StartType": "arrival"
@@ -674,7 +674,7 @@
             "EndType": "departure",
             "EntryIndex": 13,
             "Notes": "Fieldwork in Trinidad",
-            "PlaceID": "",
+            "PlaceID": "trinidad",
             "StartCitation": "Melville Herskovits Papers/Katherine Mary Dunham Papers",
             "StartDate": "1935-10",
             "StartType": "arrival"
@@ -686,7 +686,7 @@
             "EndType": "departure",
             "EntryIndex": 14,
             "Notes": "Fieldwork in Haiti",
-            "PlaceID": "",
+            "PlaceID": "haiti",
             "StartCitation": "Melville Herskovits Papers/Katherine Mary Dunham Papers",
             "StartDate": "1935-12",
             "StartType": "arrival"
@@ -700,7 +700,7 @@
             "EndType": "departure",
             "EntryIndex": 16,
             "Notes": "Receives Ph.B. (Bachelor of Philosophy Degree) from University of Chicago",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Clark and Johnson 2005, xvii",
             "StartDate": "1936",
             "StartType": "arrival"
@@ -716,7 +716,7 @@
             "EndType": "departure",
             "EntryIndex": 14,
             "Notes": "Fieldwork in Haiti",
-            "PlaceID": "",
+            "PlaceID": "haiti",
             "StartCitation": "Melville Herskovits Papers/Katherine Mary Dunham Papers",
             "StartDate": "1935-12",
             "StartType": "arrival"
@@ -728,7 +728,7 @@
             "EndType": "departure",
             "EntryIndex": 15,
             "Notes": "Dunham gives performance in Port-au-Prince",
-            "PlaceID": "",
+            "PlaceID": "haiti",
             "StartCitation": "Ramsey 2014, 58",
             "StartDate": "1936-04-03",
             "StartType": "arrival"
@@ -778,7 +778,7 @@
             "EndType": "departure",
             "EntryIndex": 17,
             "Notes": "Performs as part of Negro Dance Evening at the Young Men's Hebrew Association",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Manning 2001, 504, n18-19",
             "StartDate": "1937-03-07",
             "StartType": "arrival"
@@ -801,7 +801,7 @@
             "EndType": "departure",
             "EntryIndex": 18,
             "Notes": "L'Ag'ya performed at Federal Theatre in Chicago; Dunham appointed Director of the Negro Unit of the Chicago Branch of the Federal Theatre Project",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Das 2014, 77-9",
             "StartDate": "1938-01-27",
             "StartType": "arrival"
@@ -815,7 +815,7 @@
             "EndType": "departure",
             "EntryIndex": 18,
             "Notes": "L'Ag'ya performed at Federal Theatre in Chicago; Dunham appointed Director of the Negro Unit of the Chicago Branch of the Federal Theatre Project",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Das 2014, 77-9",
             "StartDate": "1938-01-27",
             "StartType": "arrival"
@@ -830,7 +830,7 @@
             "EndType": "departure",
             "EntryIndex": 19,
             "Notes": "Performs for Haitian Minister at the Haitian Coffee Festival in Washington, D.C.",
-            "PlaceID": "",
+            "PlaceID": "washington_dc._usa",
             "StartCitation": "Ramsey 2014, 62",
             "StartDate": "1938-04-30",
             "StartType": "arrival"
@@ -845,7 +845,7 @@
             "EndType": "departure",
             "EntryIndex": 20,
             "Notes": "Performs at Benefit for Children in Spanish War Area, sponsored by Medical Bureau to Aid Spanish Democracy. Repeated 8 Oct 1938",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Das 2014, 72",
             "StartDate": "1938-06-02",
             "StartType": "arrival"
@@ -865,7 +865,7 @@
             "EndType": "",
             "EntryIndex": 21,
             "Notes": "Moves to New York to choreograph for ILGWU's revue, Pins and Needles, at the Labor Stage (Windsor Theater)",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Aschenbrenner 2001",
             "StartDate": "1939",
             "StartType": "arrival"
@@ -904,7 +904,7 @@
             "EndType": "departure",
             "EntryIndex": 22,
             "Notes": "Premiers Tropics and Le Jazz \"Hot\" at the Windsor Theater; runs for 12 Sundays; Dunham proclaimed founder of a new genre: \"Negro Dance\"",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1940-02-18",
             "StartType": "arrival"
@@ -919,7 +919,7 @@
             "EndType": "departure",
             "EntryIndex": 22,
             "Notes": "Premiers Tropics and Le Jazz \"Hot\" at the Windsor Theater; runs for 12 Sundays; Dunham proclaimed founder of a new genre: \"Negro Dance\"",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1940-02-18",
             "StartType": "arrival"
@@ -938,7 +938,7 @@
             "EndType": "departure",
             "EntryIndex": 23,
             "Notes": "Cabin in the Sky premieres on Broadway, Dunham in role of Georgia Brown; George Balanchine credited choreographer and director; Dunham uncredited co-choroegrapher",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Aschenbrenner 2001",
             "StartDate": "1940-10-25",
             "StartType": "arrival"
@@ -955,7 +955,7 @@
             "EndType": "departure",
             "EntryIndex": 23,
             "Notes": "Cabin in the Sky premieres on Broadway, Dunham in role of Georgia Brown; George Balanchine credited choreographer and director; Dunham uncredited co-choroegrapher",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Aschenbrenner 2001",
             "StartDate": "1940-10-25",
             "StartType": "arrival"
@@ -969,7 +969,7 @@
             "EndType": "departure",
             "EntryIndex": 24,
             "Notes": "National tour of Cabin in the Sky",
-            "PlaceID": "",
+            "PlaceID": "usa",
             "StartCitation": "Das 2014",
             "StartDate": "1941-03",
             "StartType": "arrival"
@@ -985,7 +985,7 @@
             "EndType": "departure",
             "EntryIndex": 24,
             "Notes": "National tour of Cabin in the Sky",
-            "PlaceID": "",
+            "PlaceID": "usa",
             "StartCitation": "Das 2014",
             "StartDate": "1941-03",
             "StartType": "arrival"
@@ -997,7 +997,7 @@
             "EndType": "departure",
             "EntryIndex": 25,
             "Notes": "Films Carnival of Rhythm, a short dance film for Warner Brothers",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1941-06-11",
             "StartType": "arrival"
@@ -1014,7 +1014,7 @@
             "EndType": "departure",
             "EntryIndex": 26,
             "Notes": "Dunham Company performs at the Philharmonic, then moves to Biltmore Theatre",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1941-10-18",
             "StartType": "arrival"
@@ -1028,7 +1028,7 @@
             "EndType": "departure",
             "EntryIndex": 26,
             "Notes": "Dunham Company performs at the Philharmonic, then moves to Biltmore Theatre",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1941-10-18",
             "StartType": "arrival"
@@ -1045,7 +1045,7 @@
             "EndType": "departure",
             "EntryIndex": 27,
             "Notes": "Choreographs Pardon My Sarong",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1942-03",
             "StartType": "arrival"
@@ -1060,7 +1060,7 @@
             "EndType": "departure",
             "EntryIndex": 28,
             "Notes": "Performs at Beacon Theatre",
-            "PlaceID": "",
+            "PlaceID": "vancouver_canada",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1942-05",
             "StartType": "arrival"
@@ -1074,7 +1074,7 @@
             "EndType": "departure",
             "EntryIndex": 29,
             "Notes": "Performs at Moore Theatre and in Fort Lewis for military troops",
-            "PlaceID": "",
+            "PlaceID": "seattle_washington_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1942-06",
             "StartType": "arrival"
@@ -1089,7 +1089,7 @@
             "EndType": "departure",
             "EntryIndex": 30,
             "Notes": "Performs at La Fiesta",
-            "PlaceID": "",
+            "PlaceID": "san_francisco_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1942-08",
             "StartType": "arrival"
@@ -1106,7 +1106,7 @@
             "EndType": "departure",
             "EntryIndex": 31,
             "Notes": "Performs at Carmel Playhouse",
-            "PlaceID": "",
+            "PlaceID": "carmel_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1942-12",
             "StartType": "arrival"
@@ -1122,7 +1122,7 @@
             "EndType": "departure",
             "EntryIndex": 32,
             "Notes": "Performs at Orpheum Theatre",
-            "PlaceID": "",
+            "PlaceID": "oakland_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-03",
             "StartType": "arrival"
@@ -1136,7 +1136,7 @@
             "EndType": "departure",
             "EntryIndex": 33,
             "Notes": "Performs in Spokane",
-            "PlaceID": "",
+            "PlaceID": "spokane_washington_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-04",
             "StartType": "arrival"
@@ -1148,7 +1148,7 @@
             "EndType": "departure",
             "EntryIndex": 34,
             "Notes": "Performs in Portland",
-            "PlaceID": "",
+            "PlaceID": "portland_oregon_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-04",
             "StartType": "arrival"
@@ -1160,7 +1160,7 @@
             "EndType": "departure",
             "EntryIndex": 35,
             "Notes": "Performs in Seattle",
-            "PlaceID": "",
+            "PlaceID": "seattle_washington_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-04",
             "StartType": "arrival"
@@ -1174,7 +1174,7 @@
             "EndType": "departure",
             "EntryIndex": 36,
             "Notes": "Performs at Mark Hopkins Theatre in San Francisco",
-            "PlaceID": "",
+            "PlaceID": "san_francisco_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-05",
             "StartType": "arrival"
@@ -1189,7 +1189,7 @@
             "EndType": "departure",
             "EntryIndex": 37,
             "Notes": "Performs at Chez Paree nightclub",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-07",
             "StartType": "arrival"
@@ -1203,7 +1203,7 @@
             "EndType": "departure",
             "EntryIndex": 38,
             "Notes": "Performs at Lookout House in Covington",
-            "PlaceID": "",
+            "PlaceID": "covington_kentucky_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-08-13",
             "StartType": "arrival"
@@ -1217,7 +1217,7 @@
             "EndType": "departure",
             "EntryIndex": 38,
             "Notes": "Performs at Lookout House in Covington",
-            "PlaceID": "",
+            "PlaceID": "covington_kentucky_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-08-13",
             "StartType": "arrival"
@@ -1229,7 +1229,7 @@
             "EndType": "departure",
             "EntryIndex": 39,
             "Notes": "Performs in Cincinnati",
-            "PlaceID": "",
+            "PlaceID": "cincinnati_ohio_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-09",
             "StartType": "arrival"
@@ -1241,7 +1241,7 @@
             "EndType": "departure",
             "EntryIndex": 40,
             "Notes": "Premiers Tropical Revue at Martin Beck Theatre; runs until December 4; also sets up first Dunham school in 1943 in Caravan Hall according to Love Letters from I Tatti Vol 1",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Burt 2001, 82",
             "StartDate": "1943-09-19",
             "StartType": "arrival"
@@ -1257,7 +1257,7 @@
             "EndType": "departure",
             "EntryIndex": 40,
             "Notes": "Premiers Tropical Revue at Martin Beck Theatre; runs until December 4; also sets up first Dunham school in 1943 in Caravan Hall according to Love Letters from I Tatti Vol 1",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Burt 2001, 82",
             "StartDate": "1943-09-19",
             "StartType": "arrival"
@@ -1269,7 +1269,7 @@
             "EndType": "departure",
             "EntryIndex": 41,
             "Notes": "Tropical Revue tour in Toronto",
-            "PlaceID": "",
+            "PlaceID": "toronto_canada",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1943-12",
             "StartType": "arrival"
@@ -1283,7 +1283,7 @@
             "EndType": "departure",
             "EntryIndex": 42,
             "Notes": "Performs Rites de Passage at Boston Opera House; end date unclear but newspaper article from Jan 23 suggests at least that long",
-            "PlaceID": "",
+            "PlaceID": "boston_massachusetts_usa",
             "StartCitation": "Burt 2001, 82, 89",
             "StartDate": "1944-01-17",
             "StartType": "arrival"
@@ -1295,7 +1295,7 @@
             "EndType": "departure",
             "EntryIndex": 43,
             "Notes": "Tropical Revue in Philadelphia",
-            "PlaceID": "",
+            "PlaceID": "philadelphia_pennsylvania_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-01-24",
             "StartType": "arrival"
@@ -1309,7 +1309,7 @@
             "EndType": "departure",
             "EntryIndex": 43,
             "Notes": "Tropical Revue in Philadelphia",
-            "PlaceID": "",
+            "PlaceID": "philadelphia_pennsylvania_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-01-24",
             "StartType": "arrival"
@@ -1321,7 +1321,7 @@
             "EndType": "departure",
             "EntryIndex": 44,
             "Notes": "Tropical Revue tour",
-            "PlaceID": "",
+            "PlaceID": "pittsburgh_pennsylvania_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-02-14",
             "StartType": "arrival"
@@ -1333,7 +1333,7 @@
             "EndType": "departure",
             "EntryIndex": 45,
             "Notes": "Tropical Revue tour",
-            "PlaceID": "",
+            "PlaceID": "cleveland_ohio_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-02-20",
             "StartType": "arrival"
@@ -1345,7 +1345,7 @@
             "EndType": "departure",
             "EntryIndex": 46,
             "Notes": "Tropical Revue tour",
-            "PlaceID": "",
+            "PlaceID": "st_louis_missouri_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-02-21",
             "StartType": "arrival"
@@ -1359,7 +1359,7 @@
             "EndType": "departure",
             "EntryIndex": 47,
             "Notes": "Tropical Revue tour",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-03",
             "StartType": "arrival"
@@ -1373,7 +1373,7 @@
             "EndType": "departure",
             "EntryIndex": 48,
             "Notes": "Tropical Revue tour",
-            "PlaceID": "",
+            "PlaceID": "san_francisco_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-04",
             "StartType": "arrival"
@@ -1385,7 +1385,7 @@
             "EndType": "departure",
             "EntryIndex": 49,
             "Notes": "Tropical Revue tour",
-            "PlaceID": "",
+            "PlaceID": "san_diego_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-04",
             "StartType": "arrival"
@@ -1413,7 +1413,7 @@
             "EndType": "departure",
             "EntryIndex": 50,
             "Notes": "Tropical Revue tour",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-06",
             "StartType": "arrival"
@@ -1427,7 +1427,7 @@
             "EndType": "departure",
             "EntryIndex": 51,
             "Notes": "Performance at Hollywood Bowl",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-07",
             "StartType": "arrival"
@@ -1442,7 +1442,7 @@
             "EndType": "departure",
             "EntryIndex": 52,
             "Notes": "Tropical Revue tour",
-            "PlaceID": "",
+            "PlaceID": "st_paul_minnesota_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-09-29",
             "StartType": "arrival"
@@ -1456,7 +1456,7 @@
             "EndType": "departure",
             "EntryIndex": 53,
             "Notes": "Tropical Revue tour",
-            "PlaceID": "",
+            "PlaceID": "kansas_city_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-10",
             "StartType": "arrival"
@@ -1468,7 +1468,7 @@
             "EndType": "departure",
             "EntryIndex": 54,
             "Notes": "Performs at Memorial Auditorium and tells audience she will not return until audiences are no longer segregated in the theatre",
-            "PlaceID": "",
+            "PlaceID": "louisville_kentucky_usa",
             "StartCitation": "Clark and Johnson 2005, 255",
             "StartDate": "1944-10-19",
             "StartType": "arrival"
@@ -1495,7 +1495,7 @@
             "EndType": "departure",
             "EntryIndex": 55,
             "Notes": "New Tropical Revue on Broadway; in Love Letters from I Tatti Vol 1 mentions \"late 1944\" starring in Carib Song on Broadway, and night club engagements",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1944-12",
             "StartType": "arrival"
@@ -1513,7 +1513,7 @@
             "EndType": "departure",
             "EntryIndex": 56,
             "Notes": "Hosting party for delegates who are writing the United Nations charter",
-            "PlaceID": "",
+            "PlaceID": "san_francisco_california_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1945-05",
             "StartType": "arrival"
@@ -1527,7 +1527,7 @@
             "EndType": "departure",
             "EntryIndex": 56,
             "Notes": "Hosting party for delegates who are writing the United Nations charter",
-            "PlaceID": "",
+            "PlaceID": "san_francisco_california_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1945-05",
             "StartType": "arrival"
@@ -1543,7 +1543,7 @@
             "EndType": "departure",
             "EntryIndex": 57,
             "Notes": "Previewing Carib Song in New Haven",
-            "PlaceID": "",
+            "PlaceID": "new_haven_connecticut_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1945-09",
             "StartType": "arrival"
@@ -1555,7 +1555,7 @@
             "EndType": "departure",
             "EntryIndex": 58,
             "Notes": "Previewing Carib Song in Boston",
-            "PlaceID": "",
+            "PlaceID": "boston_massachusetts_usa",
             "StartCitation": "KDP-SIUC",
             "StartDate": "1945-09",
             "StartType": "arrival"
@@ -1567,7 +1567,7 @@
             "EndType": "departure",
             "EntryIndex": 59,
             "Notes": "Carib Song opens at Adelphia Theatre; reviewed poorly, closes after a month",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1945-09-27",
             "StartType": "arrival"
@@ -1581,7 +1581,7 @@
             "EndType": "departure",
             "EntryIndex": 59,
             "Notes": "Carib Song opens at Adelphia Theatre; reviewed poorly, closes after a month",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1945-09-27",
             "StartType": "arrival"
@@ -1650,7 +1650,7 @@
             "EndType": "departure",
             "EntryIndex": 60,
             "Notes": "Rehearsing Windy City",
-            "PlaceID": "",
+            "PlaceID": "new_haven_connecticut_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1946-04-16",
             "StartType": "arrival"
@@ -1706,7 +1706,7 @@
             "EndType": "departure",
             "EntryIndex": 61,
             "Notes": "Opening of Bal Negre at the Shubert",
-            "PlaceID": "",
+            "PlaceID": "philadelphia_pennsylvania_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1946-09",
             "StartType": "arrival"
@@ -1732,7 +1732,7 @@
             "EndType": "departure",
             "EntryIndex": 62,
             "Notes": "On tour with Bal Negre in Indianapolis and other Midwestern cities",
-            "PlaceID": "",
+            "PlaceID": "indianapolis_indiana_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1946-10",
             "StartType": "arrival"
@@ -1742,11 +1742,11 @@
         {
             "AuthorID": "kdunham",
             "EndCitation": "Clark and Johnson 2005, 292",
-            "EndDate": "1946-12-1946",
+            "EndDate": "1946-12",
             "EndType": "departure",
             "EntryIndex": 63,
             "Notes": "Performances of the Bal Nègre at the Belasco Theatre",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Clark and Johnson 2005, 292",
             "StartDate": "1946-11-07",
             "StartType": "arrival"
@@ -1756,11 +1756,11 @@
         {
             "AuthorID": "kdunham",
             "EndCitation": "Clark and Johnson 2005, 292",
-            "EndDate": "1946-12-1946",
+            "EndDate": "1946-12",
             "EndType": "departure",
             "EntryIndex": 63,
             "Notes": "Performances of the Bal Nègre at the Belasco Theatre",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Clark and Johnson 2005, 292",
             "StartDate": "1946-11-07",
             "StartType": "arrival"
@@ -1788,7 +1788,7 @@
             "EndType": "departure",
             "EntryIndex": 64,
             "Notes": "Nightclub performances at La Martinique",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1947-02",
             "StartType": "arrival"
@@ -1802,7 +1802,7 @@
             "EndType": "departure",
             "EntryIndex": 65,
             "Notes": "Nightclub performances at the Roxy",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1947-03",
             "StartType": "arrival"
@@ -1816,7 +1816,7 @@
             "EndType": "departure",
             "EntryIndex": 66,
             "Notes": "Premieres Bal Negre in Mexico City on April 16 without sets or costumes; performs for next seven months at Teatro Iris, Teatro Bellas Artes, and Ciro's Nightclub",
-            "PlaceID": "",
+            "PlaceID": "mexico_city_mexico",
             "StartCitation": "Das 2014",
             "StartDate": "1947-04-16",
             "StartType": "arrival"
@@ -1834,7 +1834,7 @@
             "EndType": "departure",
             "EntryIndex": 66,
             "Notes": "Premieres Bal Negre in Mexico City on April 16 without sets or costumes; performs for next seven months at Teatro Iris, Teatro Bellas Artes, and Ciro's Nightclub",
-            "PlaceID": "",
+            "PlaceID": "mexico_city_mexico",
             "StartCitation": "Das 2014",
             "StartDate": "1947-04-16",
             "StartType": "arrival"
@@ -1874,7 +1874,7 @@
             "EndType": "departure",
             "EntryIndex": 67,
             "Notes": "Opening at El Rancho nightclub; one of the first major performing acts in Las Vegas",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1947-11-25",
             "StartType": "arrival"
@@ -1888,7 +1888,7 @@
             "EndType": "departure",
             "EntryIndex": 68,
             "Notes": "Performances at Ciro's Nighclub in HOllywood",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1947-12",
             "StartType": "arrival"
@@ -1902,7 +1902,7 @@
             "EndType": "departure",
             "EntryIndex": 69,
             "Notes": "Performing the New Tropical Revue",
-            "PlaceID": "",
+            "PlaceID": "seattle_washington_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1948-01-25",
             "StartType": "arrival"
@@ -1914,7 +1914,7 @@
             "EndType": "departure",
             "EntryIndex": 78,
             "Notes": "Performances at Alhambra theater; queen invited",
-            "PlaceID": "",
+            "PlaceID": "brussels_belgium",
             "StartCitation": "Das 2014",
             "StartDate": "1949-01-28",
             "StartType": "arrival"
@@ -1928,7 +1928,7 @@
             "EndType": "departure",
             "EntryIndex": 70,
             "Notes": "Performing the New Tropical Revue",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1948-02",
             "StartType": "arrival"
@@ -1942,7 +1942,7 @@
             "EndType": "departure",
             "EntryIndex": 71,
             "Notes": "New Tropical Revue in Michigan",
-            "PlaceID": "",
+            "PlaceID": "michigan_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1948-03-27",
             "StartType": "arrival"
@@ -1957,7 +1957,7 @@
             "EndType": "departure",
             "EntryIndex": 72,
             "Notes": "New Tropical Revue at Nixon Theatre in Pittsburg",
-            "PlaceID": "",
+            "PlaceID": "pittsburgh_pennsylvania_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1948-05-03",
             "StartType": "arrival"
@@ -1971,7 +1971,7 @@
             "EndType": "departure",
             "EntryIndex": 73,
             "Notes": "Performances at Prince of Wales Theatre",
-            "PlaceID": "",
+            "PlaceID": "london_england",
             "StartCitation": "Clark and Johnson 2005, 306",
             "StartDate": "1948-06-03",
             "StartType": "arrival"
@@ -2024,7 +2024,7 @@
             "EndType": "departure",
             "EntryIndex": 73,
             "Notes": "Performances at Prince of Wales Theatre",
-            "PlaceID": "",
+            "PlaceID": "london_england",
             "StartCitation": "Clark and Johnson 2005, 306",
             "StartDate": "1948-06-03",
             "StartType": "arrival"
@@ -2038,7 +2038,7 @@
             "EndType": "departure",
             "EntryIndex": 74,
             "Notes": "Touring the English Provinces with Carribean Rhapsody",
-            "PlaceID": "",
+            "PlaceID": "english_provinces_england",
             "StartCitation": "Das 2014",
             "StartDate": "1948-10",
             "StartType": "arrival"
@@ -2064,7 +2064,7 @@
             "EndType": "departure",
             "EntryIndex": 76,
             "Notes": "Opens Rhapsodie Caraïbe at the Theatre de Paris",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1948-11-25",
             "StartType": "arrival"
@@ -2076,7 +2076,7 @@
             "EndType": "departure",
             "EntryIndex": 77,
             "Notes": "Writes that she is preparing lectures for UNESCO & at Sorbonne",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1948-11-30",
             "StartType": "arrival"
@@ -2090,7 +2090,7 @@
             "EndType": "departure",
             "EntryIndex": 76,
             "Notes": "Opens Rhapsodie Caraïbe at the Theatre de Paris",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1948-11-25",
             "StartType": "arrival"
@@ -2116,7 +2116,7 @@
             "EndType": "departure",
             "EntryIndex": 78,
             "Notes": "Performances at Alhambra theater; queen invited",
-            "PlaceID": "",
+            "PlaceID": "brussels_belgium",
             "StartCitation": "Das 2014",
             "StartDate": "1949-01-28",
             "StartType": "arrival"
@@ -2130,7 +2130,7 @@
             "EndType": "departure",
             "EntryIndex": 79,
             "Notes": "Performances at Palais de Chaillot Theatre",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1949-02-17",
             "StartType": "arrival"
@@ -2156,7 +2156,7 @@
             "EndType": "departure",
             "EntryIndex": 79,
             "Notes": "Performances at Palais de Chaillot Theatre",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1949-02-17",
             "StartType": "arrival"
@@ -2168,7 +2168,7 @@
             "EndType": "departure",
             "EntryIndex": 80,
             "Notes": "Performances of Caribbean Rhapsody; meets Bernard Berenson",
-            "PlaceID": "",
+            "PlaceID": "rome_italy",
             "StartCitation": "Das 2014",
             "StartDate": "1949-03",
             "StartType": "arrival"
@@ -2194,7 +2194,7 @@
             "EndType": "departure",
             "EntryIndex": 80,
             "Notes": "Performances of Caribbean Rhapsody; meets Bernard Berenson",
-            "PlaceID": "",
+            "PlaceID": "rome_italy",
             "StartCitation": "Das 2014",
             "StartDate": "1949-03",
             "StartType": "arrival"
@@ -2208,7 +2208,7 @@
             "EndType": "departure",
             "EntryIndex": 81,
             "Notes": "Performances of Caribbean Rhapsody; letter to Berenson from Stockholm dated 20 May, 1949 in Love Letters from I Tatti Vol 1",
-            "PlaceID": "",
+            "PlaceID": "stockholm_sweden",
             "StartCitation": "Das 2014",
             "StartDate": "1949-05",
             "StartType": "arrival"
@@ -2222,7 +2222,7 @@
             "EndType": "departure",
             "EntryIndex": 81,
             "Notes": "Performances of Caribbean Rhapsody; letter to Berenson from Stockholm dated 20 May, 1949 in Love Letters from I Tatti Vol 1",
-            "PlaceID": "",
+            "PlaceID": "stockholm_sweden",
             "StartCitation": "Das 2014",
             "StartDate": "1949-05",
             "StartType": "arrival"
@@ -2234,7 +2234,7 @@
             "EndType": "departure",
             "EntryIndex": 82,
             "Notes": "Letter to Berenson send from Cirkus Theatre, Stockholm",
-            "PlaceID": "",
+            "PlaceID": "stockholm_sweden",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1949-06-17",
             "StartType": "arrival"
@@ -2246,7 +2246,7 @@
             "EndType": "departure",
             "EntryIndex": 83,
             "Notes": "Writes to Berenson that she needs to return to see family in Joliet",
-            "PlaceID": "",
+            "PlaceID": "joliet_illinois_usa",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1949-06-18",
             "StartType": "arrival"
@@ -2260,7 +2260,7 @@
             "EndType": "departure",
             "EntryIndex": 84,
             "Notes": "Staying at 319 E. 72st St according to letter from Mary Hatton on July 1st",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1949-07-01",
             "StartType": "arrival"
@@ -2272,7 +2272,7 @@
             "EndType": "departure",
             "EntryIndex": 85,
             "Notes": "Brief visit to Haiti; decides to buy Habitation Leclerc; receives Legion de Honneur from President Estimé",
-            "PlaceID": "",
+            "PlaceID": "port_au_prince_haiti",
             "StartCitation": "Das 2014",
             "StartDate": "1949-07",
             "StartType": "arrival"
@@ -2284,7 +2284,7 @@
             "EndType": "departure",
             "EntryIndex": 86,
             "Notes": "Caribbean Rhapsody in Amsterdam; sends letter to Berenson (in Love Letters from I Tatti Vol 1) from Stadschouwburg Theatre, Amsterdam",
-            "PlaceID": "",
+            "PlaceID": "amsterdam_holland",
             "StartCitation": "Das 2014",
             "StartDate": "1949-07-15",
             "StartType": "arrival"
@@ -2313,7 +2313,7 @@
             "EndType": "departure",
             "EntryIndex": 87,
             "Notes": "New Caribbean Rhapsody at Theatre de Paris and Palais de Chaillot",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1949-10-19",
             "StartType": "arrival"
@@ -2327,7 +2327,7 @@
             "EndType": "departure",
             "EntryIndex": 75,
             "Notes": "Writes to Berenson from Theatre de Paris, Rue Blanche, Paris",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1949-11-01",
             "StartType": "arrival"
@@ -2341,7 +2341,7 @@
             "EndType": "departure",
             "EntryIndex": 88,
             "Notes": "Writes four letters on 9, 15 and 26 December & 17 January 1950 c/o Felix Marouani 24 Rue Marbeuf",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1949-12-09",
             "StartType": "arrival"
@@ -2367,7 +2367,7 @@
             "EndType": "departure",
             "EntryIndex": 0,
             "Notes": "Birth",
-            "PlaceID": "Bridgetown",
+            "PlaceID": "bridgetown_barbados",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Authors Online",
             "StartDate": "1930-05-11",
             "StartType": "arrival"
@@ -2379,7 +2379,7 @@
             "EndType": "departure",
             "EntryIndex": 1,
             "Notes": "Attended Pembroke College",
-            "PlaceID": "Cambridge",
+            "PlaceID": "cambridge_england",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1950",
             "StartType": "arrival"
@@ -2391,7 +2391,7 @@
             "EndType": "departure",
             "EntryIndex": 87,
             "Notes": "New Caribbean Rhapsody at Theatre de Paris and Palais de Chaillot",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1949-10-19",
             "StartType": "arrival"
@@ -2403,7 +2403,7 @@
             "EndType": "departure",
             "EntryIndex": 88,
             "Notes": "Writes four letters on 9, 15 and 26 December & 17 January 1950 c/o Felix Marouani 24 Rue Marbeuf",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1949-12-09",
             "StartType": "arrival"
@@ -2417,7 +2417,7 @@
             "EndType": "departure",
             "EntryIndex": 89,
             "Notes": "Lists tour dates in letter to Berenson; from Das note that this is tour of Caribbean Rhapsody in Italy; note that footage in LOC called \"Europe 1950\" is probably from this tour",
-            "PlaceID": "",
+            "PlaceID": "turin_italy",
             "StartCitation": "Love Letters from I Tatti Vol 1; Das 2014",
             "StartDate": "1950-02-08",
             "StartType": "arrival"
@@ -2429,7 +2429,7 @@
             "EndType": "departure",
             "EntryIndex": 90,
             "Notes": "Lists tour dates in letter to Berenson from Paris on 17 January 1950",
-            "PlaceID": "",
+            "PlaceID": "naples_italy",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1950-02-11",
             "StartType": "arrival"
@@ -2441,7 +2441,7 @@
             "EndType": "departure",
             "EntryIndex": 91,
             "Notes": "Lists tour dates in letter to Berenson from Paris on 17 January 1950",
-            "PlaceID": "",
+            "PlaceID": "rome_italy",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1950-02-13",
             "StartType": "arrival"
@@ -2453,7 +2453,7 @@
             "EndType": "departure",
             "EntryIndex": 92,
             "Notes": "Lists tour dates in letter to Berenson from Paris on 17 January 1950; also letters specify lunch with Berenson on 2-24 in Florence",
-            "PlaceID": "",
+            "PlaceID": "florence_italy",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1950-02-23",
             "StartType": "arrival"
@@ -2465,7 +2465,7 @@
             "EndType": "departure",
             "EntryIndex": 93,
             "Notes": "Lists tour dates in letter to Berenson from Paris on 17 January 1950",
-            "PlaceID": "",
+            "PlaceID": "bologna_italy",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1950-02-27",
             "StartType": "arrival"
@@ -2479,7 +2479,7 @@
             "EndType": "departure",
             "EntryIndex": 94,
             "Notes": "Performances an an art gallery showing of her paintings; dates also listed in letter to Berenson from Paris on 17 January 1950 ",
-            "PlaceID": "",
+            "PlaceID": "milan_italy",
             "StartCitation": "Das 2014; Love Letters from I Tatti",
             "StartDate": "1950-03-02",
             "StartType": "arrival"
@@ -2493,7 +2493,7 @@
             "EndType": "departure",
             "EntryIndex": 95,
             "Notes": "Rhapsodie Caraïbe on Broadway",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1950-04-19",
             "StartType": "arrival"
@@ -2507,7 +2507,7 @@
             "EndType": "departure",
             "EntryIndex": 95,
             "Notes": "Rhapsodie Caraïbe on Broadway",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1950-04-19",
             "StartType": "arrival"
@@ -2522,7 +2522,7 @@
             "EndType": "departure",
             "EntryIndex": 96,
             "Notes": "Dunham's hotel reservation at the Esplanada canceled; arranges protest with Gilberto Freyre; national anti-discrimination law passed as a result",
-            "PlaceID": "",
+            "PlaceID": "sao_paolo_brazil",
             "StartCitation": "Das 2014",
             "StartDate": "1950-07-10",
             "StartType": "arrival"
@@ -2536,7 +2536,7 @@
             "EndType": "departure",
             "EntryIndex": 97,
             "Notes": "Telegram sent to Berenson from Hotel Crillon, Buenos Aires",
-            "PlaceID": "",
+            "PlaceID": "buenos_aires_argentina",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1950-08",
             "StartType": "arrival"
@@ -2548,7 +2548,7 @@
             "EndType": "departure",
             "EntryIndex": 98,
             "Notes": "On tour in Uruguay",
-            "PlaceID": "",
+            "PlaceID": "montevideo_uruguay",
             "StartCitation": "Das 2014",
             "StartDate": "1950-08",
             "StartType": "arrival"
@@ -2560,7 +2560,7 @@
             "EndType": "departure",
             "EntryIndex": 99,
             "Notes": "Letter Sent to Berenson from Teatro Artigas, Montevideo",
-            "PlaceID": "",
+            "PlaceID": "montevideo_uruguay",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1950-08-17",
             "StartType": "arrival"
@@ -2587,7 +2587,7 @@
             "EndType": "departure",
             "EntryIndex": 100,
             "Notes": "(Timing described as \"end of 1950\") Researches, composes, choreographs, designs and rehearses Southland",
-            "PlaceID": "",
+            "PlaceID": "buenos_aires_argentina",
             "StartCitation": "Clark and Johnson 2005, 348",
             "StartDate": "1950-10",
             "StartType": "arrival"
@@ -2601,7 +2601,7 @@
             "EndType": "departure",
             "EntryIndex": 101,
             "Notes": "Writes letter to Berenson",
-            "PlaceID": "",
+            "PlaceID": "buenos_aires_argentina",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1950-11-14",
             "StartType": "arrival"
@@ -2613,7 +2613,7 @@
             "EndType": "departure",
             "EntryIndex": 102,
             "Notes": "Arrives in Chile",
-            "PlaceID": "",
+            "PlaceID": "santiago_chile",
             "StartCitation": "Das 2014",
             "StartDate": "1950-11-28",
             "StartType": "arrival"
@@ -2627,7 +2627,7 @@
             "EndType": "departure",
             "EntryIndex": 100,
             "Notes": "(Timing described as \"end of 1950\") Researches, composes, choreographs, designs and rehearses Southland",
-            "PlaceID": "",
+            "PlaceID": "buenos_aires_argentina",
             "StartCitation": "Clark and Johnson 2005, 348",
             "StartDate": "1950-10",
             "StartType": "arrival"
@@ -2639,7 +2639,7 @@
             "EndType": "departure",
             "EntryIndex": 103,
             "Notes": "Premiers Southland at Teatro Municipal ",
-            "PlaceID": "",
+            "PlaceID": "santiago_chile",
             "StartCitation": "Clark and Johnson 2005, 345",
             "StartDate": "1950-12-09",
             "StartType": "arrival"
@@ -2651,7 +2651,7 @@
             "EndType": "departure",
             "EntryIndex": 104,
             "Notes": "On vacation in Mar de Plata; snubbed by U.S. embassy officials",
-            "PlaceID": "",
+            "PlaceID": "mar_de_plata_argentina",
             "StartCitation": "Das 2014",
             "StartDate": "1950-12-14",
             "StartType": "arrival"
@@ -2665,7 +2665,7 @@
             "EndType": "departure",
             "EntryIndex": 105,
             "Notes": "Performances in Peru; welcomed warmly by U.S. ambassador",
-            "PlaceID": "",
+            "PlaceID": "lima_peru",
             "StartCitation": "Das 2014",
             "StartDate": "1951-01",
             "StartType": "arrival"
@@ -2679,7 +2679,7 @@
             "EndType": "departure",
             "EntryIndex": 106,
             "Notes": "Performances in Colombia",
-            "PlaceID": "",
+            "PlaceID": "colombia",
             "StartCitation": "Das 2014",
             "StartDate": "1951-02",
             "StartType": "arrival"
@@ -2693,7 +2693,7 @@
             "EndType": "departure",
             "EntryIndex": 107,
             "Notes": "Performances in Ecuador",
-            "PlaceID": "",
+            "PlaceID": "ecuador",
             "StartCitation": "Das 2014",
             "StartDate": "1951-03",
             "StartType": "arrival"
@@ -2707,9 +2707,9 @@
             "EndType": "departure",
             "EntryIndex": 108,
             "Notes": "Performances in Jamaica; Appendix removed",
-            "PlaceID": "",
+            "PlaceID": "kingston_jamaica",
             "StartCitation": "Das 2014",
-            "StartDate": "1951-04-",
+            "StartDate": "1951-04",
             "StartType": "arrival"
         },
         {
@@ -2719,7 +2719,7 @@
             "EndType": "departure",
             "EntryIndex": 109,
             "Notes": "Letter sent by assistant to Berenson says she is recovering from emergency appendix operation at the Andrews Memorial Hospital, Hope Road, Half Way Tree, Kingston, Jamaica. This is actually dated 1950 in the manuscript but doesn't make sense that this would be the timing, so seems error on Dunham's part in later manuscript. ",
-            "PlaceID": "",
+            "PlaceID": "kingston_jamaica",
             "StartCitation": "Love Letters from I Tatti, Vol 1",
             "StartDate": "1951-04-03",
             "StartType": "arrival"
@@ -2733,7 +2733,7 @@
             "EndType": "departure",
             "EntryIndex": 110,
             "Notes": "Performances and Recuperation in Haiti; finalizes purchase of Leclerc",
-            "PlaceID": "",
+            "PlaceID": "port_au_prince_haiti",
             "StartCitation": "Das 2014",
             "StartDate": "1951-05",
             "StartType": "arrival"
@@ -2747,7 +2747,7 @@
             "EndType": "departure",
             "EntryIndex": 111,
             "Notes": "Writes to Berenson from Maison Le Clerc",
-            "PlaceID": "",
+            "PlaceID": "port_au_prince_haiti",
             "StartCitation": "Love Letters from I Tatti  vol. 1",
             "StartDate": "1951-06-13",
             "StartType": "arrival"
@@ -2762,7 +2762,7 @@
             "EndType": "departure",
             "EntryIndex": 110,
             "Notes": "Performances and Recuperation in Haiti; finalizes purchase of Leclerc",
-            "PlaceID": "",
+            "PlaceID": "port_au_prince_haiti",
             "StartCitation": "Das 2014",
             "StartDate": "1951-05",
             "StartType": "arrival"
@@ -2774,7 +2774,7 @@
             "EndType": "departure",
             "EntryIndex": 112,
             "Notes": "Performances at El Rancho nightclub",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1951-08-15",
             "StartType": "arrival"
@@ -2788,7 +2788,7 @@
             "EndType": "departure",
             "EntryIndex": 112,
             "Notes": "Performances at El Rancho nightclub",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1951-08-15",
             "StartType": "arrival"
@@ -2800,7 +2800,7 @@
             "EndType": "departure",
             "EntryIndex": 113,
             "Notes": "Performances at Ciro's Nightclub",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1951-09",
             "StartType": "arrival"
@@ -2814,7 +2814,7 @@
             "EndType": "departure",
             "EntryIndex": 114,
             "Notes": "Writes to Berenson from Theatre des Champs Elysees",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti vol 1",
             "StartDate": "1951-10-29",
             "StartType": "arrival"
@@ -2828,7 +2828,7 @@
             "EndType": "departure",
             "EntryIndex": 115,
             "Notes": "Performances at the Champs-Elysees Theatre",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1951-11-14",
             "StartType": "arrival"
@@ -2840,7 +2840,7 @@
             "EndType": "departure",
             "EntryIndex": 116,
             "Notes": "Writes to Berenson from Theatre des Champs Elysees",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti vol 1",
             "StartDate": "1951-11-27",
             "StartType": "arrival"
@@ -2854,7 +2854,7 @@
             "EndType": "departure",
             "EntryIndex": 115,
             "Notes": "Performances at the Champs-Elysees Theatre",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1951-11-14",
             "StartType": "arrival"
@@ -2866,7 +2866,7 @@
             "EndType": "departure",
             "EntryIndex": 117,
             "Notes": "Section describing several weeks in Paris, dated 14 Dec 1950 (but seems error on Dunham's part as must be 1951). Describes time with Marie-Christine, who she says was \"just over 4 years old.\" Also writes letter to Berenson dated 14 December 1951 from Theatre des Champs Elysees, which confirms date error in header. ",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti vol 1",
             "StartDate": "1951-12-14",
             "StartType": "arrival"
@@ -2880,7 +2880,7 @@
             "EndType": "departure",
             "EntryIndex": 118,
             "Notes": "Writes to Berenson from 13 Little Chester St, London S.W. 1. \"It looks like we will be at this adress fomr some little time then.\"",
-            "PlaceID": "",
+            "PlaceID": "london_england",
             "StartCitation": "Love Letters from I Tatti vol 1",
             "StartDate": "1952-01-24",
             "StartType": "arrival"
@@ -2894,9 +2894,9 @@
             "EndType": "departure",
             "EntryIndex": 119,
             "Notes": "Writes 2 letters to Berenson from 13 Little Chester St, London S.W. 1",
-            "PlaceID": "",
+            "PlaceID": "london_england",
             "StartCitation": "Love Letters from I Tatti vol 1 and vol 2",
-            "StartDate": "1952-02-7",
+            "StartDate": "1952-02-07",
             "StartType": "arrival"
         },
         {
@@ -2906,7 +2906,7 @@
             "EndType": "departure",
             "EntryIndex": 120,
             "Notes": "Touring England",
-            "PlaceID": "",
+            "PlaceID": "england",
             "StartCitation": "Das 2014",
             "StartDate": "1952-02",
             "StartType": "arrival"
@@ -2920,7 +2920,7 @@
             "EndType": "departure",
             "EntryIndex": 120,
             "Notes": "Touring England",
-            "PlaceID": "",
+            "PlaceID": "england",
             "StartCitation": "Das 2014",
             "StartDate": "1952-02",
             "StartType": "arrival"
@@ -2932,7 +2932,7 @@
             "EndType": "departure",
             "EntryIndex": 121,
             "Notes": "Touring Ireland",
-            "PlaceID": "",
+            "PlaceID": "ireland",
             "StartCitation": "Das 2014",
             "StartDate": "1952-03",
             "StartType": "arrival"
@@ -2946,7 +2946,7 @@
             "EndType": "departure",
             "EntryIndex": 121,
             "Notes": "Touring Ireland",
-            "PlaceID": "",
+            "PlaceID": "ireland",
             "StartCitation": "Das 2014",
             "StartDate": "1952-03",
             "StartType": "arrival"
@@ -2958,7 +2958,7 @@
             "EndType": "departure",
             "EntryIndex": 122,
             "Notes": "Writes to Berenson from Grand Opera House, Belfast",
-            "PlaceID": "",
+            "PlaceID": "belfast_northern_ireland",
             "StartCitation": "Love Letters from I Tatti vol 2",
             "StartDate": "1952-04-26",
             "StartType": "arrival"
@@ -2972,7 +2972,7 @@
             "EndType": "departure",
             "EntryIndex": 123,
             "Notes": "Touring English provinces",
-            "PlaceID": "",
+            "PlaceID": "bournemouth_england",
             "StartCitation": "Das 2014",
             "StartDate": "1952-05",
             "StartType": "arrival"
@@ -2998,7 +2998,7 @@
             "EndType": "departure",
             "EntryIndex": 123,
             "Notes": "Touring English provinces",
-            "PlaceID": "",
+            "PlaceID": "bournemouth_england",
             "StartCitation": "Das 2014",
             "StartDate": "1952-05",
             "StartType": "arrival"
@@ -3012,7 +3012,7 @@
             "EndType": "departure",
             "EntryIndex": 124,
             "Notes": "Performances in Copenhagen",
-            "PlaceID": "",
+            "PlaceID": "copenhagen_denmark",
             "StartCitation": "Das 2014",
             "StartDate": "1952-07",
             "StartType": "arrival"
@@ -3024,7 +3024,7 @@
             "EndType": "departure",
             "EntryIndex": 125,
             "Notes": "Writes to Berenson",
-            "PlaceID": "",
+            "PlaceID": "copenhagen_denmark",
             "StartCitation": "Love Letters from I Tatti vol 2",
             "StartDate": "1952-07-14",
             "StartType": "arrival"
@@ -3038,7 +3038,7 @@
             "EndType": "departure",
             "EntryIndex": 124,
             "Notes": "Performances in Copenhagen",
-            "PlaceID": "",
+            "PlaceID": "copenhagen_denmark",
             "StartCitation": "Das 2014",
             "StartDate": "1952-07",
             "StartType": "arrival"
@@ -3050,7 +3050,7 @@
             "EndType": "departure",
             "EntryIndex": 126,
             "Notes": "Touring Europe",
-            "PlaceID": "",
+            "PlaceID": "europe",
             "StartCitation": "Das 2014",
             "StartDate": "1952-08",
             "StartType": "arrival"
@@ -3065,7 +3065,7 @@
             "EndType": "departure",
             "EntryIndex": 126,
             "Notes": "Touring Europe",
-            "PlaceID": "",
+            "PlaceID": "europe",
             "StartCitation": "Das 2014",
             "StartDate": "1952-08",
             "StartType": "arrival"
@@ -3077,7 +3077,7 @@
             "EndType": "departure",
             "EntryIndex": 127,
             "Notes": "Writes Berenson from Milan",
-            "PlaceID": "",
+            "PlaceID": "milan_italy",
             "StartCitation": "Loves Letters from I Tatti vol 2",
             "StartDate": "1952-10-09",
             "StartType": "arrival"
@@ -3089,7 +3089,7 @@
             "EndType": "departure",
             "EntryIndex": 128,
             "Notes": "Upsetting racial incident that inspires Dunham to restage Southland",
-            "PlaceID": "",
+            "PlaceID": "genoa_italy",
             "StartCitation": "Clark and Johnson 2005, 353",
             "StartDate": "1952-10",
             "StartType": "arrival"
@@ -3103,7 +3103,7 @@
             "EndType": "departure",
             "EntryIndex": 128,
             "Notes": "Upsetting racial incident that inspires Dunham to restage Southland",
-            "PlaceID": "",
+            "PlaceID": "genoa_italy",
             "StartCitation": "Clark and Johnson 2005, 353",
             "StartDate": "1952-10",
             "StartType": "arrival"
@@ -3115,7 +3115,7 @@
             "EndType": "departure",
             "EntryIndex": 129,
             "Notes": "Reheases Southland",
-            "PlaceID": "",
+            "PlaceID": "zurich_switzerland",
             "StartCitation": "Das 2014",
             "StartDate": "1952-11",
             "StartType": "arrival"
@@ -3127,7 +3127,7 @@
             "EndType": "departure",
             "EntryIndex": 130,
             "Notes": "Writes to Berenson from Zurich (also other letters and section just dated \"November 1952\")",
-            "PlaceID": "",
+            "PlaceID": "zurich_switzerland",
             "StartCitation": "Love Letters from I Tatti vol 2",
             "StartDate": "1952-11-18",
             "StartType": "arrival"
@@ -3165,9 +3165,9 @@
             "EndType": "departure",
             "EntryIndex": 131,
             "Notes": "Visiting Milan, Naples, and Florence; sees Bernard Berenson about Southland",
-            "PlaceID": "",
+            "PlaceID": "italy",
             "StartCitation": "Das 2014",
-            "StartDate": "1952-12-3",
+            "StartDate": "1952-12-03",
             "StartType": "arrival"
         },
         {
@@ -3177,7 +3177,7 @@
             "EndType": "departure",
             "EntryIndex": 132,
             "Notes": "Telegram sent to Berenson from Teatro Ariston, Lecce, Italia",
-            "PlaceID": "",
+            "PlaceID": "lecce_italy",
             "StartCitation": "Love Letters from I Tatti vol 2",
             "StartDate": "1952-12-03",
             "StartType": "arrival"
@@ -3189,7 +3189,7 @@
             "EndType": "departure",
             "EntryIndex": 133,
             "Notes": "Writes to Berenson from Naples",
-            "PlaceID": "",
+            "PlaceID": "naples_italy",
             "StartCitation": "Love Letters from I Tatti vol 2",
             "StartDate": "1952-12-09",
             "StartType": "arrival"
@@ -3201,7 +3201,7 @@
             "EndType": "departure",
             "EntryIndex": 134,
             "Notes": "Telegram sent from Lecce on 12-03 announces to Berenson will be performing at Florence Teatre Pergola on 12-11",
-            "PlaceID": "",
+            "PlaceID": "florence_italy",
             "StartCitation": "Love Letters from I Tatti vol 2",
             "StartDate": "1952-12-11",
             "StartType": "arrival"
@@ -3215,7 +3215,7 @@
             "EndType": "departure",
             "EntryIndex": 135,
             "Notes": "Performs Southland at Palais Chaillot; departure date is estimate and need to figure out how many weeks of performance; premier was January 09 1953. Says she performed for 6 weeks",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Clark and Johnson 2005, 353",
             "StartDate": "1953-01-09",
             "StartType": "arrival"
@@ -3241,7 +3241,7 @@
             "EndType": "departure",
             "EntryIndex": 135,
             "Notes": "Performs Southland at Palais Chaillot; departure date is estimate and need to figure out how many weeks of performance; premier was January 09 1953. Says she performed for 6 weeks",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Clark and Johnson 2005, 353",
             "StartDate": "1953-01-09",
             "StartType": "arrival"
@@ -3253,7 +3253,7 @@
             "EndType": "departure",
             "EntryIndex": 136,
             "Notes": "Writes to Berenson from c/o Felix Marouani, 24 Rue Marbeuf, about Southland",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti vol 2",
             "StartDate": "1953-02-01",
             "StartType": "arrival"
@@ -3265,7 +3265,7 @@
             "EndType": "departure",
             "EntryIndex": 137,
             "Notes": "Telegram to Berenson from Paris",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti vol 2",
             "StartDate": "1953-02-14",
             "StartType": "arrival"
@@ -3303,7 +3303,7 @@
             "EndType": "departure",
             "EntryIndex": 138,
             "Notes": "Nightclub performances",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1953-03",
             "StartType": "arrival"
@@ -3331,7 +3331,7 @@
             "EndType": "departure",
             "EntryIndex": 139,
             "Notes": "Writes to Berenson from El Ranco Vegas, Las Vegas",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Love Letters from I Tatti",
             "StartDate": "1953-05-30",
             "StartType": "arrival"
@@ -3357,7 +3357,7 @@
             "EndType": "departure",
             "EntryIndex": 140,
             "Notes": "Dunham depressed about racism in Las Vegas",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1953-06",
             "StartType": "arrival"
@@ -3369,7 +3369,7 @@
             "EndType": "departure",
             "EntryIndex": 141,
             "Notes": "Writes to Berenson from Mapes Hotel, Reno",
-            "PlaceID": "",
+            "PlaceID": "reno_nevada_usa",
             "StartCitation": "Love Letters from I Tatti vol 2",
             "StartDate": "1953-06-17",
             "StartType": "arrival"
@@ -3412,7 +3412,7 @@
             "EndType": "departure",
             "EntryIndex": 142,
             "Notes": "4-5 shows a day in variety theatre",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1953-10-12",
             "StartType": "arrival"
@@ -3426,7 +3426,7 @@
             "EndType": "departure",
             "EntryIndex": 143,
             "Notes": "Rehearsing film of Mambo",
-            "PlaceID": "",
+            "PlaceID": "rome_italy",
             "StartCitation": "Das 2014",
             "StartDate": "1953-11",
             "StartType": "arrival"
@@ -3441,7 +3441,7 @@
             "EndType": "departure",
             "EntryIndex": 1,
             "Notes": "Attended Pembroke College",
-            "PlaceID": "Cambridge",
+            "PlaceID": "cambridge_england",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1950",
             "StartType": "arrival"
@@ -3455,7 +3455,7 @@
             "EndType": "departure",
             "EntryIndex": 143,
             "Notes": "Rehearsing film of Mambo",
-            "PlaceID": "",
+            "PlaceID": "rome_italy",
             "StartCitation": "Das 2014",
             "StartDate": "1953-11",
             "StartType": "arrival"
@@ -3470,7 +3470,7 @@
             "EndType": "departure",
             "EntryIndex": 144,
             "Notes": "Dunham's tours of Germany",
-            "PlaceID": "",
+            "PlaceID": "germany",
             "StartCitation": "Fischer-Hornung",
             "StartDate": "1954-04",
             "StartType": "arrival"
@@ -3485,7 +3485,7 @@
             "EndType": "departure",
             "EntryIndex": 145,
             "Notes": "Performing in Switzerland",
-            "PlaceID": "",
+            "PlaceID": "switzerland",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1954-06",
             "StartType": "arrival"
@@ -3500,7 +3500,7 @@
             "EndType": "departure",
             "EntryIndex": 146,
             "Notes": "Start of second Latin America tour; performs at same time as José Limón",
-            "PlaceID": "",
+            "PlaceID": "montevideo_uruguay",
             "StartCitation": "Clark and Johnson 2005, 356",
             "StartDate": "1954-08-28",
             "StartType": "arrival"
@@ -3514,7 +3514,7 @@
             "EndType": "departure",
             "EntryIndex": 146,
             "Notes": "Start of second Latin America tour; performs at same time as José Limón",
-            "PlaceID": "",
+            "PlaceID": "montevideo_uruguay",
             "StartCitation": "Clark and Johnson 2005, 356",
             "StartDate": "1954-08-28",
             "StartType": "arrival"
@@ -3528,7 +3528,7 @@
             "EndType": "departure",
             "EntryIndex": 147,
             "Notes": "Premieres \"Tango\" in Buenos Aires",
-            "PlaceID": "",
+            "PlaceID": "buenos_aires_argentina",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1954-10",
             "StartType": "arrival"
@@ -3544,7 +3544,7 @@
             "EndType": "",
             "EntryIndex": 2,
             "Notes": "Works for Ghana's Department of Education; City ambiguous",
-            "PlaceID": "Accra",
+            "PlaceID": "accra_ghana",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1955",
             "StartType": "arrival"
@@ -3558,7 +3558,7 @@
             "EndType": "departure",
             "EntryIndex": 148,
             "Notes": "Performing at Sahara nightclub",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-02-22",
             "StartType": "arrival"
@@ -3584,7 +3584,7 @@
             "EndType": "departure",
             "EntryIndex": 148,
             "Notes": "Performing at Sahara nightclub",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-02-22",
             "StartType": "arrival"
@@ -3596,7 +3596,7 @@
             "EndType": "departure",
             "EntryIndex": 149,
             "Notes": "Performing at Ciro's nightclub",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-03",
             "StartType": "arrival"
@@ -3610,7 +3610,7 @@
             "EndType": "departure",
             "EntryIndex": 149,
             "Notes": "Performing at Ciro's nightclub",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-03",
             "StartType": "arrival"
@@ -3636,7 +3636,7 @@
             "EndType": "departure",
             "EntryIndex": 150,
             "Notes": "Performing at Auditorio Nacional, Teatro Lirico, and Versailles nightclub",
-            "PlaceID": "",
+            "PlaceID": "mexico_city_mexico",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-05",
             "StartType": "arrival"
@@ -3651,7 +3651,7 @@
             "EndType": "departure",
             "EntryIndex": 150,
             "Notes": "Performing at Auditorio Nacional, Teatro Lirico, and Versailles nightclub",
-            "PlaceID": "",
+            "PlaceID": "mexico_city_mexico",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-05",
             "StartType": "arrival"
@@ -3665,7 +3665,7 @@
             "EndType": "departure",
             "EntryIndex": 151,
             "Notes": "Performing at Greek Theater in Los Angeles and Ciro's Nightclub",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-08",
             "StartType": "arrival"
@@ -3679,7 +3679,7 @@
             "EndType": "departure",
             "EntryIndex": 151,
             "Notes": "Performing at Greek Theater in Los Angeles and Ciro's Nightclub",
-            "PlaceID": "",
+            "PlaceID": "los_angeles_california_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-08",
             "StartType": "arrival"
@@ -3691,7 +3691,7 @@
             "EndType": "departure",
             "EntryIndex": 152,
             "Notes": "Period of financial crisis for company; performances at Curran and Geary theatres",
-            "PlaceID": "",
+            "PlaceID": "san_francisco_california_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-09",
             "StartType": "arrival"
@@ -3705,7 +3705,7 @@
             "EndType": "departure",
             "EntryIndex": 153,
             "Notes": "Opening new show under contract with Hurok",
-            "PlaceID": "",
+            "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-10-31",
             "StartType": "arrival"
@@ -3719,7 +3719,7 @@
             "EndType": "departure",
             "EntryIndex": 154,
             "Notes": "Performing in Detroit",
-            "PlaceID": "",
+            "PlaceID": "detroit_michigan_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-11",
             "StartType": "arrival"
@@ -3745,7 +3745,7 @@
             "EndType": "departure",
             "EntryIndex": 155,
             "Notes": "Performing in New York",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1955-12",
             "StartType": "arrival"
@@ -3771,7 +3771,7 @@
             "EndType": "",
             "EntryIndex": 3,
             "Notes": "Plebiscite officer for the UN; City ambiguous",
-            "PlaceID": "Ho",
+            "PlaceID": "ho_trans_volta_togoland",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1956",
             "StartType": "arrival"
@@ -3783,7 +3783,7 @@
             "EndType": "departure",
             "EntryIndex": 156,
             "Notes": "Performing at Latin Quarter nightclub and Eden Roc hotel",
-            "PlaceID": "",
+            "PlaceID": "miami_florida_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1956-01-05",
             "StartType": "arrival"
@@ -3797,7 +3797,7 @@
             "EndType": "departure",
             "EntryIndex": 157,
             "Notes": "Films TV special for Canada Broadcasting Corporation at Odeon Theatre, Toronto",
-            "PlaceID": "",
+            "PlaceID": "toronto_canada",
             "StartCitation": "Das 2014",
             "StartDate": "1956-02-12",
             "StartType": "arrival"
@@ -3805,11 +3805,11 @@
         {
             "AuthorID": "kdunham",
             "EndCitation": "Das 2014",
-            "EndDate": "1956-03-1",
+            "EndDate": "1956-03-01",
             "EndType": "departure",
             "EntryIndex": 158,
             "Notes": "Apollo Theater in New York",
-            "PlaceID": "",
+            "PlaceID": "new_york",
             "StartCitation": "Das 2014",
             "StartDate": "1956-02-24",
             "StartType": "arrival"
@@ -3819,11 +3819,11 @@
         {
             "AuthorID": "kdunham",
             "EndCitation": "Das 2014",
-            "EndDate": "1956-03-1",
+            "EndDate": "1956-03-01",
             "EndType": "departure",
             "EntryIndex": 158,
             "Notes": "Apollo Theater in New York",
-            "PlaceID": "",
+            "PlaceID": "new_york",
             "StartCitation": "Das 2014",
             "StartDate": "1956-02-24",
             "StartType": "arrival"
@@ -3835,7 +3835,7 @@
             "EndType": "departure",
             "EntryIndex": 159,
             "Notes": "Rest adn relaxation",
-            "PlaceID": "",
+            "PlaceID": "mexico",
             "StartCitation": "Das 2014",
             "StartDate": "1956-03-01",
             "StartType": "arrival"
@@ -3849,7 +3849,7 @@
             "EndType": "departure",
             "EntryIndex": 160,
             "Notes": "Performances at the Chi Chi Club",
-            "PlaceID": "",
+            "PlaceID": "palm_springs_florida_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1956-04-01",
             "StartType": "arrival"
@@ -3861,7 +3861,7 @@
             "EndType": "departure",
             "EntryIndex": 161,
             "Notes": "Performances at the Sahara Hotel",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1956-04-17",
             "StartType": "arrival"
@@ -3875,7 +3875,7 @@
             "EndType": "departure",
             "EntryIndex": 161,
             "Notes": "Performances at the Sahara Hotel",
-            "PlaceID": "",
+            "PlaceID": "las_vegas_nevada_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1956-04-17",
             "StartType": "arrival"
@@ -3887,7 +3887,7 @@
             "EndType": "departure",
             "EntryIndex": 162,
             "Notes": "Dunham and company tour Australia",
-            "PlaceID": "",
+            "PlaceID": "australia",
             "StartCitation": "Das 2014",
             "StartDate": "1956-05",
             "StartType": "arrival"
@@ -3918,7 +3918,7 @@
             "EndType": "departure",
             "EntryIndex": 162,
             "Notes": "Dunham and company tour Australia",
-            "PlaceID": "",
+            "PlaceID": "australia",
             "StartCitation": "Das 2014",
             "StartDate": "1956-05",
             "StartType": "arrival"
@@ -3932,7 +3932,7 @@
             "EndType": "departure",
             "EntryIndex": 163,
             "Notes": "Company tours New Zealand",
-            "PlaceID": "",
+            "PlaceID": "new_zealand",
             "StartCitation": "Das 2014",
             "StartDate": "1956-12",
             "StartType": "arrival"
@@ -3950,7 +3950,7 @@
             "EndType": "departure",
             "EntryIndex": 163,
             "Notes": "Company tours New Zealand",
-            "PlaceID": "",
+            "PlaceID": "new_zealand",
             "StartCitation": "Das 2014",
             "StartDate": "1956-12",
             "StartType": "arrival"
@@ -3962,7 +3962,7 @@
             "EndType": "departure",
             "EntryIndex": 164,
             "Notes": "Performances in Singapore",
-            "PlaceID": "",
+            "PlaceID": "singapore",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1957-05",
             "StartType": "arrival"
@@ -3976,7 +3976,7 @@
             "EndType": "departure",
             "EntryIndex": 164,
             "Notes": "Performances in Singapore",
-            "PlaceID": "",
+            "PlaceID": "singapore",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1957-05",
             "StartType": "arrival"
@@ -3988,7 +3988,7 @@
             "EndType": "departure",
             "EntryIndex": 165,
             "Notes": "Tours",
-            "PlaceID": "",
+            "PlaceID": "malay_federation_(malaysia)",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1957-06",
             "StartType": "arrival"
@@ -4014,7 +4014,7 @@
             "EndType": "departure",
             "EntryIndex": 166,
             "Notes": "Performing in Hong Kong",
-            "PlaceID": "",
+            "PlaceID": "hong_kong",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1957-07",
             "StartType": "arrival"
@@ -4040,7 +4040,7 @@
             "EndType": "departure",
             "EntryIndex": 167,
             "Notes": "Performing in the Philippines",
-            "PlaceID": "",
+            "PlaceID": "philippines",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1957-08",
             "StartType": "arrival"
@@ -4054,7 +4054,7 @@
             "EndType": "departure",
             "EntryIndex": 168,
             "Notes": "Performs at U.S. military base in Seoul, and at the national university",
-            "PlaceID": "",
+            "PlaceID": "seoul_korea",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1957-09",
             "StartType": "arrival"
@@ -4066,7 +4066,7 @@
             "EndType": "departure",
             "EntryIndex": 169,
             "Notes": "Performing at U.S. military base in Okinawa",
-            "PlaceID": "",
+            "PlaceID": "okinawa_japan",
             "StartCitation": "Dunham, \"Love Letters From I Tatti\"",
             "StartDate": "1957-09",
             "StartType": "arrival"
@@ -4081,7 +4081,7 @@
             "EndType": "departure",
             "EntryIndex": 170,
             "Notes": "Performances in Japan; Company dissolves",
-            "PlaceID": "",
+            "PlaceID": "tokyo_japan",
             "StartCitation": "Dunham, \"Love Letters from I Tatti\"",
             "StartDate": "1957-11",
             "StartType": "arrival"
@@ -4245,7 +4245,7 @@
             "EndType": "",
             "EntryIndex": 4,
             "Notes": "On leave from position in Ghana, meets and marries wife; City ambiguous",
-            "PlaceID": "Bridgetown",
+            "PlaceID": "bridgetown_barbados",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1960",
             "StartType": "arrival"
@@ -4458,7 +4458,7 @@
             "EndType": "departure",
             "EntryIndex": 5,
             "Notes": "Works as resident tutor; City ambiguous ",
-            "PlaceID": "Castries",
+            "PlaceID": "castries_saint_lucia",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1962",
             "StartType": "arrival"
@@ -4502,7 +4502,7 @@
             "EndType": "departure",
             "EntryIndex": 171,
             "Notes": "Photograph of meeting with Senghor. The months here are place-holders: need to identify precise dates of Senegal travel; took place before premier of Bamboche as part of preparation for that piece",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Clark and Johnson 2005, fig. 22 (p. 170), 407",
             "StartDate": "1962-06",
             "StartType": "arrival"
@@ -4516,7 +4516,7 @@
             "EndType": "departure",
             "EntryIndex": 171,
             "Notes": "Photograph of meeting with Senghor. The months here are place-holders: need to identify precise dates of Senegal travel; took place before premier of Bamboche as part of preparation for that piece",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Clark and Johnson 2005, fig. 22 (p. 170), 407",
             "StartDate": "1962-06",
             "StartType": "arrival"
@@ -4581,7 +4581,7 @@
             "EndType": "departure",
             "EntryIndex": 172,
             "Notes": "Performance of Bamboche at the 54th St. Theatre",
-            "PlaceID": "",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Clark and Johnson 2005, 385",
             "StartDate": "1962-10-22",
             "StartType": "arrival"
@@ -4609,7 +4609,7 @@
             "EndType": "departure",
             "EntryIndex": 5,
             "Notes": "Works as resident tutor; City ambiguous ",
-            "PlaceID": "Castries",
+            "PlaceID": "castries_saint_lucia",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1962",
             "StartType": "arrival"
@@ -4621,7 +4621,7 @@
             "EndType": "departure",
             "EntryIndex": 6,
             "Notes": "UWI Mona",
-            "PlaceID": "Mona",
+            "PlaceID": "mona_jamaica",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1963",
             "StartType": "arrival"
@@ -4825,7 +4825,7 @@
             "EndType": "departure",
             "EntryIndex": 6,
             "Notes": "UWI Mona",
-            "PlaceID": "Mona",
+            "PlaceID": "mona_jamaica",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1963",
             "StartType": "arrival"
@@ -4837,7 +4837,7 @@
             "EndType": "",
             "EntryIndex": 7,
             "Notes": "Attended University of Sussex",
-            "PlaceID": "Falmer",
+            "PlaceID": "falmer_sussex_england",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1965",
             "StartType": "arrival"
@@ -4885,7 +4885,7 @@
             "EndType": "departure",
             "EntryIndex": 173,
             "Notes": "Training the National Ballet of Senegal; also spoke at the first World Black and African Festival of Arts and Culture, Dakar, Senegal, April 3, 1966. Dates of stay approximate",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Clark and Johnson, 410, 412",
             "StartDate": "1965-10",
             "StartType": "arrival"
@@ -4900,7 +4900,7 @@
             "EndType": "departure",
             "EntryIndex": 173,
             "Notes": "Training the National Ballet of Senegal; also spoke at the first World Black and African Festival of Arts and Culture, Dakar, Senegal, April 3, 1966. Dates of stay approximate",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Clark and Johnson, 410, 412",
             "StartDate": "1965-10",
             "StartType": "arrival"
@@ -4914,7 +4914,7 @@
             "EndType": "",
             "EntryIndex": 8,
             "Notes": "Meets article author at Caribbean Arts Movement gathering",
-            "PlaceID": "London",
+            "PlaceID": "london_england",
             "StartCitation": "Ngũgĩ wa Thiong'o, pg. 677",
             "StartDate": "1966",
             "StartType": "arrival"
@@ -4926,7 +4926,7 @@
             "EndType": "departure",
             "EntryIndex": 9,
             "Notes": "",
-            "PlaceID": "Falmer",
+            "PlaceID": "falmer_sussex_england",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1966",
             "StartType": "arrival"
@@ -4938,7 +4938,7 @@
             "EndType": "departure",
             "EntryIndex": 174,
             "Notes": "Knee surgery and recovery",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1966-01",
             "StartType": "arrival"
@@ -4952,7 +4952,7 @@
             "EndType": "departure",
             "EntryIndex": 174,
             "Notes": "Knee surgery and recovery",
-            "PlaceID": "",
+            "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1966-01",
             "StartType": "arrival"
@@ -4978,7 +4978,7 @@
             "EndType": "departure",
             "EntryIndex": 175,
             "Notes": "Setting up and Running Festival",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Das 2014",
             "StartDate": "1966-03",
             "StartType": "arrival"
@@ -5004,7 +5004,7 @@
             "EndType": "departure",
             "EntryIndex": 175,
             "Notes": "Setting up and Running Festival",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Das 2014",
             "StartDate": "1966-03",
             "StartType": "arrival"
@@ -5018,7 +5018,7 @@
             "EndType": "departure",
             "EntryIndex": 176,
             "Notes": "Setting up and Running Festival",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Das 2014",
             "StartDate": "1966-05",
             "StartType": "arrival"
@@ -5032,7 +5032,7 @@
             "EndType": "departure",
             "EntryIndex": 176,
             "Notes": "Setting up and Running Festival",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Das 2014",
             "StartDate": "1966-05",
             "StartType": "arrival"
@@ -5044,7 +5044,7 @@
             "EndType": "departure",
             "EntryIndex": 177,
             "Notes": "Writing Island Possessed",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Das 2014",
             "StartDate": "1966-06",
             "StartType": "arrival"
@@ -5091,7 +5091,7 @@
             "EndType": "departure",
             "EntryIndex": 177,
             "Notes": "Writing Island Possessed",
-            "PlaceID": "",
+            "PlaceID": "dakar_senegal",
             "StartCitation": "Das 2014",
             "StartDate": "1966-06",
             "StartType": "arrival"
@@ -5118,7 +5118,7 @@
             "EndType": "departure",
             "EntryIndex": 178,
             "Notes": "Setting up East St. Louis Program",
-            "PlaceID": "",
+            "PlaceID": "carbondale_illinois_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1967-04",
             "StartType": "arrival"
@@ -5133,7 +5133,7 @@
             "EndType": "departure",
             "EntryIndex": 179,
             "Notes": "Establishes the PATC in East St. Louis",
-            "PlaceID": "",
+            "PlaceID": "east_st_louis_illinois_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1967-06",
             "StartType": "arrival"
@@ -5177,7 +5177,7 @@
             "EndType": "departure",
             "EntryIndex": 178,
             "Notes": "Setting up East St. Louis Program",
-            "PlaceID": "",
+            "PlaceID": "carbondale_illinois_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1967-04",
             "StartType": "arrival"
@@ -5189,7 +5189,7 @@
             "EndType": "departure",
             "EntryIndex": 180,
             "Notes": "Moves to East St. Louis",
-            "PlaceID": "",
+            "PlaceID": "east_st_louis_illinois_usa",
             "StartCitation": "Das 2014",
             "StartDate": "1967-11",
             "StartType": "arrival"
@@ -5217,7 +5217,7 @@
             "EndType": "departure",
             "EntryIndex": 9,
             "Notes": "",
-            "PlaceID": "Falmer",
+            "PlaceID": "falmer_sussex_england",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1966",
             "StartType": "arrival"
@@ -5229,7 +5229,7 @@
             "EndType": "",
             "EntryIndex": 10,
             "Notes": "Returns to Jamaica after PhD in England, potentially here up til 1991 when he moves to NYU",
-            "PlaceID": "Mona",
+            "PlaceID": "mona_jamaica",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1968",
             "StartType": "arrival"
@@ -5356,7 +5356,7 @@
             "EndType": "departure",
             "EntryIndex": 11,
             "Notes": "Visiting professor, Southern Illinois University ",
-            "PlaceID": "Carbondale",
+            "PlaceID": "carbondale_illinois_usa",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1970",
             "StartType": "arrival"
@@ -5419,7 +5419,7 @@
             "EndType": "departure",
             "EntryIndex": 11,
             "Notes": "Visiting professor, Southern Illinois University ",
-            "PlaceID": "Carbondale",
+            "PlaceID": "carbondale_illinois_usa",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1970",
             "StartType": "arrival"
@@ -5431,7 +5431,7 @@
             "EndType": "latest_presence",
             "EntryIndex": 12,
             "Notes": "Nairobi University, City of Nairobi fellowship; Naming ceremony 1972 in Limura, Kenya",
-            "PlaceID": "Nairobi",
+            "PlaceID": "nairobi_kenya",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1971",
             "StartType": "arrival"
@@ -5494,7 +5494,7 @@
             "EndType": "latest_presence",
             "EntryIndex": 12,
             "Notes": "Nairobi University, City of Nairobi fellowship; Naming ceremony 1972 in Limura, Kenya",
-            "PlaceID": "Nairobi",
+            "PlaceID": "nairobi_kenya",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1971",
             "StartType": "arrival"
@@ -5506,7 +5506,7 @@
             "EndType": "",
             "EntryIndex": 13,
             "Notes": "Naming ceremony",
-            "PlaceID": "Limura",
+            "PlaceID": "limura_kenya",
             "StartCitation": "Cobham-Sander, 81",
             "StartDate": "1972",
             "StartType": "arrival"
@@ -5518,7 +5518,7 @@
             "EndType": "",
             "EntryIndex": 14,
             "Notes": "Carifesta I; City ambiguous",
-            "PlaceID": "Georgetown ",
+            "PlaceID": "georgetown_guyana",
             "StartCitation": "\"The First Carifesta,\" Carribean Beat ",
             "StartDate": "1972",
             "StartType": "arrival"
@@ -5720,7 +5720,7 @@
             "EndType": "departure",
             "EntryIndex": 15,
             "Notes": "Boston University",
-            "PlaceID": "Boston",
+            "PlaceID": "boston_massachusetts_usa",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1975",
             "StartType": "arrival"
@@ -5771,7 +5771,7 @@
             "EndType": "departure",
             "EntryIndex": 15,
             "Notes": "Boston University",
-            "PlaceID": "Boston",
+            "PlaceID": "boston_massachusetts_usa",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1975",
             "StartType": "arrival"
@@ -5783,7 +5783,7 @@
             "EndType": "",
             "EntryIndex": 16,
             "Notes": "Gives lecture at Carifesta II",
-            "PlaceID": "Kingston",
+            "PlaceID": "kingston_jamaica",
             "StartCitation": "\"The First Carifesta,\" Carribean Beat ",
             "StartDate": "1976",
             "StartType": "arrival"
@@ -5986,7 +5986,7 @@
             "EndType": "",
             "EntryIndex": 17,
             "Notes": "Gives lecture at Harvard",
-            "PlaceID": "Cambridge",
+            "PlaceID": "cambridge_massachusetts_usa",
             "StartCitation": "Bindella, Davis",
             "StartDate": "1979",
             "StartType": "arrival"
@@ -6037,7 +6037,7 @@
             "EndType": "",
             "EntryIndex": 18,
             "Notes": "Presents lecture ",
-            "PlaceID": "Bremen",
+            "PlaceID": "bremen_germany",
             "StartCitation": "Brathwaite, \"Afternoon of the Status Crow\" ",
             "StartDate": "1980",
             "StartType": "arrival"
@@ -6150,7 +6150,7 @@
             "EndType": "departure",
             "EntryIndex": 19,
             "Notes": "University of Mysore",
-            "PlaceID": "Mysore",
+            "PlaceID": "mysore_india",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1982",
             "StartType": "arrival"
@@ -6251,7 +6251,7 @@
             "EndType": "departure",
             "EntryIndex": 19,
             "Notes": "University of Mysore",
-            "PlaceID": "Mysore",
+            "PlaceID": "mysore_india",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1982",
             "StartType": "arrival"
@@ -6263,7 +6263,7 @@
             "EndType": "",
             "EntryIndex": 20,
             "Notes": "Holy Cross College",
-            "PlaceID": "Worchester",
+            "PlaceID": "worchester_massachusettes_usa",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1983",
             "StartType": "arrival"
@@ -6301,7 +6301,7 @@
             "EndType": "",
             "EntryIndex": 21,
             "Notes": "London Black Book Fair",
-            "PlaceID": "London",
+            "PlaceID": "london_england",
             "StartCitation": "Mackey, 56",
             "StartDate": "1984",
             "StartType": "arrival"
@@ -6517,7 +6517,7 @@
             "EndType": "departure",
             "EntryIndex": 22,
             "Notes": "Gives annual Sir Winston Scott Memorial Lecture; City ambiguous ",
-            "PlaceID": "Bridgetown",
+            "PlaceID": "bridgetown_barbados",
             "StartCitation": "Central Bank of Barbados ",
             "StartDate": "1987",
             "StartType": "arrival"
@@ -6529,7 +6529,7 @@
             "EndType": "departure",
             "EntryIndex": 23,
             "Notes": "visiting fellow, Harvard",
-            "PlaceID": "Cambridge",
+            "PlaceID": "cambridge_massachusetts_usa",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1987",
             "StartType": "arrival"
@@ -6580,7 +6580,7 @@
             "EndType": "departure",
             "EntryIndex": 23,
             "Notes": "visiting fellow, Harvard",
-            "PlaceID": "Cambridge",
+            "PlaceID": "cambridge_massachusetts_usa",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1987",
             "StartType": "arrival"
@@ -6592,7 +6592,7 @@
             "EndType": "departure",
             "EntryIndex": 24,
             "Notes": "Yale University",
-            "PlaceID": "New Haven",
+            "PlaceID": "new_haven_connecticut_usa",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1988",
             "StartType": "arrival"
@@ -6604,7 +6604,7 @@
             "EndType": "",
             "EntryIndex": 25,
             "Notes": "Lives in Jamaica until 1991. Home destroyed during Hurricane Gilbert (1988).",
-            "PlaceID": "Mona",
+            "PlaceID": "mona_jamaica",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1988",
             "StartType": "arrival"
@@ -6709,7 +6709,7 @@
             "EndType": "",
             "EntryIndex": 26,
             "Notes": "Mackey interview, while Brathwaite was Regents' Professor at UC Santa Cruz",
-            "PlaceID": "Santa Cruz",
+            "PlaceID": "santa_cruz_california_usa",
             "StartCitation": "Mackey, 42",
             "StartDate": "1990-04-05",
             "StartType": "arrival"
@@ -6739,7 +6739,7 @@
             "EndType": "",
             "EntryIndex": 27,
             "Notes": "Leaves Jamaica for NYU (splits time w/ Caribbean home)",
-            "PlaceID": "New York City",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1991-09",
             "StartType": "arrival"
@@ -6768,7 +6768,7 @@
             "EndType": "departure",
             "EntryIndex": 28,
             "Notes": "Conversation with Nathaniel Mackey at Poets House ",
-            "PlaceID": "Manhattan",
+            "PlaceID": "manhattan_new_york_usa",
             "StartCitation": "Brathwaite, ConVERSations, front matter",
             "StartDate": "1993-11-18",
             "StartType": "arrival"
@@ -6791,7 +6791,7 @@
             "EndType": "departure",
             "EntryIndex": 28,
             "Notes": "Conversation with Nathaniel Mackey at Poets House ",
-            "PlaceID": "Manhattan",
+            "PlaceID": "manhattan_new_york_usa",
             "StartCitation": "Brathwaite, ConVERSations, front matter",
             "StartDate": "1993-11-18",
             "StartType": "arrival"
@@ -6806,7 +6806,7 @@
             "EndType": "departure",
             "EntryIndex": 29,
             "Notes": "Attended celebration for birth of Ngũgĩ wa Thiong'o's child (Spring 1994)",
-            "PlaceID": "Orange",
+            "PlaceID": "orange_new_jersey_usa",
             "StartCitation": "Ngũgĩ wa Thiong'o, pg. 677",
             "StartDate": "1994",
             "StartType": "arrival"
@@ -6818,7 +6818,7 @@
             "EndType": "",
             "EntryIndex": 30,
             "Notes": "Leaves Jamaica for NYU (splits time w/ Caribbean home)",
-            "PlaceID": "New York City",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1994",
             "StartType": "arrival"
@@ -6865,7 +6865,7 @@
             "EndType": "",
             "EntryIndex": 31,
             "Notes": "Conference at the University of Memphis, \"The Caribbean: South of the South\"",
-            "PlaceID": "Memphis",
+            "PlaceID": "memphis_tennessee_usa",
             "StartCitation": "Brathwaite \"Note(s) on Caribbean Cosmology\"",
             "StartDate": "1996-11-20",
             "StartType": "arrival"
@@ -6887,7 +6887,7 @@
             "EndType": "latest_presence",
             "EntryIndex": 32,
             "Notes": "",
-            "PlaceID": "CowPastor",
+            "PlaceID": "cowpastor_barbados",
             "StartCitation": "Brathwaite, ConVERSations",
             "StartDate": "1997-08-01",
             "StartType": "earliest_presence"
@@ -6936,7 +6936,7 @@
             "EndType": "latest_presence",
             "EntryIndex": 33,
             "Notes": "CARIFESTA VII 2000; City ambiguous",
-            "PlaceID": "Basseterre",
+            "PlaceID": "basseterre_st_kitts_and_nevis",
             "StartCitation": "Caribbean Community Secretariat",
             "StartDate": "2000-08-17",
             "StartType": "earliest_presence"
@@ -6954,7 +6954,7 @@
             "EndType": "",
             "EntryIndex": 34,
             "Notes": "Address as of 2001: Department of History, University of the West Indies, Mona, Kingston 7, Jamaica",
-            "PlaceID": "Kingston",
+            "PlaceID": "kingston_jamaica",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "2001",
             "StartType": "arrival"
@@ -6993,7 +6993,7 @@
             "EndType": "",
             "EntryIndex": 35,
             "Notes": "West Indian Lit Conference at UMiami",
-            "PlaceID": "Miami",
+            "PlaceID": "miami_florida_usa",
             "StartCitation": "Paquet, Sandra",
             "StartDate": "2003-03",
             "StartType": "arrival"
@@ -7084,7 +7084,7 @@
             "EndType": "",
             "EntryIndex": 36,
             "Notes": "Teaches Tpcs in Caribbean Lit at NYU",
-            "PlaceID": "New York City",
+            "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Brathwaite syllabus",
             "StartDate": "2009-09",
             "StartType": "arrival"
@@ -7103,7 +7103,7 @@
             "EndType": "latest_presence",
             "EntryIndex": 37,
             "Notes": "Tenth National Black Writer's Conference at Medgar Evers ",
-            "PlaceID": "Brooklyn",
+            "PlaceID": "brooklyn_new_york_usa",
             "StartCitation": "\"The Tenth National Black Writers' Conference,\" CUNY",
             "StartDate": "2010-03-25",
             "StartType": "arrival"

@@ -5,6 +5,7 @@ import json
 import gzip
 import datetime
 import shutil
+import re
 from geopy import geocoders
 from operator import itemgetter
 
@@ -78,10 +79,10 @@ def get_lat_long(place_name, geonames_username):
 # The keys for each movement in the author_movements dictionary are as follows:
 # PlaceID, Notes, EntryIndex, StartDate, StartType, StartCitation, EndDate, EndType, EndCitation
 #-------------------------------------------------------------------------
-def process_movements(csv_path):
+def process_movements(csv_path, places):
     author_ids = {}
     author_movements = {}
-
+    
     for csv_name in get_csv_list(csv_path):
 
         with open(csv_path+csv_name) as csv_file:
@@ -98,46 +99,90 @@ def process_movements(csv_path):
             author_movements[author_id] = []
 
             reader = csv.DictReader(csv_file)
-            row_index = 0
+            entry_index = 0
+            row_index = 3
             for row in reader:
                 if not(row['Arrival'] == '' and row['Departure'] == '' and row['Earliest Presence'] == '' and row['Latest Presence'] == ''):
 
                     movement = {}
                     movement['PlaceID'] = row['Place ID']
                     movement['Notes'] = row['Notes']
-                    movement['EntryIndex'] = row_index
+                    movement['EntryIndex'] = entry_index
+                    
+                    #log bad place ids
+                    
+                    if movement['PlaceID'] not in places.keys():
+                        message = author_name + " (" + str(row_index) + "): Place ID " + movement['PlaceID'] + " not found in master Place Name list.\n";
+                        print(message)
+                        logf.write(message + "\n")
 
                     # get the start date
                     if not row['Arrival'] == '': # start is arrival
                         movement['StartDate'] = row['Arrival']
                         movement['StartType'] = 'arrival'
                         movement['StartCitation'] = row['Citation 1']
+                        
+                        #bad arrival date
+                        if re.fullmatch("\d\d\d\d-\d\d-\d\d",row['Arrival']) == None  and re.fullmatch("\d\d\d\d-\d\d",row['Arrival']) == None and re.fullmatch("\d\d\d\d",row['Arrival']) == None:
+                            message = author_name + " (" + str(row_index) + "): Arrival Date " + row['Arrival'] + " is not a valid date entry\n";
+                            print(message)
+                            logf.write(message + "\n")
+                            
                     elif not row['Earliest Presence'] == '': # start is earliest presence
                         movement['StartDate'] = row['Earliest Presence']
                         movement['StartType'] = 'earliest_presence'
                         movement['StartCitation'] = row['Citation 1']
+                        
+                        #bad earliest presence date
+                        if re.fullmatch("\d\d\d\d-\d\d-\d\d",row['Earliest Presence']) == None  and re.fullmatch("\d\d\d\d-\d\d",row['Earliest Presence']) == None and re.fullmatch("\d\d\d\d",row['Earliest Presence']) == None:
+                            message = author_name + " (" + str(row_index) + "): Earliest Presence Date " + row['Earliest Presence'] + " is not a valid date entry\n";
+                            print(message)
+                            logf.write(message + "\n")
+                        
                     else: # start unavailable
                         movement['StartDate'] = ''
                         movement['StartType'] = ''
                         movement['StartCitation'] = ''
+                        
 
                     # get the end date
                     if not row['Departure'] == '': # end is departure
                         movement['EndDate'] = row['Departure']
                         movement['EndType'] = 'departure'
                         movement['EndCitation'] = row['Citation 2']
+                        
+                        
+                        #bad departure date
+                        if re.fullmatch("\d\d\d\d-\d\d-\d\d",row['Departure']) == None  and re.fullmatch("\d\d\d\d-\d\d",row['Departure']) == None and re.fullmatch("\d\d\d\d",row['Departure']) == None:
+                            message = author_name + " (" + str(row_index) + "): Departure Date " + row['Departure'] + " is not a valid date entry\n";
+                            print(message)
+                            logf.write(message + "\n")
+                        
+                        
                     elif not row['Latest Presence'] == '': # end is latest presence
                         movement['EndDate'] = row['Latest Presence']
                         movement['EndType'] = 'latest_presence'
                         movement['EndCitation'] = row['Citation 2']
+                        
+                        #bad latest presence date
+                        if re.fullmatch("\d\d\d\d-\d\d-\d\d",row['Latest Presence']) == None  and re.fullmatch("\d\d\d\d-\d\d",row['Latest Presence']) == None and re.fullmatch("\d\d\d\d",row['Latest Presence']) == None:
+                            message = author_name + " (" + str(row_index) + "): Latest Presence Date " + row['Latest Presence'] + " is not a valid date entry\n";
+                            print(message)
+                            logf.write(message + "\n")
+                        
                     else: # end unavailable
                         movement['EndDate'] =''
                         movement['EndType'] = ''
                         movement['EndCitation'] = ''
 
                     author_movements[author_id].append(movement)
-                    row_index += 1
-
+                    entry_index += 1
+                else:
+                    message = author_name + " (" + str(row_index) + "): This entry has no key dates listed and has been skipped.\n";
+                    print(message)
+                    logf.write(message + "\n")
+              
+                row_index += 1
             csv_file.close()
 
     return author_ids, author_movements
@@ -155,19 +200,19 @@ def process_places(csv_path, csv_list, geonames_username):
             reader = csv.DictReader(csv_file)
             
             for row in reader:
-                place_id = row['Place ID']
+                place_id = row['PlaceID']
 
                 if not place_id in places:
                   place_info = {}
                  
                   # Uses the geopy library if latitude and longitude not supplied in the spreadsheet
-                  if row['Latitude'] == '' or row['Longitude'] == '':
-                      row['Latitude'], row['Longitude'] = get_lat_long(row['Label'],geonames_username)
+                  if row['Lat'] == '' or row['Long'] == '':
+                      row['Lat'], row['Long'] = get_lat_long(row['PlaceName'],geonames_username)
                      
                   else:
                       #ensures lat/long values are typed consistently regardless of their source
-                      row['Latitude'] = float(row['Latitude'])
-                      row['Longitude'] = float(row['Longitude'])
+                      row['Lat'] = float(row['Lat'])
+                      row['Long'] = float(row['Long'])
                  
                   places[place_id] = row
     
@@ -416,11 +461,13 @@ def get_intersections(author_movements):
 
 logf.write("Run time: " + datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S") + "\n\n");
 
+places = process_places(PLACES_CSV_LOCATION,get_csv_list(PLACES_CSV_LOCATION),GEONAMES_USERNAME);
+
 with codecs.open(PLACES_JSON, 'w', 'utf8') as f:
-    f.write(json.dumps(process_places(PLACES_CSV_LOCATION,get_csv_list(PLACES_CSV_LOCATION),GEONAMES_USERNAME), sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+    f.write(json.dumps(places, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
     f.close()
 
-author_ids, author_movements = process_movements(MOVEMENTS_CSV_LOCATION)
+author_ids, author_movements = process_movements(MOVEMENTS_CSV_LOCATION,places)
 
 with codecs.open(AUTHOR_ID_JSON, 'w', 'utf8') as f:
     f.write(json.dumps(author_ids, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))

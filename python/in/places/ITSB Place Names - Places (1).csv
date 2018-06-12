@@ -1,10 +1,10 @@
-City,State/Province/County (optional),Country,Label,Place ID,Latitude,Longitude
+City,Region,Country,PlaceName,PlaceID,Lat,Long
 Abidjan,,Ivory Coast,"Abidjan, Ivory Coast",abidjan_ivory_coast,5.3599517,-4.0082563
 Accompong,,Jamaica,"Accompong, Jamaica",accompong_jamaica,18.2278534,-77.7509303
 Accra,,Ghana,"Accra, Ghana",accra_ghana,5.6037168,-0.1869644
 Addis-Abeba,,Ethiopia,"Addis-Abeba, Ethiopia",addis_abeba_ethiopia,8.9806034,38.7577605
-Amsterdam,,Holland,"Amsterdam, Holland",amsterdam_holland,,
-Angoulême,,France,"Angoulême, France",angouleme_france,,
+Amsterdam,,Holland,"Amsterdam, Holland",amsterdam_holland,52.3702157,4.8951679
+Angoulême,,France,"Angoulême, France",angouleme_france,45.648377,0.1562369
 Auschwitz,,Poland,"Auschwitz, Poland",auschwitz_poland,50.0274106,19.2019829
 Avignon,,France,"Avignon, France",avignon_france,43.949317,4.805528
 Basse-Pointe,,Martinique,"Basse-Pointe, Martinique",basse_pointe_martinique,14.8672508,-61.1155622
@@ -40,7 +40,7 @@ Florence,,Italy,"Florence, Italy",florence_italy,43.7695604,11.2558136
 Fort-de-France,,Martinique,"Fort-de-France, Martinique",fort_de_france_martinique,14.6160647,-61.0587804
 Geneva,,Switzerland,"Geneva, Switzerland",geneva_switzerland,46.2043907,6.1431577
 Genoa,,Italy,"Genoa, Italy",genoa_italy,44.4056499,8.946256
-Georgetown,,Guyana,"Georgetown , Guyana",georgetown_guyana,6.8012793,-58.1551255
+Georgetown,,Guyana,"Georgetown, Guyana",georgetown_guyana,6.8012793,-58.1551255
 Glen Ellyn,Illinois,USA,"Glen Ellyn, Illinois, USA",glen_ellyn_illinois_usa,41.8775293,-88.0670118
 Hanover,,Germany,"Hanover, Germany",hanover_germany,52.3758916,9.7320104
 Havana,,Cuba,"Havana, Cuba",havana_cuba,23.1135925,-82.3665956
@@ -109,10 +109,10 @@ Worchester,Massachusettes,USA,"Worchester, Massachusettes, USA",worchester_massa
 Wroclaw,,Poland,"Wroclaw, Poland",wroclaw_poland,51.1078852,17.0385376
 Zurich,,Switzerland,"Zurich, Switzerland",zurich_switzerland,47.3768866,8.541694
 ,,Australia,Australia,australia,-25.274398,133.775136
-,,Austria,Austria,austria,,
-,,Colombia,Colombia,colombia,,
-,,Ecuador,Ecuador,ecuador,,
-,English Provinces,England,"English Provinces, England",english_provinces_england,,
+,,Austria,Austria,austria,47.516231,14.550072
+,,Colombia,Colombia,colombia,4.570868,-74.297333
+,,Ecuador,Ecuador,ecuador,-1.831239,-78.183406
+,English Provinces,England,"English Provinces, England",english_provinces_england,52.3555177,-1.1743197
 ,,England,England,england,,
 ,,Germany,Germany,germany,,
 ,,Greece,Greece,greece,,

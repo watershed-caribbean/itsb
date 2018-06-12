@@ -14,3 +14,1050 @@ Malay Federation (Malaysia) geocode not found
 ---------------------------------------------------
 
 
+Run time: 2018-06-12 15:51:32
+
+Malay Federation (Malaysia) geocode not found
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 15:53:37
+
+Malay Federation (Malaysia) geocode not found
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 16:19:31
+
+Malay Federation (Malaysia) geocode not found
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 17:04:03
+
+Malay Federation (Malaysia) geocode not found
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 17:17:01
+
+Malay Federation (Malaysia) geocode not found
+Malay Federation (Malaysia) geocode not found
+Run time: 2018-06-12 17:20:29
+
+Malay Federation (Malaysia) geocode not found
+Run time: 2018-06-12 17:21:43
+
+Malay Federation (Malaysia) geocode not found
+Place ID error: georgetown__guyana not found in master Place Name list (Kamau Brathwaite: 14)
+
+Place ID error: new_haven_usa not found in master Place Name list (Kamau Brathwaite: 24)
+
+Place ID error: basseterre_st._kitts_and_nevis not found in master Place Name list (Kamau Brathwaite: 33)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 0)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 1)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 2)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 3)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 4)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 5)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 6)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 7)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 8)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 9)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 10)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 11)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 12)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 13)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 14)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 15)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 16)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 17)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 18)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 19)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 20)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 21)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 22)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 23)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 24)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 25)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 26)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 27)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 28)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 29)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 30)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 31)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 32)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 33)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 34)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 35)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 36)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 37)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 38)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 39)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 40)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 41)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 42)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 43)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 44)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 45)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 46)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 47)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 48)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 49)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 50)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 51)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 52)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 53)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 54)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 55)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 56)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 57)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 58)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 59)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 60)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 61)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 62)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 63)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 64)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 65)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 66)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 67)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 68)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 69)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 70)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 71)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 72)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 73)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 74)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 75)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 76)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 77)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 78)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 79)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 80)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 81)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 82)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 83)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 84)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 85)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 86)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 87)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 88)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 89)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 90)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 91)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 92)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 93)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 94)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 95)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 96)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 97)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 98)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 99)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 100)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 101)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 102)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 103)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 104)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 105)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 106)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 107)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 108)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 109)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 110)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 111)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 112)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 113)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 114)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 115)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 116)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 117)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 118)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 119)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 120)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 121)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 122)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 123)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 124)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 125)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 126)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 127)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 128)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 129)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 130)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 131)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 132)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 133)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 134)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 135)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 136)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 137)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 138)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 139)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 140)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 141)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 142)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 143)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 144)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 145)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 146)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 147)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 148)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 149)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 150)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 151)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 152)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 153)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 154)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 155)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 156)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 157)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 158)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 159)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 160)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 161)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 162)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 163)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 164)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 165)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 166)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 167)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 168)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 169)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 170)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 171)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 172)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 173)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 174)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 175)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 176)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 177)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 178)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 179)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 180)
+
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 17:23:38
+
+Malay Federation (Malaysia) geocode not found
+Place ID error: georgetown__guyana not found in master Place Name list (Kamau Brathwaite: 17)
+
+Place ID error: new_haven_usa not found in master Place Name list (Kamau Brathwaite: 27)
+
+Place ID error: basseterre_st._kitts_and_nevis not found in master Place Name list (Kamau Brathwaite: 36)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 3)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 4)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 5)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 6)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 7)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 8)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 9)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 10)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 11)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 12)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 13)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 14)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 15)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 16)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 17)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 18)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 19)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 20)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 21)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 22)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 23)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 24)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 25)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 26)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 27)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 28)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 29)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 30)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 31)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 32)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 33)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 34)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 35)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 36)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 37)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 38)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 39)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 40)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 41)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 42)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 43)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 44)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 45)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 46)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 47)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 48)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 49)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 50)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 51)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 52)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 53)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 54)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 55)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 56)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 57)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 58)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 59)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 60)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 61)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 62)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 63)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 64)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 65)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 66)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 67)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 68)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 69)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 70)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 71)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 72)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 73)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 74)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 75)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 76)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 77)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 78)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 79)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 80)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 81)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 82)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 83)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 84)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 85)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 86)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 87)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 88)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 89)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 90)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 91)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 92)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 93)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 94)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 95)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 96)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 97)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 98)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 99)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 100)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 101)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 102)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 103)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 104)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 105)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 106)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 107)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 108)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 109)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 110)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 111)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 112)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 113)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 114)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 115)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 116)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 117)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 118)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 119)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 120)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 121)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 122)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 123)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 124)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 125)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 126)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 127)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 128)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 129)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 130)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 131)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 132)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 133)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 134)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 135)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 136)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 137)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 138)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 139)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 140)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 141)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 142)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 143)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 144)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 145)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 146)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 147)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 148)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 149)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 150)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 151)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 152)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 153)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 154)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 155)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 156)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 157)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 158)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 159)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 160)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 161)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 162)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 163)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 164)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 165)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 166)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 167)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 168)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 169)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 170)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 171)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 172)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 173)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 174)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 175)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 176)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 177)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 178)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 179)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 180)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 181)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 182)
+
+Place ID error:  not found in master Place Name list (Katherine Dunham: 183)
+
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 17:34:13
+
+Malay Federation (Malaysia) geocode not found
+Place ID error: paris not found in master Place Name list (Katherine Dunham: 177)
+
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 17:37:38
+
+Malay Federation (Malaysia) geocode not found
+Place ID error: paris not found in master Place Name list (Katherine Dunham: 177)
+
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 17:42:17
+
+Malay Federation (Malaysia) geocode not found
+Place ID error: paris not found in master Place Name list (Katherine Dunham: 210)
+
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 18:03:43
+
+Malay Federation (Malaysia) geocode not found
+Katherine Dunham (111): 1951-04- is not a valid date entry
+
+Katherine Dunham (122): 1952-02-7 is not a valid date entry
+
+Katherine Dunham (134): 1952-12-3 is not a valid date entry
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (210): Place ID paris not found in master Place Name list.
+
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 18:06:57
+
+Malay Federation (Malaysia) geocode not found
+Katherine Dunham (111): Arrival Date 1951-04- is not a valid date entry
+
+Katherine Dunham (122): Arrival Date 1952-02-7 is not a valid date entry
+
+Katherine Dunham (134): Arrival Date 1952-12-3 is not a valid date entry
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (210): Place ID paris not found in master Place Name list.
+
+
+---------------------------------------------------
+
+
+Run time: 2018-06-12 18:11:49
+
+Malay Federation (Malaysia) geocode not found
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+

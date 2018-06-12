@@ -2,1261 +2,1261 @@
     "abidjan_ivory_coast": {
         "City": "Abidjan",
         "Country": "Ivory Coast",
-        "Label": "Abidjan, Ivory Coast",
-        "Latitude": 5.3599517,
-        "Longitude": -4.0082563,
-        "Place ID": "abidjan_ivory_coast",
-        "State/Province/County (optional)": ""
+        "Lat": 5.3599517,
+        "Long": -4.0082563,
+        "PlaceID": "abidjan_ivory_coast",
+        "PlaceName": "Abidjan, Ivory Coast",
+        "Region": ""
     },
     "accompong_jamaica": {
         "City": "Accompong",
         "Country": "Jamaica",
-        "Label": "Accompong, Jamaica",
-        "Latitude": 18.2278534,
-        "Longitude": -77.7509303,
-        "Place ID": "accompong_jamaica",
-        "State/Province/County (optional)": ""
+        "Lat": 18.2278534,
+        "Long": -77.7509303,
+        "PlaceID": "accompong_jamaica",
+        "PlaceName": "Accompong, Jamaica",
+        "Region": ""
     },
     "accra_ghana": {
         "City": "Accra",
         "Country": "Ghana",
-        "Label": "Accra, Ghana",
-        "Latitude": 5.6037168,
-        "Longitude": -0.1869644,
-        "Place ID": "accra_ghana",
-        "State/Province/County (optional)": ""
+        "Lat": 5.6037168,
+        "Long": -0.1869644,
+        "PlaceID": "accra_ghana",
+        "PlaceName": "Accra, Ghana",
+        "Region": ""
     },
     "addis_abeba_ethiopia": {
         "City": "Addis-Abeba",
         "Country": "Ethiopia",
-        "Label": "Addis-Abeba, Ethiopia",
-        "Latitude": 8.9806034,
-        "Longitude": 38.7577605,
-        "Place ID": "addis_abeba_ethiopia",
-        "State/Province/County (optional)": ""
+        "Lat": 8.9806034,
+        "Long": 38.7577605,
+        "PlaceID": "addis_abeba_ethiopia",
+        "PlaceName": "Addis-Abeba, Ethiopia",
+        "Region": ""
     },
     "amsterdam_holland": {
         "City": "Amsterdam",
         "Country": "Holland",
-        "Label": "Amsterdam, Holland",
-        "Latitude": 52.37403,
-        "Longitude": 4.88969,
-        "Place ID": "amsterdam_holland",
-        "State/Province/County (optional)": ""
+        "Lat": 52.3702157,
+        "Long": 4.8951679,
+        "PlaceID": "amsterdam_holland",
+        "PlaceName": "Amsterdam, Holland",
+        "Region": ""
     },
     "angouleme_france": {
         "City": "Angoulême",
         "Country": "France",
-        "Label": "Angoulême, France",
-        "Latitude": 45.65,
-        "Longitude": 0.15,
-        "Place ID": "angouleme_france",
-        "State/Province/County (optional)": ""
+        "Lat": 45.648377,
+        "Long": 0.1562369,
+        "PlaceID": "angouleme_france",
+        "PlaceName": "Angoulême, France",
+        "Region": ""
     },
     "auschwitz_poland": {
         "City": "Auschwitz",
         "Country": "Poland",
-        "Label": "Auschwitz, Poland",
-        "Latitude": 50.0274106,
-        "Longitude": 19.2019829,
-        "Place ID": "auschwitz_poland",
-        "State/Province/County (optional)": ""
+        "Lat": 50.0274106,
+        "Long": 19.2019829,
+        "PlaceID": "auschwitz_poland",
+        "PlaceName": "Auschwitz, Poland",
+        "Region": ""
     },
     "australia": {
         "City": "",
         "Country": "Australia",
-        "Label": "Australia",
-        "Latitude": -25.274398,
-        "Longitude": 133.775136,
-        "Place ID": "australia",
-        "State/Province/County (optional)": ""
+        "Lat": -25.274398,
+        "Long": 133.775136,
+        "PlaceID": "australia",
+        "PlaceName": "Australia",
+        "Region": ""
     },
     "austria": {
         "City": "",
         "Country": "Austria",
-        "Label": "Austria",
-        "Latitude": 47.33333,
-        "Longitude": 13.33333,
-        "Place ID": "austria",
-        "State/Province/County (optional)": ""
+        "Lat": 47.516231,
+        "Long": 14.550072,
+        "PlaceID": "austria",
+        "PlaceName": "Austria",
+        "Region": ""
     },
     "avignon_france": {
         "City": "Avignon",
         "Country": "France",
-        "Label": "Avignon, France",
-        "Latitude": 43.949317,
-        "Longitude": 4.805528,
-        "Place ID": "avignon_france",
-        "State/Province/County (optional)": ""
+        "Lat": 43.949317,
+        "Long": 4.805528,
+        "PlaceID": "avignon_france",
+        "PlaceName": "Avignon, France",
+        "Region": ""
     },
     "basse_pointe_martinique": {
         "City": "Basse-Pointe",
         "Country": "Martinique",
-        "Label": "Basse-Pointe, Martinique",
-        "Latitude": 14.8672508,
-        "Longitude": -61.1155622,
-        "Place ID": "basse_pointe_martinique",
-        "State/Province/County (optional)": ""
+        "Lat": 14.8672508,
+        "Long": -61.1155622,
+        "PlaceID": "basse_pointe_martinique",
+        "PlaceName": "Basse-Pointe, Martinique",
+        "Region": ""
     },
     "basseterre_st_kitts_and_nevis": {
         "City": "Basseterre",
         "Country": "St. Kitts and Nevis",
-        "Label": "Basseterre, St. Kitts and Nevis",
-        "Latitude": 17.3026058,
-        "Longitude": -62.7176924,
-        "Place ID": "basseterre_st_kitts_and_nevis",
-        "State/Province/County (optional)": ""
+        "Lat": 17.3026058,
+        "Long": -62.7176924,
+        "PlaceID": "basseterre_st_kitts_and_nevis",
+        "PlaceName": "Basseterre, St. Kitts and Nevis",
+        "Region": ""
     },
     "belfast_northern_ireland": {
         "City": "Belfast",
         "Country": "Northern Ireland",
-        "Label": "Belfast, Northern Ireland",
-        "Latitude": 54.597285,
-        "Longitude": -5.93012,
-        "Place ID": "belfast_northern_ireland",
-        "State/Province/County (optional)": ""
+        "Lat": 54.597285,
+        "Long": -5.93012,
+        "PlaceID": "belfast_northern_ireland",
+        "PlaceName": "Belfast, Northern Ireland",
+        "Region": ""
     },
     "berlin_germany": {
         "City": "Berlin",
         "Country": "Germany",
-        "Label": "Berlin, Germany",
-        "Latitude": 52.5200066,
-        "Longitude": 13.404954,
-        "Place ID": "berlin_germany",
-        "State/Province/County (optional)": ""
+        "Lat": 52.5200066,
+        "Long": 13.404954,
+        "PlaceID": "berlin_germany",
+        "PlaceName": "Berlin, Germany",
+        "Region": ""
     },
     "bologna_italy": {
         "City": "Bologna",
         "Country": "Italy",
-        "Label": "Bologna, Italy",
-        "Latitude": 44.494887,
-        "Longitude": 11.3426162,
-        "Place ID": "bologna_italy",
-        "State/Province/County (optional)": ""
+        "Lat": 44.494887,
+        "Long": 11.3426162,
+        "PlaceID": "bologna_italy",
+        "PlaceName": "Bologna, Italy",
+        "Region": ""
     },
     "boston_massachusetts_usa": {
         "City": "Boston",
         "Country": "USA",
-        "Label": "Boston, Massachusetts, USA",
-        "Latitude": 42.3600825,
-        "Longitude": -71.0588801,
-        "Place ID": "boston_massachusetts_usa",
-        "State/Province/County (optional)": "Massachusetts"
+        "Lat": 42.3600825,
+        "Long": -71.0588801,
+        "PlaceID": "boston_massachusetts_usa",
+        "PlaceName": "Boston, Massachusetts, USA",
+        "Region": "Massachusetts"
     },
     "bournemouth_england": {
         "City": "Bournemouth",
         "Country": "England",
-        "Label": "Bournemouth, England",
-        "Latitude": 50.719164,
-        "Longitude": -1.880769,
-        "Place ID": "bournemouth_england",
-        "State/Province/County (optional)": ""
+        "Lat": 50.719164,
+        "Long": -1.880769,
+        "PlaceID": "bournemouth_england",
+        "PlaceName": "Bournemouth, England",
+        "Region": ""
     },
     "bremen_germany": {
         "City": "Bremen",
         "Country": "Germany",
-        "Label": "Bremen, Germany",
-        "Latitude": 53.0792962,
-        "Longitude": 8.8016936,
-        "Place ID": "bremen_germany",
-        "State/Province/County (optional)": ""
+        "Lat": 53.0792962,
+        "Long": 8.8016936,
+        "PlaceID": "bremen_germany",
+        "PlaceName": "Bremen, Germany",
+        "Region": ""
     },
     "bridgetown_barbados": {
         "City": "Bridgetown",
         "Country": "Barbados",
-        "Label": "Bridgetown, Barbados",
-        "Latitude": 13.0968511,
-        "Longitude": -59.6144819,
-        "Place ID": "bridgetown_barbados",
-        "State/Province/County (optional)": ""
+        "Lat": 13.0968511,
+        "Long": -59.6144819,
+        "PlaceID": "bridgetown_barbados",
+        "PlaceName": "Bridgetown, Barbados",
+        "Region": ""
     },
     "brooklyn_new_york_usa": {
         "City": "Brooklyn",
         "Country": "USA",
-        "Label": "Brooklyn, New York, USA",
-        "Latitude": 40.6781784,
-        "Longitude": -73.9441579,
-        "Place ID": "brooklyn_new_york_usa",
-        "State/Province/County (optional)": "New York"
+        "Lat": 40.6781784,
+        "Long": -73.9441579,
+        "PlaceID": "brooklyn_new_york_usa",
+        "PlaceName": "Brooklyn, New York, USA",
+        "Region": "New York"
     },
     "brussels_belgium": {
         "City": "Brussels",
         "Country": "Belgium",
-        "Label": "Brussels, Belgium",
-        "Latitude": 50.8503463,
-        "Longitude": 4.3517211,
-        "Place ID": "brussels_belgium",
-        "State/Province/County (optional)": ""
+        "Lat": 50.8503463,
+        "Long": 4.3517211,
+        "PlaceID": "brussels_belgium",
+        "PlaceName": "Brussels, Belgium",
+        "Region": ""
     },
     "bucarest_romania": {
         "City": "Bucarest",
         "Country": "Romania",
-        "Label": "Bucarest, Romania",
-        "Latitude": 44.4267674,
-        "Longitude": 26.1025384,
-        "Place ID": "bucarest_romania",
-        "State/Province/County (optional)": ""
+        "Lat": 44.4267674,
+        "Long": 26.1025384,
+        "PlaceID": "bucarest_romania",
+        "PlaceName": "Bucarest, Romania",
+        "Region": ""
     },
     "buenos_aires_argentina": {
         "City": "Buenos Aires",
         "Country": "Argentina",
-        "Label": "Buenos Aires, Argentina",
-        "Latitude": -34.6036844,
-        "Longitude": -58.3815591,
-        "Place ID": "buenos_aires_argentina",
-        "State/Province/County (optional)": ""
+        "Lat": -34.6036844,
+        "Long": -58.3815591,
+        "PlaceID": "buenos_aires_argentina",
+        "PlaceName": "Buenos Aires, Argentina",
+        "Region": ""
     },
     "cambridge_england": {
         "City": "Cambridge",
         "Country": "England",
-        "Label": "Cambridge, England",
-        "Latitude": 52.205337,
-        "Longitude": 0.121817,
-        "Place ID": "cambridge_england",
-        "State/Province/County (optional)": ""
+        "Lat": 52.205337,
+        "Long": 0.121817,
+        "PlaceID": "cambridge_england",
+        "PlaceName": "Cambridge, England",
+        "Region": ""
     },
     "cambridge_massachusetts_usa": {
         "City": "Cambridge",
         "Country": "USA",
-        "Label": "Cambridge, Massachusetts, USA",
-        "Latitude": 42.3736158,
-        "Longitude": -71.1097335,
-        "Place ID": "cambridge_massachusetts_usa",
-        "State/Province/County (optional)": "Massachusetts"
+        "Lat": 42.3736158,
+        "Long": -71.1097335,
+        "PlaceID": "cambridge_massachusetts_usa",
+        "PlaceName": "Cambridge, Massachusetts, USA",
+        "Region": "Massachusetts"
     },
     "carbondale_illinois_usa": {
         "City": "Carbondale",
         "Country": "USA",
-        "Label": "Carbondale, Illinois, USA",
-        "Latitude": 37.7272727,
-        "Longitude": -89.2167501,
-        "Place ID": "carbondale_illinois_usa",
-        "State/Province/County (optional)": "Illinois"
+        "Lat": 37.7272727,
+        "Long": -89.2167501,
+        "PlaceID": "carbondale_illinois_usa",
+        "PlaceName": "Carbondale, Illinois, USA",
+        "Region": "Illinois"
     },
     "carmel_california_usa": {
         "City": "Carmel",
         "Country": "USA",
-        "Label": "Carmel, California, USA",
-        "Latitude": 36.5552386,
-        "Longitude": -121.9232879,
-        "Place ID": "carmel_california_usa",
-        "State/Province/County (optional)": "California"
+        "Lat": 36.5552386,
+        "Long": -121.9232879,
+        "PlaceID": "carmel_california_usa",
+        "PlaceName": "Carmel, California, USA",
+        "Region": "California"
     },
     "castries_saint_lucia": {
         "City": "Castries",
         "Country": "Saint Lucia",
-        "Label": "Castries, Saint Lucia",
-        "Latitude": 14.0101094,
-        "Longitude": -60.9874687,
-        "Place ID": "castries_saint_lucia",
-        "State/Province/County (optional)": ""
+        "Lat": 14.0101094,
+        "Long": -60.9874687,
+        "PlaceID": "castries_saint_lucia",
+        "PlaceName": "Castries, Saint Lucia",
+        "Region": ""
     },
     "chicago_illinois_usa": {
         "City": "Chicago",
         "Country": "USA",
-        "Label": "Chicago, Illinois, USA",
-        "Latitude": 41.8781136,
-        "Longitude": -87.6297982,
-        "Place ID": "chicago_illinois_usa",
-        "State/Province/County (optional)": "Illinois"
+        "Lat": 41.8781136,
+        "Long": -87.6297982,
+        "PlaceID": "chicago_illinois_usa",
+        "PlaceName": "Chicago, Illinois, USA",
+        "Region": "Illinois"
     },
     "cincinnati_ohio_usa": {
         "City": "Cincinnati",
         "Country": "USA",
-        "Label": "Cincinnati, Ohio, USA",
-        "Latitude": 39.1031182,
-        "Longitude": -84.5120196,
-        "Place ID": "cincinnati_ohio_usa",
-        "State/Province/County (optional)": "Ohio"
+        "Lat": 39.1031182,
+        "Long": -84.5120196,
+        "PlaceID": "cincinnati_ohio_usa",
+        "PlaceName": "Cincinnati, Ohio, USA",
+        "Region": "Ohio"
     },
     "cleveland_ohio_usa": {
         "City": "Cleveland",
         "Country": "USA",
-        "Label": "Cleveland, Ohio, USA",
-        "Latitude": 41.49932,
-        "Longitude": -81.6943605,
-        "Place ID": "cleveland_ohio_usa",
-        "State/Province/County (optional)": "Ohio"
+        "Lat": 41.49932,
+        "Long": -81.6943605,
+        "PlaceID": "cleveland_ohio_usa",
+        "PlaceName": "Cleveland, Ohio, USA",
+        "Region": "Ohio"
     },
     "colombia": {
         "City": "",
         "Country": "Colombia",
-        "Label": "Colombia",
-        "Latitude": 4.0,
-        "Longitude": -73.25,
-        "Place ID": "colombia",
-        "State/Province/County (optional)": ""
+        "Lat": 4.570868,
+        "Long": -74.297333,
+        "PlaceID": "colombia",
+        "PlaceName": "Colombia",
+        "Region": ""
     },
     "copenhagen_denmark": {
         "City": "Copenhagen",
         "Country": "Denmark",
-        "Label": "Copenhagen, Denmark",
-        "Latitude": 55.6760968,
-        "Longitude": 12.5683372,
-        "Place ID": "copenhagen_denmark",
-        "State/Province/County (optional)": ""
+        "Lat": 55.6760968,
+        "Long": 12.5683372,
+        "PlaceID": "copenhagen_denmark",
+        "PlaceName": "Copenhagen, Denmark",
+        "Region": ""
     },
     "covington_kentucky_usa": {
         "City": "Covington",
         "Country": "USA",
-        "Label": "Covington, Kentucky, USA",
-        "Latitude": 39.0836712,
-        "Longitude": -84.5085536,
-        "Place ID": "covington_kentucky_usa",
-        "State/Province/County (optional)": "Kentucky"
+        "Lat": 39.0836712,
+        "Long": -84.5085536,
+        "PlaceID": "covington_kentucky_usa",
+        "PlaceName": "Covington, Kentucky, USA",
+        "Region": "Kentucky"
     },
     "cowpastor_barbados": {
         "City": "CowPastor",
         "Country": "Barbados",
-        "Label": "CowPastor, Barbados",
-        "Latitude": 13.193887,
-        "Longitude": -59.543198,
-        "Place ID": "cowpastor_barbados",
-        "State/Province/County (optional)": ""
+        "Lat": 13.193887,
+        "Long": -59.543198,
+        "PlaceID": "cowpastor_barbados",
+        "PlaceName": "CowPastor, Barbados",
+        "Region": ""
     },
     "dakar_senegal": {
         "City": "Dakar",
         "Country": "Senegal",
-        "Label": "Dakar, Senegal",
-        "Latitude": 14.716677,
-        "Longitude": -17.4676861,
-        "Place ID": "dakar_senegal",
-        "State/Province/County (optional)": ""
+        "Lat": 14.716677,
+        "Long": -17.4676861,
+        "PlaceID": "dakar_senegal",
+        "PlaceName": "Dakar, Senegal",
+        "Region": ""
     },
     "detroit_michigan_usa": {
         "City": "Detroit",
         "Country": "USA",
-        "Label": "Detroit, Michigan, USA",
-        "Latitude": 42.331427,
-        "Longitude": -83.0457538,
-        "Place ID": "detroit_michigan_usa",
-        "State/Province/County (optional)": "Michigan"
+        "Lat": 42.331427,
+        "Long": -83.0457538,
+        "PlaceID": "detroit_michigan_usa",
+        "PlaceName": "Detroit, Michigan, USA",
+        "Region": "Michigan"
     },
     "east_st_louis_illinois_usa": {
         "City": "East St. Louis",
         "Country": "USA",
-        "Label": "East St. Louis, Illinois, USA",
-        "Latitude": 38.624514,
-        "Longitude": -90.1506465,
-        "Place ID": "east_st_louis_illinois_usa",
-        "State/Province/County (optional)": "Illinois"
+        "Lat": 38.624514,
+        "Long": -90.1506465,
+        "PlaceID": "east_st_louis_illinois_usa",
+        "PlaceName": "East St. Louis, Illinois, USA",
+        "Region": "Illinois"
     },
     "ecuador": {
         "City": "",
         "Country": "Ecuador",
-        "Label": "Ecuador",
-        "Latitude": -1.25,
-        "Longitude": -78.25,
-        "Place ID": "ecuador",
-        "State/Province/County (optional)": ""
+        "Lat": -1.831239,
+        "Long": -78.183406,
+        "PlaceID": "ecuador",
+        "PlaceName": "Ecuador",
+        "Region": ""
     },
     "england": {
         "City": "",
         "Country": "England",
-        "Label": "England",
-        "Latitude": 52.24067,
-        "Longitude": 0.50415,
-        "Place ID": "england",
-        "State/Province/County (optional)": ""
+        "Lat": 52.24067,
+        "Long": 0.50415,
+        "PlaceID": "england",
+        "PlaceName": "England",
+        "Region": ""
     },
     "english_provinces_england": {
         "City": "",
         "Country": "England",
-        "Label": "English Provinces, England",
-        "Latitude": null,
-        "Longitude": null,
-        "Place ID": "english_provinces_england",
-        "State/Province/County (optional)": "English Provinces"
+        "Lat": 52.3555177,
+        "Long": -1.1743197,
+        "PlaceID": "english_provinces_england",
+        "PlaceName": "English Provinces, England",
+        "Region": "English Provinces"
     },
     "eschenau_austria": {
         "City": "Eschenau",
         "Country": "Austria",
-        "Label": "Eschenau, Austria",
-        "Latitude": 48.04875,
-        "Longitude": 15.56751,
-        "Place ID": "eschenau_austria",
-        "State/Province/County (optional)": ""
+        "Lat": 48.04875,
+        "Long": 15.56751,
+        "PlaceID": "eschenau_austria",
+        "PlaceName": "Eschenau, Austria",
+        "Region": ""
     },
     "europe": {
         "City": "",
         "Country": "Europe",
-        "Label": "Europe",
-        "Latitude": 54.5259614,
-        "Longitude": 15.2551187,
-        "Place ID": "europe",
-        "State/Province/County (optional)": ""
+        "Lat": 54.5259614,
+        "Long": 15.2551187,
+        "PlaceID": "europe",
+        "PlaceName": "Europe",
+        "Region": ""
     },
     "falmer_sussex_england": {
         "City": "Falmer",
         "Country": "England",
-        "Label": "Falmer, Sussex, England",
-        "Latitude": 50.8670895,
-        "Longitude": -0.087914,
-        "Place ID": "falmer_sussex_england",
-        "State/Province/County (optional)": "Sussex"
+        "Lat": 50.8670895,
+        "Long": -0.087914,
+        "PlaceID": "falmer_sussex_england",
+        "PlaceName": "Falmer, Sussex, England",
+        "Region": "Sussex"
     },
     "florence_italy": {
         "City": "Florence",
         "Country": "Italy",
-        "Label": "Florence, Italy",
-        "Latitude": 43.7695604,
-        "Longitude": 11.2558136,
-        "Place ID": "florence_italy",
-        "State/Province/County (optional)": ""
+        "Lat": 43.7695604,
+        "Long": 11.2558136,
+        "PlaceID": "florence_italy",
+        "PlaceName": "Florence, Italy",
+        "Region": ""
     },
     "fort_de_france_martinique": {
         "City": "Fort-de-France",
         "Country": "Martinique",
-        "Label": "Fort-de-France, Martinique",
-        "Latitude": 14.6160647,
-        "Longitude": -61.0587804,
-        "Place ID": "fort_de_france_martinique",
-        "State/Province/County (optional)": ""
+        "Lat": 14.6160647,
+        "Long": -61.0587804,
+        "PlaceID": "fort_de_france_martinique",
+        "PlaceName": "Fort-de-France, Martinique",
+        "Region": ""
     },
     "geneva_switzerland": {
         "City": "Geneva",
         "Country": "Switzerland",
-        "Label": "Geneva, Switzerland",
-        "Latitude": 46.2043907,
-        "Longitude": 6.1431577,
-        "Place ID": "geneva_switzerland",
-        "State/Province/County (optional)": ""
+        "Lat": 46.2043907,
+        "Long": 6.1431577,
+        "PlaceID": "geneva_switzerland",
+        "PlaceName": "Geneva, Switzerland",
+        "Region": ""
     },
     "genoa_italy": {
         "City": "Genoa",
         "Country": "Italy",
-        "Label": "Genoa, Italy",
-        "Latitude": 44.4056499,
-        "Longitude": 8.946256,
-        "Place ID": "genoa_italy",
-        "State/Province/County (optional)": ""
+        "Lat": 44.4056499,
+        "Long": 8.946256,
+        "PlaceID": "genoa_italy",
+        "PlaceName": "Genoa, Italy",
+        "Region": ""
     },
     "georgetown_guyana": {
         "City": "Georgetown",
         "Country": "Guyana",
-        "Label": "Georgetown , Guyana",
-        "Latitude": 6.8012793,
-        "Longitude": -58.1551255,
-        "Place ID": "georgetown_guyana",
-        "State/Province/County (optional)": ""
+        "Lat": 6.8012793,
+        "Long": -58.1551255,
+        "PlaceID": "georgetown_guyana",
+        "PlaceName": "Georgetown, Guyana",
+        "Region": ""
     },
     "germany": {
         "City": "",
         "Country": "Germany",
-        "Label": "Germany",
-        "Latitude": 51.5,
-        "Longitude": 10.5,
-        "Place ID": "germany",
-        "State/Province/County (optional)": ""
+        "Lat": 51.5,
+        "Long": 10.5,
+        "PlaceID": "germany",
+        "PlaceName": "Germany",
+        "Region": ""
     },
     "glen_ellyn_illinois_usa": {
         "City": "Glen Ellyn",
         "Country": "USA",
-        "Label": "Glen Ellyn, Illinois, USA",
-        "Latitude": 41.8775293,
-        "Longitude": -88.0670118,
-        "Place ID": "glen_ellyn_illinois_usa",
-        "State/Province/County (optional)": "Illinois"
+        "Lat": 41.8775293,
+        "Long": -88.0670118,
+        "PlaceID": "glen_ellyn_illinois_usa",
+        "PlaceName": "Glen Ellyn, Illinois, USA",
+        "Region": "Illinois"
     },
     "greece": {
         "City": "",
         "Country": "Greece",
-        "Label": "Greece",
-        "Latitude": 39.0,
-        "Longitude": 22.0,
-        "Place ID": "greece",
-        "State/Province/County (optional)": ""
+        "Lat": 39.0,
+        "Long": 22.0,
+        "PlaceID": "greece",
+        "PlaceName": "Greece",
+        "Region": ""
     },
     "haiti": {
         "City": "",
         "Country": "Haiti",
-        "Label": "Haiti",
-        "Latitude": 19.0,
-        "Longitude": -72.41667,
-        "Place ID": "haiti",
-        "State/Province/County (optional)": ""
+        "Lat": 19.0,
+        "Long": -72.41667,
+        "PlaceID": "haiti",
+        "PlaceName": "Haiti",
+        "Region": ""
     },
     "hanover_germany": {
         "City": "Hanover",
         "Country": "Germany",
-        "Label": "Hanover, Germany",
-        "Latitude": 52.3758916,
-        "Longitude": 9.7320104,
-        "Place ID": "hanover_germany",
-        "State/Province/County (optional)": ""
+        "Lat": 52.3758916,
+        "Long": 9.7320104,
+        "PlaceID": "hanover_germany",
+        "PlaceName": "Hanover, Germany",
+        "Region": ""
     },
     "havana_cuba": {
         "City": "Havana",
         "Country": "Cuba",
-        "Label": "Havana, Cuba",
-        "Latitude": 23.1135925,
-        "Longitude": -82.3665956,
-        "Place ID": "havana_cuba",
-        "State/Province/County (optional)": ""
+        "Lat": 23.1135925,
+        "Long": -82.3665956,
+        "PlaceID": "havana_cuba",
+        "PlaceName": "Havana, Cuba",
+        "Region": ""
     },
     "ho_trans_volta_togoland": {
         "City": "Ho",
         "Country": "Trans-Volta Togoland",
-        "Label": "Ho, Trans-Volta Togoland",
-        "Latitude": 6.6101493,
-        "Longitude": 0.4785495,
-        "Place ID": "ho_trans_volta_togoland",
-        "State/Province/County (optional)": ""
+        "Lat": 6.6101493,
+        "Long": 0.4785495,
+        "PlaceID": "ho_trans_volta_togoland",
+        "PlaceName": "Ho, Trans-Volta Togoland",
+        "Region": ""
     },
     "hong_kong": {
         "City": "",
         "Country": "Hong Kong",
-        "Label": "Hong Kong",
-        "Latitude": 22.27832,
-        "Longitude": 114.17469,
-        "Place ID": "hong_kong",
-        "State/Province/County (optional)": ""
+        "Lat": 22.27832,
+        "Long": 114.17469,
+        "PlaceID": "hong_kong",
+        "PlaceName": "Hong Kong",
+        "Region": ""
     },
     "indianapolis_indiana_usa": {
         "City": "Indianapolis",
         "Country": "USA",
-        "Label": "Indianapolis, Indiana, USA",
-        "Latitude": 39.768403,
-        "Longitude": -86.158068,
-        "Place ID": "indianapolis_indiana_usa",
-        "State/Province/County (optional)": "Indiana"
+        "Lat": 39.768403,
+        "Long": -86.158068,
+        "PlaceID": "indianapolis_indiana_usa",
+        "PlaceName": "Indianapolis, Indiana, USA",
+        "Region": "Indiana"
     },
     "ireland": {
         "City": "",
         "Country": "Ireland",
-        "Label": "Ireland",
-        "Latitude": 53.0,
-        "Longitude": -8.0,
-        "Place ID": "ireland",
-        "State/Province/County (optional)": ""
+        "Lat": 53.0,
+        "Long": -8.0,
+        "PlaceID": "ireland",
+        "PlaceName": "Ireland",
+        "Region": ""
     },
     "italy": {
         "City": "",
         "Country": "Italy",
-        "Label": "Italy",
-        "Latitude": 42.83333,
-        "Longitude": 12.83333,
-        "Place ID": "italy",
-        "State/Province/County (optional)": ""
+        "Lat": 42.83333,
+        "Long": 12.83333,
+        "PlaceID": "italy",
+        "PlaceName": "Italy",
+        "Region": ""
     },
     "joliet_illinois_usa": {
         "City": "Joliet",
         "Country": "USA",
-        "Label": "Joliet, Illinois, USA",
-        "Latitude": 41.525031,
-        "Longitude": -88.0817251,
-        "Place ID": "joliet_illinois_usa",
-        "State/Province/County (optional)": "Illinois"
+        "Lat": 41.525031,
+        "Long": -88.0817251,
+        "PlaceID": "joliet_illinois_usa",
+        "PlaceName": "Joliet, Illinois, USA",
+        "Region": "Illinois"
     },
     "kansas_city_usa": {
         "City": "Kansas City",
         "Country": "USA",
-        "Label": "Kansas City, USA",
-        "Latitude": 39.0997265,
-        "Longitude": -94.5785667,
-        "Place ID": "kansas_city_usa",
-        "State/Province/County (optional)": ""
+        "Lat": 39.0997265,
+        "Long": -94.5785667,
+        "PlaceID": "kansas_city_usa",
+        "PlaceName": "Kansas City, USA",
+        "Region": ""
     },
     "kingston_jamaica": {
         "City": "Kingston",
         "Country": "Jamaica",
-        "Label": "Kingston, Jamaica",
-        "Latitude": 18.0178743,
-        "Longitude": -76.8099041,
-        "Place ID": "kingston_jamaica",
-        "State/Province/County (optional)": ""
+        "Lat": 18.0178743,
+        "Long": -76.8099041,
+        "PlaceID": "kingston_jamaica",
+        "PlaceName": "Kingston, Jamaica",
+        "Region": ""
     },
     "las_vegas_nevada_usa": {
         "City": "Las Vegas",
         "Country": "USA",
-        "Label": "Las Vegas, Nevada, USA",
-        "Latitude": 36.1699412,
-        "Longitude": -115.1398296,
-        "Place ID": "las_vegas_nevada_usa",
-        "State/Province/County (optional)": "Nevada"
+        "Lat": 36.1699412,
+        "Long": -115.1398296,
+        "PlaceID": "las_vegas_nevada_usa",
+        "PlaceName": "Las Vegas, Nevada, USA",
+        "Region": "Nevada"
     },
     "lebanon": {
         "City": "",
         "Country": "Lebanon",
-        "Label": "Lebanon",
-        "Latitude": 33.83333,
-        "Longitude": 35.83333,
-        "Place ID": "lebanon",
-        "State/Province/County (optional)": ""
+        "Lat": 33.83333,
+        "Long": 35.83333,
+        "PlaceID": "lebanon",
+        "PlaceName": "Lebanon",
+        "Region": ""
     },
     "lecce_italy": {
         "City": "Lecce",
         "Country": "Italy",
-        "Label": "Lecce, Italy",
-        "Latitude": 40.3515155,
-        "Longitude": 18.1750161,
-        "Place ID": "lecce_italy",
-        "State/Province/County (optional)": ""
+        "Lat": 40.3515155,
+        "Long": 18.1750161,
+        "PlaceID": "lecce_italy",
+        "PlaceName": "Lecce, Italy",
+        "Region": ""
     },
     "lima_peru": {
         "City": "Lima",
         "Country": "Peru",
-        "Label": "Lima, Peru",
-        "Latitude": -12.0463731,
-        "Longitude": -77.042754,
-        "Place ID": "lima_peru",
-        "State/Province/County (optional)": ""
+        "Lat": -12.0463731,
+        "Long": -77.042754,
+        "PlaceID": "lima_peru",
+        "PlaceName": "Lima, Peru",
+        "Region": ""
     },
     "limura_kenya": {
         "City": "Limura",
         "Country": "Kenya",
-        "Label": "Limura, Kenya",
-        "Latitude": -1.1069305,
-        "Longitude": 36.6431267,
-        "Place ID": "limura_kenya",
-        "State/Province/County (optional)": ""
+        "Lat": -1.1069305,
+        "Long": 36.6431267,
+        "PlaceID": "limura_kenya",
+        "PlaceName": "Limura, Kenya",
+        "Region": ""
     },
     "london_england": {
         "City": "London",
         "Country": "England",
-        "Label": "London, England",
-        "Latitude": 51.5073509,
-        "Longitude": -0.1277583,
-        "Place ID": "london_england",
-        "State/Province/County (optional)": ""
+        "Lat": 51.5073509,
+        "Long": -0.1277583,
+        "PlaceID": "london_england",
+        "PlaceName": "London, England",
+        "Region": ""
     },
     "los_angeles_california_usa": {
         "City": "Los Angeles",
         "Country": "USA",
-        "Label": "Los Angeles, California, USA",
-        "Latitude": 34.0522342,
-        "Longitude": -118.2436849,
-        "Place ID": "los_angeles_california_usa",
-        "State/Province/County (optional)": "California"
+        "Lat": 34.0522342,
+        "Long": -118.2436849,
+        "PlaceID": "los_angeles_california_usa",
+        "PlaceName": "Los Angeles, California, USA",
+        "Region": "California"
     },
     "louisville_kentucky_usa": {
         "City": "Louisville",
         "Country": "USA",
-        "Label": "Louisville, Kentucky, USA",
-        "Latitude": 38.2526647,
-        "Longitude": -85.7584557,
-        "Place ID": "louisville_kentucky_usa",
-        "State/Province/County (optional)": "Kentucky"
+        "Lat": 38.2526647,
+        "Long": -85.7584557,
+        "PlaceID": "louisville_kentucky_usa",
+        "PlaceName": "Louisville, Kentucky, USA",
+        "Region": "Kentucky"
     },
     "malay_federation_(malaysia)": {
         "City": "",
         "Country": "Malay Federation (Malaysia)",
-        "Label": "Malay Federation (Malaysia)",
-        "Latitude": null,
-        "Longitude": null,
-        "Place ID": "malay_federation_(malaysia)",
-        "State/Province/County (optional)": ""
+        "Lat": null,
+        "Long": null,
+        "PlaceID": "malay_federation_(malaysia)",
+        "PlaceName": "Malay Federation (Malaysia)",
+        "Region": ""
     },
     "manhattan_new_york_usa": {
         "City": "Manhattan",
         "Country": "USA",
-        "Label": "Manhattan, New York, USA",
-        "Latitude": 40.7830603,
-        "Longitude": -73.9712488,
-        "Place ID": "manhattan_new_york_usa",
-        "State/Province/County (optional)": "New York"
+        "Lat": 40.7830603,
+        "Long": -73.9712488,
+        "PlaceID": "manhattan_new_york_usa",
+        "PlaceName": "Manhattan, New York, USA",
+        "Region": "New York"
     },
     "mar_de_plata_argentina": {
         "City": "Mar de Plata",
         "Country": "Argentina",
-        "Label": "Mar de Plata, Argentina",
-        "Latitude": -38.0054771,
-        "Longitude": -57.5426106,
-        "Place ID": "mar_de_plata_argentina",
-        "State/Province/County (optional)": ""
+        "Lat": -38.0054771,
+        "Long": -57.5426106,
+        "PlaceID": "mar_de_plata_argentina",
+        "PlaceName": "Mar de Plata, Argentina",
+        "Region": ""
     },
     "martinique": {
         "City": "",
         "Country": "Martinique",
-        "Label": "Martinique",
-        "Latitude": 14.66667,
-        "Longitude": -61.0,
-        "Place ID": "martinique",
-        "State/Province/County (optional)": ""
+        "Lat": 14.66667,
+        "Long": -61.0,
+        "PlaceID": "martinique",
+        "PlaceName": "Martinique",
+        "Region": ""
     },
     "memphis_tennessee_usa": {
         "City": "Memphis",
         "Country": "USA",
-        "Label": "Memphis, Tennessee, USA",
-        "Latitude": 35.1495343,
-        "Longitude": -90.0489801,
-        "Place ID": "memphis_tennessee_usa",
-        "State/Province/County (optional)": "Tennessee"
+        "Lat": 35.1495343,
+        "Long": -90.0489801,
+        "PlaceID": "memphis_tennessee_usa",
+        "PlaceName": "Memphis, Tennessee, USA",
+        "Region": "Tennessee"
     },
     "mexico": {
         "City": "",
         "Country": "Mexico",
-        "Label": "Mexico",
-        "Latitude": 23.0,
-        "Longitude": -102.0,
-        "Place ID": "mexico",
-        "State/Province/County (optional)": ""
+        "Lat": 23.0,
+        "Long": -102.0,
+        "PlaceID": "mexico",
+        "PlaceName": "Mexico",
+        "Region": ""
     },
     "mexico_city_mexico": {
         "City": "Mexico City",
         "Country": "Mexico",
-        "Label": "Mexico City, Mexico",
-        "Latitude": 19.4326077,
-        "Longitude": -99.133208,
-        "Place ID": "mexico_city_mexico",
-        "State/Province/County (optional)": ""
+        "Lat": 19.4326077,
+        "Long": -99.133208,
+        "PlaceID": "mexico_city_mexico",
+        "PlaceName": "Mexico City, Mexico",
+        "Region": ""
     },
     "miami_florida_usa": {
         "City": "Miami",
         "Country": "USA",
-        "Label": "Miami, Florida, USA",
-        "Latitude": 25.7616798,
-        "Longitude": -80.1917902,
-        "Place ID": "miami_florida_usa",
-        "State/Province/County (optional)": "Florida"
+        "Lat": 25.7616798,
+        "Long": -80.1917902,
+        "PlaceID": "miami_florida_usa",
+        "PlaceName": "Miami, Florida, USA",
+        "Region": "Florida"
     },
     "michigan_usa": {
         "City": "",
         "Country": "USA",
-        "Label": "Michigan, USA",
-        "Latitude": 44.25029,
-        "Longitude": -85.50033,
-        "Place ID": "michigan_usa",
-        "State/Province/County (optional)": "Michigan"
+        "Lat": 44.25029,
+        "Long": -85.50033,
+        "PlaceID": "michigan_usa",
+        "PlaceName": "Michigan, USA",
+        "Region": "Michigan"
     },
     "milan_italy": {
         "City": "Milan",
         "Country": "Italy",
-        "Label": "Milan, Italy",
-        "Latitude": 45.4642035,
-        "Longitude": 9.189982,
-        "Place ID": "milan_italy",
-        "State/Province/County (optional)": ""
+        "Lat": 45.4642035,
+        "Long": 9.189982,
+        "PlaceID": "milan_italy",
+        "PlaceName": "Milan, Italy",
+        "Region": ""
     },
     "mona_jamaica": {
         "City": "Mona",
         "Country": "Jamaica",
-        "Label": "Mona, Jamaica",
-        "Latitude": 18.0123976,
-        "Longitude": -76.7480805,
-        "Place ID": "mona_jamaica",
-        "State/Province/County (optional)": ""
+        "Lat": 18.0123976,
+        "Long": -76.7480805,
+        "PlaceID": "mona_jamaica",
+        "PlaceName": "Mona, Jamaica",
+        "Region": ""
     },
     "montevideo_uruguay": {
         "City": "Montevideo",
         "Country": "Uruguay",
-        "Label": "Montevideo, Uruguay",
-        "Latitude": -34.9011127,
-        "Longitude": -56.1645314,
-        "Place ID": "montevideo_uruguay",
-        "State/Province/County (optional)": ""
+        "Lat": -34.9011127,
+        "Long": -56.1645314,
+        "PlaceID": "montevideo_uruguay",
+        "PlaceName": "Montevideo, Uruguay",
+        "Region": ""
     },
     "montreal_canada": {
         "City": "Montreal",
         "Country": "Canada",
-        "Label": "Montreal, Canada",
-        "Latitude": 45.5016889,
-        "Longitude": -73.567256,
-        "Place ID": "montreal_canada",
-        "State/Province/County (optional)": ""
+        "Lat": 45.5016889,
+        "Long": -73.567256,
+        "PlaceID": "montreal_canada",
+        "PlaceName": "Montreal, Canada",
+        "Region": ""
     },
     "morocco": {
         "City": "",
         "Country": "Morocco",
-        "Label": "Morocco",
-        "Latitude": 32.0,
-        "Longitude": -6.0,
-        "Place ID": "morocco",
-        "State/Province/County (optional)": ""
+        "Lat": 32.0,
+        "Long": -6.0,
+        "PlaceID": "morocco",
+        "PlaceName": "Morocco",
+        "Region": ""
     },
     "moscow_russia": {
         "City": "Moscow",
         "Country": "Russia",
-        "Label": "Moscow, Russia",
-        "Latitude": 55.755826,
-        "Longitude": 37.6172999,
-        "Place ID": "moscow_russia",
-        "State/Province/County (optional)": ""
+        "Lat": 55.755826,
+        "Long": 37.6172999,
+        "PlaceID": "moscow_russia",
+        "PlaceName": "Moscow, Russia",
+        "Region": ""
     },
     "munich_germany": {
         "City": "Munich",
         "Country": "Germany",
-        "Label": "Munich, Germany",
-        "Latitude": 48.1351253,
-        "Longitude": 11.5819805,
-        "Place ID": "munich_germany",
-        "State/Province/County (optional)": ""
+        "Lat": 48.1351253,
+        "Long": 11.5819805,
+        "PlaceID": "munich_germany",
+        "PlaceName": "Munich, Germany",
+        "Region": ""
     },
     "mysore_india": {
         "City": "Mysore",
         "Country": "India",
-        "Label": "Mysore, India",
-        "Latitude": 12.2958104,
-        "Longitude": 76.6393805,
-        "Place ID": "mysore_india",
-        "State/Province/County (optional)": ""
+        "Lat": 12.2958104,
+        "Long": 76.6393805,
+        "PlaceID": "mysore_india",
+        "PlaceName": "Mysore, India",
+        "Region": ""
     },
     "nairobi_kenya": {
         "City": "Nairobi",
         "Country": "Kenya",
-        "Label": "Nairobi, Kenya",
-        "Latitude": -1.2920659,
-        "Longitude": 36.8219462,
-        "Place ID": "nairobi_kenya",
-        "State/Province/County (optional)": ""
+        "Lat": -1.2920659,
+        "Long": 36.8219462,
+        "PlaceID": "nairobi_kenya",
+        "PlaceName": "Nairobi, Kenya",
+        "Region": ""
     },
     "naples_italy": {
         "City": "Naples",
         "Country": "Italy",
-        "Label": "Naples, Italy",
-        "Latitude": 40.8517746,
-        "Longitude": 14.2681244,
-        "Place ID": "naples_italy",
-        "State/Province/County (optional)": ""
+        "Lat": 40.8517746,
+        "Long": 14.2681244,
+        "PlaceID": "naples_italy",
+        "PlaceName": "Naples, Italy",
+        "Region": ""
     },
     "new_haven_connecticut_usa": {
         "City": "New Haven",
         "Country": "USA",
-        "Label": "New Haven, Connecticut, USA",
-        "Latitude": 41.308274,
-        "Longitude": -72.9278835,
-        "Place ID": "new_haven_connecticut_usa",
-        "State/Province/County (optional)": "Connecticut"
+        "Lat": 41.308274,
+        "Long": -72.9278835,
+        "PlaceID": "new_haven_connecticut_usa",
+        "PlaceName": "New Haven, Connecticut, USA",
+        "Region": "Connecticut"
     },
     "new_york": {
         "City": "",
         "Country": "New York",
-        "Label": "New York",
-        "Latitude": 40.71427,
-        "Longitude": -74.00597,
-        "Place ID": "new_york",
-        "State/Province/County (optional)": ""
+        "Lat": 40.71427,
+        "Long": -74.00597,
+        "PlaceID": "new_york",
+        "PlaceName": "New York",
+        "Region": ""
     },
     "new_york_new_york_usa": {
         "City": "New York",
         "Country": "USA",
-        "Label": "New York, New York, USA",
-        "Latitude": 40.7127753,
-        "Longitude": -74.0059728,
-        "Place ID": "new_york_new_york_usa",
-        "State/Province/County (optional)": "New York"
+        "Lat": 40.7127753,
+        "Long": -74.0059728,
+        "PlaceID": "new_york_new_york_usa",
+        "PlaceName": "New York, New York, USA",
+        "Region": "New York"
     },
     "new_zealand": {
         "City": "",
         "Country": "New Zealand",
-        "Label": "New Zealand",
-        "Latitude": -42.0,
-        "Longitude": 174.0,
-        "Place ID": "new_zealand",
-        "State/Province/County (optional)": ""
+        "Lat": -42.0,
+        "Long": 174.0,
+        "PlaceID": "new_zealand",
+        "PlaceName": "New Zealand",
+        "Region": ""
     },
     "nigeria": {
         "City": "",
         "Country": "Nigeria",
-        "Label": "Nigeria",
-        "Latitude": 10.0,
-        "Longitude": 8.0,
-        "Place ID": "nigeria",
-        "State/Province/County (optional)": ""
+        "Lat": 10.0,
+        "Long": 8.0,
+        "PlaceID": "nigeria",
+        "PlaceName": "Nigeria",
+        "Region": ""
     },
     "oakland_california_usa": {
         "City": "Oakland",
         "Country": "USA",
-        "Label": "Oakland, California, USA",
-        "Latitude": 37.8043637,
-        "Longitude": -122.2711137,
-        "Place ID": "oakland_california_usa",
-        "State/Province/County (optional)": "California"
+        "Lat": 37.8043637,
+        "Long": -122.2711137,
+        "PlaceID": "oakland_california_usa",
+        "PlaceName": "Oakland, California, USA",
+        "Region": "California"
     },
     "okinawa_japan": {
         "City": "Okinawa",
         "Country": "Japan",
-        "Label": "Okinawa, Japan",
-        "Latitude": 26.2124013,
-        "Longitude": 127.6809317,
-        "Place ID": "okinawa_japan",
-        "State/Province/County (optional)": ""
+        "Lat": 26.2124013,
+        "Long": 127.6809317,
+        "PlaceID": "okinawa_japan",
+        "PlaceName": "Okinawa, Japan",
+        "Region": ""
     },
     "orange_new_jersey_usa": {
         "City": "Orange",
         "Country": "USA",
-        "Label": "Orange, New Jersey, USA",
-        "Latitude": 40.7706187,
-        "Longitude": -74.2326478,
-        "Place ID": "orange_new_jersey_usa",
-        "State/Province/County (optional)": "New Jersey"
+        "Lat": 40.7706187,
+        "Long": -74.2326478,
+        "PlaceID": "orange_new_jersey_usa",
+        "PlaceName": "Orange, New Jersey, USA",
+        "Region": "New Jersey"
     },
     "palm_springs_florida_usa": {
         "City": "Palm Springs",
         "Country": "USA",
-        "Label": "Palm Springs, Florida, USA",
-        "Latitude": 26.6359009,
-        "Longitude": -80.0961538,
-        "Place ID": "palm_springs_florida_usa",
-        "State/Province/County (optional)": "Florida"
+        "Lat": 26.6359009,
+        "Long": -80.0961538,
+        "PlaceID": "palm_springs_florida_usa",
+        "PlaceName": "Palm Springs, Florida, USA",
+        "Region": "Florida"
     },
     "paris_france": {
         "City": "Paris",
         "Country": "France",
-        "Label": "Paris, France",
-        "Latitude": 48.856614,
-        "Longitude": 2.3522219,
-        "Place ID": "paris_france",
-        "State/Province/County (optional)": ""
+        "Lat": 48.856614,
+        "Long": 2.3522219,
+        "PlaceID": "paris_france",
+        "PlaceName": "Paris, France",
+        "Region": ""
     },
     "philadelphia_pennsylvania_usa": {
         "City": "Philadelphia",
         "Country": "USA",
-        "Label": "Philadelphia, Pennsylvania, USA",
-        "Latitude": 39.9525839,
-        "Longitude": -75.1652215,
-        "Place ID": "philadelphia_pennsylvania_usa",
-        "State/Province/County (optional)": "Pennsylvania"
+        "Lat": 39.9525839,
+        "Long": -75.1652215,
+        "PlaceID": "philadelphia_pennsylvania_usa",
+        "PlaceName": "Philadelphia, Pennsylvania, USA",
+        "Region": "Pennsylvania"
     },
     "philippines": {
         "City": "",
         "Country": "Philippines",
-        "Label": "Philippines",
-        "Latitude": 13.0,
-        "Longitude": 122.0,
-        "Place ID": "philippines",
-        "State/Province/County (optional)": ""
+        "Lat": 13.0,
+        "Long": 122.0,
+        "PlaceID": "philippines",
+        "PlaceName": "Philippines",
+        "Region": ""
     },
     "pittsburgh_pennsylvania_usa": {
         "City": "Pittsburgh",
         "Country": "USA",
-        "Label": "Pittsburgh, Pennsylvania, USA",
-        "Latitude": 40.4406248,
-        "Longitude": -79.9958864,
-        "Place ID": "pittsburgh_pennsylvania_usa",
-        "State/Province/County (optional)": "Pennsylvania"
+        "Lat": 40.4406248,
+        "Long": -79.9958864,
+        "PlaceID": "pittsburgh_pennsylvania_usa",
+        "PlaceName": "Pittsburgh, Pennsylvania, USA",
+        "Region": "Pennsylvania"
     },
     "port_au_prince_haiti": {
         "City": "Port-au-Prince",
         "Country": "Haiti",
-        "Label": "Port-au-Prince, Haiti",
-        "Latitude": 18.594395,
-        "Longitude": -72.3074326,
-        "Place ID": "port_au_prince_haiti",
-        "State/Province/County (optional)": ""
+        "Lat": 18.594395,
+        "Long": -72.3074326,
+        "PlaceID": "port_au_prince_haiti",
+        "PlaceName": "Port-au-Prince, Haiti",
+        "Region": ""
     },
     "port_of_spain_trinidad": {
         "City": "Port-of-Spain",
         "Country": "Trinidad",
-        "Label": "Port-of-Spain, Trinidad",
-        "Latitude": 10.6549013,
-        "Longitude": -61.5019256,
-        "Place ID": "port_of_spain_trinidad",
-        "State/Province/County (optional)": ""
+        "Lat": 10.6549013,
+        "Long": -61.5019256,
+        "PlaceID": "port_of_spain_trinidad",
+        "PlaceName": "Port-of-Spain, Trinidad",
+        "Region": ""
     },
     "portland_oregon_usa": {
         "City": "Portland",
         "Country": "USA",
-        "Label": "Portland, Oregon, USA",
-        "Latitude": 45.5122308,
-        "Longitude": -122.6587185,
-        "Place ID": "portland_oregon_usa",
-        "State/Province/County (optional)": "Oregon"
+        "Lat": 45.5122308,
+        "Long": -122.6587185,
+        "PlaceID": "portland_oregon_usa",
+        "PlaceName": "Portland, Oregon, USA",
+        "Region": "Oregon"
     },
     "puerto_rico": {
         "City": "",
         "Country": "Puerto Rico",
-        "Label": "Puerto Rico",
-        "Latitude": 18.24829,
-        "Longitude": -66.49989,
-        "Place ID": "puerto_rico",
-        "State/Province/County (optional)": ""
+        "Lat": 18.24829,
+        "Long": -66.49989,
+        "PlaceID": "puerto_rico",
+        "PlaceName": "Puerto Rico",
+        "Region": ""
     },
     "reno_nevada_usa": {
         "City": "Reno",
         "Country": "USA",
-        "Label": "Reno, Nevada, USA",
-        "Latitude": 39.5296329,
-        "Longitude": -119.8138027,
-        "Place ID": "reno_nevada_usa",
-        "State/Province/County (optional)": "Nevada"
+        "Lat": 39.5296329,
+        "Long": -119.8138027,
+        "PlaceID": "reno_nevada_usa",
+        "PlaceName": "Reno, Nevada, USA",
+        "Region": "Nevada"
     },
     "rome_italy": {
         "City": "Rome",
         "Country": "Italy",
-        "Label": "Rome, Italy",
-        "Latitude": 41.9027835,
-        "Longitude": 12.4963655,
-        "Place ID": "rome_italy",
-        "State/Province/County (optional)": ""
+        "Lat": 41.9027835,
+        "Long": 12.4963655,
+        "PlaceID": "rome_italy",
+        "PlaceName": "Rome, Italy",
+        "Region": ""
     },
     "salvador_de_bahia_brazil": {
         "City": "Salvador de Bahia",
         "Country": "Brazil",
-        "Label": "Salvador de Bahia, Brazil",
-        "Latitude": -12.977749,
-        "Longitude": -38.5016301,
-        "Place ID": "salvador_de_bahia_brazil",
-        "State/Province/County (optional)": ""
+        "Lat": -12.977749,
+        "Long": -38.5016301,
+        "PlaceID": "salvador_de_bahia_brazil",
+        "PlaceName": "Salvador de Bahia, Brazil",
+        "Region": ""
     },
     "salzburg_austria": {
         "City": "Salzburg",
         "Country": "Austria",
-        "Label": "Salzburg, Austria",
-        "Latitude": 47.80949,
-        "Longitude": 13.05501,
-        "Place ID": "salzburg_austria",
-        "State/Province/County (optional)": ""
+        "Lat": 47.80949,
+        "Long": 13.05501,
+        "PlaceID": "salzburg_austria",
+        "PlaceName": "Salzburg, Austria",
+        "Region": ""
     },
     "san_diego_california_usa": {
         "City": "San Diego",
         "Country": "USA",
-        "Label": "San Diego, California, USA",
-        "Latitude": 32.715738,
-        "Longitude": -117.1610838,
-        "Place ID": "san_diego_california_usa",
-        "State/Province/County (optional)": "California"
+        "Lat": 32.715738,
+        "Long": -117.1610838,
+        "PlaceID": "san_diego_california_usa",
+        "PlaceName": "San Diego, California, USA",
+        "Region": "California"
     },
     "san_francisco_california_usa": {
         "City": "San Francisco",
         "Country": "USA",
-        "Label": "San Francisco, California, USA",
-        "Latitude": 37.7749295,
-        "Longitude": -122.4194155,
-        "Place ID": "san_francisco_california_usa",
-        "State/Province/County (optional)": "California"
+        "Lat": 37.7749295,
+        "Long": -122.4194155,
+        "PlaceID": "san_francisco_california_usa",
+        "PlaceName": "San Francisco, California, USA",
+        "Region": "California"
     },
     "santa_cruz_california_usa": {
         "City": "Santa Cruz",
         "Country": "USA",
-        "Label": "Santa Cruz, California, USA",
-        "Latitude": 36.9741171,
-        "Longitude": -122.0307963,
-        "Place ID": "santa_cruz_california_usa",
-        "State/Province/County (optional)": "California"
+        "Lat": 36.9741171,
+        "Long": -122.0307963,
+        "PlaceID": "santa_cruz_california_usa",
+        "PlaceName": "Santa Cruz, California, USA",
+        "Region": "California"
     },
     "santiago_chile": {
         "City": "Santiago",
         "Country": "Chile",
-        "Label": "Santiago, Chile",
-        "Latitude": -33.4488897,
-        "Longitude": -70.6692655,
-        "Place ID": "santiago_chile",
-        "State/Province/County (optional)": ""
+        "Lat": -33.4488897,
+        "Long": -70.6692655,
+        "PlaceID": "santiago_chile",
+        "PlaceName": "Santiago, Chile",
+        "Region": ""
     },
     "sao_paolo_brazil": {
         "City": "Sao Paolo",
         "Country": "Brazil",
-        "Label": "Sao Paolo, Brazil",
-        "Latitude": -23.5505199,
-        "Longitude": -46.6333094,
-        "Place ID": "sao_paolo_brazil",
-        "State/Province/County (optional)": ""
+        "Lat": -23.5505199,
+        "Long": -46.6333094,
+        "PlaceID": "sao_paolo_brazil",
+        "PlaceName": "Sao Paolo, Brazil",
+        "Region": ""
     },
     "scotland": {
         "City": "",
         "Country": "Scotland",
-        "Label": "Scotland",
-        "Latitude": 56.0,
-        "Longitude": -4.0,
-        "Place ID": "scotland",
-        "State/Province/County (optional)": ""
+        "Lat": 56.0,
+        "Long": -4.0,
+        "PlaceID": "scotland",
+        "PlaceName": "Scotland",
+        "Region": ""
     },
     "seattle_washington_usa": {
         "City": "Seattle",
         "Country": "USA",
-        "Label": "Seattle, Washington, USA",
-        "Latitude": 47.6062095,
-        "Longitude": -122.3320708,
-        "Place ID": "seattle_washington_usa",
-        "State/Province/County (optional)": "Washington"
+        "Lat": 47.6062095,
+        "Long": -122.3320708,
+        "PlaceID": "seattle_washington_usa",
+        "PlaceName": "Seattle, Washington, USA",
+        "Region": "Washington"
     },
     "seoul_korea": {
         "City": "Seoul",
         "Country": "Korea",
-        "Label": "Seoul, Korea",
-        "Latitude": 37.566535,
-        "Longitude": 126.9779692,
-        "Place ID": "seoul_korea",
-        "State/Province/County (optional)": ""
+        "Lat": 37.566535,
+        "Long": 126.9779692,
+        "PlaceID": "seoul_korea",
+        "PlaceName": "Seoul, Korea",
+        "Region": ""
     },
     "sibenik_croatia": {
         "City": "Šibenik",
         "Country": "Croatia",
-        "Label": "Šibenik, Croatia",
-        "Latitude": 43.7350196,
-        "Longitude": 15.8952045,
-        "Place ID": "sibenik_croatia",
-        "State/Province/County (optional)": ""
+        "Lat": 43.7350196,
+        "Long": 15.8952045,
+        "PlaceID": "sibenik_croatia",
+        "PlaceName": "Šibenik, Croatia",
+        "Region": ""
     },
     "singapore": {
         "City": "",
         "Country": "Singapore",
-        "Label": "Singapore",
-        "Latitude": 1.28967,
-        "Longitude": 103.85007,
-        "Place ID": "singapore",
-        "State/Province/County (optional)": ""
+        "Lat": 1.28967,
+        "Long": 103.85007,
+        "PlaceID": "singapore",
+        "PlaceName": "Singapore",
+        "Region": ""
     },
     "spain": {
         "City": "",
         "Country": "Spain",
-        "Label": "Spain",
-        "Latitude": 40.0,
-        "Longitude": -4.0,
-        "Place ID": "spain",
-        "State/Province/County (optional)": ""
+        "Lat": 40.0,
+        "Long": -4.0,
+        "PlaceID": "spain",
+        "PlaceName": "Spain",
+        "Region": ""
     },
     "spokane_washington_usa": {
         "City": "Spokane",
         "Country": "USA",
-        "Label": "Spokane, Washington, USA",
-        "Latitude": 47.6587802,
-        "Longitude": -117.4260465,
-        "Place ID": "spokane_washington_usa",
-        "State/Province/County (optional)": "Washington"
+        "Lat": 47.6587802,
+        "Long": -117.4260465,
+        "PlaceID": "spokane_washington_usa",
+        "PlaceName": "Spokane, Washington, USA",
+        "Region": "Washington"
     },
     "st_louis_missouri_usa": {
         "City": "St. Louis",
         "Country": "USA",
-        "Label": "St. Louis, Missouri, USA",
-        "Latitude": 38.6270025,
-        "Longitude": -90.1994042,
-        "Place ID": "st_louis_missouri_usa",
-        "State/Province/County (optional)": "Missouri"
+        "Lat": 38.6270025,
+        "Long": -90.1994042,
+        "PlaceID": "st_louis_missouri_usa",
+        "PlaceName": "St. Louis, Missouri, USA",
+        "Region": "Missouri"
     },
     "st_paul_minnesota_usa": {
         "City": "St. Paul",
         "Country": "USA",
-        "Label": "St. Paul, Minnesota, USA",
-        "Latitude": 44.9537029,
-        "Longitude": -93.0899578,
-        "Place ID": "st_paul_minnesota_usa",
-        "State/Province/County (optional)": "Minnesota"
+        "Lat": 44.9537029,
+        "Long": -93.0899578,
+        "PlaceID": "st_paul_minnesota_usa",
+        "PlaceName": "St. Paul, Minnesota, USA",
+        "Region": "Minnesota"
     },
     "stockholm_sweden": {
         "City": "Stockholm",
         "Country": "Sweden",
-        "Label": "Stockholm, Sweden",
-        "Latitude": 59.3293235,
-        "Longitude": 18.0685808,
-        "Place ID": "stockholm_sweden",
-        "State/Province/County (optional)": ""
+        "Lat": 59.3293235,
+        "Long": 18.0685808,
+        "PlaceID": "stockholm_sweden",
+        "PlaceName": "Stockholm, Sweden",
+        "Region": ""
     },
     "switzerland": {
         "City": "",
         "Country": "Switzerland",
-        "Label": "Switzerland",
-        "Latitude": 47.00016,
-        "Longitude": 8.01427,
-        "Place ID": "switzerland",
-        "State/Province/County (optional)": ""
+        "Lat": 47.00016,
+        "Long": 8.01427,
+        "PlaceID": "switzerland",
+        "PlaceName": "Switzerland",
+        "Region": ""
     },
     "tokyo_japan": {
         "City": "Tokyo",
         "Country": "Japan",
-        "Label": "Tokyo, Japan",
-        "Latitude": 35.6894875,
-        "Longitude": 139.6917064,
-        "Place ID": "tokyo_japan",
-        "State/Province/County (optional)": ""
+        "Lat": 35.6894875,
+        "Long": 139.6917064,
+        "PlaceID": "tokyo_japan",
+        "PlaceName": "Tokyo, Japan",
+        "Region": ""
     },
     "toronto_canada": {
         "City": "Toronto",
         "Country": "Canada",
-        "Label": "Toronto, Canada",
-        "Latitude": 43.653226,
-        "Longitude": -79.3831843,
-        "Place ID": "toronto_canada",
-        "State/Province/County (optional)": ""
+        "Lat": 43.653226,
+        "Long": -79.3831843,
+        "PlaceID": "toronto_canada",
+        "PlaceName": "Toronto, Canada",
+        "Region": ""
     },
     "trinidad": {
         "City": "",
         "Country": "Trinidad",
-        "Label": "Trinidad",
-        "Latitude": -14.83333,
-        "Longitude": -64.9,
-        "Place ID": "trinidad",
-        "State/Province/County (optional)": ""
+        "Lat": -14.83333,
+        "Long": -64.9,
+        "PlaceID": "trinidad",
+        "PlaceName": "Trinidad",
+        "Region": ""
     },
     "turin_italy": {
         "City": "Turin",
         "Country": "Italy",
-        "Label": "Turin, Italy",
-        "Latitude": 45.070312,
-        "Longitude": 7.6868565,
-        "Place ID": "turin_italy",
-        "State/Province/County (optional)": ""
+        "Lat": 45.070312,
+        "Long": 7.6868565,
+        "PlaceID": "turin_italy",
+        "PlaceName": "Turin, Italy",
+        "Region": ""
     },
     "usa": {
         "City": "",
         "Country": "USA",
-        "Label": "USA",
-        "Latitude": -14.60485,
-        "Longitude": -57.65625,
-        "Place ID": "usa",
-        "State/Province/County (optional)": ""
+        "Lat": -14.60485,
+        "Long": -57.65625,
+        "PlaceID": "usa",
+        "PlaceName": "USA",
+        "Region": ""
     },
     "vancouver_canada": {
         "City": "Vancouver",
         "Country": "Canada",
-        "Label": "Vancouver, Canada",
-        "Latitude": 49.2827291,
-        "Longitude": -123.1207375,
-        "Place ID": "vancouver_canada",
-        "State/Province/County (optional)": ""
+        "Lat": 49.2827291,
+        "Long": -123.1207375,
+        "PlaceID": "vancouver_canada",
+        "PlaceName": "Vancouver, Canada",
+        "Region": ""
     },
     "venice_italy": {
         "City": "Venice",
         "Country": "Italy",
-        "Label": "Venice, Italy",
-        "Latitude": 45.4408474,
-        "Longitude": 12.3155151,
-        "Place ID": "venice_italy",
-        "State/Province/County (optional)": ""
+        "Lat": 45.4408474,
+        "Long": 12.3155151,
+        "PlaceID": "venice_italy",
+        "PlaceName": "Venice, Italy",
+        "Region": ""
     },
     "vienna_austria": {
         "City": "Vienna",
         "Country": "Austria",
-        "Label": "Vienna, Austria",
-        "Latitude": 48.2081743,
-        "Longitude": 16.3738189,
-        "Place ID": "vienna_austria",
-        "State/Province/County (optional)": ""
+        "Lat": 48.2081743,
+        "Long": 16.3738189,
+        "PlaceID": "vienna_austria",
+        "PlaceName": "Vienna, Austria",
+        "Region": ""
     },
     "washington_dc._usa": {
         "City": "Washington, D.C.",
         "Country": "USA",
-        "Label": "Washington, D.C., USA",
-        "Latitude": 38.9071923,
-        "Longitude": -77.0368707,
-        "Place ID": "washington_dc._usa",
-        "State/Province/County (optional)": ""
+        "Lat": 38.9071923,
+        "Long": -77.0368707,
+        "PlaceID": "washington_dc._usa",
+        "PlaceName": "Washington, D.C., USA",
+        "Region": ""
     },
     "worchester_massachusettes_usa": {
         "City": "Worchester",
         "Country": "USA",
-        "Label": "Worchester, Massachusettes, USA",
-        "Latitude": 42.2625932,
-        "Longitude": -71.8022934,
-        "Place ID": "worchester_massachusettes_usa",
-        "State/Province/County (optional)": "Massachusettes"
+        "Lat": 42.2625932,
+        "Long": -71.8022934,
+        "PlaceID": "worchester_massachusettes_usa",
+        "PlaceName": "Worchester, Massachusettes, USA",
+        "Region": "Massachusettes"
     },
     "wroclaw_poland": {
         "City": "Wroclaw",
         "Country": "Poland",
-        "Label": "Wroclaw, Poland",
-        "Latitude": 51.1078852,
-        "Longitude": 17.0385376,
-        "Place ID": "wroclaw_poland",
-        "State/Province/County (optional)": ""
+        "Lat": 51.1078852,
+        "Long": 17.0385376,
+        "PlaceID": "wroclaw_poland",
+        "PlaceName": "Wroclaw, Poland",
+        "Region": ""
     },
     "yugoslavia": {
         "City": "",
         "Country": "Yugoslavia",
-        "Label": "Yugoslavia",
-        "Latitude": 44.0,
-        "Longitude": 19.75,
-        "Place ID": "yugoslavia",
-        "State/Province/County (optional)": ""
+        "Lat": 44.0,
+        "Long": 19.75,
+        "PlaceID": "yugoslavia",
+        "PlaceName": "Yugoslavia",
+        "Region": ""
     },
     "zurich_switzerland": {
         "City": "Zurich",
         "Country": "Switzerland",
-        "Label": "Zurich, Switzerland",
-        "Latitude": 47.3768866,
-        "Longitude": 8.541694,
-        "Place ID": "zurich_switzerland",
-        "State/Province/County (optional)": ""
+        "Lat": 47.3768866,
+        "Long": 8.541694,
+        "PlaceID": "zurich_switzerland",
+        "PlaceName": "Zurich, Switzerland",
+        "Region": ""
     }
 }
