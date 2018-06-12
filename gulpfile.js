@@ -39,6 +39,15 @@ const dist = {
   img: '_site/assets/img'
 }
 
+const assets = {
+  css: 'assets/css',
+  js: 'assets/js',
+  jslib: 'assets/js/libs',
+  data: 'assets/data',
+  img: 'assets/img'
+}
+
+
 var gutil = require('gulp-util');
 
 
@@ -55,7 +64,7 @@ gulp.task('deploy', ['rebuild'], function () {
 });
 
 // Rebuild Jekyll & do page reload
-gulp.task('rebuild', ['build','sass','js','img'], function () {
+gulp.task('rebuild', ['sass','js','img','build'], function () {
     browserSync.reload();
 });
 
@@ -81,12 +90,14 @@ gulp.task('sass',['csslib'], function() {
     .pipe(prefix())
     .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest(dist.css))
+    .pipe(gulp.dest(assets.css))
     .pipe(browserSync.reload({ stream: true }))
 });
 
 gulp.task('csslib',function() {
   return gulp.src(src.csslib)
     .pipe(gulp.dest(dist.css))
+    .pipe(gulp.dest(assets.css))
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
 });
 
@@ -106,6 +117,7 @@ gulp.task('jslib', function(){
     .pipe(uglify())
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(dist.jslib))
+    .pipe(gulp.dest(assets.jslib))
     .pipe(browserSync.reload({stream: true}))
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
 });
@@ -121,6 +133,7 @@ gulp.task('js',['jslib'], function() {
     .pipe(rename({ suffix: '.min' }))
     .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest(dist.js))
+    .pipe(gulp.dest(assets.js))
     .pipe(browserSync.reload({stream: true}))
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
 });
@@ -140,7 +153,7 @@ gulp.task('uglify-error-debugging', function (cb) {
 
 gulp.task('watch', function() {
   gulp.watch('_sass/**/*.scss', ['sass']);
-  gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md',  'pages_/*.md', '_include/*html'], ['rebuild']);
+  gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md',  'pages_/*.md', '_include/*html','data/*'], ['rebuild']);
   gulp.watch('_js/**/*.js', ['js']);
 });
 
@@ -163,6 +176,7 @@ gulp.task('img',function(){
       src.img
     ])
     .pipe(gulp.dest(dist.img))
+    .pipe(gulp.dest(assets.img))
     .pipe(browserSync.reload({stream: true}))
     .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); });
 });

@@ -20,8 +20,9 @@ exclude:
   - vendor
   - npm-debug.log
   - gulpfile.js
+  - python
 
-include: ['_pages','.htaccess','assets']
+include: ['_pages','.htaccess']
 permalink: /:title/
 
 compress_html:
