@@ -118,9 +118,8 @@ class DataManager {
     
     for(var date in this.data.itineraries) { 
       this.data.itineraries[date].forEach(function(entry){
-        
-        // Places Hack: Replaces dashes with underscores to enforce consistency
-        var place = self.places[entry.PlaceID.replaceAll('-', '_')]; 
+                
+        var place = self.places[entry.PlaceID]; 
         var placename = '';
         
         
@@ -130,7 +129,7 @@ class DataManager {
         
         self.compiled[i] = {
           'ID' : i,
-          'Author' : self.authors[entry.AuthorID],
+          'Author' : self.author_names[entry.AuthorID],
           'AuthorID' : entry.AuthorID,
           'Place' : placename,
           'StartCitation' :  entry.StartCitation,
@@ -1907,16 +1906,11 @@ class Search extends Visualization {
 	constructor() {
   	super();
   	var self = this;
-  	this.ui = new SearchUI();
-  	this.dm = new DataManager();
-    this.dm.load(function() {
-      self.init();
-	  });
-	  
-	  
+  	this.ui = new SearchUI();	  
   }
   
   init() {
+    super.init();
     var self = this;
     
     this.dm.indexData();
