@@ -15,12 +15,5 @@
   id: "itineraries"
   url: "/itineraries"
   visclass: "Itineraries"
-  
-- name: "Search"
-  description: "Not really a visualization. To be removed from this list."
-  id: "search"
-  url: "/search"
-  visclass: "Search"
-
 
   

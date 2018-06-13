@@ -4,7 +4,7 @@
 # Edit sleeks's default layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-layout: page
+layout: front
 title: In the Same Boats
 id: home
 pagetitle: Welcome

@@ -6,7 +6,7 @@
   homepagetitle: 
   homepageurl:
   institution: "Williams College"
-  assistants:
+  subjects:
   - name: "Mohammed Duse Ali"
 
 - name: "Laurent Dubois"
@@ -17,7 +17,7 @@
   homepagetitle: 
   homepageurl:
   institution: "Duke University"
-  assistants:
+  subjects:
   - name: "Katherine Dunham"
  
 - name: "Alex Gil"
@@ -28,7 +28,7 @@
   homepagetitle: 
   homepageurl:
   institution: "Columbia University"
-  assistants:
+  subjects:
   - name: "Aimé Césaire"
 
 - name: "Kaiama L. Glover"
@@ -39,7 +39,7 @@
   homepagetitle: 
   homepageurl:
   institution: "Barnard College, Columbia University"
-  assistants:
+  subjects:
   - name: "René Depestre"
    
 - name: "Tao Goffe"
@@ -50,7 +50,7 @@
   homepagetitle: 
   homepageurl:
   institution: "New York University"
-  assistants:
+  subjects:
   - name: "Wifredo Lam"
 
 - name: "Kelly Baker Josephs"
@@ -61,7 +61,7 @@
   homepagetitle:
   homepageurl:
   institution: "York College, CUNY"
-  assistants:
+  subjects:
   - name: "Kamau Brathwaite"
  
 - name: "Clara Pomi"
@@ -72,7 +72,7 @@
   homepagetitle: 
   homepageurl:
   institution: "Williams College"
-  assistants:
+  subjects:
   - name: "Kamau Brathwaite"
 
 - name: "Kora Véron Leblé"
@@ -83,7 +83,7 @@
   homepagetitle: 
   homepageurl:
   institution: "Institut de Textes et Manuscrits, CNRS"
-  assistants:
+  subjects:
   - name: "Aimé Césaire"
  
 - name: "Buck Wanner"
@@ -94,7 +94,7 @@
   homepagetitle: 
   homepageurl:
   institution: "Columbia University, Visualization Design"
-  assistants:
+  subjects:
   - name: 
 
 - name: "Emily Fuhrman"
@@ -105,7 +105,7 @@
   homepagetitle:
   homepageurl:
   institution: "Columbia University, Visualization & Project Design"
-  assistants:
+  subjects:
   - name: 
  
 - name: "Alyssa Vann"
@@ -116,7 +116,7 @@
   homepagetitle: 
   homepageurl:
   institution: "Stanford University, Data Analyst"
-  assistants:
+  subjects:
   - name: "Lydia Cabrera"
 
 - name: "Dean Irvine"
@@ -127,7 +127,7 @@
   homepagetitle: "Agile Humanities Agency"
   homepageurl: "http://www.agilehumanities.ca"
   institution: "Project Consultant"
-  assistants:
+  subjects:
   - name: 
  
 - name: "Bill Kennedy"
@@ -135,8 +135,8 @@
   id: ""
   bio:
   email:
-  homepagetitle: "Intelligent Machines"
-  homepageurl: "http://www.intelligentmachines.ca"
-  institution: "Visualization, UI/UX and Production Design"
-  assistants:
+  homepagetitle: "Agile Humanities Agency"
+  homepageurl: "http://www.agilehumanities.ca"
+  institution: "Visualization, UI/UX and Production Design, System Design"
+  subjects:
   - name: 

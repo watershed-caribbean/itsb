@@ -1,15 +1,8 @@
 /* Primary styles for In The Same Boats
  * SASS file outputs to assets/css/style.css  */
-
-//@import "vendor/_susy.scss";
-//@import "partials/_mixins.sass";
-
-$blh: 1.25em;
-$media_type: screen;
-$min-width: 1250px;
-
-$bp_mobile: 640px;
-
+ 
+ 
+// !FUNCTIONS
 
 // Converts HSB colours to native HSL(A) colours
 
@@ -23,6 +16,18 @@ $bp_mobile: 640px;
   }
 }
 
+// !CONFIGURATION
+
+// CONFIG: STRUCTURE
+
+$blh: 1.25em;
+$media_type: screen;
+$min-width: 1250px;
+
+$bp_mobile: 640px;
+
+
+// CONFIG: COLOUR
 
 $clr1: hsb(35.74, 74.6, 98.82);  // Sunrise Orange  | #FCB040
 $clr2: hsb(226.67, 74.6, 98.82); // Bright Azure    | #406AFC 
@@ -34,8 +39,8 @@ $white: #F7F8F9; // Practically White
 // Secondary colours for visualizations
 
 $colour_index: (
-  0: $clr1,                          // Sunrise Orange
-  1: $clr2,                          // Bright Azure
+  0: $clr1,                     // Sunrise Orange
+  1: $clr2,                     // Bright Azure
   2: hsb(319.8, 89.57, 45.1),   // Plum          | #730C51
   3: hsb(272, 60, 58.82),       // Violet        | #6C3C96
   4: hsb(37.6, 68, 98.82),      // Spring Green  | #59FC89
@@ -84,6 +89,7 @@ $clr_map: (
   }
 }
 
+// Key Neutrals
 
 $black: #000000;              // Black
 $white: #FFFFFF;              // Practically White
@@ -93,8 +99,9 @@ $dark_neutral: #A5ACAF;       // Storm Grey 50%
 $neutral: lighten($clr3,40%);
 $light_neutral: #E6E7E9;      // Storm Grey 30%
 $lighter_neutral: #F0F1F2;    // Storm Grey 10%
-$lightest_neutral: #F7F8F9;    // Practically White
+$lightest_neutral: #F7F8F9;   // Practically White
 
+// CONFIG: TYPESETTING
 
 $basefont: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
 
@@ -102,6 +109,9 @@ $light: 300;
 $regular: 400;
 $semibold: 600;
 $bold: 700;
+
+
+// !STYLES
 
 // Elements
 
@@ -136,72 +146,98 @@ a, a:link, a:visited {
   }
 }
 
+figure {
+  margin: 0;
+}
+
+
 // Navigation
 
+body.front #nav {
+  width: 300px;
+}
+
 #nav {
-  width: 20%;
-  height: 4em;
+  position: fixed;
+  width: 75px;
   background-color: $black;
   color: $white;
-  position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
-  z-index: 3;
-  border-right: solid 1px $white;
+  z-index: 10;
+  border-right: solid 1px $white;  
+  overflow: hidden;
+  transition: width 0.5s;
+  transition-delay: 0.5s;
+  
+  &:hover {
+    width: 300px;
+  }
+}
 
+#title {
+  display: flex;
+  width: 300px;
+  height: 70px;
+  background-color: $clr1;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-bottom: solid 1px $black; // fixes visual height disaprity with header block on visualizations
+  
+  figure {
+    width: 75px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+      display: inline-block;
+    }
+  }
+    
+  span {
+    display: block;
+    color: $black;
+    font-size: 1.2em;
+    font-weight: $semibold;
+    text-transform: uppercase;
+    width: 200px
+  }
+}
+
+#tabs {
+  width: 300px;
+  letter-spacing: 0.1em;
+  padding: 25px;
+  
   a, a:link, a:visited {
     color: $white;
   }
 
   a {
+    font-size: 1em;
     font-weight: $semibold;
-    padding-top: 1.5em;
-	padding-left: 1em;
-    height: 4em;
-    text-align: left;
     text-transform: uppercase;
-	-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    float: left;
-
-    //@include span(2 of 16 inside no-gutters);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
 
     &:hover, &.active {
       text-decoration: none;
-
-      // @include block-pointer($black, -1.5em);    
+      color: $clr1;
     }
-    
   }
-
-  > a {
-    background-color: $clr1;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    float: left;
-    
-    &#title {
-      color: $white;
-    }
-    
-  }
-}
-
-.navicon {
-  vertical-align: middle;
-  margin-right: 3em;
-}
-#tabs {
-  position: relative;
-  letter-spacing: 0.1em;
-
-  > a:hover, a.active {
-    background-color: $black;
-	color: $white
+  
+  img {
+    width: 25px;
+    margin-right: 25px;
   }
 }
 
@@ -212,28 +248,19 @@ a, a:link, a:visited {
     height: 100%;
   }
 }
-#title {
-  .navtext {
-    color: $black;
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-}
 #contents {
   position: relative;
-  margin-left: 20%;
-  width: 80%;
+  padding-left: 100px;
+  width: 100%;
+}
+
+.front #contents {
+  padding-left: 350px;
 }
 
 .visualization {
-  #nav {
-    width: 4em;
-	.navtext {
-	  display: none;
-	}
-  }
   #contents {
-    margin-left: 4em;
+    margin-left: 75px;
     width: unset;
 	> #panels {
 	  overflow: hidden;
@@ -292,6 +319,8 @@ a, a:link, a:visited {
 .sidebar_item {
   height: max-content;
   clear: both;
+  overflow: hidden;
+  margin-bottom: $blh;
 }
 .item_icon {
   float: left;
@@ -307,6 +336,13 @@ a, a:link, a:visited {
   h3 {
     margin-top: 0;
   }
+}
+
+// Homepage
+
+span.subject {
+  display: block;
+  font-style: italic;
 }
 
 // About
@@ -334,7 +370,7 @@ a, a:link, a:visited {
 
 .header {
   width: 100%;
-  height: 4em;
+  height: 70px;
   padding: 1em 0;
   line-height: 2em;
   text-transform: uppercase;
@@ -344,8 +380,15 @@ a, a:link, a:visited {
   letter-spacing: 0.1em;
   font-weight: bold;
   border-right: solid 1px $white;
+  border-bottom: solid 1px $white;
+}
 
-  // @include block-pointer($lightest_neutral);
+.panel {
+  > *:last-child {
+    .header {
+      border-right-width: 0;
+    }
+  }
 }
 
 // Intersections
