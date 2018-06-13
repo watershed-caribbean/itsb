@@ -96,6 +96,7 @@ body.front #nav {
 
 #title figure img {
   display: inline-block;
+  width: 40px;
 }
 
 #title span {
