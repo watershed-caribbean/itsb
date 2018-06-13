@@ -392,6 +392,9 @@ span.subject {
   }
 }
 
+/* !VISUALIZATION PANEL STRUCTURE */
+
+
 // Intersections
 
 #intersections {
@@ -516,7 +519,34 @@ span.subject {
        
 }
 
-/* Itineraries / Routes */
+/* Routes */
+
+// Colourization
+
+@for $i from 0 through 50 {
+  
+  $color: #{map-get($clr_map, $i)};
+  
+  .id_#{$i} {
+    fill: $color;
+    color: $color;
+  
+    
+    path, path.id_#{$i}, line.id_#{$i} {
+      fill: none;
+      stroke: $color;
+    }
+  }
+}
+
+
+._02 .control {
+  z-index: 1;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+
 
 #itinerary-axis {
   
@@ -615,8 +645,6 @@ path.line {
     background-color: $darkest_neutral;
   }
 }
-
-
 
 .authors-list {
   .arow {
@@ -739,11 +767,11 @@ path.line {
   
   @media only screen and (min-width: $bp_mobile) {
     .d3-slider-handle {
-      right: -0.36em;
-      width: 0.8em;
-      height: 0.8em;
-      margin-bottom: -0.4em;
-      border-radius: 0.4em;
+      right: -0.40em;
+      width: 1em;
+      height: 1em;
+      margin-bottom: -0.5em;
+      border-radius: 0.5em;
     }
   }
 
@@ -758,7 +786,7 @@ path.line {
     fill: $black;
     stroke: transparent;
     font-weight: $regular;
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-top: 0.2em;
   }
 }
@@ -795,9 +823,9 @@ path.map {
 }
 
 .point {
-  fill: $clr1;
-  stroke: $clr1;
-  stroke-width: 0.5;
+  fill: $dark_neutral;
+  stroke: $dark_neutral;
+  stroke-width: 1;
 }
 
 .point_back {
@@ -822,67 +850,11 @@ path.map {
 }
 
 path.line {
-  stroke-width: 1;
+  stroke-width: 2;
 }
 
-/* Trajectories */
 
-@for $i from 0 through 50 {
-  
-  $color: #{map-get($clr_map, $i)};
-  
-  .id_#{$i} {
-    fill: $color;
-    color: $color;
-  
-    
-    path, path.id_#{$i}, line.id_#{$i} {
-      fill: none;
-      stroke: $color;
-    }
-  }
-}
-
-/*
-  .id_0 {
-  fill: #fb9a99;
-  color: #fb9a99;
-}
-
-.id_0 path, path.id_0, line.id_0 {
-  fill: none;
-  stroke: #fb9a99;
-}
-
-.id_1 {
-  fill: #b2df8a;
-  color: #b2df8a;
-}
-
-.id_1 path, path.id_1, line.id_1 {
-  fill: none;
-  stroke: #b2df8a;
-}
-
-.id_2 {
-  fill: #cab2d6;
-  color: #cab2d6;
-}
-
-.id_2 path, path.id_2, line.id_2 {
-  fill: none;
-  stroke: #cab2d6;
-}
-
-  */
-
-._02 .control {
-  z-index: 1;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-// Legend
+// Legend 
 
 .legend {
   width: 250px;
@@ -944,7 +916,7 @@ path.line {
   font-size: 12px;
   width: 120px;
   border: 1px solid $clr1;
-  background-color: $clr2;  
+  background-color: $clr1;  
   opacity: 0;
   padding: $blh/2;
   cursor: pointer;

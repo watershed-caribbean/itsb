@@ -303,6 +303,7 @@ span.subject {
   border-right-width: 0;
 }
 
+/* !VISUALIZATION PANEL STRUCTURE */
 #intersections > * {
   position: absolute;
   top: 0;
@@ -422,477 +423,7 @@ span.subject {
   overflow: visible;
 }
 
-/* Itineraries / Routes */
-#itinerary-axis text {
-  fill: #6A727C;
-  font-size: 11px;
-}
-
-#itinerary-axis line {
-  stroke: #6A727C;
-}
-
-text.route_label {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-anchor: middle;
-}
-
-text.route_point_labels {
-  font-size: 11px;
-  letter-spacing: 1px;
-  fill: #aaa;
-}
-
-line.route_line_background {
-  stroke: #ddd;
-  stroke-width: 30;
-}
-
-line.route_line {
-  stroke-width: 30;
-}
-
-line.route_points {
-  stroke: #aaa;
-  stroke-width: 1;
-  stroke-dasharray: 1, 1;
-}
-
-circle.route_stops {
-  fill: #fcb040;
-  stroke: #fcb040;
-  stroke-width: 1;
-}
-
-path.line {
-  fill: none;
-}
-
-.author_left {
-  fill: #406afc;
-  color: #406afc;
-}
-
-.author_left path, path.author_left, line.author_left {
-  fill: none;
-  stroke: #406afc;
-}
-
-.author_right {
-  fill: #585f66;
-  color: #585f66;
-}
-
-.author_right path, path.author_right, line.author_right {
-  fill: none;
-  stroke: #585f66;
-}
-
-.authors {
-  background-color: #F0F1F2;
-}
-
-.authors .header {
-  background-color: #585f66;
-}
-
-.authors-list .arow {
-  display: table-row;
-  width: 100%;
-}
-
-.authors-list a {
-  color: #406afc;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  width: 100%;
-  font-weight: 600;
-  padding-bottom: 1.25em;
-  display: block;
-  width: 50%;
-  display: table-cell;
-  vertical-align: top;
-  padding: 1.25em;
-  cursor: pointer;
-  color: #6A727C;
-  padding-bottom: 0.07812em;
-}
-
-.authors-list a .item_date {
-  text-transform: none;
-  font-size: 0.8em;
-  color: #c1c5c9;
-  font-weight: 400;
-}
-
-#trajectories .a-1:hover, #trajectories .a-1.selected {
-  color: #fcb040;
-}
-
-#trajectories .a-2:hover, #trajectories .a-2.selected {
-  color: #406afc;
-}
-
-#trajectories .a-3:hover, #trajectories .a-3.selected {
-  color: #730c51;
-}
-
-#trajectories .a-4:hover, #trajectories .a-4.selected {
-  color: #6c3c96;
-}
-
-#trajectories .a-5:hover, #trajectories .a-5.selected {
-  color: #fcbc51;
-}
-
-#trajectories .a-6:hover, #trajectories .a-6.selected {
-  color: #e2b423;
-}
-
-#trajectories .a-7:hover, #trajectories .a-7.selected {
-  color: #00d8e2;
-}
-
-#trajectories .a-8:hover, #trajectories .a-8.selected {
-  color: #72c166;
-}
-
-#trajectories .a-9:hover, #trajectories .a-9.selected {
-  color: #fed634;
-}
-
-#trajectories .a-10:hover, #trajectories .a-10.selected {
-  color: #fe7234;
-}
-
-#trajectories .a-11:hover, #trajectories .a-11.selected {
-  color: #e39e3a;
-}
-
-#trajectories .a-12:hover, #trajectories .a-12.selected {
-  color: #3a5fe3;
-}
-
-#trajectories .a-13:hover, #trajectories .a-13.selected {
-  color: #802462;
-}
-
-#trajectories .a-14:hover, #trajectories .a-14.selected {
-  color: #613687;
-}
-
-#trajectories .a-15:hover, #trajectories .a-15.selected {
-  color: #e3a949;
-}
-
-#trajectories .a-16:hover, #trajectories .a-16.selected {
-  color: #cba220;
-}
-
-#trajectories .a-17:hover, #trajectories .a-17.selected {
-  color: #00c3cb;
-}
-
-#trajectories .a-18:hover, #trajectories .a-18.selected {
-  color: #67ae5c;
-}
-
-#trajectories .a-19:hover, #trajectories .a-19.selected {
-  color: #e5c12f;
-}
-
-#trajectories .a-20:hover, #trajectories .a-20.selected {
-  color: #e4672f;
-}
-
-#trajectories .a-21:hover, #trajectories .a-21.selected {
-  color: #ca8d33;
-}
-
-#trajectories .a-22:hover, #trajectories .a-22.selected {
-  color: #3355ca;
-}
-
-#trajectories .a-23:hover, #trajectories .a-23.selected {
-  color: #8d3b73;
-}
-
-#trajectories .a-24:hover, #trajectories .a-24.selected {
-  color: #563078;
-}
-
-#trajectories .a-25:hover, #trajectories .a-25.selected {
-  color: #ca9641;
-}
-
-#trajectories .a-26:hover, #trajectories .a-26.selected {
-  color: #b5901c;
-}
-
-#trajectories .a-27:hover, #trajectories .a-27.selected {
-  color: #00adb5;
-}
-
-#trajectories .a-28:hover, #trajectories .a-28.selected {
-  color: #5b9a52;
-}
-
-#trajectories .a-29:hover, #trajectories .a-29.selected {
-  color: #cbab2a;
-}
-
-#trajectories .a-30:hover, #trajectories .a-30.selected {
-  color: #cb5b2a;
-}
-
-#trajectories .a-31:hover, #trajectories .a-31.selected {
-  color: #b07b2d;
-}
-
-#trajectories .a-32:hover, #trajectories .a-32.selected {
-  color: #2d4ab0;
-}
-
-#trajectories .a-33:hover, #trajectories .a-33.selected {
-  color: #9b5383;
-}
-
-#trajectories .a-34:hover, #trajectories .a-34.selected {
-  color: #4c2a69;
-}
-
-#trajectories .a-35:hover, #trajectories .a-35.selected {
-  color: #b08438;
-}
-
-#trajectories .a-36:hover, #trajectories .a-36.selected {
-  color: #9e7e19;
-}
-
-#trajectories .a-37:hover, #trajectories .a-37.selected {
-  color: #00979e;
-}
-
-#trajectories .a-38:hover, #trajectories .a-38.selected {
-  color: #508747;
-}
-
-#trajectories .a-39:hover, #trajectories .a-39.selected {
-  color: #b29624;
-}
-
-#trajectories .a-40:hover, #trajectories .a-40.selected {
-  color: #b25024;
-}
-
-#trajectories .a-41:hover, #trajectories .a-41.selected {
-  color: #976a26;
-}
-
-#trajectories .a-42:hover, #trajectories .a-42.selected {
-  color: #263f97;
-}
-
-#trajectories .a-43:hover, #trajectories .a-43.selected {
-  color: #a86a94;
-}
-
-#trajectories .a-44:hover, #trajectories .a-44.selected {
-  color: #41245a;
-}
-
-#trajectories .a-45:hover, #trajectories .a-45.selected {
-  color: #977130;
-}
-
-#trajectories .a-46:hover, #trajectories .a-46.selected {
-  color: #886c15;
-}
-
-#trajectories .a-47:hover, #trajectories .a-47.selected {
-  color: #008288;
-}
-
-#trajectories .a-48:hover, #trajectories .a-48.selected {
-  color: #44743d;
-}
-
-#trajectories .a-49:hover, #trajectories .a-49.selected {
-  color: #98801f;
-}
-
-#trajectories .a-50:hover, #trajectories .a-50.selected {
-  color: #98441f;
-}
-
-#itineraries .authors-list a.selected {
-  color: #406afc;
-  cursor: pointer;
-}
-
-#itineraries svg {
-  shape-rendering: geometricPrecision;
-  cursor: pointer;
-  display: block;
-  width: 100%;
-}
-
-.results .items {
-  padding: 1.25em;
-}
-
-.results .title {
-  font-size: 1.2em;
-  text-transform: uppercase;
-  width: 100%;
-  padding-bottom: 0.625em;
-  margin-bottom: 0.625em;
-}
-
-.results .results-view > div {
-  color: #406afc;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  width: 100%;
-  font-weight: 600;
-  padding-bottom: 1.25em;
-  display: block;
-  width: 50%;
-  float: left;
-  display: inline-block;
-}
-
-.results .results-view > div .item_date {
-  text-transform: none;
-  font-size: 0.8em;
-  color: #c1c5c9;
-  font-weight: 400;
-}
-
-.date-range {
-  background-color: #F7F8F9;
-}
-
-.indicator {
-  height: 3em;
-  text-align: center;
-  padding: 0.9em;
-  font-size: 0.8em;
-  text-transform: uppercase;
-}
-
-.d3-slider {
-  font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
-}
-
-.d3-slider-vertical {
-  width: 100%;
-  height: calc(100% - 3em);
-}
-
-.d3-slider-range-vertical {
-  background-color: #E6E7E9;
-  border-right: 2px solid #406afc;
-}
-
-.d3-slider-vertical .d3-slider-handle {
-  right: -0.54em;
-  left: initial;
-  background: #406afc;
-  width: 1.2em;
-  height: 1.2em;
-  margin-bottom: -0.6em;
-  border-radius: 0.6em;
-  border-color: #406afc;
-}
-
-@media only screen and (min-width: 640px) {
-  .d3-slider-vertical .d3-slider-handle {
-    right: -0.36em;
-    width: 0.8em;
-    height: 0.8em;
-    margin-bottom: -0.4em;
-    border-radius: 0.4em;
-  }
-}
-
-.d3-slider-axis line {
-  stroke: #FFFFFF;
-}
-
-.d3-slider-axis text {
-  fill: #000000;
-  stroke: transparent;
-  font-weight: 400;
-  font-size: 0.8em;
-  margin-top: 0.2em;
-}
-
-.date-selector {
-  height: 90%;
-  margin: 0;
-  padding: 0;
-}
-
-.date-selector svg {
-  width: 100%;
-}
-
-/* Map */
-path.map {
-  fill: #E6E7E9;
-  stroke: transparent;
-  stroke-width: 0;
-  stroke-opacity: 0;
-  stroke-linejoin: miter;
-}
-
-.points_g {
-  cursor: pointer;
-}
-
-.points_g.focus_point .point {
-  fill: #406afc;
-  stroke: #406afc;
-  stroke-width: 1;
-  stroke-opacity: 1;
-}
-
-.point {
-  fill: #fcb040;
-  stroke: #fcb040;
-  stroke-width: 0.5;
-}
-
-.point_back {
-  fill: white;
-  fill-opacity: 0.5;
-  stroke: transparent;
-}
-
-.point.point_01 {
-  fill-opacity: 0.25;
-  stroke-opacity: 0.25;
-}
-
-.point.point_02 {
-  fill-opacity: 0.5;
-  stroke-opacity: 0.5;
-}
-
-.point.point_03 {
-  fill-opacity: 1;
-  stroke-opacity: 1;
-}
-
-path.line {
-  stroke-width: 1;
-}
-
-/* Trajectories */
+/* Routes */
 .id_0 {
   fill: #fcb040;
   color: #fcb040;
@@ -1397,42 +928,479 @@ path.line {
   fill: none;
 }
 
-/*
-  .id_0 {
-  fill: #fb9a99;
-  color: #fb9a99;
-}
-
-.id_0 path, path.id_0, line.id_0 {
-  fill: none;
-  stroke: #fb9a99;
-}
-
-.id_1 {
-  fill: #b2df8a;
-  color: #b2df8a;
-}
-
-.id_1 path, path.id_1, line.id_1 {
-  fill: none;
-  stroke: #b2df8a;
-}
-
-.id_2 {
-  fill: #cab2d6;
-  color: #cab2d6;
-}
-
-.id_2 path, path.id_2, line.id_2 {
-  fill: none;
-  stroke: #cab2d6;
-}
-
-  */
 ._02 .control {
   z-index: 1;
   position: absolute;
   background: rgba(255, 255, 255, 0.9);
+}
+
+#itinerary-axis text {
+  fill: #6A727C;
+  font-size: 11px;
+}
+
+#itinerary-axis line {
+  stroke: #6A727C;
+}
+
+text.route_label {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-anchor: middle;
+}
+
+text.route_point_labels {
+  font-size: 11px;
+  letter-spacing: 1px;
+  fill: #aaa;
+}
+
+line.route_line_background {
+  stroke: #ddd;
+  stroke-width: 30;
+}
+
+line.route_line {
+  stroke-width: 30;
+}
+
+line.route_points {
+  stroke: #aaa;
+  stroke-width: 1;
+  stroke-dasharray: 1, 1;
+}
+
+circle.route_stops {
+  fill: #fcb040;
+  stroke: #fcb040;
+  stroke-width: 1;
+}
+
+path.line {
+  fill: none;
+}
+
+.author_left {
+  fill: #406afc;
+  color: #406afc;
+}
+
+.author_left path, path.author_left, line.author_left {
+  fill: none;
+  stroke: #406afc;
+}
+
+.author_right {
+  fill: #585f66;
+  color: #585f66;
+}
+
+.author_right path, path.author_right, line.author_right {
+  fill: none;
+  stroke: #585f66;
+}
+
+.authors {
+  background-color: #F0F1F2;
+}
+
+.authors .header {
+  background-color: #585f66;
+}
+
+.authors-list .arow {
+  display: table-row;
+  width: 100%;
+}
+
+.authors-list a {
+  color: #406afc;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  width: 100%;
+  font-weight: 600;
+  padding-bottom: 1.25em;
+  display: block;
+  width: 50%;
+  display: table-cell;
+  vertical-align: top;
+  padding: 1.25em;
+  cursor: pointer;
+  color: #6A727C;
+  padding-bottom: 0.07812em;
+}
+
+.authors-list a .item_date {
+  text-transform: none;
+  font-size: 0.8em;
+  color: #c1c5c9;
+  font-weight: 400;
+}
+
+#trajectories .a-1:hover, #trajectories .a-1.selected {
+  color: #fcb040;
+}
+
+#trajectories .a-2:hover, #trajectories .a-2.selected {
+  color: #406afc;
+}
+
+#trajectories .a-3:hover, #trajectories .a-3.selected {
+  color: #730c51;
+}
+
+#trajectories .a-4:hover, #trajectories .a-4.selected {
+  color: #6c3c96;
+}
+
+#trajectories .a-5:hover, #trajectories .a-5.selected {
+  color: #fcbc51;
+}
+
+#trajectories .a-6:hover, #trajectories .a-6.selected {
+  color: #e2b423;
+}
+
+#trajectories .a-7:hover, #trajectories .a-7.selected {
+  color: #00d8e2;
+}
+
+#trajectories .a-8:hover, #trajectories .a-8.selected {
+  color: #72c166;
+}
+
+#trajectories .a-9:hover, #trajectories .a-9.selected {
+  color: #fed634;
+}
+
+#trajectories .a-10:hover, #trajectories .a-10.selected {
+  color: #fe7234;
+}
+
+#trajectories .a-11:hover, #trajectories .a-11.selected {
+  color: #e39e3a;
+}
+
+#trajectories .a-12:hover, #trajectories .a-12.selected {
+  color: #3a5fe3;
+}
+
+#trajectories .a-13:hover, #trajectories .a-13.selected {
+  color: #802462;
+}
+
+#trajectories .a-14:hover, #trajectories .a-14.selected {
+  color: #613687;
+}
+
+#trajectories .a-15:hover, #trajectories .a-15.selected {
+  color: #e3a949;
+}
+
+#trajectories .a-16:hover, #trajectories .a-16.selected {
+  color: #cba220;
+}
+
+#trajectories .a-17:hover, #trajectories .a-17.selected {
+  color: #00c3cb;
+}
+
+#trajectories .a-18:hover, #trajectories .a-18.selected {
+  color: #67ae5c;
+}
+
+#trajectories .a-19:hover, #trajectories .a-19.selected {
+  color: #e5c12f;
+}
+
+#trajectories .a-20:hover, #trajectories .a-20.selected {
+  color: #e4672f;
+}
+
+#trajectories .a-21:hover, #trajectories .a-21.selected {
+  color: #ca8d33;
+}
+
+#trajectories .a-22:hover, #trajectories .a-22.selected {
+  color: #3355ca;
+}
+
+#trajectories .a-23:hover, #trajectories .a-23.selected {
+  color: #8d3b73;
+}
+
+#trajectories .a-24:hover, #trajectories .a-24.selected {
+  color: #563078;
+}
+
+#trajectories .a-25:hover, #trajectories .a-25.selected {
+  color: #ca9641;
+}
+
+#trajectories .a-26:hover, #trajectories .a-26.selected {
+  color: #b5901c;
+}
+
+#trajectories .a-27:hover, #trajectories .a-27.selected {
+  color: #00adb5;
+}
+
+#trajectories .a-28:hover, #trajectories .a-28.selected {
+  color: #5b9a52;
+}
+
+#trajectories .a-29:hover, #trajectories .a-29.selected {
+  color: #cbab2a;
+}
+
+#trajectories .a-30:hover, #trajectories .a-30.selected {
+  color: #cb5b2a;
+}
+
+#trajectories .a-31:hover, #trajectories .a-31.selected {
+  color: #b07b2d;
+}
+
+#trajectories .a-32:hover, #trajectories .a-32.selected {
+  color: #2d4ab0;
+}
+
+#trajectories .a-33:hover, #trajectories .a-33.selected {
+  color: #9b5383;
+}
+
+#trajectories .a-34:hover, #trajectories .a-34.selected {
+  color: #4c2a69;
+}
+
+#trajectories .a-35:hover, #trajectories .a-35.selected {
+  color: #b08438;
+}
+
+#trajectories .a-36:hover, #trajectories .a-36.selected {
+  color: #9e7e19;
+}
+
+#trajectories .a-37:hover, #trajectories .a-37.selected {
+  color: #00979e;
+}
+
+#trajectories .a-38:hover, #trajectories .a-38.selected {
+  color: #508747;
+}
+
+#trajectories .a-39:hover, #trajectories .a-39.selected {
+  color: #b29624;
+}
+
+#trajectories .a-40:hover, #trajectories .a-40.selected {
+  color: #b25024;
+}
+
+#trajectories .a-41:hover, #trajectories .a-41.selected {
+  color: #976a26;
+}
+
+#trajectories .a-42:hover, #trajectories .a-42.selected {
+  color: #263f97;
+}
+
+#trajectories .a-43:hover, #trajectories .a-43.selected {
+  color: #a86a94;
+}
+
+#trajectories .a-44:hover, #trajectories .a-44.selected {
+  color: #41245a;
+}
+
+#trajectories .a-45:hover, #trajectories .a-45.selected {
+  color: #977130;
+}
+
+#trajectories .a-46:hover, #trajectories .a-46.selected {
+  color: #886c15;
+}
+
+#trajectories .a-47:hover, #trajectories .a-47.selected {
+  color: #008288;
+}
+
+#trajectories .a-48:hover, #trajectories .a-48.selected {
+  color: #44743d;
+}
+
+#trajectories .a-49:hover, #trajectories .a-49.selected {
+  color: #98801f;
+}
+
+#trajectories .a-50:hover, #trajectories .a-50.selected {
+  color: #98441f;
+}
+
+#itineraries .authors-list a.selected {
+  color: #406afc;
+  cursor: pointer;
+}
+
+#itineraries svg {
+  shape-rendering: geometricPrecision;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.results .items {
+  padding: 1.25em;
+}
+
+.results .title {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  width: 100%;
+  padding-bottom: 0.625em;
+  margin-bottom: 0.625em;
+}
+
+.results .results-view > div {
+  color: #406afc;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  width: 100%;
+  font-weight: 600;
+  padding-bottom: 1.25em;
+  display: block;
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+
+.results .results-view > div .item_date {
+  text-transform: none;
+  font-size: 0.8em;
+  color: #c1c5c9;
+  font-weight: 400;
+}
+
+.date-range {
+  background-color: #F7F8F9;
+}
+
+.indicator {
+  height: 3em;
+  text-align: center;
+  padding: 0.9em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.d3-slider {
+  font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
+}
+
+.d3-slider-vertical {
+  width: 100%;
+  height: calc(100% - 3em);
+}
+
+.d3-slider-range-vertical {
+  background-color: #E6E7E9;
+  border-right: 2px solid #406afc;
+}
+
+.d3-slider-vertical .d3-slider-handle {
+  right: -0.54em;
+  left: initial;
+  background: #406afc;
+  width: 1.2em;
+  height: 1.2em;
+  margin-bottom: -0.6em;
+  border-radius: 0.6em;
+  border-color: #406afc;
+}
+
+@media only screen and (min-width: 640px) {
+  .d3-slider-vertical .d3-slider-handle {
+    right: -0.40em;
+    width: 1em;
+    height: 1em;
+    margin-bottom: -0.5em;
+    border-radius: 0.5em;
+  }
+}
+
+.d3-slider-axis line {
+  stroke: #FFFFFF;
+}
+
+.d3-slider-axis text {
+  fill: #000000;
+  stroke: transparent;
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-top: 0.2em;
+}
+
+.date-selector {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.date-selector svg {
+  width: 100%;
+}
+
+/* Map */
+path.map {
+  fill: #E6E7E9;
+  stroke: transparent;
+  stroke-width: 0;
+  stroke-opacity: 0;
+  stroke-linejoin: miter;
+}
+
+.points_g {
+  cursor: pointer;
+}
+
+.points_g.focus_point .point {
+  fill: #406afc;
+  stroke: #406afc;
+  stroke-width: 1;
+  stroke-opacity: 1;
+}
+
+.point {
+  fill: #A5ACAF;
+  stroke: #A5ACAF;
+  stroke-width: 1;
+}
+
+.point_back {
+  fill: white;
+  fill-opacity: 0.5;
+  stroke: transparent;
+}
+
+.point.point_01 {
+  fill-opacity: 0.25;
+  stroke-opacity: 0.25;
+}
+
+.point.point_02 {
+  fill-opacity: 0.5;
+  stroke-opacity: 0.5;
+}
+
+.point.point_03 {
+  fill-opacity: 1;
+  stroke-opacity: 1;
+}
+
+path.line {
+  stroke-width: 2;
 }
 
 .legend {
@@ -1494,7 +1462,7 @@ path.line {
   font-size: 12px;
   width: 120px;
   border: 1px solid #fcb040;
-  background-color: #406afc;
+  background-color: #fcb040;
   opacity: 0;
   padding: 0.625em;
   cursor: pointer;
