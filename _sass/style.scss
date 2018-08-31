@@ -659,10 +659,13 @@ path.line {
   
   &.small-set a {
     @include author-list-item();
+    color: $darker_neutral;
+
   }
   
   &.large-set a {
     @include author-list-item('large-set');
+    color: $darker_neutral;
   }
   
   a {
@@ -671,7 +674,6 @@ path.line {
     vertical-align: top;
     padding: $blh;
     cursor: pointer;
-    color: $darker_neutral;
     padding-bottom: $blh/16
   }
 }
@@ -871,7 +873,7 @@ path.map {
 }
 
 path.line {
-  stroke-width: 2;
+  stroke-width: 1;
 }
 
 

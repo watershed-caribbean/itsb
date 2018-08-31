@@ -1023,6 +1023,7 @@ path.line {
   font-size: 0.9em;
   font-weight: 600;
   padding-bottom: 1.25em;
+  color: #6A727C;
 }
 
 .authors-list.small-set a .item_date {
@@ -1038,6 +1039,7 @@ path.line {
   font-size: 0.8em;
   font-weight: 600;
   padding-bottom: 1.25em;
+  color: #6A727C;
 }
 
 .authors-list.large-set a .item_date {
@@ -1053,7 +1055,6 @@ path.line {
   vertical-align: top;
   padding: 1.25em;
   cursor: pointer;
-  color: #6A727C;
   padding-bottom: 0.07812em;
 }
 
@@ -1434,7 +1435,7 @@ path.map {
 }
 
 path.line {
-  stroke-width: 2;
+  stroke-width: 1;
 }
 
 .legend {

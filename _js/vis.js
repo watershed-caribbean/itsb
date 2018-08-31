@@ -443,17 +443,21 @@ class Trajectories extends DateMapController {
         });
       });
       
-		//slider
+		// !--Slider
 		
 		var sliderwidth = self.ui.dom[this.classkey].dateslider.offsetWidth;
 						
 		var scale = d3.time.scale()
 			.domain(this.range);
-					
+							
 		var scale_axis = d3.svg.axis()
 			.orient('right')
 			.ticks(10)
 			.tickSize(sliderwidth - 2) //takes into account a 2px border
+			.tickFormat(function(date){
+  			var dateObj = new Date(date);
+  			return dateObj.getUTCFullYear(); // Corrects issue introduced in Chrome 68
+			})
 			.tickPadding(12);
 			
 		var slide = d3.slider()
@@ -492,14 +496,14 @@ class Trajectories extends DateMapController {
 				;
 			return s.invert(self.height -s(_val));
 		}    
-
+		
 		var slider = d3.select(self.ui.dom[this.classkey].dateslider).call(slide);
 		
 		d3.select(self.ui.dom[this.classkey].dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)");
 		
 		update_datebar();
 
-		//map
+		// !--Map
 		var projection = d3.geo.mercator()
 			.scale(160)
 			.translate([self.ui.dom[this.classkey].map.view.offsetWidth * 0.5,self.ui.dom[this.classkey].map.view.offsetHeight * 0.5]);
@@ -1104,17 +1108,21 @@ class Intersections extends DateMapController {
 			display_results();
 		});
 		
-		//slider
+		// !--Slider
 
 		var sliderwidth = self.ui.dom[this.classkey].dateslider.offsetWidth;
 		
 		var scale = d3.time.scale()
 			.domain(this.range);
-							
+										
 		var scale_axis = d3.svg.axis()
 			.orient('right')
 			.ticks(10)
 			.tickSize(sliderwidth - 2) //takes into account a 2px border
+			.tickFormat(function(date){
+  			var dateObj = new Date(date);
+  			return dateObj.getUTCFullYear(); // Corrects issue introduced in Chrome 68
+			})
 			.tickPadding(12);
 			
 		var slide = d3.slider()
@@ -1155,9 +1163,7 @@ class Intersections extends DateMapController {
 
 		var slider = d3.select(self.ui.dom[this.classkey].dateslider).call(slide);
 		
-		d3.select(self.ui.dom[this.classkey].dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)").text(function(d){
-  		return d3.select(this).text() + "s";
-		});
+		d3.select(self.ui.dom[this.classkey].dateslider).selectAll('text').attr("transform", "translate(-" + sliderwidth + ",20)");
 		
 		update_datebar();
 				
