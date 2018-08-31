@@ -64,7 +64,7 @@ gulp.task('deploy', ['rebuild'], function () {
 });
 
 // Rebuild Jekyll & do page reload
-gulp.task('rebuild', ['sass','js','img','build'], function () {
+gulp.task('rebuild', ['sass','js','jslib','img','build'], function () {
     browserSync.reload();
 });
 
@@ -123,7 +123,9 @@ gulp.task('jslib', function(){
 });
 
 // Uglify JS
-gulp.task('js',['jslib'], function() {
+// Use jslib above to rebuild third-party libraries.
+
+gulp.task('js', function() {
   return gulp.src([
       src.js
     ])

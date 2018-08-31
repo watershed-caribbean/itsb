@@ -3,17 +3,11 @@
   id: "trajectories"
   url: "/trajectories"
   visclass: "Trajectories"
+  datamode: 2
 
 - name: "Intersections"
   description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
   id: "intersections"
   url: "/intersections"
   visclass: "Intersections"
-  
-- name: "Itineraries"
-  description: "Something about the itineraries visualization. This will likely not be included in the release build."
-  id: "itineraries"
-  url: "/itineraries"
-  visclass: "Itineraries"
-
-  
+  datamode: 1

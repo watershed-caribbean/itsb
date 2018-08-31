@@ -389,6 +389,9 @@ class Trajectories extends DateMapController {
 		          
     d3.select(self.ui.dom.trajectories.authors.list)
       .html(self.ui.generateAuthorList(this));
+            
+    self.ui.addListSizeClass(self.authors,self.ui.dom.trajectories.authors.list);
+
   }
   
   process_data() {
@@ -1451,14 +1454,29 @@ class Intersections extends DateMapController {
 					.classed('item_date',true);
 				items_date
 					.html(function(d){
-						var str;
-						str = d.StartDate && d.EndDate ? d.StartDate +'&nbsp;&ndash;&nbsp;' +d.EndDate : d.StartDate ? d.StartDate +'&nbsp;&ndash;' : d.EndDate ? '&nbsp;&ndash;' +d.EndDate : '';
-						return str;
+						var dateproc = [];
+						
+						if (d.StartDate) {
+  						dateproc.push(d.StartDate);
+						}
+						
+						if (d.EndDate) {
+  						dateproc.push(d.EndDate);
+						}
+												
+						return  dateproc.length > 0 ? dateproc.join('&nbsp;–&nbsp;') : '';
+						
+						//str = d.StartDate && d.EndDate ? d.StartDate +'&nbsp;&ndash;&nbsp;' + d.EndDate : d.StartDate ? d.StartDate +'&nbsp;&ndash;' : d.EndDate ? '&nbsp;&ndash;' +d.EndDate : '';
+						//return str;
 					});
 				items_date.exit().remove();
+				
+				self.ui.addListSizeClass(data,self.ui.dom[self.classkey].results.view);
+
 			} else{
 				d3.select('#sidebar_title').html('');
 				d3.select('#sidebar_items').html('');
+				self.ui.addListSizeClass([],self.ui.dom[self.classkey].results.view);
 			}
 		}
 
@@ -1531,7 +1549,7 @@ class Itineraries extends Visualization {
     var self = this;
     
     // Set up author selection UI
-    
+        
     d3.select(self.ui.dom[this.classkey].authors.list)
       .html(self.ui.generateAuthorList(this));
 				
@@ -1554,7 +1572,7 @@ class Itineraries extends Visualization {
           
           self.generate();  
         });
-      });
+      });      
   }
   
   /* !--Itineraries Generate */

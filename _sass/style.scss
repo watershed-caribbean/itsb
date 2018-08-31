@@ -382,6 +382,8 @@ span.subject {
   font-weight: bold;
   border-right: solid 1px $white;
   border-bottom: solid 1px $white;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .panel {
@@ -619,14 +621,17 @@ path.line {
   stroke: $clr3;
 }
 
-@mixin author-list-item {
+@mixin author-list-item($size: 'small-set') {
   color: $clr2;
   text-transform: uppercase;
-  font-size: 0.9em;
-  width: 100%;
+  @if $size == 'large-set' {
+    font-size: 0.8em;
+  } @else {
+    font-size: 0.9em;
+  }
+
   font-weight: $semibold;
   padding-bottom: $blh;
-  display: block;
 
   .item_date {
     text-transform: none;
@@ -652,8 +657,15 @@ path.line {
     width: 100%;
   }
   
+  &.small-set a {
+    @include author-list-item();
+  }
+  
+  &.large-set a {
+    @include author-list-item('large-set');
+  }
+  
   a {
-    @include author-list-item;
     width: 50%;
     display: table-cell;
     vertical-align: top;
@@ -713,10 +725,19 @@ path.line {
     padding-bottom: $blh / 2;
     margin-bottom: $blh / 2;
   }
+  
+  .results-view {
+    &.small-set > div {
+      @include author-list-item();
+    }
+  
+    &.large-set > div {
+      @include author-list-item('large-set');
+    }
+  }
 
   .results-view {
     > div {
-      @include author-list-item;
       width: 50%;
       float: left;
       display: inline-block;

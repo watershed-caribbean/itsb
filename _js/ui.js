@@ -58,6 +58,8 @@ class UI {
     document.getElementById('panels').setAttribute("style","min-height:" + h + "px");
   }
   
+  // Generates the <li> elements for author lists
+  
   generateAuthorList(obj) {
     
     var list = '';
@@ -85,6 +87,14 @@ class UI {
     return list;
     
   }
+  
+  // Adds a list size class to a list container
+  
+  addListSizeClass(obj,container) {
+    container.classList.remove('large-set');
+    container.classList.remove('small-set');
+    container.classList.add(obj.length > 25 ? 'large-set' : 'small-set');
+  } 
   
   authorItemTemplate(name,key,tag,count) {
     return "<" + tag + " data-key='" + key + "' class='author a-" + count + "' title='" + this.escapeHtml(name) + "'>" + name + "</" + tag + ">";
@@ -165,7 +175,7 @@ class TrajectoriesUI extends UI {
         view: etra.getElementsByClassName('map')[0]
       }
     }
-  }  
+  }   
 }
 
 class ItinerariesUI extends UI {

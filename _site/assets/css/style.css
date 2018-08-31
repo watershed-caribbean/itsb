@@ -297,6 +297,8 @@ span.subject {
   font-weight: bold;
   border-right: solid 1px #FFFFFF;
   border-bottom: solid 1px #FFFFFF;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .panel > *:last-child .header {
@@ -1015,14 +1017,37 @@ path.line {
   width: 100%;
 }
 
-.authors-list a {
+.authors-list.small-set a {
   color: #406afc;
   text-transform: uppercase;
   font-size: 0.9em;
-  width: 100%;
   font-weight: 600;
   padding-bottom: 1.25em;
-  display: block;
+}
+
+.authors-list.small-set a .item_date {
+  text-transform: none;
+  font-size: 0.8em;
+  color: #c1c5c9;
+  font-weight: 400;
+}
+
+.authors-list.large-set a {
+  color: #406afc;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-bottom: 1.25em;
+}
+
+.authors-list.large-set a .item_date {
+  text-transform: none;
+  font-size: 0.8em;
+  color: #c1c5c9;
+  font-weight: 400;
+}
+
+.authors-list a {
   width: 50%;
   display: table-cell;
   vertical-align: top;
@@ -1030,13 +1055,6 @@ path.line {
   cursor: pointer;
   color: #6A727C;
   padding-bottom: 0.07812em;
-}
-
-.authors-list a .item_date {
-  text-transform: none;
-  font-size: 0.8em;
-  color: #c1c5c9;
-  font-weight: 400;
 }
 
 #trajectories .a-1:hover, #trajectories .a-1.selected {
@@ -1263,24 +1281,40 @@ path.line {
   margin-bottom: 0.625em;
 }
 
-.results .results-view > div {
+.results .results-view.small-set > div {
   color: #406afc;
   text-transform: uppercase;
   font-size: 0.9em;
-  width: 100%;
   font-weight: 600;
   padding-bottom: 1.25em;
-  display: block;
-  width: 50%;
-  float: left;
-  display: inline-block;
 }
 
-.results .results-view > div .item_date {
+.results .results-view.small-set > div .item_date {
   text-transform: none;
   font-size: 0.8em;
   color: #c1c5c9;
   font-weight: 400;
+}
+
+.results .results-view.large-set > div {
+  color: #406afc;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-bottom: 1.25em;
+}
+
+.results .results-view.large-set > div .item_date {
+  text-transform: none;
+  font-size: 0.8em;
+  color: #c1c5c9;
+  font-weight: 400;
+}
+
+.results .results-view > div {
+  width: 50%;
+  float: left;
+  display: inline-block;
 }
 
 .date-range {
@@ -1524,10 +1558,8 @@ path.line {
   color: #406afc;
   text-transform: uppercase;
   font-size: 0.9em;
-  width: 100%;
   font-weight: 600;
   padding-bottom: 1.25em;
-  display: block;
   padding-bottom: 0;
 }
 

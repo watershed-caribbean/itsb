@@ -10,9 +10,9 @@
     <img src="/assets/img/home{% if page.id == 'home' %}_active{% endif %}.svg" class="navicon" title="home"><span class="navtext">Home</span></a>
     <a href='/about' data-mode='0'><img src="/assets/img/about{% if page.id == 'about' %}_active{% endif %}.svg" class="navicon" title="About"><span class="navtext">About</span></a>
     <a href='/search' data-mode='0'><img src="/assets/img/search{% if page.id == 'search' %}_active{% endif %}.svg" class="navicon" title="Search"><span class="navtext">Search</span></a>
-    <a href='/page' data-mode='0'><img src="/assets/img/page{% if page.id == 'page' %}_active{% endif %}.svg" class="navicon" title="Page"><span class="navtext">Generic Page</span></a>
-    <a href='/trajectories' data-mode='2'><img src="/assets/img/visualization{% if page.id == 'trajectories' %}_active{% endif %}.svg" class="navicon" title="Trajectories"><span class="navtext">Trajectories</span></a>
-    <a href='/intersections' data-mode='1'><img src="/assets/img/visualization{% if page.id == 'intersections' %}_active{% endif %}.svg" class="navicon" title="Intersections"><span class="navtext">Intersections</span></a>
-    <a href='/itineraries' data-mode='3'><img src="/assets/img/visualization{% if page.id == 'itineraries' %}_active{% endif %}.svg" class="navicon" title="Itineraries"><span class="navtext">Itineraries</span></a>
+    <!-- <a href='/page' data-mode='0'><img src="/assets/img/page{% if page.id == 'page' %}_active{% endif %}.svg" class="navicon" title="Page"><span class="navtext">Generic Page</span></a> -->
+    {% for visualization in site.data.visualizations %}
+        <a href='{{ visualization.url }}' data-mode='{{ visualization.datamode }}'><img src="/assets/img/visualization{% if page.id == visualization.id %}_active{% endif %}.svg" class="navicon" title="{{ visualization.name }}"><span class="navtext">{{ visualization.name }}</span></a>
+    {% endfor %}
   </div>
 </div>
