@@ -1018,7 +1018,7 @@ path.line {
   text-transform: none;
   font-size: 0.8em;
   color: #c1c5c9;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .authors-list.large-set a {
@@ -1032,7 +1032,7 @@ path.line {
   text-transform: none;
   font-size: 0.8em;
   color: #c1c5c9;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .authors-list a {
@@ -1278,7 +1278,7 @@ path.line {
   text-transform: none;
   font-size: 0.8em;
   color: #c1c5c9;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .results .results-view.large-set > div {
@@ -1291,7 +1291,7 @@ path.line {
   text-transform: none;
   font-size: 0.8em;
   color: #c1c5c9;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .results .results-view > div {
@@ -1548,7 +1548,7 @@ path.line {
   text-transform: none;
   font-size: 0.8em;
   color: #c1c5c9;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #search-results .subhead {
