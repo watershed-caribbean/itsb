@@ -363,6 +363,7 @@ span.subject {
 > *:nth-child(1) {
   width: 25%;
   min-height: 100%;
+  left: 0;
 }
 
 #itineraries
@@ -383,20 +384,8 @@ span.subject {
 
 #itineraries
 > * .itinerary {
-  position: absolute;
-  width: 50%;
+  width: 100%;
   height: auto;
-}
-
-#itineraries
-> * .itinerary:nth-child(1) {
-  float: left;
-  z-index: 10;
-}
-
-#itineraries
-> * .itinerary:nth-child(2) {
-  left: 50%;
 }
 
 #itineraries
@@ -414,6 +403,7 @@ span.subject {
   text-align: center;
   padding-top: 1.25em;
   height: auto;
+  width: 100%;
 }
 
 #itineraries
@@ -1019,9 +1009,7 @@ path.line {
 
 .authors-list.small-set a {
   color: #406afc;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  font-weight: 600;
+  font-size: 1em;
   padding-bottom: 1.25em;
   color: #6A727C;
 }
@@ -1035,10 +1023,8 @@ path.line {
 
 .authors-list.large-set a {
   color: #406afc;
-  text-transform: uppercase;
-  font-size: 0.8em;
-  font-weight: 600;
-  padding-bottom: 1.25em;
+  font-size: 0.85em;
+  padding-bottom: 0.625em;
   color: #6A727C;
 }
 
@@ -1284,9 +1270,7 @@ path.line {
 
 .results .results-view.small-set > div {
   color: #406afc;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  font-weight: 600;
+  font-size: 1em;
   padding-bottom: 1.25em;
 }
 
@@ -1299,10 +1283,8 @@ path.line {
 
 .results .results-view.large-set > div {
   color: #406afc;
-  text-transform: uppercase;
-  font-size: 0.8em;
-  font-weight: 600;
-  padding-bottom: 1.25em;
+  font-size: 0.85em;
+  padding-bottom: 0.625em;
 }
 
 .results .results-view.large-set > div .item_date {
@@ -1557,9 +1539,7 @@ path.line {
 
 #search-results .term {
   color: #406afc;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  font-weight: 600;
+  font-size: 1em;
   padding-bottom: 1.25em;
   padding-bottom: 0;
 }

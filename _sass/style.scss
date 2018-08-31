@@ -465,6 +465,7 @@ span.subject {
   &:nth-child(1) {
     width: 25%;
     min-height: 100%;
+    left: 0;
     
     .header {
       background-color: $darker_neutral;
@@ -481,18 +482,8 @@ span.subject {
   }
   
   .itinerary {
-    position: absolute;
-    width: 50%;
+    width: 100%;
     height: auto;
-    
-    &:nth-child(1) {
-      float: left;
-      z-index: 10; // Necessary to ensure tick lines overlap right itinerary
-    }
-    
-    &:nth-child(2) {
-      left: 50%;
-    }
     
     .itinerary-header {
       width: 100%;
@@ -508,6 +499,7 @@ span.subject {
       text-align: center;
       padding-top: $blh;
       height: auto;
+      width: 100%;
     }
     
     svg {
@@ -623,15 +615,13 @@ path.line {
 
 @mixin author-list-item($size: 'small-set') {
   color: $clr2;
-  text-transform: uppercase;
   @if $size == 'large-set' {
-    font-size: 0.8em;
+    font-size: 0.85em;
+    padding-bottom: $blh/2;
   } @else {
-    font-size: 0.9em;
+    font-size: 1em;
+    padding-bottom: $blh;
   }
-
-  font-weight: $semibold;
-  padding-bottom: $blh;
 
   .item_date {
     text-transform: none;

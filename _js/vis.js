@@ -1534,12 +1534,11 @@ class Itineraries extends Visualization {
   constructor() {
     super();
     this.classkey = 'itineraries';   
-    this.selectedauthors = [null,null];
+    this.selectedauthors = [];
     this.routes = [];
     this.visHeight = this.height * 4;
     this.ui = new ItinerariesUI();
     this.selectionsw = d3.select(this.ui.dom.itineraries.authors.selections).node().getBoundingClientRect().width;
-
   }
   
   init() {
@@ -1564,16 +1563,21 @@ class Itineraries extends Visualization {
         d3.select(this).on('click',function(){
           var elem = d3.select(this);  
           var akey = elem.attr('data-key');
-          var max = d3.select(self.ui.dom[self.classkey].authors.list).selectAll('a.selected')[0].length == self.selectedauthors.length;
                               
           if(elem.classed('selected')) {
             elem.classed('selected',false);
             self.selectedauthors[self.selectedauthors.indexOf(akey)] = null;
           } else {
-            if (!max) {
-              elem.classed('selected',true);
-              self.selectedauthors[self.selectedauthors.indexOf(null)] = akey;
-            } 
+            
+            self.selectedauthors = [];
+            
+            d3.select(self.ui.dom[self.classkey].authors.list)
+              .selectAll('.author').each(function(){
+                 d3.select(this).classed('selected',false);
+              });
+              
+            self.selectedauthors[0] = akey;
+            elem.classed('selected',true);
           }
           
           self.generate();  
@@ -1593,6 +1597,7 @@ class Itineraries extends Visualization {
     // Checks to see if at least one author is selected
     
     if (d3.select(self.ui.dom[self.classkey].authors.list).selectAll('a.selected')[0].length == 0) {
+      d3.select(self.ui.dom[self.classkey].selections[0].header).html("Select an author");
       return;
     }
     
@@ -1674,7 +1679,8 @@ class Itineraries extends Visualization {
     d3.select(view).style('height',this.visHeight);
     
     // add axis to first visualization
-    var w = this.selectionsw *.95 * .8 -10;
+    // var w = this.selectionsw *.95 * .8 -10;
+    var w = this.selectionsw * 0.5;
 
     if (index==0) {
       svg.append('g')

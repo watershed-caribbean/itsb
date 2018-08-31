@@ -203,7 +203,7 @@ class ItinerariesUI extends UI {
       ]
     }    
     
-  }
+  }  
 }
 
 class SearchUI extends UI {
