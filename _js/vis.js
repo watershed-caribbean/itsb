@@ -1722,13 +1722,16 @@ class Itineraries extends Visualization {
           .attr('class','tip')
           .text(function(d) {
     				var tooltip = [];
+    				var info = []
+
+    				console.log('generating tooltip');
     				
     				if(typeof self.places[d.PlaceID] == 'undefined') {
-      				return;
+      				tooltip.push['Location information unspecified or missing.'];
+    				} else {
+    				  tooltip.push(self.places[d.PlaceID].PlaceName);
     				}
-    				tooltip.push(self.places[d.PlaceID].PlaceName);
     				// Add names and citations
-    				var info = []
     				
     				if (d.StartDate != "") {
       				info.push(" \nFrom: " + d.StartDate.toString());
@@ -1745,7 +1748,9 @@ class Itineraries extends Visualization {
               info.push(" (" + d.StartCitation.toString() + ")");
     				}
     				
+
     				tooltip.push(info.join(''));
+    				console.log(tooltip);
       		  
       		  return tooltip.join("<br />");
           });

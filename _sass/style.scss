@@ -270,6 +270,10 @@ body.front #nav {
 }
 // Page Layout
 
+#container {
+  pointer-events: none;
+}
+
 #page-title {
   width: 90%;
   margin: 0 auto;

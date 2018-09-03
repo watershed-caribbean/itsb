@@ -172,6 +172,10 @@ body.front #nav {
   overflow: hidden;
 }
 
+#container {
+  pointer-events: none;
+}
+
 #page-title {
   width: 90%;
   margin: 0 auto;
