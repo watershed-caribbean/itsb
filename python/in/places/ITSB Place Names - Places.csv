@@ -113,21 +113,21 @@ Zurich,,Switzerland,"Zurich, Switzerland",zurich_switzerland,47.3768866,8.541694
 ,,Colombia,Colombia,colombia,4.570868,-74.297333
 ,,Ecuador,Ecuador,ecuador,-1.831239,-78.183406
 ,English Provinces,England,"English Provinces, England",english_provinces_england,52.3555177,-1.1743197
-,,England,England,england,,
-,,Germany,Germany,germany,,
-,,Greece,Greece,greece,,
-,,Haiti,Haiti,haiti,,
-,,Hong Kong,Hong Kong,hong_kong,,
-,,Ireland,Ireland,ireland,,
-,,Italy,Italy,italy,,
-,,Lebanon,Lebanon,lebanon,,
-,,Malay Federation (Malaysia),Malay Federation (Malaysia),malay_federation_(malaysia),,
-,,Martinique,Martinique,martinique,,
-,,Mexico,Mexico,mexico,,
-,,Morocco,Morocco,morocco,,
-,,New York,New York,new_york,,
-,,New Zealand,New Zealand,new_zealand,,
-,,Nigeria,Nigeria,nigeria,,
+,,England,England,england,52.3555177,-1.1743197
+,,Germany,Germany,germany,51.165691,10.451526
+,,Greece,Greece,greece,39.074208,21.824312
+,,Haiti,Haiti,haiti,18.971187,-72.285215
+,,Hong Kong,Hong Kong,hong_kong,22.396428,114.109497
+,,Ireland,Ireland,ireland,53.41291,-8.24389
+,,Italy,Italy,italy,41.87194,12.56738
+,,Lebanon,Lebanon,lebanon,33.854721,35.862285
+,,Malay Federation (Malaysia),Malay Federation (Malaysia),malay_federation_(malaysia),5.3266,100.282196
+,,Martinique,Martinique,martinique,14.641528,-61.024174
+,,Mexico,Mexico,mexico,23.634501,-102.552784
+,,Morocco,Morocco,morocco,31.791702,-7.09262
+,,New York,New York,new_york,40.7127753,-74.0059728
+,,New Zealand,New Zealand,new_zealand,-40.900557,174.885971
+,,Nigeria,Nigeria,nigeria,9.081999,8.675277
 ,,Philippines,Philippines,philippines,,
 ,,Puerto Rico,Puerto Rico,puerto_rico,,
 ,,Scotland,Scotland,scotland,,
@@ -139,3 +139,18 @@ Zurich,,Switzerland,"Zurich, Switzerland",zurich_switzerland,47.3768866,8.541694
 ,Michigan,USA,"Michigan, USA",michigan_usa,,
 ,,Yugoslavia,Yugoslavia,yugoslavia,,
 ,,Europe,Europe,europe,54.5259614,15.2551187
+New,Place,USA,"New, Place, USA",new_place_usa,37.09024,-95.712891
+Nairne Castle,Clarendon,Jamaica,"Nairne Castle, Clarendon, Jamaica",nairne_castle_clarendon_jamaica,17.9609693,-77.5897158
+Montego Bay,Saint James,Jamaica,"Montego Bay, Saint James, Jamaica",montego_bay_saint_james_jamaica,18.471215,-77.9398877
+Sunny Ville,Clarendon,Jamaica,"Sunny Ville, Clarendon, Jamaica",sunny_ville_clarendon_jamaica,17.9609693,-77.5897158
+Brown's Town,St. Ann,Jamaica,"Brown's Town, St. Ann, Jamaica",brown's_town_st_ann_jamaica,18.3900766,-77.3849869
+Charleston,North Carolina,USA,"Charleston, North Carolina, USA",charleston_north_carolina_usa,36.1201561,-77.3755239
+Tuskegee,Alabama,USA,"Tuskegee, Alabama, USA",tuskegee_alabama_usa,32.430237,-85.7077266
+Manhattan,Kansas,USA,"Manhattan, Kansas, USA",manhattan_kansas_usa,39.1836082,-96.5716694
+Liverpool,,England,"Liverpool, England",liverpool_england,53.4083714,-2.9915726
+Szczecin ,,Poland,"Szczecin , Poland",szczecin__poland,53.4285438,14.5528116
+St. Petersburg,,Russia,"St. Petersburg, Russia",st_petersburg_russia,59.9342802,30.3350986
+Hamburg,,Germany,"Hamburg, Germany",hamburg_germany,53.5510846,9.9936819
+Marseilles,,France,"Marseilles, France",marseilles_france,43.296482,5.36978
+La Ciotat,,France,"La Ciotat, France",la_ciotat_france,43.173653,5.605155
+Toulon,,France,"Toulon, France",toulon_france,43.124228,5.928

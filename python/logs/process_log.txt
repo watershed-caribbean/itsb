@@ -1061,3 +1061,341 @@ Katherine Dunham (208): This entry has no key dates listed and has been skipped.
 ---------------------------------------------------
 
 
+Run time: 2018-09-20 01:15:25
+
+Run time: 2018-09-20 01:44:32
+
+Claude McKay (4): Place ID  not found in master Place Name list.
+
+Claude McKay (5): Place ID  not found in master Place Name list.
+
+Claude McKay (6): Place ID  not found in master Place Name list.
+
+Claude McKay (7): Place ID  not found in master Place Name list.
+
+Claude McKay (8): Place ID  not found in master Place Name list.
+
+Claude McKay (9): Place ID  not found in master Place Name list.
+
+Claude McKay (10): Place ID  not found in master Place Name list.
+
+Claude McKay (11): Place ID  not found in master Place Name list.
+
+Claude McKay (12): Place ID  not found in master Place Name list.
+
+Claude McKay (13): Place ID  not found in master Place Name list.
+
+Claude McKay (14): Place ID  not found in master Place Name list.
+
+Claude McKay (14): Arrival Date 1921-1 is not a valid date entry
+
+Claude McKay (14): Departure Date 1922-9-20 is not a valid date entry
+
+Claude McKay (15): Place ID  not found in master Place Name list.
+
+Claude McKay (16): Place ID  not found in master Place Name list.
+
+Claude McKay (17): Place ID  not found in master Place Name list.
+
+Claude McKay (18): Place ID  not found in master Place Name list.
+
+Claude McKay (19): Place ID  not found in master Place Name list.
+
+Claude McKay (20): Place ID  not found in master Place Name list.
+
+Claude McKay (21): Place ID  not found in master Place Name list.
+
+Claude McKay (22): Place ID  not found in master Place Name list.
+
+Claude McKay (23): Place ID  not found in master Place Name list.
+
+Claude McKay (24): Place ID  not found in master Place Name list.
+
+Claude McKay (25): Place ID  not found in master Place Name list.
+
+Claude McKay (26): Place ID  not found in master Place Name list.
+
+Claude McKay (27): Place ID  not found in master Place Name list.
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+
+Run time: 2018-09-20 01:52:56
+
+Claude McKay (14): Arrival Date 1921-1 is not a valid date entry
+
+Claude McKay (14): Departure Date 1922-9-20 is not a valid date entry
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+
+Run time: 2018-09-20 01:54:26
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
+Run time: 2018-09-22 18:39:35
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
