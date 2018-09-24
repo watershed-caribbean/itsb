@@ -419,7 +419,6 @@ class Trajectories extends DateMapController {
 		this[this.classkey].map.on('click',function(){
 			d3.event.stopPropagation();
 			unfocus();
-			display_results();
 		});
 		
 		// Manage active trajectory map authors
@@ -885,7 +884,6 @@ class Trajectories extends DateMapController {
   				      .remove();
   				  });
   				  
-					display_results();
 				});
 				
 			points_g.exit().remove();
@@ -947,64 +945,6 @@ class Trajectories extends DateMapController {
 			points_03.exit().remove();
 		}
 
-		function display_results(){
-  		var self = this;
-  		
-			var o_scale = d3.scale.linear()
-				.domain([0,3])
-				.range([0.5,1]);
-
-			if(focus){
-				d3.select(self.ui.dom.intersections.results.title).html(self.places[focus.key].PlaceName);
-
-				//var data = sidebar_mode === 1 ? (intersections_unique[focus.key] || []) : (trajectories_unique[focus.key]);
-				var data = intersections_unique[focus.key] || [];
-				var items_target = d3.select(self.ui.dom.intersections.results.view);
-				var items,
-						items_date;
-
-				items = items_target.selectAll('.item')
-					.data(data);
-				items.enter().append('div')
-					.classed('item',true);
-				items
-					.attr('class',function(d){
-						var idx = d3.keys(self.authors).indexOf(d.AuthorID);
-						return 'item id_' +idx;
-					})
-					.style('opacity',function(d){
-						return o_scale(d.Likelihood);
-					})
-					.html(function(d){
-						return self.authors[d.AuthorID];
-					});
-				items.exit().remove();
-
-				items_date = items.selectAll('div.item_date')
-					.data(function(d){ return [d]; });
-				items_date.enter().append('div')
-					.classed('item_date',true);
-				items_date
-					.html(function(d){
-						var str;
-						str = d.StartDate && d.EndDate ? d.StartDate +'&nbsp;&ndash;&nbsp;' +d.EndDate : d.StartDate ? d.StartDate +'&nbsp;&ndash;' : d.EndDate ? '&nbsp;&ndash;' +d.EndDate : '';
-						
-						/* // Trajectory code
-							var a1 = d.PlaceID === focus.key ? 'accent' : '',
-									a2 = d.PlaceID_End && d.PlaceID_End === focus.key ? 'accent' : '';
-							var p1 = '<span class="_' +d.Likelihood +' ' +a1 +'">' +self.places[d.PlaceID].PlaceName +'</span>',
-									p2 = '<span class="_' +d.Likelihood_End +' ' +a2 +'">' +(d.PlaceID_End ? self.places[d.PlaceID_End].PlaceName : '') +'</span>';
-							str = '<div class="b">' +(d.EndDate || '') +'</div><div>' +p1 +'&nbsp;&rarr;&nbsp;' +p2 +'</div>';
-						*/
-						return str;
-					});
-				items_date.exit().remove();
-
-			} else{
-				d3.select('#sidebar_title').html('');
-				d3.select('#sidebar_items').html('');
-			}
-		}
 
 		function update_datebar(){
 			var f = d3.time.format('%b %Y');
@@ -1016,7 +956,6 @@ class Trajectories extends DateMapController {
 			filter_data();
 			generate_lines();
 			generate_points();
-			display_results();
 		}
 
 		function unfocus(){
@@ -1027,7 +966,6 @@ class Trajectories extends DateMapController {
 		filter_data();
 		generate_lines();
 		generate_points();
-		display_results();
 	}
   
   tear_down() {
