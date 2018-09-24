@@ -12,6 +12,10 @@ body {
   position: inherit;
 }
 
+body.visualization {
+  overflow: hidden;
+}
+
 body > div {
   position: relative;
   width: 100%;

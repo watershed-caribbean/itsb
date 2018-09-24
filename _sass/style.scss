@@ -125,6 +125,10 @@ body {
   padding: 0;
   min-width: $min-width;
   position: inherit;
+  
+  &.visualization {
+    overflow: hidden;
+  }
 }
 
 body > div {
