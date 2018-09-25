@@ -12,6 +12,10 @@ body {
   position: inherit;
 }
 
+body.visualization {
+  overflow: hidden;
+}
+
 body > div {
   position: relative;
   width: 100%;
@@ -251,7 +255,7 @@ body.front #nav {
 }
 
 .item_icon img {
-  width: 3em;
+  width: 40px;
 }
 
 .item_info {

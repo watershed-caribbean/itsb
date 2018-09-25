@@ -125,6 +125,10 @@ body {
   padding: 0;
   min-width: $min-width;
   position: inherit;
+  
+  &.visualization {
+    overflow: hidden;
+  }
 }
 
 body > div {
@@ -330,8 +334,9 @@ body.front #nav {
 .item_icon {
   float: left;
   width: 20%;
+  
   img {
-    width: 3em;
+    width: 40px;
   }
 }
 
