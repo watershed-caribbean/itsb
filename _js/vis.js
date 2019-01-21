@@ -543,7 +543,6 @@ class Trajectories extends DateMapController {
 			trajectories = {};
 			trajectories_unique = {};
 			
-			//INTERSECTIONS
 			//filter by date range
 
 			var holder = d3.entries(self.intersections).filter(function(d){  			
@@ -587,7 +586,7 @@ class Trajectories extends DateMapController {
 					});
 				}
 			});
-			
+						
 			//tally up totals
 			
 			// Assigns intersections lists dynamically
@@ -624,7 +623,7 @@ class Trajectories extends DateMapController {
 					});
 				});
 			});
-									
+												
       for (var author in trajectories) {
        if (self.active_authors_t.indexOf(author) == -1) {
          delete trajectories[author];
@@ -638,7 +637,7 @@ class Trajectories extends DateMapController {
           trajectories[key][__key].PlaceID = trajectories[key][__key].PlaceID.replaceAll('-','_');
         });
       });
-                              
+                                    
 			//pair up start and end points
 			var tier = 0;
 			for(var i=0; i<d3.keys(trajectories).length; i++){
@@ -649,6 +648,7 @@ class Trajectories extends DateMapController {
 					tier=(j%2)*10;
 				} 
 			}
+			
 						
 			//make list of unique trajectories per place
 			d3.keys(intersections).forEach(function(d){
@@ -663,7 +663,7 @@ class Trajectories extends DateMapController {
 					if(_d.PlaceID_End){ trajectories_unique[_d.PlaceID_End].push(_d); }
 				});
 			});
-						
+									
 		}
 
 		function generate_lines(){
@@ -739,13 +739,16 @@ class Trajectories extends DateMapController {
 			points_target.enter().append('g')
 				.classed('points_target',true);
 			points_target.exit().remove();
-
+			
 			points_g = self[self.classkey].map.selectAll('g.points_g')
 				.data(d3.entries(intersections));
 			points_g.enter().append('g')
 				.classed('points_g',true);
 				
 			try {	
+  			// Remove all existing tooltips.
+  			
+  			points_g.selectAll("text[class='tip']").remove();
   			points_g
   				.attr('transform',function(d){
     				
@@ -1662,7 +1665,6 @@ class Itineraries extends Visualization {
     				var tooltip = [];
     				var info = []
 
-    				console.log('generating tooltip');
     				
     				if(typeof self.places[d.PlaceID] == 'undefined') {
       				tooltip.push['Location information unspecified or missing.'];
@@ -1688,7 +1690,6 @@ class Itineraries extends Visualization {
     				
 
     				tooltip.push(info.join(''));
-    				console.log(tooltip);
       		  
       		  return tooltip.join("<br />");
           });
