@@ -12,9 +12,9 @@
   visclass: "Intersections"
   datamode: 1
   
-- name: "Itineraries"
-  description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
-  id: "itineraries"
-  url: "/itineraries"
-  visclass: "Itineraries"
-  datamode: 3
+# - name: "Itineraries"
+#   description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
+#   id: "itineraries"
+#   url: "/itineraries"
+#   visclass: "Itineraries"
+#   datamode: 3
