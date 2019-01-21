@@ -1,839 +1,60 @@
-Run time: 2018-06-08 20:41:29
+Run time: 2019-01-21 16:28:52
 
-English Provinces, England geocode not found
-Malay Federation (Malaysia) geocode not found
+Port of Bonny, Rivers State, Nigeria geocode not found
+Boma, Kongo Central, Democratic Republic of Congo geocode not found
+Matadi, Kongo Central, Democratic Republic of Congo geocode not found
+Belmont, Trinidad geocode not found
+Saint Augustine, Trinidad geocode not found
+Easy Lansing, Michigan, USA geocode not found
+Duse Mohamed Ali (3): Place ID  not found in master Place Name list.
 
----------------------------------------------------
+Duse Mohamed Ali (4): Place ID  not found in master Place Name list.
 
+Duse Mohamed Ali (5): Place ID  not found in master Place Name list.
 
-Run time: 2018-06-08 20:44:38
+Duse Mohamed Ali (6): Place ID  not found in master Place Name list.
 
-English Provinces, England geocode not found
-Malay Federation (Malaysia) geocode not found
+Duse Mohamed Ali (7): Place ID  not found in master Place Name list.
 
----------------------------------------------------
+Duse Mohamed Ali (8): Place ID  not found in master Place Name list.
 
+Duse Mohamed Ali (9): Place ID  not found in master Place Name list.
 
-Run time: 2018-06-12 15:51:32
+Duse Mohamed Ali (10): Place ID  not found in master Place Name list.
 
-Malay Federation (Malaysia) geocode not found
+Duse Mohamed Ali (11): Place ID  not found in master Place Name list.
 
----------------------------------------------------
+Duse Mohamed Ali (12): Place ID  not found in master Place Name list.
 
+Duse Mohamed Ali (13): Place ID  not found in master Place Name list.
 
-Run time: 2018-06-12 15:53:37
+Duse Mohamed Ali (14): Place ID  not found in master Place Name list.
 
-Malay Federation (Malaysia) geocode not found
+Duse Mohamed Ali (15): Place ID  not found in master Place Name list.
 
----------------------------------------------------
+Duse Mohamed Ali (16): Place ID  not found in master Place Name list.
 
+Duse Mohamed Ali (17): Place ID  not found in master Place Name list.
 
-Run time: 2018-06-12 16:19:31
+Duse Mohamed Ali (18): Place ID  not found in master Place Name list.
 
-Malay Federation (Malaysia) geocode not found
+Duse Mohamed Ali (19): Place ID  not found in master Place Name list.
 
----------------------------------------------------
+Duse Mohamed Ali (20): Place ID  not found in master Place Name list.
 
+Duse Mohamed Ali (21): Place ID  not found in master Place Name list.
 
-Run time: 2018-06-12 17:04:03
+Duse Mohamed Ali (22): Place ID  not found in master Place Name list.
 
-Malay Federation (Malaysia) geocode not found
+Aimé Césaire (8): Arrival Date 1936-07??? is not a valid date entry
 
----------------------------------------------------
+Aimé Césaire (83): Place ID addis_abeba_ethiopia not found in master Place Name list.
 
+Aimé Césaire (132): Place ID  not found in master Place Name list.
 
-Run time: 2018-06-12 17:17:01
+Aimé Césaire (145): Place ID  not found in master Place Name list.
 
-Malay Federation (Malaysia) geocode not found
-Malay Federation (Malaysia) geocode not found
-Run time: 2018-06-12 17:20:29
-
-Malay Federation (Malaysia) geocode not found
-Run time: 2018-06-12 17:21:43
-
-Malay Federation (Malaysia) geocode not found
-Place ID error: georgetown__guyana not found in master Place Name list (Kamau Brathwaite: 14)
-
-Place ID error: new_haven_usa not found in master Place Name list (Kamau Brathwaite: 24)
-
-Place ID error: basseterre_st._kitts_and_nevis not found in master Place Name list (Kamau Brathwaite: 33)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 0)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 1)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 2)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 3)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 4)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 5)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 6)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 7)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 8)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 9)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 10)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 11)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 12)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 13)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 14)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 15)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 16)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 17)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 18)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 19)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 20)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 21)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 22)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 23)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 24)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 25)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 26)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 27)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 28)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 29)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 30)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 31)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 32)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 33)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 34)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 35)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 36)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 37)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 38)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 39)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 40)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 41)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 42)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 43)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 44)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 45)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 46)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 47)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 48)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 49)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 50)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 51)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 52)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 53)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 54)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 55)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 56)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 57)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 58)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 59)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 60)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 61)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 62)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 63)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 64)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 65)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 66)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 67)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 68)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 69)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 70)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 71)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 72)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 73)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 74)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 75)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 76)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 77)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 78)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 79)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 80)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 81)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 82)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 83)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 84)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 85)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 86)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 87)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 88)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 89)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 90)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 91)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 92)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 93)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 94)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 95)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 96)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 97)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 98)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 99)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 100)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 101)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 102)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 103)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 104)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 105)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 106)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 107)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 108)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 109)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 110)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 111)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 112)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 113)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 114)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 115)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 116)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 117)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 118)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 119)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 120)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 121)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 122)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 123)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 124)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 125)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 126)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 127)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 128)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 129)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 130)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 131)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 132)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 133)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 134)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 135)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 136)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 137)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 138)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 139)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 140)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 141)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 142)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 143)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 144)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 145)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 146)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 147)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 148)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 149)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 150)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 151)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 152)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 153)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 154)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 155)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 156)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 157)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 158)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 159)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 160)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 161)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 162)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 163)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 164)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 165)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 166)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 167)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 168)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 169)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 170)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 171)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 172)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 173)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 174)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 175)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 176)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 177)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 178)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 179)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 180)
-
-
----------------------------------------------------
-
-
-Run time: 2018-06-12 17:23:38
-
-Malay Federation (Malaysia) geocode not found
-Place ID error: georgetown__guyana not found in master Place Name list (Kamau Brathwaite: 17)
-
-Place ID error: new_haven_usa not found in master Place Name list (Kamau Brathwaite: 27)
-
-Place ID error: basseterre_st._kitts_and_nevis not found in master Place Name list (Kamau Brathwaite: 36)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 3)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 4)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 5)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 6)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 7)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 8)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 9)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 10)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 11)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 12)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 13)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 14)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 15)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 16)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 17)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 18)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 19)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 20)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 21)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 22)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 23)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 24)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 25)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 26)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 27)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 28)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 29)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 30)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 31)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 32)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 33)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 34)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 35)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 36)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 37)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 38)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 39)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 40)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 41)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 42)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 43)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 44)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 45)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 46)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 47)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 48)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 49)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 50)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 51)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 52)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 53)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 54)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 55)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 56)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 57)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 58)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 59)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 60)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 61)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 62)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 63)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 64)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 65)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 66)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 67)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 68)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 69)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 70)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 71)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 72)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 73)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 74)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 75)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 76)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 77)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 78)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 79)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 80)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 81)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 82)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 83)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 84)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 85)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 86)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 87)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 88)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 89)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 90)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 91)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 92)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 93)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 94)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 95)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 96)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 97)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 98)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 99)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 100)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 101)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 102)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 103)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 104)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 105)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 106)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 107)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 108)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 109)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 110)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 111)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 112)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 113)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 114)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 115)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 116)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 117)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 118)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 119)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 120)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 121)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 122)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 123)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 124)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 125)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 126)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 127)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 128)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 129)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 130)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 131)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 132)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 133)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 134)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 135)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 136)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 137)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 138)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 139)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 140)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 141)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 142)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 143)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 144)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 145)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 146)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 147)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 148)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 149)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 150)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 151)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 152)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 153)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 154)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 155)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 156)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 157)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 158)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 159)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 160)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 161)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 162)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 163)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 164)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 165)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 166)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 167)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 168)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 169)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 170)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 171)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 172)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 173)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 174)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 175)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 176)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 177)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 178)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 179)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 180)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 181)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 182)
-
-Place ID error:  not found in master Place Name list (Katherine Dunham: 183)
-
-
----------------------------------------------------
-
-
-Run time: 2018-06-12 17:34:13
-
-Malay Federation (Malaysia) geocode not found
-Place ID error: paris not found in master Place Name list (Katherine Dunham: 177)
-
-
----------------------------------------------------
-
-
-Run time: 2018-06-12 17:37:38
-
-Malay Federation (Malaysia) geocode not found
-Place ID error: paris not found in master Place Name list (Katherine Dunham: 177)
-
-
----------------------------------------------------
-
-
-Run time: 2018-06-12 17:42:17
-
-Malay Federation (Malaysia) geocode not found
-Place ID error: paris not found in master Place Name list (Katherine Dunham: 210)
-
-
----------------------------------------------------
-
-
-Run time: 2018-06-12 18:03:43
-
-Malay Federation (Malaysia) geocode not found
-Katherine Dunham (111): 1951-04- is not a valid date entry
-
-Katherine Dunham (122): 1952-02-7 is not a valid date entry
-
-Katherine Dunham (134): 1952-12-3 is not a valid date entry
+Kamau Brathwaite (23): Place ID worchester_massachusettes_usa not found in master Place Name list.
 
 Katherine Dunham (174): This entry has no key dates listed and has been skipped.
 
@@ -901,169 +122,567 @@ Katherine Dunham (207): This entry has no key dates listed and has been skipped.
 
 Katherine Dunham (208): This entry has no key dates listed and has been skipped.
 
-Katherine Dunham (210): Place ID paris not found in master Place Name list.
+George Lamming (3): Place ID  not found in master Place Name list.
 
+George Lamming (4): Place ID  not found in master Place Name list.
 
----------------------------------------------------
+George Lamming (5): Place ID  not found in master Place Name list.
 
+George Lamming (5): Departure Date 1970s is not a valid date entry
 
-Run time: 2018-06-12 18:06:57
+George Lamming (6): Place ID  not found in master Place Name list.
 
-Malay Federation (Malaysia) geocode not found
-Katherine Dunham (111): Arrival Date 1951-04- is not a valid date entry
+George Lamming (7): Place ID  not found in master Place Name list.
 
-Katherine Dunham (122): Arrival Date 1952-02-7 is not a valid date entry
+George Lamming (8): Place ID  not found in master Place Name list.
 
-Katherine Dunham (134): Arrival Date 1952-12-3 is not a valid date entry
+George Lamming (9): Place ID  not found in master Place Name list.
 
-Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+George Lamming (10): Place ID  not found in master Place Name list.
 
-Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+George Lamming (11): Place ID  not found in master Place Name list.
 
-Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+George Lamming (12): Place ID  not found in master Place Name list.
 
-Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+George Lamming (13): Place ID  not found in master Place Name list.
 
-Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+George Lamming (14): Place ID  not found in master Place Name list.
 
-Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+George Lamming (15): Place ID  not found in master Place Name list.
 
-Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+George Lamming (16): Place ID  not found in master Place Name list.
 
-Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+George Lamming (17): Place ID  not found in master Place Name list.
 
-Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+George Lamming (18): Place ID  not found in master Place Name list.
 
-Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+George Lamming (19): Place ID  not found in master Place Name list.
 
-Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+George Lamming (20): Place ID  not found in master Place Name list.
 
-Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+George Lamming (21): Place ID  not found in master Place Name list.
 
-Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+George Lamming (22): Place ID  not found in master Place Name list.
 
-Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+George Lamming (23): Place ID  not found in master Place Name list.
 
-Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+George Lamming (24): Place ID  not found in master Place Name list.
 
-Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+George Lamming (25): Place ID  not found in master Place Name list.
 
-Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+George Lamming (26): Place ID  not found in master Place Name list.
 
-Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+George Lamming (27): Place ID  not found in master Place Name list.
 
-Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+George Lamming (28): Place ID  not found in master Place Name list.
 
-Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+George Lamming (29): Place ID  not found in master Place Name list.
 
-Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+George Lamming (30): Place ID  not found in master Place Name list.
 
-Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+George Lamming (31): Place ID  not found in master Place Name list.
 
-Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+George Lamming (32): Place ID  not found in master Place Name list.
 
-Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+George Lamming (33): Place ID  not found in master Place Name list.
 
-Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+George Lamming (34): Place ID  not found in master Place Name list.
 
-Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+George Lamming (35): Place ID  not found in master Place Name list.
 
-Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+George Lamming (36): Place ID  not found in master Place Name list.
 
-Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+George Lamming (37): Place ID  not found in master Place Name list.
 
-Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+George Lamming (38): Place ID  not found in master Place Name list.
 
-Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+George Lamming (39): Place ID  not found in master Place Name list.
 
-Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+George Lamming (40): Place ID  not found in master Place Name list.
 
-Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+George Lamming (41): Place ID  not found in master Place Name list.
 
-Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+George Lamming (42): Place ID  not found in master Place Name list.
 
-Katherine Dunham (210): Place ID paris not found in master Place Name list.
+George Lamming (43): Place ID  not found in master Place Name list.
 
+George Lamming (44): Place ID  not found in master Place Name list.
 
----------------------------------------------------
+George Lamming (45): Place ID  not found in master Place Name list.
 
+George Lamming (46): Place ID  not found in master Place Name list.
 
-Run time: 2018-06-12 18:11:49
+George Lamming (47): Place ID  not found in master Place Name list.
 
-Malay Federation (Malaysia) geocode not found
-Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+George Lamming (48): Place ID  not found in master Place Name list.
 
-Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+George Lamming (49): Place ID  not found in master Place Name list.
 
-Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+George Lamming (50): Place ID  not found in master Place Name list.
 
-Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+George Lamming (51): Place ID  not found in master Place Name list.
 
-Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+George Lamming (52): Place ID  not found in master Place Name list.
 
-Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+George Lamming (53): Place ID  not found in master Place Name list.
 
-Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+George Lamming (54): Place ID  not found in master Place Name list.
 
-Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+George Lamming (55): This entry has no key dates listed and has been skipped.
 
-Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+George Lamming (56): Place ID  not found in master Place Name list.
 
-Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+George Lamming (57): Place ID  not found in master Place Name list.
 
-Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+George Lamming (58): Place ID  not found in master Place Name list.
 
-Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+George Lamming (59): Place ID  not found in master Place Name list.
 
-Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+George Lamming (60): Place ID  not found in master Place Name list.
 
-Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+George Lamming (61): Place ID  not found in master Place Name list.
 
-Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+George Lamming (62): Place ID  not found in master Place Name list.
 
-Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+George Lamming (63): Place ID  not found in master Place Name list.
 
-Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+George Lamming (64): Place ID  not found in master Place Name list.
 
-Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+George Lamming (65): Place ID  not found in master Place Name list.
 
-Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+George Lamming (66): Place ID  not found in master Place Name list.
 
-Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+George Lamming (67): Place ID  not found in master Place Name list.
 
-Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+George Lamming (68): Place ID  not found in master Place Name list.
 
-Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+George Lamming (69): Place ID  not found in master Place Name list.
 
-Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+George Lamming (70): Place ID  not found in master Place Name list.
 
-Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+George Lamming (71): Place ID  not found in master Place Name list.
 
-Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+George Lamming (72): Place ID  not found in master Place Name list.
 
-Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+George Lamming (73): Place ID  not found in master Place Name list.
 
-Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+George Lamming (74): Place ID  not found in master Place Name list.
 
-Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+George Lamming (75): Place ID  not found in master Place Name list.
 
-Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+George Lamming (76): Place ID  not found in master Place Name list.
 
-Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+George Lamming (77): Place ID  not found in master Place Name list.
 
-Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+George Lamming (78): Place ID  not found in master Place Name list.
 
-Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+George Lamming (79): Place ID  not found in master Place Name list.
 
-Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+George Lamming (80): Place ID  not found in master Place Name list.
 
+George Lamming (81): Place ID  not found in master Place Name list.
 
----------------------------------------------------
+George Lamming (82): Place ID  not found in master Place Name list.
 
+George Lamming (83): Place ID  not found in master Place Name list.
 
-Run time: 2018-09-20 01:15:25
+George Lamming (84): Place ID  not found in master Place Name list.
 
-Run time: 2018-09-20 01:44:32
+George Lamming (85): Place ID  not found in master Place Name list.
+
+George Lamming (86): Place ID  not found in master Place Name list.
+
+George Lamming (87): Place ID  not found in master Place Name list.
+
+George Lamming (88): Place ID  not found in master Place Name list.
+
+George Lamming (89): Place ID  not found in master Place Name list.
+
+George Lamming (90): Place ID  not found in master Place Name list.
+
+George Lamming (91): Place ID  not found in master Place Name list.
+
+George Lamming (92): Place ID  not found in master Place Name list.
+
+George Lamming (93): Place ID  not found in master Place Name list.
+
+George Lamming (94): Place ID  not found in master Place Name list.
+
+George Lamming (95): Place ID  not found in master Place Name list.
+
+George Lamming (96): Place ID  not found in master Place Name list.
+
+George Lamming (97): Place ID  not found in master Place Name list.
+
+George Lamming (98): Place ID  not found in master Place Name list.
+
+George Lamming (99): Place ID  not found in master Place Name list.
+
+George Lamming (100): Place ID  not found in master Place Name list.
+
+George Lamming (101): Place ID  not found in master Place Name list.
+
+George Lamming (102): Place ID  not found in master Place Name list.
+
+George Lamming (103): Place ID  not found in master Place Name list.
+
+George Lamming (104): Place ID  not found in master Place Name list.
+
+George Lamming (105): Place ID  not found in master Place Name list.
+
+George Lamming (106): Place ID  not found in master Place Name list.
+
+George Lamming (107): Place ID  not found in master Place Name list.
+
+George Lamming (108): Place ID  not found in master Place Name list.
+
+George Lamming (109): Place ID  not found in master Place Name list.
+
+George Lamming (110): Place ID  not found in master Place Name list.
+
+George Lamming (111): Place ID  not found in master Place Name list.
+
+George Lamming (112): Place ID  not found in master Place Name list.
+
+George Lamming (113): Place ID  not found in master Place Name list.
+
+George Lamming (114): Place ID  not found in master Place Name list.
+
+George Lamming (115): Place ID  not found in master Place Name list.
+
+George Lamming (116): Place ID  not found in master Place Name list.
+
+George Lamming (117): Place ID  not found in master Place Name list.
+
+George Lamming (118): Place ID  not found in master Place Name list.
+
+George Lamming (119): Place ID  not found in master Place Name list.
+
+George Lamming (120): Place ID  not found in master Place Name list.
+
+George Lamming (121): Place ID  not found in master Place Name list.
+
+George Lamming (122): Place ID  not found in master Place Name list.
+
+George Lamming (123): Place ID  not found in master Place Name list.
+
+George Lamming (124): Place ID  not found in master Place Name list.
+
+George Lamming (125): Place ID  not found in master Place Name list.
+
+George Lamming (126): Place ID  not found in master Place Name list.
+
+George Lamming (127): Place ID  not found in master Place Name list.
+
+George Lamming (128): Place ID  not found in master Place Name list.
+
+George Lamming (129): Place ID  not found in master Place Name list.
+
+George Lamming (130): Place ID  not found in master Place Name list.
+
+George Lamming (131): Place ID  not found in master Place Name list.
+
+George Lamming (132): Place ID  not found in master Place Name list.
+
+George Lamming (133): Place ID  not found in master Place Name list.
+
+George Lamming (134): Place ID  not found in master Place Name list.
+
+George Lamming (135): Place ID  not found in master Place Name list.
+
+George Lamming (136): Place ID  not found in master Place Name list.
+
+George Lamming (137): Place ID  not found in master Place Name list.
+
+George Lamming (138): Place ID  not found in master Place Name list.
+
+George Lamming (139): Place ID  not found in master Place Name list.
+
+George Lamming (140): Place ID  not found in master Place Name list.
+
+George Lamming (141): Place ID  not found in master Place Name list.
+
+George Lamming (142): Place ID  not found in master Place Name list.
+
+George Lamming (143): Place ID  not found in master Place Name list.
+
+George Lamming (144): Place ID  not found in master Place Name list.
+
+George Lamming (145): Place ID  not found in master Place Name list.
+
+George Lamming (146): Place ID  not found in master Place Name list.
+
+George Lamming (147): Place ID  not found in master Place Name list.
+
+George Lamming (148): Place ID  not found in master Place Name list.
+
+George Lamming (149): Place ID  not found in master Place Name list.
+
+George Lamming (150): Place ID  not found in master Place Name list.
+
+George Lamming (151): Place ID  not found in master Place Name list.
+
+George Lamming (152): Place ID  not found in master Place Name list.
+
+George Lamming (153): Place ID  not found in master Place Name list.
+
+George Lamming (154): Place ID  not found in master Place Name list.
+
+George Lamming (155): Place ID  not found in master Place Name list.
+
+George Lamming (156): Place ID  not found in master Place Name list.
+
+George Lamming (157): Place ID  not found in master Place Name list.
+
+George Lamming (158): Place ID  not found in master Place Name list.
+
+George Lamming (159): Place ID  not found in master Place Name list.
+
+George Lamming (160): Place ID  not found in master Place Name list.
+
+George Lamming (161): Place ID  not found in master Place Name list.
+
+George Lamming (162): Place ID  not found in master Place Name list.
+
+George Lamming (163): Place ID  not found in master Place Name list.
+
+George Lamming (164): Place ID  not found in master Place Name list.
+
+George Lamming (165): Place ID  not found in master Place Name list.
+
+George Lamming (166): Place ID  not found in master Place Name list.
+
+George Lamming (167): Place ID  not found in master Place Name list.
+
+George Lamming (168): Place ID  not found in master Place Name list.
+
+George Lamming (169): Place ID  not found in master Place Name list.
+
+George Lamming (170): Place ID  not found in master Place Name list.
+
+George Lamming (171): Place ID  not found in master Place Name list.
+
+George Lamming (172): Place ID  not found in master Place Name list.
+
+George Lamming (173): Place ID  not found in master Place Name list.
+
+George Lamming (174): Place ID  not found in master Place Name list.
+
+George Lamming (175): Place ID  not found in master Place Name list.
+
+George Lamming (176): Place ID  not found in master Place Name list.
+
+George Lamming (177): Place ID  not found in master Place Name list.
+
+George Lamming (178): Place ID  not found in master Place Name list.
+
+George Lamming (179): Place ID  not found in master Place Name list.
+
+George Lamming (180): Place ID  not found in master Place Name list.
+
+George Lamming (181): Place ID  not found in master Place Name list.
+
+George Lamming (182): Place ID  not found in master Place Name list.
+
+George Lamming (183): Place ID  not found in master Place Name list.
+
+George Lamming (184): Place ID  not found in master Place Name list.
+
+George Lamming (185): Place ID  not found in master Place Name list.
+
+George Lamming (186): Place ID  not found in master Place Name list.
+
+George Lamming (187): Place ID  not found in master Place Name list.
+
+George Lamming (188): Place ID  not found in master Place Name list.
+
+George Lamming (189): Place ID  not found in master Place Name list.
+
+George Lamming (190): Place ID  not found in master Place Name list.
+
+George Lamming (191): Place ID  not found in master Place Name list.
+
+George Lamming (192): Place ID  not found in master Place Name list.
+
+George Lamming (193): Place ID  not found in master Place Name list.
+
+George Lamming (194): Place ID  not found in master Place Name list.
+
+George Lamming (195): Place ID  not found in master Place Name list.
+
+George Lamming (196): Place ID  not found in master Place Name list.
+
+George Lamming (197): Place ID  not found in master Place Name list.
+
+George Lamming (198): Place ID  not found in master Place Name list.
+
+George Lamming (199): Place ID  not found in master Place Name list.
+
+George Lamming (200): Place ID  not found in master Place Name list.
+
+George Lamming (201): Place ID  not found in master Place Name list.
+
+George Lamming (202): Place ID  not found in master Place Name list.
+
+George Lamming (203): Place ID  not found in master Place Name list.
+
+George Lamming (204): Place ID  not found in master Place Name list.
+
+George Lamming (205): Place ID  not found in master Place Name list.
+
+George Lamming (206): Place ID  not found in master Place Name list.
+
+George Lamming (207): Place ID  not found in master Place Name list.
+
+George Lamming (208): Place ID  not found in master Place Name list.
+
+George Lamming (209): Place ID  not found in master Place Name list.
+
+George Lamming (210): Place ID  not found in master Place Name list.
+
+George Lamming (211): Place ID  not found in master Place Name list.
+
+George Lamming (212): Place ID  not found in master Place Name list.
+
+George Lamming (213): Place ID  not found in master Place Name list.
+
+George Lamming (214): Place ID  not found in master Place Name list.
+
+George Lamming (215): Place ID  not found in master Place Name list.
+
+George Lamming (216): Place ID  not found in master Place Name list.
+
+George Lamming (217): Place ID  not found in master Place Name list.
+
+George Lamming (218): Place ID  not found in master Place Name list.
+
+George Lamming (219): Place ID  not found in master Place Name list.
+
+René Depestre (3): Place ID  not found in master Place Name list.
+
+René Depestre (4): Place ID  not found in master Place Name list.
+
+René Depestre (4): Departure Date 01/1946 is not a valid date entry
+
+René Depestre (5): Place ID  not found in master Place Name list.
+
+René Depestre (5): Earliest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (5): Latest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (6): Place ID  not found in master Place Name list.
+
+René Depestre (6): Earliest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (6): Latest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (7): Place ID  not found in master Place Name list.
+
+René Depestre (8): Place ID  not found in master Place Name list.
+
+René Depestre (9): Place ID  not found in master Place Name list.
+
+René Depestre (10): Place ID  not found in master Place Name list.
+
+René Depestre (11): Place ID  not found in master Place Name list.
+
+René Depestre (12): Place ID  not found in master Place Name list.
+
+René Depestre (13): Place ID  not found in master Place Name list.
+
+René Depestre (14): Place ID  not found in master Place Name list.
+
+René Depestre (15): Place ID  not found in master Place Name list.
+
+René Depestre (16): Place ID  not found in master Place Name list.
+
+René Depestre (17): Place ID  not found in master Place Name list.
+
+René Depestre (18): Place ID  not found in master Place Name list.
+
+René Depestre (19): Place ID  not found in master Place Name list.
+
+René Depestre (20): Place ID  not found in master Place Name list.
+
+René Depestre (21): Place ID  not found in master Place Name list.
+
+René Depestre (22): Place ID  not found in master Place Name list.
+
+René Depestre (23): Place ID  not found in master Place Name list.
+
+René Depestre (24): Place ID  not found in master Place Name list.
+
+René Depestre (25): Place ID  not found in master Place Name list.
+
+René Depestre (26): Place ID  not found in master Place Name list.
+
+René Depestre (27): Place ID  not found in master Place Name list.
+
+René Depestre (28): Place ID  not found in master Place Name list.
+
+René Depestre (29): Place ID  not found in master Place Name list.
+
+René Depestre (30): Place ID  not found in master Place Name list.
+
+René Depestre (31): Place ID  not found in master Place Name list.
+
+René Depestre (32): Place ID  not found in master Place Name list.
+
+René Depestre (33): Place ID  not found in master Place Name list.
+
+René Depestre (34): Place ID  not found in master Place Name list.
+
+René Depestre (35): Place ID  not found in master Place Name list.
+
+René Depestre (36): Place ID  not found in master Place Name list.
+
+René Depestre (37): Place ID  not found in master Place Name list.
+
+René Depestre (38): Place ID  not found in master Place Name list.
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (40): Place ID  not found in master Place Name list.
+
+René Depestre (41): Place ID  not found in master Place Name list.
+
+René Depestre (42): Place ID  not found in master Place Name list.
+
+René Depestre (43): Place ID  not found in master Place Name list.
+
+René Depestre (44): Place ID  not found in master Place Name list.
+
+René Depestre (45): Place ID  not found in master Place Name list.
+
+René Depestre (46): Place ID  not found in master Place Name list.
+
+René Depestre (47): Place ID  not found in master Place Name list.
+
+René Depestre (48): Place ID  not found in master Place Name list.
+
+René Depestre (49): Place ID  not found in master Place Name list.
+
+René Depestre (50): Place ID  not found in master Place Name list.
+
+René Depestre (51): Place ID  not found in master Place Name list.
+
+René Depestre (52): Place ID  not found in master Place Name list.
+
+René Depestre (53): Place ID  not found in master Place Name list.
+
+René Depestre (54): Place ID  not found in master Place Name list.
+
+René Depestre (55): Place ID  not found in master Place Name list.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
+
+René Depestre (57): Place ID  not found in master Place Name list.
+
+René Depestre (58): Place ID  not found in master Place Name list.
+
+René Depestre (59): Place ID  not found in master Place Name list.
+
+Claude McKay (3): Place ID  not found in master Place Name list.
 
 Claude McKay (4): Place ID  not found in master Place Name list.
 
@@ -1117,6 +736,24 @@ Claude McKay (26): Place ID  not found in master Place Name list.
 
 Claude McKay (27): Place ID  not found in master Place Name list.
 
+Run time: 2019-01-21 16:33:35
+
+Port of Bonny, Rivers State, Nigeria geocode not found
+Boma, Kongo Central, Democratic Republic of Congo geocode not found
+Matadi, Kongo Central, Democratic Republic of Congo geocode not found
+Belmont, Trinidad geocode not found
+Saint Augustine, Trinidad geocode not found
+Easy Lansing, Michigan, USA geocode not found
+Aimé Césaire (8): Arrival Date 1936-07??? is not a valid date entry
+
+Aimé Césaire (83): Place ID addis_abeba_ethiopia not found in master Place Name list.
+
+Aimé Césaire (132): Place ID  not found in master Place Name list.
+
+Aimé Césaire (145): Place ID  not found in master Place Name list.
+
+Kamau Brathwaite (23): Place ID worchester_massachusettes_usa not found in master Place Name list.
+
 Katherine Dunham (174): This entry has no key dates listed and has been skipped.
 
 Katherine Dunham (175): This entry has no key dates listed and has been skipped.
@@ -1183,289 +820,1262 @@ Katherine Dunham (207): This entry has no key dates listed and has been skipped.
 
 Katherine Dunham (208): This entry has no key dates listed and has been skipped.
 
-Run time: 2018-09-20 01:52:56
+George Lamming (3): Place ID  not found in master Place Name list.
+
+George Lamming (4): Place ID  not found in master Place Name list.
+
+George Lamming (5): Place ID  not found in master Place Name list.
+
+George Lamming (5): Departure Date 1970s is not a valid date entry
+
+George Lamming (6): Place ID  not found in master Place Name list.
+
+George Lamming (7): Place ID  not found in master Place Name list.
+
+George Lamming (8): Place ID  not found in master Place Name list.
+
+George Lamming (9): Place ID  not found in master Place Name list.
+
+George Lamming (10): Place ID  not found in master Place Name list.
+
+George Lamming (11): Place ID  not found in master Place Name list.
+
+George Lamming (12): Place ID  not found in master Place Name list.
+
+George Lamming (13): Place ID  not found in master Place Name list.
+
+George Lamming (14): Place ID  not found in master Place Name list.
+
+George Lamming (15): Place ID  not found in master Place Name list.
+
+George Lamming (16): Place ID  not found in master Place Name list.
+
+George Lamming (17): Place ID  not found in master Place Name list.
+
+George Lamming (18): Place ID  not found in master Place Name list.
+
+George Lamming (19): Place ID  not found in master Place Name list.
+
+George Lamming (20): Place ID  not found in master Place Name list.
+
+George Lamming (21): Place ID  not found in master Place Name list.
+
+George Lamming (22): Place ID  not found in master Place Name list.
+
+George Lamming (23): Place ID  not found in master Place Name list.
+
+George Lamming (24): Place ID  not found in master Place Name list.
+
+George Lamming (25): Place ID  not found in master Place Name list.
+
+George Lamming (26): Place ID  not found in master Place Name list.
+
+George Lamming (27): Place ID  not found in master Place Name list.
+
+George Lamming (28): Place ID  not found in master Place Name list.
+
+George Lamming (29): Place ID  not found in master Place Name list.
+
+George Lamming (30): Place ID  not found in master Place Name list.
+
+George Lamming (31): Place ID  not found in master Place Name list.
+
+George Lamming (32): Place ID  not found in master Place Name list.
+
+George Lamming (33): Place ID  not found in master Place Name list.
+
+George Lamming (34): Place ID  not found in master Place Name list.
+
+George Lamming (35): Place ID  not found in master Place Name list.
+
+George Lamming (36): Place ID  not found in master Place Name list.
+
+George Lamming (37): Place ID  not found in master Place Name list.
+
+George Lamming (38): Place ID  not found in master Place Name list.
+
+George Lamming (39): Place ID  not found in master Place Name list.
+
+George Lamming (40): Place ID  not found in master Place Name list.
+
+George Lamming (41): Place ID  not found in master Place Name list.
+
+George Lamming (42): Place ID  not found in master Place Name list.
+
+George Lamming (43): Place ID  not found in master Place Name list.
+
+George Lamming (44): Place ID  not found in master Place Name list.
+
+George Lamming (45): Place ID  not found in master Place Name list.
+
+George Lamming (46): Place ID  not found in master Place Name list.
+
+George Lamming (47): Place ID  not found in master Place Name list.
+
+George Lamming (48): Place ID  not found in master Place Name list.
+
+George Lamming (49): Place ID  not found in master Place Name list.
+
+George Lamming (50): Place ID  not found in master Place Name list.
+
+George Lamming (51): Place ID  not found in master Place Name list.
+
+George Lamming (52): Place ID  not found in master Place Name list.
+
+George Lamming (53): Place ID  not found in master Place Name list.
+
+George Lamming (54): Place ID  not found in master Place Name list.
+
+George Lamming (55): This entry has no key dates listed and has been skipped.
+
+George Lamming (56): Place ID  not found in master Place Name list.
+
+George Lamming (57): Place ID  not found in master Place Name list.
+
+George Lamming (58): Place ID  not found in master Place Name list.
+
+George Lamming (59): Place ID  not found in master Place Name list.
+
+George Lamming (60): Place ID  not found in master Place Name list.
+
+George Lamming (61): Place ID  not found in master Place Name list.
+
+George Lamming (62): Place ID  not found in master Place Name list.
+
+George Lamming (63): Place ID  not found in master Place Name list.
+
+George Lamming (64): Place ID  not found in master Place Name list.
+
+George Lamming (65): Place ID  not found in master Place Name list.
+
+George Lamming (66): Place ID  not found in master Place Name list.
+
+George Lamming (67): Place ID  not found in master Place Name list.
+
+George Lamming (68): Place ID  not found in master Place Name list.
+
+George Lamming (69): Place ID  not found in master Place Name list.
+
+George Lamming (70): Place ID  not found in master Place Name list.
+
+George Lamming (71): Place ID  not found in master Place Name list.
+
+George Lamming (72): Place ID  not found in master Place Name list.
+
+George Lamming (73): Place ID  not found in master Place Name list.
+
+George Lamming (74): Place ID  not found in master Place Name list.
+
+George Lamming (75): Place ID  not found in master Place Name list.
+
+George Lamming (76): Place ID  not found in master Place Name list.
+
+George Lamming (77): Place ID  not found in master Place Name list.
+
+George Lamming (78): Place ID  not found in master Place Name list.
+
+George Lamming (79): Place ID  not found in master Place Name list.
+
+George Lamming (80): Place ID  not found in master Place Name list.
+
+George Lamming (81): Place ID  not found in master Place Name list.
+
+George Lamming (82): Place ID  not found in master Place Name list.
+
+George Lamming (83): Place ID  not found in master Place Name list.
+
+George Lamming (84): Place ID  not found in master Place Name list.
+
+George Lamming (85): Place ID  not found in master Place Name list.
+
+George Lamming (86): Place ID  not found in master Place Name list.
+
+George Lamming (87): Place ID  not found in master Place Name list.
+
+George Lamming (88): Place ID  not found in master Place Name list.
+
+George Lamming (89): Place ID  not found in master Place Name list.
+
+George Lamming (90): Place ID  not found in master Place Name list.
+
+George Lamming (91): Place ID  not found in master Place Name list.
+
+George Lamming (92): Place ID  not found in master Place Name list.
+
+George Lamming (93): Place ID  not found in master Place Name list.
+
+George Lamming (94): Place ID  not found in master Place Name list.
+
+George Lamming (95): Place ID  not found in master Place Name list.
+
+George Lamming (96): Place ID  not found in master Place Name list.
+
+George Lamming (97): Place ID  not found in master Place Name list.
+
+George Lamming (98): Place ID  not found in master Place Name list.
+
+George Lamming (99): Place ID  not found in master Place Name list.
+
+George Lamming (100): Place ID  not found in master Place Name list.
+
+George Lamming (101): Place ID  not found in master Place Name list.
+
+George Lamming (102): Place ID  not found in master Place Name list.
+
+George Lamming (103): Place ID  not found in master Place Name list.
+
+George Lamming (104): Place ID  not found in master Place Name list.
+
+George Lamming (105): Place ID  not found in master Place Name list.
+
+George Lamming (106): Place ID  not found in master Place Name list.
+
+George Lamming (107): Place ID  not found in master Place Name list.
+
+George Lamming (108): Place ID  not found in master Place Name list.
+
+George Lamming (109): Place ID  not found in master Place Name list.
+
+George Lamming (110): Place ID  not found in master Place Name list.
+
+George Lamming (111): Place ID  not found in master Place Name list.
+
+George Lamming (112): Place ID  not found in master Place Name list.
+
+George Lamming (113): Place ID  not found in master Place Name list.
+
+George Lamming (114): Place ID  not found in master Place Name list.
+
+George Lamming (115): Place ID  not found in master Place Name list.
+
+George Lamming (116): Place ID  not found in master Place Name list.
+
+George Lamming (117): Place ID  not found in master Place Name list.
+
+George Lamming (118): Place ID  not found in master Place Name list.
+
+George Lamming (119): Place ID  not found in master Place Name list.
+
+George Lamming (120): Place ID  not found in master Place Name list.
+
+George Lamming (121): Place ID  not found in master Place Name list.
+
+George Lamming (122): Place ID  not found in master Place Name list.
+
+George Lamming (123): Place ID  not found in master Place Name list.
+
+George Lamming (124): Place ID  not found in master Place Name list.
+
+George Lamming (125): Place ID  not found in master Place Name list.
+
+George Lamming (126): Place ID  not found in master Place Name list.
+
+George Lamming (127): Place ID  not found in master Place Name list.
+
+George Lamming (128): Place ID  not found in master Place Name list.
+
+George Lamming (129): Place ID  not found in master Place Name list.
+
+George Lamming (130): Place ID  not found in master Place Name list.
+
+George Lamming (131): Place ID  not found in master Place Name list.
+
+George Lamming (132): Place ID  not found in master Place Name list.
+
+George Lamming (133): Place ID  not found in master Place Name list.
+
+George Lamming (134): Place ID  not found in master Place Name list.
+
+George Lamming (135): Place ID  not found in master Place Name list.
+
+George Lamming (136): Place ID  not found in master Place Name list.
+
+George Lamming (137): Place ID  not found in master Place Name list.
+
+George Lamming (138): Place ID  not found in master Place Name list.
+
+George Lamming (139): Place ID  not found in master Place Name list.
+
+George Lamming (140): Place ID  not found in master Place Name list.
+
+George Lamming (141): Place ID  not found in master Place Name list.
+
+George Lamming (142): Place ID  not found in master Place Name list.
+
+George Lamming (143): Place ID  not found in master Place Name list.
+
+George Lamming (144): Place ID  not found in master Place Name list.
+
+George Lamming (145): Place ID  not found in master Place Name list.
+
+George Lamming (146): Place ID  not found in master Place Name list.
+
+George Lamming (147): Place ID  not found in master Place Name list.
+
+George Lamming (148): Place ID  not found in master Place Name list.
+
+George Lamming (149): Place ID  not found in master Place Name list.
+
+George Lamming (150): Place ID  not found in master Place Name list.
+
+George Lamming (151): Place ID  not found in master Place Name list.
+
+George Lamming (152): Place ID  not found in master Place Name list.
+
+George Lamming (153): Place ID  not found in master Place Name list.
+
+George Lamming (154): Place ID  not found in master Place Name list.
+
+George Lamming (155): Place ID  not found in master Place Name list.
+
+George Lamming (156): Place ID  not found in master Place Name list.
+
+George Lamming (157): Place ID  not found in master Place Name list.
+
+George Lamming (158): Place ID  not found in master Place Name list.
+
+George Lamming (159): Place ID  not found in master Place Name list.
+
+George Lamming (160): Place ID  not found in master Place Name list.
+
+George Lamming (161): Place ID  not found in master Place Name list.
+
+George Lamming (162): Place ID  not found in master Place Name list.
+
+George Lamming (163): Place ID  not found in master Place Name list.
+
+George Lamming (164): Place ID  not found in master Place Name list.
+
+George Lamming (165): Place ID  not found in master Place Name list.
+
+George Lamming (166): Place ID  not found in master Place Name list.
+
+George Lamming (167): Place ID  not found in master Place Name list.
+
+George Lamming (168): Place ID  not found in master Place Name list.
+
+George Lamming (169): Place ID  not found in master Place Name list.
+
+George Lamming (170): Place ID  not found in master Place Name list.
+
+George Lamming (171): Place ID  not found in master Place Name list.
+
+George Lamming (172): Place ID  not found in master Place Name list.
+
+George Lamming (173): Place ID  not found in master Place Name list.
+
+George Lamming (174): Place ID  not found in master Place Name list.
+
+George Lamming (175): Place ID  not found in master Place Name list.
+
+George Lamming (176): Place ID  not found in master Place Name list.
+
+George Lamming (177): Place ID  not found in master Place Name list.
+
+George Lamming (178): Place ID  not found in master Place Name list.
+
+George Lamming (179): Place ID  not found in master Place Name list.
+
+George Lamming (180): Place ID  not found in master Place Name list.
+
+George Lamming (181): Place ID  not found in master Place Name list.
+
+George Lamming (182): Place ID  not found in master Place Name list.
+
+George Lamming (183): Place ID  not found in master Place Name list.
+
+George Lamming (184): Place ID  not found in master Place Name list.
+
+George Lamming (185): Place ID  not found in master Place Name list.
+
+George Lamming (186): Place ID  not found in master Place Name list.
+
+George Lamming (187): Place ID  not found in master Place Name list.
+
+George Lamming (188): Place ID  not found in master Place Name list.
+
+George Lamming (189): Place ID  not found in master Place Name list.
+
+George Lamming (190): Place ID  not found in master Place Name list.
+
+George Lamming (191): Place ID  not found in master Place Name list.
+
+George Lamming (192): Place ID  not found in master Place Name list.
+
+George Lamming (193): Place ID  not found in master Place Name list.
+
+George Lamming (194): Place ID  not found in master Place Name list.
+
+George Lamming (195): Place ID  not found in master Place Name list.
+
+George Lamming (196): Place ID  not found in master Place Name list.
+
+George Lamming (197): Place ID  not found in master Place Name list.
+
+George Lamming (198): Place ID  not found in master Place Name list.
+
+George Lamming (199): Place ID  not found in master Place Name list.
+
+George Lamming (200): Place ID  not found in master Place Name list.
+
+George Lamming (201): Place ID  not found in master Place Name list.
+
+George Lamming (202): Place ID  not found in master Place Name list.
+
+George Lamming (203): Place ID  not found in master Place Name list.
+
+George Lamming (204): Place ID  not found in master Place Name list.
+
+George Lamming (205): Place ID  not found in master Place Name list.
+
+George Lamming (206): Place ID  not found in master Place Name list.
+
+George Lamming (207): Place ID  not found in master Place Name list.
+
+George Lamming (208): Place ID  not found in master Place Name list.
+
+George Lamming (209): Place ID  not found in master Place Name list.
+
+George Lamming (210): Place ID  not found in master Place Name list.
+
+George Lamming (211): Place ID  not found in master Place Name list.
+
+George Lamming (212): Place ID  not found in master Place Name list.
+
+George Lamming (213): Place ID  not found in master Place Name list.
+
+George Lamming (214): Place ID  not found in master Place Name list.
+
+George Lamming (215): Place ID  not found in master Place Name list.
+
+George Lamming (216): Place ID  not found in master Place Name list.
+
+George Lamming (217): Place ID  not found in master Place Name list.
+
+George Lamming (218): Place ID  not found in master Place Name list.
+
+George Lamming (219): Place ID  not found in master Place Name list.
+
+René Depestre (3): Place ID  not found in master Place Name list.
+
+René Depestre (4): Place ID  not found in master Place Name list.
+
+René Depestre (4): Departure Date 01/1946 is not a valid date entry
+
+René Depestre (5): Place ID  not found in master Place Name list.
+
+René Depestre (5): Earliest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (5): Latest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (6): Place ID  not found in master Place Name list.
+
+René Depestre (6): Earliest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (6): Latest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (7): Place ID  not found in master Place Name list.
+
+René Depestre (8): Place ID  not found in master Place Name list.
+
+René Depestre (9): Place ID  not found in master Place Name list.
+
+René Depestre (10): Place ID  not found in master Place Name list.
+
+René Depestre (11): Place ID  not found in master Place Name list.
+
+René Depestre (12): Place ID  not found in master Place Name list.
+
+René Depestre (13): Place ID  not found in master Place Name list.
+
+René Depestre (14): Place ID  not found in master Place Name list.
+
+René Depestre (15): Place ID  not found in master Place Name list.
+
+René Depestre (16): Place ID  not found in master Place Name list.
+
+René Depestre (17): Place ID  not found in master Place Name list.
+
+René Depestre (18): Place ID  not found in master Place Name list.
+
+René Depestre (19): Place ID  not found in master Place Name list.
+
+René Depestre (20): Place ID  not found in master Place Name list.
+
+René Depestre (21): Place ID  not found in master Place Name list.
+
+René Depestre (22): Place ID  not found in master Place Name list.
+
+René Depestre (23): Place ID  not found in master Place Name list.
+
+René Depestre (24): Place ID  not found in master Place Name list.
+
+René Depestre (25): Place ID  not found in master Place Name list.
+
+René Depestre (26): Place ID  not found in master Place Name list.
+
+René Depestre (27): Place ID  not found in master Place Name list.
+
+René Depestre (28): Place ID  not found in master Place Name list.
+
+René Depestre (29): Place ID  not found in master Place Name list.
+
+René Depestre (30): Place ID  not found in master Place Name list.
+
+René Depestre (31): Place ID  not found in master Place Name list.
+
+René Depestre (32): Place ID  not found in master Place Name list.
+
+René Depestre (33): Place ID  not found in master Place Name list.
+
+René Depestre (34): Place ID  not found in master Place Name list.
+
+René Depestre (35): Place ID  not found in master Place Name list.
+
+René Depestre (36): Place ID  not found in master Place Name list.
+
+René Depestre (37): Place ID  not found in master Place Name list.
+
+René Depestre (38): Place ID  not found in master Place Name list.
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (40): Place ID  not found in master Place Name list.
+
+René Depestre (41): Place ID  not found in master Place Name list.
+
+René Depestre (42): Place ID  not found in master Place Name list.
+
+René Depestre (43): Place ID  not found in master Place Name list.
+
+René Depestre (44): Place ID  not found in master Place Name list.
+
+René Depestre (45): Place ID  not found in master Place Name list.
+
+René Depestre (46): Place ID  not found in master Place Name list.
+
+René Depestre (47): Place ID  not found in master Place Name list.
+
+René Depestre (48): Place ID  not found in master Place Name list.
+
+René Depestre (49): Place ID  not found in master Place Name list.
+
+René Depestre (50): Place ID  not found in master Place Name list.
+
+René Depestre (51): Place ID  not found in master Place Name list.
+
+René Depestre (52): Place ID  not found in master Place Name list.
+
+René Depestre (53): Place ID  not found in master Place Name list.
+
+René Depestre (54): Place ID  not found in master Place Name list.
+
+René Depestre (55): Place ID  not found in master Place Name list.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
+
+René Depestre (57): Place ID  not found in master Place Name list.
+
+René Depestre (58): Place ID  not found in master Place Name list.
+
+René Depestre (59): Place ID  not found in master Place Name list.
+
+Claude McKay (3): Place ID  not found in master Place Name list.
+
+Claude McKay (4): Place ID  not found in master Place Name list.
+
+Claude McKay (5): Place ID  not found in master Place Name list.
+
+Claude McKay (6): Place ID  not found in master Place Name list.
+
+Claude McKay (7): Place ID  not found in master Place Name list.
+
+Claude McKay (8): Place ID  not found in master Place Name list.
+
+Claude McKay (9): Place ID  not found in master Place Name list.
+
+Claude McKay (10): Place ID  not found in master Place Name list.
+
+Claude McKay (11): Place ID  not found in master Place Name list.
+
+Claude McKay (12): Place ID  not found in master Place Name list.
+
+Claude McKay (13): Place ID  not found in master Place Name list.
+
+Claude McKay (14): Place ID  not found in master Place Name list.
 
 Claude McKay (14): Arrival Date 1921-1 is not a valid date entry
 
 Claude McKay (14): Departure Date 1922-9-20 is not a valid date entry
 
-Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+Claude McKay (15): Place ID  not found in master Place Name list.
 
-Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+Claude McKay (16): Place ID  not found in master Place Name list.
 
-Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+Claude McKay (17): Place ID  not found in master Place Name list.
 
-Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+Claude McKay (18): Place ID  not found in master Place Name list.
 
-Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+Claude McKay (19): Place ID  not found in master Place Name list.
 
-Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+Claude McKay (20): Place ID  not found in master Place Name list.
 
-Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+Claude McKay (21): Place ID  not found in master Place Name list.
 
-Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+Claude McKay (22): Place ID  not found in master Place Name list.
 
-Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+Claude McKay (23): Place ID  not found in master Place Name list.
 
-Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+Claude McKay (24): Place ID  not found in master Place Name list.
 
-Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+Claude McKay (25): Place ID  not found in master Place Name list.
 
-Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+Claude McKay (26): Place ID  not found in master Place Name list.
 
-Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+Claude McKay (27): Place ID  not found in master Place Name list.
 
-Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+Run time: 2019-01-21 16:39:21
 
-Katherine Dunham (188): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (189): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (190): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (191): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (192): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (193): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (194): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (195): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (197): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (198): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (199): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (201): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (202): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (203): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (204): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (205): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (206): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (207): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (208): This entry has no key dates listed and has been skipped.
-
-Run time: 2018-09-20 01:54:26
-
-Katherine Dunham (174): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (175): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (176): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (177): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (178): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (179): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (180): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (181): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (182): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (183): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (184): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (185): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (186): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (187): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (188): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (189): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (190): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (191): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (192): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (193): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (194): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (195): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (197): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (198): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (199): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (201): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (202): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (203): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (204): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (205): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (206): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (207): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+Port of Bonny, Rivers State, Nigeria geocode not found
+Boma, Kongo Central, Democratic Republic of Congo geocode not found
+Matadi, Kongo Central, Democratic Republic of Congo geocode not found
+Belmont, Trinidad geocode not found
+Saint Augustine, Trinidad geocode not found
+Easy Lansing, Michigan, USA geocode not found
+Aimé Césaire (83): Place ID addis_abeba_ethiopia not found in master Place Name list.
 
 
 ---------------------------------------------------
 
 
-Run time: 2018-09-22 18:39:35
+Run time: 2019-01-21 17:24:07
 
-Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+Port of Bonny, Rivers State, Nigeria geocode not found
+Boma, Kongo Central, Democratic Republic of Congo geocode not found
+Matadi, Kongo Central, Democratic Republic of Congo geocode not found
+Belmont, Trinidad geocode not found
+Saint Augustine, Trinidad geocode not found
+Easy Lansing, Michigan, USA geocode not found
 
-Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+---------------------------------------------------
 
-Katherine Dunham (176): This entry has no key dates listed and has been skipped.
 
-Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+Run time: 2019-01-21 17:25:02
 
-Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+Saint Augustine, Trinidad geocode not found
 
-Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+---------------------------------------------------
 
-Katherine Dunham (180): This entry has no key dates listed and has been skipped.
 
-Katherine Dunham (181): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (182): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (183): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (184): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (185): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (186): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (187): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (188): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (189): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (190): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (191): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (192): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (193): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (194): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (195): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (197): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (198): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (199): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (201): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (202): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (203): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (204): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (205): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (206): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (207): This entry has no key dates listed and has been skipped.
-
-Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+Run time: 2019-01-21 17:26:47
 
 
 ---------------------------------------------------
 
 
-Run time: 2018-09-25 13:32:32
+Run time: 2019-01-21 17:28:44
 
-Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+Claude McKay (14): Arrival Date 1921-1 is not a valid date entry
 
-Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+Claude McKay (14): Departure Date 1922-9-20 is not a valid date entry
 
-Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+Run time: 2019-01-21 17:30:18
 
-Katherine Dunham (177): This entry has no key dates listed and has been skipped.
 
-Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+---------------------------------------------------
 
-Katherine Dunham (179): This entry has no key dates listed and has been skipped.
 
-Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+Run time: 2019-01-21 17:31:55
 
-Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+George Lamming (5): Departure Date 1970s is not a valid date entry
 
-Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+George Lamming (9): Place ID  not found in master Place Name list.
 
-Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+George Lamming (10): Place ID  not found in master Place Name list.
 
-Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+George Lamming (14): Place ID  not found in master Place Name list.
 
-Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+George Lamming (15): Place ID  not found in master Place Name list.
 
-Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+George Lamming (16): Place ID  not found in master Place Name list.
 
-Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+George Lamming (17): Place ID  not found in master Place Name list.
 
-Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+George Lamming (36): Place ID  not found in master Place Name list.
 
-Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+George Lamming (40): Place ID  not found in master Place Name list.
 
-Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+George Lamming (41): Place ID  not found in master Place Name list.
 
-Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+George Lamming (42): Place ID  not found in master Place Name list.
 
-Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+George Lamming (55): This entry has no key dates listed and has been skipped.
 
-Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+George Lamming (60): Place ID  not found in master Place Name list.
 
-Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+George Lamming (66): Place ID  not found in master Place Name list.
 
-Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+George Lamming (71): Place ID  not found in master Place Name list.
 
-Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+George Lamming (72): Place ID  not found in master Place Name list.
 
-Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+George Lamming (75): Place ID  not found in master Place Name list.
 
-Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+George Lamming (78): Place ID  not found in master Place Name list.
 
-Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+George Lamming (80): Place ID  not found in master Place Name list.
 
-Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+George Lamming (81): Place ID  not found in master Place Name list.
 
-Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+George Lamming (83): Place ID  not found in master Place Name list.
 
-Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+George Lamming (85): Place ID  not found in master Place Name list.
 
-Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+George Lamming (86): Place ID  not found in master Place Name list.
 
-Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+George Lamming (87): Place ID  not found in master Place Name list.
 
-Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+George Lamming (89): Place ID  not found in master Place Name list.
 
-Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+George Lamming (91): Place ID  not found in master Place Name list.
+
+George Lamming (94): Place ID  not found in master Place Name list.
+
+George Lamming (96): Place ID  not found in master Place Name list.
+
+George Lamming (98): Place ID  not found in master Place Name list.
+
+George Lamming (99): Place ID  not found in master Place Name list.
+
+George Lamming (100): Place ID  not found in master Place Name list.
+
+George Lamming (102): Place ID  not found in master Place Name list.
+
+George Lamming (105): Place ID  not found in master Place Name list.
+
+George Lamming (106): Place ID  not found in master Place Name list.
+
+George Lamming (108): Place ID  not found in master Place Name list.
+
+George Lamming (110): Place ID  not found in master Place Name list.
+
+George Lamming (112): Place ID  not found in master Place Name list.
+
+George Lamming (113): Place ID  not found in master Place Name list.
+
+George Lamming (114): Place ID  not found in master Place Name list.
+
+George Lamming (115): Place ID  not found in master Place Name list.
+
+George Lamming (116): Place ID  not found in master Place Name list.
+
+George Lamming (118): Place ID  not found in master Place Name list.
+
+George Lamming (120): Place ID  not found in master Place Name list.
+
+George Lamming (122): Place ID  not found in master Place Name list.
+
+George Lamming (124): Place ID  not found in master Place Name list.
+
+George Lamming (130): Place ID  not found in master Place Name list.
+
+George Lamming (132): Place ID  not found in master Place Name list.
+
+George Lamming (133): Place ID  not found in master Place Name list.
+
+George Lamming (134): Place ID  not found in master Place Name list.
+
+George Lamming (135): Place ID  not found in master Place Name list.
+
+George Lamming (136): Place ID  not found in master Place Name list.
+
+George Lamming (137): Place ID  not found in master Place Name list.
+
+George Lamming (139): Place ID  not found in master Place Name list.
+
+George Lamming (146): Place ID  not found in master Place Name list.
+
+George Lamming (150): Place ID  not found in master Place Name list.
+
+George Lamming (151): Place ID  not found in master Place Name list.
+
+George Lamming (157): Place ID  not found in master Place Name list.
+
+George Lamming (159): Place ID  not found in master Place Name list.
+
+George Lamming (160): Place ID  not found in master Place Name list.
+
+George Lamming (161): Place ID  not found in master Place Name list.
+
+George Lamming (163): Place ID  not found in master Place Name list.
+
+George Lamming (164): Place ID  not found in master Place Name list.
+
+George Lamming (166): Place ID  not found in master Place Name list.
+
+George Lamming (168): Place ID  not found in master Place Name list.
+
+George Lamming (169): Place ID  not found in master Place Name list.
+
+George Lamming (170): Place ID  not found in master Place Name list.
+
+George Lamming (171): Place ID  not found in master Place Name list.
+
+George Lamming (174): Place ID  not found in master Place Name list.
+
+George Lamming (175): Place ID  not found in master Place Name list.
+
+George Lamming (176): Place ID  not found in master Place Name list.
+
+George Lamming (177): Place ID  not found in master Place Name list.
+
+George Lamming (179): Place ID  not found in master Place Name list.
+
+George Lamming (183): Place ID  not found in master Place Name list.
+
+George Lamming (184): Place ID  not found in master Place Name list.
+
+George Lamming (185): Place ID  not found in master Place Name list.
+
+George Lamming (186): Place ID  not found in master Place Name list.
+
+George Lamming (193): Place ID  not found in master Place Name list.
+
+George Lamming (197): Place ID  not found in master Place Name list.
+
+George Lamming (200): Place ID  not found in master Place Name list.
+
+George Lamming (203): Place ID  not found in master Place Name list.
+
+George Lamming (206): Place ID  not found in master Place Name list.
+
+George Lamming (208): Place ID  not found in master Place Name list.
+
+George Lamming (210): Place ID  not found in master Place Name list.
+
+George Lamming (211): Place ID  not found in master Place Name list.
+
+George Lamming (212): Place ID  not found in master Place Name list.
+
+George Lamming (213): Place ID  not found in master Place Name list.
+
+George Lamming (214): Place ID  not found in master Place Name list.
+
+George Lamming (216): Place ID  not found in master Place Name list.
+
+George Lamming (219): Place ID  not found in master Place Name list.
+
+Run time: 2019-01-21 17:42:16
+
+Run time: 2019-01-21 17:44:23
+
+Kamau Brathwaite (23): Place ID worchester_massachusettes_usa not found in master Place Name list.
+
+
+---------------------------------------------------
+
+
+Run time: 2019-01-21 17:47:55
+
+
+---------------------------------------------------
+
+
+Run time: 2019-01-21 17:49:26
+
+René Depestre (3): Place ID  not found in master Place Name list.
+
+René Depestre (4): Place ID  not found in master Place Name list.
+
+René Depestre (4): Departure Date 01/1946 is not a valid date entry
+
+René Depestre (5): Place ID  not found in master Place Name list.
+
+René Depestre (5): Earliest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (5): Latest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (6): Place ID  not found in master Place Name list.
+
+René Depestre (6): Earliest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (6): Latest Presence Date 01/1946 is not a valid date entry
+
+René Depestre (7): Place ID  not found in master Place Name list.
+
+René Depestre (8): Place ID  not found in master Place Name list.
+
+René Depestre (9): Place ID  not found in master Place Name list.
+
+René Depestre (10): Place ID  not found in master Place Name list.
+
+René Depestre (11): Place ID  not found in master Place Name list.
+
+René Depestre (12): Place ID  not found in master Place Name list.
+
+René Depestre (13): Place ID  not found in master Place Name list.
+
+René Depestre (14): Place ID  not found in master Place Name list.
+
+René Depestre (15): Place ID  not found in master Place Name list.
+
+René Depestre (16): Place ID  not found in master Place Name list.
+
+René Depestre (17): Place ID  not found in master Place Name list.
+
+René Depestre (18): Place ID  not found in master Place Name list.
+
+René Depestre (19): Place ID  not found in master Place Name list.
+
+René Depestre (20): Place ID  not found in master Place Name list.
+
+René Depestre (21): Place ID  not found in master Place Name list.
+
+René Depestre (22): Place ID  not found in master Place Name list.
+
+René Depestre (23): Place ID  not found in master Place Name list.
+
+René Depestre (24): Place ID  not found in master Place Name list.
+
+René Depestre (25): Place ID  not found in master Place Name list.
+
+René Depestre (26): Place ID  not found in master Place Name list.
+
+René Depestre (27): Place ID  not found in master Place Name list.
+
+René Depestre (28): Place ID  not found in master Place Name list.
+
+René Depestre (29): Place ID  not found in master Place Name list.
+
+René Depestre (30): Place ID  not found in master Place Name list.
+
+René Depestre (31): Place ID  not found in master Place Name list.
+
+René Depestre (32): Place ID  not found in master Place Name list.
+
+René Depestre (33): Place ID  not found in master Place Name list.
+
+René Depestre (34): Place ID  not found in master Place Name list.
+
+René Depestre (35): Place ID  not found in master Place Name list.
+
+René Depestre (36): Place ID  not found in master Place Name list.
+
+René Depestre (37): Place ID  not found in master Place Name list.
+
+René Depestre (38): Place ID  not found in master Place Name list.
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (40): Place ID  not found in master Place Name list.
+
+René Depestre (41): Place ID  not found in master Place Name list.
+
+René Depestre (42): Place ID  not found in master Place Name list.
+
+René Depestre (43): Place ID  not found in master Place Name list.
+
+René Depestre (44): Place ID  not found in master Place Name list.
+
+René Depestre (45): Place ID  not found in master Place Name list.
+
+René Depestre (46): Place ID  not found in master Place Name list.
+
+René Depestre (47): Place ID  not found in master Place Name list.
+
+René Depestre (48): Place ID  not found in master Place Name list.
+
+René Depestre (49): Place ID  not found in master Place Name list.
+
+René Depestre (50): Place ID  not found in master Place Name list.
+
+René Depestre (51): Place ID  not found in master Place Name list.
+
+René Depestre (52): Place ID  not found in master Place Name list.
+
+René Depestre (53): Place ID  not found in master Place Name list.
+
+René Depestre (54): Place ID  not found in master Place Name list.
+
+René Depestre (55): Place ID  not found in master Place Name list.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
+
+René Depestre (57): Place ID  not found in master Place Name list.
+
+René Depestre (58): Place ID  not found in master Place Name list.
+
+René Depestre (59): Place ID  not found in master Place Name list.
+
+Run time: 2019-01-21 17:53:51
+
+René Depestre (3): Place ID  not found in master Place Name list.
+
+René Depestre (4): Place ID  not found in master Place Name list.
+
+René Depestre (5): Place ID  not found in master Place Name list.
+
+René Depestre (6): Place ID  not found in master Place Name list.
+
+René Depestre (7): Place ID  not found in master Place Name list.
+
+René Depestre (8): Place ID  not found in master Place Name list.
+
+René Depestre (9): Place ID  not found in master Place Name list.
+
+René Depestre (10): Place ID  not found in master Place Name list.
+
+René Depestre (11): Place ID  not found in master Place Name list.
+
+René Depestre (12): Place ID  not found in master Place Name list.
+
+René Depestre (13): Place ID  not found in master Place Name list.
+
+René Depestre (14): Place ID  not found in master Place Name list.
+
+René Depestre (15): Place ID  not found in master Place Name list.
+
+René Depestre (16): Place ID  not found in master Place Name list.
+
+René Depestre (17): Place ID  not found in master Place Name list.
+
+René Depestre (18): Place ID  not found in master Place Name list.
+
+René Depestre (19): Place ID  not found in master Place Name list.
+
+René Depestre (20): Place ID  not found in master Place Name list.
+
+René Depestre (21): Place ID  not found in master Place Name list.
+
+René Depestre (22): Place ID  not found in master Place Name list.
+
+René Depestre (23): Place ID  not found in master Place Name list.
+
+René Depestre (24): Place ID  not found in master Place Name list.
+
+René Depestre (25): Place ID  not found in master Place Name list.
+
+René Depestre (26): Place ID  not found in master Place Name list.
+
+René Depestre (27): Place ID  not found in master Place Name list.
+
+René Depestre (28): Place ID  not found in master Place Name list.
+
+René Depestre (29): Place ID  not found in master Place Name list.
+
+René Depestre (30): Place ID  not found in master Place Name list.
+
+René Depestre (31): Place ID  not found in master Place Name list.
+
+René Depestre (32): Place ID  not found in master Place Name list.
+
+René Depestre (33): Place ID  not found in master Place Name list.
+
+René Depestre (34): Place ID  not found in master Place Name list.
+
+René Depestre (35): Place ID  not found in master Place Name list.
+
+René Depestre (36): Place ID  not found in master Place Name list.
+
+René Depestre (37): Place ID  not found in master Place Name list.
+
+René Depestre (38): Place ID  not found in master Place Name list.
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (40): Place ID  not found in master Place Name list.
+
+René Depestre (41): Place ID  not found in master Place Name list.
+
+René Depestre (42): Place ID  not found in master Place Name list.
+
+René Depestre (43): Place ID  not found in master Place Name list.
+
+René Depestre (44): Place ID  not found in master Place Name list.
+
+René Depestre (45): Place ID  not found in master Place Name list.
+
+René Depestre (46): Place ID  not found in master Place Name list.
+
+René Depestre (47): Place ID  not found in master Place Name list.
+
+René Depestre (48): Place ID  not found in master Place Name list.
+
+René Depestre (49): Place ID  not found in master Place Name list.
+
+René Depestre (50): Place ID  not found in master Place Name list.
+
+René Depestre (51): Place ID  not found in master Place Name list.
+
+René Depestre (52): Place ID  not found in master Place Name list.
+
+René Depestre (53): Place ID  not found in master Place Name list.
+
+René Depestre (54): Place ID  not found in master Place Name list.
+
+René Depestre (55): Place ID  not found in master Place Name list.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
+
+René Depestre (57): Place ID  not found in master Place Name list.
+
+René Depestre (58): Place ID  not found in master Place Name list.
+
+René Depestre (59): Place ID  not found in master Place Name list.
+
+
+---------------------------------------------------
+
+
+Run time: 2019-01-21 17:56:34
+
+René Depestre (3): Place ID  not found in master Place Name list.
+
+René Depestre (4): Place ID  not found in master Place Name list.
+
+René Depestre (5): Place ID  not found in master Place Name list.
+
+René Depestre (6): Place ID  not found in master Place Name list.
+
+René Depestre (7): Place ID  not found in master Place Name list.
+
+René Depestre (8): Place ID  not found in master Place Name list.
+
+René Depestre (9): Place ID  not found in master Place Name list.
+
+René Depestre (10): Place ID  not found in master Place Name list.
+
+René Depestre (11): Place ID  not found in master Place Name list.
+
+René Depestre (12): Place ID  not found in master Place Name list.
+
+René Depestre (13): Place ID  not found in master Place Name list.
+
+René Depestre (14): Place ID  not found in master Place Name list.
+
+René Depestre (15): Place ID  not found in master Place Name list.
+
+René Depestre (16): Place ID  not found in master Place Name list.
+
+René Depestre (17): Place ID  not found in master Place Name list.
+
+René Depestre (18): Place ID  not found in master Place Name list.
+
+René Depestre (19): Place ID  not found in master Place Name list.
+
+René Depestre (20): Place ID  not found in master Place Name list.
+
+René Depestre (21): Place ID  not found in master Place Name list.
+
+René Depestre (22): Place ID  not found in master Place Name list.
+
+René Depestre (23): Place ID  not found in master Place Name list.
+
+René Depestre (24): Place ID  not found in master Place Name list.
+
+René Depestre (25): Place ID  not found in master Place Name list.
+
+René Depestre (26): Place ID  not found in master Place Name list.
+
+René Depestre (27): Place ID  not found in master Place Name list.
+
+René Depestre (28): Place ID  not found in master Place Name list.
+
+René Depestre (29): Place ID  not found in master Place Name list.
+
+René Depestre (30): Place ID  not found in master Place Name list.
+
+René Depestre (31): Place ID  not found in master Place Name list.
+
+René Depestre (32): Place ID  not found in master Place Name list.
+
+René Depestre (33): Place ID  not found in master Place Name list.
+
+René Depestre (34): Place ID  not found in master Place Name list.
+
+René Depestre (35): Place ID  not found in master Place Name list.
+
+René Depestre (36): Place ID  not found in master Place Name list.
+
+René Depestre (37): Place ID  not found in master Place Name list.
+
+René Depestre (38): Place ID  not found in master Place Name list.
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (40): Place ID  not found in master Place Name list.
+
+René Depestre (41): Place ID  not found in master Place Name list.
+
+René Depestre (42): Place ID  not found in master Place Name list.
+
+René Depestre (43): Place ID  not found in master Place Name list.
+
+René Depestre (44): Place ID  not found in master Place Name list.
+
+René Depestre (45): Place ID  not found in master Place Name list.
+
+René Depestre (46): Place ID  not found in master Place Name list.
+
+René Depestre (47): Place ID  not found in master Place Name list.
+
+René Depestre (48): Place ID  not found in master Place Name list.
+
+René Depestre (49): Place ID  not found in master Place Name list.
+
+René Depestre (50): Place ID  not found in master Place Name list.
+
+René Depestre (51): Place ID  not found in master Place Name list.
+
+René Depestre (52): Place ID  not found in master Place Name list.
+
+René Depestre (53): Place ID  not found in master Place Name list.
+
+René Depestre (54): Place ID  not found in master Place Name list.
+
+René Depestre (55): Place ID  not found in master Place Name list.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
+
+René Depestre (57): Place ID  not found in master Place Name list.
+
+René Depestre (58): Place ID  not found in master Place Name list.
+
+René Depestre (59): Place ID  not found in master Place Name list.
+
+
+---------------------------------------------------
+
+
+Run time: 2019-01-21 18:02:25
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (51): Place ID port_louis_ile_maurice not found in master Place Name list.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
+Run time: 2019-01-21 18:08:01
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (51): Place ID port_louis_mauritius not found in master Place Name list.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
+Run time: 2019-01-21 18:09:25
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
 
 
 ---------------------------------------------------
