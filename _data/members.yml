@@ -19,6 +19,28 @@
   institution: "Duke University"
   subjects:
   - name: "Katherine Dunham"
+
+- name: "Joanna Dee Das"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl: 
+  institution: "Washington University in St. Louis"
+  subjects:
+  - name: "Katherine Dunham"
+
+- name: "Vincent Brown"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl: ""
+  institution: "Harvard University"
+  subjects:
+  - name: ""
  
 - name: "Alex Gil"
   roles: "member"
@@ -139,4 +161,48 @@
   homepageurl: "http://www.agilehumanities.ca"
   institution: "Visualization, UI/UX and Production Design, System Design"
   subjects:
-  - name: 
+  - name:
+
+- name: "The Schomburg Center for Research in Black Culture"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: ""
+  homepageurl: "https://www.nypl.org/locations/schomburg"
+  institution: ""
+  subjects:
+  - name:
+
+- name: "The University of Virginia"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: ""
+  homepageurl: "https://www.nypl.org/locations/schomburg"
+  institution: ""
+  subjects:
+  - name:
+
+- name: "Columbia University Graduate School of Arts and Sciences"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: ""
+  homepageurl: ""
+  institution: ""
+  subjects:
+  - name:
+
+- name: "Duke University Forum for Scholars and Publics"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: ""
+  homepageurl: ""
+  institution: ""
+  subjects:
+  - name:

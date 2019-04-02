@@ -15,12 +15,12 @@ layout: compress
          {% if page.id == 'home' %}
            <div class='page-text has-sidebar'>
              {{page.content | markdownify}}
-             <h2>Credits</h2>
-             {% include members.html %}
+
            </div>
            {% include sidebar.html %}
          {% else %}
            <div class='page-text'>
+
              {{page.content | markdownify}}
            </div> 
          {% endif %}

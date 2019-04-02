@@ -6,6 +6,8 @@
 #
 layout: page
 title: In the Same Boats
-id: about
-pagetitle: About
+id: credits
+pagetitle: Credits
 ---
+
+

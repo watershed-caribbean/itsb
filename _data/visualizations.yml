@@ -1,12 +1,12 @@
 - name: "Trajectories"
-  description: "Something about the trajectories visualization. Lorem ipsum dolor sit amet nonummy elit."
+  description: "This visualization presents an interactive narrative overview of one or more individuals’ movements through space over time. The timeline function allows for the researcher to consider specific periods or phases, individually or in comparison with other figures."
   id: "trajectories"
   url: "/trajectories"
   visclass: "Trajectories"
   datamode: 2
 
 - name: "Intersections"
-  description: "Something about the intersection visualization. Lorem ipsum dolor sit amet nonummy elit."
+  description: "This visualization presents an interactive snapshot overview of the world map that reflects the presence of Afro-Atlantic figures in particular geographical locations at particular points in time. Clicking on a given city which figures were present in that place and when they were there."
   id: "intersections"
   url: "/intersections"
   visclass: "Intersections"
