@@ -385,8 +385,10 @@ class Trajectories extends DateMapController {
     
 		this.trajectories.map = d3.select(self.ui.dom.trajectories.map.view)
 		  .append('svg')
-		  .attr('width','100%');
-		          
+		  .attr('width','100%')
+        .append("g")
+        .attr("class", "viz-container");
+
     d3.select(self.ui.dom.trajectories.authors.list)
       .html(self.ui.generateAuthorList(this));
             
@@ -413,7 +415,8 @@ class Trajectories extends DateMapController {
 		var self = this;
 		var focus = false;
 
-		this[this.classkey].map.attr('height',this.height);
+		d3.select(self.ui.dom.trajectories.map.view).select("svg")
+      .attr('height',this.height);
 
 		//click handlers
 		this[this.classkey].map.on('click',function(){
@@ -526,8 +529,11 @@ class Trajectories extends DateMapController {
 				lines;
 
 		//draw vector map
+    const mapContainer = this.trajectories.map.append("g")
+      .attr("class", "map-container");
+		          
 		var map;
-		map = self[this.classkey].map.selectAll('path.map')
+		map = mapContainer.selectAll('path.map')
 			.data([features]);
 		map.enter().append ('path')
 			.classed('map',true);
@@ -969,6 +975,26 @@ class Trajectories extends DateMapController {
 		filter_data();
 		generate_lines();
 		generate_points();
+
+   var zoom = d3.behavior.zoom()
+    .translate([0, 0])
+    .scale(1)
+    .scaleExtent([1, 8])
+    .on("zoom", zoomed); 
+
+		d3.select(".map-container")
+      .append("rect")
+      .attr("style", "fill: none; pointer-events: all;")
+      .attr("width", "100%")
+      .attr("height", this.height)
+      .call(zoom);
+
+    function zoomed() {
+      d3.select(self.ui.dom.trajectories.map.view).select("svg")
+        .select(".viz-container")
+        .attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+    }
+
 	}
   
   tear_down() {
