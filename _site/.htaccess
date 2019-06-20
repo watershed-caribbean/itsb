@@ -2,5 +2,5 @@
 
 <FilesMatch .*\.json.gz>
     Header set Content-Encoding gzip
-    ForceType text/plain
+    ForceType text/json
 </FilesMatch>
