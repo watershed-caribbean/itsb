@@ -5596,6 +5596,30 @@
     ],
     "1925-08": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 51",
+            "EndDate": "1925-10",
+            "EndType": "departure",
+            "EntryIndex": 0,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 49",
+            "StartDate": "1925-08-11",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 304",
+            "EndDate": "1925-08-28",
+            "EndType": "latest_presence",
+            "EntryIndex": 1,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "Ransby 304",
+            "StartDate": "1925-08-24",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "cmckay",
             "EndCitation": "",
             "EndDate": "",
@@ -5636,6 +5660,30 @@
     ],
     "1925-10": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 51",
+            "EndDate": "1925-10",
+            "EndType": "departure",
+            "EntryIndex": 0,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 49",
+            "StartDate": "1925-08-11",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 55",
+            "EndDate": "1925-12-16",
+            "EndType": "departure",
+            "EntryIndex": 2,
+            "Notes": "",
+            "PlaceID": "villefranche_france",
+            "StartCitation": "Ransby 51",
+            "StartDate": "1925-10",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "cmckay",
             "EndCitation": "Arthur A. Schomburg papers, 1724-1938, reel 4--Schomburg Center",
             "EndDate": "1925-10-15",
@@ -5649,7 +5697,32 @@
         }
     ],
     "1925-11": [],
-    "1925-12": [],
+    "1925-12": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 55",
+            "EndDate": "1925-12-16",
+            "EndType": "departure",
+            "EntryIndex": 2,
+            "Notes": "",
+            "PlaceID": "villefranche_france",
+            "StartCitation": "Ransby 51",
+            "StartDate": "1925-10",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 60",
+            "EndDate": "1928-05",
+            "EndType": "departure",
+            "EntryIndex": 3,
+            "Notes": "",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Ransby 55",
+            "StartDate": "1925-12-22",
+            "StartType": "arrival"
+        }
+    ],
     "1926-01": [
         {
             "AuthorID": "cmckay",
@@ -6160,7 +6233,32 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1928-05": [],
+    "1928-05": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 60",
+            "EndDate": "1928-05",
+            "EndType": "departure",
+            "EntryIndex": 3,
+            "Notes": "",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Ransby 55",
+            "StartDate": "1925-12-22",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 63",
+            "EndDate": "1930-03",
+            "EndType": "departure",
+            "EntryIndex": 4,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 60",
+            "StartDate": "1928-05",
+            "StartType": "arrival"
+        }
+    ],
     "1928-06": [
         {
             "AuthorID": "webdubois",
@@ -6480,6 +6578,102 @@
     ],
     "1930-01": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 5,
+            "Notes": "",
+            "PlaceID": "prague_czech_republic",
+            "StartCitation": "Ransby 283",
+            "StartDate": "1930-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 6,
+            "Notes": "",
+            "PlaceID": "bucarest_romania",
+            "StartCitation": "Ransby 283",
+            "StartDate": "1930-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 7,
+            "Notes": "",
+            "PlaceID": "dresden_germany",
+            "StartCitation": "Ransby 283",
+            "StartDate": "1930-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 8,
+            "Notes": "",
+            "PlaceID": "dusseldorf_germany",
+            "StartCitation": "Ransby 283",
+            "StartDate": "1930-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 9,
+            "Notes": "",
+            "PlaceID": "cologne_germany",
+            "StartCitation": "Ransby 283",
+            "StartDate": "1930-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 10,
+            "Notes": "",
+            "PlaceID": "brno_czech_republic",
+            "StartCitation": "Ransby 283",
+            "StartDate": "1930-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 11,
+            "Notes": "",
+            "PlaceID": "chernivtsi_ukraine",
+            "StartCitation": "Ransby 283",
+            "StartDate": "1930-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 12,
+            "Notes": "",
+            "PlaceID": "vienna_austria",
+            "StartCitation": "Ransby 283",
+            "StartDate": "1930-01",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Barzel 1983, 94",
             "EndDate": "1930-01",
@@ -6555,6 +6749,42 @@
         }
     ],
     "1930-03": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 63",
+            "EndDate": "1930-03",
+            "EndType": "departure",
+            "EntryIndex": 4,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 60",
+            "StartDate": "1928-05",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 63",
+            "EndDate": "1930-03",
+            "EndType": "departure",
+            "EntryIndex": 13,
+            "Notes": "",
+            "PlaceID": "territet_switzerland",
+            "StartCitation": "Ransby 63",
+            "StartDate": "1930-03",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 14,
+            "Notes": "Essie and Paul went on a concert tour in Scotland in late March. No return date given but most likely March or April 1930",
+            "PlaceID": "scotland",
+            "StartCitation": "Ransby 63",
+            "StartDate": "1930-03",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "cmckay",
             "EndCitation": "Cooper 266",
@@ -6647,7 +6877,20 @@
     ],
     "1930-07": [],
     "1930-08": [],
-    "1930-09": [],
+    "1930-09": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 15,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 65",
+            "StartDate": "1930-09",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1930-10": [],
     "1930-11": [],
     "1930-12": [],
@@ -6738,13 +6981,51 @@
         }
     ],
     "1931-02": [],
-    "1931-03": [],
-    "1931-04": [],
+    "1931-03": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 306",
+            "EndDate": "1931-04",
+            "EndType": "latest_presence",
+            "EntryIndex": 16,
+            "Notes": "",
+            "PlaceID": "south_carolina_usa",
+            "StartCitation": "Ransby 306",
+            "StartDate": "1931-03",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1931-04": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 306",
+            "EndDate": "1931-04",
+            "EndType": "latest_presence",
+            "EntryIndex": 16,
+            "Notes": "",
+            "PlaceID": "south_carolina_usa",
+            "StartCitation": "Ransby 306",
+            "StartDate": "1931-03",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1931-05": [],
     "1931-06": [],
     "1931-07": [],
     "1931-08": [],
     "1931-09": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1931-11",
+            "EndType": "latest_presence",
+            "EntryIndex": 17,
+            "Notes": "Essie was in Kitzbuhel for 2 months",
+            "PlaceID": "kitzbuhel_austria",
+            "StartCitation": "Ransby 307",
+            "StartDate": "1931-09-06",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -6785,6 +7066,18 @@
         }
     ],
     "1931-11": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1931-11",
+            "EndType": "latest_presence",
+            "EntryIndex": 17,
+            "Notes": "Essie was in Kitzbuhel for 2 months",
+            "PlaceID": "kitzbuhel_austria",
+            "StartCitation": "Ransby 307",
+            "StartDate": "1931-09-06",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "",
@@ -6829,11 +7122,74 @@
     ],
     "1932-04": [],
     "1932-05": [],
-    "1932-06": [],
+    "1932-06": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 74",
+            "EndDate": "1932-06-21",
+            "EndType": "departure",
+            "EntryIndex": 18,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "Ransby 70",
+            "StartDate": "1932-06-03",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 19,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 74",
+            "StartDate": "1932-06",
+            "StartType": "arrival"
+        }
+    ],
     "1932-07": [],
     "1932-08": [],
-    "1932-09": [],
-    "1932-10": [],
+    "1932-09": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 310",
+            "EndDate": "1932-10-02",
+            "EndType": "latest_presence",
+            "EntryIndex": 20,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "Ransby 310",
+            "StartDate": "1932-09-29",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1932-10": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 310",
+            "EndDate": "1932-10-02",
+            "EndType": "latest_presence",
+            "EntryIndex": 20,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "Ransby 310",
+            "StartDate": "1932-09-29",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 92",
+            "EndDate": "1934-12-21",
+            "EndType": "departure",
+            "EntryIndex": 21,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 310",
+            "StartDate": "1932-10",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1932-11": [],
     "1932-12": [
         {
@@ -7103,6 +7459,42 @@
     ],
     "1934-12": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 92",
+            "EndDate": "1934-12-21",
+            "EndType": "departure",
+            "EntryIndex": 21,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 310",
+            "StartDate": "1932-10",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 93",
+            "EndDate": "1934-12-21",
+            "EndType": "departure",
+            "EntryIndex": 22,
+            "Notes": "Daylong layover in Berlin en route from London to Moscow",
+            "PlaceID": "berlin_germany",
+            "StartCitation": "Ransby 93",
+            "StartDate": "1934-12-21",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 95",
+            "EndDate": "1935-01",
+            "EndType": "departure",
+            "EntryIndex": 23,
+            "Notes": "",
+            "PlaceID": "moscow_russia",
+            "StartCitation": "Ransby 93",
+            "StartDate": "1934-12-22",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "cmckay",
             "EndCitation": "Cooper 304",
             "EndDate": "1934-12",
@@ -7128,6 +7520,42 @@
         }
     ],
     "1935-01": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 95",
+            "EndDate": "1935-01",
+            "EndType": "departure",
+            "EntryIndex": 23,
+            "Notes": "",
+            "PlaceID": "moscow_russia",
+            "StartCitation": "Ransby 93",
+            "StartDate": "1934-12-22",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 96",
+            "EndDate": "1935-09",
+            "EndType": "departure",
+            "EntryIndex": 24,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 96",
+            "StartDate": "1935-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1935-11-21",
+            "EndType": "latest_presence",
+            "EntryIndex": 25,
+            "Notes": "Dates ambiguous. Arrival in California most likely in September of October 1935. Date of return to London unclear.",
+            "PlaceID": "california_usa",
+            "StartCitation": "Ransby 96",
+            "StartDate": "1935",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "kdunham",
             "EndCitation": "Clark and Johnson 2005, xvii",
@@ -7250,6 +7678,18 @@
     ],
     "1935-09": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 96",
+            "EndDate": "1935-09",
+            "EndType": "departure",
+            "EntryIndex": 24,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 96",
+            "StartDate": "1935-01",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1936-07",
@@ -7288,7 +7728,20 @@
             "StartType": "arrival"
         }
     ],
-    "1935-11": [],
+    "1935-11": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1935-11-21",
+            "EndType": "latest_presence",
+            "EntryIndex": 25,
+            "Notes": "Dates ambiguous. Arrival in California most likely in September of October 1935. Date of return to London unclear.",
+            "PlaceID": "california_usa",
+            "StartCitation": "Ransby 96",
+            "StartDate": "1935",
+            "StartType": "arrival"
+        }
+    ],
     "1935-12": [
         {
             "AuthorID": "kdunham",
@@ -7420,6 +7873,102 @@
     "1936-05": [],
     "1936-06": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 25",
+            "EndDate": "1936-06-02",
+            "EndType": "departure",
+            "EntryIndex": 26,
+            "Notes": "",
+            "PlaceID": "madeira_portugal",
+            "StartCitation": "Robeson, African Journey, 24",
+            "StartDate": "1936-06-02",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 27,
+            "Notes": "No departure date indicated",
+            "PlaceID": "dakar_senegal",
+            "StartCitation": "Robeson 24",
+            "StartDate": "1936-06-04",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robson 28",
+            "EndDate": "1936-06-07",
+            "EndType": "departure",
+            "EntryIndex": 28,
+            "Notes": "",
+            "PlaceID": "liberia",
+            "StartCitation": "Robeson 28",
+            "StartDate": "1936-06-07",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 41",
+            "EndDate": "1936-06-17",
+            "EndType": "departure",
+            "EntryIndex": 29,
+            "Notes": "",
+            "PlaceID": "capetown_south_africa",
+            "StartCitation": "Robeson 32",
+            "StartDate": "1936-06-15",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 49",
+            "EndDate": "1936-06-26",
+            "EndType": "departure",
+            "EntryIndex": 30,
+            "Notes": "",
+            "PlaceID": "port_eizabeth_south_africa",
+            "StartCitation": "Robeson 42",
+            "StartDate": "1936-06-19",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 54",
+            "EndDate": "1936-06-28",
+            "EndType": "departure",
+            "EntryIndex": 31,
+            "Notes": "",
+            "PlaceID": "bloemfontein_south_africa",
+            "StartCitation": "Robeson 49",
+            "StartDate": "1936-06-26",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 72",
+            "EndDate": "1936-06-28",
+            "EndType": "departure",
+            "EntryIndex": 32,
+            "Notes": "",
+            "PlaceID": "lesotho",
+            "StartCitation": "Robeson 54",
+            "StartDate": "1936-06-28",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 65",
+            "EndDate": "1936-07-02",
+            "EndType": "departure",
+            "EntryIndex": 33,
+            "Notes": "",
+            "PlaceID": "bloemfontein_south_africa",
+            "StartCitation": "Robeson 57",
+            "StartDate": "1936-06-28",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Fight 383",
             "EndDate": "1936-06-05",
@@ -7470,6 +8019,102 @@
     ],
     "1936-07": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 65",
+            "EndDate": "1936-07-02",
+            "EndType": "departure",
+            "EntryIndex": 33,
+            "Notes": "",
+            "PlaceID": "bloemfontein_south_africa",
+            "StartCitation": "Robeson 57",
+            "StartDate": "1936-06-28",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 77",
+            "EndDate": "1936-07-07",
+            "EndType": "departure",
+            "EntryIndex": 34,
+            "Notes": "",
+            "PlaceID": "johannesburg_south_africa",
+            "StartCitation": "Robeson 65",
+            "StartDate": "1936-07-02",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 77",
+            "EndDate": "1936-07-10",
+            "EndType": "departure",
+            "EntryIndex": 35,
+            "Notes": "",
+            "PlaceID": "maputo_mozambique",
+            "StartCitation": "Robeson 77",
+            "StartDate": "1936-07-07",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 80",
+            "EndDate": "1936-07-13",
+            "EndType": "departure",
+            "EntryIndex": 36,
+            "Notes": "",
+            "PlaceID": "dar_es_salaam_tanzania",
+            "StartCitation": "Robeson 80",
+            "StartDate": "1936-07-13",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 80",
+            "EndDate": "1936-07-14",
+            "EndType": "departure",
+            "EntryIndex": 37,
+            "Notes": "",
+            "PlaceID": "zanzibar",
+            "StartCitation": "Robeson 80",
+            "StartDate": "1936-07-14",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 83",
+            "EndDate": "1936-07-16",
+            "EndType": "departure",
+            "EntryIndex": 38,
+            "Notes": "",
+            "PlaceID": "mombasa_kenya",
+            "StartCitation": "Robeson 81",
+            "StartDate": "1936-07-15",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 86",
+            "EndDate": "1936-07-17",
+            "EndType": "departure",
+            "EntryIndex": 39,
+            "Notes": "",
+            "PlaceID": "kampala_uganda",
+            "StartCitation": "Robeson 86",
+            "StartDate": "1936-07-17",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 113",
+            "EndDate": "1936-08-05",
+            "EndType": "departure",
+            "EntryIndex": 40,
+            "Notes": "",
+            "PlaceID": "kabarole_uganda",
+            "StartCitation": "Robeson 89",
+            "StartDate": "1936-07-18",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1936-07",
@@ -7519,6 +8164,102 @@
         }
     ],
     "1936-08": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 113",
+            "EndDate": "1936-08-05",
+            "EndType": "departure",
+            "EntryIndex": 40,
+            "Notes": "",
+            "PlaceID": "kabarole_uganda",
+            "StartCitation": "Robeson 89",
+            "StartDate": "1936-07-18",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 126",
+            "EndDate": "1936-08-06",
+            "EndType": "departure",
+            "EntryIndex": 41,
+            "Notes": "",
+            "PlaceID": "mbeni_democratic_republic_of_the_congo",
+            "StartCitation": "Robeson 118",
+            "StartDate": "1936-08-05",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 145",
+            "EndDate": "1936-08-17",
+            "EndType": "departure",
+            "EntryIndex": 42,
+            "Notes": "",
+            "PlaceID": "entebbe_uganda",
+            "StartCitation": "Robeson 144",
+            "StartDate": "1936-08-16",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 145",
+            "EndDate": "1936-08-18",
+            "EndType": "departure",
+            "EntryIndex": 43,
+            "Notes": "Layover",
+            "PlaceID": "juba_republic_of_south_sudan",
+            "StartCitation": "Robeson 145",
+            "StartDate": "1936-08-17",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1936-08-19",
+            "EndType": "departure",
+            "EntryIndex": 44,
+            "Notes": "Layover",
+            "PlaceID": "khartoum_sudan",
+            "StartCitation": "Robeson 146",
+            "StartDate": "1936-08-18",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 148",
+            "EndDate": "1936-08-20",
+            "EndType": "departure",
+            "EntryIndex": 45,
+            "Notes": "Layover",
+            "PlaceID": "luxor_egypt",
+            "StartCitation": "Robeson 147",
+            "StartDate": "1936-08-19",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson 150",
+            "EndDate": "1936-08-21",
+            "EndType": "departure",
+            "EntryIndex": 46,
+            "Notes": "Layover",
+            "PlaceID": "alexandria_egypt",
+            "StartCitation": "Robeson 148",
+            "StartDate": "1936-08-20",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 47,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Robeson 152",
+            "StartDate": "1936-08-25",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Fight 400",
@@ -7687,6 +8428,18 @@
     "1937-12": [],
     "1938-01": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 48,
+            "Notes": "Date of return to England unclear",
+            "PlaceID": "valencia_spain",
+            "StartCitation": "Ransby 127",
+            "StartDate": "1938-01-21",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Das 2014, 77-9",
             "EndDate": "1938-02-06",
@@ -7846,7 +8599,20 @@
             "StartType": "arrival"
         }
     ],
-    "1939-10": [],
+    "1939-10": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1940-08",
+            "EndType": "departure",
+            "EntryIndex": 49,
+            "Notes": "",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Ransby 137",
+            "StartDate": "1939-10",
+            "StartType": "arrival"
+        }
+    ],
     "1939-11": [],
     "1939-12": [],
     "1940-01": [
@@ -7955,8 +8721,46 @@
     "1940-05": [],
     "1940-06": [],
     "1940-07": [],
-    "1940-08": [],
-    "1940-09": [],
+    "1940-08": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1940-08",
+            "EndType": "departure",
+            "EntryIndex": 49,
+            "Notes": "",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Ransby 137",
+            "StartDate": "1939-10",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 50,
+            "Notes": "",
+            "PlaceID": "puerto_limon_costa_rica",
+            "StartCitation": "Ransby 322",
+            "StartDate": "1940-08-30",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1940-09": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1940-09-05",
+            "EndType": "departure",
+            "EntryIndex": 51,
+            "Notes": "",
+            "PlaceID": "valencia_spain",
+            "StartCitation": "Ransby 140",
+            "StartDate": "1940-09",
+            "StartType": "arrival"
+        }
+    ],
     "1940-10": [
         {
             "AuthorID": "kdunham",
@@ -8044,6 +8848,18 @@
         }
     ],
     "1941-06": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-05-22",
+            "EndType": "departure",
+            "EntryIndex": 52,
+            "Notes": "",
+            "PlaceID": "ennfield_connecticut_usa",
+            "StartCitation": "Ransby 137",
+            "StartDate": "1941-06",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "kdunham",
             "EndCitation": "Das 2014",
@@ -9213,6 +10029,30 @@
     ],
     "1946-05": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-05-22",
+            "EndType": "departure",
+            "EntryIndex": 52,
+            "Notes": "",
+            "PlaceID": "ennfield_connecticut_usa",
+            "StartCitation": "Ransby 137",
+            "StartDate": "1941-06",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-06-04",
+            "EndType": "departure",
+            "EntryIndex": 53,
+            "Notes": "",
+            "PlaceID": "kinshasa_democratic_republic_of_the_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-05-25",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "",
@@ -9263,6 +10103,90 @@
     ],
     "1946-06": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-06-04",
+            "EndType": "departure",
+            "EntryIndex": 53,
+            "Notes": "",
+            "PlaceID": "kinshasa_democratic_republic_of_the_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-05-25",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-06-06",
+            "EndType": "departure",
+            "EntryIndex": 54,
+            "Notes": "",
+            "PlaceID": "brazzaville_republic_of_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-06-05",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-06-11",
+            "EndType": "departure",
+            "EntryIndex": 55,
+            "Notes": "",
+            "PlaceID": "kinshasa_democratic_republic_of_the_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-06-06",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-06-12",
+            "EndType": "departure",
+            "EntryIndex": 56,
+            "Notes": "",
+            "PlaceID": "brazzaville_republic_of_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-06-11",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-06-18",
+            "EndType": "departure",
+            "EntryIndex": 57,
+            "Notes": "",
+            "PlaceID": "kinshasa_democratic_republic_of_the_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-06-12",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-06-24",
+            "EndType": "departure",
+            "EntryIndex": 58,
+            "Notes": "",
+            "PlaceID": "bangui_central_african_republic",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-06-18",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-07-06",
+            "EndType": "departure",
+            "EntryIndex": 59,
+            "Notes": "",
+            "PlaceID": "bangassou_central_african_republic",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-06-25",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1946-06",
@@ -9277,6 +10201,78 @@
     ],
     "1946-07": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-07-06",
+            "EndType": "departure",
+            "EntryIndex": 59,
+            "Notes": "",
+            "PlaceID": "bangassou_central_african_republic",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-06-25",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-07-12",
+            "EndType": "departure",
+            "EntryIndex": 60,
+            "Notes": "",
+            "PlaceID": "fort_lamy_chad",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-07-06",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-07-14",
+            "EndType": "departure",
+            "EntryIndex": 61,
+            "Notes": "",
+            "PlaceID": "bangui_central_african_republic",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-07-13",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-07-15",
+            "EndType": "departure",
+            "EntryIndex": 62,
+            "Notes": "",
+            "PlaceID": "brazzaville_republic_of_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-07-14",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-07-29",
+            "EndType": "departure",
+            "EntryIndex": 63,
+            "Notes": "",
+            "PlaceID": "kinshasa_democratic_republic_of_the_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-07-15",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-08-07",
+            "EndType": "departure",
+            "EntryIndex": 64,
+            "Notes": "",
+            "PlaceID": "lubumbashi_democratic_republic_of_the_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-07-29",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1946-10",
@@ -9289,7 +10285,32 @@
             "StartType": "arrival"
         }
     ],
-    "1946-08": [],
+    "1946-08": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Robeson, Congo Diary",
+            "EndDate": "1946-08-07",
+            "EndType": "departure",
+            "EntryIndex": 64,
+            "Notes": "",
+            "PlaceID": "lubumbashi_democratic_republic_of_the_congo",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-07-29",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 65,
+            "Notes": "Date of departure unclear",
+            "PlaceID": "bujumbura_burundi",
+            "StartCitation": "Robeson, Congo Diary",
+            "StartDate": "1946-08-07",
+            "StartType": "arrival"
+        }
+    ],
     "1946-09": [
         {
             "AuthorID": "kdunham",
@@ -9419,6 +10440,18 @@
         }
     ],
     "1947-01": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Mi5 Files",
+            "EndDate": "1947-01-23",
+            "EndType": "departure",
+            "EntryIndex": 66,
+            "Notes": "",
+            "PlaceID": "montreal_canada",
+            "StartCitation": "Mi5 Files",
+            "StartDate": "1947-01-23",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -9997,6 +11030,18 @@
     ],
     "1949-04": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 337",
+            "EndDate": "1949-04-29",
+            "EndType": "latest_presence",
+            "EntryIndex": 70,
+            "Notes": "",
+            "PlaceID": "port_of_spain_trinidad",
+            "StartCitation": "Ransby 236",
+            "StartDate": "1949-04",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1949-09",
@@ -10190,6 +11235,18 @@
     ],
     "1949-11": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 67,
+            "Notes": "",
+            "PlaceID": "moscow_russia",
+            "StartCitation": "Ransby, 288",
+            "StartDate": "1949-11-01",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Love Letters from I Tatti Vol 1",
             "EndDate": "1949-11-01",
@@ -10204,6 +11261,18 @@
     ],
     "1949-12": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 199",
+            "EndDate": "1950-01",
+            "EndType": "departure",
+            "EntryIndex": 68,
+            "Notes": "",
+            "PlaceID": "beijing_china",
+            "StartCitation": "Ransby, 198",
+            "StartDate": "1949-12",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Love Letters from I Tatti Vol 1",
             "EndDate": "1950-01-17",
@@ -10217,6 +11286,30 @@
         }
     ],
     "1950-01": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 199",
+            "EndDate": "1950-01",
+            "EndType": "departure",
+            "EntryIndex": 68,
+            "Notes": "",
+            "PlaceID": "beijing_china",
+            "StartCitation": "Ransby, 198",
+            "StartDate": "1949-12",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 236",
+            "EndDate": "1958-04",
+            "EndType": "departure",
+            "EntryIndex": 69,
+            "Notes": "The U.S. government denied Essie a passport because she would not sign an affidavit stating that she was not a communist",
+            "PlaceID": "usa",
+            "StartCitation": "Ransby 199",
+            "StartDate": "1950-01",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -12706,6 +13799,18 @@
     ],
     "1958-01": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 73,
+            "Notes": "Precise dates unclear",
+            "PlaceID": "uzbekistan",
+            "StartCitation": "Ransby 275",
+            "StartDate": "1958",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1958-03",
@@ -12805,7 +13910,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1958-04": [],
+    "1958-04": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 236",
+            "EndDate": "1958-04",
+            "EndType": "departure",
+            "EntryIndex": 69,
+            "Notes": "The U.S. government denied Essie a passport because she would not sign an affidavit stating that she was not a communist",
+            "PlaceID": "usa",
+            "StartCitation": "Ransby 199",
+            "StartDate": "1950-01",
+            "StartType": "arrival"
+        }
+    ],
     "1958-05": [],
     "1958-06": [
         {
@@ -12869,8 +13987,33 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1958-07": [],
+    "1958-07": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 71,
+            "Notes": "London remained Essie's home base for the next 7-8 years",
+            "PlaceID": "london_england",
+            "StartCitation": "Ransby 239",
+            "StartDate": "1958-07",
+            "StartType": "arrival"
+        }
+    ],
     "1958-08": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1958-12-31",
+            "EndType": "latest_presence",
+            "EntryIndex": 72,
+            "Notes": "The Robesons' visit to Russia lasted for about a month. Departure date unclear",
+            "PlaceID": "moscow_russia",
+            "StartCitation": "Ransby 240",
+            "StartDate": "1958-08",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "",
@@ -12900,7 +14043,32 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1958-12": [],
+    "1958-12": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "1958-12-31",
+            "EndType": "latest_presence",
+            "EntryIndex": 72,
+            "Notes": "The Robesons' visit to Russia lasted for about a month. Departure date unclear",
+            "PlaceID": "moscow_russia",
+            "StartCitation": "Ransby 240",
+            "StartDate": "1958-08",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 339",
+            "EndDate": "1958-12-12",
+            "EndType": "departure",
+            "EntryIndex": 74,
+            "Notes": "Not entirey sure about the departure day but the month was December",
+            "PlaceID": "accra_ghana",
+            "StartCitation": "Ransby 242",
+            "StartDate": "1958-12-08",
+            "StartType": "arrival"
+        }
+    ],
     "1959-01": [
         {
             "AuthorID": "glamming",
@@ -13126,7 +14294,44 @@
         }
     ],
     "1959-05": [],
-    "1959-06": [],
+    "1959-06": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 288",
+            "EndDate": "1959-08",
+            "EndType": "departure",
+            "EntryIndex": 75,
+            "Notes": "",
+            "PlaceID": "prague_czech_republic",
+            "StartCitation": "Ransby 288",
+            "StartDate": "1959-06",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 288",
+            "EndDate": "1959-08",
+            "EndType": "departure",
+            "EntryIndex": 76,
+            "Notes": "",
+            "PlaceID": "austria",
+            "StartCitation": "Ransby 288",
+            "StartDate": "1959-06",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 288",
+            "EndDate": "1959-08",
+            "EndType": "departure",
+            "EntryIndex": 77,
+            "Notes": "",
+            "PlaceID": "bucarest_romania",
+            "StartCitation": "Ransby 288",
+            "StartDate": "1959-06",
+            "StartType": "arrival"
+        }
+    ],
     "1959-07": [
         {
             "AuthorID": "webdubois",
@@ -13153,7 +14358,56 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1959-08": [],
+    "1959-08": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 288",
+            "EndDate": "1959-08",
+            "EndType": "departure",
+            "EntryIndex": 75,
+            "Notes": "",
+            "PlaceID": "prague_czech_republic",
+            "StartCitation": "Ransby 288",
+            "StartDate": "1959-06",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 288",
+            "EndDate": "1959-08",
+            "EndType": "departure",
+            "EntryIndex": 76,
+            "Notes": "",
+            "PlaceID": "austria",
+            "StartCitation": "Ransby 288",
+            "StartDate": "1959-06",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 288",
+            "EndDate": "1959-08",
+            "EndType": "departure",
+            "EntryIndex": 77,
+            "Notes": "",
+            "PlaceID": "bucarest_romania",
+            "StartCitation": "Ransby 288",
+            "StartDate": "1959-06",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 251",
+            "EndDate": "1959-08",
+            "EndType": "departure",
+            "EntryIndex": 78,
+            "Notes": "",
+            "PlaceID": "sydney_australia",
+            "StartCitation": "Ransby 251",
+            "StartDate": "1960-10",
+            "StartType": "arrival"
+        }
+    ],
     "1959-09": [],
     "1959-10": [],
     "1959-11": [],
@@ -13317,8 +14571,33 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1960-10": [],
+    "1960-10": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 251",
+            "EndDate": "1959-08",
+            "EndType": "departure",
+            "EntryIndex": 78,
+            "Notes": "",
+            "PlaceID": "sydney_australia",
+            "StartCitation": "Ransby 251",
+            "StartDate": "1960-10",
+            "StartType": "arrival"
+        }
+    ],
     "1960-11": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 79,
+            "Notes": "",
+            "PlaceID": "new_zealand",
+            "StartCitation": "Ransby 251",
+            "StartDate": "1960-11",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -13487,6 +14766,18 @@
     ],
     "1961-05": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 253",
+            "EndDate": "1961-06",
+            "EndType": "departure",
+            "EntryIndex": 80,
+            "Notes": "",
+            "PlaceID": "barvikha_russia",
+            "StartCitation": "Ransby 253",
+            "StartDate": "1961-05",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1961-06",
@@ -13500,6 +14791,18 @@
         }
     ],
     "1961-06": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "Ransby 253",
+            "EndDate": "1961-06",
+            "EndType": "departure",
+            "EntryIndex": 80,
+            "Notes": "",
+            "PlaceID": "barvikha_russia",
+            "StartCitation": "Ransby 253",
+            "StartDate": "1961-05",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -13938,6 +15241,18 @@
     "1963-06": [],
     "1963-07": [
         {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 81,
+            "Notes": "Date of return to London unclear",
+            "PlaceID": "berlin_germany",
+            "StartCitation": " Ransby 267",
+            "StartDate": "1963-07",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "",
@@ -13951,6 +15266,18 @@
         }
     ],
     "1963-08": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 82,
+            "Notes": "Date of return to London unclear",
+            "PlaceID": "berlin_germany",
+            "StartCitation": "Ransby 268",
+            "StartDate": "1963-08",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "",
@@ -13980,7 +15307,20 @@
     ],
     "1963-10": [],
     "1963-11": [],
-    "1963-12": [],
+    "1963-12": [
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 83,
+            "Notes": "",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Ransby 272",
+            "StartDate": "1963-12",
+            "StartType": "arrival"
+        }
+    ],
     "1964-01": [
         {
             "AuthorID": "acesaire",
