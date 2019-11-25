@@ -1,310 +1,470 @@
 City,Region,Country,PlaceName,PlaceID,Lat,Long
-Abidjan,,Ivory Coast,"Abidjan, Ivory Coast",abidjan_ivory_coast,5.3599517,-4.0082563
-Accompong,,Jamaica,"Accompong, Jamaica",accompong_jamaica,18.2278534,-77.7509303
-Accra,,Ghana,"Accra, Ghana",accra_ghana,5.6037168,-0.1869644
-Addis-Ababa,,Ethiopia,"Addis-Ababa, Ethiopia",addis_ababa_ethiopia,8.9806034,38.7577605
-Amsterdam,,Holland,"Amsterdam, Holland",amsterdam_holland,52.3702157,4.8951679
-Angoulême,,France,"Angoulême, France",angouleme_france,45.648377,0.1562369
-Auschwitz,,Poland,"Auschwitz, Poland",auschwitz_poland,50.0274106,19.2019829
-Avignon,,France,"Avignon, France",avignon_france,43.949317,4.805528
-Basse-Pointe,,Martinique,"Basse-Pointe, Martinique",basse_pointe_martinique,14.8672508,-61.1155622
-Basseterre,,St. Kitts and Nevis,"Basseterre, St. Kitts and Nevis",basseterre_st_kitts_and_nevis,17.3026058,-62.7176924
-Belfast,,Northern Ireland,"Belfast, Northern Ireland",belfast_northern_ireland,54.597285,-5.93012
-Berlin,,Germany,"Berlin, Germany",berlin_germany,52.5200066,13.404954
-Bologna,,Italy,"Bologna, Italy",bologna_italy,44.494887,11.3426162
-Boston,Massachusetts,USA,"Boston, Massachusetts, USA",boston_massachusetts_usa,42.3600825,-71.0588801
-Bournemouth,,England,"Bournemouth, England",bournemouth_england,50.719164,-1.880769
-Bremen,,Germany,"Bremen, Germany",bremen_germany,53.0792962,8.8016936
-Bridgetown,,Barbados,"Bridgetown, Barbados",bridgetown_barbados,13.0968511,-59.6144819
-Brooklyn,New York,USA,"Brooklyn, New York, USA",brooklyn_new_york_usa,40.6781784,-73.9441579
-Brussels,,Belgium,"Brussels, Belgium",brussels_belgium,50.8503463,4.3517211
-Bucarest,,Romania,"Bucarest, Romania",bucarest_romania,44.4267674,26.1025384
+Algiers,,Algeria,"Algiers, Algeria",algiers_algeria,36.753768,3.0587561
+Blida,,Algeria,"Blida, Algeria",blida_algeria,36.4757929,2.8297576
+Luanda,,Angola,"Luanda, Angola",luanda_angola,-8.8146556,13.2301756
+Lobito,,Angola,"Lobito, Angola",lobito_angola,-12.3757287,13.5610451
+,,Antigua,Antigua,antigua,17.0746557,-61.8175207
 Buenos Aires,,Argentina,"Buenos Aires, Argentina",buenos_aires_argentina,-34.6036844,-58.3815591
-Cambridge,,England,"Cambridge, England",cambridge_england,52.205337,0.121817
-Cambridge,Massachusetts,USA,"Cambridge, Massachusetts, USA",cambridge_massachusetts_usa,42.3736158,-71.1097335
-Carbondale,Illinois,USA,"Carbondale, Illinois, USA",carbondale_illinois_usa,37.7272727,-89.2167501
-Carmel,California,USA,"Carmel, California, USA",carmel_california_usa,36.5552386,-121.9232879
-Castries,,Saint Lucia,"Castries, Saint Lucia",castries_saint_lucia,14.0101094,-60.9874687
-Chicago,Illinois,USA,"Chicago, Illinois, USA",chicago_illinois_usa,41.8781136,-87.6297982
-Cincinnati,Ohio,USA,"Cincinnati, Ohio, USA",cincinnati_ohio_usa,39.1031182,-84.5120196
-Cleveland,Ohio,USA,"Cleveland, Ohio, USA",cleveland_ohio_usa,41.49932,-81.6943605
-Copenhagen,,Denmark,"Copenhagen, Denmark",copenhagen_denmark,55.6760968,12.5683372
-Covington,Kentucky,USA,"Covington, Kentucky, USA",covington_kentucky_usa,39.0836712,-84.5085536
-CowPastor,,Barbados,"CowPastor, Barbados",cowpastor_barbados,13.193887,-59.543198
-Dakar,,Senegal,"Dakar, Senegal",dakar_senegal,14.716677,-17.4676861
-Detroit,Michigan,USA,"Detroit, Michigan, USA",detroit_michigan_usa,42.331427,-83.0457538
-East St. Louis,Illinois,USA,"East St. Louis, Illinois, USA",east_st_louis_illinois_usa,38.624514,-90.1506465
-Eschenau,,Austria,"Eschenau, Austria",eschenau_austria,48.04875,15.56751
-Falmer,Sussex,England,"Falmer, Sussex, England",falmer_sussex_england,50.8670895,-0.087914
-Florence,,Italy,"Florence, Italy",florence_italy,43.7695604,11.2558136
-Fort-de-France,,Martinique,"Fort-de-France, Martinique",fort_de_france_martinique,14.6160647,-61.0587804
-Geneva,,Switzerland,"Geneva, Switzerland",geneva_switzerland,46.2043907,6.1431577
-Genoa,,Italy,"Genoa, Italy",genoa_italy,44.4056499,8.946256
-Georgetown,,Guyana,"Georgetown, Guyana",georgetown_guyana,6.8012793,-58.1551255
-Glen Ellyn,Illinois,USA,"Glen Ellyn, Illinois, USA",glen_ellyn_illinois_usa,41.8775293,-88.0670118
-Hanover,,Germany,"Hanover, Germany",hanover_germany,52.3758916,9.7320104
-Havana,,Cuba,"Havana, Cuba",havana_cuba,23.1135925,-82.3665956
-Ho,,Trans-Volta Togoland,"Ho, Trans-Volta Togoland",ho_trans_volta_togoland,6.6101493,0.4785495
-Indianapolis,Indiana,USA,"Indianapolis, Indiana, USA",indianapolis_indiana_usa,39.768403,-86.158068
-Joliet,Illinois,USA,"Joliet, Illinois, USA",joliet_illinois_usa,41.525031,-88.0817251
-Kansas City,,USA,"Kansas City, USA",kansas_city_usa,39.0997265,-94.5785667
-Kingston,,Jamaica,"Kingston, Jamaica",kingston_jamaica,18.0178743,-76.8099041
-Las Vegas,Nevada,USA,"Las Vegas, Nevada, USA",las_vegas_nevada_usa,36.1699412,-115.1398296
-Lecce,,Italy,"Lecce, Italy",lecce_italy,40.3515155,18.1750161
-Lima,,Peru,"Lima, Peru",lima_peru,-12.0463731,-77.042754
-Limura,,Kenya,"Limura, Kenya",limura_kenya,-1.1069305,36.6431267
-London,,England,"London, England",london_england,51.5073509,-0.1277583
-Los Angeles,California,USA,"Los Angeles, California, USA",los_angeles_california_usa,34.0522342,-118.2436849
-Louisville,Kentucky,USA,"Louisville, Kentucky, USA",louisville_kentucky_usa,38.2526647,-85.7584557
-Manhattan,New York,USA,"Manhattan, New York, USA",manhattan_new_york_usa,40.7830603,-73.9712488
 Mar de Plata,,Argentina,"Mar de Plata, Argentina",mar_de_plata_argentina,-38.0054771,-57.5426106
-Memphis,Tennessee,USA,"Memphis, Tennessee, USA",memphis_tennessee_usa,35.1495343,-90.0489801
-Mexico City,,Mexico,"Mexico City, Mexico",mexico_city_mexico,19.4326077,-99.133208
-Miami,Florida,USA,"Miami, Florida, USA",miami_florida_usa,25.7616798,-80.1917902
-Milan,,Italy,"Milan, Italy",milan_italy,45.4642035,9.189982
-Mona,,Jamaica,"Mona, Jamaica",mona_jamaica,18.0123976,-76.7480805
-Montevideo,,Uruguay,"Montevideo, Uruguay",montevideo_uruguay,-34.9011127,-56.1645314
-Montreal,,Canada,"Montreal, Canada",montreal_canada,45.5016889,-73.567256
-Moscow,,Russia,"Moscow, Russia",moscow_russia,55.755826,37.6172999
-Munich,,Germany,"Munich, Germany",munich_germany,48.1351253,11.5819805
-Mysore,,India,"Mysore, India",mysore_india,12.2958104,76.6393805
-Nairobi,,Kenya,"Nairobi, Kenya",nairobi_kenya,-1.2920659,36.8219462
-Naples,,Italy,"Naples, Italy",naples_italy,40.8517746,14.2681244
-New Haven,Connecticut,USA,"New Haven, Connecticut, USA",new_haven_connecticut_usa,41.308274,-72.9278835
-New York,New York,USA,"New York, New York, USA",new_york_new_york_usa,40.7127753,-74.0059728
-Oakland,California,USA,"Oakland, California, USA",oakland_california_usa,37.8043637,-122.2711137
-Okinawa,,Japan,"Okinawa, Japan",okinawa_japan,26.2124013,127.6809317
-Orange,New Jersey,USA,"Orange, New Jersey, USA",orange_new_jersey_usa,40.7706187,-74.2326478
-Palm Springs,Florida,USA,"Palm Springs, Florida, USA",palm_springs_florida_usa,26.6359009,-80.0961538
-Paris,,France,"Paris, France",paris_france,48.856614,2.3522219
-Philadelphia,Pennsylvania,USA,"Philadelphia, Pennsylvania, USA",philadelphia_pennsylvania_usa,39.9525839,-75.1652215
-Pittsburgh,Pennsylvania,USA,"Pittsburgh, Pennsylvania, USA",pittsburgh_pennsylvania_usa,40.4406248,-79.9958864
-Port-au-Prince,,Haiti,"Port-au-Prince, Haiti",port_au_prince_haiti,18.594395,-72.3074326
-Port-of-Spain,,Trinidad,"Port-of-Spain, Trinidad",port_of_spain_trinidad,10.6549013,-61.5019256
-Portland,Oregon,USA,"Portland, Oregon, USA",portland_oregon_usa,45.5122308,-122.6587185
-Reno,Nevada,USA,"Reno, Nevada, USA",reno_nevada_usa,39.5296329,-119.8138027
-Rome,,Italy,"Rome, Italy",rome_italy,41.9027835,12.4963655
-Salvador de Bahia,,Brazil,"Salvador de Bahia, Brazil",salvador_de_bahia_brazil,-12.977749,-38.5016301
-Salzburg,,Austria,"Salzburg, Austria",salzburg_austria,47.80949,13.05501
-San Diego,California,USA,"San Diego, California, USA",san_diego_california_usa,32.715738,-117.1610838
-San Francisco,California,USA,"San Francisco, California, USA",san_francisco_california_usa,37.7749295,-122.4194155
-Santa Cruz,California,USA,"Santa Cruz, California, USA",santa_cruz_california_usa,36.9741171,-122.0307963
-Santiago,,Chile,"Santiago, Chile",santiago_chile,-33.4488897,-70.6692655
-Sao Paolo,,Brazil,"Sao Paolo, Brazil",sao_paolo_brazil,-23.5505199,-46.6333094
-Seattle,Washington,USA,"Seattle, Washington, USA",seattle_washington_usa,47.6062095,-122.3320708
-Seoul,,Korea,"Seoul, Korea",seoul_korea,37.566535,126.9779692
-Šibenik,,Croatia,"Šibenik, Croatia",sibenik_croatia,43.7350196,15.8952045
-Spokane,Washington,USA,"Spokane, Washington, USA",spokane_washington_usa,47.6587802,-117.4260465
-St. Louis,Missouri,USA,"St. Louis, Missouri, USA",st_louis_missouri_usa,38.6270025,-90.1994042
-St. Paul,Minnesota,USA,"St. Paul, Minnesota, USA",st_paul_minnesota_usa,44.9537029,-93.0899578
-Stockholm,,Sweden,"Stockholm, Sweden",stockholm_sweden,59.3293235,18.0685808
-Tokyo,,Japan,"Tokyo, Japan",tokyo_japan,35.6894875,139.6917064
-Toronto,,Canada,"Toronto, Canada",toronto_canada,43.653226,-79.3831843
-Turin,,Italy,"Turin, Italy",turin_italy,45.070312,7.6868565
-Vancouver,,Canada,"Vancouver, Canada",vancouver_canada,49.2827291,-123.1207375
-Venice,,Italy,"Venice, Italy",venice_italy,45.4408474,12.3155151
-Vienna,,Austria,"Vienna, Austria",vienna_austria,48.2081743,16.3738189
-"Washington, D.C.",,USA,"Washington, D.C., USA",washington_dc._usa,38.9071923,-77.0368707
-Worcester,Massachusetts,USA,"Worcester, Massachusetts, USA",worcester_massachusetts_usa,42.2625932,-71.8022934
-Wroclaw,,Poland,"Wroclaw, Poland",wroclaw_poland,51.1078852,17.0385376
-Zurich,,Switzerland,"Zurich, Switzerland",zurich_switzerland,47.3768866,8.541694
+Melbourne,,Australia,"Melbourne, Australia",melbourne_australia,-37.8136276,144.9630576
 ,,Australia,Australia,australia,-25.274398,133.775136
+Sydney,,Australia,"Sydney, Australia",sydney_australia,-33.8688197,151.2092955
+Perth,,Australia,"Perth, Australia",perth_australia,-31.9505269,115.8604572
+Eschenau,,Austria,"Eschenau, Austria",eschenau_austria,48.04875,15.56751
+Salzburg,,Austria,"Salzburg, Austria",salzburg_austria,47.80949,13.05501
+Vienna,,Austria,"Vienna, Austria",vienna_austria,48.2081743,16.3738189
 ,,Austria,Austria,austria,47.516231,14.550072
+Kitzbuhel,,Austria,"Kitzbuhel, Austria",kitzbuhel_austria,47.4492375,12.3925407
+Horta,,Azores,"Horta, Azores",horta_azores,38.5348447,-28.6299812
+Bridgetown,,Barbados,"Bridgetown, Barbados",bridgetown_barbados,13.0968511,-59.6144819
+CowPastor,,Barbados,"CowPastor, Barbados",cowpastor_barbados,13.193887,-59.543198
+Carrington Town,,Barbados,"Carrington Town, Barbados",carrington_town_barbados,13.1973298,-59.579361
+Cave Hill,,Barbados,"Cave Hill, Barbados",cave_hill_barbados,13.1330817,-59.623303
+,,Barbados,Barbados,barbados,13.193887,-59.543198
+Brussels,,Belgium,"Brussels, Belgium",brussels_belgium,50.8503463,4.3517211
+Antwerp,,Belgium,"Antwerp, Belgium",antwerp_belgium,51.2194475,4.4024643
+Liege,,Belgium,"Liege, Belgium",liege_belgium,50.6325574,5.5796662
+Hamilton,,Bermuda,"Hamilton, Bermuda",hamilton_bermuda,32.2945837,-64.7858887
+Salvador de Bahia,,Brazil,"Salvador de Bahia, Brazil",salvador_de_bahia_brazil,-12.977749,-38.5016301
+Sao Paolo,,Brazil,"Sao Paolo, Brazil",sao_paolo_brazil,-23.5505199,-46.6333094
+Bujumbura,,Burundi,"Bujumbura, Burundi",bujumbura_burundi,-3.361378,29.3598782
+Montreal,,Canada,"Montreal, Canada",montreal_canada,45.5016889,-73.567256
+Toronto,,Canada,"Toronto, Canada",toronto_canada,43.653226,-79.3831843
+Vancouver,,Canada,"Vancouver, Canada",vancouver_canada,49.2827291,-123.1207375
+Quebec,,Canada,"Quebec, Canada",quebec_canada,52.9399159,-73.5491361
+Fort Erie,,Canada,"Fort Erie, Canada",fort_erie_canada,42.9017764,-78.9721745
+,,Canada,Canada,canada,56.130366,-106.346771
+Bangui,,Central African Republic,"Bangui, Central African Republic",bangui_central_african_republic,4.3946735,18.5581899
+Bangassou,,Central African Republic,"Bangassou, Central African Republic",bangassou_central_african_republic,4.7378613,22.8165095
+Fort Lamy,,Chad,"Fort Lamy, Chad",fort_lamy_chad,14.8222222,15.8330556
+Santiago,,Chile,"Santiago, Chile",santiago_chile,-33.4488897,-70.6692655
+Beijing,,China,"Beijing, China",beijing_china,39.9041999,116.4073963
+Shanghai,,China,"Shanghai, China",shanghai_china,31.2303904,121.4737021
+,,China,China,china,35.86166,104.195397
 ,,Colombia,Colombia,colombia,4.570868,-74.297333
+Cartagena,,Colombia,"Cartagena, Colombia",cartagena_colombia,10.3910485,-75.4794257
+Puerto Limón,,Costa Rica,"Puerto Limón, Costa Rica",puerto_limon_costa_rica,9.9913106,-83.0415078
+Šibenik,,Croatia,"Šibenik, Croatia",sibenik_croatia,43.7350196,15.8952045
+Havana,,Cuba,"Havana, Cuba",havana_cuba,23.1135925,-82.3665956
+Santiago de las Vegas,,Cuba,"Santiago de las Vegas, Cuba",santiago_de_las_vegas_cuba,22.9702067,-82.3858672
+Sagua La Grande,,Cuba,"Sagua La Grande, Cuba",sagua_la_grande_cuba,22.8037709,-80.0702555
+Las Villas,,Cuba,"Las Villas, Cuba",las_villas_cuba,22.4937204,-79.9192702
+Santiago de Cuba,,Cuba,"Santiago de Cuba, Cuba",santiago_de_cuba_cuba,20.01693,-75.8301537
+,,Cuba,Cuba,cuba,21.521757,-77.781167
+Camagüey,,Cuba,"Camagüey, Cuba",camaguey_cuba,21.3926035,-77.9053182
+Prague,,Czech Republic,"Prague, Czech Republic",prague_czech_republic,50.0755381,14.4378005
+Tatra Mountains,,Czech Republic,"Tatra Mountains, Czech Republic",tatra_mountains_czech_republic,49.1556982,20.0442995
+Brno,,Czech Republic,"Brno, Czech Republic",brno_czech_republic,49.1950602,16.6068371
+Boma,Kongo Central,Democratic Republic of Congo,"Boma, Kongo Central, Democratic Republic of Congo",boma_kongo_central_democratic_republic_of_congo,-5.85114,13.05358
+Matadi,Kongo Central,Democratic Republic of Congo,"Matadi, Kongo Central, Democratic Republic of Congo",matadi_kongo_central_democratic_republic_of_congo,-5.8226,13.47482
+Mbeni,,Democratic Republic of the Congo,"Mbeni, Democratic Republic of the Congo",mbeni_democratic_republic_of_the_congo,-4.691594,19.113859
+Lubumbashi,,Democratic Republic of the Congo,"Lubumbashi, Democratic Republic of the Congo",lubumbashi_democratic_republic_of_the_congo,-11.6876026,27.5026174
+Kinshasa,,Democratic Republic of the Congo,"Kinshasa, Democratic Republic of the Congo",kinshasa_democratic_republic_of_the_congo,-4.4419311,15.2662931
+Copenhagen,,Denmark,"Copenhagen, Denmark",copenhagen_denmark,55.6760968,12.5683372
+,,Denmark,Denmark,denmark,56.26392,9.501785
+,,Dominica,Dominica,dominica,15.414999,-61.370976
+,,Dominica ,Dominica ,dominica_,15.414999,-61.370976
+,,Dominican Republic,Dominican Republic,dominican_republic,18.735693,-70.162651
+Santo-Domingo,,Dominican Republic,"Santo-Domingo, Dominican Republic",santo_domingo_dominican_republic,18.4860575,-69.9312117
 ,,Ecuador,Ecuador,ecuador,-1.831239,-78.183406
+Alexandria,,Egypt,"Alexandria, Egypt",alexandria_egypt,31.2000924,29.9187387
+Luxor,,Egypt,"Luxor, Egypt",luxor_egypt,25.6872431,32.6396357
+,,Egypt,Egypt,egypt,26.820553,30.802498
+Bournemouth,,England,"Bournemouth, England",bournemouth_england,50.719164,-1.880769
+Cambridge,,England,"Cambridge, England",cambridge_england,52.205337,0.121817
+Falmer,Sussex,England,"Falmer, Sussex, England",falmer_sussex_england,50.8670895,-0.087914
+London,,England,"London, England",london_england,51.5073509,-0.1277583
 ,English Provinces,England,"English Provinces, England",english_provinces_england,52.3555177,-1.1743197
 ,,England,England,england,52.3555177,-1.1743197
-,,Germany,Germany,germany,51.165691,10.451526
-,,Greece,Greece,greece,39.074208,21.824312
-,,Haiti,Haiti,haiti,18.971187,-72.285215
-,,Hong Kong,Hong Kong,hong_kong,22.396428,114.109497
-,,Ireland,Ireland,ireland,53.41291,-8.24389
-,,Italy,Italy,italy,41.87194,12.56738
-,,Lebanon,Lebanon,lebanon,33.854721,35.862285
-,,Malay Federation (Malaysia),Malay Federation (Malaysia),malay_federation_(malaysia),5.3266,100.282196
-,,Martinique,Martinique,martinique,14.641528,-61.024174
-,,Mexico,Mexico,mexico,23.634501,-102.552784
-,,Morocco,Morocco,morocco,31.791702,-7.09262
-,,New York,New York,new_york,40.7127753,-74.0059728
-,,New Zealand,New Zealand,new_zealand,-40.900557,174.885971
-,,Nigeria,Nigeria,nigeria,9.081999,8.675277
-,,Philippines,Philippines,philippines,,
-,,Puerto Rico,Puerto Rico,puerto_rico,,
-,,Scotland,Scotland,scotland,,
-,,Singapore,Singapore,singapore,,
-,,Spain,Spain,spain,,
-,,Switzerland,Switzerland,switzerland,,
-,,Trinidad,Trinidad,trinidad,,
-,,USA,USA,usa,,
-,Michigan,USA,"Michigan, USA",michigan_usa,,
-,,Yugoslavia,Yugoslavia,yugoslavia,,
+Liverpool,,England,"Liverpool, England",liverpool_england,53.4083714,-2.9915726
+Manchester,,England,"Manchester, England",manchester_england,53.4807593,-2.2426305
+Hull,,England,"Hull, England",hull_england,53.7456709,-0.3367413
+Margate,,England,"Margate, England",margate_england,51.389646,1.3868339
+Ramsgate,,England,"Ramsgate, England",ramsgate_england,51.335545,1.419895
+Brighton,,England,"Brighton, England",brighton_england,50.82253,-0.137163
+Lake District,,England,"Lake District, England",lake_district_england,54.4608702,-3.0886254
+Southampton,,England,"Southampton, England",southampton_england,50.9097004,-1.4043509
+Newcastle upon Thyne,,England,"Newcastle upon Thyne, England",newcastle_upon_thyne_england,54.978252,-1.61778
+Knaresborough,,England,"Knaresborough, England",knaresborough_england,54.011022,-1.47102
+Addis-Ababa,,Ethiopia,"Addis-Ababa, Ethiopia",addis_ababa_ethiopia,8.9806034,38.7577605
 ,,Europe,Europe,europe,54.5259614,15.2551187
-New,Place,USA,"New, Place, USA",new_place_usa,37.09024,-95.712891
+Angoulême,,France,"Angoulême, France",angouleme_france,45.648377,0.1562369
+Avignon,,France,"Avignon, France",avignon_france,43.949317,4.805528
+Paris,,France,"Paris, France",paris_france,48.856614,2.3522219
+Marseilles,,France,"Marseilles, France",marseilles_france,43.296482,5.36978
+La Ciotat,,France,"La Ciotat, France",la_ciotat_france,43.173653,5.605155
+Toulon,,France,"Toulon, France",toulon_france,43.124228,5.928
+Cherbourg,,France,"Cherbourg, France",cherbourg_france,49.6337308,-1.622137
+Andé,,France,"Andé, France",ande_france,49.231559,1.24028
+Lézignan-Corbières,,France,"Lézignan-Corbières, France",lezignan_corbieres_france,43.200503,2.7577759
+Mougins,,France,"Mougins, France",mougins_france,43.6023319,7.006491
+Saché,Indre-et-Loire,France,"Saché, Indre-et-Loire, France",sache_indre_et_loire_france,47.246625,0.543334
+Cannes,,France,"Cannes, France",cannes_france,43.552847,7.017369
+Lyon,,France,"Lyon, France",lyon_france,45.764043,4.835659
+Pontorson,Manche,France,"Pontorson, Manche, France",pontorson_manche_france,48.553872,-1.509877
+Rouen,Seine-Maritime,France,"Rouen, Seine-Maritime, France",rouen_seine_maritime_france,49.443232,1.099971
+Menton,,France,"Menton, France",menton_france,43.774481,7.49754
+Nice,,France,"Nice, France",nice_france,43.7101728,7.2619532
+Cap d'Antibes,,France,"Cap d'Antibes, France",cap_d'antibes_france,43.542493,7.121621
+Brest,,France,"Brest, France",brest_france,48.390394,-4.486076
+Bordeaux,,France,"Bordeaux, France",bordeaux_france,44.837789,-0.57918
+Strasbourg,,France,"Strasbourg, France",strasbourg_france,48.5734053,7.7521113
+Chamonix-Mount Blanc,,France,"Chamonix-Mount Blanc, France",chamonix_mount_blanc_france,45.923697,6.869433
+Saint-Étienne,,France,"Saint-Étienne, France",saint_etienne_france,45.439695,4.3871779
+Carcassonne,,France,"Carcassonne, France",carcassonne_france,43.2132151,2.3517703
+Villefranche,,France,"Villefranche, France",villefranche_france,43.703976,7.311109
+,,France,France,france,46.227638,2.213749
+Berlin,,Germany,"Berlin, Germany",berlin_germany,52.5200066,13.404954
+Bremen,,Germany,"Bremen, Germany",bremen_germany,53.0792962,8.8016936
+Hanover,,Germany,"Hanover, Germany",hanover_germany,52.3758916,9.7320104
+Munich,,Germany,"Munich, Germany",munich_germany,48.1351253,11.5819805
+,,Germany,Germany,germany,51.165691,10.451526
+Hamburg,,Germany,"Hamburg, Germany",hamburg_germany,53.5510846,9.9936819
+Düsseldorf,,Germany,"Düsseldorf, Germany",dusseldorf_germany,51.2277411,6.7734556
+Frankfurt,,Germany,"Frankfurt, Germany",frankfurt_germany,50.1109221,8.6821267
+Eisenach,,Germany,"Eisenach, Germany",eisenach_germany,50.9795715,10.3146872
+Weimar,,Germany,"Weimar, Germany",weimar_germany,50.9794934,11.3235439
+Leipzig,,Germany,"Leipzig, Germany",leipzig_germany,51.3396955,12.3730747
+Mannheim,,Germany,"Mannheim, Germany",mannheim_germany,49.4874592,8.4660395
+Heidelberg,,Germany,"Heidelberg, Germany",heidelberg_germany,49.3987524,8.6724335
+Pfalz,,Germany,"Pfalz, Germany",pfalz_germany,50.118346,7.3089527
+Neustadt,,Germany,"Neustadt, Germany",neustadt_germany,49.3501864,8.1486886
+Stuttgart,,Germany,"Stuttgart, Germany",stuttgart_germany,48.7758459,9.1829321
+Nuremberg,,Germany,"Nuremberg, Germany",nuremberg_germany,49.4521018,11.0766654
+Dresden,,Germany,"Dresden, Germany",dresden_germany,51.0504088,13.7372621
+Lübeck,,Germany,"Lübeck, Germany",lubeck_germany,53.8654673,10.6865593
+Kassel,,Germany,"Kassel, Germany",kassel_germany,51.3127114,9.4797461
+Breslau,,Germany,"Breslau, Germany",breslau_germany,51.1078852,17.0385376
+Magdeburg,,Germany,"Magdeburg, Germany",magdeburg_germany,52.1205333,11.6276237
+Halberstadt,,Germany,"Halberstadt, Germany",halberstadt_germany,51.8948709,11.0496159
+,Bavaria,Germany,"Bavaria, Germany",bavaria_germany,48.7904472,11.4978895
+Cologne,,Germany,"Cologne, Germany",cologne_germany,50.937531,6.9602786
+Accra,,Ghana,"Accra, Ghana",accra_ghana,5.6037168,-0.1869644
+Kumasi,,Ghana,"Kumasi, Ghana",kumasi_ghana,6.6666004,-1.6162709
+,,Greece,Greece,greece,39.074208,21.824312
+Corfu,,Greece,"Corfu, Greece",corfu_greece,39.6242621,19.9216777
+Athens,,Greece,"Athens, Greece",athens_greece,37.9838096,23.7275388
+True Blue,,Grenada,"True Blue, Grenada",true_blue_grenada,12.0044598,-61.7721909
+,,Grenada,Grenada,grenada,12.1165,-61.679
+Point-à-Pitre,,Guadeloupe,"Point-à-Pitre, Guadeloupe",point_a_pitre_guadeloupe,16.2376869,-61.5340424
+,,Guadeloupe,Guadeloupe,guadeloupe,16.265,-61.551
+Kankan,,Guinea,"Kankan, Guinea",kankan_guinea,10.3827887,-9.3118282
+Conakry,,Guinea,"Conakry, Guinea",conakry_guinea,9.6411855,-13.5784012
+Georgetown,,Guyana,"Georgetown, Guyana",georgetown_guyana,6.804611,-58.154831
+Buxton,,Guyana,"Buxton, Guyana",buxton_guyana,6.764915,-58.040272
+,,Guyana,Guyana,guyana,4.860416,-58.93018
+Port-au-Prince,,Haiti,"Port-au-Prince, Haiti",port_au_prince_haiti,18.594395,-72.3074326
+,,Haiti,Haiti,haiti,18.971187,-72.285215
+Jacmel,,Haiti,"Jacmel, Haiti",jacmel_haiti,18.2430063,-72.5263984
+Amsterdam,,Holland,"Amsterdam, Holland",amsterdam_holland,52.3702157,4.8951679
+,,Hong Kong,Hong Kong,hong_kong,22.396428,114.109497
+Budapest,,Hungary,"Budapest, Hungary",budapest_hungary,47.497912,19.040235
+Mysore,,India,"Mysore, India",mysore_india,12.2958104,76.6393805
+,,India,India,india,20.593684,78.96288
+,,Ireland,Ireland,ireland,53.41291,-8.24389
+Bologna,,Italy,"Bologna, Italy",bologna_italy,44.494887,11.3426162
+Florence,,Italy,"Florence, Italy",florence_italy,43.7695604,11.2558136
+Genoa,,Italy,"Genoa, Italy",genoa_italy,44.4056499,8.946256
+Lecce,,Italy,"Lecce, Italy",lecce_italy,40.3515155,18.1750161
+Milan,,Italy,"Milan, Italy",milan_italy,45.4642035,9.189982
+Naples,,Italy,"Naples, Italy",naples_italy,40.8517746,14.2681244
+Rome,,Italy,"Rome, Italy",rome_italy,41.9027835,12.4963655
+Turin,,Italy,"Turin, Italy",turin_italy,45.070312,7.6868565
+Venice,,Italy,"Venice, Italy",venice_italy,45.4408474,12.3155151
+,,Italy,Italy,italy,41.87194,12.56738
+Albissola,"Savona, Liguria",Italy,"Albissola, Savona, Liguria, Italy",albissola_savona_liguria_italy,44.3263602,8.5012243
+Rappalo,Genoa,Italy,"Rappalo, Genoa, Italy",rappalo_genoa_italy,44.3498211,9.2338889
+Abidjan,,Ivory Coast,"Abidjan, Ivory Coast",abidjan_ivory_coast,5.3599517,-4.0082563
+Grand-Bassam,,Ivory Coast,"Grand-Bassam, Ivory Coast",grand_bassam_ivory_coast,5.225936,-3.7536663
+Accompong,,Jamaica,"Accompong, Jamaica",accompong_jamaica,18.2278534,-77.7509303
+Kingston,,Jamaica,"Kingston, Jamaica",kingston_jamaica,18.0178743,-76.8099041
+Mona,,Jamaica,"Mona, Jamaica",mona_jamaica,18.0123976,-76.7480805
 Nairne Castle,Clarendon,Jamaica,"Nairne Castle, Clarendon, Jamaica",nairne_castle_clarendon_jamaica,17.9609693,-77.5897158
 Montego Bay,Saint James,Jamaica,"Montego Bay, Saint James, Jamaica",montego_bay_saint_james_jamaica,18.471215,-77.9398877
 Sunny Ville,Clarendon,Jamaica,"Sunny Ville, Clarendon, Jamaica",sunny_ville_clarendon_jamaica,17.9609693,-77.5897158
 Brown's Town,St. Ann,Jamaica,"Brown's Town, St. Ann, Jamaica",brown's_town_st_ann_jamaica,18.3900766,-77.3849869
-Charleston,South Carolina,USA,"Charleston, South Carolina, USA",charleston_south_carolina_usa,36.1201561,-77.3755239
-Tuskegee,Alabama,USA,"Tuskegee, Alabama, USA",tuskegee_alabama_usa,32.430237,-85.7077266
-Manhattan,Kansas,USA,"Manhattan, Kansas, USA",manhattan_kansas_usa,39.1836082,-96.5716694
-Liverpool,,England,"Liverpool, England",liverpool_england,53.4083714,-2.9915726
-Szczecin ,,Poland,"Szczecin , Poland",szczecin__poland,53.4285438,14.5528116
-St. Petersburg,,Russia,"St. Petersburg, Russia",st_petersburg_russia,59.9342802,30.3350986
-Hamburg,,Germany,"Hamburg, Germany",hamburg_germany,53.5510846,9.9936819
-Marseilles,,France,"Marseilles, France",marseilles_france,43.296482,5.36978
-La Ciotat,,France,"La Ciotat, France",la_ciotat_france,43.173653,5.605155
-Toulon,,France,"Toulon, France",toulon_france,43.124228,5.928
+,,Jamaica,Jamaica,jamaica,18.109581,-77.297508
+Okinawa,,Japan,"Okinawa, Japan",okinawa_japan,26.2124013,127.6809317
+Tokyo,,Japan,"Tokyo, Japan",tokyo_japan,35.6894875,139.6917064
+Nagasaki,,Japan,"Nagasaki, Japan",nagasaki_japan,32.7503334,129.8778888
+Osaka,,Japan,"Osaka, Japan",osaka_japan,34.6937249,135.5022535
+Yokahama,,Japan,"Yokahama, Japan",yokahama_japan,35.4436739,139.6379639
+Limura,,Kenya,"Limura, Kenya",limura_kenya,-1.1069305,36.6431267
+Nairobi,,Kenya,"Nairobi, Kenya",nairobi_kenya,-1.2920659,36.8219462
+Mombasa,,Kenya,"Mombasa, Kenya",mombasa_kenya,-4.0434771,39.6682065
+Limuru,,Kenya,"Limuru, Kenya",limuru_kenya,-1.1069305,36.6431267
+,,Kenya,Kenya,kenya,-0.023559,37.906193
+Seoul,,Korea,"Seoul, Korea",seoul_korea,37.566535,126.9779692
+,,Lebanon,Lebanon,lebanon,33.854721,35.862285
+,,Lesotho,Lesotho,lesotho,-29.609988,28.233608
+Monrovia,,Liberia,"Monrovia, Liberia",monrovia_liberia,6.3156068,-10.8073698
+,,Liberia,Liberia,liberia,6.428055,-9.429499
+New Orleans,,Louisiana,"New Orleans, Louisiana",new_orleans_louisiana,29.9510658,-90.0715323
+,,Malay Federation (Malaysia),Malay Federation (Malaysia),malay_federation_(malaysia),5.3266,100.282196
+Basse-Pointe,,Martinique,"Basse-Pointe, Martinique",basse_pointe_martinique,14.8672508,-61.1155622
+Fort-de-France,,Martinique,"Fort-de-France, Martinique",fort_de_france_martinique,14.6160647,-61.0587804
+,,Martinique,Martinique,martinique,14.641528,-61.024174
+Port Louis,,Mauritius,"Port Louis, Mauritius",port_louis_mauritius,-20.1608912,57.5012222
+Mexico City,,Mexico,"Mexico City, Mexico",mexico_city_mexico,19.4326077,-99.133208
+,,Mexico,Mexico,mexico,23.634501,-102.552784
+Toluca,,Mexico,"Toluca, Mexico",toluca_mexico,19.2826098,-99.6556653
+Veracruz,,Mexico,"Veracruz, Mexico",veracruz_mexico,19.173773,-96.1342241
+Ann Arbor,,Michigan,"Ann Arbor, Michigan",ann_arbor_michigan,42.2808256,-83.7430378
+,,Morocco,Morocco,morocco,31.791702,-7.09262
+Rabat,,Morocco,"Rabat, Morocco",rabat_morocco,33.9715904,-6.8498129
+Tangier,,Morocco,"Tangier, Morocco",tangier_morocco,35.7594651,-5.8339543
+Xauen,,Morocco,"Xauen, Morocco",xauen_morocco,35.168796,-5.2683641
+Fes,,Morocco,"Fes, Morocco",fes_morocco,34.0181246,-5.0078451
+Casablanca,,Morocco,"Casablanca, Morocco",casablanca_morocco,33.5731104,-7.5898434
+Marrakesh,,Morocco,"Marrakesh, Morocco",marrakesh_morocco,31.6294723,-7.9810845
+Maputo,,Mozambique,"Maputo, Mozambique",maputo_mozambique,-25.969248,32.5731746
+Rotterdam,,Netherlands,"Rotterdam, Netherlands",rotterdam_netherlands,51.9244201,4.4777326
+,,New York,New York,new_york,40.7127753,-74.0059728
+Binghamton,,New York,"Binghamton, New York",binghamton_new_york,42.0986867,-75.9179738
+,,New Zealand,New Zealand,new_zealand,-40.900557,174.885971
+Auckland,,New Zealand,"Auckland, New Zealand",auckland_new_zealand,-36.8484597,174.7633315
+Wellington,,New Zealand,"Wellington, New Zealand",wellington_new_zealand,-41.2864603,174.776236
+Christchurch,,New Zealand,"Christchurch, New Zealand",christchurch_new_zealand,-43.5320544,172.6362254
+,,Nigeria,Nigeria,nigeria,9.081999,8.675277
+Lagos,,Nigeria,"Lagos, Nigeria",lagos_nigeria,6.5243793,3.3792057
+Ibadan,,Nigeria,"Ibadan, Nigeria",ibadan_nigeria,7.3775355,3.9470396
+Port of Bonny,Rivers State,Nigeria,"Port of Bonny, Rivers State, Nigeria",port_of_bonny_rivers_state_nigeria,4.43385,7.1782
+Dawes Island,,Nigeria,"Dawes Island, Nigeria",dawes_island_nigeria,4.6719444,7.0977778
+Port of Harcourt,,Nigeria,"Port of Harcourt, Nigeria",port_of_harcourt_nigeria,4.815554,7.0498442
+Zaria,,Nigeria,"Zaria, Nigeria",zaria_nigeria,11.0855409,7.7199454
+Ilorin,,Nigeria,"Ilorin, Nigeria",ilorin_nigeria,8.4798786,4.5418141
+Tegina,,Nigeria,"Tegina, Nigeria",tegina_nigeria,10.0805006,6.1752377
+Kaduna,,Nigeria,"Kaduna, Nigeria",kaduna_nigeria,10.5104642,7.4165053
+Benin,,Nigeria,"Benin, Nigeria",benin_nigeria,6.334986,5.6037465
+Sapele,,Nigeria,"Sapele, Nigeria",sapele_nigeria,5.8750769,5.6931356
+Chapel Hill,,North Carolina,"Chapel Hill, North Carolina",chapel_hill_north_carolina,35.9131996,-79.0558445
+Durham,,North Carolina,"Durham, North Carolina",durham_north_carolina,35.9940329,-78.898619
+Belfast,,Northern Ireland,"Belfast, Northern Ireland",belfast_northern_ireland,54.597285,-5.93012
+Lima,,Peru,"Lima, Peru",lima_peru,-12.0463731,-77.042754
+,,Philippines,Philippines,philippines,12.879721,121.774017
+Manila,,Philippines,"Manila, Philippines",manila_philippines,14.5995124,120.9842195
+Auschwitz,,Poland,"Auschwitz, Poland",auschwitz_poland,50.0274106,19.2019829
+Wroclaw,,Poland,"Wroclaw, Poland",wroclaw_poland,51.1078852,17.0385376
+Krakow,,Poland,"Krakow, Poland",krakow_poland,50.0646501,19.9449799
+Szczecin,,Poland,"Szczecin, Poland",szczecin_poland,53.4285438,14.5528116
 Madeira,,Portugal,"Madeira, Portugal",madeira_portugal,32.7607074,-16.9594723
+Lisbon,,Portugal,"Lisbon, Portugal",lisbon_portugal,38.7222524,-9.1393366
+,,Puerto Rico,Puerto Rico,puerto_rico,18.220833,-66.590149
+Hato Rey,,Puerto Rico,"Hato Rey, Puerto Rico",hato_rey_puerto_rico,18.4225782,-66.0509549
+Carolina,,Puerto Rico,"Carolina, Puerto Rico",carolina_puerto_rico,18.3803255,-65.9626213
+Rio Piedras,,Puerto Rico,"Rio Piedras, Puerto Rico",rio_piedras_puerto_rico,18.3894791,-66.0404057
+San Juan,,Puerto Rico,"San Juan, Puerto Rico",san_juan_puerto_rico,18.4655394,-66.1057355
+Brazzaville,,Republic of Congo,"Brazzaville, Republic of Congo",brazzaville_republic_of_congo,-4.2633597,15.2428853
+Juba,,Republic of South Sudan,"Juba, Republic of South Sudan",juba_republic_of_south_sudan,4.859363,31.57125
+Providence,,Rhode Island,"Providence, Rhode Island",providence_rhode_island,41.8239891,-71.4128343
+Bucarest,,Romania,"Bucarest, Romania",bucarest_romania,44.4267674,26.1025384
+Bucharest,,Romania,"Bucharest, Romania",bucharest_romania,44.4267674,26.1025384
+Moscow,,Russia,"Moscow, Russia",moscow_russia,55.755826,37.6172999
+St. Petersburg,,Russia,"St. Petersburg, Russia",st_petersburg_russia,59.9342802,30.3350986
+Barvikha,,Russia,"Barvikha, Russia",barvikha_russia,55.7409976,37.283156
+Petrograd,,Russia,"Petrograd, Russia",petrograd_russia,59.9342802,30.3350986
+Kronstadt,,Russia,"Kronstadt, Russia",kronstadt_russia,59.9959303,29.7655453
+Nizhni Novgorod,,Russia,"Nizhni Novgorod, Russia",nizhni_novgorod_russia,56.2965039,43.936059
+,,Russia,Russia,russia,61.52401,105.318756
+,,Rwanda,Rwanda,rwanda,-1.940278,29.873888
+Castries,,Saint Lucia,"Castries, Saint Lucia",castries_saint_lucia,14.0101094,-60.9874687
+,,Saint Maarten,Saint Maarten,saint_maarten,18.04248,-63.05483
+Carriacou,,Saint Vincent and the Grenadines,"Carriacou, Saint Vincent and the Grenadines",carriacou_saint_vincent_and_the_grenadines,12.984305,-61.287228
+,,Saint-Thomas,Saint-Thomas,saint_thomas,18.3380965,-64.8940946
+,,Scotland,Scotland,scotland,56.4906712,-4.2026458
+Glasgow,,Scotland,"Glasgow, Scotland",glasgow_scotland,55.864237,-4.251806
+Dakar,,Senegal,"Dakar, Senegal",dakar_senegal,14.716677,-17.4676861
+Freetown,,Sierra Leone,"Freetown, Sierra Leone",freetown_sierra_leone,8.4656765,-13.2317225
+,,Sierra Leone,Sierra Leone,sierra_leone,8.460555,-11.779889
+,,Singapore,Singapore,singapore,1.352083,103.819836
 Capetown,,South Africa,"Capetown, South Africa",capetown_south_africa,-33.9248685,18.4240553
 Port Eizabeth,,South Africa,"Port Eizabeth, South Africa",port_eizabeth_south_africa,-33.9608369,25.6022423
 Bloemfontein,,South Africa,"Bloemfontein, South Africa",bloemfontein_south_africa,-29.085214,26.1595761
 Johannesburg,,South Africa,"Johannesburg, South Africa",johannesburg_south_africa,-26.2041028,28.0473051
-Maputo,,Mozambique,"Maputo, Mozambique",maputo_mozambique,-25.969248,32.5731746
-Dar-Es-Salaam,,Tanzania,"Dar-Es-Salaam, Tanzania",dar_es_salaam_tanzania,-6.792354,39.2083284
-Mombasa,,Kenya,"Mombasa, Kenya",mombasa_kenya,-4.0434771,39.6682065
-Kampala,,Uganda,"Kampala, Uganda",kampala_uganda,0.3475964,32.5825197
-Kabarole,,Uganda,"Kabarole, Uganda",kabarole_uganda,0.5850791,30.2512728
-Mbeni,,Democratic Republic of the Congo,"Mbeni, Democratic Republic of the Congo",mbeni_democratic_republic_of_the_congo,-4.691594,19.113859
-Entebbe,,Uganda,"Entebbe, Uganda",entebbe_uganda,0.0511839,32.463708
-Barvikha,,Russia,"Barvikha, Russia",barvikha_russia,55.7409976,37.283156
-Sydney,,Australia,"Sydney, Australia",sydney_australia,-33.8688197,151.2092955
-Beijing,,China,"Beijing, China",beijing_china,39.9041999,116.4073963
-Bujumbura,,Burundi,"Bujumbura, Burundi",bujumbura_burundi,-3.361378,29.3598782
-Lubumbashi,,Democratic Republic of the Congo,"Lubumbashi, Democratic Republic of the Congo",lubumbashi_democratic_republic_of_the_congo,-11.6876026,27.5026174
-Kinshasa,,Democratic Republic of the Congo,"Kinshasa, Democratic Republic of the Congo",kinshasa_democratic_republic_of_the_congo,-4.4419311,15.2662931
-Brazzaville,,Republic of Congo,"Brazzaville, Republic of Congo",brazzaville_republic_of_congo,-4.2633597,15.2428853
-Bangui,,Central African Republic,"Bangui, Central African Republic",bangui_central_african_republic,4.3946735,18.5581899
-Bangassou,,Central African Republic,"Bangassou, Central African Republic",bangassou_central_african_republic,4.7378613,22.8165095
-Fort Lamy,,Chad,"Fort Lamy, Chad",fort_lamy_chad,14.8222222,15.8330556
-Ennfield,Connecticut,USA,"Ennfield, Connecticut, USA",ennfield_connecticut_usa,42.0027181,-72.5441445
-Puerto Limón,,Costa Rica,"Puerto Limón, Costa Rica",puerto_limon_costa_rica,9.9913106,-83.0415078
+,,Spain,Spain,spain,40.463667,-3.74922
 Valencia,,Spain,"Valencia, Spain",valencia_spain,39.4699075,-0.3762881
-Alexandria,,Egypt,"Alexandria, Egypt",alexandria_egypt,31.2000924,29.9187387
-Juba,,Republic of South Sudan,"Juba, Republic of South Sudan",juba_republic_of_south_sudan,4.859363,31.57125
-Khartoum,,Sudan,"Khartoum, Sudan",khartoum_sudan,15.5006544,32.5598994
-Luxor,,Egypt,"Luxor, Egypt",luxor_egypt,25.6872431,32.6396357
-Kitzbuhel,,Austria,"Kitzbuhel, Austria",kitzbuhel_austria,47.4492375,12.3925407
-Jacmel,,Haiti,"Jacmel, Haiti",jacmel_haiti,18.2430063,-72.5263984
-Cherbourg,,France,"Cherbourg, France",cherbourg_france,49.6337308,-1.622137
-Prague,,Czech Republic,"Prague, Czech Republic",prague_czech_republic,50.0755381,14.4378005
-Andé,,France,"Andé, France",ande_france,49.231559,1.24028
-Corfu,,Greece,"Corfu, Greece",corfu_greece,39.6242621,19.9216777
-Lézignan-Corbières,,France,"Lézignan-Corbières, France",lezignan_corbieres_france,43.200503,2.7577759
-Point-à-Pitre,,Guadeloupe,"Point-à-Pitre, Guadeloupe",point_a_pitre_guadeloupe,16.2376869,-61.5340424
-True Blue,,Grenada,"True Blue, Grenada",true_blue_grenada,12.0044598,-61.7721909
-Quebec,,Canada,"Quebec, Canada",quebec_canada,52.9399159,-73.5491361
-Algiers,,Algeria,"Algiers, Algeria",algiers_algeria,36.753768,3.0587561
-Shanghai,,China,"Shanghai, China",shanghai_china,31.2303904,121.4737021
-Hanoi,,Vietnam,"Hanoi, Vietnam",hanoi_vietnam,21.0277644,105.8341598
-Albissola,"Savona, Liguria",Italy,"Albissola, Savona, Liguria, Italy",albissola_savona_liguria_italy,44.3263602,8.5012243
-Saint Gall,,Switzerland,"Saint Gall, Switzerland",saint_gall_switzerland,47.4244818,9.3767173
 Barcelona,,Spain,"Barcelona, Spain",barcelona_spain,41.3850639,2.1734035
 Madrid,,Spain,"Madrid, Spain",madrid_spain,40.4167754,-3.7037902
 Alicante,,Spain,"Alicante, Spain",alicante_spain,38.3459963,-0.4906855
-Mougins,,France,"Mougins, France",mougins_france,43.6023319,7.006491
-Falun,Dalama County,Sweden,"Falun, Dalama County, Sweden",falun_dalama_county_sweden,60.60646,15.6355
-Saché,Indre-et-Loire,France,"Saché, Indre-et-Loire, France",sache_indre_et_loire_france,47.246625,0.543334
-Rappalo,Genoa,Italy,"Rappalo, Genoa, Italy",rappalo_genoa_italy,44.3498211,9.2338889
-Caracas,,Venezuela,"Caracas, Venezuela",caracas_venezuela,10.4805937,-66.9036063
-Maracaibo,,Venezuela,"Maracaibo, Venezuela",maracaibo_venezuela,10.642707,-71.6125366
-Santiago de las Vegas,,Cuba,"Santiago de las Vegas, Cuba",santiago_de_las_vegas_cuba,22.9702067,-82.3858672
-Cannes,,France,"Cannes, France",cannes_france,43.552847,7.017369
-Sagua La Grande,,Cuba,"Sagua La Grande, Cuba",sagua_la_grande_cuba,22.8037709,-80.0702555
-Lagos,,Nigeria,"Lagos, Nigeria",lagos_nigeria,6.5243793,3.3792057
-Ibadan,,Nigeria,"Ibadan, Nigeria",ibadan_nigeria,7.3775355,3.9470396
-Glasgow,,Scotland,"Glasgow, Scotland",glasgow_scotland,55.864237,-4.251806
-Manchester,,England,"Manchester, England",manchester_england,53.4807593,-2.2426305
-Hull,,England,"Hull, England",hull_england,53.7456709,-0.3367413
-Margate,,England,"Margate, England",margate_england,51.389646,1.3868339
-Ramsgate,,England,"Ramsgate, England",ramsgate_england,,
-Brighton,,England,"Brighton, England",brighton_england,,
-Kankan,,Guinea,"Kankan, Guinea",kankan_guinea,10.3827887,-9.3118282
-Conakry,,Guinea,"Conakry, Guinea",conakry_guinea,,
-Lyon,,France,"Lyon, France",lyon_france,,
-Rabat,,Morocco,"Rabat, Morocco",rabat_morocco,,
-Lisbon,,Portugal,"Lisbon, Portugal",lisbon_portugal,,
-Tunis,,Tunisia,"Tunis, Tunisia",tunis_tunisia,36.8064948,10.1815316
-Bethesda,Maryland,USA,"Bethesda, Maryland, USA",bethesda_maryland_usa,,
-Pontorson,Manche,France,"Pontorson, Manche, France",pontorson_manche_france,48.553872,-1.509877
-Blida,,Algeria,"Blida, Algeria",blida_algeria,,
-Rouen,Seine-Maritime,France,"Rouen, Seine-Maritime, France",rouen_seine_maritime_france,49.443232,1.099971
-Joplin,Missouri,USA,"Joplin, Missouri, USA",joplin_missouri_usa,37.0842271,-94.513281
-Lawrence,Kansas,USA,"Lawrence, Kansas, USA",lawrence_kansas_usa,,
-Topeka,Kansas,USA,"Topeka, Kansas, USA",topeka_kansas_usa,,
-Lincoln,Illinois,USA,"Lincoln, Illinois, USA",lincoln_illinois_usa,,
-Toluca,,Mexico,"Toluca, Mexico",toluca_mexico,,
-Jones Point,New York,USA,"Jones Point, New York, USA",jones_point_new_york_usa,,
-Horta,,Azores,"Horta, Azores",horta_azores,,
-Port of Bonny,Rivers State,Nigeria,"Port of Bonny, Rivers State, Nigeria",port_of_bonny_rivers_state_nigeria,4.43385,7.1782
-Dawes Island,,Nigeria,"Dawes Island, Nigeria",dawes_island_nigeria,,
-Port of Harcourt,,Nigeria,"Port of Harcourt, Nigeria",port_of_harcourt_nigeria,,
-Boma,Kongo Central,Democratic Republic of Congo,"Boma, Kongo Central, Democratic Republic of Congo",boma_kongo_central_democratic_republic_of_congo,-5.85114,13.05358
-Matadi,Kongo Central,Democratic Republic of Congo,"Matadi, Kongo Central, Democratic Republic of Congo",matadi_kongo_central_democratic_republic_of_congo,-5.8226,13.47482
-Luanda,,Angola,"Luanda, Angola",luanda_angola,,
-Lobito,,Angola,"Lobito, Angola",lobito_angola,,
-Grand-Bassam,,Ivory Coast,"Grand-Bassam, Ivory Coast",grand_bassam_ivory_coast,,
-Freetown,,Sierra Leone,"Freetown, Sierra Leone",freetown_sierra_leone,,
-Carrington Town,,Barbados,"Carrington Town, Barbados",carrington_town_barbados,13.1973298,-59.579361
-Belmont,,Trinidad,"Belmont, Trinidad",belmont_trinidad,10.66797,-61.50878
 Ibiza,,Spain,"Ibiza, Spain",ibiza_spain,29.896,-81.31671
-Kumasi,,Ghana,"Kumasi, Ghana",kumasi_ghana,,
-Zaria,,Nigeria,"Zaria, Nigeria",zaria_nigeria,,
-Ilorin,,Nigeria,"Ilorin, Nigeria",ilorin_nigeria,,
-Tegina,,Nigeria,"Tegina, Nigeria",tegina_nigeria,,
-Kaduna,,Nigeria,"Kaduna, Nigeria",kaduna_nigeria,,
-Benin,,Nigeria,"Benin, Nigeria",benin_nigeria,,
-Sapele,,Nigeria,"Sapele, Nigeria",sapele_nigeria,,
-Canterbury,,UK,"Canterbury, UK",canterbury_uk,,
-Las Villas,,Cuba,"Las Villas, Cuba",las_villas_cuba,,
-San Fernando,,Trinidad,"San Fernando, Trinidad",san_fernando_trinidad,,
-Houston,Texas,USA,"Houston, Texas, USA",houston_texas_usa,,
-Austin,Texas,USA,"Austin, Texas, USA",austin_texas_usa,,
-Storrs,Connecticut,USA,"Storrs, Connecticut, USA",storrs_connecticut_usa,,
-Ithaca,New York,USA,"Ithaca, New York, USA",ithaca_new_york_usa,,
-Kansas City,Missouri,USA,"Kansas City, Missouri, USA",kansas_city_missouri_usa,,
-Hato Rey,,Puerto Rico,"Hato Rey, Puerto Rico",hato_rey_puerto_rico,,
-Carolina,,Puerto Rico,"Carolina, Puerto Rico",carolina_puerto_rico,,
-Rio Piedras,,Puerto Rico,"Rio Piedras, Puerto Rico",rio_piedras_puerto_rico,,
-San Juan,,Puerto Rico,"San Juan, Puerto Rico",san_juan_puerto_rico,,
-Limuru,,Kenya,"Limuru, Kenya",limuru_kenya,,
-Georgetown,,Guyana,"Georgetown, Guyana",georgetown_guyana,,
-Cave Hill,,Barbados,"Cave Hill, Barbados",cave_hill_barbados,,
-Buxton,,Guyana,"Buxton, Guyana",buxton_guyana,,
-Chapel Hill,,North Carolina,"Chapel Hill, North Carolina",chapel_hill_north_carolina,,
-Tunapuna,,Trinidad,"Tunapuna, Trinidad",tunapuna_trinidad,,
-Ann Arbor,,Michigan,"Ann Arbor, Michigan",ann_arbor_michigan,,
-Saint Croix,,Virgin Islands,"Saint Croix, Virgin Islands",saint_croix_virgin_islands,,
-Binghamton,,New York,"Binghamton, New York",binghamton_new_york,,
-Durham,,North Carolina,"Durham, North Carolina",durham_north_carolina,,
+San Sebastien,,Spain,"San Sebastien, Spain",san_sebastien_spain,43.318334,-1.9812313
+Bilbao,,Spain,"Bilbao, Spain",bilbao_spain,43.2630126,-2.9349852
+Grenada,,Spain,"Grenada, Spain",grenada_spain,37.1773363,-3.5985571
+Tenerife,,Spain,"Tenerife, Spain",tenerife_spain,28.2915637,-16.6291304
+,,St Maarten,St Maarten,st_maarten,18.04248,-63.05483
+Basseterre,,St. Kitts and Nevis,"Basseterre, St. Kitts and Nevis",basseterre_st_kitts_and_nevis,17.3026058,-62.7176924
+Khartoum,,Sudan,"Khartoum, Sudan",khartoum_sudan,15.5006544,32.5598994
+,,Suriname,Suriname,suriname,3.919305,-56.027783
+Stockholm,,Sweden,"Stockholm, Sweden",stockholm_sweden,59.3293235,18.0685808
+Falun,Dalama County,Sweden,"Falun, Dalama County, Sweden",falun_dalama_county_sweden,60.60646,15.6355
+,,Sweden,Sweden,sweden,60.128161,18.643501
+Geneva,,Switzerland,"Geneva, Switzerland",geneva_switzerland,46.2043907,6.1431577
+Zurich,,Switzerland,"Zurich, Switzerland",zurich_switzerland,47.3768866,8.541694
+,,Switzerland,Switzerland,switzerland,46.818188,8.227512
+Saint Gall,,Switzerland,"Saint Gall, Switzerland",saint_gall_switzerland,47.4244818,9.3767173
+Territet,,Switzerland,"Territet, Switzerland",territet_switzerland,46.4268939,6.9231307
+Dar-Es-Salaam,,Tanzania,"Dar-Es-Salaam, Tanzania",dar_es_salaam_tanzania,-6.792354,39.2083284
+Ho,,Trans-Volta Togoland,"Ho, Trans-Volta Togoland",ho_trans_volta_togoland,6.6101493,0.4785495
+Port-of-Spain,,Trinidad,"Port-of-Spain, Trinidad",port_of_spain_trinidad,10.6549013,-61.5019256
+Belmont,,Trinidad,"Belmont, Trinidad",belmont_trinidad,10.66797,-61.50878
+San Fernando,,Trinidad,"San Fernando, Trinidad",san_fernando_trinidad,10.2905853,-61.4493842
+Tunapuna,,Trinidad,"Tunapuna, Trinidad",tunapuna_trinidad,10.6512525,-61.3881073
 Saint Augustine,,Trinidad,"Saint Augustine, Trinidad",saint_augustine_trinidad,29.896,-81.316711
-Providence,,Rhode Island,"Providence, Rhode Island",providence_rhode_island,,
-New Orleans,,Louisiana,"New Orleans, Louisiana",new_orleans_louisiana,,
-Amherst,Massachusetts,USA,"Amherst, Massachusetts, USA",amherst_massachusetts_usa,,
-Cartagena,,Colombia,"Cartagena, Colombia",cartagena_colombia,,
+,,Trinidad,Trinidad,trinidad,10.691803,-61.222503
+,,Trinidad & Tobago,Trinidad & Tobago,trinidad_&_tobago,10.691803,-61.222503
+Tunis,,Tunisia,"Tunis, Tunisia",tunis_tunisia,36.8064948,10.1815316
+Istanbul,,Turkey,"Istanbul, Turkey",istanbul_turkey,41.0082376,28.9783589
+Kampala,,Uganda,"Kampala, Uganda",kampala_uganda,0.3475964,32.5825197
+Kabarole,,Uganda,"Kabarole, Uganda",kabarole_uganda,0.5850791,30.2512728
+Entebbe,,Uganda,"Entebbe, Uganda",entebbe_uganda,0.0511839,32.463708
+Canterbury,,UK,"Canterbury, UK",canterbury_uk,51.280233,1.0789089
+Nelson,,UK,"Nelson, UK",nelson_uk,53.835187,-2.219377
+Edinburgh,Scotland,UK,"Edinburgh, Scotland, UK",edinburgh_scotland_uk,55.953252,-3.188267
+Kiev,,Ukraine,"Kiev, Ukraine",kiev_ukraine,50.4501,30.5234
+Odessa,,Ukraine,"Odessa, Ukraine",odessa_ukraine,46.482526,30.7233095
+Chernivtsi,,Ukraine,"Chernivtsi, Ukraine",chernivtsi_ukraine,48.2920787,25.9358367
+Montevideo,,Uruguay,"Montevideo, Uruguay",montevideo_uruguay,-34.9011127,-56.1645314
+Boston,Massachusetts,USA,"Boston, Massachusetts, USA",boston_massachusetts_usa,42.3600825,-71.0588801
+Brooklyn,New York,USA,"Brooklyn, New York, USA",brooklyn_new_york_usa,40.6781784,-73.9441579
+Cambridge,Massachusetts,USA,"Cambridge, Massachusetts, USA",cambridge_massachusetts_usa,42.3736158,-71.1097335
+Carbondale,Illinois,USA,"Carbondale, Illinois, USA",carbondale_illinois_usa,37.7272727,-89.2167501
+Carmel,California,USA,"Carmel, California, USA",carmel_california_usa,36.5552386,-121.9232879
+Chicago,Illinois,USA,"Chicago, Illinois, USA",chicago_illinois_usa,41.8781136,-87.6297982
+Cincinnati,Ohio,USA,"Cincinnati, Ohio, USA",cincinnati_ohio_usa,39.1031182,-84.5120196
+Cleveland,Ohio,USA,"Cleveland, Ohio, USA",cleveland_ohio_usa,41.49932,-81.6943605
+Covington,Kentucky,USA,"Covington, Kentucky, USA",covington_kentucky_usa,39.0836712,-84.5085536
+Detroit,Michigan,USA,"Detroit, Michigan, USA",detroit_michigan_usa,42.331427,-83.0457538
+East St. Louis,Illinois,USA,"East St. Louis, Illinois, USA",east_st_louis_illinois_usa,38.624514,-90.1506465
+Glen Ellyn,Illinois,USA,"Glen Ellyn, Illinois, USA",glen_ellyn_illinois_usa,41.8775293,-88.0670118
+Indianapolis,Indiana,USA,"Indianapolis, Indiana, USA",indianapolis_indiana_usa,39.768403,-86.158068
+Joliet,Illinois,USA,"Joliet, Illinois, USA",joliet_illinois_usa,41.525031,-88.0817251
+Kansas City,,USA,"Kansas City, USA",kansas_city_usa,39.0997265,-94.5785667
+Las Vegas,Nevada,USA,"Las Vegas, Nevada, USA",las_vegas_nevada_usa,36.1699412,-115.1398296
+Los Angeles,California,USA,"Los Angeles, California, USA",los_angeles_california_usa,34.0522342,-118.2436849
+Louisville,Kentucky,USA,"Louisville, Kentucky, USA",louisville_kentucky_usa,38.2526647,-85.7584557
+Manhattan,New York,USA,"Manhattan, New York, USA",manhattan_new_york_usa,40.7830603,-73.9712488
+Memphis,Tennessee,USA,"Memphis, Tennessee, USA",memphis_tennessee_usa,35.1495343,-90.0489801
+Miami,Florida,USA,"Miami, Florida, USA",miami_florida_usa,25.7616798,-80.1917902
+New Haven,Connecticut,USA,"New Haven, Connecticut, USA",new_haven_connecticut_usa,41.308274,-72.9278835
+New York,New York,USA,"New York, New York, USA",new_york_new_york_usa,40.7127753,-74.0059728
+Oakland,California,USA,"Oakland, California, USA",oakland_california_usa,37.8043637,-122.2711137
+Orange,New Jersey,USA,"Orange, New Jersey, USA",orange_new_jersey_usa,40.7706187,-74.2326478
+Palm Springs,Florida,USA,"Palm Springs, Florida, USA",palm_springs_florida_usa,26.6359009,-80.0961538
+Philadelphia,Pennsylvania,USA,"Philadelphia, Pennsylvania, USA",philadelphia_pennsylvania_usa,39.9525839,-75.1652215
+Pittsburgh,Pennsylvania,USA,"Pittsburgh, Pennsylvania, USA",pittsburgh_pennsylvania_usa,40.4406248,-79.9958864
+Portland,Oregon,USA,"Portland, Oregon, USA",portland_oregon_usa,45.5122308,-122.6587185
+Reno,Nevada,USA,"Reno, Nevada, USA",reno_nevada_usa,39.5296329,-119.8138027
+San Diego,California,USA,"San Diego, California, USA",san_diego_california_usa,32.715738,-117.1610838
+San Francisco,California,USA,"San Francisco, California, USA",san_francisco_california_usa,37.7749295,-122.4194155
+Santa Cruz,California,USA,"Santa Cruz, California, USA",santa_cruz_california_usa,36.9741171,-122.0307963
+Seattle,Washington,USA,"Seattle, Washington, USA",seattle_washington_usa,47.6062095,-122.3320708
+Spokane,Washington,USA,"Spokane, Washington, USA",spokane_washington_usa,47.6587802,-117.4260465
+St. Louis,Missouri,USA,"St. Louis, Missouri, USA",st_louis_missouri_usa,38.6270025,-90.1994042
+St. Paul,Minnesota,USA,"St. Paul, Minnesota, USA",st_paul_minnesota_usa,44.9537029,-93.0899578
+"Washington, D.C.",,USA,"Washington, D.C., USA",washington_dc._usa,38.9071923,-77.0368707
+Worcester,Massachusetts,USA,"Worcester, Massachusetts, USA",worcester_massachusetts_usa,42.2625932,-71.8022934
+,,USA,USA,usa,37.09024,-95.712891
+,Michigan,USA,"Michigan, USA",michigan_usa,44.3148443,-85.6023643
+New,Place,USA,"New, Place, USA",new_place_usa,37.09024,-95.712891
+Charleston,South Carolina,USA,"Charleston, South Carolina, USA",charleston_south_carolina_usa,36.1201561,-77.3755239
+Tuskegee,Alabama,USA,"Tuskegee, Alabama, USA",tuskegee_alabama_usa,32.430237,-85.7077266
+Manhattan,Kansas,USA,"Manhattan, Kansas, USA",manhattan_kansas_usa,39.1836082,-96.5716694
+Ennfield,Connecticut,USA,"Ennfield, Connecticut, USA",ennfield_connecticut_usa,42.0027181,-72.5441445
+Bethesda,Maryland,USA,"Bethesda, Maryland, USA",bethesda_maryland_usa,38.984652,-77.0947092
+Joplin,Missouri,USA,"Joplin, Missouri, USA",joplin_missouri_usa,37.0842271,-94.513281
+Lawrence,Kansas,USA,"Lawrence, Kansas, USA",lawrence_kansas_usa,38.9716689,-95.2352501
+Topeka,Kansas,USA,"Topeka, Kansas, USA",topeka_kansas_usa,39.0473451,-95.6751576
+Lincoln,Illinois,USA,"Lincoln, Illinois, USA",lincoln_illinois_usa,40.1483768,-89.3648183
+Jones Point,New York,USA,"Jones Point, New York, USA",jones_point_new_york_usa,41.286205,-73.9559726
+Houston,Texas,USA,"Houston, Texas, USA",houston_texas_usa,29.7604267,-95.3698028
+Austin,Texas,USA,"Austin, Texas, USA",austin_texas_usa,30.267153,-97.7430608
+Storrs,Connecticut,USA,"Storrs, Connecticut, USA",storrs_connecticut_usa,41.8084314,-72.2495231
+Ithaca,New York,USA,"Ithaca, New York, USA",ithaca_new_york_usa,42.4439614,-76.5018807
+Kansas City,Missouri,USA,"Kansas City, Missouri, USA",kansas_city_missouri_usa,39.0997265,-94.5785667
+Amherst,Massachusetts,USA,"Amherst, Massachusetts, USA",amherst_massachusetts_usa,42.3732216,-72.5198537
 Montgomery,Alabama,USA,"Montgomery, Alabama, USA",montgomery_alabama_usa,32.3792233,-86.3077368
-Carriacou,,Saint Vincent and the Grenadines,"Carriacou, Saint Vincent and the Grenadines",carriacou_saint_vincent_and_the_grenadines,12.984305,-61.287228
 Lewisburg,Pennsylvania,USA,"Lewisburg, Pennsylvania, USA",lewisburg_pennsylvania_usa,40.9645293,-76.8844101
 Coral Gables,Florida,USA,"Coral Gables, Florida, USA",coral_gables_florida_usa,25.7491968,-80.2635411
-Nelson,,UK,"Nelson, UK",nelson_uk,,
 Minneapolis,Minnesota,USA,"Minneapolis, Minnesota, USA",minneapolis_minnesota_usa,44.977753,-93.2650108
-Denver,Colorado,USA,"Denver, Colorado, USA",denver_colorado_usa,,
-Veracruz,,Mexico,"Veracruz, Mexico",veracruz_mexico,,
-Lincoln,Pennsylvania,USA,"Lincoln, Pennsylvania, USA",lincoln_pennsylvania_usa,,
-Ellis Island,New York,USA,"Ellis Island, New York, USA",ellis_island_new_york_usa,,
-Edinburgh,Scotland,UK,"Edinburgh, Scotland, UK",edinburgh_scotland_uk,,
-Santiago de Cuba,,Cuba,"Santiago de Cuba, Cuba",santiago_de_cuba_cuba,,
-Hamilton,,Bermuda,"Hamilton, Bermuda",hamilton_bermuda,,
-Evanston,Illinois,USA,"Evanston, Illinois, USA",evanston_illinois_usa,,
-Irvine,California,USA,"Irvine, California, USA",irvine_california_usa,,
-East Lansing,Michigan,USA,"East Lansing, Michigan, USA",east_lansing_michigan_usa,,
-Greensboro,North Carolina,USA,"Greensboro, North Carolina, USA",greensboro_north_carolina_usa,,
-Buffalo,New York,USA,"Buffalo, New York, USA",buffalo_new_york_usa,,
-New Brunswick,New Jersey,USA,"New Brunswick, New Jersey, USA",new_brunswick_new_jersey_usa,,
-Jackson,Mississippi,USA,"Jackson, Mississippi, USA",jackson_mississippi_usa,,
-Rutgers,New Jersey,USA,"Rutgers, New Jersey, USA",rutgers_new_jersey_usa,,
-Greenville,Mississippi,USA,"Greenville, Mississippi, USA",greenville_mississippi_usa,,
-Savannah,Georgia,USA,"Savannah, Georgia, USA",savannah_georgia_usa,,
-Oberlin,Ohio,USA,"Oberlin, Ohio, USA",oberlin_ohio_usa,,
+Denver,Colorado,USA,"Denver, Colorado, USA",denver_colorado_usa,39.7392358,-104.990251
+Lincoln,Pennsylvania,USA,"Lincoln, Pennsylvania, USA",lincoln_pennsylvania_usa,40.2955104,-79.8576828
+Ellis Island,New York,USA,"Ellis Island, New York, USA",ellis_island_new_york_usa,40.6994748,-74.0395587
+Evanston,Illinois,USA,"Evanston, Illinois, USA",evanston_illinois_usa,42.0450722,-87.6876969
+Irvine,California,USA,"Irvine, California, USA",irvine_california_usa,33.6845673,-117.8265049
+East Lansing,Michigan,USA,"East Lansing, Michigan, USA",east_lansing_michigan_usa,42.7369792,-84.4838654
+Greensboro,North Carolina,USA,"Greensboro, North Carolina, USA",greensboro_north_carolina_usa,36.0726354,-79.7919754
+Buffalo,New York,USA,"Buffalo, New York, USA",buffalo_new_york_usa,42.8864468,-78.8783689
+New Brunswick,New Jersey,USA,"New Brunswick, New Jersey, USA",new_brunswick_new_jersey_usa,40.4862157,-74.4518188
+Jackson,Mississippi,USA,"Jackson, Mississippi, USA",jackson_mississippi_usa,32.2987573,-90.1848103
+Rutgers,New Jersey,USA,"Rutgers, New Jersey, USA",rutgers_new_jersey_usa,40.5008186,-74.4473991
+Greenville,Mississippi,USA,"Greenville, Mississippi, USA",greenville_mississippi_usa,33.399661,-91.0377029
+Savannah,Georgia,USA,"Savannah, Georgia, USA",savannah_georgia_usa,32.0808989,-81.091203
+Oberlin,Ohio,USA,"Oberlin, Ohio, USA",oberlin_ohio_usa,41.2939386,-82.2173786
 Northampton,Massachusetts,USA,"Northampton, Massachusetts, USA",northampton_massachusetts_usa,42.3250896,-72.6412013
-Petrograd,,Russia,"Petrograd, Russia",petrograd_russia,59.9342802,30.3350986
-Port Louis,,Mauritius,"Port Louis, Mauritius",port_louis_mauritius,-20.1608912,57.5012222
+Albuquerque,New Mexico,USA,"Albuquerque, New Mexico, USA",albuquerque_new_mexico_usa,35.0843859,-106.650422
+Morgantown,West Virginia,USA,"Morgantown, West Virginia, USA",morgantown_west_virginia_usa,39.629526,-79.9558968
+Easton,Pennsylvania,USA,"Easton, Pennsylvania, USA",easton_pennsylvania_usa,40.688432,-75.2207323
+Milwaukee,Wisconsin,USA,"Milwaukee, Wisconsin, USA",milwaukee_wisconsin_usa,43.0389025,-87.9064736
+New Milford,Connecticut,USA,"New Milford, Connecticut, USA",new_milford_connecticut_usa,41.5770433,-73.4085463
+Chester,New York,USA,"Chester, New York, USA",chester_new_york_usa,41.3625937,-74.2712613
+Atlanta,Georgia,USA,"Atlanta, Georgia, USA",atlanta_georgia_usa,32.1656221,-82.9000751
+Great Barrington,Massachusetts,USA,"Great Barrington, Massachusetts, USA",great_barrington_massachusetts_usa,42.1959798,-73.362008
+Hartford,Connecticut,USA,"Hartford, Connecticut, USA",hartford_connecticut_usa,41.7658043,-72.6733723
+New Bedford,Massachusetts,USA,"New Bedford, Massachusetts, USA",new_bedford_massachusetts_usa,41.6362152,-70.934205
+Nashville,Tennessee,USA,"Nashville, Tennessee, USA",nashville_tennessee_usa,36.1626638,-86.7816016
+Lebanon,Tennessee,USA,"Lebanon, Tennessee, USA",lebanon_tennessee_usa,36.2081098,-86.2911024
+Alexandria,Tennessee,USA,"Alexandria, Tennessee, USA",alexandria_tennessee_usa,36.0775587,-86.0333222
+Lake Minnetonka,Minnesota,USA,"Lake Minnetonka, Minnesota, USA",lake_minnetonka_minnesota_usa,44.9073415,-93.6344466
+Albany,New York,USA,"Albany, New York, USA",albany_new_york_usa,42.6525793,-73.7562317
+Wilberforce,Ohio,USA,"Wilberforce, Ohio, USA",wilberforce_ohio_usa,39.716171,-83.8777063
+Cedar Rapids,Iowa,USA,"Cedar Rapids, Iowa, USA",cedar_rapids_iowa_usa,41.9778795,-91.6656232
+Farmville,Virginia,USA,"Farmville, Virginia, USA",farmville_virginia_usa,37.3020965,-78.3919401
+Norfolk,Virginia,USA,"Norfolk, Virginia, USA",norfolk_virginia_usa,36.8507689,-76.2858726
+Bar Harbor,Maine,USA,"Bar Harbor, Maine, USA",bar_harbor_maine_usa,44.3876119,-68.2039123
+Des Moines,Iowa,USA,"Des Moines, Iowa, USA",des_moines_iowa_usa,41.5868353,-93.6249593
+Hampton,Virginia,USA,"Hampton, Virginia, USA",hampton_virginia_usa,37.0298687,-76.3452218
+Harper's Ferry,West Virginia,USA,"Harper's Ferry, West Virginia, USA",harper's_ferry_west_virginia_usa,39.3253786,-77.7388818
+Lowndes County,Alabama,USA,"Lowndes County, Alabama, USA",lowndes_county_alabama_usa,32.221464,-86.6611083
+Sea Isle City,New Jersey,USA,"Sea Isle City, New Jersey, USA",sea_isle_city_new_jersey_usa,39.1534477,-74.6929387
+Manchester,New Hampshire,USA,"Manchester, New Hampshire, USA",manchester_new_hampshire_usa,42.9956397,-71.4547891
+Amenia,New York,USA,"Amenia, New York, USA",amenia_new_york_usa,41.8492599,-73.5567918
+Augusta,Georgia,USA,"Augusta, Georgia, USA",augusta_georgia_usa,33.4734978,-82.0105148
+Chattanooga,Tennessee,USA,"Chattanooga, Tennessee, USA",chattanooga_tennessee_usa,35.0456297,-85.3096801
+Toledo,Ohio,USA,"Toledo, Ohio, USA",toledo_ohio_usa,41.6528052,-83.5378674
+Zanesville,Ohio,USA,"Zanesville, Ohio, USA",zanesville_ohio_usa,39.9403453,-82.0131924
+Eugene,Oregon,USA,"Eugene, Oregon, USA",eugene_oregon_usa,44.0520691,-123.0867536
+Sacramento,California,USA,"Sacramento, California, USA",sacramento_california_usa,38.5815719,-121.4943996
+Baltimore,Maryland,USA,"Baltimore, Maryland, USA",baltimore_maryland_usa,39.2903848,-76.6121893
+Wheeling,West Virginia,USA,"Wheeling, West Virginia, USA",wheeling_west_virginia_usa,40.0639616,-80.7209149
+Key West,Florida,USA,"Key West, Florida, USA",key_west_florida_usa,24.5550593,-81.7799871
+Poughkeepsie,New York,USA,"Poughkeepsie, New York, USA",poughkeepsie_new_york_usa,41.7003713,-73.9209701
+Columbia,South Carolina,USA,"Columbia, South Carolina, USA",columbia_south_carolina_usa,34.0007104,-81.0348144
+,Southwest,USA,"Southwest, USA",southwest_usa,37.09024,-95.712891
+,California,USA,"California, USA",california_usa,36.778261,-119.4179324
+,Oregon,USA,"Oregon, USA",oregon_usa,43.8041334,-120.5542012
+,Florida,USA,"Florida, USA",florida_usa,27.6648274,-81.5157535
+,Maine,USA,"Maine, USA",maine_usa,45.253783,-69.4454689
+,Louisiana,USA,"Louisiana, USA",louisiana_usa,30.9842977,-91.9623327
+,Texas,USA,"Texas, USA",texas_usa,31.9685988,-99.9018131
+,South Carolina,USA,"South Carolina, USA",south_carolina_usa,33.836081,-81.1637245
+,Georgia,USA,"Georgia, USA",georgia_usa,32.1656221,-82.9000751
+,Puerto Rico,USA,"Puerto Rico, USA",puerto_rico_usa,18.0117807,-66.6134129
+Bronx,New York,USA,"Bronx, New York, USA",bronx_new_york_usa,40.8447819,-73.8648268
+Orangeburg,New York,USA,"Orangeburg, New York, USA",orangeburg_new_york_usa,41.0464858,-73.9495818
+Wellesley,Massachusetts,USA,"Wellesley, Massachusetts, USA",wellesley_massachusetts_usa,42.296797,-71.2923877
+Newark,New Jersey,USA,"Newark, New Jersey, USA",newark_new_jersey_usa,40.735657,-74.1723667
+Elizabeth,New Jersey,USA,"Elizabeth, New Jersey, USA",elizabeth_new_jersey_usa,40.6639916,-74.2107006
+Hanover,New Hampshire,USA,"Hanover, New Hampshire, USA",hanover_new_hampshire_usa,43.7022451,-72.2895526
+Harrisburg,Pennsylvania,USA,"Harrisburg, Pennsylvania, USA",harrisburg_pennsylvania_usa,40.2731911,-76.8867008
+New Paltz,New York,USA,"New Paltz, New York, USA",new_paltz_new_york_usa,41.7475933,-74.0868095
+North Wayne,Maine,USA,"North Wayne, Maine, USA",north_wayne_maine_usa,44.3742344,-70.0328313
+Rochester,New York,USA,"Rochester, New York, USA",rochester_new_york_usa,43.1565779,-77.6088465
+"Saint Louis, Missouri, USA",Missouri,USA,"Saint Louis, Missouri, USA, Missouri, USA",saint_louis_missouri_usa_missouri_usa,38.6270025,-90.1994042
+Long Island,New York,USA,"Long Island, New York, USA",long_island_new_york_usa,40.789142,-73.134961
+Caracas,,Venezuela,"Caracas, Venezuela",caracas_venezuela,10.4805937,-66.9036063
+Maracaibo,,Venezuela,"Maracaibo, Venezuela",maracaibo_venezuela,10.642707,-71.6125366
+Hanoi,,Vietnam,"Hanoi, Vietnam",hanoi_vietnam,21.0277644,105.8341598
+Saint Croix,,Virgin Islands,"Saint Croix, Virgin Islands",saint_croix_virgin_islands,17.7245968,-64.8347992
+,,Yugoslavia,Yugoslavia,yugoslavia,32.6364993,-115.5228734
+,,Zanzibar,Zanzibar,zanzibar,-6.1357295,39.3621196
+,,Uzbekistan,Uzbekistan,uzbekistan,41.377491,64.585262
