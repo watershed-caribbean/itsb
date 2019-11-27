@@ -1,0 +1,4223 @@
+{
+    "abidjan_ivory_coast": {
+        "City": "Abidjan",
+        "Country": "Ivory Coast",
+        "Lat": 5.3599517,
+        "Long": -4.0082563,
+        "PlaceID": "abidjan_ivory_coast",
+        "PlaceName": "Abidjan, Ivory Coast",
+        "Region": ""
+    },
+    "accompong_jamaica": {
+        "City": "Accompong",
+        "Country": "Jamaica",
+        "Lat": 18.2278534,
+        "Long": -77.7509303,
+        "PlaceID": "accompong_jamaica",
+        "PlaceName": "Accompong, Jamaica",
+        "Region": ""
+    },
+    "accra_ghana": {
+        "City": "Accra",
+        "Country": "Ghana",
+        "Lat": 5.6037168,
+        "Long": -0.1869644,
+        "PlaceID": "accra_ghana",
+        "PlaceName": "Accra, Ghana",
+        "Region": ""
+    },
+    "addis_ababa_ethiopia": {
+        "City": "Addis-Ababa",
+        "Country": "Ethiopia",
+        "Lat": 8.9806034,
+        "Long": 38.7577605,
+        "PlaceID": "addis_ababa_ethiopia",
+        "PlaceName": "Addis-Ababa, Ethiopia",
+        "Region": ""
+    },
+    "albany_new_york_usa": {
+        "City": "Albany",
+        "Country": "USA",
+        "Lat": 42.6525793,
+        "Long": -73.7562317,
+        "PlaceID": "albany_new_york_usa",
+        "PlaceName": "Albany, New York, USA",
+        "Region": "New York"
+    },
+    "albissola_savona_liguria_italy": {
+        "City": "Albissola",
+        "Country": "Italy",
+        "Lat": 44.3263602,
+        "Long": 8.5012243,
+        "PlaceID": "albissola_savona_liguria_italy",
+        "PlaceName": "Albissola, Savona, Liguria, Italy",
+        "Region": "Savona, Liguria"
+    },
+    "albuquerque_new_mexico_usa": {
+        "City": "Albuquerque",
+        "Country": "USA",
+        "Lat": 35.0843859,
+        "Long": -106.650422,
+        "PlaceID": "albuquerque_new_mexico_usa",
+        "PlaceName": "Albuquerque, New Mexico, USA",
+        "Region": "New Mexico"
+    },
+    "alexandria_egypt": {
+        "City": "Alexandria",
+        "Country": "Egypt",
+        "Lat": 31.2000924,
+        "Long": 29.9187387,
+        "PlaceID": "alexandria_egypt",
+        "PlaceName": "Alexandria, Egypt",
+        "Region": ""
+    },
+    "alexandria_tennessee_usa": {
+        "City": "Alexandria",
+        "Country": "USA",
+        "Lat": 36.0775587,
+        "Long": -86.0333222,
+        "PlaceID": "alexandria_tennessee_usa",
+        "PlaceName": "Alexandria, Tennessee, USA",
+        "Region": "Tennessee"
+    },
+    "algiers_algeria": {
+        "City": "Algiers",
+        "Country": "Algeria",
+        "Lat": 36.753768,
+        "Long": 3.0587561,
+        "PlaceID": "algiers_algeria",
+        "PlaceName": "Algiers, Algeria",
+        "Region": ""
+    },
+    "alicante_spain": {
+        "City": "Alicante",
+        "Country": "Spain",
+        "Lat": 38.3459963,
+        "Long": -0.4906855,
+        "PlaceID": "alicante_spain",
+        "PlaceName": "Alicante, Spain",
+        "Region": ""
+    },
+    "amenia_new_york_usa": {
+        "City": "Amenia",
+        "Country": "USA",
+        "Lat": 41.8492599,
+        "Long": -73.5567918,
+        "PlaceID": "amenia_new_york_usa",
+        "PlaceName": "Amenia, New York, USA",
+        "Region": "New York"
+    },
+    "amherst_massachusetts_usa": {
+        "City": "Amherst",
+        "Country": "USA",
+        "Lat": 42.3732216,
+        "Long": -72.5198537,
+        "PlaceID": "amherst_massachusetts_usa",
+        "PlaceName": "Amherst, Massachusetts, USA",
+        "Region": "Massachusetts"
+    },
+    "amsterdam_holland": {
+        "City": "Amsterdam",
+        "Country": "Holland",
+        "Lat": 52.3702157,
+        "Long": 4.8951679,
+        "PlaceID": "amsterdam_holland",
+        "PlaceName": "Amsterdam, Holland",
+        "Region": ""
+    },
+    "ande_france": {
+        "City": "Andé",
+        "Country": "France",
+        "Lat": 49.231559,
+        "Long": 1.24028,
+        "PlaceID": "ande_france",
+        "PlaceName": "Andé, France",
+        "Region": ""
+    },
+    "angouleme_france": {
+        "City": "Angoulême",
+        "Country": "France",
+        "Lat": 45.648377,
+        "Long": 0.1562369,
+        "PlaceID": "angouleme_france",
+        "PlaceName": "Angoulême, France",
+        "Region": ""
+    },
+    "ann_arbor_michigan": {
+        "City": "Ann Arbor",
+        "Country": "Michigan",
+        "Lat": 42.2808256,
+        "Long": -83.7430378,
+        "PlaceID": "ann_arbor_michigan",
+        "PlaceName": "Ann Arbor, Michigan",
+        "Region": ""
+    },
+    "antigua": {
+        "City": "",
+        "Country": "Antigua",
+        "Lat": 17.0746557,
+        "Long": -61.8175207,
+        "PlaceID": "antigua",
+        "PlaceName": "Antigua",
+        "Region": ""
+    },
+    "antwerp_belgium": {
+        "City": "Antwerp",
+        "Country": "Belgium",
+        "Lat": 51.2194475,
+        "Long": 4.4024643,
+        "PlaceID": "antwerp_belgium",
+        "PlaceName": "Antwerp, Belgium",
+        "Region": ""
+    },
+    "athens_greece": {
+        "City": "Athens",
+        "Country": "Greece",
+        "Lat": 37.9838096,
+        "Long": 23.7275388,
+        "PlaceID": "athens_greece",
+        "PlaceName": "Athens, Greece",
+        "Region": ""
+    },
+    "atlanta_georgia_usa": {
+        "City": "Atlanta",
+        "Country": "USA",
+        "Lat": 32.1656221,
+        "Long": -82.9000751,
+        "PlaceID": "atlanta_georgia_usa",
+        "PlaceName": "Atlanta, Georgia, USA",
+        "Region": "Georgia"
+    },
+    "auckland_new_zealand": {
+        "City": "Auckland",
+        "Country": "New Zealand",
+        "Lat": -36.8484597,
+        "Long": 174.7633315,
+        "PlaceID": "auckland_new_zealand",
+        "PlaceName": "Auckland, New Zealand",
+        "Region": ""
+    },
+    "augusta_georgia_usa": {
+        "City": "Augusta",
+        "Country": "USA",
+        "Lat": 33.4734978,
+        "Long": -82.0105148,
+        "PlaceID": "augusta_georgia_usa",
+        "PlaceName": "Augusta, Georgia, USA",
+        "Region": "Georgia"
+    },
+    "auschwitz_poland": {
+        "City": "Auschwitz",
+        "Country": "Poland",
+        "Lat": 50.0274106,
+        "Long": 19.2019829,
+        "PlaceID": "auschwitz_poland",
+        "PlaceName": "Auschwitz, Poland",
+        "Region": ""
+    },
+    "austin_texas_usa": {
+        "City": "Austin",
+        "Country": "USA",
+        "Lat": 30.267153,
+        "Long": -97.7430608,
+        "PlaceID": "austin_texas_usa",
+        "PlaceName": "Austin, Texas, USA",
+        "Region": "Texas"
+    },
+    "australia": {
+        "City": "",
+        "Country": "Australia",
+        "Lat": -25.274398,
+        "Long": 133.775136,
+        "PlaceID": "australia",
+        "PlaceName": "Australia",
+        "Region": ""
+    },
+    "austria": {
+        "City": "",
+        "Country": "Austria",
+        "Lat": 47.516231,
+        "Long": 14.550072,
+        "PlaceID": "austria",
+        "PlaceName": "Austria",
+        "Region": ""
+    },
+    "avignon_france": {
+        "City": "Avignon",
+        "Country": "France",
+        "Lat": 43.949317,
+        "Long": 4.805528,
+        "PlaceID": "avignon_france",
+        "PlaceName": "Avignon, France",
+        "Region": ""
+    },
+    "baltimore_maryland_usa": {
+        "City": "Baltimore",
+        "Country": "USA",
+        "Lat": 39.2903848,
+        "Long": -76.6121893,
+        "PlaceID": "baltimore_maryland_usa",
+        "PlaceName": "Baltimore, Maryland, USA",
+        "Region": "Maryland"
+    },
+    "bangassou_central_african_republic": {
+        "City": "Bangassou",
+        "Country": "Central African Republic",
+        "Lat": 4.7378613,
+        "Long": 22.8165095,
+        "PlaceID": "bangassou_central_african_republic",
+        "PlaceName": "Bangassou, Central African Republic",
+        "Region": ""
+    },
+    "bangui_central_african_republic": {
+        "City": "Bangui",
+        "Country": "Central African Republic",
+        "Lat": 4.3946735,
+        "Long": 18.5581899,
+        "PlaceID": "bangui_central_african_republic",
+        "PlaceName": "Bangui, Central African Republic",
+        "Region": ""
+    },
+    "bar_harbor_maine_usa": {
+        "City": "Bar Harbor",
+        "Country": "USA",
+        "Lat": 44.3876119,
+        "Long": -68.2039123,
+        "PlaceID": "bar_harbor_maine_usa",
+        "PlaceName": "Bar Harbor, Maine, USA",
+        "Region": "Maine"
+    },
+    "barbados": {
+        "City": "",
+        "Country": "Barbados",
+        "Lat": 13.193887,
+        "Long": -59.543198,
+        "PlaceID": "barbados",
+        "PlaceName": "Barbados",
+        "Region": ""
+    },
+    "barcelona_spain": {
+        "City": "Barcelona",
+        "Country": "Spain",
+        "Lat": 41.3850639,
+        "Long": 2.1734035,
+        "PlaceID": "barcelona_spain",
+        "PlaceName": "Barcelona, Spain",
+        "Region": ""
+    },
+    "barvikha_russia": {
+        "City": "Barvikha",
+        "Country": "Russia",
+        "Lat": 55.7409976,
+        "Long": 37.283156,
+        "PlaceID": "barvikha_russia",
+        "PlaceName": "Barvikha, Russia",
+        "Region": ""
+    },
+    "basse_pointe_martinique": {
+        "City": "Basse-Pointe",
+        "Country": "Martinique",
+        "Lat": 14.8672508,
+        "Long": -61.1155622,
+        "PlaceID": "basse_pointe_martinique",
+        "PlaceName": "Basse-Pointe, Martinique",
+        "Region": ""
+    },
+    "basseterre_st_kitts_and_nevis": {
+        "City": "Basseterre",
+        "Country": "St. Kitts and Nevis",
+        "Lat": 17.3026058,
+        "Long": -62.7176924,
+        "PlaceID": "basseterre_st_kitts_and_nevis",
+        "PlaceName": "Basseterre, St. Kitts and Nevis",
+        "Region": ""
+    },
+    "bavaria_germany": {
+        "City": "",
+        "Country": "Germany",
+        "Lat": 48.7904472,
+        "Long": 11.4978895,
+        "PlaceID": "bavaria_germany",
+        "PlaceName": "Bavaria, Germany",
+        "Region": "Bavaria"
+    },
+    "beijing_china": {
+        "City": "Beijing",
+        "Country": "China",
+        "Lat": 39.9041999,
+        "Long": 116.4073963,
+        "PlaceID": "beijing_china",
+        "PlaceName": "Beijing, China",
+        "Region": ""
+    },
+    "belfast_northern_ireland": {
+        "City": "Belfast",
+        "Country": "Northern Ireland",
+        "Lat": 54.597285,
+        "Long": -5.93012,
+        "PlaceID": "belfast_northern_ireland",
+        "PlaceName": "Belfast, Northern Ireland",
+        "Region": ""
+    },
+    "belmont_trinidad": {
+        "City": "Belmont",
+        "Country": "Trinidad",
+        "Lat": 10.66797,
+        "Long": -61.50878,
+        "PlaceID": "belmont_trinidad",
+        "PlaceName": "Belmont, Trinidad",
+        "Region": ""
+    },
+    "benin_nigeria": {
+        "City": "Benin",
+        "Country": "Nigeria",
+        "Lat": 6.334986,
+        "Long": 5.6037465,
+        "PlaceID": "benin_nigeria",
+        "PlaceName": "Benin, Nigeria",
+        "Region": ""
+    },
+    "berlin_germany": {
+        "City": "Berlin",
+        "Country": "Germany",
+        "Lat": 52.5200066,
+        "Long": 13.404954,
+        "PlaceID": "berlin_germany",
+        "PlaceName": "Berlin, Germany",
+        "Region": ""
+    },
+    "bethesda_maryland_usa": {
+        "City": "Bethesda",
+        "Country": "USA",
+        "Lat": 38.984652,
+        "Long": -77.0947092,
+        "PlaceID": "bethesda_maryland_usa",
+        "PlaceName": "Bethesda, Maryland, USA",
+        "Region": "Maryland"
+    },
+    "bilbao_spain": {
+        "City": "Bilbao",
+        "Country": "Spain",
+        "Lat": 43.2630126,
+        "Long": -2.9349852,
+        "PlaceID": "bilbao_spain",
+        "PlaceName": "Bilbao, Spain",
+        "Region": ""
+    },
+    "binghamton_new_york": {
+        "City": "Binghamton",
+        "Country": "New York",
+        "Lat": 42.0986867,
+        "Long": -75.9179738,
+        "PlaceID": "binghamton_new_york",
+        "PlaceName": "Binghamton, New York",
+        "Region": ""
+    },
+    "blida_algeria": {
+        "City": "Blida",
+        "Country": "Algeria",
+        "Lat": 36.4757929,
+        "Long": 2.8297576,
+        "PlaceID": "blida_algeria",
+        "PlaceName": "Blida, Algeria",
+        "Region": ""
+    },
+    "bloemfontein_south_africa": {
+        "City": "Bloemfontein",
+        "Country": "South Africa",
+        "Lat": -29.085214,
+        "Long": 26.1595761,
+        "PlaceID": "bloemfontein_south_africa",
+        "PlaceName": "Bloemfontein, South Africa",
+        "Region": ""
+    },
+    "bologna_italy": {
+        "City": "Bologna",
+        "Country": "Italy",
+        "Lat": 44.494887,
+        "Long": 11.3426162,
+        "PlaceID": "bologna_italy",
+        "PlaceName": "Bologna, Italy",
+        "Region": ""
+    },
+    "boma_kongo_central_democratic_republic_of_congo": {
+        "City": "Boma",
+        "Country": "Democratic Republic of Congo",
+        "Lat": -5.85114,
+        "Long": 13.05358,
+        "PlaceID": "boma_kongo_central_democratic_republic_of_congo",
+        "PlaceName": "Boma, Kongo Central, Democratic Republic of Congo",
+        "Region": "Kongo Central"
+    },
+    "bordeaux_france": {
+        "City": "Bordeaux",
+        "Country": "France",
+        "Lat": 44.837789,
+        "Long": -0.57918,
+        "PlaceID": "bordeaux_france",
+        "PlaceName": "Bordeaux, France",
+        "Region": ""
+    },
+    "boston_massachusetts_usa": {
+        "City": "Boston",
+        "Country": "USA",
+        "Lat": 42.3600825,
+        "Long": -71.0588801,
+        "PlaceID": "boston_massachusetts_usa",
+        "PlaceName": "Boston, Massachusetts, USA",
+        "Region": "Massachusetts"
+    },
+    "bournemouth_england": {
+        "City": "Bournemouth",
+        "Country": "England",
+        "Lat": 50.719164,
+        "Long": -1.880769,
+        "PlaceID": "bournemouth_england",
+        "PlaceName": "Bournemouth, England",
+        "Region": ""
+    },
+    "brazzaville_republic_of_congo": {
+        "City": "Brazzaville",
+        "Country": "Republic of Congo",
+        "Lat": -4.2633597,
+        "Long": 15.2428853,
+        "PlaceID": "brazzaville_republic_of_congo",
+        "PlaceName": "Brazzaville, Republic of Congo",
+        "Region": ""
+    },
+    "bremen_germany": {
+        "City": "Bremen",
+        "Country": "Germany",
+        "Lat": 53.0792962,
+        "Long": 8.8016936,
+        "PlaceID": "bremen_germany",
+        "PlaceName": "Bremen, Germany",
+        "Region": ""
+    },
+    "breslau_germany": {
+        "City": "Breslau",
+        "Country": "Germany",
+        "Lat": 51.1078852,
+        "Long": 17.0385376,
+        "PlaceID": "breslau_germany",
+        "PlaceName": "Breslau, Germany",
+        "Region": ""
+    },
+    "brest_france": {
+        "City": "Brest",
+        "Country": "France",
+        "Lat": 48.390394,
+        "Long": -4.486076,
+        "PlaceID": "brest_france",
+        "PlaceName": "Brest, France",
+        "Region": ""
+    },
+    "bridgetown_barbados": {
+        "City": "Bridgetown",
+        "Country": "Barbados",
+        "Lat": 13.0968511,
+        "Long": -59.6144819,
+        "PlaceID": "bridgetown_barbados",
+        "PlaceName": "Bridgetown, Barbados",
+        "Region": ""
+    },
+    "brighton_england": {
+        "City": "Brighton",
+        "Country": "England",
+        "Lat": 50.82253,
+        "Long": -0.137163,
+        "PlaceID": "brighton_england",
+        "PlaceName": "Brighton, England",
+        "Region": ""
+    },
+    "brno_czech_republic": {
+        "City": "Brno",
+        "Country": "Czech Republic",
+        "Lat": 49.1950602,
+        "Long": 16.6068371,
+        "PlaceID": "brno_czech_republic",
+        "PlaceName": "Brno, Czech Republic",
+        "Region": ""
+    },
+    "bronx_new_york_usa": {
+        "City": "Bronx",
+        "Country": "USA",
+        "Lat": 40.8447819,
+        "Long": -73.8648268,
+        "PlaceID": "bronx_new_york_usa",
+        "PlaceName": "Bronx, New York, USA",
+        "Region": "New York"
+    },
+    "brooklyn_new_york_usa": {
+        "City": "Brooklyn",
+        "Country": "USA",
+        "Lat": 40.6781784,
+        "Long": -73.9441579,
+        "PlaceID": "brooklyn_new_york_usa",
+        "PlaceName": "Brooklyn, New York, USA",
+        "Region": "New York"
+    },
+    "brown's_town_st_ann_jamaica": {
+        "City": "Brown's Town",
+        "Country": "Jamaica",
+        "Lat": 18.3900766,
+        "Long": -77.3849869,
+        "PlaceID": "brown's_town_st_ann_jamaica",
+        "PlaceName": "Brown's Town, St. Ann, Jamaica",
+        "Region": "St. Ann"
+    },
+    "brussels_belgium": {
+        "City": "Brussels",
+        "Country": "Belgium",
+        "Lat": 50.8503463,
+        "Long": 4.3517211,
+        "PlaceID": "brussels_belgium",
+        "PlaceName": "Brussels, Belgium",
+        "Region": ""
+    },
+    "bucarest_romania": {
+        "City": "Bucarest",
+        "Country": "Romania",
+        "Lat": 44.4267674,
+        "Long": 26.1025384,
+        "PlaceID": "bucarest_romania",
+        "PlaceName": "Bucarest, Romania",
+        "Region": ""
+    },
+    "bucharest_romania": {
+        "City": "Bucharest",
+        "Country": "Romania",
+        "Lat": 44.4267674,
+        "Long": 26.1025384,
+        "PlaceID": "bucharest_romania",
+        "PlaceName": "Bucharest, Romania",
+        "Region": ""
+    },
+    "budapest_hungary": {
+        "City": "Budapest",
+        "Country": "Hungary",
+        "Lat": 47.497912,
+        "Long": 19.040235,
+        "PlaceID": "budapest_hungary",
+        "PlaceName": "Budapest, Hungary",
+        "Region": ""
+    },
+    "buenos_aires_argentina": {
+        "City": "Buenos Aires",
+        "Country": "Argentina",
+        "Lat": -34.6036844,
+        "Long": -58.3815591,
+        "PlaceID": "buenos_aires_argentina",
+        "PlaceName": "Buenos Aires, Argentina",
+        "Region": ""
+    },
+    "buffalo_new_york_usa": {
+        "City": "Buffalo",
+        "Country": "USA",
+        "Lat": 42.8864468,
+        "Long": -78.8783689,
+        "PlaceID": "buffalo_new_york_usa",
+        "PlaceName": "Buffalo, New York, USA",
+        "Region": "New York"
+    },
+    "bujumbura_burundi": {
+        "City": "Bujumbura",
+        "Country": "Burundi",
+        "Lat": -3.361378,
+        "Long": 29.3598782,
+        "PlaceID": "bujumbura_burundi",
+        "PlaceName": "Bujumbura, Burundi",
+        "Region": ""
+    },
+    "buxton_guyana": {
+        "City": "Buxton",
+        "Country": "Guyana",
+        "Lat": 6.764915,
+        "Long": -58.040272,
+        "PlaceID": "buxton_guyana",
+        "PlaceName": "Buxton, Guyana",
+        "Region": ""
+    },
+    "california_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 36.778261,
+        "Long": -119.4179324,
+        "PlaceID": "california_usa",
+        "PlaceName": "California, USA",
+        "Region": "California"
+    },
+    "camaguey_cuba": {
+        "City": "Camagüey",
+        "Country": "Cuba",
+        "Lat": 21.3926035,
+        "Long": -77.9053182,
+        "PlaceID": "camaguey_cuba",
+        "PlaceName": "Camagüey, Cuba",
+        "Region": ""
+    },
+    "cambridge_england": {
+        "City": "Cambridge",
+        "Country": "England",
+        "Lat": 52.205337,
+        "Long": 0.121817,
+        "PlaceID": "cambridge_england",
+        "PlaceName": "Cambridge, England",
+        "Region": ""
+    },
+    "cambridge_massachusetts_usa": {
+        "City": "Cambridge",
+        "Country": "USA",
+        "Lat": 42.3736158,
+        "Long": -71.1097335,
+        "PlaceID": "cambridge_massachusetts_usa",
+        "PlaceName": "Cambridge, Massachusetts, USA",
+        "Region": "Massachusetts"
+    },
+    "canada": {
+        "City": "",
+        "Country": "Canada",
+        "Lat": 56.130366,
+        "Long": -106.346771,
+        "PlaceID": "canada",
+        "PlaceName": "Canada",
+        "Region": ""
+    },
+    "cannes_france": {
+        "City": "Cannes",
+        "Country": "France",
+        "Lat": 43.552847,
+        "Long": 7.017369,
+        "PlaceID": "cannes_france",
+        "PlaceName": "Cannes, France",
+        "Region": ""
+    },
+    "canterbury_uk": {
+        "City": "Canterbury",
+        "Country": "UK",
+        "Lat": 51.280233,
+        "Long": 1.0789089,
+        "PlaceID": "canterbury_uk",
+        "PlaceName": "Canterbury, UK",
+        "Region": ""
+    },
+    "cap_d'antibes_france": {
+        "City": "Cap d'Antibes",
+        "Country": "France",
+        "Lat": 43.542493,
+        "Long": 7.121621,
+        "PlaceID": "cap_d'antibes_france",
+        "PlaceName": "Cap d'Antibes, France",
+        "Region": ""
+    },
+    "capetown_south_africa": {
+        "City": "Capetown",
+        "Country": "South Africa",
+        "Lat": -33.9248685,
+        "Long": 18.4240553,
+        "PlaceID": "capetown_south_africa",
+        "PlaceName": "Capetown, South Africa",
+        "Region": ""
+    },
+    "caracas_venezuela": {
+        "City": "Caracas",
+        "Country": "Venezuela",
+        "Lat": 10.4805937,
+        "Long": -66.9036063,
+        "PlaceID": "caracas_venezuela",
+        "PlaceName": "Caracas, Venezuela",
+        "Region": ""
+    },
+    "carbondale_illinois_usa": {
+        "City": "Carbondale",
+        "Country": "USA",
+        "Lat": 37.7272727,
+        "Long": -89.2167501,
+        "PlaceID": "carbondale_illinois_usa",
+        "PlaceName": "Carbondale, Illinois, USA",
+        "Region": "Illinois"
+    },
+    "carcassonne_france": {
+        "City": "Carcassonne",
+        "Country": "France",
+        "Lat": 43.2132151,
+        "Long": 2.3517703,
+        "PlaceID": "carcassonne_france",
+        "PlaceName": "Carcassonne, France",
+        "Region": ""
+    },
+    "carmel_california_usa": {
+        "City": "Carmel",
+        "Country": "USA",
+        "Lat": 36.5552386,
+        "Long": -121.9232879,
+        "PlaceID": "carmel_california_usa",
+        "PlaceName": "Carmel, California, USA",
+        "Region": "California"
+    },
+    "carolina_puerto_rico": {
+        "City": "Carolina",
+        "Country": "Puerto Rico",
+        "Lat": 18.3803255,
+        "Long": -65.9626213,
+        "PlaceID": "carolina_puerto_rico",
+        "PlaceName": "Carolina, Puerto Rico",
+        "Region": ""
+    },
+    "carriacou_saint_vincent_and_the_grenadines": {
+        "City": "Carriacou",
+        "Country": "Saint Vincent and the Grenadines",
+        "Lat": 12.984305,
+        "Long": -61.287228,
+        "PlaceID": "carriacou_saint_vincent_and_the_grenadines",
+        "PlaceName": "Carriacou, Saint Vincent and the Grenadines",
+        "Region": ""
+    },
+    "carrington_town_barbados": {
+        "City": "Carrington Town",
+        "Country": "Barbados",
+        "Lat": 13.1973298,
+        "Long": -59.579361,
+        "PlaceID": "carrington_town_barbados",
+        "PlaceName": "Carrington Town, Barbados",
+        "Region": ""
+    },
+    "cartagena_colombia": {
+        "City": "Cartagena",
+        "Country": "Colombia",
+        "Lat": 10.3910485,
+        "Long": -75.4794257,
+        "PlaceID": "cartagena_colombia",
+        "PlaceName": "Cartagena, Colombia",
+        "Region": ""
+    },
+    "casablanca_morocco": {
+        "City": "Casablanca",
+        "Country": "Morocco",
+        "Lat": 33.5731104,
+        "Long": -7.5898434,
+        "PlaceID": "casablanca_morocco",
+        "PlaceName": "Casablanca, Morocco",
+        "Region": ""
+    },
+    "castries_saint_lucia": {
+        "City": "Castries",
+        "Country": "Saint Lucia",
+        "Lat": 14.0101094,
+        "Long": -60.9874687,
+        "PlaceID": "castries_saint_lucia",
+        "PlaceName": "Castries, Saint Lucia",
+        "Region": ""
+    },
+    "cave_hill_barbados": {
+        "City": "Cave Hill",
+        "Country": "Barbados",
+        "Lat": 13.1330817,
+        "Long": -59.623303,
+        "PlaceID": "cave_hill_barbados",
+        "PlaceName": "Cave Hill, Barbados",
+        "Region": ""
+    },
+    "cedar_rapids_iowa_usa": {
+        "City": "Cedar Rapids",
+        "Country": "USA",
+        "Lat": 41.9778795,
+        "Long": -91.6656232,
+        "PlaceID": "cedar_rapids_iowa_usa",
+        "PlaceName": "Cedar Rapids, Iowa, USA",
+        "Region": "Iowa"
+    },
+    "chamonix_mount_blanc_france": {
+        "City": "Chamonix-Mount Blanc",
+        "Country": "France",
+        "Lat": 45.923697,
+        "Long": 6.869433,
+        "PlaceID": "chamonix_mount_blanc_france",
+        "PlaceName": "Chamonix-Mount Blanc, France",
+        "Region": ""
+    },
+    "chapel_hill_north_carolina": {
+        "City": "Chapel Hill",
+        "Country": "North Carolina",
+        "Lat": 35.9131996,
+        "Long": -79.0558445,
+        "PlaceID": "chapel_hill_north_carolina",
+        "PlaceName": "Chapel Hill, North Carolina",
+        "Region": ""
+    },
+    "charleston_south_carolina_usa": {
+        "City": "Charleston",
+        "Country": "USA",
+        "Lat": 36.1201561,
+        "Long": -77.3755239,
+        "PlaceID": "charleston_south_carolina_usa",
+        "PlaceName": "Charleston, South Carolina, USA",
+        "Region": "South Carolina"
+    },
+    "chattanooga_tennessee_usa": {
+        "City": "Chattanooga",
+        "Country": "USA",
+        "Lat": 35.0456297,
+        "Long": -85.3096801,
+        "PlaceID": "chattanooga_tennessee_usa",
+        "PlaceName": "Chattanooga, Tennessee, USA",
+        "Region": "Tennessee"
+    },
+    "cherbourg_france": {
+        "City": "Cherbourg",
+        "Country": "France",
+        "Lat": 49.6337308,
+        "Long": -1.622137,
+        "PlaceID": "cherbourg_france",
+        "PlaceName": "Cherbourg, France",
+        "Region": ""
+    },
+    "chernivtsi_ukraine": {
+        "City": "Chernivtsi",
+        "Country": "Ukraine",
+        "Lat": 48.2920787,
+        "Long": 25.9358367,
+        "PlaceID": "chernivtsi_ukraine",
+        "PlaceName": "Chernivtsi, Ukraine",
+        "Region": ""
+    },
+    "chester_new_york_usa": {
+        "City": "Chester",
+        "Country": "USA",
+        "Lat": 41.3625937,
+        "Long": -74.2712613,
+        "PlaceID": "chester_new_york_usa",
+        "PlaceName": "Chester, New York, USA",
+        "Region": "New York"
+    },
+    "chicago_illinois_usa": {
+        "City": "Chicago",
+        "Country": "USA",
+        "Lat": 41.8781136,
+        "Long": -87.6297982,
+        "PlaceID": "chicago_illinois_usa",
+        "PlaceName": "Chicago, Illinois, USA",
+        "Region": "Illinois"
+    },
+    "china": {
+        "City": "",
+        "Country": "China",
+        "Lat": 35.86166,
+        "Long": 104.195397,
+        "PlaceID": "china",
+        "PlaceName": "China",
+        "Region": ""
+    },
+    "christchurch_new_zealand": {
+        "City": "Christchurch",
+        "Country": "New Zealand",
+        "Lat": -43.5320544,
+        "Long": 172.6362254,
+        "PlaceID": "christchurch_new_zealand",
+        "PlaceName": "Christchurch, New Zealand",
+        "Region": ""
+    },
+    "cincinnati_ohio_usa": {
+        "City": "Cincinnati",
+        "Country": "USA",
+        "Lat": 39.1031182,
+        "Long": -84.5120196,
+        "PlaceID": "cincinnati_ohio_usa",
+        "PlaceName": "Cincinnati, Ohio, USA",
+        "Region": "Ohio"
+    },
+    "cleveland_ohio_usa": {
+        "City": "Cleveland",
+        "Country": "USA",
+        "Lat": 41.49932,
+        "Long": -81.6943605,
+        "PlaceID": "cleveland_ohio_usa",
+        "PlaceName": "Cleveland, Ohio, USA",
+        "Region": "Ohio"
+    },
+    "cologne_germany": {
+        "City": "Cologne",
+        "Country": "Germany",
+        "Lat": 50.937531,
+        "Long": 6.9602786,
+        "PlaceID": "cologne_germany",
+        "PlaceName": "Cologne, Germany",
+        "Region": ""
+    },
+    "colombia": {
+        "City": "",
+        "Country": "Colombia",
+        "Lat": 4.570868,
+        "Long": -74.297333,
+        "PlaceID": "colombia",
+        "PlaceName": "Colombia",
+        "Region": ""
+    },
+    "columbia_south_carolina_usa": {
+        "City": "Columbia",
+        "Country": "USA",
+        "Lat": 34.0007104,
+        "Long": -81.0348144,
+        "PlaceID": "columbia_south_carolina_usa",
+        "PlaceName": "Columbia, South Carolina, USA",
+        "Region": "South Carolina"
+    },
+    "conakry_guinea": {
+        "City": "Conakry",
+        "Country": "Guinea",
+        "Lat": 9.6411855,
+        "Long": -13.5784012,
+        "PlaceID": "conakry_guinea",
+        "PlaceName": "Conakry, Guinea",
+        "Region": ""
+    },
+    "copenhagen_denmark": {
+        "City": "Copenhagen",
+        "Country": "Denmark",
+        "Lat": 55.6760968,
+        "Long": 12.5683372,
+        "PlaceID": "copenhagen_denmark",
+        "PlaceName": "Copenhagen, Denmark",
+        "Region": ""
+    },
+    "coral_gables_florida_usa": {
+        "City": "Coral Gables",
+        "Country": "USA",
+        "Lat": 25.7491968,
+        "Long": -80.2635411,
+        "PlaceID": "coral_gables_florida_usa",
+        "PlaceName": "Coral Gables, Florida, USA",
+        "Region": "Florida"
+    },
+    "corfu_greece": {
+        "City": "Corfu",
+        "Country": "Greece",
+        "Lat": 39.6242621,
+        "Long": 19.9216777,
+        "PlaceID": "corfu_greece",
+        "PlaceName": "Corfu, Greece",
+        "Region": ""
+    },
+    "covington_kentucky_usa": {
+        "City": "Covington",
+        "Country": "USA",
+        "Lat": 39.0836712,
+        "Long": -84.5085536,
+        "PlaceID": "covington_kentucky_usa",
+        "PlaceName": "Covington, Kentucky, USA",
+        "Region": "Kentucky"
+    },
+    "cowpastor_barbados": {
+        "City": "CowPastor",
+        "Country": "Barbados",
+        "Lat": 13.193887,
+        "Long": -59.543198,
+        "PlaceID": "cowpastor_barbados",
+        "PlaceName": "CowPastor, Barbados",
+        "Region": ""
+    },
+    "cuba": {
+        "City": "",
+        "Country": "Cuba",
+        "Lat": 21.521757,
+        "Long": -77.781167,
+        "PlaceID": "cuba",
+        "PlaceName": "Cuba",
+        "Region": ""
+    },
+    "dakar_senegal": {
+        "City": "Dakar",
+        "Country": "Senegal",
+        "Lat": 14.716677,
+        "Long": -17.4676861,
+        "PlaceID": "dakar_senegal",
+        "PlaceName": "Dakar, Senegal",
+        "Region": ""
+    },
+    "dar_es_salaam_tanzania": {
+        "City": "Dar-Es-Salaam",
+        "Country": "Tanzania",
+        "Lat": -6.792354,
+        "Long": 39.2083284,
+        "PlaceID": "dar_es_salaam_tanzania",
+        "PlaceName": "Dar-Es-Salaam, Tanzania",
+        "Region": ""
+    },
+    "dawes_island_nigeria": {
+        "City": "Dawes Island",
+        "Country": "Nigeria",
+        "Lat": 4.6719444,
+        "Long": 7.0977778,
+        "PlaceID": "dawes_island_nigeria",
+        "PlaceName": "Dawes Island, Nigeria",
+        "Region": ""
+    },
+    "denmark": {
+        "City": "",
+        "Country": "Denmark",
+        "Lat": 56.26392,
+        "Long": 9.501785,
+        "PlaceID": "denmark",
+        "PlaceName": "Denmark",
+        "Region": ""
+    },
+    "denver_colorado_usa": {
+        "City": "Denver",
+        "Country": "USA",
+        "Lat": 39.7392358,
+        "Long": -104.990251,
+        "PlaceID": "denver_colorado_usa",
+        "PlaceName": "Denver, Colorado, USA",
+        "Region": "Colorado"
+    },
+    "des_moines_iowa_usa": {
+        "City": "Des Moines",
+        "Country": "USA",
+        "Lat": 41.5868353,
+        "Long": -93.6249593,
+        "PlaceID": "des_moines_iowa_usa",
+        "PlaceName": "Des Moines, Iowa, USA",
+        "Region": "Iowa"
+    },
+    "detroit_michigan_usa": {
+        "City": "Detroit",
+        "Country": "USA",
+        "Lat": 42.331427,
+        "Long": -83.0457538,
+        "PlaceID": "detroit_michigan_usa",
+        "PlaceName": "Detroit, Michigan, USA",
+        "Region": "Michigan"
+    },
+    "dominica": {
+        "City": "",
+        "Country": "Dominica",
+        "Lat": 15.414999,
+        "Long": -61.370976,
+        "PlaceID": "dominica",
+        "PlaceName": "Dominica",
+        "Region": ""
+    },
+    "dominica_": {
+        "City": "",
+        "Country": "Dominica ",
+        "Lat": 15.414999,
+        "Long": -61.370976,
+        "PlaceID": "dominica_",
+        "PlaceName": "Dominica ",
+        "Region": ""
+    },
+    "dominican_republic": {
+        "City": "",
+        "Country": "Dominican Republic",
+        "Lat": 18.735693,
+        "Long": -70.162651,
+        "PlaceID": "dominican_republic",
+        "PlaceName": "Dominican Republic",
+        "Region": ""
+    },
+    "dresden_germany": {
+        "City": "Dresden",
+        "Country": "Germany",
+        "Lat": 51.0504088,
+        "Long": 13.7372621,
+        "PlaceID": "dresden_germany",
+        "PlaceName": "Dresden, Germany",
+        "Region": ""
+    },
+    "durham_north_carolina": {
+        "City": "Durham",
+        "Country": "North Carolina",
+        "Lat": 35.9940329,
+        "Long": -78.898619,
+        "PlaceID": "durham_north_carolina",
+        "PlaceName": "Durham, North Carolina",
+        "Region": ""
+    },
+    "dusseldorf_germany": {
+        "City": "Düsseldorf",
+        "Country": "Germany",
+        "Lat": 51.2277411,
+        "Long": 6.7734556,
+        "PlaceID": "dusseldorf_germany",
+        "PlaceName": "Düsseldorf, Germany",
+        "Region": ""
+    },
+    "east_lansing_michigan_usa": {
+        "City": "East Lansing",
+        "Country": "USA",
+        "Lat": 42.7369792,
+        "Long": -84.4838654,
+        "PlaceID": "east_lansing_michigan_usa",
+        "PlaceName": "East Lansing, Michigan, USA",
+        "Region": "Michigan"
+    },
+    "east_st_louis_illinois_usa": {
+        "City": "East St. Louis",
+        "Country": "USA",
+        "Lat": 38.624514,
+        "Long": -90.1506465,
+        "PlaceID": "east_st_louis_illinois_usa",
+        "PlaceName": "East St. Louis, Illinois, USA",
+        "Region": "Illinois"
+    },
+    "easton_pennsylvania_usa": {
+        "City": "Easton",
+        "Country": "USA",
+        "Lat": 40.688432,
+        "Long": -75.2207323,
+        "PlaceID": "easton_pennsylvania_usa",
+        "PlaceName": "Easton, Pennsylvania, USA",
+        "Region": "Pennsylvania"
+    },
+    "ecuador": {
+        "City": "",
+        "Country": "Ecuador",
+        "Lat": -1.831239,
+        "Long": -78.183406,
+        "PlaceID": "ecuador",
+        "PlaceName": "Ecuador",
+        "Region": ""
+    },
+    "edinburgh_scotland_uk": {
+        "City": "Edinburgh",
+        "Country": "UK",
+        "Lat": 55.953252,
+        "Long": -3.188267,
+        "PlaceID": "edinburgh_scotland_uk",
+        "PlaceName": "Edinburgh, Scotland, UK",
+        "Region": "Scotland"
+    },
+    "egypt": {
+        "City": "",
+        "Country": "Egypt",
+        "Lat": 26.820553,
+        "Long": 30.802498,
+        "PlaceID": "egypt",
+        "PlaceName": "Egypt",
+        "Region": ""
+    },
+    "eisenach_germany": {
+        "City": "Eisenach",
+        "Country": "Germany",
+        "Lat": 50.9795715,
+        "Long": 10.3146872,
+        "PlaceID": "eisenach_germany",
+        "PlaceName": "Eisenach, Germany",
+        "Region": ""
+    },
+    "elizabeth_new_jersey_usa": {
+        "City": "Elizabeth",
+        "Country": "USA",
+        "Lat": 40.6639916,
+        "Long": -74.2107006,
+        "PlaceID": "elizabeth_new_jersey_usa",
+        "PlaceName": "Elizabeth, New Jersey, USA",
+        "Region": "New Jersey"
+    },
+    "ellis_island_new_york_usa": {
+        "City": "Ellis Island",
+        "Country": "USA",
+        "Lat": 40.6994748,
+        "Long": -74.0395587,
+        "PlaceID": "ellis_island_new_york_usa",
+        "PlaceName": "Ellis Island, New York, USA",
+        "Region": "New York"
+    },
+    "england": {
+        "City": "",
+        "Country": "England",
+        "Lat": 52.3555177,
+        "Long": -1.1743197,
+        "PlaceID": "england",
+        "PlaceName": "England",
+        "Region": ""
+    },
+    "english_provinces_england": {
+        "City": "",
+        "Country": "England",
+        "Lat": 52.3555177,
+        "Long": -1.1743197,
+        "PlaceID": "english_provinces_england",
+        "PlaceName": "English Provinces, England",
+        "Region": "English Provinces"
+    },
+    "ennfield_connecticut_usa": {
+        "City": "Ennfield",
+        "Country": "USA",
+        "Lat": 42.0027181,
+        "Long": -72.5441445,
+        "PlaceID": "ennfield_connecticut_usa",
+        "PlaceName": "Ennfield, Connecticut, USA",
+        "Region": "Connecticut"
+    },
+    "entebbe_uganda": {
+        "City": "Entebbe",
+        "Country": "Uganda",
+        "Lat": 0.0511839,
+        "Long": 32.463708,
+        "PlaceID": "entebbe_uganda",
+        "PlaceName": "Entebbe, Uganda",
+        "Region": ""
+    },
+    "eschenau_austria": {
+        "City": "Eschenau",
+        "Country": "Austria",
+        "Lat": 48.04875,
+        "Long": 15.56751,
+        "PlaceID": "eschenau_austria",
+        "PlaceName": "Eschenau, Austria",
+        "Region": ""
+    },
+    "eugene_oregon_usa": {
+        "City": "Eugene",
+        "Country": "USA",
+        "Lat": 44.0520691,
+        "Long": -123.0867536,
+        "PlaceID": "eugene_oregon_usa",
+        "PlaceName": "Eugene, Oregon, USA",
+        "Region": "Oregon"
+    },
+    "europe": {
+        "City": "",
+        "Country": "Europe",
+        "Lat": 54.5259614,
+        "Long": 15.2551187,
+        "PlaceID": "europe",
+        "PlaceName": "Europe",
+        "Region": ""
+    },
+    "evanston_illinois_usa": {
+        "City": "Evanston",
+        "Country": "USA",
+        "Lat": 42.0450722,
+        "Long": -87.6876969,
+        "PlaceID": "evanston_illinois_usa",
+        "PlaceName": "Evanston, Illinois, USA",
+        "Region": "Illinois"
+    },
+    "falmer_sussex_england": {
+        "City": "Falmer",
+        "Country": "England",
+        "Lat": 50.8670895,
+        "Long": -0.087914,
+        "PlaceID": "falmer_sussex_england",
+        "PlaceName": "Falmer, Sussex, England",
+        "Region": "Sussex"
+    },
+    "falun_dalama_county_sweden": {
+        "City": "Falun",
+        "Country": "Sweden",
+        "Lat": 60.60646,
+        "Long": 15.6355,
+        "PlaceID": "falun_dalama_county_sweden",
+        "PlaceName": "Falun, Dalama County, Sweden",
+        "Region": "Dalama County"
+    },
+    "farmville_virginia_usa": {
+        "City": "Farmville",
+        "Country": "USA",
+        "Lat": 37.3020965,
+        "Long": -78.3919401,
+        "PlaceID": "farmville_virginia_usa",
+        "PlaceName": "Farmville, Virginia, USA",
+        "Region": "Virginia"
+    },
+    "fes_morocco": {
+        "City": "Fes",
+        "Country": "Morocco",
+        "Lat": 34.0181246,
+        "Long": -5.0078451,
+        "PlaceID": "fes_morocco",
+        "PlaceName": "Fes, Morocco",
+        "Region": ""
+    },
+    "florence_italy": {
+        "City": "Florence",
+        "Country": "Italy",
+        "Lat": 43.7695604,
+        "Long": 11.2558136,
+        "PlaceID": "florence_italy",
+        "PlaceName": "Florence, Italy",
+        "Region": ""
+    },
+    "florida_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 27.6648274,
+        "Long": -81.5157535,
+        "PlaceID": "florida_usa",
+        "PlaceName": "Florida, USA",
+        "Region": "Florida"
+    },
+    "fort_de_france_martinique": {
+        "City": "Fort-de-France",
+        "Country": "Martinique",
+        "Lat": 14.6160647,
+        "Long": -61.0587804,
+        "PlaceID": "fort_de_france_martinique",
+        "PlaceName": "Fort-de-France, Martinique",
+        "Region": ""
+    },
+    "fort_erie_canada": {
+        "City": "Fort Erie",
+        "Country": "Canada",
+        "Lat": 42.9017764,
+        "Long": -78.9721745,
+        "PlaceID": "fort_erie_canada",
+        "PlaceName": "Fort Erie, Canada",
+        "Region": ""
+    },
+    "fort_lamy_chad": {
+        "City": "Fort Lamy",
+        "Country": "Chad",
+        "Lat": 14.8222222,
+        "Long": 15.8330556,
+        "PlaceID": "fort_lamy_chad",
+        "PlaceName": "Fort Lamy, Chad",
+        "Region": ""
+    },
+    "france": {
+        "City": "",
+        "Country": "France",
+        "Lat": 46.227638,
+        "Long": 2.213749,
+        "PlaceID": "france",
+        "PlaceName": "France",
+        "Region": ""
+    },
+    "frankfurt_germany": {
+        "City": "Frankfurt",
+        "Country": "Germany",
+        "Lat": 50.1109221,
+        "Long": 8.6821267,
+        "PlaceID": "frankfurt_germany",
+        "PlaceName": "Frankfurt, Germany",
+        "Region": ""
+    },
+    "freetown_sierra_leone": {
+        "City": "Freetown",
+        "Country": "Sierra Leone",
+        "Lat": 8.4656765,
+        "Long": -13.2317225,
+        "PlaceID": "freetown_sierra_leone",
+        "PlaceName": "Freetown, Sierra Leone",
+        "Region": ""
+    },
+    "geneva_switzerland": {
+        "City": "Geneva",
+        "Country": "Switzerland",
+        "Lat": 46.2043907,
+        "Long": 6.1431577,
+        "PlaceID": "geneva_switzerland",
+        "PlaceName": "Geneva, Switzerland",
+        "Region": ""
+    },
+    "genoa_italy": {
+        "City": "Genoa",
+        "Country": "Italy",
+        "Lat": 44.4056499,
+        "Long": 8.946256,
+        "PlaceID": "genoa_italy",
+        "PlaceName": "Genoa, Italy",
+        "Region": ""
+    },
+    "georgetown_guyana": {
+        "City": "Georgetown",
+        "Country": "Guyana",
+        "Lat": 6.804611,
+        "Long": -58.154831,
+        "PlaceID": "georgetown_guyana",
+        "PlaceName": "Georgetown, Guyana",
+        "Region": ""
+    },
+    "georgia_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 32.1656221,
+        "Long": -82.9000751,
+        "PlaceID": "georgia_usa",
+        "PlaceName": "Georgia, USA",
+        "Region": "Georgia"
+    },
+    "germany": {
+        "City": "",
+        "Country": "Germany",
+        "Lat": 51.165691,
+        "Long": 10.451526,
+        "PlaceID": "germany",
+        "PlaceName": "Germany",
+        "Region": ""
+    },
+    "glasgow_scotland": {
+        "City": "Glasgow",
+        "Country": "Scotland",
+        "Lat": 55.864237,
+        "Long": -4.251806,
+        "PlaceID": "glasgow_scotland",
+        "PlaceName": "Glasgow, Scotland",
+        "Region": ""
+    },
+    "glen_ellyn_illinois_usa": {
+        "City": "Glen Ellyn",
+        "Country": "USA",
+        "Lat": 41.8775293,
+        "Long": -88.0670118,
+        "PlaceID": "glen_ellyn_illinois_usa",
+        "PlaceName": "Glen Ellyn, Illinois, USA",
+        "Region": "Illinois"
+    },
+    "grand_bassam_ivory_coast": {
+        "City": "Grand-Bassam",
+        "Country": "Ivory Coast",
+        "Lat": 5.225936,
+        "Long": -3.7536663,
+        "PlaceID": "grand_bassam_ivory_coast",
+        "PlaceName": "Grand-Bassam, Ivory Coast",
+        "Region": ""
+    },
+    "great_barrington_massachusetts_usa": {
+        "City": "Great Barrington",
+        "Country": "USA",
+        "Lat": 42.1959798,
+        "Long": -73.362008,
+        "PlaceID": "great_barrington_massachusetts_usa",
+        "PlaceName": "Great Barrington, Massachusetts, USA",
+        "Region": "Massachusetts"
+    },
+    "greece": {
+        "City": "",
+        "Country": "Greece",
+        "Lat": 39.074208,
+        "Long": 21.824312,
+        "PlaceID": "greece",
+        "PlaceName": "Greece",
+        "Region": ""
+    },
+    "greensboro_north_carolina_usa": {
+        "City": "Greensboro",
+        "Country": "USA",
+        "Lat": 36.0726354,
+        "Long": -79.7919754,
+        "PlaceID": "greensboro_north_carolina_usa",
+        "PlaceName": "Greensboro, North Carolina, USA",
+        "Region": "North Carolina"
+    },
+    "greenville_mississippi_usa": {
+        "City": "Greenville",
+        "Country": "USA",
+        "Lat": 33.399661,
+        "Long": -91.0377029,
+        "PlaceID": "greenville_mississippi_usa",
+        "PlaceName": "Greenville, Mississippi, USA",
+        "Region": "Mississippi"
+    },
+    "grenada": {
+        "City": "",
+        "Country": "Grenada",
+        "Lat": 12.1165,
+        "Long": -61.679,
+        "PlaceID": "grenada",
+        "PlaceName": "Grenada",
+        "Region": ""
+    },
+    "grenada_spain": {
+        "City": "Grenada",
+        "Country": "Spain",
+        "Lat": 37.1773363,
+        "Long": -3.5985571,
+        "PlaceID": "grenada_spain",
+        "PlaceName": "Grenada, Spain",
+        "Region": ""
+    },
+    "guadeloupe": {
+        "City": "",
+        "Country": "Guadeloupe",
+        "Lat": 16.265,
+        "Long": -61.551,
+        "PlaceID": "guadeloupe",
+        "PlaceName": "Guadeloupe",
+        "Region": ""
+    },
+    "guyana": {
+        "City": "",
+        "Country": "Guyana",
+        "Lat": 4.860416,
+        "Long": -58.93018,
+        "PlaceID": "guyana",
+        "PlaceName": "Guyana",
+        "Region": ""
+    },
+    "haiti": {
+        "City": "",
+        "Country": "Haiti",
+        "Lat": 18.971187,
+        "Long": -72.285215,
+        "PlaceID": "haiti",
+        "PlaceName": "Haiti",
+        "Region": ""
+    },
+    "halberstadt_germany": {
+        "City": "Halberstadt",
+        "Country": "Germany",
+        "Lat": 51.8948709,
+        "Long": 11.0496159,
+        "PlaceID": "halberstadt_germany",
+        "PlaceName": "Halberstadt, Germany",
+        "Region": ""
+    },
+    "hamburg_germany": {
+        "City": "Hamburg",
+        "Country": "Germany",
+        "Lat": 53.5510846,
+        "Long": 9.9936819,
+        "PlaceID": "hamburg_germany",
+        "PlaceName": "Hamburg, Germany",
+        "Region": ""
+    },
+    "hamilton_bermuda": {
+        "City": "Hamilton",
+        "Country": "Bermuda",
+        "Lat": 32.2945837,
+        "Long": -64.7858887,
+        "PlaceID": "hamilton_bermuda",
+        "PlaceName": "Hamilton, Bermuda",
+        "Region": ""
+    },
+    "hampton_virginia_usa": {
+        "City": "Hampton",
+        "Country": "USA",
+        "Lat": 37.0298687,
+        "Long": -76.3452218,
+        "PlaceID": "hampton_virginia_usa",
+        "PlaceName": "Hampton, Virginia, USA",
+        "Region": "Virginia"
+    },
+    "hanoi_vietnam": {
+        "City": "Hanoi",
+        "Country": "Vietnam",
+        "Lat": 21.0277644,
+        "Long": 105.8341598,
+        "PlaceID": "hanoi_vietnam",
+        "PlaceName": "Hanoi, Vietnam",
+        "Region": ""
+    },
+    "hanover_germany": {
+        "City": "Hanover",
+        "Country": "Germany",
+        "Lat": 52.3758916,
+        "Long": 9.7320104,
+        "PlaceID": "hanover_germany",
+        "PlaceName": "Hanover, Germany",
+        "Region": ""
+    },
+    "hanover_new_hampshire_usa": {
+        "City": "Hanover",
+        "Country": "USA",
+        "Lat": 43.7022451,
+        "Long": -72.2895526,
+        "PlaceID": "hanover_new_hampshire_usa",
+        "PlaceName": "Hanover, New Hampshire, USA",
+        "Region": "New Hampshire"
+    },
+    "harper's_ferry_west_virginia_usa": {
+        "City": "Harper's Ferry",
+        "Country": "USA",
+        "Lat": 39.3253786,
+        "Long": -77.7388818,
+        "PlaceID": "harper's_ferry_west_virginia_usa",
+        "PlaceName": "Harper's Ferry, West Virginia, USA",
+        "Region": "West Virginia"
+    },
+    "harrisburg_pennsylvania_usa": {
+        "City": "Harrisburg",
+        "Country": "USA",
+        "Lat": 40.2731911,
+        "Long": -76.8867008,
+        "PlaceID": "harrisburg_pennsylvania_usa",
+        "PlaceName": "Harrisburg, Pennsylvania, USA",
+        "Region": "Pennsylvania"
+    },
+    "hartford_connecticut_usa": {
+        "City": "Hartford",
+        "Country": "USA",
+        "Lat": 41.7658043,
+        "Long": -72.6733723,
+        "PlaceID": "hartford_connecticut_usa",
+        "PlaceName": "Hartford, Connecticut, USA",
+        "Region": "Connecticut"
+    },
+    "hato_rey_puerto_rico": {
+        "City": "Hato Rey",
+        "Country": "Puerto Rico",
+        "Lat": 18.4225782,
+        "Long": -66.0509549,
+        "PlaceID": "hato_rey_puerto_rico",
+        "PlaceName": "Hato Rey, Puerto Rico",
+        "Region": ""
+    },
+    "havana_cuba": {
+        "City": "Havana",
+        "Country": "Cuba",
+        "Lat": 23.1135925,
+        "Long": -82.3665956,
+        "PlaceID": "havana_cuba",
+        "PlaceName": "Havana, Cuba",
+        "Region": ""
+    },
+    "heidelberg_germany": {
+        "City": "Heidelberg",
+        "Country": "Germany",
+        "Lat": 49.3987524,
+        "Long": 8.6724335,
+        "PlaceID": "heidelberg_germany",
+        "PlaceName": "Heidelberg, Germany",
+        "Region": ""
+    },
+    "ho_trans_volta_togoland": {
+        "City": "Ho",
+        "Country": "Trans-Volta Togoland",
+        "Lat": 6.6101493,
+        "Long": 0.4785495,
+        "PlaceID": "ho_trans_volta_togoland",
+        "PlaceName": "Ho, Trans-Volta Togoland",
+        "Region": ""
+    },
+    "hong_kong": {
+        "City": "",
+        "Country": "Hong Kong",
+        "Lat": 22.396428,
+        "Long": 114.109497,
+        "PlaceID": "hong_kong",
+        "PlaceName": "Hong Kong",
+        "Region": ""
+    },
+    "horta_azores": {
+        "City": "Horta",
+        "Country": "Azores",
+        "Lat": 38.5348447,
+        "Long": -28.6299812,
+        "PlaceID": "horta_azores",
+        "PlaceName": "Horta, Azores",
+        "Region": ""
+    },
+    "houston_texas_usa": {
+        "City": "Houston",
+        "Country": "USA",
+        "Lat": 29.7604267,
+        "Long": -95.3698028,
+        "PlaceID": "houston_texas_usa",
+        "PlaceName": "Houston, Texas, USA",
+        "Region": "Texas"
+    },
+    "hull_england": {
+        "City": "Hull",
+        "Country": "England",
+        "Lat": 53.7456709,
+        "Long": -0.3367413,
+        "PlaceID": "hull_england",
+        "PlaceName": "Hull, England",
+        "Region": ""
+    },
+    "ibadan_nigeria": {
+        "City": "Ibadan",
+        "Country": "Nigeria",
+        "Lat": 7.3775355,
+        "Long": 3.9470396,
+        "PlaceID": "ibadan_nigeria",
+        "PlaceName": "Ibadan, Nigeria",
+        "Region": ""
+    },
+    "ibiza_spain": {
+        "City": "Ibiza",
+        "Country": "Spain",
+        "Lat": 29.896,
+        "Long": -81.31671,
+        "PlaceID": "ibiza_spain",
+        "PlaceName": "Ibiza, Spain",
+        "Region": ""
+    },
+    "ilorin_nigeria": {
+        "City": "Ilorin",
+        "Country": "Nigeria",
+        "Lat": 8.4798786,
+        "Long": 4.5418141,
+        "PlaceID": "ilorin_nigeria",
+        "PlaceName": "Ilorin, Nigeria",
+        "Region": ""
+    },
+    "india": {
+        "City": "",
+        "Country": "India",
+        "Lat": 20.593684,
+        "Long": 78.96288,
+        "PlaceID": "india",
+        "PlaceName": "India",
+        "Region": ""
+    },
+    "indianapolis_indiana_usa": {
+        "City": "Indianapolis",
+        "Country": "USA",
+        "Lat": 39.768403,
+        "Long": -86.158068,
+        "PlaceID": "indianapolis_indiana_usa",
+        "PlaceName": "Indianapolis, Indiana, USA",
+        "Region": "Indiana"
+    },
+    "ireland": {
+        "City": "",
+        "Country": "Ireland",
+        "Lat": 53.41291,
+        "Long": -8.24389,
+        "PlaceID": "ireland",
+        "PlaceName": "Ireland",
+        "Region": ""
+    },
+    "irvine_california_usa": {
+        "City": "Irvine",
+        "Country": "USA",
+        "Lat": 33.6845673,
+        "Long": -117.8265049,
+        "PlaceID": "irvine_california_usa",
+        "PlaceName": "Irvine, California, USA",
+        "Region": "California"
+    },
+    "istanbul_turkey": {
+        "City": "Istanbul",
+        "Country": "Turkey",
+        "Lat": 41.0082376,
+        "Long": 28.9783589,
+        "PlaceID": "istanbul_turkey",
+        "PlaceName": "Istanbul, Turkey",
+        "Region": ""
+    },
+    "italy": {
+        "City": "",
+        "Country": "Italy",
+        "Lat": 41.87194,
+        "Long": 12.56738,
+        "PlaceID": "italy",
+        "PlaceName": "Italy",
+        "Region": ""
+    },
+    "ithaca_new_york_usa": {
+        "City": "Ithaca",
+        "Country": "USA",
+        "Lat": 42.4439614,
+        "Long": -76.5018807,
+        "PlaceID": "ithaca_new_york_usa",
+        "PlaceName": "Ithaca, New York, USA",
+        "Region": "New York"
+    },
+    "jackson_mississippi_usa": {
+        "City": "Jackson",
+        "Country": "USA",
+        "Lat": 32.2987573,
+        "Long": -90.1848103,
+        "PlaceID": "jackson_mississippi_usa",
+        "PlaceName": "Jackson, Mississippi, USA",
+        "Region": "Mississippi"
+    },
+    "jacmel_haiti": {
+        "City": "Jacmel",
+        "Country": "Haiti",
+        "Lat": 18.2430063,
+        "Long": -72.5263984,
+        "PlaceID": "jacmel_haiti",
+        "PlaceName": "Jacmel, Haiti",
+        "Region": ""
+    },
+    "jamaica": {
+        "City": "",
+        "Country": "Jamaica",
+        "Lat": 18.109581,
+        "Long": -77.297508,
+        "PlaceID": "jamaica",
+        "PlaceName": "Jamaica",
+        "Region": ""
+    },
+    "johannesburg_south_africa": {
+        "City": "Johannesburg",
+        "Country": "South Africa",
+        "Lat": -26.2041028,
+        "Long": 28.0473051,
+        "PlaceID": "johannesburg_south_africa",
+        "PlaceName": "Johannesburg, South Africa",
+        "Region": ""
+    },
+    "joliet_illinois_usa": {
+        "City": "Joliet",
+        "Country": "USA",
+        "Lat": 41.525031,
+        "Long": -88.0817251,
+        "PlaceID": "joliet_illinois_usa",
+        "PlaceName": "Joliet, Illinois, USA",
+        "Region": "Illinois"
+    },
+    "jones_point_new_york_usa": {
+        "City": "Jones Point",
+        "Country": "USA",
+        "Lat": 41.286205,
+        "Long": -73.9559726,
+        "PlaceID": "jones_point_new_york_usa",
+        "PlaceName": "Jones Point, New York, USA",
+        "Region": "New York"
+    },
+    "joplin_missouri_usa": {
+        "City": "Joplin",
+        "Country": "USA",
+        "Lat": 37.0842271,
+        "Long": -94.513281,
+        "PlaceID": "joplin_missouri_usa",
+        "PlaceName": "Joplin, Missouri, USA",
+        "Region": "Missouri"
+    },
+    "juba_republic_of_south_sudan": {
+        "City": "Juba",
+        "Country": "Republic of South Sudan",
+        "Lat": 4.859363,
+        "Long": 31.57125,
+        "PlaceID": "juba_republic_of_south_sudan",
+        "PlaceName": "Juba, Republic of South Sudan",
+        "Region": ""
+    },
+    "kabarole_uganda": {
+        "City": "Kabarole",
+        "Country": "Uganda",
+        "Lat": 0.5850791,
+        "Long": 30.2512728,
+        "PlaceID": "kabarole_uganda",
+        "PlaceName": "Kabarole, Uganda",
+        "Region": ""
+    },
+    "kaduna_nigeria": {
+        "City": "Kaduna",
+        "Country": "Nigeria",
+        "Lat": 10.5104642,
+        "Long": 7.4165053,
+        "PlaceID": "kaduna_nigeria",
+        "PlaceName": "Kaduna, Nigeria",
+        "Region": ""
+    },
+    "kampala_uganda": {
+        "City": "Kampala",
+        "Country": "Uganda",
+        "Lat": 0.3475964,
+        "Long": 32.5825197,
+        "PlaceID": "kampala_uganda",
+        "PlaceName": "Kampala, Uganda",
+        "Region": ""
+    },
+    "kankan_guinea": {
+        "City": "Kankan",
+        "Country": "Guinea",
+        "Lat": 10.3827887,
+        "Long": -9.3118282,
+        "PlaceID": "kankan_guinea",
+        "PlaceName": "Kankan, Guinea",
+        "Region": ""
+    },
+    "kansas_city_missouri_usa": {
+        "City": "Kansas City",
+        "Country": "USA",
+        "Lat": 39.0997265,
+        "Long": -94.5785667,
+        "PlaceID": "kansas_city_missouri_usa",
+        "PlaceName": "Kansas City, Missouri, USA",
+        "Region": "Missouri"
+    },
+    "kansas_city_usa": {
+        "City": "Kansas City",
+        "Country": "USA",
+        "Lat": 39.0997265,
+        "Long": -94.5785667,
+        "PlaceID": "kansas_city_usa",
+        "PlaceName": "Kansas City, USA",
+        "Region": ""
+    },
+    "kassel_germany": {
+        "City": "Kassel",
+        "Country": "Germany",
+        "Lat": 51.3127114,
+        "Long": 9.4797461,
+        "PlaceID": "kassel_germany",
+        "PlaceName": "Kassel, Germany",
+        "Region": ""
+    },
+    "kenya": {
+        "City": "",
+        "Country": "Kenya",
+        "Lat": -0.023559,
+        "Long": 37.906193,
+        "PlaceID": "kenya",
+        "PlaceName": "Kenya",
+        "Region": ""
+    },
+    "key_west_florida_usa": {
+        "City": "Key West",
+        "Country": "USA",
+        "Lat": 24.5550593,
+        "Long": -81.7799871,
+        "PlaceID": "key_west_florida_usa",
+        "PlaceName": "Key West, Florida, USA",
+        "Region": "Florida"
+    },
+    "khartoum_sudan": {
+        "City": "Khartoum",
+        "Country": "Sudan",
+        "Lat": 15.5006544,
+        "Long": 32.5598994,
+        "PlaceID": "khartoum_sudan",
+        "PlaceName": "Khartoum, Sudan",
+        "Region": ""
+    },
+    "kiev_ukraine": {
+        "City": "Kiev",
+        "Country": "Ukraine",
+        "Lat": 50.4501,
+        "Long": 30.5234,
+        "PlaceID": "kiev_ukraine",
+        "PlaceName": "Kiev, Ukraine",
+        "Region": ""
+    },
+    "kingston_jamaica": {
+        "City": "Kingston",
+        "Country": "Jamaica",
+        "Lat": 18.0178743,
+        "Long": -76.8099041,
+        "PlaceID": "kingston_jamaica",
+        "PlaceName": "Kingston, Jamaica",
+        "Region": ""
+    },
+    "kinshasa_democratic_republic_of_the_congo": {
+        "City": "Kinshasa",
+        "Country": "Democratic Republic of the Congo",
+        "Lat": -4.4419311,
+        "Long": 15.2662931,
+        "PlaceID": "kinshasa_democratic_republic_of_the_congo",
+        "PlaceName": "Kinshasa, Democratic Republic of the Congo",
+        "Region": ""
+    },
+    "kitzbuhel_austria": {
+        "City": "Kitzbuhel",
+        "Country": "Austria",
+        "Lat": 47.4492375,
+        "Long": 12.3925407,
+        "PlaceID": "kitzbuhel_austria",
+        "PlaceName": "Kitzbuhel, Austria",
+        "Region": ""
+    },
+    "knaresborough_england": {
+        "City": "Knaresborough",
+        "Country": "England",
+        "Lat": 54.011022,
+        "Long": -1.47102,
+        "PlaceID": "knaresborough_england",
+        "PlaceName": "Knaresborough, England",
+        "Region": ""
+    },
+    "krakow_poland": {
+        "City": "Krakow",
+        "Country": "Poland",
+        "Lat": 50.0646501,
+        "Long": 19.9449799,
+        "PlaceID": "krakow_poland",
+        "PlaceName": "Krakow, Poland",
+        "Region": ""
+    },
+    "kronstadt_russia": {
+        "City": "Kronstadt",
+        "Country": "Russia",
+        "Lat": 59.9959303,
+        "Long": 29.7655453,
+        "PlaceID": "kronstadt_russia",
+        "PlaceName": "Kronstadt, Russia",
+        "Region": ""
+    },
+    "kumasi_ghana": {
+        "City": "Kumasi",
+        "Country": "Ghana",
+        "Lat": 6.6666004,
+        "Long": -1.6162709,
+        "PlaceID": "kumasi_ghana",
+        "PlaceName": "Kumasi, Ghana",
+        "Region": ""
+    },
+    "la_ciotat_france": {
+        "City": "La Ciotat",
+        "Country": "France",
+        "Lat": 43.173653,
+        "Long": 5.605155,
+        "PlaceID": "la_ciotat_france",
+        "PlaceName": "La Ciotat, France",
+        "Region": ""
+    },
+    "lagos_nigeria": {
+        "City": "Lagos",
+        "Country": "Nigeria",
+        "Lat": 6.5243793,
+        "Long": 3.3792057,
+        "PlaceID": "lagos_nigeria",
+        "PlaceName": "Lagos, Nigeria",
+        "Region": ""
+    },
+    "lake_district_england": {
+        "City": "Lake District",
+        "Country": "England",
+        "Lat": 54.4608702,
+        "Long": -3.0886254,
+        "PlaceID": "lake_district_england",
+        "PlaceName": "Lake District, England",
+        "Region": ""
+    },
+    "lake_minnetonka_minnesota_usa": {
+        "City": "Lake Minnetonka",
+        "Country": "USA",
+        "Lat": 44.9073415,
+        "Long": -93.6344466,
+        "PlaceID": "lake_minnetonka_minnesota_usa",
+        "PlaceName": "Lake Minnetonka, Minnesota, USA",
+        "Region": "Minnesota"
+    },
+    "las_vegas_nevada_usa": {
+        "City": "Las Vegas",
+        "Country": "USA",
+        "Lat": 36.1699412,
+        "Long": -115.1398296,
+        "PlaceID": "las_vegas_nevada_usa",
+        "PlaceName": "Las Vegas, Nevada, USA",
+        "Region": "Nevada"
+    },
+    "las_villas_cuba": {
+        "City": "Las Villas",
+        "Country": "Cuba",
+        "Lat": 22.4937204,
+        "Long": -79.9192702,
+        "PlaceID": "las_villas_cuba",
+        "PlaceName": "Las Villas, Cuba",
+        "Region": ""
+    },
+    "lawrence_kansas_usa": {
+        "City": "Lawrence",
+        "Country": "USA",
+        "Lat": 38.9716689,
+        "Long": -95.2352501,
+        "PlaceID": "lawrence_kansas_usa",
+        "PlaceName": "Lawrence, Kansas, USA",
+        "Region": "Kansas"
+    },
+    "lebanon": {
+        "City": "",
+        "Country": "Lebanon",
+        "Lat": 33.854721,
+        "Long": 35.862285,
+        "PlaceID": "lebanon",
+        "PlaceName": "Lebanon",
+        "Region": ""
+    },
+    "lebanon_tennessee_usa": {
+        "City": "Lebanon",
+        "Country": "USA",
+        "Lat": 36.2081098,
+        "Long": -86.2911024,
+        "PlaceID": "lebanon_tennessee_usa",
+        "PlaceName": "Lebanon, Tennessee, USA",
+        "Region": "Tennessee"
+    },
+    "lecce_italy": {
+        "City": "Lecce",
+        "Country": "Italy",
+        "Lat": 40.3515155,
+        "Long": 18.1750161,
+        "PlaceID": "lecce_italy",
+        "PlaceName": "Lecce, Italy",
+        "Region": ""
+    },
+    "leipzig_germany": {
+        "City": "Leipzig",
+        "Country": "Germany",
+        "Lat": 51.3396955,
+        "Long": 12.3730747,
+        "PlaceID": "leipzig_germany",
+        "PlaceName": "Leipzig, Germany",
+        "Region": ""
+    },
+    "lesotho": {
+        "City": "",
+        "Country": "Lesotho",
+        "Lat": -29.609988,
+        "Long": 28.233608,
+        "PlaceID": "lesotho",
+        "PlaceName": "Lesotho",
+        "Region": ""
+    },
+    "lewisburg_pennsylvania_usa": {
+        "City": "Lewisburg",
+        "Country": "USA",
+        "Lat": 40.9645293,
+        "Long": -76.8844101,
+        "PlaceID": "lewisburg_pennsylvania_usa",
+        "PlaceName": "Lewisburg, Pennsylvania, USA",
+        "Region": "Pennsylvania"
+    },
+    "lezignan_corbieres_france": {
+        "City": "Lézignan-Corbières",
+        "Country": "France",
+        "Lat": 43.200503,
+        "Long": 2.7577759,
+        "PlaceID": "lezignan_corbieres_france",
+        "PlaceName": "Lézignan-Corbières, France",
+        "Region": ""
+    },
+    "liberia": {
+        "City": "",
+        "Country": "Liberia",
+        "Lat": 6.428055,
+        "Long": -9.429499,
+        "PlaceID": "liberia",
+        "PlaceName": "Liberia",
+        "Region": ""
+    },
+    "liege_belgium": {
+        "City": "Liege",
+        "Country": "Belgium",
+        "Lat": 50.6325574,
+        "Long": 5.5796662,
+        "PlaceID": "liege_belgium",
+        "PlaceName": "Liege, Belgium",
+        "Region": ""
+    },
+    "lima_peru": {
+        "City": "Lima",
+        "Country": "Peru",
+        "Lat": -12.0463731,
+        "Long": -77.042754,
+        "PlaceID": "lima_peru",
+        "PlaceName": "Lima, Peru",
+        "Region": ""
+    },
+    "limura_kenya": {
+        "City": "Limura",
+        "Country": "Kenya",
+        "Lat": -1.1069305,
+        "Long": 36.6431267,
+        "PlaceID": "limura_kenya",
+        "PlaceName": "Limura, Kenya",
+        "Region": ""
+    },
+    "limuru_kenya": {
+        "City": "Limuru",
+        "Country": "Kenya",
+        "Lat": -1.1069305,
+        "Long": 36.6431267,
+        "PlaceID": "limuru_kenya",
+        "PlaceName": "Limuru, Kenya",
+        "Region": ""
+    },
+    "lincoln_illinois_usa": {
+        "City": "Lincoln",
+        "Country": "USA",
+        "Lat": 40.1483768,
+        "Long": -89.3648183,
+        "PlaceID": "lincoln_illinois_usa",
+        "PlaceName": "Lincoln, Illinois, USA",
+        "Region": "Illinois"
+    },
+    "lincoln_pennsylvania_usa": {
+        "City": "Lincoln",
+        "Country": "USA",
+        "Lat": 40.2955104,
+        "Long": -79.8576828,
+        "PlaceID": "lincoln_pennsylvania_usa",
+        "PlaceName": "Lincoln, Pennsylvania, USA",
+        "Region": "Pennsylvania"
+    },
+    "lisbon_portugal": {
+        "City": "Lisbon",
+        "Country": "Portugal",
+        "Lat": 38.7222524,
+        "Long": -9.1393366,
+        "PlaceID": "lisbon_portugal",
+        "PlaceName": "Lisbon, Portugal",
+        "Region": ""
+    },
+    "liverpool_england": {
+        "City": "Liverpool",
+        "Country": "England",
+        "Lat": 53.4083714,
+        "Long": -2.9915726,
+        "PlaceID": "liverpool_england",
+        "PlaceName": "Liverpool, England",
+        "Region": ""
+    },
+    "lobito_angola": {
+        "City": "Lobito",
+        "Country": "Angola",
+        "Lat": -12.3757287,
+        "Long": 13.5610451,
+        "PlaceID": "lobito_angola",
+        "PlaceName": "Lobito, Angola",
+        "Region": ""
+    },
+    "london_england": {
+        "City": "London",
+        "Country": "England",
+        "Lat": 51.5073509,
+        "Long": -0.1277583,
+        "PlaceID": "london_england",
+        "PlaceName": "London, England",
+        "Region": ""
+    },
+    "long_island_new_york_usa": {
+        "City": "Long Island",
+        "Country": "USA",
+        "Lat": 40.789142,
+        "Long": -73.134961,
+        "PlaceID": "long_island_new_york_usa",
+        "PlaceName": "Long Island, New York, USA",
+        "Region": "New York"
+    },
+    "los_angeles_california_usa": {
+        "City": "Los Angeles",
+        "Country": "USA",
+        "Lat": 34.0522342,
+        "Long": -118.2436849,
+        "PlaceID": "los_angeles_california_usa",
+        "PlaceName": "Los Angeles, California, USA",
+        "Region": "California"
+    },
+    "louisiana_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 30.9842977,
+        "Long": -91.9623327,
+        "PlaceID": "louisiana_usa",
+        "PlaceName": "Louisiana, USA",
+        "Region": "Louisiana"
+    },
+    "louisville_kentucky_usa": {
+        "City": "Louisville",
+        "Country": "USA",
+        "Lat": 38.2526647,
+        "Long": -85.7584557,
+        "PlaceID": "louisville_kentucky_usa",
+        "PlaceName": "Louisville, Kentucky, USA",
+        "Region": "Kentucky"
+    },
+    "lowndes_county_alabama_usa": {
+        "City": "Lowndes County",
+        "Country": "USA",
+        "Lat": 32.221464,
+        "Long": -86.6611083,
+        "PlaceID": "lowndes_county_alabama_usa",
+        "PlaceName": "Lowndes County, Alabama, USA",
+        "Region": "Alabama"
+    },
+    "luanda_angola": {
+        "City": "Luanda",
+        "Country": "Angola",
+        "Lat": -8.8146556,
+        "Long": 13.2301756,
+        "PlaceID": "luanda_angola",
+        "PlaceName": "Luanda, Angola",
+        "Region": ""
+    },
+    "lubeck_germany": {
+        "City": "Lübeck",
+        "Country": "Germany",
+        "Lat": 53.8654673,
+        "Long": 10.6865593,
+        "PlaceID": "lubeck_germany",
+        "PlaceName": "Lübeck, Germany",
+        "Region": ""
+    },
+    "lubumbashi_democratic_republic_of_the_congo": {
+        "City": "Lubumbashi",
+        "Country": "Democratic Republic of the Congo",
+        "Lat": -11.6876026,
+        "Long": 27.5026174,
+        "PlaceID": "lubumbashi_democratic_republic_of_the_congo",
+        "PlaceName": "Lubumbashi, Democratic Republic of the Congo",
+        "Region": ""
+    },
+    "luxor_egypt": {
+        "City": "Luxor",
+        "Country": "Egypt",
+        "Lat": 25.6872431,
+        "Long": 32.6396357,
+        "PlaceID": "luxor_egypt",
+        "PlaceName": "Luxor, Egypt",
+        "Region": ""
+    },
+    "lyon_france": {
+        "City": "Lyon",
+        "Country": "France",
+        "Lat": 45.764043,
+        "Long": 4.835659,
+        "PlaceID": "lyon_france",
+        "PlaceName": "Lyon, France",
+        "Region": ""
+    },
+    "madeira_portugal": {
+        "City": "Madeira",
+        "Country": "Portugal",
+        "Lat": 32.7607074,
+        "Long": -16.9594723,
+        "PlaceID": "madeira_portugal",
+        "PlaceName": "Madeira, Portugal",
+        "Region": ""
+    },
+    "madrid_spain": {
+        "City": "Madrid",
+        "Country": "Spain",
+        "Lat": 40.4167754,
+        "Long": -3.7037902,
+        "PlaceID": "madrid_spain",
+        "PlaceName": "Madrid, Spain",
+        "Region": ""
+    },
+    "magdeburg_germany": {
+        "City": "Magdeburg",
+        "Country": "Germany",
+        "Lat": 52.1205333,
+        "Long": 11.6276237,
+        "PlaceID": "magdeburg_germany",
+        "PlaceName": "Magdeburg, Germany",
+        "Region": ""
+    },
+    "maine_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 45.253783,
+        "Long": -69.4454689,
+        "PlaceID": "maine_usa",
+        "PlaceName": "Maine, USA",
+        "Region": "Maine"
+    },
+    "malay_federation_(malaysia)": {
+        "City": "",
+        "Country": "Malay Federation (Malaysia)",
+        "Lat": 5.3266,
+        "Long": 100.282196,
+        "PlaceID": "malay_federation_(malaysia)",
+        "PlaceName": "Malay Federation (Malaysia)",
+        "Region": ""
+    },
+    "manchester_england": {
+        "City": "Manchester",
+        "Country": "England",
+        "Lat": 53.4807593,
+        "Long": -2.2426305,
+        "PlaceID": "manchester_england",
+        "PlaceName": "Manchester, England",
+        "Region": ""
+    },
+    "manchester_new_hampshire_usa": {
+        "City": "Manchester",
+        "Country": "USA",
+        "Lat": 42.9956397,
+        "Long": -71.4547891,
+        "PlaceID": "manchester_new_hampshire_usa",
+        "PlaceName": "Manchester, New Hampshire, USA",
+        "Region": "New Hampshire"
+    },
+    "manhattan_kansas_usa": {
+        "City": "Manhattan",
+        "Country": "USA",
+        "Lat": 39.1836082,
+        "Long": -96.5716694,
+        "PlaceID": "manhattan_kansas_usa",
+        "PlaceName": "Manhattan, Kansas, USA",
+        "Region": "Kansas"
+    },
+    "manhattan_new_york_usa": {
+        "City": "Manhattan",
+        "Country": "USA",
+        "Lat": 40.7830603,
+        "Long": -73.9712488,
+        "PlaceID": "manhattan_new_york_usa",
+        "PlaceName": "Manhattan, New York, USA",
+        "Region": "New York"
+    },
+    "manila_philippines": {
+        "City": "Manila",
+        "Country": "Philippines",
+        "Lat": 14.5995124,
+        "Long": 120.9842195,
+        "PlaceID": "manila_philippines",
+        "PlaceName": "Manila, Philippines",
+        "Region": ""
+    },
+    "mannheim_germany": {
+        "City": "Mannheim",
+        "Country": "Germany",
+        "Lat": 49.4874592,
+        "Long": 8.4660395,
+        "PlaceID": "mannheim_germany",
+        "PlaceName": "Mannheim, Germany",
+        "Region": ""
+    },
+    "maputo_mozambique": {
+        "City": "Maputo",
+        "Country": "Mozambique",
+        "Lat": -25.969248,
+        "Long": 32.5731746,
+        "PlaceID": "maputo_mozambique",
+        "PlaceName": "Maputo, Mozambique",
+        "Region": ""
+    },
+    "mar_de_plata_argentina": {
+        "City": "Mar de Plata",
+        "Country": "Argentina",
+        "Lat": -38.0054771,
+        "Long": -57.5426106,
+        "PlaceID": "mar_de_plata_argentina",
+        "PlaceName": "Mar de Plata, Argentina",
+        "Region": ""
+    },
+    "maracaibo_venezuela": {
+        "City": "Maracaibo",
+        "Country": "Venezuela",
+        "Lat": 10.642707,
+        "Long": -71.6125366,
+        "PlaceID": "maracaibo_venezuela",
+        "PlaceName": "Maracaibo, Venezuela",
+        "Region": ""
+    },
+    "margate_england": {
+        "City": "Margate",
+        "Country": "England",
+        "Lat": 51.389646,
+        "Long": 1.3868339,
+        "PlaceID": "margate_england",
+        "PlaceName": "Margate, England",
+        "Region": ""
+    },
+    "marrakesh_morocco": {
+        "City": "Marrakesh",
+        "Country": "Morocco",
+        "Lat": 31.6294723,
+        "Long": -7.9810845,
+        "PlaceID": "marrakesh_morocco",
+        "PlaceName": "Marrakesh, Morocco",
+        "Region": ""
+    },
+    "marseilles_france": {
+        "City": "Marseilles",
+        "Country": "France",
+        "Lat": 43.296482,
+        "Long": 5.36978,
+        "PlaceID": "marseilles_france",
+        "PlaceName": "Marseilles, France",
+        "Region": ""
+    },
+    "martinique": {
+        "City": "",
+        "Country": "Martinique",
+        "Lat": 14.641528,
+        "Long": -61.024174,
+        "PlaceID": "martinique",
+        "PlaceName": "Martinique",
+        "Region": ""
+    },
+    "matadi_kongo_central_democratic_republic_of_congo": {
+        "City": "Matadi",
+        "Country": "Democratic Republic of Congo",
+        "Lat": -5.8226,
+        "Long": 13.47482,
+        "PlaceID": "matadi_kongo_central_democratic_republic_of_congo",
+        "PlaceName": "Matadi, Kongo Central, Democratic Republic of Congo",
+        "Region": "Kongo Central"
+    },
+    "mbeni_democratic_republic_of_the_congo": {
+        "City": "Mbeni",
+        "Country": "Democratic Republic of the Congo",
+        "Lat": -4.691594,
+        "Long": 19.113859,
+        "PlaceID": "mbeni_democratic_republic_of_the_congo",
+        "PlaceName": "Mbeni, Democratic Republic of the Congo",
+        "Region": ""
+    },
+    "melbourne_australia": {
+        "City": "Melbourne",
+        "Country": "Australia",
+        "Lat": -37.8136276,
+        "Long": 144.9630576,
+        "PlaceID": "melbourne_australia",
+        "PlaceName": "Melbourne, Australia",
+        "Region": ""
+    },
+    "memphis_tennessee_usa": {
+        "City": "Memphis",
+        "Country": "USA",
+        "Lat": 35.1495343,
+        "Long": -90.0489801,
+        "PlaceID": "memphis_tennessee_usa",
+        "PlaceName": "Memphis, Tennessee, USA",
+        "Region": "Tennessee"
+    },
+    "menton_france": {
+        "City": "Menton",
+        "Country": "France",
+        "Lat": 43.774481,
+        "Long": 7.49754,
+        "PlaceID": "menton_france",
+        "PlaceName": "Menton, France",
+        "Region": ""
+    },
+    "mexico": {
+        "City": "",
+        "Country": "Mexico",
+        "Lat": 23.634501,
+        "Long": -102.552784,
+        "PlaceID": "mexico",
+        "PlaceName": "Mexico",
+        "Region": ""
+    },
+    "mexico_city_mexico": {
+        "City": "Mexico City",
+        "Country": "Mexico",
+        "Lat": 19.4326077,
+        "Long": -99.133208,
+        "PlaceID": "mexico_city_mexico",
+        "PlaceName": "Mexico City, Mexico",
+        "Region": ""
+    },
+    "miami_florida_usa": {
+        "City": "Miami",
+        "Country": "USA",
+        "Lat": 25.7616798,
+        "Long": -80.1917902,
+        "PlaceID": "miami_florida_usa",
+        "PlaceName": "Miami, Florida, USA",
+        "Region": "Florida"
+    },
+    "michigan_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 44.3148443,
+        "Long": -85.6023643,
+        "PlaceID": "michigan_usa",
+        "PlaceName": "Michigan, USA",
+        "Region": "Michigan"
+    },
+    "milan_italy": {
+        "City": "Milan",
+        "Country": "Italy",
+        "Lat": 45.4642035,
+        "Long": 9.189982,
+        "PlaceID": "milan_italy",
+        "PlaceName": "Milan, Italy",
+        "Region": ""
+    },
+    "milwaukee_wisconsin_usa": {
+        "City": "Milwaukee",
+        "Country": "USA",
+        "Lat": 43.0389025,
+        "Long": -87.9064736,
+        "PlaceID": "milwaukee_wisconsin_usa",
+        "PlaceName": "Milwaukee, Wisconsin, USA",
+        "Region": "Wisconsin"
+    },
+    "minneapolis_minnesota_usa": {
+        "City": "Minneapolis",
+        "Country": "USA",
+        "Lat": 44.977753,
+        "Long": -93.2650108,
+        "PlaceID": "minneapolis_minnesota_usa",
+        "PlaceName": "Minneapolis, Minnesota, USA",
+        "Region": "Minnesota"
+    },
+    "mombasa_kenya": {
+        "City": "Mombasa",
+        "Country": "Kenya",
+        "Lat": -4.0434771,
+        "Long": 39.6682065,
+        "PlaceID": "mombasa_kenya",
+        "PlaceName": "Mombasa, Kenya",
+        "Region": ""
+    },
+    "mona_jamaica": {
+        "City": "Mona",
+        "Country": "Jamaica",
+        "Lat": 18.0123976,
+        "Long": -76.7480805,
+        "PlaceID": "mona_jamaica",
+        "PlaceName": "Mona, Jamaica",
+        "Region": ""
+    },
+    "monrovia_liberia": {
+        "City": "Monrovia",
+        "Country": "Liberia",
+        "Lat": 6.3156068,
+        "Long": -10.8073698,
+        "PlaceID": "monrovia_liberia",
+        "PlaceName": "Monrovia, Liberia",
+        "Region": ""
+    },
+    "montego_bay_saint_james_jamaica": {
+        "City": "Montego Bay",
+        "Country": "Jamaica",
+        "Lat": 18.471215,
+        "Long": -77.9398877,
+        "PlaceID": "montego_bay_saint_james_jamaica",
+        "PlaceName": "Montego Bay, Saint James, Jamaica",
+        "Region": "Saint James"
+    },
+    "montevideo_uruguay": {
+        "City": "Montevideo",
+        "Country": "Uruguay",
+        "Lat": -34.9011127,
+        "Long": -56.1645314,
+        "PlaceID": "montevideo_uruguay",
+        "PlaceName": "Montevideo, Uruguay",
+        "Region": ""
+    },
+    "montgomery_alabama_usa": {
+        "City": "Montgomery",
+        "Country": "USA",
+        "Lat": 32.3792233,
+        "Long": -86.3077368,
+        "PlaceID": "montgomery_alabama_usa",
+        "PlaceName": "Montgomery, Alabama, USA",
+        "Region": "Alabama"
+    },
+    "montreal_canada": {
+        "City": "Montreal",
+        "Country": "Canada",
+        "Lat": 45.5016889,
+        "Long": -73.567256,
+        "PlaceID": "montreal_canada",
+        "PlaceName": "Montreal, Canada",
+        "Region": ""
+    },
+    "morgantown_west_virginia_usa": {
+        "City": "Morgantown",
+        "Country": "USA",
+        "Lat": 39.629526,
+        "Long": -79.9558968,
+        "PlaceID": "morgantown_west_virginia_usa",
+        "PlaceName": "Morgantown, West Virginia, USA",
+        "Region": "West Virginia"
+    },
+    "morocco": {
+        "City": "",
+        "Country": "Morocco",
+        "Lat": 31.791702,
+        "Long": -7.09262,
+        "PlaceID": "morocco",
+        "PlaceName": "Morocco",
+        "Region": ""
+    },
+    "moscow_russia": {
+        "City": "Moscow",
+        "Country": "Russia",
+        "Lat": 55.755826,
+        "Long": 37.6172999,
+        "PlaceID": "moscow_russia",
+        "PlaceName": "Moscow, Russia",
+        "Region": ""
+    },
+    "mougins_france": {
+        "City": "Mougins",
+        "Country": "France",
+        "Lat": 43.6023319,
+        "Long": 7.006491,
+        "PlaceID": "mougins_france",
+        "PlaceName": "Mougins, France",
+        "Region": ""
+    },
+    "munich_germany": {
+        "City": "Munich",
+        "Country": "Germany",
+        "Lat": 48.1351253,
+        "Long": 11.5819805,
+        "PlaceID": "munich_germany",
+        "PlaceName": "Munich, Germany",
+        "Region": ""
+    },
+    "mysore_india": {
+        "City": "Mysore",
+        "Country": "India",
+        "Lat": 12.2958104,
+        "Long": 76.6393805,
+        "PlaceID": "mysore_india",
+        "PlaceName": "Mysore, India",
+        "Region": ""
+    },
+    "nagasaki_japan": {
+        "City": "Nagasaki",
+        "Country": "Japan",
+        "Lat": 32.7503334,
+        "Long": 129.8778888,
+        "PlaceID": "nagasaki_japan",
+        "PlaceName": "Nagasaki, Japan",
+        "Region": ""
+    },
+    "nairne_castle_clarendon_jamaica": {
+        "City": "Nairne Castle",
+        "Country": "Jamaica",
+        "Lat": 17.9609693,
+        "Long": -77.5897158,
+        "PlaceID": "nairne_castle_clarendon_jamaica",
+        "PlaceName": "Nairne Castle, Clarendon, Jamaica",
+        "Region": "Clarendon"
+    },
+    "nairobi_kenya": {
+        "City": "Nairobi",
+        "Country": "Kenya",
+        "Lat": -1.2920659,
+        "Long": 36.8219462,
+        "PlaceID": "nairobi_kenya",
+        "PlaceName": "Nairobi, Kenya",
+        "Region": ""
+    },
+    "naples_italy": {
+        "City": "Naples",
+        "Country": "Italy",
+        "Lat": 40.8517746,
+        "Long": 14.2681244,
+        "PlaceID": "naples_italy",
+        "PlaceName": "Naples, Italy",
+        "Region": ""
+    },
+    "nashville_tennessee_usa": {
+        "City": "Nashville",
+        "Country": "USA",
+        "Lat": 36.1626638,
+        "Long": -86.7816016,
+        "PlaceID": "nashville_tennessee_usa",
+        "PlaceName": "Nashville, Tennessee, USA",
+        "Region": "Tennessee"
+    },
+    "nelson_uk": {
+        "City": "Nelson",
+        "Country": "UK",
+        "Lat": 53.835187,
+        "Long": -2.219377,
+        "PlaceID": "nelson_uk",
+        "PlaceName": "Nelson, UK",
+        "Region": ""
+    },
+    "neustadt_germany": {
+        "City": "Neustadt",
+        "Country": "Germany",
+        "Lat": 49.3501864,
+        "Long": 8.1486886,
+        "PlaceID": "neustadt_germany",
+        "PlaceName": "Neustadt, Germany",
+        "Region": ""
+    },
+    "new_bedford_massachusetts_usa": {
+        "City": "New Bedford",
+        "Country": "USA",
+        "Lat": 41.6362152,
+        "Long": -70.934205,
+        "PlaceID": "new_bedford_massachusetts_usa",
+        "PlaceName": "New Bedford, Massachusetts, USA",
+        "Region": "Massachusetts"
+    },
+    "new_brunswick_new_jersey_usa": {
+        "City": "New Brunswick",
+        "Country": "USA",
+        "Lat": 40.4862157,
+        "Long": -74.4518188,
+        "PlaceID": "new_brunswick_new_jersey_usa",
+        "PlaceName": "New Brunswick, New Jersey, USA",
+        "Region": "New Jersey"
+    },
+    "new_haven_connecticut_usa": {
+        "City": "New Haven",
+        "Country": "USA",
+        "Lat": 41.308274,
+        "Long": -72.9278835,
+        "PlaceID": "new_haven_connecticut_usa",
+        "PlaceName": "New Haven, Connecticut, USA",
+        "Region": "Connecticut"
+    },
+    "new_milford_connecticut_usa": {
+        "City": "New Milford",
+        "Country": "USA",
+        "Lat": 41.5770433,
+        "Long": -73.4085463,
+        "PlaceID": "new_milford_connecticut_usa",
+        "PlaceName": "New Milford, Connecticut, USA",
+        "Region": "Connecticut"
+    },
+    "new_orleans_louisiana": {
+        "City": "New Orleans",
+        "Country": "Louisiana",
+        "Lat": 29.9510658,
+        "Long": -90.0715323,
+        "PlaceID": "new_orleans_louisiana",
+        "PlaceName": "New Orleans, Louisiana",
+        "Region": ""
+    },
+    "new_paltz_new_york_usa": {
+        "City": "New Paltz",
+        "Country": "USA",
+        "Lat": 41.7475933,
+        "Long": -74.0868095,
+        "PlaceID": "new_paltz_new_york_usa",
+        "PlaceName": "New Paltz, New York, USA",
+        "Region": "New York"
+    },
+    "new_place_usa": {
+        "City": "New",
+        "Country": "USA",
+        "Lat": 37.09024,
+        "Long": -95.712891,
+        "PlaceID": "new_place_usa",
+        "PlaceName": "New, Place, USA",
+        "Region": "Place"
+    },
+    "new_york": {
+        "City": "",
+        "Country": "New York",
+        "Lat": 40.7127753,
+        "Long": -74.0059728,
+        "PlaceID": "new_york",
+        "PlaceName": "New York",
+        "Region": ""
+    },
+    "new_york_new_york_usa": {
+        "City": "New York",
+        "Country": "USA",
+        "Lat": 40.7127753,
+        "Long": -74.0059728,
+        "PlaceID": "new_york_new_york_usa",
+        "PlaceName": "New York, New York, USA",
+        "Region": "New York"
+    },
+    "new_zealand": {
+        "City": "",
+        "Country": "New Zealand",
+        "Lat": -40.900557,
+        "Long": 174.885971,
+        "PlaceID": "new_zealand",
+        "PlaceName": "New Zealand",
+        "Region": ""
+    },
+    "newark_new_jersey_usa": {
+        "City": "Newark",
+        "Country": "USA",
+        "Lat": 40.735657,
+        "Long": -74.1723667,
+        "PlaceID": "newark_new_jersey_usa",
+        "PlaceName": "Newark, New Jersey, USA",
+        "Region": "New Jersey"
+    },
+    "newcastle_upon_thyne_england": {
+        "City": "Newcastle upon Thyne",
+        "Country": "England",
+        "Lat": 54.978252,
+        "Long": -1.61778,
+        "PlaceID": "newcastle_upon_thyne_england",
+        "PlaceName": "Newcastle upon Thyne, England",
+        "Region": ""
+    },
+    "nice_france": {
+        "City": "Nice",
+        "Country": "France",
+        "Lat": 43.7101728,
+        "Long": 7.2619532,
+        "PlaceID": "nice_france",
+        "PlaceName": "Nice, France",
+        "Region": ""
+    },
+    "nigeria": {
+        "City": "",
+        "Country": "Nigeria",
+        "Lat": 9.081999,
+        "Long": 8.675277,
+        "PlaceID": "nigeria",
+        "PlaceName": "Nigeria",
+        "Region": ""
+    },
+    "nizhni_novgorod_russia": {
+        "City": "Nizhni Novgorod",
+        "Country": "Russia",
+        "Lat": 56.2965039,
+        "Long": 43.936059,
+        "PlaceID": "nizhni_novgorod_russia",
+        "PlaceName": "Nizhni Novgorod, Russia",
+        "Region": ""
+    },
+    "norfolk_virginia_usa": {
+        "City": "Norfolk",
+        "Country": "USA",
+        "Lat": 36.8507689,
+        "Long": -76.2858726,
+        "PlaceID": "norfolk_virginia_usa",
+        "PlaceName": "Norfolk, Virginia, USA",
+        "Region": "Virginia"
+    },
+    "north_wayne_maine_usa": {
+        "City": "North Wayne",
+        "Country": "USA",
+        "Lat": 44.3742344,
+        "Long": -70.0328313,
+        "PlaceID": "north_wayne_maine_usa",
+        "PlaceName": "North Wayne, Maine, USA",
+        "Region": "Maine"
+    },
+    "northampton_massachusetts_usa": {
+        "City": "Northampton",
+        "Country": "USA",
+        "Lat": 42.3250896,
+        "Long": -72.6412013,
+        "PlaceID": "northampton_massachusetts_usa",
+        "PlaceName": "Northampton, Massachusetts, USA",
+        "Region": "Massachusetts"
+    },
+    "nuremberg_germany": {
+        "City": "Nuremberg",
+        "Country": "Germany",
+        "Lat": 49.4521018,
+        "Long": 11.0766654,
+        "PlaceID": "nuremberg_germany",
+        "PlaceName": "Nuremberg, Germany",
+        "Region": ""
+    },
+    "oakland_california_usa": {
+        "City": "Oakland",
+        "Country": "USA",
+        "Lat": 37.8043637,
+        "Long": -122.2711137,
+        "PlaceID": "oakland_california_usa",
+        "PlaceName": "Oakland, California, USA",
+        "Region": "California"
+    },
+    "oberlin_ohio_usa": {
+        "City": "Oberlin",
+        "Country": "USA",
+        "Lat": 41.2939386,
+        "Long": -82.2173786,
+        "PlaceID": "oberlin_ohio_usa",
+        "PlaceName": "Oberlin, Ohio, USA",
+        "Region": "Ohio"
+    },
+    "odessa_ukraine": {
+        "City": "Odessa",
+        "Country": "Ukraine",
+        "Lat": 46.482526,
+        "Long": 30.7233095,
+        "PlaceID": "odessa_ukraine",
+        "PlaceName": "Odessa, Ukraine",
+        "Region": ""
+    },
+    "okinawa_japan": {
+        "City": "Okinawa",
+        "Country": "Japan",
+        "Lat": 26.2124013,
+        "Long": 127.6809317,
+        "PlaceID": "okinawa_japan",
+        "PlaceName": "Okinawa, Japan",
+        "Region": ""
+    },
+    "orange_new_jersey_usa": {
+        "City": "Orange",
+        "Country": "USA",
+        "Lat": 40.7706187,
+        "Long": -74.2326478,
+        "PlaceID": "orange_new_jersey_usa",
+        "PlaceName": "Orange, New Jersey, USA",
+        "Region": "New Jersey"
+    },
+    "orangeburg_new_york_usa": {
+        "City": "Orangeburg",
+        "Country": "USA",
+        "Lat": 41.0464858,
+        "Long": -73.9495818,
+        "PlaceID": "orangeburg_new_york_usa",
+        "PlaceName": "Orangeburg, New York, USA",
+        "Region": "New York"
+    },
+    "oregon_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 43.8041334,
+        "Long": -120.5542012,
+        "PlaceID": "oregon_usa",
+        "PlaceName": "Oregon, USA",
+        "Region": "Oregon"
+    },
+    "osaka_japan": {
+        "City": "Osaka",
+        "Country": "Japan",
+        "Lat": 34.6937249,
+        "Long": 135.5022535,
+        "PlaceID": "osaka_japan",
+        "PlaceName": "Osaka, Japan",
+        "Region": ""
+    },
+    "palm_springs_florida_usa": {
+        "City": "Palm Springs",
+        "Country": "USA",
+        "Lat": 26.6359009,
+        "Long": -80.0961538,
+        "PlaceID": "palm_springs_florida_usa",
+        "PlaceName": "Palm Springs, Florida, USA",
+        "Region": "Florida"
+    },
+    "paris_france": {
+        "City": "Paris",
+        "Country": "France",
+        "Lat": 48.856614,
+        "Long": 2.3522219,
+        "PlaceID": "paris_france",
+        "PlaceName": "Paris, France",
+        "Region": ""
+    },
+    "perth_australia": {
+        "City": "Perth",
+        "Country": "Australia",
+        "Lat": -31.9505269,
+        "Long": 115.8604572,
+        "PlaceID": "perth_australia",
+        "PlaceName": "Perth, Australia",
+        "Region": ""
+    },
+    "petrograd_russia": {
+        "City": "Petrograd",
+        "Country": "Russia",
+        "Lat": 59.9342802,
+        "Long": 30.3350986,
+        "PlaceID": "petrograd_russia",
+        "PlaceName": "Petrograd, Russia",
+        "Region": ""
+    },
+    "pfalz_germany": {
+        "City": "Pfalz",
+        "Country": "Germany",
+        "Lat": 50.118346,
+        "Long": 7.3089527,
+        "PlaceID": "pfalz_germany",
+        "PlaceName": "Pfalz, Germany",
+        "Region": ""
+    },
+    "philadelphia_pennsylvania_usa": {
+        "City": "Philadelphia",
+        "Country": "USA",
+        "Lat": 39.9525839,
+        "Long": -75.1652215,
+        "PlaceID": "philadelphia_pennsylvania_usa",
+        "PlaceName": "Philadelphia, Pennsylvania, USA",
+        "Region": "Pennsylvania"
+    },
+    "philippines": {
+        "City": "",
+        "Country": "Philippines",
+        "Lat": 12.879721,
+        "Long": 121.774017,
+        "PlaceID": "philippines",
+        "PlaceName": "Philippines",
+        "Region": ""
+    },
+    "pittsburgh_pennsylvania_usa": {
+        "City": "Pittsburgh",
+        "Country": "USA",
+        "Lat": 40.4406248,
+        "Long": -79.9958864,
+        "PlaceID": "pittsburgh_pennsylvania_usa",
+        "PlaceName": "Pittsburgh, Pennsylvania, USA",
+        "Region": "Pennsylvania"
+    },
+    "point_a_pitre_guadeloupe": {
+        "City": "Point-à-Pitre",
+        "Country": "Guadeloupe",
+        "Lat": 16.2376869,
+        "Long": -61.5340424,
+        "PlaceID": "point_a_pitre_guadeloupe",
+        "PlaceName": "Point-à-Pitre, Guadeloupe",
+        "Region": ""
+    },
+    "pontorson_manche_france": {
+        "City": "Pontorson",
+        "Country": "France",
+        "Lat": 48.553872,
+        "Long": -1.509877,
+        "PlaceID": "pontorson_manche_france",
+        "PlaceName": "Pontorson, Manche, France",
+        "Region": "Manche"
+    },
+    "port_au_prince_haiti": {
+        "City": "Port-au-Prince",
+        "Country": "Haiti",
+        "Lat": 18.594395,
+        "Long": -72.3074326,
+        "PlaceID": "port_au_prince_haiti",
+        "PlaceName": "Port-au-Prince, Haiti",
+        "Region": ""
+    },
+    "port_eizabeth_south_africa": {
+        "City": "Port Eizabeth",
+        "Country": "South Africa",
+        "Lat": -33.9608369,
+        "Long": 25.6022423,
+        "PlaceID": "port_eizabeth_south_africa",
+        "PlaceName": "Port Eizabeth, South Africa",
+        "Region": ""
+    },
+    "port_louis_mauritius": {
+        "City": "Port Louis",
+        "Country": "Mauritius",
+        "Lat": -20.1608912,
+        "Long": 57.5012222,
+        "PlaceID": "port_louis_mauritius",
+        "PlaceName": "Port Louis, Mauritius",
+        "Region": ""
+    },
+    "port_of_bonny_rivers_state_nigeria": {
+        "City": "Port of Bonny",
+        "Country": "Nigeria",
+        "Lat": 4.43385,
+        "Long": 7.1782,
+        "PlaceID": "port_of_bonny_rivers_state_nigeria",
+        "PlaceName": "Port of Bonny, Rivers State, Nigeria",
+        "Region": "Rivers State"
+    },
+    "port_of_harcourt_nigeria": {
+        "City": "Port of Harcourt",
+        "Country": "Nigeria",
+        "Lat": 4.815554,
+        "Long": 7.0498442,
+        "PlaceID": "port_of_harcourt_nigeria",
+        "PlaceName": "Port of Harcourt, Nigeria",
+        "Region": ""
+    },
+    "port_of_spain_trinidad": {
+        "City": "Port-of-Spain",
+        "Country": "Trinidad",
+        "Lat": 10.6549013,
+        "Long": -61.5019256,
+        "PlaceID": "port_of_spain_trinidad",
+        "PlaceName": "Port-of-Spain, Trinidad",
+        "Region": ""
+    },
+    "portland_oregon_usa": {
+        "City": "Portland",
+        "Country": "USA",
+        "Lat": 45.5122308,
+        "Long": -122.6587185,
+        "PlaceID": "portland_oregon_usa",
+        "PlaceName": "Portland, Oregon, USA",
+        "Region": "Oregon"
+    },
+    "poughkeepsie_new_york_usa": {
+        "City": "Poughkeepsie",
+        "Country": "USA",
+        "Lat": 41.7003713,
+        "Long": -73.9209701,
+        "PlaceID": "poughkeepsie_new_york_usa",
+        "PlaceName": "Poughkeepsie, New York, USA",
+        "Region": "New York"
+    },
+    "prague_czech_republic": {
+        "City": "Prague",
+        "Country": "Czech Republic",
+        "Lat": 50.0755381,
+        "Long": 14.4378005,
+        "PlaceID": "prague_czech_republic",
+        "PlaceName": "Prague, Czech Republic",
+        "Region": ""
+    },
+    "providence_rhode_island": {
+        "City": "Providence",
+        "Country": "Rhode Island",
+        "Lat": 41.8239891,
+        "Long": -71.4128343,
+        "PlaceID": "providence_rhode_island",
+        "PlaceName": "Providence, Rhode Island",
+        "Region": ""
+    },
+    "puerto_limon_costa_rica": {
+        "City": "Puerto Limón",
+        "Country": "Costa Rica",
+        "Lat": 9.9913106,
+        "Long": -83.0415078,
+        "PlaceID": "puerto_limon_costa_rica",
+        "PlaceName": "Puerto Limón, Costa Rica",
+        "Region": ""
+    },
+    "puerto_rico": {
+        "City": "",
+        "Country": "Puerto Rico",
+        "Lat": 18.220833,
+        "Long": -66.590149,
+        "PlaceID": "puerto_rico",
+        "PlaceName": "Puerto Rico",
+        "Region": ""
+    },
+    "puerto_rico_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 18.0117807,
+        "Long": -66.6134129,
+        "PlaceID": "puerto_rico_usa",
+        "PlaceName": "Puerto Rico, USA",
+        "Region": "Puerto Rico"
+    },
+    "quebec_canada": {
+        "City": "Quebec",
+        "Country": "Canada",
+        "Lat": 52.9399159,
+        "Long": -73.5491361,
+        "PlaceID": "quebec_canada",
+        "PlaceName": "Quebec, Canada",
+        "Region": ""
+    },
+    "rabat_morocco": {
+        "City": "Rabat",
+        "Country": "Morocco",
+        "Lat": 33.9715904,
+        "Long": -6.8498129,
+        "PlaceID": "rabat_morocco",
+        "PlaceName": "Rabat, Morocco",
+        "Region": ""
+    },
+    "ramsgate_england": {
+        "City": "Ramsgate",
+        "Country": "England",
+        "Lat": 51.335545,
+        "Long": 1.419895,
+        "PlaceID": "ramsgate_england",
+        "PlaceName": "Ramsgate, England",
+        "Region": ""
+    },
+    "rappalo_genoa_italy": {
+        "City": "Rappalo",
+        "Country": "Italy",
+        "Lat": 44.3498211,
+        "Long": 9.2338889,
+        "PlaceID": "rappalo_genoa_italy",
+        "PlaceName": "Rappalo, Genoa, Italy",
+        "Region": "Genoa"
+    },
+    "reno_nevada_usa": {
+        "City": "Reno",
+        "Country": "USA",
+        "Lat": 39.5296329,
+        "Long": -119.8138027,
+        "PlaceID": "reno_nevada_usa",
+        "PlaceName": "Reno, Nevada, USA",
+        "Region": "Nevada"
+    },
+    "rio_piedras_puerto_rico": {
+        "City": "Rio Piedras",
+        "Country": "Puerto Rico",
+        "Lat": 18.3894791,
+        "Long": -66.0404057,
+        "PlaceID": "rio_piedras_puerto_rico",
+        "PlaceName": "Rio Piedras, Puerto Rico",
+        "Region": ""
+    },
+    "rochester_new_york_usa": {
+        "City": "Rochester",
+        "Country": "USA",
+        "Lat": 43.1565779,
+        "Long": -77.6088465,
+        "PlaceID": "rochester_new_york_usa",
+        "PlaceName": "Rochester, New York, USA",
+        "Region": "New York"
+    },
+    "rome_italy": {
+        "City": "Rome",
+        "Country": "Italy",
+        "Lat": 41.9027835,
+        "Long": 12.4963655,
+        "PlaceID": "rome_italy",
+        "PlaceName": "Rome, Italy",
+        "Region": ""
+    },
+    "rotterdam_netherlands": {
+        "City": "Rotterdam",
+        "Country": "Netherlands",
+        "Lat": 51.9244201,
+        "Long": 4.4777326,
+        "PlaceID": "rotterdam_netherlands",
+        "PlaceName": "Rotterdam, Netherlands",
+        "Region": ""
+    },
+    "rouen_seine_maritime_france": {
+        "City": "Rouen",
+        "Country": "France",
+        "Lat": 49.443232,
+        "Long": 1.099971,
+        "PlaceID": "rouen_seine_maritime_france",
+        "PlaceName": "Rouen, Seine-Maritime, France",
+        "Region": "Seine-Maritime"
+    },
+    "russia": {
+        "City": "",
+        "Country": "Russia",
+        "Lat": 61.52401,
+        "Long": 105.318756,
+        "PlaceID": "russia",
+        "PlaceName": "Russia",
+        "Region": ""
+    },
+    "rutgers_new_jersey_usa": {
+        "City": "Rutgers",
+        "Country": "USA",
+        "Lat": 40.5008186,
+        "Long": -74.4473991,
+        "PlaceID": "rutgers_new_jersey_usa",
+        "PlaceName": "Rutgers, New Jersey, USA",
+        "Region": "New Jersey"
+    },
+    "rwanda": {
+        "City": "",
+        "Country": "Rwanda",
+        "Lat": -1.940278,
+        "Long": 29.873888,
+        "PlaceID": "rwanda",
+        "PlaceName": "Rwanda",
+        "Region": ""
+    },
+    "sache_indre_et_loire_france": {
+        "City": "Saché",
+        "Country": "France",
+        "Lat": 47.246625,
+        "Long": 0.543334,
+        "PlaceID": "sache_indre_et_loire_france",
+        "PlaceName": "Saché, Indre-et-Loire, France",
+        "Region": "Indre-et-Loire"
+    },
+    "sacramento_california_usa": {
+        "City": "Sacramento",
+        "Country": "USA",
+        "Lat": 38.5815719,
+        "Long": -121.4943996,
+        "PlaceID": "sacramento_california_usa",
+        "PlaceName": "Sacramento, California, USA",
+        "Region": "California"
+    },
+    "sagua_la_grande_cuba": {
+        "City": "Sagua La Grande",
+        "Country": "Cuba",
+        "Lat": 22.8037709,
+        "Long": -80.0702555,
+        "PlaceID": "sagua_la_grande_cuba",
+        "PlaceName": "Sagua La Grande, Cuba",
+        "Region": ""
+    },
+    "saint_augustine_trinidad": {
+        "City": "Saint Augustine",
+        "Country": "Trinidad",
+        "Lat": 29.896,
+        "Long": -81.316711,
+        "PlaceID": "saint_augustine_trinidad",
+        "PlaceName": "Saint Augustine, Trinidad",
+        "Region": ""
+    },
+    "saint_croix_virgin_islands": {
+        "City": "Saint Croix",
+        "Country": "Virgin Islands",
+        "Lat": 17.7245968,
+        "Long": -64.8347992,
+        "PlaceID": "saint_croix_virgin_islands",
+        "PlaceName": "Saint Croix, Virgin Islands",
+        "Region": ""
+    },
+    "saint_etienne_france": {
+        "City": "Saint-Étienne",
+        "Country": "France",
+        "Lat": 45.439695,
+        "Long": 4.3871779,
+        "PlaceID": "saint_etienne_france",
+        "PlaceName": "Saint-Étienne, France",
+        "Region": ""
+    },
+    "saint_gall_switzerland": {
+        "City": "Saint Gall",
+        "Country": "Switzerland",
+        "Lat": 47.4244818,
+        "Long": 9.3767173,
+        "PlaceID": "saint_gall_switzerland",
+        "PlaceName": "Saint Gall, Switzerland",
+        "Region": ""
+    },
+    "saint_louis_missouri_usa_missouri_usa": {
+        "City": "Saint Louis, Missouri, USA",
+        "Country": "USA",
+        "Lat": 38.6270025,
+        "Long": -90.1994042,
+        "PlaceID": "saint_louis_missouri_usa_missouri_usa",
+        "PlaceName": "Saint Louis, Missouri, USA, Missouri, USA",
+        "Region": "Missouri"
+    },
+    "saint_maarten": {
+        "City": "",
+        "Country": "Saint Maarten",
+        "Lat": 18.04248,
+        "Long": -63.05483,
+        "PlaceID": "saint_maarten",
+        "PlaceName": "Saint Maarten",
+        "Region": ""
+    },
+    "saint_thomas": {
+        "City": "",
+        "Country": "Saint-Thomas",
+        "Lat": 18.3380965,
+        "Long": -64.8940946,
+        "PlaceID": "saint_thomas",
+        "PlaceName": "Saint-Thomas",
+        "Region": ""
+    },
+    "salvador_de_bahia_brazil": {
+        "City": "Salvador de Bahia",
+        "Country": "Brazil",
+        "Lat": -12.977749,
+        "Long": -38.5016301,
+        "PlaceID": "salvador_de_bahia_brazil",
+        "PlaceName": "Salvador de Bahia, Brazil",
+        "Region": ""
+    },
+    "salzburg_austria": {
+        "City": "Salzburg",
+        "Country": "Austria",
+        "Lat": 47.80949,
+        "Long": 13.05501,
+        "PlaceID": "salzburg_austria",
+        "PlaceName": "Salzburg, Austria",
+        "Region": ""
+    },
+    "san_diego_california_usa": {
+        "City": "San Diego",
+        "Country": "USA",
+        "Lat": 32.715738,
+        "Long": -117.1610838,
+        "PlaceID": "san_diego_california_usa",
+        "PlaceName": "San Diego, California, USA",
+        "Region": "California"
+    },
+    "san_fernando_trinidad": {
+        "City": "San Fernando",
+        "Country": "Trinidad",
+        "Lat": 10.2905853,
+        "Long": -61.4493842,
+        "PlaceID": "san_fernando_trinidad",
+        "PlaceName": "San Fernando, Trinidad",
+        "Region": ""
+    },
+    "san_francisco_california_usa": {
+        "City": "San Francisco",
+        "Country": "USA",
+        "Lat": 37.7749295,
+        "Long": -122.4194155,
+        "PlaceID": "san_francisco_california_usa",
+        "PlaceName": "San Francisco, California, USA",
+        "Region": "California"
+    },
+    "san_juan_puerto_rico": {
+        "City": "San Juan",
+        "Country": "Puerto Rico",
+        "Lat": 18.4655394,
+        "Long": -66.1057355,
+        "PlaceID": "san_juan_puerto_rico",
+        "PlaceName": "San Juan, Puerto Rico",
+        "Region": ""
+    },
+    "san_sebastien_spain": {
+        "City": "San Sebastien",
+        "Country": "Spain",
+        "Lat": 43.318334,
+        "Long": -1.9812313,
+        "PlaceID": "san_sebastien_spain",
+        "PlaceName": "San Sebastien, Spain",
+        "Region": ""
+    },
+    "santa_cruz_california_usa": {
+        "City": "Santa Cruz",
+        "Country": "USA",
+        "Lat": 36.9741171,
+        "Long": -122.0307963,
+        "PlaceID": "santa_cruz_california_usa",
+        "PlaceName": "Santa Cruz, California, USA",
+        "Region": "California"
+    },
+    "santiago_chile": {
+        "City": "Santiago",
+        "Country": "Chile",
+        "Lat": -33.4488897,
+        "Long": -70.6692655,
+        "PlaceID": "santiago_chile",
+        "PlaceName": "Santiago, Chile",
+        "Region": ""
+    },
+    "santiago_de_cuba_cuba": {
+        "City": "Santiago de Cuba",
+        "Country": "Cuba",
+        "Lat": 20.01693,
+        "Long": -75.8301537,
+        "PlaceID": "santiago_de_cuba_cuba",
+        "PlaceName": "Santiago de Cuba, Cuba",
+        "Region": ""
+    },
+    "santiago_de_las_vegas_cuba": {
+        "City": "Santiago de las Vegas",
+        "Country": "Cuba",
+        "Lat": 22.9702067,
+        "Long": -82.3858672,
+        "PlaceID": "santiago_de_las_vegas_cuba",
+        "PlaceName": "Santiago de las Vegas, Cuba",
+        "Region": ""
+    },
+    "santo_domingo_dominican_republic": {
+        "City": "Santo-Domingo",
+        "Country": "Dominican Republic",
+        "Lat": 18.4860575,
+        "Long": -69.9312117,
+        "PlaceID": "santo_domingo_dominican_republic",
+        "PlaceName": "Santo-Domingo, Dominican Republic",
+        "Region": ""
+    },
+    "sao_paolo_brazil": {
+        "City": "Sao Paolo",
+        "Country": "Brazil",
+        "Lat": -23.5505199,
+        "Long": -46.6333094,
+        "PlaceID": "sao_paolo_brazil",
+        "PlaceName": "Sao Paolo, Brazil",
+        "Region": ""
+    },
+    "sapele_nigeria": {
+        "City": "Sapele",
+        "Country": "Nigeria",
+        "Lat": 5.8750769,
+        "Long": 5.6931356,
+        "PlaceID": "sapele_nigeria",
+        "PlaceName": "Sapele, Nigeria",
+        "Region": ""
+    },
+    "savannah_georgia_usa": {
+        "City": "Savannah",
+        "Country": "USA",
+        "Lat": 32.0808989,
+        "Long": -81.091203,
+        "PlaceID": "savannah_georgia_usa",
+        "PlaceName": "Savannah, Georgia, USA",
+        "Region": "Georgia"
+    },
+    "scotland": {
+        "City": "",
+        "Country": "Scotland",
+        "Lat": 56.4906712,
+        "Long": -4.2026458,
+        "PlaceID": "scotland",
+        "PlaceName": "Scotland",
+        "Region": ""
+    },
+    "sea_isle_city_new_jersey_usa": {
+        "City": "Sea Isle City",
+        "Country": "USA",
+        "Lat": 39.1534477,
+        "Long": -74.6929387,
+        "PlaceID": "sea_isle_city_new_jersey_usa",
+        "PlaceName": "Sea Isle City, New Jersey, USA",
+        "Region": "New Jersey"
+    },
+    "seattle_washington_usa": {
+        "City": "Seattle",
+        "Country": "USA",
+        "Lat": 47.6062095,
+        "Long": -122.3320708,
+        "PlaceID": "seattle_washington_usa",
+        "PlaceName": "Seattle, Washington, USA",
+        "Region": "Washington"
+    },
+    "seoul_korea": {
+        "City": "Seoul",
+        "Country": "Korea",
+        "Lat": 37.566535,
+        "Long": 126.9779692,
+        "PlaceID": "seoul_korea",
+        "PlaceName": "Seoul, Korea",
+        "Region": ""
+    },
+    "shanghai_china": {
+        "City": "Shanghai",
+        "Country": "China",
+        "Lat": 31.2303904,
+        "Long": 121.4737021,
+        "PlaceID": "shanghai_china",
+        "PlaceName": "Shanghai, China",
+        "Region": ""
+    },
+    "sibenik_croatia": {
+        "City": "Šibenik",
+        "Country": "Croatia",
+        "Lat": 43.7350196,
+        "Long": 15.8952045,
+        "PlaceID": "sibenik_croatia",
+        "PlaceName": "Šibenik, Croatia",
+        "Region": ""
+    },
+    "sierra_leone": {
+        "City": "",
+        "Country": "Sierra Leone",
+        "Lat": 8.460555,
+        "Long": -11.779889,
+        "PlaceID": "sierra_leone",
+        "PlaceName": "Sierra Leone",
+        "Region": ""
+    },
+    "singapore": {
+        "City": "",
+        "Country": "Singapore",
+        "Lat": 1.352083,
+        "Long": 103.819836,
+        "PlaceID": "singapore",
+        "PlaceName": "Singapore",
+        "Region": ""
+    },
+    "south_carolina_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 33.836081,
+        "Long": -81.1637245,
+        "PlaceID": "south_carolina_usa",
+        "PlaceName": "South Carolina, USA",
+        "Region": "South Carolina"
+    },
+    "southampton_england": {
+        "City": "Southampton",
+        "Country": "England",
+        "Lat": 50.9097004,
+        "Long": -1.4043509,
+        "PlaceID": "southampton_england",
+        "PlaceName": "Southampton, England",
+        "Region": ""
+    },
+    "southwest_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 37.09024,
+        "Long": -95.712891,
+        "PlaceID": "southwest_usa",
+        "PlaceName": "Southwest, USA",
+        "Region": "Southwest"
+    },
+    "spain": {
+        "City": "",
+        "Country": "Spain",
+        "Lat": 40.463667,
+        "Long": -3.74922,
+        "PlaceID": "spain",
+        "PlaceName": "Spain",
+        "Region": ""
+    },
+    "spokane_washington_usa": {
+        "City": "Spokane",
+        "Country": "USA",
+        "Lat": 47.6587802,
+        "Long": -117.4260465,
+        "PlaceID": "spokane_washington_usa",
+        "PlaceName": "Spokane, Washington, USA",
+        "Region": "Washington"
+    },
+    "st_louis_missouri_usa": {
+        "City": "St. Louis",
+        "Country": "USA",
+        "Lat": 38.6270025,
+        "Long": -90.1994042,
+        "PlaceID": "st_louis_missouri_usa",
+        "PlaceName": "St. Louis, Missouri, USA",
+        "Region": "Missouri"
+    },
+    "st_maarten": {
+        "City": "",
+        "Country": "St Maarten",
+        "Lat": 18.04248,
+        "Long": -63.05483,
+        "PlaceID": "st_maarten",
+        "PlaceName": "St Maarten",
+        "Region": ""
+    },
+    "st_paul_minnesota_usa": {
+        "City": "St. Paul",
+        "Country": "USA",
+        "Lat": 44.9537029,
+        "Long": -93.0899578,
+        "PlaceID": "st_paul_minnesota_usa",
+        "PlaceName": "St. Paul, Minnesota, USA",
+        "Region": "Minnesota"
+    },
+    "st_petersburg_russia": {
+        "City": "St. Petersburg",
+        "Country": "Russia",
+        "Lat": 59.9342802,
+        "Long": 30.3350986,
+        "PlaceID": "st_petersburg_russia",
+        "PlaceName": "St. Petersburg, Russia",
+        "Region": ""
+    },
+    "stockholm_sweden": {
+        "City": "Stockholm",
+        "Country": "Sweden",
+        "Lat": 59.3293235,
+        "Long": 18.0685808,
+        "PlaceID": "stockholm_sweden",
+        "PlaceName": "Stockholm, Sweden",
+        "Region": ""
+    },
+    "storrs_connecticut_usa": {
+        "City": "Storrs",
+        "Country": "USA",
+        "Lat": 41.8084314,
+        "Long": -72.2495231,
+        "PlaceID": "storrs_connecticut_usa",
+        "PlaceName": "Storrs, Connecticut, USA",
+        "Region": "Connecticut"
+    },
+    "strasbourg_france": {
+        "City": "Strasbourg",
+        "Country": "France",
+        "Lat": 48.5734053,
+        "Long": 7.7521113,
+        "PlaceID": "strasbourg_france",
+        "PlaceName": "Strasbourg, France",
+        "Region": ""
+    },
+    "stuttgart_germany": {
+        "City": "Stuttgart",
+        "Country": "Germany",
+        "Lat": 48.7758459,
+        "Long": 9.1829321,
+        "PlaceID": "stuttgart_germany",
+        "PlaceName": "Stuttgart, Germany",
+        "Region": ""
+    },
+    "sunny_ville_clarendon_jamaica": {
+        "City": "Sunny Ville",
+        "Country": "Jamaica",
+        "Lat": 17.9609693,
+        "Long": -77.5897158,
+        "PlaceID": "sunny_ville_clarendon_jamaica",
+        "PlaceName": "Sunny Ville, Clarendon, Jamaica",
+        "Region": "Clarendon"
+    },
+    "suriname": {
+        "City": "",
+        "Country": "Suriname",
+        "Lat": 3.919305,
+        "Long": -56.027783,
+        "PlaceID": "suriname",
+        "PlaceName": "Suriname",
+        "Region": ""
+    },
+    "sweden": {
+        "City": "",
+        "Country": "Sweden",
+        "Lat": 60.128161,
+        "Long": 18.643501,
+        "PlaceID": "sweden",
+        "PlaceName": "Sweden",
+        "Region": ""
+    },
+    "switzerland": {
+        "City": "",
+        "Country": "Switzerland",
+        "Lat": 46.818188,
+        "Long": 8.227512,
+        "PlaceID": "switzerland",
+        "PlaceName": "Switzerland",
+        "Region": ""
+    },
+    "sydney_australia": {
+        "City": "Sydney",
+        "Country": "Australia",
+        "Lat": -33.8688197,
+        "Long": 151.2092955,
+        "PlaceID": "sydney_australia",
+        "PlaceName": "Sydney, Australia",
+        "Region": ""
+    },
+    "szczecin_poland": {
+        "City": "Szczecin",
+        "Country": "Poland",
+        "Lat": 53.4285438,
+        "Long": 14.5528116,
+        "PlaceID": "szczecin_poland",
+        "PlaceName": "Szczecin, Poland",
+        "Region": ""
+    },
+    "tangier_morocco": {
+        "City": "Tangier",
+        "Country": "Morocco",
+        "Lat": 35.7594651,
+        "Long": -5.8339543,
+        "PlaceID": "tangier_morocco",
+        "PlaceName": "Tangier, Morocco",
+        "Region": ""
+    },
+    "tatra_mountains_czech_republic": {
+        "City": "Tatra Mountains",
+        "Country": "Czech Republic",
+        "Lat": 49.1556982,
+        "Long": 20.0442995,
+        "PlaceID": "tatra_mountains_czech_republic",
+        "PlaceName": "Tatra Mountains, Czech Republic",
+        "Region": ""
+    },
+    "tegina_nigeria": {
+        "City": "Tegina",
+        "Country": "Nigeria",
+        "Lat": 10.0805006,
+        "Long": 6.1752377,
+        "PlaceID": "tegina_nigeria",
+        "PlaceName": "Tegina, Nigeria",
+        "Region": ""
+    },
+    "tenerife_spain": {
+        "City": "Tenerife",
+        "Country": "Spain",
+        "Lat": 28.2915637,
+        "Long": -16.6291304,
+        "PlaceID": "tenerife_spain",
+        "PlaceName": "Tenerife, Spain",
+        "Region": ""
+    },
+    "territet_switzerland": {
+        "City": "Territet",
+        "Country": "Switzerland",
+        "Lat": 46.4268939,
+        "Long": 6.9231307,
+        "PlaceID": "territet_switzerland",
+        "PlaceName": "Territet, Switzerland",
+        "Region": ""
+    },
+    "texas_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 31.9685988,
+        "Long": -99.9018131,
+        "PlaceID": "texas_usa",
+        "PlaceName": "Texas, USA",
+        "Region": "Texas"
+    },
+    "tokyo_japan": {
+        "City": "Tokyo",
+        "Country": "Japan",
+        "Lat": 35.6894875,
+        "Long": 139.6917064,
+        "PlaceID": "tokyo_japan",
+        "PlaceName": "Tokyo, Japan",
+        "Region": ""
+    },
+    "toledo_ohio_usa": {
+        "City": "Toledo",
+        "Country": "USA",
+        "Lat": 41.6528052,
+        "Long": -83.5378674,
+        "PlaceID": "toledo_ohio_usa",
+        "PlaceName": "Toledo, Ohio, USA",
+        "Region": "Ohio"
+    },
+    "toluca_mexico": {
+        "City": "Toluca",
+        "Country": "Mexico",
+        "Lat": 19.2826098,
+        "Long": -99.6556653,
+        "PlaceID": "toluca_mexico",
+        "PlaceName": "Toluca, Mexico",
+        "Region": ""
+    },
+    "topeka_kansas_usa": {
+        "City": "Topeka",
+        "Country": "USA",
+        "Lat": 39.0473451,
+        "Long": -95.6751576,
+        "PlaceID": "topeka_kansas_usa",
+        "PlaceName": "Topeka, Kansas, USA",
+        "Region": "Kansas"
+    },
+    "toronto_canada": {
+        "City": "Toronto",
+        "Country": "Canada",
+        "Lat": 43.653226,
+        "Long": -79.3831843,
+        "PlaceID": "toronto_canada",
+        "PlaceName": "Toronto, Canada",
+        "Region": ""
+    },
+    "toulon_france": {
+        "City": "Toulon",
+        "Country": "France",
+        "Lat": 43.124228,
+        "Long": 5.928,
+        "PlaceID": "toulon_france",
+        "PlaceName": "Toulon, France",
+        "Region": ""
+    },
+    "trinidad": {
+        "City": "",
+        "Country": "Trinidad",
+        "Lat": 10.691803,
+        "Long": -61.222503,
+        "PlaceID": "trinidad",
+        "PlaceName": "Trinidad",
+        "Region": ""
+    },
+    "trinidad_&_tobago": {
+        "City": "",
+        "Country": "Trinidad & Tobago",
+        "Lat": 10.691803,
+        "Long": -61.222503,
+        "PlaceID": "trinidad_&_tobago",
+        "PlaceName": "Trinidad & Tobago",
+        "Region": ""
+    },
+    "true_blue_grenada": {
+        "City": "True Blue",
+        "Country": "Grenada",
+        "Lat": 12.0044598,
+        "Long": -61.7721909,
+        "PlaceID": "true_blue_grenada",
+        "PlaceName": "True Blue, Grenada",
+        "Region": ""
+    },
+    "tunapuna_trinidad": {
+        "City": "Tunapuna",
+        "Country": "Trinidad",
+        "Lat": 10.6512525,
+        "Long": -61.3881073,
+        "PlaceID": "tunapuna_trinidad",
+        "PlaceName": "Tunapuna, Trinidad",
+        "Region": ""
+    },
+    "tunis_tunisia": {
+        "City": "Tunis",
+        "Country": "Tunisia",
+        "Lat": 36.8064948,
+        "Long": 10.1815316,
+        "PlaceID": "tunis_tunisia",
+        "PlaceName": "Tunis, Tunisia",
+        "Region": ""
+    },
+    "turin_italy": {
+        "City": "Turin",
+        "Country": "Italy",
+        "Lat": 45.070312,
+        "Long": 7.6868565,
+        "PlaceID": "turin_italy",
+        "PlaceName": "Turin, Italy",
+        "Region": ""
+    },
+    "tuskegee_alabama_usa": {
+        "City": "Tuskegee",
+        "Country": "USA",
+        "Lat": 32.430237,
+        "Long": -85.7077266,
+        "PlaceID": "tuskegee_alabama_usa",
+        "PlaceName": "Tuskegee, Alabama, USA",
+        "Region": "Alabama"
+    },
+    "usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 37.09024,
+        "Long": -95.712891,
+        "PlaceID": "usa",
+        "PlaceName": "USA",
+        "Region": ""
+    },
+    "uzbekistan": {
+        "City": "",
+        "Country": "Uzbekistan",
+        "Lat": 41.377491,
+        "Long": 64.585262,
+        "PlaceID": "uzbekistan",
+        "PlaceName": "Uzbekistan",
+        "Region": ""
+    },
+    "valencia_spain": {
+        "City": "Valencia",
+        "Country": "Spain",
+        "Lat": 39.4699075,
+        "Long": -0.3762881,
+        "PlaceID": "valencia_spain",
+        "PlaceName": "Valencia, Spain",
+        "Region": ""
+    },
+    "vancouver_canada": {
+        "City": "Vancouver",
+        "Country": "Canada",
+        "Lat": 49.2827291,
+        "Long": -123.1207375,
+        "PlaceID": "vancouver_canada",
+        "PlaceName": "Vancouver, Canada",
+        "Region": ""
+    },
+    "venice_italy": {
+        "City": "Venice",
+        "Country": "Italy",
+        "Lat": 45.4408474,
+        "Long": 12.3155151,
+        "PlaceID": "venice_italy",
+        "PlaceName": "Venice, Italy",
+        "Region": ""
+    },
+    "veracruz_mexico": {
+        "City": "Veracruz",
+        "Country": "Mexico",
+        "Lat": 19.173773,
+        "Long": -96.1342241,
+        "PlaceID": "veracruz_mexico",
+        "PlaceName": "Veracruz, Mexico",
+        "Region": ""
+    },
+    "vienna_austria": {
+        "City": "Vienna",
+        "Country": "Austria",
+        "Lat": 48.2081743,
+        "Long": 16.3738189,
+        "PlaceID": "vienna_austria",
+        "PlaceName": "Vienna, Austria",
+        "Region": ""
+    },
+    "villefranche_france": {
+        "City": "Villefranche",
+        "Country": "France",
+        "Lat": 43.703976,
+        "Long": 7.311109,
+        "PlaceID": "villefranche_france",
+        "PlaceName": "Villefranche, France",
+        "Region": ""
+    },
+    "washington_dc._usa": {
+        "City": "Washington, D.C.",
+        "Country": "USA",
+        "Lat": 38.9071923,
+        "Long": -77.0368707,
+        "PlaceID": "washington_dc._usa",
+        "PlaceName": "Washington, D.C., USA",
+        "Region": ""
+    },
+    "weimar_germany": {
+        "City": "Weimar",
+        "Country": "Germany",
+        "Lat": 50.9794934,
+        "Long": 11.3235439,
+        "PlaceID": "weimar_germany",
+        "PlaceName": "Weimar, Germany",
+        "Region": ""
+    },
+    "wellesley_massachusetts_usa": {
+        "City": "Wellesley",
+        "Country": "USA",
+        "Lat": 42.296797,
+        "Long": -71.2923877,
+        "PlaceID": "wellesley_massachusetts_usa",
+        "PlaceName": "Wellesley, Massachusetts, USA",
+        "Region": "Massachusetts"
+    },
+    "wellington_new_zealand": {
+        "City": "Wellington",
+        "Country": "New Zealand",
+        "Lat": -41.2864603,
+        "Long": 174.776236,
+        "PlaceID": "wellington_new_zealand",
+        "PlaceName": "Wellington, New Zealand",
+        "Region": ""
+    },
+    "wheeling_west_virginia_usa": {
+        "City": "Wheeling",
+        "Country": "USA",
+        "Lat": 40.0639616,
+        "Long": -80.7209149,
+        "PlaceID": "wheeling_west_virginia_usa",
+        "PlaceName": "Wheeling, West Virginia, USA",
+        "Region": "West Virginia"
+    },
+    "wilberforce_ohio_usa": {
+        "City": "Wilberforce",
+        "Country": "USA",
+        "Lat": 39.716171,
+        "Long": -83.8777063,
+        "PlaceID": "wilberforce_ohio_usa",
+        "PlaceName": "Wilberforce, Ohio, USA",
+        "Region": "Ohio"
+    },
+    "worcester_massachusetts_usa": {
+        "City": "Worcester",
+        "Country": "USA",
+        "Lat": 42.2625932,
+        "Long": -71.8022934,
+        "PlaceID": "worcester_massachusetts_usa",
+        "PlaceName": "Worcester, Massachusetts, USA",
+        "Region": "Massachusetts"
+    },
+    "wroclaw_poland": {
+        "City": "Wroclaw",
+        "Country": "Poland",
+        "Lat": 51.1078852,
+        "Long": 17.0385376,
+        "PlaceID": "wroclaw_poland",
+        "PlaceName": "Wroclaw, Poland",
+        "Region": ""
+    },
+    "xauen_morocco": {
+        "City": "Xauen",
+        "Country": "Morocco",
+        "Lat": 35.168796,
+        "Long": -5.2683641,
+        "PlaceID": "xauen_morocco",
+        "PlaceName": "Xauen, Morocco",
+        "Region": ""
+    },
+    "yokahama_japan": {
+        "City": "Yokahama",
+        "Country": "Japan",
+        "Lat": 35.4436739,
+        "Long": 139.6379639,
+        "PlaceID": "yokahama_japan",
+        "PlaceName": "Yokahama, Japan",
+        "Region": ""
+    },
+    "yugoslavia": {
+        "City": "",
+        "Country": "Yugoslavia",
+        "Lat": 32.6364993,
+        "Long": -115.5228734,
+        "PlaceID": "yugoslavia",
+        "PlaceName": "Yugoslavia",
+        "Region": ""
+    },
+    "zanesville_ohio_usa": {
+        "City": "Zanesville",
+        "Country": "USA",
+        "Lat": 39.9403453,
+        "Long": -82.0131924,
+        "PlaceID": "zanesville_ohio_usa",
+        "PlaceName": "Zanesville, Ohio, USA",
+        "Region": "Ohio"
+    },
+    "zanzibar": {
+        "City": "",
+        "Country": "Zanzibar",
+        "Lat": -6.1357295,
+        "Long": 39.3621196,
+        "PlaceID": "zanzibar",
+        "PlaceName": "Zanzibar",
+        "Region": ""
+    },
+    "zaria_nigeria": {
+        "City": "Zaria",
+        "Country": "Nigeria",
+        "Lat": 11.0855409,
+        "Long": 7.7199454,
+        "PlaceID": "zaria_nigeria",
+        "PlaceName": "Zaria, Nigeria",
+        "Region": ""
+    },
+    "zurich_switzerland": {
+        "City": "Zurich",
+        "Country": "Switzerland",
+        "Lat": 47.3768866,
+        "Long": 8.541694,
+        "PlaceID": "zurich_switzerland",
+        "PlaceName": "Zurich, Switzerland",
+        "Region": ""
+    }
+}
