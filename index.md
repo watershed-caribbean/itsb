@@ -10,8 +10,8 @@ id: home
 pagetitle: Welcome
 ---
 
-*In the Same Boats* is a work of multimodal scholarship designed to encourage the collaborative production of humanistic knowledge within scholarly communities. Comprising two interactive visualizations that trace the movements of seminal cultural actors from the Caribbean and wider Americas, Africa, and Europe within the 20th century Afro-Atlantic world, the platform seeks to push back against the ways in which “Global South” intellectual production has been balkanized in the academy, its limits and contours largely determined by imperial metropoles.
+*In the Same Boats* is a work of multimodal scholarship designed to encourage the collaborative production of humanistic knowledge within scholarly communities. The platform comprises two interactive visualizations that trace the movements of significant cultural actors from the Caribbean and wider Americas, Africa, and Europe within the 20th century Afro-Atlantic world. It presents opportunities for unearthing the extent to which Caribbean, Latin American, African, European, and Afro-American intellectuals have been in both punctual and sustained conversation with one another: attending the same conferences, publishing in the same journals and presses, active in the same political groups, perhaps even elbow-to-elbow in the same Parisian cafés and on the same transatlantic crossings––literally and metaphorically in the same boats––as they circulate throughout the Americas, Africa, Europe, and beyond.
 
-The project presents opportunities to discover the extent to which Caribbean, African, Latin American, European, and Afro-American intellectuals have been in both punctual and sustained conversation with one another: attending the same conferences, publishing in the same journals and presses, active in the same political groups, perhaps even elbow-to-elbow in the same Parisian cafés and on the same transatlantic crossings – literally and metaphorically in the same boats – as they circulate throughout the Americas, Africa, Europe, and beyond.
+[read more...](/about/)
 
-For more information and/or to participate, please contact project-wranglers Kaiama L. Glover & Alex Gil – [thesameboats@gmail.com](mailto:thesameboats@gmail.com).
+
