@@ -2473,6 +2473,18 @@
     ],
     "1901-01": [
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 0,
+            "Notes": "James in born",
+            "PlaceID": "tunapuna_trinidad",
+            "StartCitation": "Grimshaw 9",
+            "StartDate": "1901-01-04",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "cmckay",
             "EndCitation": "Cooper 11",
             "EndDate": "1901",
@@ -3512,6 +3524,18 @@
         }
     ],
     "1910-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 1,
+            "Notes": "Won a scholarship to attend Queen's Royal College. After graduation, he worked as a school teacher",
+            "PlaceID": "port_of_spain_trinidad",
+            "StartCitation": "Grimshaw 9",
+            "StartDate": "1910",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "cmckay",
             "EndCitation": "Cooper 64",
@@ -7092,9 +7116,34 @@
         }
     ],
     "1931-12": [],
-    "1932-01": [],
+    "1932-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1933-02",
+            "EndType": "departure",
+            "EntryIndex": 4,
+            "Notes": "James goes to France for research on The Black Jacobins. Exact dates ambiguous (\"the winter months\")",
+            "PlaceID": "paris_france",
+            "StartCitation": "Grimshaw 12",
+            "StartDate": "1932",
+            "StartType": "arrival"
+        }
+    ],
     "1932-02": [],
     "1932-03": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 2,
+            "Notes": "Departs for the U.K.",
+            "PlaceID": "london_england",
+            "StartCitation": "Grimshaw 11",
+            "StartDate": "1932-03",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "",
@@ -7121,7 +7170,20 @@
         }
     ],
     "1932-04": [],
-    "1932-05": [],
+    "1932-05": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 3,
+            "Notes": "James goes to join Learie Constantine, the cricket player",
+            "PlaceID": "nelson_uk",
+            "StartCitation": "Grimshaw 11",
+            "StartDate": "1932-05",
+            "StartType": "arrival"
+        }
+    ],
     "1932-06": [
         {
             "AuthorID": "egrobeson",
@@ -7207,6 +7269,30 @@
     ],
     "1933-01": [
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 5,
+            "Notes": "Returns from France to Nelson",
+            "PlaceID": "nelson_uk",
+            "StartCitation": "Grimshaw 12",
+            "StartDate": "1933",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1934",
+            "EndType": "latest_presence",
+            "EntryIndex": 7,
+            "Notes": "Goes to France for research on The Black Jacobins. Exact dates ambiguous (\"the winter months\")",
+            "PlaceID": "paris_france",
+            "StartCitation": "Grimshaw 12",
+            "StartDate": "1933",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Fight 361",
             "EndDate": "1933-03",
@@ -7219,7 +7305,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1933-02": [],
+    "1933-02": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1933-02",
+            "EndType": "departure",
+            "EntryIndex": 4,
+            "Notes": "James goes to France for research on The Black Jacobins. Exact dates ambiguous (\"the winter months\")",
+            "PlaceID": "paris_france",
+            "StartCitation": "Grimshaw 12",
+            "StartDate": "1932",
+            "StartType": "arrival"
+        }
+    ],
     "1933-03": [
         {
             "AuthorID": "webdubois",
@@ -7234,7 +7333,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1933-04": [],
+    "1933-04": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 6,
+            "Notes": "Moves to London",
+            "PlaceID": "london_england",
+            "StartCitation": "Grimshaw 12",
+            "StartDate": "1933-04",
+            "StartType": "arrival"
+        }
+    ],
     "1933-05": [
         {
             "AuthorID": "webdubois",
@@ -7372,6 +7484,18 @@
     ],
     "1934-01": [
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1934",
+            "EndType": "latest_presence",
+            "EntryIndex": 7,
+            "Notes": "Goes to France for research on The Black Jacobins. Exact dates ambiguous (\"the winter months\")",
+            "PlaceID": "paris_france",
+            "StartCitation": "Grimshaw 12",
+            "StartDate": "1933",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "cmckay",
             "EndCitation": "Cooper 289",
             "EndDate": "1934-01",
@@ -7397,7 +7521,20 @@
         }
     ],
     "1934-02": [],
-    "1934-03": [],
+    "1934-03": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "Buhle 62",
+            "EndDate": "1935",
+            "EndType": "departure",
+            "EntryIndex": 8,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Grimshaw 12",
+            "StartDate": "1934-03",
+            "StartType": "arrival"
+        }
+    ],
     "1934-04": [],
     "1934-05": [],
     "1934-06": [],
@@ -7566,6 +7703,54 @@
             "PlaceID": "chicago_illinois_usa",
             "StartCitation": "Clark and Johnson 2005, xvii",
             "StartDate": "1929",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "Buhle 62",
+            "EndDate": "1935",
+            "EndType": "departure",
+            "EntryIndex": 8,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Grimshaw 12",
+            "StartDate": "1934-03",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 9,
+            "Notes": "Date ambiguous",
+            "PlaceID": "paris_france",
+            "StartCitation": "Buhle 62",
+            "StartDate": "1935",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 10,
+            "Notes": "Date ambiguous",
+            "PlaceID": "marseilles_france",
+            "StartCitation": "Buhle 62",
+            "StartDate": "1935",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1938",
+            "EndType": "departure",
+            "EntryIndex": 11,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1935",
             "StartType": "arrival"
         },
         {
@@ -8450,6 +8635,30 @@
             "StartCitation": "Das 2014, 77-9",
             "StartDate": "1938-01-27",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1938",
+            "EndType": "departure",
+            "EntryIndex": 11,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1935",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 21,
+            "Notes": "Based in New York following lecture tour",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1938",
+            "StartType": "arrival"
         }
     ],
     "1938-02": [
@@ -8538,6 +8747,66 @@
     "1938-10": [],
     "1938-11": [
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 12,
+            "Notes": "Arrives in USA for lecture tour",
+            "PlaceID": "usa",
+            "StartCitation": "Hall 9, Buhle 174, Grimshaw 14",
+            "StartDate": "1938-11",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 13,
+            "Notes": "Two month lecture tour",
+            "PlaceID": "philadelphia_pennsylvania_usa",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1938-11",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 14,
+            "Notes": "Two month lecture tour",
+            "PlaceID": "boston_massachusetts_usa",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1938-11",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 15,
+            "Notes": "Two month lecture tour",
+            "PlaceID": "cleveland_ohio_usa",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1938-11",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 16,
+            "Notes": "Two month lecture tour",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1938-11",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Fight 470",
             "EndDate": "1940",
@@ -8550,7 +8819,56 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1938-12": [],
+    "1938-12": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 17,
+            "Notes": "Two month lecture tour",
+            "PlaceID": "minneapolis_minnesota_usa",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1938-12",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 18,
+            "Notes": "Two month lecture tour",
+            "PlaceID": "denver_colorado_usa",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1938-12",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 19,
+            "Notes": "Two month lecture tour",
+            "PlaceID": "san_francisco_california_usa",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1938-12",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 20,
+            "Notes": "Two month lecture tour",
+            "PlaceID": "los_angeles_california_usa",
+            "StartCitation": "Grimshaw 14",
+            "StartDate": "1938-12",
+            "StartType": "arrival"
+        }
+    ],
     "1939-01": [
         {
             "AuthorID": "kdunham",
@@ -8563,11 +8881,72 @@
             "StartCitation": "Aschenbrenner 2001",
             "StartDate": "1939",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 25,
+            "Notes": "Based in New York ",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "James Special Delivery 55",
+            "StartDate": "1939",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1940",
+            "EndType": "departure",
+            "EntryIndex": 27,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "James Special Delivery 55",
+            "StartDate": "1939",
+            "StartType": "earliest_presence"
         }
     ],
     "1939-02": [],
     "1939-03": [],
-    "1939-04": [],
+    "1939-04": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1939-04",
+            "EndType": "departure",
+            "EntryIndex": 22,
+            "Notes": "Meets Leon Trotsky. For a transcript of their interview, see CLR James Papers, Box 12 Folder 15. He returns via bus through the southern United States",
+            "PlaceID": "mexico_city_mexico",
+            "StartCitation": "Hall 10, Grimshaw 14",
+            "StartDate": "1939-04",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1939-04",
+            "EndType": "departure",
+            "EntryIndex": 23,
+            "Notes": "Stays for two days to catch the S.S. Tegucigalpa to New Orleans ( six day journey)",
+            "PlaceID": "veracruz_mexico",
+            "StartCitation": "James Special Delivery 46",
+            "StartDate": "1939-04",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1939-04",
+            "EndType": "departure",
+            "EntryIndex": 24,
+            "Notes": "Stays for three days before taking a bus to New York, stopping in Memphis on the way",
+            "PlaceID": "new_orleans_louisiana",
+            "StartCitation": "James Special Delivery 46",
+            "StartDate": "1939-04",
+            "StartType": "arrival"
+        }
+    ],
     "1939-05": [],
     "1939-06": [],
     "1939-07": [],
@@ -8582,6 +8961,18 @@
             "PlaceID": "paris_france",
             "StartCitation": "",
             "StartDate": "1936-10",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 26,
+            "Notes": "James is in D.C. for the weekend on party work",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "",
+            "StartDate": "1939-08-31",
             "StartType": "earliest_presence"
         }
     ],
@@ -8616,6 +9007,42 @@
     "1939-11": [],
     "1939-12": [],
     "1940-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1940",
+            "EndType": "departure",
+            "EntryIndex": 27,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "James Special Delivery 55",
+            "StartDate": "1939",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 28,
+            "Notes": "James spends several weeks at Howard with Eric Williams. The letter does not include a date",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "James Special Delivery 63",
+            "StartDate": "1940",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1941",
+            "EndType": "departure",
+            "EntryIndex": 33,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Worcester 65",
+            "StartDate": "1940",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
@@ -8703,7 +9130,32 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1940-03": [],
+    "1940-03": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 29,
+            "Notes": "Reason for visit unclear",
+            "PlaceID": "san_francisco_california_usa",
+            "StartCitation": "James Special Delivery 62",
+            "StartDate": "1940-03",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 30,
+            "Notes": "Goes for convention in Chicago but too ill to attend",
+            "PlaceID": "chicago_illinois_usa",
+            "StartCitation": "James Special Delivery 62",
+            "StartDate": "1940-03",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1940-04": [
         {
             "AuthorID": "kdunham",
@@ -8716,6 +9168,30 @@
             "StartCitation": "Das 2014",
             "StartDate": "1940-02-18",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 31,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "James Special Delivery 62",
+            "StartDate": "1940-04",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 32,
+            "Notes": "James goes to L.A. to negotiate a potential split in the Socialist Workers Party",
+            "PlaceID": "los_angeles_california_usa",
+            "StartCitation": "Worcester 65, James Special Delivery 70",
+            "StartDate": "1940-04",
+            "StartType": "earliest_presence"
         }
     ],
     "1940-05": [],
@@ -8791,6 +9267,30 @@
         }
     ],
     "1941-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1941",
+            "EndType": "departure",
+            "EntryIndex": 33,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Worcester 65",
+            "StartDate": "1940",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1942",
+            "EndType": "departure",
+            "EntryIndex": 34,
+            "Notes": "Participates in the share croppers' strike",
+            "PlaceID": "missouri_usa",
+            "StartCitation": "Buhle 175, Grimshaw 16",
+            "StartDate": "1941",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "cmckay",
             "EndCitation": "Cooper 357",
@@ -8978,7 +9478,20 @@
         }
     ],
     "1941-12": [],
-    "1942-01": [],
+    "1942-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1942",
+            "EndType": "departure",
+            "EntryIndex": 34,
+            "Notes": "Participates in the share croppers' strike",
+            "PlaceID": "missouri_usa",
+            "StartCitation": "Buhle 175, Grimshaw 16",
+            "StartDate": "1941",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1942-02": [],
     "1942-03": [
         {
@@ -9073,6 +9586,18 @@
             "StartCitation": "KDP-SIUC",
             "StartDate": "1942-08",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1943",
+            "EndType": "departure",
+            "EntryIndex": 35,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Buhle 175, James Special Delivery 70",
+            "StartDate": "1942-08",
+            "StartType": "arrival"
         }
     ],
     "1942-09": [],
@@ -9118,6 +9643,42 @@
         }
     ],
     "1943-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1943",
+            "EndType": "departure",
+            "EntryIndex": 35,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Buhle 175, James Special Delivery 70",
+            "StartDate": "1942-08",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 36,
+            "Notes": "James meets Kwame Nkrumah while he is a student at Lincoln's college",
+            "PlaceID": "lincoln_pennsylvania_usa",
+            "StartCitation": "Worcester 65",
+            "StartDate": "1943",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 37,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Worcester 65",
+            "StartDate": "1943",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "cmckay",
             "EndCitation": "Cooper 357",
@@ -9505,6 +10066,30 @@
             "PlaceID": "port_au_prince_haiti",
             "StartCitation": "",
             "StartDate": "1944-05-17",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1944-05-24",
+            "EndType": "departure",
+            "EntryIndex": 38,
+            "Notes": "Visiting Constance Webb",
+            "PlaceID": "los_angeles_california_usa",
+            "StartCitation": "James Special Delivery 113",
+            "StartDate": "1944-05",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 39,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "James Special Delivery 113",
+            "StartDate": "1944-05-25",
             "StartType": "arrival"
         }
     ],
@@ -10553,9 +11138,94 @@
             "StartCitation": "Das 2014",
             "StartDate": "1947-04-16",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1947-04-16",
+            "EndType": "departure",
+            "EntryIndex": 40,
+            "Notes": "Meetings regarding Johnson Forest Tendency",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "James Special Delivery 279",
+            "StartDate": "1947-04-16",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 41,
+            "Notes": "Sends letter en route to Chicago",
+            "PlaceID": "chicago_illinois_usa",
+            "StartCitation": "James Special Delivery 280",
+            "StartDate": "1947-04-16",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 42,
+            "Notes": "Motive of visit unclear",
+            "PlaceID": "los_angeles_california_usa",
+            "StartCitation": "James Special Delivery 283",
+            "StartDate": "1947-04-19",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 43,
+            "Notes": "Writes letter to Constance Webb",
+            "PlaceID": "cleveland_ohio_usa",
+            "StartCitation": "James Special Delivery 286",
+            "StartDate": "1947-04-21",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 44,
+            "Notes": "Mentions one day trip to Boulder for meeting",
+            "PlaceID": "boulder_colorado_usa",
+            "StartCitation": "James Special Delivery 289",
+            "StartDate": "1947-04",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1947-04-29",
+            "EndType": "latest_presence",
+            "EntryIndex": 45,
+            "Notes": "Motive for visit unclear",
+            "PlaceID": "chicago_illinois_usa",
+            "StartCitation": "",
+            "StartDate": "",
+            "StartType": ""
         }
     ],
-    "1947-05": [],
+    "1947-05": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 46,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "James Special Delivery 285",
+            "StartDate": "1947-05",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1947-06": [],
     "1947-07": [
         {
@@ -10700,6 +11370,18 @@
             "StartCitation": "Das 2014",
             "StartDate": "1949-01-28",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1952",
+            "EndType": "departure",
+            "EntryIndex": 48,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1948",
+            "StartType": "arrival"
         }
     ],
     "1948-02": [
@@ -10808,6 +11490,18 @@
             "StartCitation": "",
             "StartDate": "1948-08-30",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1948-11-09",
+            "EndType": "latest_presence",
+            "EntryIndex": 47,
+            "Notes": "Stays in Reno for several months to secure his divorce from Juanita James, his first wife",
+            "PlaceID": "reno_nevada_usa",
+            "StartCitation": "James Special Delivery 310",
+            "StartDate": "1948-08-01",
+            "StartType": "arrival"
         }
     ],
     "1948-09": [
@@ -10897,6 +11591,18 @@
             "PlaceID": "paris_france",
             "StartCitation": "Love Letters from I Tatti Vol 1",
             "StartDate": "1948-11-30",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1948-11-09",
+            "EndType": "latest_presence",
+            "EntryIndex": 47,
+            "Notes": "Stays in Reno for several months to secure his divorce from Juanita James, his first wife",
+            "PlaceID": "reno_nevada_usa",
+            "StartCitation": "James Special Delivery 310",
+            "StartDate": "1948-08-01",
             "StartType": "arrival"
         }
     ],
@@ -11980,6 +12686,30 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1952",
+            "EndType": "departure",
+            "EntryIndex": 48,
+            "Notes": "Based in New York",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1948",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1953",
+            "EndType": "departure",
+            "EntryIndex": 49,
+            "Notes": "Interned at Ellis Island, where he writes Mariners, Renegades, and Castaways. James was there for six months.",
+            "PlaceID": "ellis_island_new_york_usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1952",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
             "EndDate": "1952",
@@ -12507,6 +13237,30 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1953",
+            "EndType": "departure",
+            "EntryIndex": 49,
+            "Notes": "Interned at Ellis Island, where he writes Mariners, Renegades, and Castaways. James was there for six months.",
+            "PlaceID": "ellis_island_new_york_usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1952",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 50,
+            "Notes": "Returns to London following deportation from U.S.",
+            "PlaceID": "london_england",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1953",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "rdepestre",
             "EndCitation": "Depestre, Bonsoir, tendresse (182)",
             "EndDate": "1953-07",
@@ -12805,6 +13559,18 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1957",
+            "EndType": "departure",
+            "EntryIndex": 52,
+            "Notes": "Based in London",
+            "PlaceID": "london_england",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1954",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
             "EndDate": "1956",
@@ -12831,7 +13597,20 @@
             "StartType": "arrival"
         }
     ],
-    "1954-03": [],
+    "1954-03": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 51,
+            "Notes": "Gives lecture \"Popular art and the cultural tradition\" at the Congress of Cultural Freedom",
+            "PlaceID": "paris_france",
+            "StartCitation": "CLR James Papers Box 11 Folder 2",
+            "StartDate": "1954-03-09",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1954-04": [
         {
             "AuthorID": "kdunham",
@@ -13599,6 +14378,42 @@
     ],
     "1957-01": [
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1957",
+            "EndType": "departure",
+            "EntryIndex": 52,
+            "Notes": "Based in London",
+            "PlaceID": "london_england",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1954",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1957",
+            "EndType": "departure",
+            "EntryIndex": 53,
+            "Notes": "Invited by Kwame Nkrumah for Independence Day celebrations",
+            "PlaceID": "accra_ghana",
+            "StartCitation": "Grimshaw 19",
+            "StartDate": "1957-03",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1958",
+            "EndType": "departure",
+            "EntryIndex": 54,
+            "Notes": "Based in London",
+            "PlaceID": "london_england",
+            "StartCitation": "Grimshaw 19",
+            "StartDate": "1957",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
             "EndDate": "1957",
@@ -13612,7 +14427,20 @@
         }
     ],
     "1957-02": [],
-    "1957-03": [],
+    "1957-03": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1957",
+            "EndType": "departure",
+            "EntryIndex": 53,
+            "Notes": "Invited by Kwame Nkrumah for Independence Day celebrations",
+            "PlaceID": "accra_ghana",
+            "StartCitation": "Grimshaw 19",
+            "StartDate": "1957-03",
+            "StartType": "arrival"
+        }
+    ],
     "1957-04": [],
     "1957-05": [
         {
@@ -13823,6 +14651,42 @@
             "StartType": "earliest_presence"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1958",
+            "EndType": "departure",
+            "EntryIndex": 54,
+            "Notes": "Based in London",
+            "PlaceID": "london_england",
+            "StartCitation": "Grimshaw 19",
+            "StartDate": "1957",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1958-06",
+            "EndType": "departure",
+            "EntryIndex": 55,
+            "Notes": "Spends six months in Spain working on Beyond a Boundary with Selma James",
+            "PlaceID": "spain",
+            "StartCitation": "CLR James Papers Box 2 Folder 2",
+            "StartDate": "1958-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1960",
+            "EndType": "departure",
+            "EntryIndex": 57,
+            "Notes": "Returns to Trinidad on Eric Williams' request to become involved with the Peoples' National Movement",
+            "PlaceID": "trinidad",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1958",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1958",
@@ -13983,6 +14847,30 @@
             "Notes": "",
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
+            "StartDate": "1958-06",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1958-06",
+            "EndType": "departure",
+            "EntryIndex": 55,
+            "Notes": "Spends six months in Spain working on Beyond a Boundary with Selma James",
+            "PlaceID": "spain",
+            "StartCitation": "CLR James Papers Box 2 Folder 2",
+            "StartDate": "1958-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 56,
+            "Notes": "Lectures on the West Indies Federation at Queen's College",
+            "PlaceID": "georgetown_guyana",
+            "StartCitation": "CLR James Papers Box 10 Folder 17 ",
             "StartDate": "1958-06",
             "StartType": "earliest_presence"
         }
@@ -14450,6 +15338,42 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1960",
+            "EndType": "departure",
+            "EntryIndex": 57,
+            "Notes": "Returns to Trinidad on Eric Williams' request to become involved with the Peoples' National Movement",
+            "PlaceID": "trinidad",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1958",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1960",
+            "EndType": "departure",
+            "EntryIndex": 58,
+            "Notes": "",
+            "PlaceID": "accra_ghana",
+            "StartCitation": "Grimshaw 19",
+            "StartDate": "1960",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 59,
+            "Notes": "Working with Peoples' National Movement",
+            "PlaceID": "trinidad",
+            "StartCitation": "Grimshaw 19",
+            "StartDate": "1960",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "",
@@ -14649,6 +15573,18 @@
     ],
     "1960-12": [],
     "1961-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1961-11",
+            "EndType": "latest_presence",
+            "EntryIndex": 60,
+            "Notes": "In a road accident while in Jamaica",
+            "PlaceID": "jamaica",
+            "StartCitation": "Worcester 169, CLR James Papers Box 2 Folder 2 ",
+            "StartDate": "1961",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "",
@@ -14907,6 +15843,30 @@
             "StartCitation": "",
             "StartDate": "1961-11",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1961-11",
+            "EndType": "latest_presence",
+            "EntryIndex": 60,
+            "Notes": "In a road accident while in Jamaica",
+            "PlaceID": "jamaica",
+            "StartCitation": "Worcester 169, CLR James Papers Box 2 Folder 2 ",
+            "StartDate": "1961",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "CLR James Papers Box 2 Folder 2",
+            "EndDate": "1962-08",
+            "EndType": "departure",
+            "EntryIndex": 61,
+            "Notes": "Leaves Trinidad after split with Williams",
+            "PlaceID": "trinidad",
+            "StartCitation": "CLR James Papers Box 2 Folder 2",
+            "StartDate": "1961-11",
+            "StartType": "earliest_presence"
         }
     ],
     "1961-12": [],
@@ -15066,7 +16026,20 @@
             "StartType": "arrival"
         }
     ],
-    "1962-08": [],
+    "1962-08": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "CLR James Papers Box 2 Folder 2",
+            "EndDate": "1962-08",
+            "EndType": "departure",
+            "EntryIndex": 61,
+            "Notes": "Leaves Trinidad after split with Williams",
+            "PlaceID": "trinidad",
+            "StartCitation": "CLR James Papers Box 2 Folder 2",
+            "StartDate": "1961-11",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1962-09": [
         {
             "AuthorID": "acesaire",
@@ -15077,6 +16050,18 @@
             "Notes": "",
             "PlaceID": "salvador_de_bahia_brazil",
             "StartCitation": "",
+            "StartDate": "1962-09",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 62,
+            "Notes": "Based in London",
+            "PlaceID": "london_england",
+            "StartCitation": "Hall 15, Buhle 175, CLR James Papers Box 2 Folder 2",
             "StartDate": "1962-09",
             "StartType": "arrival"
         }
@@ -15333,6 +16318,18 @@
             "StartCitation": "",
             "StartDate": "1964-01",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 64,
+            "Notes": "Based in London",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 10 Folder 9 ",
+            "StartDate": "1964",
+            "StartType": "earliest_presence"
         }
     ],
     "1964-02": [
@@ -15359,6 +16356,18 @@
             "StartCitation": "",
             "StartDate": "1964-02",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 63,
+            "Notes": "Gives the lecture \"A National Purpose for Caribbean Peoples\" at the West Indian Students Association at University of Edinburgh",
+            "PlaceID": "edinburgh_scotland_uk",
+            "StartCitation": "CLR James Papers Box 10 Folder 9 ",
+            "StartDate": "1964-02-26",
+            "StartType": "earliest_presence"
         }
     ],
     "1964-03": [
@@ -15534,6 +16543,18 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 67,
+            "Notes": "Worcester says James returned in the \"summer\" of 1965. He leaves a few weeks following the 1966 election",
+            "PlaceID": "port_of_spain_trinidad",
+            "StartCitation": "Worcester 169",
+            "StartDate": "1965",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1965",
@@ -15583,6 +16604,18 @@
             "StartCitation": "",
             "StartDate": "1965-03",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1965-04",
+            "EndType": "latest_presence",
+            "EntryIndex": 65,
+            "Notes": "Placed under house arrest for six weeks by Eric Williams. Before this, he is apparently following the West Indies cricket tour",
+            "PlaceID": "port_of_spain_trinidad",
+            "StartCitation": "Worcester 169",
+            "StartDate": "1965-03",
+            "StartType": "arrival"
         }
     ],
     "1965-04": [
@@ -15597,6 +16630,30 @@
             "StartCitation": "",
             "StartDate": "1965-03",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1965-04",
+            "EndType": "latest_presence",
+            "EntryIndex": 65,
+            "Notes": "Placed under house arrest for six weeks by Eric Williams. Before this, he is apparently following the West Indies cricket tour",
+            "PlaceID": "port_of_spain_trinidad",
+            "StartCitation": "Worcester 169",
+            "StartDate": "1965-03",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1965-07",
+            "EndType": "departure",
+            "EntryIndex": 66,
+            "Notes": "Based in London",
+            "PlaceID": "london_england",
+            "StartCitation": "Worcester 169",
+            "StartDate": "1965-04",
+            "StartType": "arrival"
         }
     ],
     "1965-05": [
@@ -15614,7 +16671,20 @@
         }
     ],
     "1965-06": [],
-    "1965-07": [],
+    "1965-07": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1965-07",
+            "EndType": "departure",
+            "EntryIndex": 66,
+            "Notes": "Based in London",
+            "PlaceID": "london_england",
+            "StartCitation": "Worcester 169",
+            "StartDate": "1965-04",
+            "StartType": "arrival"
+        }
+    ],
     "1965-08": [],
     "1965-09": [],
     "1965-10": [
@@ -15681,6 +16751,18 @@
             "PlaceID": "paris_france",
             "StartCitation": "Das 2014",
             "StartDate": "1966-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1966",
+            "EndType": "departure",
+            "EntryIndex": 68,
+            "Notes": "Delivers the lecture \"The Making of the Caribbean Peoples\" at the Second Conference on West Indian Affairs. The date is given as \"summer.\" Also gives the lecture \"Existentialism and Marxism.\" Worcester lists this lecture as having taken place in London, but Austin has correspondence demonstrating that it was in Montreal ",
+            "PlaceID": "montreal_canada",
+            "StartCitation": "Worcester 169; CLR James Papers Box 10 Folder 16, CLR James Papers Box 10 Folder 8, Austin 15 ",
+            "StartDate": "1966",
             "StartType": "arrival"
         },
         {
@@ -15877,10 +16959,47 @@
             "StartCitation": "",
             "StartDate": "1966-10",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1966-12",
+            "EndType": "departure",
+            "EntryIndex": 69,
+            "Notes": "Returns to Trinidad for the elections, where his Workers' and Farmers' Party is defeated",
+            "PlaceID": "port_of_spain_trinidad",
+            "StartCitation": "Austin 16",
+            "StartDate": "1966-10",
+            "StartType": "arrival"
         }
     ],
     "1966-11": [],
-    "1966-12": [],
+    "1966-12": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1966-12",
+            "EndType": "departure",
+            "EntryIndex": 69,
+            "Notes": "Returns to Trinidad for the elections, where his Workers' and Farmers' Party is defeated",
+            "PlaceID": "port_of_spain_trinidad",
+            "StartCitation": "Austin 16",
+            "StartDate": "1966-10",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1967-03-08",
+            "EndType": "departure",
+            "EntryIndex": 70,
+            "Notes": "Delivers a series of public and private lectures in Montreal on the invitation of the Caribbean Conference Committee and the C.L.R. James Study Circle. These lectures are collected in David Austin's You Don't Play With Revolution",
+            "PlaceID": "montreal_canada",
+            "StartCitation": "CLR James Papers Box 4 Folder 3, Austin 16",
+            "StartDate": "1966-12-07",
+            "StartType": "arrival"
+        }
+    ],
     "1967-01": [
         {
             "AuthorID": "acesaire",
@@ -15891,6 +17010,18 @@
             "Notes": "",
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
+            "StartDate": "1967-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 71,
+            "Notes": "Lecture tour that includes stop in Detroit. First time re-entering the U.S. after being expelled in 1953",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "CLR James Papers Box 4 Folder 3, Austin 277 ",
             "StartDate": "1967-01",
             "StartType": "earliest_presence"
         },
@@ -15933,6 +17064,42 @@
             "StartCitation": "",
             "StartDate": "1967-01",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1967-03-08",
+            "EndType": "departure",
+            "EntryIndex": 70,
+            "Notes": "Delivers a series of public and private lectures in Montreal on the invitation of the Caribbean Conference Committee and the C.L.R. James Study Circle. These lectures are collected in David Austin's You Don't Play With Revolution",
+            "PlaceID": "montreal_canada",
+            "StartCitation": "CLR James Papers Box 4 Folder 3, Austin 16",
+            "StartDate": "1966-12-07",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1967-03-08",
+            "EndType": "departure",
+            "EntryIndex": 72,
+            "Notes": "Lecture tour of Canada",
+            "PlaceID": "montreal_canada",
+            "StartCitation": "",
+            "StartDate": "",
+            "StartType": ""
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1967-12-29",
+            "EndType": "departure",
+            "EntryIndex": 73,
+            "Notes": "Correspondence during this time period is from London",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 2 ",
+            "StartDate": "1967-03-01",
+            "StartType": "arrival"
         }
     ],
     "1967-04": [
@@ -16094,6 +17261,30 @@
             "StartCitation": "",
             "StartDate": "1967-12-26",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1967-12-29",
+            "EndType": "departure",
+            "EntryIndex": 73,
+            "Notes": "Correspondence during this time period is from London",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 2 ",
+            "StartDate": "1967-03-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "Salkey 220",
+            "EndDate": "1968-02",
+            "EndType": "departure",
+            "EntryIndex": 74,
+            "Notes": "Attended 1968 Cultural Congress in Havana. Details and a summary of his paper available in Andrew Salkey's Havana Journal. Aimé Césaire and René Depestre attended his 67th birthday party",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "Salkey 11",
+            "StartDate": "1967-12-29",
+            "StartType": "arrival"
         }
     ],
     "1968-01": [
@@ -16132,6 +17323,42 @@
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1968",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "Salkey 220",
+            "EndDate": "1968-02",
+            "EndType": "departure",
+            "EntryIndex": 75,
+            "Notes": "Exact dates ambiguous. Tour also included Isle of Pines, Pinar del Rio, Matanzas, Las Villas, and Camagüey",
+            "PlaceID": "santiago_de_cuba_cuba",
+            "StartCitation": "Salkey 220",
+            "StartDate": "1968-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1968",
+            "EndType": "departure",
+            "EntryIndex": 76,
+            "Notes": "Lecture at the University of Ibadan",
+            "PlaceID": "ibadan_nigeria",
+            "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1968-03",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1968",
+            "EndType": "departure",
+            "EntryIndex": 77,
+            "Notes": "",
+            "PlaceID": "accra_ghana",
+            "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1968",
+            "StartType": "arrival"
         }
     ],
     "1968-02": [
@@ -16146,6 +17373,30 @@
             "StartCitation": "",
             "StartDate": "1968-02",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "Salkey 220",
+            "EndDate": "1968-02",
+            "EndType": "departure",
+            "EntryIndex": 74,
+            "Notes": "Attended 1968 Cultural Congress in Havana. Details and a summary of his paper available in Andrew Salkey's Havana Journal. Aimé Césaire and René Depestre attended his 67th birthday party",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "Salkey 11",
+            "StartDate": "1967-12-29",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "Salkey 220",
+            "EndDate": "1968-02",
+            "EndType": "departure",
+            "EntryIndex": 75,
+            "Notes": "Exact dates ambiguous. Tour also included Isle of Pines, Pinar del Rio, Matanzas, Las Villas, and Camagüey",
+            "PlaceID": "santiago_de_cuba_cuba",
+            "StartCitation": "Salkey 220",
+            "StartDate": "1968-01",
+            "StartType": "arrival"
         }
     ],
     "1968-03": [
@@ -16160,6 +17411,18 @@
             "StartCitation": "",
             "StartDate": "1968-03",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1968",
+            "EndType": "departure",
+            "EntryIndex": 76,
+            "Notes": "Lecture at the University of Ibadan",
+            "PlaceID": "ibadan_nigeria",
+            "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1968-03",
+            "StartType": "arrival"
         }
     ],
     "1968-04": [
@@ -16176,7 +17439,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1968-05": [],
+    "1968-05": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1968-07-26",
+            "EndType": "departure",
+            "EntryIndex": 78,
+            "Notes": "Letter addressed from London",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 1 Folder 4 ",
+            "StartDate": "1968-05",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1968-06": [
         {
             "AuthorID": "acesaire",
@@ -16215,9 +17491,69 @@
             "StartCitation": "",
             "StartDate": "1968-07",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1968-07-26",
+            "EndType": "departure",
+            "EntryIndex": 78,
+            "Notes": "Letter addressed from London",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 1 Folder 4 ",
+            "StartDate": "1968-05",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1968-07-29",
+            "EndType": "departure",
+            "EntryIndex": 79,
+            "Notes": "Letter specifying travel dates for trip",
+            "PlaceID": "paris_france",
+            "StartCitation": "CLR James Papers Box 1 Folder 4 ",
+            "StartDate": "1968-07-26",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 80,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 1 Folder 4 ",
+            "StartDate": "1968-07-29",
+            "StartType": "arrival"
         }
     ],
     "1968-08": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 81,
+            "Notes": "",
+            "PlaceID": "dar_es_salaam_tanzania",
+            "StartCitation": "CLR James Papers Box 4 Folder 3, Grimshaw 21",
+            "StartDate": "1968-08",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 82,
+            "Notes": "",
+            "PlaceID": "uganda",
+            "StartCitation": "CLR James Papers Box 4 Folder 3, Grimshaw 21",
+            "StartDate": "1968-08",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "George Lamming Collection",
@@ -16243,10 +17579,85 @@
             "StartType": "arrival"
         }
     ],
-    "1968-09": [],
-    "1968-10": [],
-    "1968-11": [],
+    "1968-09": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 83,
+            "Notes": "Letter addressed from London",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 1 Folder 4 ",
+            "StartDate": "1968-09-09",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1968-10": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1968-10-14",
+            "EndType": "departure",
+            "EntryIndex": 84,
+            "Notes": "Comes to Montreal to lecture on the Haitian Revolution at the Congress of Black Writers",
+            "PlaceID": "montreal_canada",
+            "StartCitation": "CLR James Papers Box 4 Folder 3, Austin 16",
+            "StartDate": "1968-10-11",
+            "StartType": "arrival"
+        }
+    ],
+    "1968-11": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 85,
+            "Notes": "Gives a lecture at Wayne State University on Africa",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "CLR James Papers Box 11 Folder 23 ",
+            "StartDate": "1968-11",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 86,
+            "Notes": "Goes to Machester for a meeting",
+            "PlaceID": "manchester_england",
+            "StartCitation": "CLR James Papers Box 2 Folder 12 ",
+            "StartDate": "1968-11-30",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1968-12": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "CLR James Papers Box 2 Folder 12 ",
+            "EndDate": "1968-12-02",
+            "EndType": "departure",
+            "EntryIndex": 87,
+            "Notes": "Based in London",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1968-12",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 88,
+            "Notes": "Goes to Cuba for a conference",
+            "PlaceID": "cuba",
+            "StartCitation": "CLR James Papers Box 2 Folder 12 ",
+            "StartDate": "1968-12-02",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "",
@@ -16296,14 +17707,51 @@
             "StartCitation": "",
             "StartDate": "1969",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1969-06",
+            "EndType": "departure",
+            "EntryIndex": 89,
+            "Notes": "Correspondence is from London during this time period",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 4 Folder 3, CLR James Papers Box 2 Folder 1",
+            "StartDate": "1969-01",
+            "StartType": "arrival"
         }
     ],
     "1969-02": [],
     "1969-03": [],
     "1969-04": [],
     "1969-05": [],
-    "1969-06": [],
+    "1969-06": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1969-06",
+            "EndType": "departure",
+            "EntryIndex": 89,
+            "Notes": "Correspondence is from London during this time period",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 4 Folder 3, CLR James Papers Box 2 Folder 1",
+            "StartDate": "1969-01",
+            "StartType": "arrival"
+        }
+    ],
     "1969-07": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1969-07-13",
+            "EndType": "latest_presence",
+            "EntryIndex": 90,
+            "Notes": "Gives a lecture at the First Regional Black Power Conference",
+            "PlaceID": "hamilton_bermuda",
+            "StartCitation": "CLR James Papers Box 11 Folder 12 ",
+            "StartDate": "1969-07-10",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
@@ -16318,10 +17766,48 @@
         }
     ],
     "1969-08": [],
-    "1969-09": [],
+    "1969-09": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 91,
+            "Notes": "Gives a lecture for the African-American Teachers Association",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "CLR James Papers Box 11 Folder 10 ",
+            "StartDate": "1969-09-07",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1969-12",
+            "EndType": "departure",
+            "EntryIndex": 92,
+            "Notes": "Teaching at Northwestern University",
+            "PlaceID": "evanston_illinois_usa",
+            "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1969-09",
+            "StartType": "arrival"
+        }
+    ],
     "1969-10": [],
     "1969-11": [],
-    "1969-12": [],
+    "1969-12": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1969-12",
+            "EndType": "departure",
+            "EntryIndex": 92,
+            "Notes": "Teaching at Northwestern University",
+            "PlaceID": "evanston_illinois_usa",
+            "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1969-09",
+            "StartType": "arrival"
+        }
+    ],
     "1970-01": [
         {
             "AuthorID": "kbrathwaite",
@@ -16332,6 +17818,18 @@
             "Notes": "Visiting professor, Southern Illinois University ",
             "PlaceID": "carbondale_illinois_usa",
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
+            "StartDate": "1970",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 94,
+            "Notes": "Based in the U.S., mostly D.C., from 1968 to 1980. He teaches at Federal City College and at the Graduate School at Howard University",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 4 Folder 3, Buhl 175",
             "StartDate": "1970",
             "StartType": "arrival"
         },
@@ -16396,11 +17894,62 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1970-02": [],
-    "1970-03": [],
+    "1970-02": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-03-03",
+            "EndType": "latest_presence",
+            "EntryIndex": 95,
+            "Notes": "Lectures at Michigan State University",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-02-20",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1970-03": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-03-03",
+            "EndType": "latest_presence",
+            "EntryIndex": 95,
+            "Notes": "Lectures at Michigan State University",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-02-20",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-09",
+            "EndType": "latest_presence",
+            "EntryIndex": 96,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-03",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1970-04": [],
     "1970-05": [],
-    "1970-06": [],
+    "1970-06": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-06",
+            "EndType": "departure",
+            "EntryIndex": 93,
+            "Notes": "Letter asking him to send in his plane ticket stubs for a trip there",
+            "PlaceID": "irvine_california_usa",
+            "StartCitation": "",
+            "StartDate": "",
+            "StartType": ""
+        }
+    ],
     "1970-07": [
         {
             "AuthorID": "acesaire",
@@ -16428,6 +17977,42 @@
             "StartCitation": "",
             "StartDate": "1970-07",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-09",
+            "EndType": "latest_presence",
+            "EntryIndex": 96,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-03",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 97,
+            "Notes": "Lecture",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1970-09-27",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 98,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1970-09",
+            "StartType": "earliest_presence"
         }
     ],
     "1970-10": [
@@ -16442,10 +18027,156 @@
             "StartCitation": "",
             "StartDate": "1970-10",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-10-18",
+            "EndType": "latest_presence",
+            "EntryIndex": 99,
+            "Notes": "Lectures at Michigan State University on the invitation of the Black Liberation Front",
+            "PlaceID": "east_lansing_michigan_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1970-10-16",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-10",
+            "EndType": "latest_presence",
+            "EntryIndex": 100,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1970-10",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 101,
+            "Notes": "Attends an event with the Association for the Study of Negro Life and History",
+            "PlaceID": "philadelphia_pennsylvania_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1970-10-24",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-10",
+            "EndType": "departure",
+            "EntryIndex": 102,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1970-10",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 103,
+            "Notes": "",
+            "PlaceID": "greensboro_north_carolina_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-10-29",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-11-06",
+            "EndType": "departure",
+            "EntryIndex": 104,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-10-30",
+            "StartType": "arrival"
         }
     ],
-    "1970-11": [],
-    "1970-12": [],
+    "1970-11": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-11-06",
+            "EndType": "departure",
+            "EntryIndex": 104,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-10-30",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1970-11-05",
+            "EndType": "departure",
+            "EntryIndex": 105,
+            "Notes": "Flies up for a single day to lecture on Pan-Africanism",
+            "PlaceID": "buffalo_new_york_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1970-11-05",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 106,
+            "Notes": "Goes to Boston in connection with Harvard",
+            "PlaceID": "boston_massachusetts_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-11-06",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1971",
+            "EndType": "departure",
+            "EntryIndex": 107,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1970-11",
+            "StartType": "arrival"
+        }
+    ],
+    "1970-12": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 108,
+            "Notes": "Gives a lecture at Smith College",
+            "PlaceID": "northampton_massachusetts_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-12-09",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 109,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 14",
+            "StartDate": "1970-12",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1971-01": [
         {
             "AuthorID": "acesaire",
@@ -16484,6 +18215,66 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1971",
+            "EndType": "departure",
+            "EntryIndex": 107,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1970-11",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1971",
+            "EndType": "departure",
+            "EntryIndex": 110,
+            "Notes": "Goes for lecture. In source, James may be misremembering a lecture he gave on February 1 1972",
+            "PlaceID": "barbados",
+            "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1971",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 111,
+            "Notes": "Gives a speech at Ladbroke Grove for his 70th birthday",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 11 Folder 16 ",
+            "StartDate": "1971-01-04",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1971-04",
+            "EndType": "latest_presence",
+            "EntryIndex": 112,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 11 Folder 16 ",
+            "StartDate": "1971-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1972",
+            "EndType": "departure",
+            "EntryIndex": 116,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1971",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1973",
@@ -16498,9 +18289,71 @@
     ],
     "1971-02": [],
     "1971-03": [],
-    "1971-04": [],
+    "1971-04": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1971-04",
+            "EndType": "latest_presence",
+            "EntryIndex": 112,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 11 Folder 16 ",
+            "StartDate": "1971-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 113,
+            "Notes": "Part of a Black Liberation event",
+            "PlaceID": "new_brunswick_new_jersey_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1971-04-25",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1971-06",
+            "EndType": "latest_presence",
+            "EntryIndex": 114,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1971-04",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1971-05": [],
-    "1971-06": [],
+    "1971-06": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1971-06",
+            "EndType": "latest_presence",
+            "EntryIndex": 114,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1971-04",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1971-06-13",
+            "EndType": "latest_presence",
+            "EntryIndex": 115,
+            "Notes": "Gives two lectures on \"Notes on Dialectics\"",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "CLR James Papers Box 10 Folder 13 ",
+            "StartDate": "1971-06-12",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1971-07": [],
     "1971-08": [],
     "1971-09": [
@@ -16630,9 +18483,58 @@
             "StartCitation": "\"The First Carifesta,\" Carribean Beat ",
             "StartDate": "1972",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1972",
+            "EndType": "departure",
+            "EntryIndex": 116,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1971",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 118,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1972",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1973",
+            "EndType": "departure",
+            "EntryIndex": 121,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1972",
+            "StartType": "arrival"
         }
     ],
-    "1972-02": [],
+    "1972-02": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 117,
+            "Notes": "Gives the graduation speech at University of the West Indies-Cave Hill",
+            "PlaceID": "cave_hill_barbados",
+            "StartCitation": "CLR James Papers Box 11 Folder 24",
+            "StartDate": "1972-02-01",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1972-03": [
         {
             "AuthorID": "glamming",
@@ -16661,7 +18563,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1972-05": [],
+    "1972-05": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 119,
+            "Notes": "Gives a lecture at Tougaloo College",
+            "PlaceID": "jackson_mississippi_usa",
+            "StartCitation": "CLR James Papers Box 11 Folder 20",
+            "StartDate": "1972-05-09",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1972-06": [],
     "1972-07": [
         {
@@ -16730,10 +18645,46 @@
             "StartCitation": "",
             "StartDate": "1972-11",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1972-11-15",
+            "EndType": "latest_presence",
+            "EntryIndex": 120,
+            "Notes": "Attends the National Congress of African People Conference. A November letter refers to his reimbursement",
+            "PlaceID": "san_diego_california_usa",
+            "StartCitation": "",
+            "StartDate": "",
+            "StartType": ""
         }
     ],
     "1972-12": [],
     "1973-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1973",
+            "EndType": "departure",
+            "EntryIndex": 121,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1972",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1974",
+            "EndType": "departure",
+            "EntryIndex": 123,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1973",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "",
@@ -16853,7 +18804,20 @@
         }
     ],
     "1973-08": [],
-    "1973-09": [],
+    "1973-09": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 122,
+            "Notes": "Gives a lecture at Rutgers University",
+            "PlaceID": "rutgers_new_jersey_usa",
+            "StartCitation": "CLR James Papers Box 11 Folder 18 ",
+            "StartDate": "1973-09-18",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1973-10": [
         {
             "AuthorID": "acesaire",
@@ -16871,6 +18835,30 @@
     "1973-11": [],
     "1973-12": [],
     "1974-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1974",
+            "EndType": "departure",
+            "EntryIndex": 123,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1973",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1975",
+            "EndType": "latest_presence",
+            "EntryIndex": 125,
+            "Notes": "Buhle states that James is based teaching in D.C. from 1974 to 1980",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1974",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "",
@@ -16937,7 +18925,20 @@
     "1974-03": [],
     "1974-04": [],
     "1974-05": [],
-    "1974-06": [],
+    "1974-06": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 124,
+            "Notes": "Opens the Sixth Pan-African Congress",
+            "PlaceID": "dar_es_salaam_tanzania",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1974-06",
+            "StartType": "arrival"
+        }
+    ],
     "1974-07": [],
     "1974-08": [],
     "1974-09": [],
@@ -17069,6 +19070,18 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1975",
+            "EndType": "latest_presence",
+            "EntryIndex": 125,
+            "Notes": "Buhle states that James is based teaching in D.C. from 1974 to 1980",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1974",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1975",
@@ -17132,7 +19145,32 @@
     "1975-02": [],
     "1975-03": [],
     "1975-04": [],
-    "1975-05": [],
+    "1975-05": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1975-05-29",
+            "EndType": "latest_presence",
+            "EntryIndex": 126,
+            "Notes": "Attends the Conference on Pan-Africanism: New Directions in Strategy",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "",
+            "StartDate": "",
+            "StartType": ""
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "Buhle 175",
+            "EndDate": "1976",
+            "EndType": "departure",
+            "EntryIndex": 127,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1975-05",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1975-06": [
         {
             "AuthorID": "acesaire",
@@ -17201,6 +19239,42 @@
             "Notes": "Gives lecture at Carifesta II",
             "PlaceID": "kingston_jamaica",
             "StartCitation": "\"The First Carifesta,\" Carribean Beat ",
+            "StartDate": "1976",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "Buhle 175",
+            "EndDate": "1976",
+            "EndType": "departure",
+            "EntryIndex": 127,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 6",
+            "StartDate": "1975-05",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 128,
+            "Notes": "Gives the lecture \"George Padmore: Black Marxist Revolutionary\" in North London",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 10 Folder 25",
+            "StartDate": "1976",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1977",
+            "EndType": "departure",
+            "EntryIndex": 129,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
             "StartDate": "1976",
             "StartType": "arrival"
         },
@@ -17316,7 +19390,20 @@
             "StartType": "arrival"
         }
     ],
-    "1977-01": [],
+    "1977-01": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1977",
+            "EndType": "departure",
+            "EntryIndex": 129,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1976",
+            "StartType": "arrival"
+        }
+    ],
     "1977-02": [],
     "1977-03": [
         {
@@ -17372,6 +19459,30 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1977-06-13",
+            "EndType": "latest_presence",
+            "EntryIndex": 130,
+            "Notes": "Gives a lecture as part of a youth program",
+            "PlaceID": "greenville_mississippi_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 8",
+            "StartDate": "1977-06-13",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1977-08",
+            "EndType": "latest_presence",
+            "EntryIndex": 131,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 8",
+            "StartDate": "1977-06",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "",
@@ -17398,8 +19509,58 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1977-08": [],
-    "1977-09": [],
+    "1977-08": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1977-08",
+            "EndType": "latest_presence",
+            "EntryIndex": 131,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 8",
+            "StartDate": "1977-06",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 132,
+            "Notes": "Gives a lecture on African decolonization, in association with the Pan afrikan peoples organization",
+            "PlaceID": "san_francisco_california_usa",
+            "StartCitation": "CLR James Papers Box 11 Folder 19",
+            "StartDate": "1977-08-06",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1977-09": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1977-09",
+            "EndType": "latest_presence",
+            "EntryIndex": 133,
+            "Notes": "Goes for a three day visit, delivering the public lecture \"Black People and Their Contribution to World Civilization\"",
+            "PlaceID": "savannah_georgia_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 8",
+            "StartDate": "1977-09",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1977-11",
+            "EndType": "latest_presence",
+            "EntryIndex": 134,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 8",
+            "StartDate": "1977-09-20",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1977-10": [
         {
             "AuthorID": "acesaire",
@@ -17424,6 +19585,42 @@
             "Notes": "",
             "PlaceID": "paris_france",
             "StartCitation": "",
+            "StartDate": "1977-11",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1977-11",
+            "EndType": "latest_presence",
+            "EntryIndex": 134,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 8",
+            "StartDate": "1977-09-20",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1977-11-19",
+            "EndType": "latest_presence",
+            "EntryIndex": 135,
+            "Notes": "Lecture at Oberlin College",
+            "PlaceID": "oberlin_ohio_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 8",
+            "StartDate": "1977-11-18",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 136,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 8",
             "StartDate": "1977-11",
             "StartType": "earliest_presence"
         }
@@ -17454,6 +19651,30 @@
             "StartCitation": "",
             "StartDate": "1978-01",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1978-01-24",
+            "EndType": "departure",
+            "EntryIndex": 137,
+            "Notes": "Visits University of the West Indies-St. Augustine for a short lecture series, timed to coincide with Uriah Butler's birthday",
+            "PlaceID": "saint_augustine_trinidad",
+            "StartCitation": "CLR James Papers Box 1 Folder 8",
+            "StartDate": "1978-01-18",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1978-05",
+            "EndType": "departure",
+            "EntryIndex": 138,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1978-01",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "glamming",
@@ -17530,6 +19751,42 @@
             "Notes": "",
             "PlaceID": "paris_france",
             "StartCitation": "",
+            "StartDate": "1978-05",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1978-05",
+            "EndType": "departure",
+            "EntryIndex": 138,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Buhle 175",
+            "StartDate": "1978-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 139,
+            "Notes": "Invited to lecture at a conference on the labor process",
+            "PlaceID": "binghamton_new_york",
+            "StartCitation": "CLR James Papers Box 1 Folder 9",
+            "StartDate": "1978-05-16",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "CLR James Papers Box 1 Folder 10",
+            "EndDate": "1979-04",
+            "EndType": "latest_presence",
+            "EntryIndex": 140,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 9",
             "StartDate": "1978-05",
             "StartType": "earliest_presence"
         }
@@ -17633,7 +19890,44 @@
     ],
     "1979-02": [],
     "1979-03": [],
-    "1979-04": [],
+    "1979-04": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "CLR James Papers Box 1 Folder 10",
+            "EndDate": "1979-04",
+            "EndType": "latest_presence",
+            "EntryIndex": 140,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 9",
+            "StartDate": "1978-05",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 141,
+            "Notes": "Participates in a Memorial Tribute to Kwame Nkrumah with the Black United Front",
+            "PlaceID": "brooklyn_new_york_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 10",
+            "StartDate": "1979-04",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 142,
+            "Notes": "Based in D.C.",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 9",
+            "StartDate": "1979-04-30",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1979-05": [],
     "1979-06": [
         {
@@ -17745,6 +20039,18 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "CLR James Papers Box 2 Folder 15",
+            "EndDate": "1981-05-14",
+            "EndType": "departure",
+            "EntryIndex": 143,
+            "Notes": "Hosted by the Oil Worker's Union",
+            "PlaceID": "san_fernando_trinidad",
+            "StartCitation": "Buhle 176, CLR James Papers Box 12 Folder 22",
+            "StartDate": "1980",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1981",
@@ -17833,6 +20139,18 @@
     "1980-12": [],
     "1981-01": [
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 145,
+            "Notes": "Lives in Brixton from 1981 to 1989",
+            "PlaceID": "london_england",
+            "StartCitation": "Buhle 176",
+            "StartDate": "1981",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1981",
@@ -17910,8 +20228,58 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1981-05": [],
-    "1981-06": [],
+    "1981-05": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "CLR James Papers Box 2 Folder 15",
+            "EndDate": "1981-05-14",
+            "EndType": "departure",
+            "EntryIndex": 143,
+            "Notes": "Hosted by the Oil Worker's Union",
+            "PlaceID": "san_fernando_trinidad",
+            "StartCitation": "Buhle 176, CLR James Papers Box 12 Folder 22",
+            "StartDate": "1980",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "CLR James Papers Box 2 Folder 15",
+            "EndDate": "1981-05-18",
+            "EndType": "departure",
+            "EntryIndex": 144,
+            "Notes": "Goes to L.A. to lecture on Walter Rodney",
+            "PlaceID": "los_angeles_california_usa",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1981-05-14",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 146,
+            "Notes": "Gives a lecture at the Society for Caribbean Studies",
+            "PlaceID": "liverpool_england",
+            "StartCitation": "CLR James Papers Box 1 Folder 17",
+            "StartDate": "1981-05-28",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1981-06": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 147,
+            "Notes": "Lives in Brixton from 1981 to 1989",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 1 Folder 17",
+            "StartDate": "1981-06-01",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1981-07": [
         {
             "AuthorID": "acesaire",
@@ -17966,8 +20334,46 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1981-10": [],
-    "1981-11": [],
+    "1981-10": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "CLR James Papers Box 2 Folder 15",
+            "EndDate": "1981-10-22",
+            "EndType": "departure",
+            "EntryIndex": 148,
+            "Notes": "Mentions trip",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1981-10-09",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 149,
+            "Notes": "Lecture on Walter Rodney",
+            "PlaceID": "los_angeles_california_usa",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1981-10-22",
+            "StartType": "arrival"
+        }
+    ],
+    "1981-11": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 150,
+            "Notes": "Lives in Brixton from 1981 to 1989",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1981-11",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1981-12": [
         {
             "AuthorID": "glamming",
@@ -18006,6 +20412,18 @@
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1982",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 151,
+            "Notes": "Letter dating from San Fernando also says that James has visa problems and is not sure when he can leave",
+            "PlaceID": "san_fernando_trinidad",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1982-01-18",
+            "StartType": "earliest_presence"
         },
         {
             "AuthorID": "glamming",
@@ -18062,7 +20480,20 @@
             "StartType": "arrival"
         }
     ],
-    "1982-06": [],
+    "1982-06": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 152,
+            "Notes": "Lives in Brixton from 1981 to 1989",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1982-06",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1982-07": [],
     "1982-08": [],
     "1982-09": [
@@ -18105,7 +20536,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1982-11": [],
+    "1982-11": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 153,
+            "Notes": "A letter to Robert Hill is addressed from San Fernando",
+            "PlaceID": "san_fernando_trinidad",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1982-11-18",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1982-12": [
         {
             "AuthorID": "acesaire",
@@ -18170,6 +20614,30 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1984",
+            "EndType": "latest_presence",
+            "EntryIndex": 156,
+            "Notes": "Lives in Brixton from 1981 to 1989",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1983",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1989-05-31",
+            "EndType": "departure",
+            "EntryIndex": 158,
+            "Notes": "Lives in Brixton from 1981 to 1989. Dies on May 31 1989",
+            "PlaceID": "london_england",
+            "StartCitation": "Worcester 209",
+            "StartDate": "1983",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "",
@@ -18198,12 +20666,37 @@
         }
     ],
     "1983-04": [],
-    "1983-05": [],
+    "1983-05": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 154,
+            "Notes": "Lives in Brixton from 1981 to 1989",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1983-05-18",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1983-06": [],
     "1983-07": [],
     "1983-08": [],
     "1983-09": [],
     "1983-10": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 155,
+            "Notes": "Gives the lecture \"The Former Colonial World\" at the Cambridge University African Society",
+            "PlaceID": "cambridge_england",
+            "StartCitation": "CLR James Papers Box 10 Folder 11",
+            "StartDate": "1983-10-27",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "",
@@ -18269,6 +20762,18 @@
             "StartCitation": "Mackey, 56",
             "StartDate": "1984",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1984",
+            "EndType": "latest_presence",
+            "EntryIndex": 156,
+            "Notes": "Lives in Brixton from 1981 to 1989",
+            "PlaceID": "london_england",
+            "StartCitation": "CLR James Papers Box 2 Folder 15",
+            "StartDate": "1983",
+            "StartType": "earliest_presence"
         },
         {
             "AuthorID": "glamming",
@@ -18343,7 +20848,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1984-02": [],
+    "1984-02": [
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 157,
+            "Notes": "",
+            "PlaceID": "new_brunswick_new_jersey_usa",
+            "StartCitation": "CLR James Papers Box 1 Folder 11",
+            "StartDate": "1984-02-18",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1984-03": [
         {
             "AuthorID": "acesaire",
@@ -18947,6 +21465,18 @@
             "StartCitation": "",
             "StartDate": "1987-07",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "clrjames",
+            "EndCitation": "",
+            "EndDate": "1989-05-31",
+            "EndType": "departure",
+            "EntryIndex": 158,
+            "Notes": "Lives in Brixton from 1981 to 1989. Dies on May 31 1989",
+            "PlaceID": "london_england",
+            "StartCitation": "Worcester 209",
+            "StartDate": "1983",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "glamming",

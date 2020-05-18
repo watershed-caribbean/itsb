@@ -377,6 +377,15 @@
         "PlaceName": "Benin, Nigeria",
         "Region": ""
     },
+    "berkeley_california_usa": {
+        "City": "Berkeley",
+        "Country": "USA",
+        "Lat": 37.8715226,
+        "Long": -122.273042,
+        "PlaceID": "berkeley_california_usa",
+        "PlaceName": "Berkeley, California, USA",
+        "Region": "California"
+    },
     "berlin_germany": {
         "City": "Berlin",
         "Country": "Germany",
@@ -411,6 +420,15 @@
         "Long": -75.9179738,
         "PlaceID": "binghamton_new_york",
         "PlaceName": "Binghamton, New York",
+        "Region": ""
+    },
+    "binvergille_ivory_coast": {
+        "City": "Binvergille",
+        "Country": "Ivory Coast",
+        "Lat": 5.3438578,
+        "Long": -3.9188224,
+        "PlaceID": "binvergille_ivory_coast",
+        "PlaceName": "Binvergille, Ivory Coast",
         "Region": ""
     },
     "blida_algeria": {
@@ -466,6 +484,15 @@
         "PlaceID": "boston_massachusetts_usa",
         "PlaceName": "Boston, Massachusetts, USA",
         "Region": "Massachusetts"
+    },
+    "boulder_colorado_usa": {
+        "City": "Boulder",
+        "Country": "USA",
+        "Lat": 40.0149856,
+        "Long": -105.2705456,
+        "PlaceID": "boulder_colorado_usa",
+        "PlaceName": "Boulder, Colorado, USA",
+        "Region": "Colorado"
     },
     "bournemouth_england": {
         "City": "Bournemouth",
@@ -1538,6 +1565,24 @@
         "PlaceName": "Guadeloupe",
         "Region": ""
     },
+    "guana": {
+        "City": "",
+        "Country": "Guana",
+        "Lat": 18.4752932,
+        "Long": -64.5695896,
+        "PlaceID": "guana",
+        "PlaceName": "Guana",
+        "Region": ""
+    },
+    "guinea": {
+        "City": "",
+        "Country": "Guinea",
+        "Lat": 9.945587,
+        "Long": -9.696645,
+        "PlaceID": "guinea",
+        "PlaceName": "Guinea",
+        "Region": ""
+    },
     "guyana": {
         "City": "",
         "Country": "Guyana",
@@ -1671,6 +1716,15 @@
         "Long": 8.6724335,
         "PlaceID": "heidelberg_germany",
         "PlaceName": "Heidelberg, Germany",
+        "Region": ""
+    },
+    "helsinki_finland": {
+        "City": "Helsinki",
+        "Country": "Finland",
+        "Lat": 60.1698557,
+        "Long": 24.9383791,
+        "PlaceID": "helsinki_finland",
+        "PlaceName": "Helsinki, Finland",
         "Region": ""
     },
     "ho_trans_volta_togoland": {
@@ -1932,6 +1986,15 @@
         "Long": -94.5785667,
         "PlaceID": "kansas_city_usa",
         "PlaceName": "Kansas City, USA",
+        "Region": ""
+    },
+    "kaolak_senegal": {
+        "City": "Kaolak",
+        "Country": "Senegal",
+        "Lat": 14.1652083,
+        "Long": -16.0757749,
+        "PlaceID": "kaolak_senegal",
+        "PlaceName": "Kaolak, Senegal",
         "Region": ""
     },
     "kassel_germany": {
@@ -2402,6 +2465,15 @@
         "PlaceName": "Malay Federation (Malaysia)",
         "Region": ""
     },
+    "mali": {
+        "City": "",
+        "Country": "Mali",
+        "Lat": 17.570692,
+        "Long": -3.996166,
+        "PlaceID": "mali",
+        "PlaceName": "Mali",
+        "Region": ""
+    },
     "manchester_england": {
         "City": "Manchester",
         "Country": "England",
@@ -2626,6 +2698,15 @@
         "PlaceID": "minneapolis_minnesota_usa",
         "PlaceName": "Minneapolis, Minnesota, USA",
         "Region": "Minnesota"
+    },
+    "missouri_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 37.9642529,
+        "Long": -91.8318334,
+        "PlaceID": "missouri_usa",
+        "PlaceName": "Missouri, USA",
+        "Region": "Missouri"
     },
     "mombasa_kenya": {
         "City": "Mombasa",
@@ -3446,6 +3527,15 @@
         "PlaceName": "Saint Louis, Missouri, USA, Missouri, USA",
         "Region": "Missouri"
     },
+    "saint_louis_senegal": {
+        "City": "Saint-Louis",
+        "Country": "Senegal",
+        "Lat": 16.0326307,
+        "Long": -16.4818167,
+        "PlaceID": "saint_louis_senegal",
+        "PlaceName": "Saint-Louis, Senegal",
+        "Region": ""
+    },
     "saint_maarten": {
         "City": "",
         "Country": "Saint Maarten",
@@ -3526,6 +3616,15 @@
         "PlaceID": "san_sebastien_spain",
         "PlaceName": "San Sebastien, Spain",
         "Region": ""
+    },
+    "santa_barbara_california_usa": {
+        "City": "Santa Barbara",
+        "Country": "USA",
+        "Lat": 34.4208305,
+        "Long": -119.6981901,
+        "PlaceID": "santa_barbara_california_usa",
+        "PlaceName": "Santa Barbara, California, USA",
+        "Region": "California"
     },
     "santa_cruz_california_usa": {
         "City": "Santa Cruz",
@@ -4013,6 +4112,15 @@
         "PlaceName": "Tuskegee, Alabama, USA",
         "Region": "Alabama"
     },
+    "uganda": {
+        "City": "",
+        "Country": "Uganda",
+        "Lat": 1.373333,
+        "Long": 32.290275,
+        "PlaceID": "uganda",
+        "PlaceName": "Uganda",
+        "Region": ""
+    },
     "usa": {
         "City": "",
         "Country": "USA",
@@ -4085,6 +4193,15 @@
         "PlaceName": "Villefranche, France",
         "Region": ""
     },
+    "virginia_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 37.4315734,
+        "Long": -78.6568942,
+        "PlaceID": "virginia_usa",
+        "PlaceName": "Virginia, USA",
+        "Region": "Virginia"
+    },
     "washington_dc._usa": {
         "City": "Washington, D.C.",
         "Country": "USA",
@@ -4138,6 +4255,15 @@
         "PlaceID": "wilberforce_ohio_usa",
         "PlaceName": "Wilberforce, Ohio, USA",
         "Region": "Ohio"
+    },
+    "winnebah_ghana": {
+        "City": "Winnebah",
+        "Country": "Ghana",
+        "Lat": 5.3622295,
+        "Long": -0.6298922,
+        "PlaceID": "winnebah_ghana",
+        "PlaceName": "Winnebah, Ghana",
+        "Region": ""
     },
     "worcester_massachusetts_usa": {
         "City": "Worcester",
