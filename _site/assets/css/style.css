@@ -1485,7 +1485,7 @@ path.line {
   position: absolute;
   font-family: "Proxima Nova", "proxima-nova-soft", "Montserrat", "Arial", sans-serif;
   font-size: 12px;
-  width: 120px;
+  width: 20%;
   border: 1px solid #fcb040;
   background-color: #fcb040;
   opacity: 0;
