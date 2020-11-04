@@ -413,6 +413,15 @@
         "PlaceName": "Bilbao, Spain",
         "Region": ""
     },
+    "bingerville_ivory_coast": {
+        "City": "Bingerville",
+        "Country": "Ivory Coast",
+        "Lat": 5.3438578,
+        "Long": -3.9188224,
+        "PlaceID": "bingerville_ivory_coast",
+        "PlaceName": "Bingerville, Ivory Coast",
+        "Region": ""
+    },
     "binghamton_new_york": {
         "City": "Binghamton",
         "Country": "New York",
@@ -420,15 +429,6 @@
         "Long": -75.9179738,
         "PlaceID": "binghamton_new_york",
         "PlaceName": "Binghamton, New York",
-        "Region": ""
-    },
-    "binvergille_ivory_coast": {
-        "City": "Binvergille",
-        "Country": "Ivory Coast",
-        "Lat": 5.3438578,
-        "Long": -3.9188224,
-        "PlaceID": "binvergille_ivory_coast",
-        "PlaceName": "Binvergille, Ivory Coast",
         "Region": ""
     },
     "blida_algeria": {
@@ -501,6 +501,15 @@
         "Long": -1.880769,
         "PlaceID": "bournemouth_england",
         "PlaceName": "Bournemouth, England",
+        "Region": ""
+    },
+    "brazil": {
+        "City": "",
+        "Country": "Brazil",
+        "Lat": -14.235004,
+        "Long": -51.92528,
+        "PlaceID": "brazil",
+        "PlaceName": "Brazil",
         "Region": ""
     },
     "brazzaville_republic_of_congo": {
@@ -880,6 +889,15 @@
         "PlaceID": "charleston_south_carolina_usa",
         "PlaceName": "Charleston, South Carolina, USA",
         "Region": "South Carolina"
+    },
+    "charlottesville_virginia_usa": {
+        "City": "Charlottesville",
+        "Country": "USA",
+        "Lat": 38.0293059,
+        "Long": -78.4766781,
+        "PlaceID": "charlottesville_virginia_usa",
+        "PlaceName": "Charlottesville, Virginia, USA",
+        "Region": "Virginia"
     },
     "chattanooga_tennessee_usa": {
         "City": "Chattanooga",
@@ -1475,6 +1493,15 @@
         "PlaceName": "Germany",
         "Region": ""
     },
+    "ghana": {
+        "City": "",
+        "Country": "Ghana",
+        "Lat": 7.946527,
+        "Long": -1.023194,
+        "PlaceID": "ghana",
+        "PlaceName": "Ghana",
+        "Region": ""
+    },
     "glasgow_scotland": {
         "City": "Glasgow",
         "Country": "Scotland",
@@ -1563,15 +1590,6 @@
         "Long": -61.551,
         "PlaceID": "guadeloupe",
         "PlaceName": "Guadeloupe",
-        "Region": ""
-    },
-    "guana": {
-        "City": "",
-        "Country": "Guana",
-        "Lat": 18.4752932,
-        "Long": -64.5695896,
-        "PlaceID": "guana",
-        "PlaceName": "Guana",
         "Region": ""
     },
     "guinea": {
@@ -2005,6 +2023,15 @@
         "PlaceID": "kassel_germany",
         "PlaceName": "Kassel, Germany",
         "Region": ""
+    },
+    "kaunas_lithuania": {
+        "City": "",
+        "Country": "Lithuania",
+        "Lat": 54.8985207,
+        "Long": 23.9035965,
+        "PlaceID": "kaunas_lithuania",
+        "PlaceName": "Kaunas, Lithuania",
+        "Region": "Kaunas"
     },
     "kenya": {
         "City": "",
@@ -3284,6 +3311,15 @@
         "PlaceName": "Portland, Oregon, USA",
         "Region": "Oregon"
     },
+    "portsmouth_england": {
+        "City": "Portsmouth",
+        "Country": "England",
+        "Lat": 50.8197675,
+        "Long": -1.0879769,
+        "PlaceID": "portsmouth_england",
+        "PlaceName": "Portsmouth, England",
+        "Region": ""
+    },
     "poughkeepsie_new_york_usa": {
         "City": "Poughkeepsie",
         "Country": "USA",
@@ -3724,6 +3760,15 @@
         "PlaceID": "seattle_washington_usa",
         "PlaceName": "Seattle, Washington, USA",
         "Region": "Washington"
+    },
+    "senegal": {
+        "City": "",
+        "Country": "Senegal",
+        "Lat": 14.497401,
+        "Long": -14.452362,
+        "PlaceID": "senegal",
+        "PlaceName": "Senegal",
+        "Region": ""
     },
     "seoul_korea": {
         "City": "Seoul",

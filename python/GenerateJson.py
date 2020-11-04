@@ -105,7 +105,7 @@ def process_movements(csv_path, places):
                 if not(row['Arrival'] == '' and row['Departure'] == '' and row['Earliest Presence'] == '' and row['Latest Presence'] == ''):
 
                     movement = {}
-                    movement['PlaceID'] = row['Place ID']
+                    movement['PlaceID'] = row['PlaceID']
                     movement['Notes'] = row['Notes']
                     movement['EntryIndex'] = entry_index
                     
