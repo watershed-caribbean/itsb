@@ -1,4 +1,41 @@
 {
+    "1866-01": [],
+    "1866-02": [],
+    "1866-03": [],
+    "1866-04": [],
+    "1866-05": [],
+    "1866-06": [],
+    "1866-07": [],
+    "1866-08": [],
+    "1866-09": [],
+    "1866-10": [],
+    "1866-11": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1882",
+            "EndType": "departure",
+            "EntryIndex": 0,
+            "Notes": "",
+            "PlaceID": "portsmouth_england",
+            "StartCitation": "Duffield 6, 8",
+            "StartDate": "1866-11-21",
+            "StartType": "arrival"
+        }
+    ],
+    "1866-12": [],
+    "1867-01": [],
+    "1867-02": [],
+    "1867-03": [],
+    "1867-04": [],
+    "1867-05": [],
+    "1867-06": [],
+    "1867-07": [],
+    "1867-08": [],
+    "1867-09": [],
+    "1867-10": [],
+    "1867-11": [],
+    "1867-12": [],
     "1868-01": [],
     "1868-02": [
         {
@@ -180,7 +217,32 @@
     "1881-10": [],
     "1881-11": [],
     "1881-12": [],
-    "1882-01": [],
+    "1882-01": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1882",
+            "EndType": "departure",
+            "EntryIndex": 0,
+            "Notes": "",
+            "PlaceID": "portsmouth_england",
+            "StartCitation": "Duffield 6, 8",
+            "StartDate": "1866-11-21",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1883",
+            "EndType": "departure",
+            "EntryIndex": 1,
+            "Notes": "",
+            "PlaceID": "alexandria_egypt",
+            "StartCitation": "Duffield 13",
+            "StartDate": "1882",
+            "StartType": "arrival"
+        }
+    ],
     "1882-02": [],
     "1882-03": [],
     "1882-04": [],
@@ -192,8 +254,34 @@
     "1882-10": [],
     "1882-11": [],
     "1882-12": [],
-    "1883-01": [],
-    "1883-02": [],
+    "1883-01": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1883",
+            "EndType": "departure",
+            "EntryIndex": 1,
+            "Notes": "",
+            "PlaceID": "alexandria_egypt",
+            "StartCitation": "Duffield 13",
+            "StartDate": "1882",
+            "StartType": "arrival"
+        }
+    ],
+    "1883-02": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1886",
+            "EndType": "departure",
+            "EntryIndex": 2,
+            "Notes": "has theater debut 1883-12-06 with a walk-on part at the Princes Theatre",
+            "PlaceID": "london_england",
+            "StartCitation": "Duffield 15",
+            "StartDate": "1883-02",
+            "StartType": "arrival"
+        }
+    ],
     "1883-03": [],
     "1883-04": [],
     "1883-05": [],
@@ -339,7 +427,20 @@
     "1885-10": [],
     "1885-11": [],
     "1885-12": [],
-    "1886-01": [],
+    "1886-01": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1886",
+            "EndType": "departure",
+            "EntryIndex": 2,
+            "Notes": "has theater debut 1883-12-06 with a walk-on part at the Princes Theatre",
+            "PlaceID": "london_england",
+            "StartCitation": "Duffield 15",
+            "StartDate": "1883-02",
+            "StartType": "arrival"
+        }
+    ],
     "1886-02": [],
     "1886-03": [],
     "1886-04": [],
@@ -399,10 +500,36 @@
             "StartType": "arrival"
         }
     ],
-    "1886-10": [],
+    "1886-10": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1887",
+            "EndType": "latest_presence",
+            "EntryIndex": 3,
+            "Notes": "tours US with Wilson Barrett's theatre company",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Ali 7",
+            "StartDate": "1886-10-11",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1886-11": [],
     "1886-12": [],
-    "1887-01": [],
+    "1887-01": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1887",
+            "EndType": "latest_presence",
+            "EntryIndex": 3,
+            "Notes": "tours US with Wilson Barrett's theatre company",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Ali 7",
+            "StartDate": "1886-10-11",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1887-02": [],
     "1887-03": [],
     "1887-04": [],
@@ -888,6 +1015,18 @@
     "1892-11": [],
     "1892-12": [
         {
+            "AuthorID": "dali",
+            "EndCitation": "The Times",
+            "EndDate": "1893-04-15",
+            "EndType": "latest_presence",
+            "EntryIndex": 4,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Duffield 49",
+            "StartDate": "1892-12-10",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Biography of a Race 137",
             "EndDate": "1892-12",
@@ -1254,6 +1393,18 @@
         }
     ],
     "1893-04": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Times",
+            "EndDate": "1893-04-15",
+            "EndType": "latest_presence",
+            "EntryIndex": 4,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Duffield 49",
+            "StartDate": "1892-12-10",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "",
@@ -1903,7 +2054,20 @@
     "1898-11": [],
     "1898-12": [],
     "1899-01": [],
-    "1899-02": [],
+    "1899-02": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1899-10",
+            "EndType": "latest_presence",
+            "EntryIndex": 5,
+            "Notes": "travels to the West Indies and Central and South America",
+            "PlaceID": "hull_england",
+            "StartCitation": "Duffield 51",
+            "StartDate": "1899-02",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1899-03": [
         {
             "AuthorID": "webdubois",
@@ -2010,7 +2174,32 @@
         }
     ],
     "1899-09": [],
-    "1899-10": [],
+    "1899-10": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1899-10",
+            "EndType": "latest_presence",
+            "EntryIndex": 5,
+            "Notes": "travels to the West Indies and Central and South America",
+            "PlaceID": "hull_england",
+            "StartCitation": "Duffield 51",
+            "StartDate": "1899-02",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield 61 ",
+            "EndDate": "1900-08",
+            "EndType": "latest_presence",
+            "EntryIndex": 6,
+            "Notes": "plays the role of Egyptian Osman Digma in Herbert Leonard's On Active Service",
+            "PlaceID": "london_england",
+            "StartCitation": "\"Terris Theatre Reopening,\" p. 2.",
+            "StartDate": "1899-10-18",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1899-11": [],
     "1899-12": [],
     "1900-01": [],
@@ -2182,6 +2371,18 @@
     ],
     "1900-08": [
         {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield 61 ",
+            "EndDate": "1900-08",
+            "EndType": "latest_presence",
+            "EntryIndex": 6,
+            "Notes": "plays the role of Egyptian Osman Digma in Herbert Leonard's On Active Service",
+            "PlaceID": "london_england",
+            "StartCitation": "\"Terris Theatre Reopening,\" p. 2.",
+            "StartDate": "1899-10-18",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Biography of a Race 249",
             "EndDate": "1901-02",
@@ -2194,10 +2395,49 @@
             "StartType": "arrival"
         }
     ],
-    "1900-09": [],
+    "1900-09": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage ",
+            "EndDate": "1900-09-25",
+            "EndType": "latest_presence",
+            "EntryIndex": 7,
+            "Notes": "",
+            "PlaceID": "liverpool_england",
+            "StartCitation": "Duffield 63",
+            "StartDate": "1900-09-18",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1900-10": [],
-    "1900-11": [],
-    "1900-12": [],
+    "1900-11": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage ",
+            "EndDate": "1900-12-01",
+            "EndType": "latest_presence",
+            "EntryIndex": 8,
+            "Notes": "Tours US with George Conquest and Herbert Leonard's theatre company ",
+            "PlaceID": "portsmouth_england",
+            "StartCitation": "Duffield 63",
+            "StartDate": "1900-11-26",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1900-12": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage ",
+            "EndDate": "1900-12-01",
+            "EndType": "latest_presence",
+            "EntryIndex": 8,
+            "Notes": "Tours US with George Conquest and Herbert Leonard's theatre company ",
+            "PlaceID": "portsmouth_england",
+            "StartCitation": "Duffield 63",
+            "StartDate": "1900-11-26",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1901-01": [
         {
             "AuthorID": "clrjames",
@@ -2210,6 +2450,30 @@
             "StartCitation": "Grimshaw 9",
             "StartDate": "1901-01-04",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1901-06",
+            "EndType": "latest_presence",
+            "EntryIndex": 9,
+            "Notes": "",
+            "PlaceID": "newcastle_upon_thyne_england",
+            "StartCitation": "1901 England Census ",
+            "StartDate": "1901-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "dali",
+            "EndCitation": "African Stories in Hull and East Yorkshire",
+            "EndDate": "1901-01",
+            "EndType": "latest_presence",
+            "EntryIndex": 11,
+            "Notes": "is hired as staff member at the Hull Lady",
+            "PlaceID": "hull_england",
+            "StartCitation": "Duffield 48",
+            "StartDate": "1902-05",
+            "StartType": "earliest_presence"
         },
         {
             "AuthorID": "cmckay",
@@ -2265,7 +2529,32 @@
     "1901-03": [],
     "1901-04": [],
     "1901-05": [],
-    "1901-06": [],
+    "1901-06": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1901-06",
+            "EndType": "latest_presence",
+            "EntryIndex": 9,
+            "Notes": "",
+            "PlaceID": "newcastle_upon_thyne_england",
+            "StartCitation": "1901 England Census ",
+            "StartDate": "1901-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield 68",
+            "EndDate": "1901-06",
+            "EndType": "latest_presence",
+            "EntryIndex": 10,
+            "Notes": "tours UK with controversial play Secrets ",
+            "PlaceID": "knaresborough_england",
+            "StartCitation": "1911 England Census ",
+            "StartDate": "1901-06",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1901-07": [],
     "1901-08": [],
     "1901-09": [],
@@ -2289,7 +2578,20 @@
     "1902-02": [],
     "1902-03": [],
     "1902-04": [],
-    "1902-05": [],
+    "1902-05": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "African Stories in Hull and East Yorkshire",
+            "EndDate": "1901-01",
+            "EndType": "latest_presence",
+            "EntryIndex": 11,
+            "Notes": "is hired as staff member at the Hull Lady",
+            "PlaceID": "hull_england",
+            "StartCitation": "Duffield 48",
+            "StartDate": "1902-05",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1902-06": [],
     "1902-07": [],
     "1902-08": [],
@@ -4610,6 +4912,18 @@
     "1903-05": [],
     "1903-06": [
         {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage ",
+            "EndDate": "1903-09-26",
+            "EndType": "latest_presence",
+            "EntryIndex": 12,
+            "Notes": "returns to London stage",
+            "PlaceID": "london_england",
+            "StartCitation": "Duffield 69",
+            "StartDate": "1903-06-15",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Biography of a Race 276",
             "EndDate": "1903-06",
@@ -4686,7 +5000,20 @@
             "StartType": "arrival"
         }
     ],
-    "1903-09": [],
+    "1903-09": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage ",
+            "EndDate": "1903-09-26",
+            "EndType": "latest_presence",
+            "EntryIndex": 12,
+            "Notes": "returns to London stage",
+            "PlaceID": "london_england",
+            "StartCitation": "Duffield 69",
+            "StartDate": "1903-06-15",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1903-10": [],
     "1903-11": [],
     "1903-12": [],
@@ -4828,7 +5155,20 @@
     "1905-01": [],
     "1905-02": [],
     "1905-03": [],
-    "1905-04": [],
+    "1905-04": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage ",
+            "EndDate": "1905-11",
+            "EndType": "latest_presence",
+            "EntryIndex": 13,
+            "Notes": "attends Liege International Exhibition with a ballet troupe",
+            "PlaceID": "liege_belgium",
+            "StartCitation": "Duffield 77",
+            "StartDate": "1905-04",
+            "StartType": "arrival"
+        }
+    ],
     "1905-05": [],
     "1905-06": [],
     "1905-07": [
@@ -4872,7 +5212,32 @@
     "1905-08": [],
     "1905-09": [],
     "1905-10": [],
-    "1905-11": [],
+    "1905-11": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage ",
+            "EndDate": "1905-11",
+            "EndType": "latest_presence",
+            "EntryIndex": 13,
+            "Notes": "attends Liege International Exhibition with a ballet troupe",
+            "PlaceID": "liege_belgium",
+            "StartCitation": "Duffield 77",
+            "StartDate": "1905-04",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage",
+            "EndDate": "1906-05",
+            "EndType": "departure",
+            "EntryIndex": 14,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "The Stage",
+            "StartDate": "1905-11",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1905-12": [],
     "1906-01": [
         {
@@ -4891,8 +5256,58 @@
     "1906-02": [],
     "1906-03": [],
     "1906-04": [],
-    "1906-05": [],
-    "1906-06": [],
+    "1906-05": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage",
+            "EndDate": "1906-05",
+            "EndType": "departure",
+            "EntryIndex": 14,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "The Stage",
+            "StartDate": "1905-11",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage",
+            "EndDate": "1906-06",
+            "EndType": "departure",
+            "EntryIndex": 15,
+            "Notes": "",
+            "PlaceID": "manchester_england",
+            "StartCitation": "Duffield 75",
+            "StartDate": "1906-05-21",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1907-06",
+            "EndType": "departure",
+            "EntryIndex": 16,
+            "Notes": "travels within Scotland in 1906",
+            "PlaceID": "glasgow_scotland",
+            "StartCitation": "The Scotsman",
+            "StartDate": "1906-05-27",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1906-06": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "The Stage",
+            "EndDate": "1906-06",
+            "EndType": "departure",
+            "EntryIndex": 15,
+            "Notes": "",
+            "PlaceID": "manchester_england",
+            "StartCitation": "Duffield 75",
+            "StartDate": "1906-05-21",
+            "StartType": "arrival"
+        }
+    ],
     "1906-07": [
         {
             "AuthorID": "webdubois",
@@ -5129,6 +5544,18 @@
     "1907-05": [],
     "1907-06": [
         {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1907-06",
+            "EndType": "departure",
+            "EntryIndex": 16,
+            "Notes": "travels within Scotland in 1906",
+            "PlaceID": "glasgow_scotland",
+            "StartCitation": "The Scotsman",
+            "StartDate": "1906-05-27",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Biography of a Race 371",
             "EndDate": "1907-06-20",
@@ -5235,7 +5662,20 @@
     "1907-12": [],
     "1908-01": [],
     "1908-02": [],
-    "1908-03": [],
+    "1908-03": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1908-03-20",
+            "EndType": "latest_presence",
+            "EntryIndex": 17,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "The South London Press",
+            "StartDate": "1908-03-20",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1908-04": [],
     "1908-05": [
         {
@@ -5442,8 +5882,33 @@
     ],
     "1909-09": [],
     "1909-10": [],
-    "1909-11": [],
+    "1909-11": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield 82",
+            "EndDate": "1909-11",
+            "EndType": "departure",
+            "EntryIndex": 18,
+            "Notes": "",
+            "PlaceID": "manchester_england",
+            "StartCitation": "Manchester Guardian",
+            "StartDate": "1909-11",
+            "StartType": "arrival"
+        }
+    ],
     "1909-12": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1920-06",
+            "EndType": "departure",
+            "EntryIndex": 19,
+            "Notes": "founds the African Times and Orient Review (later renamed Africa and Orient Review)",
+            "PlaceID": "london_england",
+            "StartCitation": "\"The Lily of Bermuda\" 16",
+            "StartDate": "1909-12",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Biography of a Race 383",
@@ -6409,12 +6874,37 @@
     "1919-10": [],
     "1919-11": [],
     "1919-12": [],
-    "1920-01": [],
+    "1920-01": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 22,
+            "Notes": "",
+            "PlaceID": "accra_ghana",
+            "StartCitation": "African Stories in Hull and East Yorkshire",
+            "StartDate": "1920",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1920-02": [],
     "1920-03": [],
     "1920-04": [],
     "1920-05": [],
     "1920-06": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1920-06",
+            "EndType": "departure",
+            "EntryIndex": 19,
+            "Notes": "founds the African Times and Orient Review (later renamed Africa and Orient Review)",
+            "PlaceID": "london_england",
+            "StartCitation": "\"The Lily of Bermuda\" 16",
+            "StartDate": "1909-12",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "",
@@ -6428,11 +6918,62 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1920-07": [],
+    "1920-07": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield 670",
+            "EndDate": "1920-07-29",
+            "EndType": "departure",
+            "EntryIndex": 20,
+            "Notes": "",
+            "PlaceID": "lagos_nigeria",
+            "StartCitation": "Lagos Weekly Record",
+            "StartDate": "1920-07-16",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield 670",
+            "EndDate": "1920-10",
+            "EndType": "departure",
+            "EntryIndex": 21,
+            "Notes": "",
+            "PlaceID": "ibadan_nigeria",
+            "StartCitation": "Lagos Weekly Record",
+            "StartDate": "1920-07-29",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1920-08": [],
     "1920-09": [],
-    "1920-10": [],
-    "1920-11": [],
+    "1920-10": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield 670",
+            "EndDate": "1920-10",
+            "EndType": "departure",
+            "EntryIndex": 21,
+            "Notes": "",
+            "PlaceID": "ibadan_nigeria",
+            "StartCitation": "Lagos Weekly Record",
+            "StartDate": "1920-07-29",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1920-11": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield 200",
+            "EndDate": "1921-08",
+            "EndType": "latest_presence",
+            "EntryIndex": 23,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Africa and Orient Review 1920",
+            "StartDate": "1920-11",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1920-12": [
         {
             "AuthorID": "cmckay",
@@ -6468,6 +7009,18 @@
     "1921-06": [],
     "1921-07": [],
     "1921-08": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield 200",
+            "EndDate": "1921-08",
+            "EndType": "latest_presence",
+            "EntryIndex": 23,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Africa and Orient Review 1920",
+            "StartDate": "1920-11",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "",
@@ -6543,7 +7096,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1921-10": [],
+    "1921-10": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 24,
+            "Notes": "arrival in the United States is recorded and monitored by the Department of Justice Bureau of Investigation",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "\"Report of Radical Activities in Greater New York District for period Endng October 22nd,1921.\" p.165.",
+            "StartDate": "1921-10-11",
+            "StartType": "arrival"
+        }
+    ],
     "1921-11": [],
     "1921-12": [],
     "1922-01": [],
@@ -6631,6 +7197,18 @@
         }
     ],
     "1922-11": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield",
+            "EndDate": "1923-03",
+            "EndType": "latest_presence",
+            "EntryIndex": 25,
+            "Notes": "",
+            "PlaceID": "chicago_illinois_usa",
+            "StartCitation": "Chicago Defender ",
+            "StartDate": "1922-11-11",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "cmckay",
             "EndCitation": "McKay 222",
@@ -6792,7 +7370,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1923-03": [],
+    "1923-03": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Duffield",
+            "EndDate": "1923-03",
+            "EndType": "latest_presence",
+            "EntryIndex": 25,
+            "Notes": "",
+            "PlaceID": "chicago_illinois_usa",
+            "StartCitation": "Chicago Defender ",
+            "StartDate": "1922-11-11",
+            "StartType": "arrival"
+        }
+    ],
     "1923-04": [
         {
             "AuthorID": "webdubois",
@@ -6976,6 +7567,18 @@
         }
     ],
     "1923-05": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 26,
+            "Notes": "",
+            "PlaceID": "saint_louis_missouri_usa_missouri_usa",
+            "StartCitation": "St. Louis Clarion",
+            "StartDate": "1923-05-21",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Fight 106",
@@ -7396,7 +7999,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1925-05": [],
+    "1925-05": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "Howell 92",
+            "EndDate": "1931",
+            "EndType": "latest_presence",
+            "EntryIndex": 27,
+            "Notes": "founds the Detroit Central Islamic Society and American Asiatic Society in 1925",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "Duffield  690",
+            "StartDate": "1925-05",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1925-06": [
         {
             "AuthorID": "cmckay",
@@ -8239,6 +8855,18 @@
     ],
     "1929-04": [
         {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 28,
+            "Notes": "",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "The New York Age ",
+            "StartDate": "1929-04-18",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "cmckay",
             "EndCitation": "Cooper 260",
             "EndDate": "1929-04",
@@ -8690,6 +9318,18 @@
     "1930-12": [],
     "1931-01": [
         {
+            "AuthorID": "dali",
+            "EndCitation": "Howell 92",
+            "EndDate": "1931",
+            "EndType": "latest_presence",
+            "EntryIndex": 27,
+            "Notes": "founds the Detroit Central Islamic Society and American Asiatic Society in 1925",
+            "PlaceID": "detroit_michigan_usa",
+            "StartCitation": "Duffield  690",
+            "StartDate": "1925-05",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "webdubois",
             "EndCitation": "Lewis, Fight 252",
             "EndDate": "1931",
@@ -8772,6 +9412,18 @@
     "1931-07": [],
     "1931-08": [],
     "1931-09": [
+        {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1945",
+            "EndType": "departure",
+            "EntryIndex": 29,
+            "Notes": "founds the journal The Comet in 1933 ",
+            "PlaceID": "lagos_nigeria",
+            "StartCitation": "Duffield 726",
+            "StartDate": "1931-09-30",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "webdubois",
             "EndCitation": "",
@@ -11943,6 +12595,18 @@
     ],
     "1945-01": [
         {
+            "AuthorID": "dali",
+            "EndCitation": "",
+            "EndDate": "1945",
+            "EndType": "departure",
+            "EntryIndex": 29,
+            "Notes": "founds the journal The Comet in 1933 ",
+            "PlaceID": "lagos_nigeria",
+            "StartCitation": "Duffield 726",
+            "StartDate": "1931-09-30",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "cmckay",
             "EndCitation": "Cooper 363",
             "EndDate": "1945-01",
@@ -12180,30 +12844,6 @@
     ],
     "1946-01": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1946",
-            "EndType": "departure",
-            "EntryIndex": 0,
-            "Notes": "",
-            "PlaceID": "carrington_town_barbados",
-            "StartCitation": "Scott 75",
-            "StartDate": "1927-06-08",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1950",
-            "EndType": "departure",
-            "EntryIndex": 1,
-            "Notes": "goes to Trinidad to teach at Colegio de Venezuela",
-            "PlaceID": "belmont_trinidad",
-            "StartCitation": "Scott 87",
-            "StartDate": "1946",
-            "StartType": "arrival"
-        },
-        {
             "AuthorID": "wlam",
             "EndCitation": "",
             "EndDate": "1946",
@@ -12262,6 +12902,30 @@
             "StartCitation": "Couffon",
             "StartDate": "1946",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1946",
+            "EndType": "departure",
+            "EntryIndex": 0,
+            "Notes": "",
+            "PlaceID": "carrington_town_barbados",
+            "StartCitation": "Scott 75",
+            "StartDate": "1927-06-08",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1950",
+            "EndType": "departure",
+            "EntryIndex": 1,
+            "Notes": "goes to Trinidad to teach at Colegio de Venezuela",
+            "PlaceID": "belmont_trinidad",
+            "StartCitation": "Scott 87",
+            "StartDate": "1946",
+            "StartType": "arrival"
         }
     ],
     "1946-02": [],
@@ -13636,18 +14300,6 @@
     ],
     "1950-01": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1950",
-            "EndType": "departure",
-            "EntryIndex": 1,
-            "Notes": "goes to Trinidad to teach at Colegio de Venezuela",
-            "PlaceID": "belmont_trinidad",
-            "StartCitation": "Scott 87",
-            "StartDate": "1946",
-            "StartType": "arrival"
-        },
-        {
             "AuthorID": "rdepestre",
             "EndCitation": "",
             "EndDate": "1950",
@@ -13730,6 +14382,18 @@
             "StartCitation": "Das 2017",
             "StartDate": "1949-10-19",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1950",
+            "EndType": "departure",
+            "EntryIndex": 1,
+            "Notes": "goes to Trinidad to teach at Colegio de Venezuela",
+            "PlaceID": "belmont_trinidad",
+            "StartCitation": "Scott 87",
+            "StartDate": "1946",
+            "StartType": "arrival"
         }
     ],
     "1950-02": [
@@ -13810,18 +14474,6 @@
     ],
     "1950-04": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 2,
-            "Notes": "leaves for England on same ship as novelist Sam Selvon ",
-            "PlaceID": "london_england",
-            "StartCitation": "Schwarz 6",
-            "StartDate": "1950-04",
-            "StartType": "arrival"
-        },
-        {
             "AuthorID": "kdunham",
             "EndCitation": "Das 2017",
             "EndDate": "1950-05-20",
@@ -13831,6 +14483,18 @@
             "PlaceID": "new_york_new_york_usa",
             "StartCitation": "Das 2017",
             "StartDate": "1950-04-19",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 2,
+            "Notes": "leaves for England on same ship as novelist Sam Selvon ",
+            "PlaceID": "london_england",
+            "StartCitation": "Schwarz 6",
+            "StartDate": "1950-04",
             "StartType": "arrival"
         }
     ],
@@ -15172,6 +15836,18 @@
     "1954-12": [],
     "1955-01": [
         {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 2,
+            "Notes": "works for Ghana's Department of Education",
+            "PlaceID": "accra_ghana",
+            "StartCitation": "Breiner, Laurence A. ",
+            "StartDate": "1955",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "",
@@ -15218,18 +15894,6 @@
             "StartCitation": "Lamming Pleasures of Exile 208; Schwarz 11",
             "StartDate": "1955",
             "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 2,
-            "Notes": "works for Ghana's Department of Education",
-            "PlaceID": "accra_ghana",
-            "StartCitation": "Breiner, Laurence A. ",
-            "StartDate": "1955",
-            "StartType": "arrival"
         }
     ],
     "1955-02": [
@@ -15377,18 +16041,6 @@
     ],
     "1955-08": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 5,
-            "Notes": "travels in connection with Gugghenheim Foundation fellowship; stays on Riverside Drive with frequent visits to Harlem",
-            "PlaceID": "new_york_new_york_usa",
-            "StartCitation": "Lamming Pleasures of Exile 184; Schwarz 11",
-            "StartDate": "1955-08",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "kdunham",
             "EndCitation": "Dunham, \"Love Letters From I Tatti\"",
             "EndDate": "1955-09",
@@ -15399,6 +16051,18 @@
             "StartCitation": "",
             "StartDate": "1955-08",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 5,
+            "Notes": "travels in connection with Gugghenheim Foundation fellowship; stays on Riverside Drive with frequent visits to Harlem",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Lamming Pleasures of Exile 184; Schwarz 11",
+            "StartDate": "1955-08",
+            "StartType": "earliest_presence"
         }
     ],
     "1955-09": [
@@ -15457,30 +16121,6 @@
     ],
     "1955-12": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "Lamming Pleasures of Exile 207",
-            "EndDate": "1955-12-23",
-            "EndType": "departure",
-            "EntryIndex": 6,
-            "Notes": "attends a party of the African American \"elite\"",
-            "PlaceID": "long_island_new_york_usa",
-            "StartCitation": "Lamming Pleasures of Exile 204; Schwarz 11",
-            "StartDate": "1955-12-16",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 9,
-            "Notes": "spends Christmas with Dorothy and John Figueroa (other sources suggest this may have been 1954) ",
-            "PlaceID": "kingston_jamaica",
-            "StartCitation": "Lamming Sovereignty 48",
-            "StartDate": "1955-12-25",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1955-12",
@@ -15515,81 +16155,33 @@
             "StartCitation": "",
             "StartDate": "1955-12",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "Lamming Pleasures of Exile 207",
+            "EndDate": "1955-12-23",
+            "EndType": "departure",
+            "EntryIndex": 6,
+            "Notes": "attends a party of the African American \"elite\"",
+            "PlaceID": "long_island_new_york_usa",
+            "StartCitation": "Lamming Pleasures of Exile 204; Schwarz 11",
+            "StartDate": "1955-12-16",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 9,
+            "Notes": "spends Christmas with Dorothy and John Figueroa (other sources suggest this may have been 1954) ",
+            "PlaceID": "kingston_jamaica",
+            "StartCitation": "Lamming Sovereignty 48",
+            "StartDate": "1955-12-25",
+            "StartType": "earliest_presence"
         }
     ],
     "1956-01": [
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 10,
-            "Notes": "attends Ceremony of Souls",
-            "PlaceID": "port_au_prince_haiti",
-            "StartCitation": "Lamming, Pleasures of Exile, 9",
-            "StartDate": "1956",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 11,
-            "Notes": "attends launch of Eric Williams's People's National Movement ",
-            "PlaceID": "trinidad",
-            "StartCitation": "Schwarz 11",
-            "StartDate": "1956",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 12,
-            "Notes": "",
-            "PlaceID": "guyana",
-            "StartCitation": "Schwarz 11",
-            "StartDate": "1956",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 13,
-            "Notes": "",
-            "PlaceID": "jamaica",
-            "StartCitation": "Schwarz 11",
-            "StartDate": "1956",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 14,
-            "Notes": "",
-            "PlaceID": "puerto_rico",
-            "StartCitation": "Schwarz 11",
-            "StartDate": "1956",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1958",
-            "EndType": "departure",
-            "EntryIndex": 16,
-            "Notes": "",
-            "PlaceID": "london_england",
-            "StartCitation": "Griswold 16",
-            "StartDate": "1956",
-            "StartType": "earliest_presence"
-        },
         {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
@@ -15661,6 +16253,78 @@
             "StartCitation": "",
             "StartDate": "1956-01-05",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 10,
+            "Notes": "attends Ceremony of Souls",
+            "PlaceID": "port_au_prince_haiti",
+            "StartCitation": "Lamming, Pleasures of Exile, 9",
+            "StartDate": "1956",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 11,
+            "Notes": "attends launch of Eric Williams's People's National Movement ",
+            "PlaceID": "trinidad",
+            "StartCitation": "Schwarz 11",
+            "StartDate": "1956",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 12,
+            "Notes": "",
+            "PlaceID": "guyana",
+            "StartCitation": "Schwarz 11",
+            "StartDate": "1956",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 13,
+            "Notes": "",
+            "PlaceID": "jamaica",
+            "StartCitation": "Schwarz 11",
+            "StartDate": "1956",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 14,
+            "Notes": "",
+            "PlaceID": "puerto_rico",
+            "StartCitation": "Schwarz 11",
+            "StartDate": "1956",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1958",
+            "EndType": "departure",
+            "EntryIndex": 16,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Griswold 16",
+            "StartDate": "1956",
+            "StartType": "earliest_presence"
         }
     ],
     "1956-02": [
@@ -15893,18 +16557,6 @@
     "1956-08": [],
     "1956-09": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 15,
-            "Notes": "attends First Congress of Black Writers and Artists; gives speech \"The Negro Writer and his World\" on September 21, 1956",
-            "PlaceID": "paris_france",
-            "StartCitation": "Scott 120; Lamming Conversations 36",
-            "StartDate": "1956-09",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
             "EndDate": "1956",
@@ -15913,6 +16565,18 @@
             "Notes": "resides at Moulin d'Andé w/Richard Wright, Maurice Pons, Suzanne Lipinska",
             "PlaceID": "ande_france",
             "StartCitation": "Couffon",
+            "StartDate": "1956-09",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 15,
+            "Notes": "attends First Congress of Black Writers and Artists; gives speech \"The Negro Writer and his World\" on September 21, 1956",
+            "PlaceID": "paris_france",
+            "StartCitation": "Scott 120; Lamming Conversations 36",
             "StartDate": "1956-09",
             "StartType": "earliest_presence"
         }
@@ -16305,6 +16969,42 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "webdubois",
+            "EndCitation": "Lewis, Fight 559",
+            "EndDate": "1958",
+            "EndType": "latest_presence",
+            "EntryIndex": 300,
+            "Notes": "",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Lewis, Fight 558",
+            "StartDate": "1952",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "acesaire",
+            "EndCitation": "",
+            "EndDate": "1958-03",
+            "EndType": "latest_presence",
+            "EntryIndex": 48,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1958-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "egrobeson",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 73,
+            "Notes": "",
+            "PlaceID": "uzbekistan",
+            "StartCitation": "Ransby 275",
+            "StartDate": "1958",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1958",
@@ -16351,42 +17051,6 @@
             "StartCitation": "Lamming Pleasures of Exile 163",
             "StartDate": "1958",
             "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "webdubois",
-            "EndCitation": "Lewis, Fight 559",
-            "EndDate": "1958",
-            "EndType": "latest_presence",
-            "EntryIndex": 300,
-            "Notes": "",
-            "PlaceID": "new_york_new_york_usa",
-            "StartCitation": "Lewis, Fight 558",
-            "StartDate": "1952",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "acesaire",
-            "EndCitation": "",
-            "EndDate": "1958-03",
-            "EndType": "latest_presence",
-            "EntryIndex": 48,
-            "Notes": "",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1958-01",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "egrobeson",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 73,
-            "Notes": "",
-            "PlaceID": "uzbekistan",
-            "StartCitation": "Ransby 275",
-            "StartDate": "1958",
-            "StartType": "arrival"
         }
     ],
     "1958-02": [],
@@ -17016,30 +17680,6 @@
             "StartType": "arrival"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 29,
-            "Notes": "spends one month to discuss publication of Season of Adventure ",
-            "PlaceID": "berlin_germany",
-            "StartCitation": "Lamming Conversations 72",
-            "StartDate": "1960",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 30,
-            "Notes": "",
-            "PlaceID": "london_england",
-            "StartCitation": "Griswold 18",
-            "StartDate": "1960",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
             "EndDate": "1960",
@@ -17098,6 +17738,30 @@
             "StartCitation": "",
             "StartDate": "1960-01-08",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 29,
+            "Notes": "spends one month to discuss publication of Season of Adventure ",
+            "PlaceID": "berlin_germany",
+            "StartCitation": "Lamming Conversations 72",
+            "StartDate": "1960",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 30,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Griswold 18",
+            "StartDate": "1960",
+            "StartType": "earliest_presence"
         }
     ],
     "1960-02": [
@@ -17586,30 +18250,6 @@
     "1961-12": [],
     "1962-01": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 33,
-            "Notes": "remains for year-long fellowship",
-            "PlaceID": "canada",
-            "StartCitation": "Lamming Conversations 72",
-            "StartDate": "1962",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1965",
-            "EndType": "latest_presence",
-            "EntryIndex": 34,
-            "Notes": "",
-            "PlaceID": "london_england",
-            "StartCitation": "Lamming Conversations 72",
-            "StartDate": "1962",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "webdubois",
             "EndCitation": "",
             "EndDate": "",
@@ -17680,6 +18320,30 @@
             "StartCitation": "",
             "StartDate": "1962-01",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 33,
+            "Notes": "remains for year-long fellowship",
+            "PlaceID": "canada",
+            "StartCitation": "Lamming Conversations 72",
+            "StartDate": "1962",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1965",
+            "EndType": "latest_presence",
+            "EntryIndex": 34,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Lamming Conversations 72",
+            "StartDate": "1962",
+            "StartType": "earliest_presence"
         }
     ],
     "1962-02": [],
@@ -18294,6 +18958,30 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "Breiner, Laurence A. ",
+            "EndDate": "1965",
+            "EndType": "departure",
+            "EntryIndex": 6,
+            "Notes": "UWI Mona",
+            "PlaceID": "mona_jamaica",
+            "StartCitation": "Breiner, Laurence A. ",
+            "StartDate": "1963",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 7,
+            "Notes": "attends University of Sussex",
+            "PlaceID": "falmer_sussex_england",
+            "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
+            "StartDate": "1965",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1965",
@@ -18328,30 +19016,6 @@
             "StartCitation": "Griswold 21",
             "StartDate": "1965",
             "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "Breiner, Laurence A. ",
-            "EndDate": "1965",
-            "EndType": "departure",
-            "EntryIndex": 6,
-            "Notes": "UWI Mona",
-            "PlaceID": "mona_jamaica",
-            "StartCitation": "Breiner, Laurence A. ",
-            "StartDate": "1963",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 7,
-            "Notes": "attends University of Sussex",
-            "PlaceID": "falmer_sussex_england",
-            "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
-            "StartDate": "1965",
-            "StartType": "arrival"
         }
     ],
     "1965-02": [],
@@ -18505,6 +19169,42 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 8,
+            "Notes": "meets article author at Caribbean Arts Movement gathering",
+            "PlaceID": "london_england",
+            "StartCitation": "Ngũgĩ wa Thiong'o, pg. 677",
+            "StartDate": "1966",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "Breiner, Laurence A. ",
+            "EndDate": "1968",
+            "EndType": "departure",
+            "EntryIndex": 9,
+            "Notes": "",
+            "PlaceID": "falmer_sussex_england",
+            "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
+            "StartDate": "1966",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "kdunham",
+            "EndCitation": "Das 2017",
+            "EndDate": "1966-02",
+            "EndType": "departure",
+            "EntryIndex": 148,
+            "Notes": "Knee surgery and recovery",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1966-01",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1966",
@@ -18563,42 +19263,6 @@
             "StartCitation": "George Lamming Collection",
             "StartDate": "1966",
             "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 8,
-            "Notes": "meets article author at Caribbean Arts Movement gathering",
-            "PlaceID": "london_england",
-            "StartCitation": "Ngũgĩ wa Thiong'o, pg. 677",
-            "StartDate": "1966",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "Breiner, Laurence A. ",
-            "EndDate": "1968",
-            "EndType": "departure",
-            "EntryIndex": 9,
-            "Notes": "",
-            "PlaceID": "falmer_sussex_england",
-            "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
-            "StartDate": "1966",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "kdunham",
-            "EndCitation": "Das 2017",
-            "EndDate": "1966-02",
-            "EndType": "departure",
-            "EntryIndex": 148,
-            "Notes": "Knee surgery and recovery",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1966-01",
-            "StartType": "arrival"
         }
     ],
     "1966-02": [
@@ -18739,18 +19403,6 @@
             "StartType": "earliest_presence"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1967",
-            "EndType": "departure",
-            "EntryIndex": 40,
-            "Notes": "",
-            "PlaceID": "london_england",
-            "StartCitation": "George Lamming Collection",
-            "StartDate": "1966",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1967-03",
@@ -18760,6 +19412,18 @@
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
             "StartDate": "1967-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1967",
+            "EndType": "departure",
+            "EntryIndex": 40,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "George Lamming Collection",
+            "StartDate": "1966",
             "StartType": "earliest_presence"
         }
     ],
@@ -19595,6 +20259,30 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
+            "EndDate": "1971",
+            "EndType": "departure",
+            "EntryIndex": 11,
+            "Notes": "accepts Visiting Professorship, Southern Illinois University ",
+            "PlaceID": "carbondale_illinois_usa",
+            "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
+            "StartDate": "1970",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "kdunham",
+            "EndCitation": "Aschenbrenner 2002",
+            "EndDate": "1970",
+            "EndType": "latest_presence",
+            "EntryIndex": 152,
+            "Notes": "Attends White House Conference on Children",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Aschenbrenner 2002",
+            "StartDate": "1970",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1970",
@@ -19651,30 +20339,6 @@
             "Notes": "gives lectures on Caribbean literature while based at Texas Southern University",
             "PlaceID": "austin_texas_usa",
             "StartCitation": "Lamming Conversations 57",
-            "StartDate": "1970",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
-            "EndDate": "1971",
-            "EndType": "departure",
-            "EntryIndex": 11,
-            "Notes": "accepts Visiting Professorship, Southern Illinois University ",
-            "PlaceID": "carbondale_illinois_usa",
-            "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
-            "StartDate": "1970",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "kdunham",
-            "EndCitation": "Aschenbrenner 2002",
-            "EndDate": "1970",
-            "EndType": "latest_presence",
-            "EntryIndex": 152,
-            "Notes": "Attends White House Conference on Children",
-            "PlaceID": "washington_dc._usa",
-            "StartCitation": "Aschenbrenner 2002",
             "StartDate": "1970",
             "StartType": "earliest_presence"
         }
@@ -20037,18 +20701,6 @@
             "StartType": "arrival"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1973",
-            "EndType": "departure",
-            "EntryIndex": 52,
-            "Notes": "",
-            "PlaceID": "london_england",
-            "StartCitation": "George Lamming Collection",
-            "StartDate": "1971",
-            "StartType": "arrival"
-        },
-        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "EndDate": "1971",
@@ -20083,6 +20735,18 @@
             "StartCitation": "",
             "StartDate": "1971-01",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1973",
+            "EndType": "departure",
+            "EntryIndex": 52,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "George Lamming Collection",
+            "StartDate": "1971",
+            "StartType": "arrival"
         }
     ],
     "1971-02": [],
@@ -20209,18 +20873,6 @@
     "1971-11": [],
     "1971-12": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "Paquet 28",
-            "EndDate": "1971-12",
-            "EndType": "departure",
-            "EntryIndex": 50,
-            "Notes": "accepts writers' residency at University of Connecticut",
-            "PlaceID": "storrs_connecticut_usa",
-            "StartCitation": "Paquet 28, Griswold 22",
-            "StartDate": "1971-09",
-            "StartType": "arrival"
-        },
-        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1972-01",
@@ -20231,6 +20883,18 @@
             "StartCitation": "",
             "StartDate": "1971-12",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "Paquet 28",
+            "EndDate": "1971-12",
+            "EndType": "departure",
+            "EntryIndex": 50,
+            "Notes": "accepts writers' residency at University of Connecticut",
+            "PlaceID": "storrs_connecticut_usa",
+            "StartCitation": "Paquet 28, Griswold 22",
+            "StartDate": "1971-09",
+            "StartType": "arrival"
         }
     ],
     "1972-01": [
@@ -20755,6 +21419,18 @@
     "1974-09": [],
     "1974-10": [
         {
+            "AuthorID": "acesaire",
+            "EndCitation": "",
+            "EndDate": "1974-10",
+            "EndType": "latest_presence",
+            "EntryIndex": 122,
+            "Notes": "",
+            "PlaceID": "fort_de_france_martinique",
+            "StartCitation": "",
+            "StartDate": "1974-02",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "",
@@ -20789,33 +21465,9 @@
             "StartCitation": "George Lamming Collection",
             "StartDate": "1974-10-23",
             "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "acesaire",
-            "EndCitation": "",
-            "EndDate": "1974-10",
-            "EndType": "latest_presence",
-            "EntryIndex": 122,
-            "Notes": "",
-            "PlaceID": "fort_de_france_martinique",
-            "StartCitation": "",
-            "StartDate": "1974-02",
-            "StartType": "earliest_presence"
         }
     ],
     "1974-11": [
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 60,
-            "Notes": "gives lecture \"On West Indian Writing.\" I suspect this date might be wrong and the lecture was actually in October",
-            "PlaceID": "san_juan_puerto_rico",
-            "StartCitation": "Lamming Conversations 126",
-            "StartDate": "1974-11-24",
-            "StartType": "earliest_presence"
-        },
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -20826,6 +21478,18 @@
             "PlaceID": "paris_france",
             "StartCitation": "",
             "StartDate": "1974-11",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 60,
+            "Notes": "gives lecture \"On West Indian Writing.\" I suspect this date might be wrong and the lecture was actually in October",
+            "PlaceID": "san_juan_puerto_rico",
+            "StartCitation": "Lamming Conversations 126",
+            "StartDate": "1974-11-24",
             "StartType": "earliest_presence"
         }
     ],
@@ -20878,6 +21542,18 @@
             "PlaceID": "washington_dc._usa",
             "StartCitation": "Buhle 175",
             "StartDate": "1974",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
+            "EndDate": "1976",
+            "EndType": "departure",
+            "EntryIndex": 15,
+            "Notes": "visits Boston University",
+            "PlaceID": "boston_massachusetts_usa",
+            "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
+            "StartDate": "1975",
             "StartType": "arrival"
         },
         {
@@ -20937,18 +21613,6 @@
             "Notes": "accepts affiliation w/University of Dar es Salaam",
             "PlaceID": "nairobi_kenya",
             "StartCitation": "George Lamming Collection",
-            "StartDate": "1975",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
-            "EndDate": "1976",
-            "EndType": "departure",
-            "EntryIndex": 15,
-            "Notes": "visits Boston University",
-            "PlaceID": "boston_massachusetts_usa",
-            "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1975",
             "StartType": "arrival"
         }
@@ -21066,30 +21730,6 @@
             "StartType": "arrival"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 67,
-            "Notes": "enjoys Commonwealth Literature fellowship ",
-            "PlaceID": "australia",
-            "StartCitation": "Philips 10, Griswold 23",
-            "StartDate": "1976",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 68,
-            "Notes": "enjoys Commonwealth Literature fellowship ",
-            "PlaceID": "india",
-            "StartCitation": "Philips 10, Griswold 23",
-            "StartDate": "1976",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "rdepestre",
             "EndCitation": "",
             "EndDate": "1976",
@@ -21124,21 +21764,33 @@
             "StartCitation": "\"The First Carifesta,\" Carribean Beat ",
             "StartDate": "1976",
             "StartType": "arrival"
-        }
-    ],
-    "1976-02": [
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
-            "EntryIndex": 66,
-            "Notes": "participates in symposium to discuss 1976 Casa de las Américas prize",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "\"Al Pie de la Letra\" 165",
-            "StartDate": "1976-02",
-            "StartType": "arrival"
+            "EntryIndex": 67,
+            "Notes": "enjoys Commonwealth Literature fellowship ",
+            "PlaceID": "australia",
+            "StartCitation": "Philips 10, Griswold 23",
+            "StartDate": "1976",
+            "StartType": "earliest_presence"
         },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 68,
+            "Notes": "enjoys Commonwealth Literature fellowship ",
+            "PlaceID": "india",
+            "StartCitation": "Philips 10, Griswold 23",
+            "StartDate": "1976",
+            "StartType": "earliest_presence"
+        }
+    ],
+    "1976-02": [
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -21150,6 +21802,18 @@
             "StartCitation": "",
             "StartDate": "1976-02",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 66,
+            "Notes": "participates in symposium to discuss 1976 Casa de las Américas prize",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "\"Al Pie de la Letra\" 165",
+            "StartDate": "1976-02",
+            "StartType": "arrival"
         }
     ],
     "1976-03": [
@@ -21280,18 +21944,6 @@
     "1977-02": [],
     "1977-03": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 69,
-            "Notes": "",
-            "PlaceID": "philadelphia_pennsylvania_usa",
-            "StartCitation": "George Lamming Collection",
-            "StartDate": "1977-03",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1977-03",
@@ -21302,6 +21954,18 @@
             "StartCitation": "",
             "StartDate": "1976-12-10",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 69,
+            "Notes": "",
+            "PlaceID": "philadelphia_pennsylvania_usa",
+            "StartCitation": "George Lamming Collection",
+            "StartDate": "1977-03",
+            "StartType": "earliest_presence"
         }
     ],
     "1977-04": [],
@@ -21332,18 +21996,6 @@
             "StartType": "earliest_presence"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 70,
-            "Notes": "",
-            "PlaceID": "london_england",
-            "StartCitation": "Griswold 1 ",
-            "StartDate": "1977-06-24",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "",
@@ -21366,6 +22018,18 @@
             "StartCitation": "",
             "StartDate": "1977-06-09",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 70,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "Griswold 1 ",
+            "StartDate": "1977-06-24",
+            "StartType": "earliest_presence"
         }
     ],
     "1977-07": [
@@ -21538,18 +22202,6 @@
             "StartType": "arrival"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 71,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "1978",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "wlam",
             "EndCitation": "",
             "EndDate": "",
@@ -21631,6 +22283,18 @@
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
             "StartDate": "1978-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 71,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "1978",
             "StartType": "earliest_presence"
         }
     ],
@@ -21810,18 +22474,6 @@
     "1978-12": [],
     "1979-01": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 74,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "1979",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "",
             "EndDate": "",
@@ -21843,6 +22495,18 @@
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
             "StartDate": "1979-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 74,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "1979",
             "StartType": "earliest_presence"
         }
     ],
@@ -21918,18 +22582,6 @@
     "1979-08": [],
     "1979-09": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 73,
-            "Notes": "gives interview at home of Sonia Sanchez",
-            "PlaceID": "philadelphia_pennsylvania_usa",
-            "StartCitation": "Dance 143",
-            "StartDate": "1979-09-11",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1979-09",
@@ -21939,6 +22591,18 @@
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
             "StartDate": "1979-06",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 73,
+            "Notes": "gives interview at home of Sonia Sanchez",
+            "PlaceID": "philadelphia_pennsylvania_usa",
+            "StartCitation": "Dance 143",
+            "StartDate": "1979-09-11",
             "StartType": "earliest_presence"
         }
     ],
@@ -21997,18 +22661,6 @@
             "StartType": "arrival"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1981",
-            "EndType": "departure",
-            "EntryIndex": 76,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "1980",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "",
             "EndDate": "",
@@ -22019,6 +22671,18 @@
             "StartCitation": "Brathwaite, \"Afternoon of the Status Crow\" ",
             "StartDate": "1980",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1981",
+            "EndType": "departure",
+            "EntryIndex": 76,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "1980",
+            "StartType": "earliest_presence"
         }
     ],
     "1980-02": [
@@ -22078,18 +22742,6 @@
     ],
     "1980-06": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 75,
-            "Notes": "gives eulogy at Walter Rodney's funeral",
-            "PlaceID": "georgetown_guyana",
-            "StartCitation": "Lamming Conversations 184",
-            "StartDate": "1980-06-21",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "wlam",
             "EndCitation": "",
             "EndDate": "",
@@ -22135,6 +22787,18 @@
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
             "StartDate": "1980-06",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 75,
+            "Notes": "gives eulogy at Walter Rodney's funeral",
+            "PlaceID": "georgetown_guyana",
+            "StartCitation": "Lamming Conversations 184",
+            "StartDate": "1980-06-21",
             "StartType": "earliest_presence"
         }
     ],
@@ -22446,30 +23110,6 @@
             "StartType": "earliest_presence"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 82,
-            "Notes": "gives lecture \"Nationalism and Nation\"",
-            "PlaceID": "dominica",
-            "StartCitation": "Lamming Conversations 226",
-            "StartDate": "1982",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 85,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "1982",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "wlam",
             "EndCitation": "",
             "EndDate": "",
@@ -22504,6 +23144,30 @@
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "1982",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 82,
+            "Notes": "gives lecture \"Nationalism and Nation\"",
+            "PlaceID": "dominica",
+            "StartCitation": "Lamming Conversations 226",
+            "StartDate": "1982",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 85,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "1982",
+            "StartType": "earliest_presence"
         }
     ],
     "1982-02": [
@@ -22682,18 +23346,6 @@
             "StartType": "arrival"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 87,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "1983",
-            "StartType": "arrival"
-        },
-        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "EndDate": "1983",
@@ -22727,6 +23379,18 @@
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
             "StartDate": "1983-01-10",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 87,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "1983",
             "StartType": "arrival"
         }
     ],
@@ -22844,42 +23508,6 @@
             "StartType": "earliest_presence"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 90,
-            "Notes": "attends second conference for Regional Committee for Cultural Sovereignty",
-            "PlaceID": "trinidad",
-            "StartCitation": "Lamming Conversations 283",
-            "StartDate": "1984-01",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 92,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "1984",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "George Lamming Collection",
-            "EndDate": "1985-05-28",
-            "EndType": "departure",
-            "EntryIndex": 94,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "1984",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "rdepestre",
             "EndCitation": "",
             "EndDate": "1984",
@@ -22914,6 +23542,42 @@
             "StartCitation": "Mackey, 56",
             "StartDate": "1984",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 90,
+            "Notes": "attends second conference for Regional Committee for Cultural Sovereignty",
+            "PlaceID": "trinidad",
+            "StartCitation": "Lamming Conversations 283",
+            "StartDate": "1984-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 92,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "1984",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "George Lamming Collection",
+            "EndDate": "1985-05-28",
+            "EndType": "departure",
+            "EntryIndex": 94,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "1984",
+            "StartType": "earliest_presence"
         }
     ],
     "1984-02": [
@@ -23195,18 +23859,6 @@
     ],
     "1986-01": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 98,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "1986",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
             "EndDate": "1986",
@@ -23240,6 +23892,18 @@
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
             "StartDate": "1986-01",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 98,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "1986",
             "StartType": "earliest_presence"
         }
     ],
@@ -23308,30 +23972,6 @@
     "1986-12": [],
     "1987-01": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 99,
-            "Notes": "Gives a workshop sponsored by Casa de las Américas and the Permanent Committee of Intellectuals for the Sovereignty of the Peoples of Our America",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "George Lamming Collection",
-            "StartDate": "1987",
-            "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1987-05",
-            "EndType": "departure",
-            "EntryIndex": 100,
-            "Notes": "is in semester-long residence at UNC-Chapel Hill ",
-            "PlaceID": "chapel_hill_north_carolina",
-            "StartCitation": "George Lamming Collection",
-            "StartDate": "1987-01",
-            "StartType": "arrival"
-        },
-        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "EndDate": "1987",
@@ -23366,6 +24006,30 @@
             "StartCitation": "",
             "StartDate": "1987-01",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 99,
+            "Notes": "Gives a workshop sponsored by Casa de las Américas and the Permanent Committee of Intellectuals for the Sovereignty of the Peoples of Our America",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "George Lamming Collection",
+            "StartDate": "1987",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1987-05",
+            "EndType": "departure",
+            "EntryIndex": 100,
+            "Notes": "is in semester-long residence at UNC-Chapel Hill ",
+            "PlaceID": "chapel_hill_north_carolina",
+            "StartCitation": "George Lamming Collection",
+            "StartDate": "1987-01",
+            "StartType": "arrival"
         }
     ],
     "1987-02": [
@@ -23420,18 +24084,6 @@
     "1987-12": [],
     "1988-01": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 102,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "1988",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "EndDate": "1988",
@@ -23466,6 +24118,18 @@
             "StartCitation": "Breiner, Laurence A. ",
             "StartDate": "1988",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 102,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "1988",
+            "StartType": "earliest_presence"
         }
     ],
     "1988-02": [],
@@ -23535,18 +24199,6 @@
             "StartType": "arrival"
         },
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 103,
-            "Notes": "gives eulogy \"CLR James, Evangelist\" at CLR James' funeral",
-            "PlaceID": "tunapuna_trinidad",
-            "StartCitation": "Lamming Conversations 195",
-            "StartDate": "1989-05-31",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1989-05",
@@ -23556,6 +24208,18 @@
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
             "StartDate": "1987-07",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 103,
+            "Notes": "gives eulogy \"CLR James, Evangelist\" at CLR James' funeral",
+            "PlaceID": "tunapuna_trinidad",
+            "StartCitation": "Lamming Conversations 195",
+            "StartDate": "1989-05-31",
             "StartType": "earliest_presence"
         }
     ],
@@ -23632,18 +24296,6 @@
     ],
     "1989-12": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "1989-12-13",
-            "EndType": "departure",
-            "EntryIndex": 105,
-            "Notes": "may have attended the Colloque International at the Centre des Arts et de la Culture de Pointe-à-Pitre (he has paper with this letterhead)",
-            "PlaceID": "point_a_pitre_guadeloupe",
-            "StartCitation": "George Lamming Collection",
-            "StartDate": "1989-12-11",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "",
@@ -23653,6 +24305,18 @@
             "PlaceID": "fort_de_france_martinique",
             "StartCitation": "",
             "StartDate": "1989-12",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "1989-12-13",
+            "EndType": "departure",
+            "EntryIndex": 105,
+            "Notes": "may have attended the Colloque International at the Centre des Arts et de la Culture de Pointe-à-Pitre (he has paper with this letterhead)",
+            "PlaceID": "point_a_pitre_guadeloupe",
+            "StartCitation": "George Lamming Collection",
+            "StartDate": "1989-12-11",
             "StartType": "earliest_presence"
         }
     ],
@@ -24059,6 +24723,18 @@
     "1996-10": [],
     "1996-11": [
         {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 31,
+            "Notes": "attends conference at the University of Memphis, \"The Caribbean: South of the South\"",
+            "PlaceID": "memphis_tennessee_usa",
+            "StartCitation": "Brathwaite \"Note(s) on Caribbean Cosmology\"",
+            "StartDate": "1996-11-20",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "",
@@ -24081,18 +24757,6 @@
             "StartCitation": "Schwarz 16",
             "StartDate": "1996-11",
             "StartType": "earliest_presence"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 31,
-            "Notes": "attends conference at the University of Memphis, \"The Caribbean: South of the South\"",
-            "PlaceID": "memphis_tennessee_usa",
-            "StartCitation": "Brathwaite \"Note(s) on Caribbean Cosmology\"",
-            "StartDate": "1996-11-20",
-            "StartType": "arrival"
         }
     ],
     "1996-12": [],
@@ -24104,6 +24768,18 @@
     "1997-06": [],
     "1997-07": [],
     "1997-08": [
+        {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "Brathwaite, ConVERSations",
+            "EndDate": "1997-08-29",
+            "EndType": "latest_presence",
+            "EntryIndex": 32,
+            "Notes": "",
+            "PlaceID": "cowpastor_barbados",
+            "StartCitation": "Brathwaite, ConVERSations",
+            "StartDate": "1997-08-01",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "George Lamming Collection",
@@ -24139,18 +24815,6 @@
             "StartCitation": "George Lamming Collection",
             "StartDate": "1997-08-19",
             "StartType": "arrival"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "Brathwaite, ConVERSations",
-            "EndDate": "1997-08-29",
-            "EndType": "latest_presence",
-            "EntryIndex": 32,
-            "Notes": "",
-            "PlaceID": "cowpastor_barbados",
-            "StartCitation": "Brathwaite, ConVERSations",
-            "StartDate": "1997-08-01",
-            "StartType": "earliest_presence"
         }
     ],
     "1997-09": [],
@@ -24561,6 +25225,18 @@
     "2000-07": [],
     "2000-08": [
         {
+            "AuthorID": "kbrathwaite",
+            "EndCitation": "Caribbean Community Secretariat",
+            "EndDate": "2000-08-25",
+            "EndType": "latest_presence",
+            "EntryIndex": 33,
+            "Notes": "attends CARIFESTA VII 2000",
+            "PlaceID": "basseterre_st_kitts_and_nevis",
+            "StartCitation": "Caribbean Community Secretariat",
+            "StartDate": "2000-08-17",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "2000-08-05",
@@ -24595,18 +25271,6 @@
             "StartCitation": "George Lamming Collection",
             "StartDate": "2000-08-24",
             "StartType": "arrival"
-        },
-        {
-            "AuthorID": "kbrathwaite",
-            "EndCitation": "Caribbean Community Secretariat",
-            "EndDate": "2000-08-25",
-            "EndType": "latest_presence",
-            "EntryIndex": 33,
-            "Notes": "attends CARIFESTA VII 2000",
-            "PlaceID": "basseterre_st_kitts_and_nevis",
-            "StartCitation": "Caribbean Community Secretariat",
-            "StartDate": "2000-08-17",
-            "StartType": "earliest_presence"
         }
     ],
     "2000-09": [
@@ -24653,18 +25317,6 @@
     ],
     "2001-01": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "2002",
-            "EndType": "latest_presence",
-            "EntryIndex": 151,
-            "Notes": "",
-            "PlaceID": "barbados",
-            "StartCitation": "Schwarz 16",
-            "StartDate": "2001",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "",
             "EndDate": "",
@@ -24675,6 +25327,18 @@
             "StartCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "StartDate": "2001",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "2002",
+            "EndType": "latest_presence",
+            "EntryIndex": 151,
+            "Notes": "",
+            "PlaceID": "barbados",
+            "StartCitation": "Schwarz 16",
+            "StartDate": "2001",
+            "StartType": "earliest_presence"
         }
     ],
     "2001-02": [],
@@ -24753,18 +25417,6 @@
     "2002-12": [],
     "2003-01": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "2003-05",
-            "EndType": "departure",
-            "EntryIndex": 155,
-            "Notes": "accepts 2003 Semans Distinguished International Professorship",
-            "PlaceID": "durham_north_carolina",
-            "StartCitation": "George Lamming Collection",
-            "StartDate": "2003-01-05",
-            "StartType": "arrival"
-        },
-        {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
             "EndDate": "2005-02-22",
@@ -24775,6 +25427,18 @@
             "StartCitation": "",
             "StartDate": "2003",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "2003-05",
+            "EndType": "departure",
+            "EntryIndex": 155,
+            "Notes": "accepts 2003 Semans Distinguished International Professorship",
+            "PlaceID": "durham_north_carolina",
+            "StartCitation": "George Lamming Collection",
+            "StartDate": "2003-01-05",
+            "StartType": "arrival"
         }
     ],
     "2003-02": [],
@@ -25193,18 +25857,6 @@
     "2005-05": [],
     "2005-06": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "2005-06-14",
-            "EndType": "departure",
-            "EntryIndex": 176,
-            "Notes": "attends Groundings conference on Walter Rodney; gives lecture on June 13",
-            "PlaceID": "guyana",
-            "StartCitation": "George Lamming Collection",
-            "StartDate": "2005-06-02",
-            "StartType": "arrival"
-        },
-        {
             "AuthorID": "rdepestre",
             "EndCitation": "Depestre archive, BFM Limoges: letter from RD to Jean-Marie Péan",
             "EndDate": "2005-06-06",
@@ -25215,6 +25867,18 @@
             "StartCitation": "",
             "StartDate": "",
             "StartType": ""
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "2005-06-14",
+            "EndType": "departure",
+            "EntryIndex": 176,
+            "Notes": "attends Groundings conference on Walter Rodney; gives lecture on June 13",
+            "PlaceID": "guyana",
+            "StartCitation": "George Lamming Collection",
+            "StartDate": "2005-06-02",
+            "StartType": "arrival"
         }
     ],
     "2005-07": [],
@@ -25369,18 +26033,6 @@
     ],
     "2006-09": [
         {
-            "AuthorID": "glamming",
-            "EndCitation": "",
-            "EndDate": "2006-09-22",
-            "EndType": "latest_presence",
-            "EntryIndex": 186,
-            "Notes": "is invited to but seems not to have attended event on the 50th anniversary of the Congress of Black Writers",
-            "PlaceID": "paris_france",
-            "StartCitation": "George Lamming Collection",
-            "StartDate": "2006-09-18",
-            "StartType": "earliest_presence"
-        },
-        {
             "AuthorID": "rdepestre",
             "EndCitation": "",
             "EndDate": "2006-09",
@@ -25414,6 +26066,18 @@
             "PlaceID": "lezignan_corbieres_france",
             "StartCitation": "",
             "StartDate": "2006-09",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "glamming",
+            "EndCitation": "",
+            "EndDate": "2006-09-22",
+            "EndType": "latest_presence",
+            "EntryIndex": 186,
+            "Notes": "is invited to but seems not to have attended event on the 50th anniversary of the Congress of Black Writers",
+            "PlaceID": "paris_france",
+            "StartCitation": "George Lamming Collection",
+            "StartDate": "2006-09-18",
             "StartType": "earliest_presence"
         }
     ],
