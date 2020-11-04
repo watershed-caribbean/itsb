@@ -377,6 +377,15 @@
         "PlaceName": "Benin, Nigeria",
         "Region": ""
     },
+    "berkeley_california_usa": {
+        "City": "Berkeley",
+        "Country": "USA",
+        "Lat": 37.8715226,
+        "Long": -122.273042,
+        "PlaceID": "berkeley_california_usa",
+        "PlaceName": "Berkeley, California, USA",
+        "Region": "California"
+    },
     "berlin_germany": {
         "City": "Berlin",
         "Country": "Germany",
@@ -402,6 +411,15 @@
         "Long": -2.9349852,
         "PlaceID": "bilbao_spain",
         "PlaceName": "Bilbao, Spain",
+        "Region": ""
+    },
+    "bingerville_ivory_coast": {
+        "City": "Bingerville",
+        "Country": "Ivory Coast",
+        "Lat": 5.3438578,
+        "Long": -3.9188224,
+        "PlaceID": "bingerville_ivory_coast",
+        "PlaceName": "Bingerville, Ivory Coast",
         "Region": ""
     },
     "binghamton_new_york": {
@@ -467,6 +485,15 @@
         "PlaceName": "Boston, Massachusetts, USA",
         "Region": "Massachusetts"
     },
+    "boulder_colorado_usa": {
+        "City": "Boulder",
+        "Country": "USA",
+        "Lat": 40.0149856,
+        "Long": -105.2705456,
+        "PlaceID": "boulder_colorado_usa",
+        "PlaceName": "Boulder, Colorado, USA",
+        "Region": "Colorado"
+    },
     "bournemouth_england": {
         "City": "Bournemouth",
         "Country": "England",
@@ -474,6 +501,15 @@
         "Long": -1.880769,
         "PlaceID": "bournemouth_england",
         "PlaceName": "Bournemouth, England",
+        "Region": ""
+    },
+    "brazil": {
+        "City": "",
+        "Country": "Brazil",
+        "Lat": -14.235004,
+        "Long": -51.92528,
+        "PlaceID": "brazil",
+        "PlaceName": "Brazil",
         "Region": ""
     },
     "brazzaville_republic_of_congo": {
@@ -853,6 +889,15 @@
         "PlaceID": "charleston_south_carolina_usa",
         "PlaceName": "Charleston, South Carolina, USA",
         "Region": "South Carolina"
+    },
+    "charlottesville_virginia_usa": {
+        "City": "Charlottesville",
+        "Country": "USA",
+        "Lat": 38.0293059,
+        "Long": -78.4766781,
+        "PlaceID": "charlottesville_virginia_usa",
+        "PlaceName": "Charlottesville, Virginia, USA",
+        "Region": "Virginia"
     },
     "chattanooga_tennessee_usa": {
         "City": "Chattanooga",
@@ -1448,6 +1493,15 @@
         "PlaceName": "Germany",
         "Region": ""
     },
+    "ghana": {
+        "City": "",
+        "Country": "Ghana",
+        "Lat": 7.946527,
+        "Long": -1.023194,
+        "PlaceID": "ghana",
+        "PlaceName": "Ghana",
+        "Region": ""
+    },
     "glasgow_scotland": {
         "City": "Glasgow",
         "Country": "Scotland",
@@ -1536,6 +1590,15 @@
         "Long": -61.551,
         "PlaceID": "guadeloupe",
         "PlaceName": "Guadeloupe",
+        "Region": ""
+    },
+    "guinea": {
+        "City": "",
+        "Country": "Guinea",
+        "Lat": 9.945587,
+        "Long": -9.696645,
+        "PlaceID": "guinea",
+        "PlaceName": "Guinea",
         "Region": ""
     },
     "guyana": {
@@ -1671,6 +1734,15 @@
         "Long": 8.6724335,
         "PlaceID": "heidelberg_germany",
         "PlaceName": "Heidelberg, Germany",
+        "Region": ""
+    },
+    "helsinki_finland": {
+        "City": "Helsinki",
+        "Country": "Finland",
+        "Lat": 60.1698557,
+        "Long": 24.9383791,
+        "PlaceID": "helsinki_finland",
+        "PlaceName": "Helsinki, Finland",
         "Region": ""
     },
     "ho_trans_volta_togoland": {
@@ -1934,6 +2006,15 @@
         "PlaceName": "Kansas City, USA",
         "Region": ""
     },
+    "kaolak_senegal": {
+        "City": "Kaolak",
+        "Country": "Senegal",
+        "Lat": 14.1652083,
+        "Long": -16.0757749,
+        "PlaceID": "kaolak_senegal",
+        "PlaceName": "Kaolak, Senegal",
+        "Region": ""
+    },
     "kassel_germany": {
         "City": "Kassel",
         "Country": "Germany",
@@ -1942,6 +2023,15 @@
         "PlaceID": "kassel_germany",
         "PlaceName": "Kassel, Germany",
         "Region": ""
+    },
+    "kaunas_lithuania": {
+        "City": "",
+        "Country": "Lithuania",
+        "Lat": 54.8985207,
+        "Long": 23.9035965,
+        "PlaceID": "kaunas_lithuania",
+        "PlaceName": "Kaunas, Lithuania",
+        "Region": "Kaunas"
     },
     "kenya": {
         "City": "",
@@ -2402,6 +2492,15 @@
         "PlaceName": "Malay Federation (Malaysia)",
         "Region": ""
     },
+    "mali": {
+        "City": "",
+        "Country": "Mali",
+        "Lat": 17.570692,
+        "Long": -3.996166,
+        "PlaceID": "mali",
+        "PlaceName": "Mali",
+        "Region": ""
+    },
     "manchester_england": {
         "City": "Manchester",
         "Country": "England",
@@ -2626,6 +2725,15 @@
         "PlaceID": "minneapolis_minnesota_usa",
         "PlaceName": "Minneapolis, Minnesota, USA",
         "Region": "Minnesota"
+    },
+    "missouri_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 37.9642529,
+        "Long": -91.8318334,
+        "PlaceID": "missouri_usa",
+        "PlaceName": "Missouri, USA",
+        "Region": "Missouri"
     },
     "mombasa_kenya": {
         "City": "Mombasa",
@@ -3203,6 +3311,15 @@
         "PlaceName": "Portland, Oregon, USA",
         "Region": "Oregon"
     },
+    "portsmouth_england": {
+        "City": "Portsmouth",
+        "Country": "England",
+        "Lat": 50.8197675,
+        "Long": -1.0879769,
+        "PlaceID": "portsmouth_england",
+        "PlaceName": "Portsmouth, England",
+        "Region": ""
+    },
     "poughkeepsie_new_york_usa": {
         "City": "Poughkeepsie",
         "Country": "USA",
@@ -3446,6 +3563,15 @@
         "PlaceName": "Saint Louis, Missouri, USA, Missouri, USA",
         "Region": "Missouri"
     },
+    "saint_louis_senegal": {
+        "City": "Saint-Louis",
+        "Country": "Senegal",
+        "Lat": 16.0326307,
+        "Long": -16.4818167,
+        "PlaceID": "saint_louis_senegal",
+        "PlaceName": "Saint-Louis, Senegal",
+        "Region": ""
+    },
     "saint_maarten": {
         "City": "",
         "Country": "Saint Maarten",
@@ -3526,6 +3652,15 @@
         "PlaceID": "san_sebastien_spain",
         "PlaceName": "San Sebastien, Spain",
         "Region": ""
+    },
+    "santa_barbara_california_usa": {
+        "City": "Santa Barbara",
+        "Country": "USA",
+        "Lat": 34.4208305,
+        "Long": -119.6981901,
+        "PlaceID": "santa_barbara_california_usa",
+        "PlaceName": "Santa Barbara, California, USA",
+        "Region": "California"
     },
     "santa_cruz_california_usa": {
         "City": "Santa Cruz",
@@ -3625,6 +3760,15 @@
         "PlaceID": "seattle_washington_usa",
         "PlaceName": "Seattle, Washington, USA",
         "Region": "Washington"
+    },
+    "senegal": {
+        "City": "",
+        "Country": "Senegal",
+        "Lat": 14.497401,
+        "Long": -14.452362,
+        "PlaceID": "senegal",
+        "PlaceName": "Senegal",
+        "Region": ""
     },
     "seoul_korea": {
         "City": "Seoul",
@@ -4013,6 +4157,15 @@
         "PlaceName": "Tuskegee, Alabama, USA",
         "Region": "Alabama"
     },
+    "uganda": {
+        "City": "",
+        "Country": "Uganda",
+        "Lat": 1.373333,
+        "Long": 32.290275,
+        "PlaceID": "uganda",
+        "PlaceName": "Uganda",
+        "Region": ""
+    },
     "usa": {
         "City": "",
         "Country": "USA",
@@ -4085,6 +4238,15 @@
         "PlaceName": "Villefranche, France",
         "Region": ""
     },
+    "virginia_usa": {
+        "City": "",
+        "Country": "USA",
+        "Lat": 37.4315734,
+        "Long": -78.6568942,
+        "PlaceID": "virginia_usa",
+        "PlaceName": "Virginia, USA",
+        "Region": "Virginia"
+    },
     "washington_dc._usa": {
         "City": "Washington, D.C.",
         "Country": "USA",
@@ -4138,6 +4300,15 @@
         "PlaceID": "wilberforce_ohio_usa",
         "PlaceName": "Wilberforce, Ohio, USA",
         "Region": "Ohio"
+    },
+    "winnebah_ghana": {
+        "City": "Winnebah",
+        "Country": "Ghana",
+        "Lat": 5.3622295,
+        "Long": -0.6298922,
+        "PlaceID": "winnebah_ghana",
+        "PlaceName": "Winnebah, Ghana",
+        "Region": ""
     },
     "worcester_massachusetts_usa": {
         "City": "Worcester",

@@ -986,3 +986,833 @@ René Depestre (56): This entry has no key dates listed and has been skipped.
 ---------------------------------------------------
 
 
+Run time: 2020-11-04 01:11:03
+
+C.L.R. James (37): Place ID missouri_usa not found in master Place Name list.
+
+C.L.R. James (47): Place ID boulder_colorado_usa not found in master Place Name list.
+
+C.L.R. James (85): Place ID uganda not found in master Place Name list.
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (217): This entry has no key dates listed and has been skipped.
+
+George Lamming (55): This entry has no key dates listed and has been skipped.
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 01:24:01
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (175): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (182): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (183): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (184): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (185): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (186): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (187): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (188): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (189): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (190): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (191): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (192): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (193): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (194): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (195): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (197): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (198): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (199): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (201): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (202): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (203): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (204): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (205): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (206): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (207): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (208): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (217): This entry has no key dates listed and has been skipped.
+
+George Lamming (55): This entry has no key dates listed and has been skipped.
+
+René Depestre (39): This entry has no key dates listed and has been skipped.
+
+René Depestre (56): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 01:29:51
+
+C.L.R. James (37): Place ID missouri_usa not found in master Place Name list.
+
+C.L.R. James (47): Place ID boulder_colorado_usa not found in master Place Name list.
+
+C.L.R. James (85): Place ID uganda not found in master Place Name list.
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 01:32:36
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 01:40:07
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 01:46:52
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 02:34:22
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 02:50:03
+
+George Lamming (55): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 03:23:53
+
+Katherine Dunham (147): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (148): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (149): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (150): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (151): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (152): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (153): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (154): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (155): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (156): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (157): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (158): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (159): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (160): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (161): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (162): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (163): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (164): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (165): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (166): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (167): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (168): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (170): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (171): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (172): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+George Lamming (55): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 03:28:17
+
+RENÉ DEPESTRE (36): Place ID  not found in master Place Name list.
+
+RENÉ DEPESTRE (42): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (147): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (148): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (149): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (150): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (151): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (152): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (153): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (154): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (155): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (156): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (157): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (158): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (159): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (160): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (161): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (162): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (163): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (164): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (165): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (166): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (167): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (168): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (170): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (171): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (172): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+George Lamming (55): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 03:43:14
+
+RENÉ DEPESTRE (36): Place ID  not found in master Place Name list.
+
+RENÉ DEPESTRE (42): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (147): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (148): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (149): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (150): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (151): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (152): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (153): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (154): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (155): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (156): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (157): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (158): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (159): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (160): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (161): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (162): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (163): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (164): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (165): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (166): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (167): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (168): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (170): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (171): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (172): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+George Lamming (55): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
+Run time: 2020-11-04 03:52:28
+
+Wifredo Lam (29): Place ID  not found in master Place Name list.
+
+Wifredo Lam (98): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (104): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (105): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (106): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (107): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (108): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (109): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (110): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (111): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (112): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (113): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (114): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (115): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (116): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (117): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (118): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (119): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (120): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (121): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (122): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (123): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (124): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (125): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (126): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (127): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (128): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (129): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (130): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (131): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (132): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (133): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (134): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (135): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (136): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (137): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (138): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (139): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (140): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (141): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (142): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (143): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (144): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (145): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (146): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (147): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (148): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (149): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (150): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (151): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (152): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (153): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (154): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (155): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (156): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (157): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (158): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (159): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (160): Place ID  not found in master Place Name list.
+
+Wifredo Lam (161): Place ID  not found in master Place Name list.
+
+Wifredo Lam (162): Place ID  not found in master Place Name list.
+
+Wifredo Lam (163): Place ID  not found in master Place Name list.
+
+Wifredo Lam (164): Place ID  not found in master Place Name list.
+
+Wifredo Lam (165): Place ID  not found in master Place Name list.
+
+Wifredo Lam (166): Place ID  not found in master Place Name list.
+
+Wifredo Lam (167): Place ID  not found in master Place Name list.
+
+Wifredo Lam (168): Place ID  not found in master Place Name list.
+
+Wifredo Lam (169): Place ID  not found in master Place Name list.
+
+Wifredo Lam (170): Place ID  not found in master Place Name list.
+
+Wifredo Lam (171): Place ID  not found in master Place Name list.
+
+Wifredo Lam (172): Place ID  not found in master Place Name list.
+
+Wifredo Lam (173): Place ID  not found in master Place Name list.
+
+Wifredo Lam (174): Place ID  not found in master Place Name list.
+
+Wifredo Lam (175): Place ID  not found in master Place Name list.
+
+Wifredo Lam (176): Place ID  not found in master Place Name list.
+
+Wifredo Lam (177): Place ID  not found in master Place Name list.
+
+Wifredo Lam (178): Place ID  not found in master Place Name list.
+
+Wifredo Lam (179): Place ID  not found in master Place Name list.
+
+Wifredo Lam (180): Place ID  not found in master Place Name list.
+
+Wifredo Lam (181): Place ID  not found in master Place Name list.
+
+Wifredo Lam (182): Place ID  not found in master Place Name list.
+
+Wifredo Lam (183): Place ID  not found in master Place Name list.
+
+Wifredo Lam (184): Place ID  not found in master Place Name list.
+
+Wifredo Lam (185): Place ID  not found in master Place Name list.
+
+Wifredo Lam (186): Place ID  not found in master Place Name list.
+
+Wifredo Lam (187): Place ID  not found in master Place Name list.
+
+Wifredo Lam (188): Place ID  not found in master Place Name list.
+
+Wifredo Lam (189): Place ID  not found in master Place Name list.
+
+Wifredo Lam (190): Place ID  not found in master Place Name list.
+
+Wifredo Lam (191): Place ID  not found in master Place Name list.
+
+Wifredo Lam (192): Place ID  not found in master Place Name list.
+
+Wifredo Lam (193): Place ID  not found in master Place Name list.
+
+Wifredo Lam (194): Place ID  not found in master Place Name list.
+
+Wifredo Lam (195): Place ID  not found in master Place Name list.
+
+Wifredo Lam (196): Place ID  not found in master Place Name list.
+
+Wifredo Lam (197): Place ID  not found in master Place Name list.
+
+Wifredo Lam (198): Place ID  not found in master Place Name list.
+
+Wifredo Lam (199): Place ID  not found in master Place Name list.
+
+Wifredo Lam (200): Place ID  not found in master Place Name list.
+
+Wifredo Lam (201): Place ID  not found in master Place Name list.
+
+Wifredo Lam (202): Place ID  not found in master Place Name list.
+
+Wifredo Lam (203): Place ID  not found in master Place Name list.
+
+Wifredo Lam (204): Place ID  not found in master Place Name list.
+
+Wifredo Lam (205): Place ID  not found in master Place Name list.
+
+Wifredo Lam (206): Place ID  not found in master Place Name list.
+
+Wifredo Lam (207): Place ID  not found in master Place Name list.
+
+Wifredo Lam (208): Place ID  not found in master Place Name list.
+
+Wifredo Lam (209): Place ID  not found in master Place Name list.
+
+Wifredo Lam (210): Place ID  not found in master Place Name list.
+
+Wifredo Lam (211): Place ID  not found in master Place Name list.
+
+Wifredo Lam (212): Place ID  not found in master Place Name list.
+
+Wifredo Lam (213): Place ID  not found in master Place Name list.
+
+Wifredo Lam (214): Place ID  not found in master Place Name list.
+
+Wifredo Lam (215): Place ID  not found in master Place Name list.
+
+Wifredo Lam (216): Place ID  not found in master Place Name list.
+
+Wifredo Lam (217): Place ID  not found in master Place Name list.
+
+Wifredo Lam (218): Place ID  not found in master Place Name list.
+
+Wifredo Lam (219): Place ID  not found in master Place Name list.
+
+Wifredo Lam (220): Place ID  not found in master Place Name list.
+
+Wifredo Lam (221): Place ID  not found in master Place Name list.
+
+Wifredo Lam (222): Place ID  not found in master Place Name list.
+
+Wifredo Lam (223): Place ID  not found in master Place Name list.
+
+Wifredo Lam (224): Place ID  not found in master Place Name list.
+
+Wifredo Lam (225): Place ID  not found in master Place Name list.
+
+Wifredo Lam (226): Place ID  not found in master Place Name list.
+
+Wifredo Lam (227): Place ID  not found in master Place Name list.
+
+Wifredo Lam (228): Place ID  not found in master Place Name list.
+
+Wifredo Lam (229): Place ID  not found in master Place Name list.
+
+Wifredo Lam (230): Place ID  not found in master Place Name list.
+
+Wifredo Lam (231): Place ID  not found in master Place Name list.
+
+Wifredo Lam (232): Place ID  not found in master Place Name list.
+
+Wifredo Lam (233): Place ID  not found in master Place Name list.
+
+Wifredo Lam (234): Place ID  not found in master Place Name list.
+
+Wifredo Lam (235): Place ID  not found in master Place Name list.
+
+Wifredo Lam (236): Place ID  not found in master Place Name list.
+
+Wifredo Lam (237): Place ID  not found in master Place Name list.
+
+Wifredo Lam (238): Place ID  not found in master Place Name list.
+
+Wifredo Lam (239): Place ID  not found in master Place Name list.
+
+Wifredo Lam (240): Place ID  not found in master Place Name list.
+
+Wifredo Lam (241): Place ID  not found in master Place Name list.
+
+Wifredo Lam (242): Place ID  not found in master Place Name list.
+
+Wifredo Lam (243): Place ID  not found in master Place Name list.
+
+Wifredo Lam (244): Place ID  not found in master Place Name list.
+
+Wifredo Lam (245): Place ID  not found in master Place Name list.
+
+Wifredo Lam (246): Place ID  not found in master Place Name list.
+
+Wifredo Lam (247): Place ID  not found in master Place Name list.
+
+Wifredo Lam (248): Place ID  not found in master Place Name list.
+
+Wifredo Lam (249): Place ID  not found in master Place Name list.
+
+Wifredo Lam (250): Place ID  not found in master Place Name list.
+
+Wifredo Lam (251): Place ID  not found in master Place Name list.
+
+Wifredo Lam (252): Place ID  not found in master Place Name list.
+
+Wifredo Lam (253): Place ID  not found in master Place Name list.
+
+Wifredo Lam (254): Place ID  not found in master Place Name list.
+
+Wifredo Lam (255): This entry has no key dates listed and has been skipped.
+
+Wifredo Lam (256): Place ID  not found in master Place Name list.
+
+Wifredo Lam (257): Place ID  not found in master Place Name list.
+
+Wifredo Lam (258): Place ID  not found in master Place Name list.
+
+Wifredo Lam (259): Place ID  not found in master Place Name list.
+
+Wifredo Lam (260): Place ID  not found in master Place Name list.
+
+Wifredo Lam (260): Arrival Date 1902-12-100 is not a valid date entry
+
+RENÉ DEPESTRE (36): Place ID  not found in master Place Name list.
+
+RENÉ DEPESTRE (42): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (147): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (148): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (149): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (150): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (151): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (152): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (153): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (154): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (155): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (156): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (157): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (158): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (159): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (160): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (161): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (162): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (163): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (164): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (165): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (166): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (167): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (168): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (170): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (171): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (172): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (174): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (176): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (177): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (178): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (179): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (180): This entry has no key dates listed and has been skipped.
+
+Katherine Dunham (181): This entry has no key dates listed and has been skipped.
+
+George Lamming (55): This entry has no key dates listed and has been skipped.
+
+
+---------------------------------------------------
+
+
