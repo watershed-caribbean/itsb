@@ -2646,2226 +2646,6 @@
             "StartCitation": "",
             "StartDate": "1902-12-08",
             "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 1,
-            "Notes": "leaves Cuba to study art under Fernando Alvarez de Sotomayor y Zaragoza, curator of Museo del Prado",
-            "PlaceID": "madrid_spain",
-            "StartCitation": "",
-            "StartDate": "1902-12-09",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1938",
-            "EndType": "departure",
-            "EntryIndex": 2,
-            "Notes": "receives injury during the Spanish Civil War",
-            "PlaceID": "barcelona_spain",
-            "StartCitation": "",
-            "StartDate": "1902-12-10",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1940",
-            "EndType": "departure",
-            "EntryIndex": 3,
-            "Notes": "meets Picasso with letter of introduction",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-11",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 4,
-            "Notes": "",
-            "PlaceID": "marseilles_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-12",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 5,
-            "Notes": "leaves with André Breton and Claude Levi-Strauss for Martinique, and is interned at Lazaret Camp for 40 days",
-            "PlaceID": "martinique",
-            "StartCitation": "",
-            "StartDate": "1902-12-13",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 6,
-            "Notes": "leaves for Cuba aboard the cargo ship Presidente Trujillo",
-            "PlaceID": "guadeloupe",
-            "StartCitation": "",
-            "StartDate": "1902-12-14",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 7,
-            "Notes": "",
-            "PlaceID": "saint_thomas",
-            "StartCitation": "",
-            "StartDate": "1902-12-15",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 8,
-            "Notes": "",
-            "PlaceID": "santo_domingo_dominican_republic",
-            "StartCitation": "",
-            "StartDate": "1902-12-16",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 9,
-            "Notes": "does not receive visa for NY or Mexico and must return to Cuba",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-17",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1946",
-            "EndType": "departure",
-            "EntryIndex": 10,
-            "Notes": "invited with his wife by Pierre Mabille, 4 months with André Breton",
-            "PlaceID": "port_au_prince_haiti",
-            "StartCitation": "",
-            "StartDate": "1902-12-18",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 11,
-            "Notes": "encounters Breton, Marcel Duchamp and Jeanne Raynal who present him to Nicolas Calas, Roberto Matta, Isamu Nogochi, Arshile Gorky, Robert Motherwell, Sonia Sekula, David Hare, Gerome Kamrowski, Frederick Kiesler",
-            "PlaceID": "new_york_new_york_usa",
-            "StartCitation": "",
-            "StartDate": "1902-12-19",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 12,
-            "Notes": "",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-20",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 13,
-            "Notes": "",
-            "PlaceID": "cannes_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-21",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1948-09",
-            "EndType": "departure",
-            "EntryIndex": 14,
-            "Notes": "his wife Helena finds work in NY",
-            "PlaceID": "new_york_new_york_usa",
-            "StartCitation": "",
-            "StartDate": "1902-12-22",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1951-05",
-            "EndType": "departure",
-            "EntryIndex": 15,
-            "Notes": "",
-            "PlaceID": "santiago_de_las_vegas_cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-23",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 16,
-            "Notes": "",
-            "PlaceID": "europe",
-            "StartCitation": "",
-            "StartDate": "1902-12-24",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 17,
-            "Notes": "",
-            "PlaceID": "cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-25",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 18,
-            "Notes": "decides to settle in Paris because of unrest under Batista ",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-26",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 19,
-            "Notes": "watches a bullfight with Picasso",
-            "PlaceID": "mougins_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-27",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 20,
-            "Notes": "spends Sundays with Césaire \"He joined Césaire every Sunday for afternoons of conversation with a group of friends, hosted by Césaire's Martiniquan friends Dr Auguste Thésee and his wife Françoise. After a Creole meal, their animated discussions were the occasion for Lam to indulge in another of his passions: economics and politics.\"",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-28",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 21,
-            "Notes": "wins the gold medal of the Lissone Prize, awarded to foreigners, for his large canvas La Fiancée.",
-            "PlaceID": "italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-29",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 22,
-            "Notes": "meets with art critic Alain Jouffroy",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-30",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 23,
-            "Notes": "",
-            "PlaceID": "caracas_venezuela",
-            "StartCitation": "",
-            "StartDate": "1902-12-31",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 24,
-            "Notes": "",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-32",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 25,
-            "Notes": "",
-            "PlaceID": "sweden",
-            "StartCitation": "",
-            "StartDate": "1902-12-33",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 26,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-34",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 27,
-            "Notes": "",
-            "PlaceID": "brazil",
-            "StartCitation": "",
-            "StartDate": "1902-12-35",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 28,
-            "Notes": "returns for medical care after contracting chlorosis in travels through the Maroni, Orinoco and Amazon rivers.",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-36",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 29,
-            "Notes": "visits the Centro de Bellas Artes ",
-            "PlaceID": "maracaibo_venezuela",
-            "StartCitation": "",
-            "StartDate": "1902-12-37",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 30,
-            "Notes": "visits on the inaguration of his fresco at botanical gardens",
-            "PlaceID": "caracas_venezuela",
-            "StartCitation": "",
-            "StartDate": "1902-12-38",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1957-11",
-            "EndType": "departure",
-            "EntryIndex": 31,
-            "Notes": "spends time with future wife Lou Laurin",
-            "PlaceID": "italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-39",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 32,
-            "Notes": "visits with Lou Laurin the funeral of Diego Rivera",
-            "PlaceID": "mexico_city_mexico",
-            "StartCitation": "",
-            "StartDate": "1902-12-40",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 33,
-            "Notes": "meets with José Álvarez Baragaño towards end of February",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-41",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 34,
-            "Notes": "leaves because of the general strike in Cuba",
-            "PlaceID": "miami_florida_usa",
-            "StartCitation": "",
-            "StartDate": "1902-12-42",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 35,
-            "Notes": "meets with friends Jesse Fernández, Carlos Rigaudias, Eugenio Granell",
-            "PlaceID": "new_york_new_york_usa",
-            "StartCitation": "",
-            "StartDate": "1902-12-43",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 36,
-            "Notes": "stayed with his friends the Crippas, then Jorn",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-44",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 37,
-            "Notes": "visits Enrico Baj, who was working with ceramics",
-            "PlaceID": "rappalo_genoa_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-45",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 38,
-            "Notes": "is elected for the Graham Foundation for Advanced Studies in the Fine Arts",
-            "PlaceID": "chicago_illinois_usa",
-            "StartCitation": "",
-            "StartDate": "1902-12-46",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1959-07",
-            "EndType": "departure",
-            "EntryIndex": 39,
-            "Notes": "spends summer with Lou Laurin",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-47",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 40,
-            "Notes": "marries Lou Laurin",
-            "PlaceID": "new_york_new_york_usa",
-            "StartCitation": "",
-            "StartDate": "1902-12-48",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 41,
-            "Notes": "is invited by Lindy and Edwin Bergman",
-            "PlaceID": "chicago_illinois_usa",
-            "StartCitation": "",
-            "StartDate": "1902-12-49",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 42,
-            "Notes": "",
-            "PlaceID": "zurich_switzerland",
-            "StartCitation": "",
-            "StartDate": "1902-12-50",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 43,
-            "Notes": "birth of son with Lou Laurin, Eskil",
-            "PlaceID": "copenhagen_denmark",
-            "StartCitation": "",
-            "StartDate": "1902-12-51",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1961-08",
-            "EndType": "departure",
-            "EntryIndex": 44,
-            "Notes": "spends summer months",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-52",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 45,
-            "Notes": "second son with Lou Laurin  is born, Timour",
-            "PlaceID": "zurich_switzerland",
-            "StartCitation": "",
-            "StartDate": "1902-12-53",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 46,
-            "Notes": "summer spent in Albissola again before establishing a studio for the next 20 years",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-54",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 47,
-            "Notes": "hailed as a hero and \"national painter\"",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-55",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 48,
-            "Notes": "attends the annual festival of ceramics, at which he was again in the company of his friends Jorn and Fontana, but also the sculptors Agenore Fabbri and Aligi Sassu, the Polish artist Maria Papa Rostkowska and her companion, and the art critic San Lazzaro, who founded the Parisian gallery and review XXe Siècle the year before and which published one of Lam’s color lithographs, Affinités ambiguës. Lam also begins designing and executing a mosaic for the boardwalk in Albissola, his participation in a commissioned work involving some thirty local artists, most of them Italian",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-56",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 49,
-            "Notes": "the family settles into an apartment on the Rue de la Convention in the 15th arrondissement, the children's education being the primary motive for choosing Paris. Every month, Lam commutes between Albissola and Paris to be with them.",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-57",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 50,
-            "Notes": "receives the Guggenheim International Award",
-            "PlaceID": "new_york_new_york_usa",
-            "StartCitation": "",
-            "StartDate": "1902-12-58",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 51,
-            "Notes": "receives the Marzotto Prize",
-            "PlaceID": "italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-59",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 52,
-            "Notes": "spends summer with Gherasmin Luca",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-60",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 53,
-            "Notes": "visits Zette and Michele Leiris",
-            "PlaceID": "venice_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-61",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 54,
-            "Notes": "participates in a sort of happening on the plaza of the Contrescarpe, Paris. Participating artists: Alechinsky, Matta, Adami, Arroyo, J.-J. Lebel and Rotella. Organized by the Italian art dealer, Ivanohe Trivulzio, they burned 13 canvases after producing photo-lithographs of each painting – a gesture to promote affordable art.",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-62",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 55,
-            "Notes": "spends summer with family",
-            "PlaceID": "stockholm_sweden",
-            "StartCitation": "",
-            "StartDate": "1902-12-63",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 56,
-            "Notes": "",
-            "PlaceID": "falun_dalama_county_sweden",
-            "StartCitation": "",
-            "StartDate": "1902-12-64",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 57,
-            "Notes": "visits Alexander Calder",
-            "PlaceID": "sache_indre_et_loire_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-65",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 58,
-            "Notes": "Carlos Franqui invites Lam a second time for solo exhibition. Filmed by Manuel Lamar. Lam meets Fidel Castro. Visits with sister Augustina",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-66",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 59,
-            "Notes": "layover with Aeroflot direct from Havana",
-            "PlaceID": "moscow_russia",
-            "StartCitation": "",
-            "StartDate": "1902-12-67",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 60,
-            "Notes": "visits with Picasso",
-            "PlaceID": "mougins_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-68",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 61,
-            "Notes": "",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-69",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 62,
-            "Notes": "attends funeral of Andre Breton, Graham Greene, 11-19 Grand and Petit Palais Picasso Major Retrospective",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-70",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 63,
-            "Notes": "attends a retrospective of his work",
-            "PlaceID": "amsterdam_holland",
-            "StartCitation": "",
-            "StartDate": "1902-12-71",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 64,
-            "Notes": "attends a retrospective of his work",
-            "PlaceID": "brussels_belgium",
-            "StartCitation": "",
-            "StartDate": "1902-12-72",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 65,
-            "Notes": "attends a retrospective of his work",
-            "PlaceID": "stockholm_sweden",
-            "StartCitation": "",
-            "StartDate": "1902-12-73",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 66,
-            "Notes": "visits the 23rd Salon de Mai",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-74",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 67,
-            "Notes": "visits Cuba to organize exhibition of 100 artisits chosen with Lou Laurin with Fidel Castro. For the Salon, scheduled to take place from July 30 to September 7 in Havana and from September to October in Santiago. Lam was there, waiting on the tarmac, to welcome the new arrivals: Zette and Michel Leiris, Camacho, Cardénas, José Pierre, Zimbacca, Jean Schuster, Appel, César, Corneille, Erro, Hundertwasser, Pignon, Poliakoff, Vasarely, Monory, Ribeyrolles, Adami, Alechinsky, Arman, Penrose, Jouffroy, Luca, Nadeau",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-75",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 68,
-            "Notes": "",
-            "PlaceID": "france",
-            "StartCitation": "",
-            "StartDate": "1902-12-76",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 69,
-            "Notes": "goes to Habana Libre Hotel. late December, in the company of Leiris, Césaire, Jorn, Naville, Max-Pol Fouchet, Georges Limbour, Joyce Mansour, Matta, Jouffroy, René Louis des Forêts, Dionys Mascolo, Duras, Alechinsky, Edouard Pignon, Jean Schuster, Maurice Nadeau. Listened to Castro's speeches. In January takes friends to his birthplace Sagua La Grande. ",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-77",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 70,
-            "Notes": "",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-78",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 71,
-            "Notes": "birth of son Jonas with Lou Laurin, moves to apartment at Boulevard de Beauséjour in Paris",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-79",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1969-09-15",
-            "EndType": "latest_presence",
-            "EntryIndex": 72,
-            "Notes": "visits VIIe Bienalle de Menton",
-            "PlaceID": "menton_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-80",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 73,
-            "Notes": "commemoration of the 30th Anniversary of the American Rescue Committee",
-            "PlaceID": "france",
-            "StartCitation": "",
-            "StartDate": "1902-12-81",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 74,
-            "Notes": "attends the inauguration of the Musée national des Arts et Traditions populaires ",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-82",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 75,
-            "Notes": "attends the Venice Biennal",
-            "PlaceID": "venice_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-83",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 76,
-            "Notes": "visits Picasso exhibition after his death",
-            "PlaceID": "avignon_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-84",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 77,
-            "Notes": "",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-85",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 78,
-            "Notes": "visits the Benares Shoals and Mahabalipuram (southern India) for the Holidays, on the coast, in the north at Pondicherry where they visit the ruins of the sanctuary consecrated to Shiva and Vishnu from the 12th century",
-            "PlaceID": "india",
-            "StartCitation": "",
-            "StartDate": "1902-12-86",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 79,
-            "Notes": "",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-87",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 80,
-            "Notes": "visits for easter holiday",
-            "PlaceID": "greece",
-            "StartCitation": "",
-            "StartDate": "1902-12-88",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 81,
-            "Notes": "",
-            "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-89",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 82,
-            "Notes": "visits for easter holiday",
-            "PlaceID": "nairobi_kenya",
-            "StartCitation": "",
-            "StartDate": "1902-12-90",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 83,
-            "Notes": "reconnects with Gabriel Garcia Marquez and Rene Portocarrero",
-            "PlaceID": "havana_cuba",
-            "StartCitation": "",
-            "StartDate": "1902-12-91",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 84,
-            "Notes": "visits the Centre Pompidou",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-92",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 85,
-            "Notes": "",
-            "PlaceID": "alicante_spain",
-            "StartCitation": "",
-            "StartDate": "1902-12-93",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 86,
-            "Notes": "",
-            "PlaceID": "madrid_spain",
-            "StartCitation": "",
-            "StartDate": "1902-12-94",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 87,
-            "Notes": "",
-            "PlaceID": "barcelona_spain",
-            "StartCitation": "",
-            "StartDate": "1902-12-95",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 88,
-            "Notes": "",
-            "PlaceID": "brussels_belgium",
-            "StartCitation": "",
-            "StartDate": "1902-12-96",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 89,
-            "Notes": "",
-            "PlaceID": "london_england",
-            "StartCitation": "",
-            "StartDate": "1902-12-97",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 90,
-            "Notes": "",
-            "PlaceID": "vienna_austria",
-            "StartCitation": "",
-            "StartDate": "1902-12-98",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 91,
-            "Notes": "",
-            "PlaceID": "turin_italy",
-            "StartCitation": "",
-            "StartDate": "1902-12-99",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 99,
-            "Notes": "passes away",
-            "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1902-12-10",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 100,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-08",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 101,
-            "Notes": "Leaves Cuba to study art under Fernando Alvarez de Sotomayor y Zaragoza, curator of Museo del Prado",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-09",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1938",
-            "EndType": "departure",
-            "EntryIndex": 102,
-            "Notes": "Spanish Civil War, injury",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-10",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1940",
-            "EndType": "departure",
-            "EntryIndex": 103,
-            "Notes": "Meets Picasso with letter of introduction",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-11",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 104,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-12",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 105,
-            "Notes": "Left with André Breton and Claude Levi-Strauss for Martinique and interned at Lazaret Camp for 40 days allowed to leave for Cuba",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-13",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 106,
-            "Notes": "aboard the cargo ship Presidente Trujillo",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-14",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 107,
-            "Notes": "visa",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-15",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 108,
-            "Notes": "visa",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-16",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 109,
-            "Notes": "Forced exile. Did not receive visa for NY or Mexico must return to Cuba.",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-17",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1946",
-            "EndType": "departure",
-            "EntryIndex": 110,
-            "Notes": "Invited with his wife by Pierre Mabille, 4 months with André Breton",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-18",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 111,
-            "Notes": "Stopover through Breton encounters Marcel Duchamp and Jeanne Raynal who present him to Nicolas Calas, Roberto Matta, Isamu Nogochi, Arshile Gorky, Robert Motherwell, Sonia Sekula, David Hare, Gerome Kamrowski, Frederick Kiesler",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-19",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 112,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-20",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 113,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-21",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1948-09",
-            "EndType": "departure",
-            "EntryIndex": 114,
-            "Notes": "Summer months, his wife Helena finds work in NY",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-22",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1951-05",
-            "EndType": "departure",
-            "EntryIndex": 115,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-23",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 116,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-24",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 117,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-25",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 118,
-            "Notes": "Decides to settle in Paris because of unrest under Batista ",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-26",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 119,
-            "Notes": "Watches a bullfight with Picasso",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-27",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 120,
-            "Notes": "Sundays with Césaire \"He joined Césaire every Sunday for afternoons of conversation with a group of friends, hosted by Césaire's Martiniquan friends Dr Auguste Thésee and his wife Françoise. After a Creole meal, their animated discussions were the occasion for Lam to indulge in another of his passions: economics and politics.\"",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-28",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 121,
-            "Notes": "Lam won the gold medal of the Lissone Prize, awarded to foreigners, for his large canvas La Fiancée.",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-29",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 122,
-            "Notes": "Met with art critic Alain Jouffroy",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-30",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 123,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-31",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 124,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-32",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 125,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-33",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 126,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-34",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 127,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-35",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 128,
-            "Notes": "Returned for medical care after contracting chlorosis in travels through the Maroni, Orinoco and Amazon rivers.",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-36",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 129,
-            "Notes": "Centro de Bellas Artes ",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-37",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 130,
-            "Notes": "Inaguration of his fresco at botanical gardens",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-38",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1957-11",
-            "EndType": "departure",
-            "EntryIndex": 131,
-            "Notes": "Time spent with future wife Lou Laurin",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-39",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 132,
-            "Notes": "With Lou Laurin, Funeral of Diego Rivera",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-40",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 133,
-            "Notes": "Towards end of February, meets with José Álvarez Baragaño",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-41",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 134,
-            "Notes": "The day of a general strike in Cuba",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-42",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 135,
-            "Notes": "Met up with friends Jesse Fernández, Carlos Rigaudias, Eugenio Granell",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-43",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 136,
-            "Notes": "stayed with their friends the Crippas, then Jorn",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-44",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 137,
-            "Notes": "Enrico Baj was working with ceramics",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-45",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 138,
-            "Notes": "Elected for the Graham Foundation for Advanced Studies in the Fine Arts",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-46",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1959-07",
-            "EndType": "departure",
-            "EntryIndex": 139,
-            "Notes": "Summer with Lou Laurin",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-47",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 140,
-            "Notes": "Marriage to Lou Laurin",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-48",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 141,
-            "Notes": "Invited by Lindy and Edwin Bergman",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-49",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 142,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-50",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 143,
-            "Notes": "Birth of son with Lou Laurin, Eskil",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-51",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1961-08",
-            "EndType": "departure",
-            "EntryIndex": 144,
-            "Notes": "Summer months spent here",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-52",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 145,
-            "Notes": "Second son with Lou Laurin born, Timour",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-53",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 146,
-            "Notes": "Summer spent in Albissola again before establishing a studio for next 20 years",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-54",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 147,
-            "Notes": "Hailed as a hero and \"national painter\"",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-55",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 148,
-            "Notes": "Attended the annual festival of ceramics, at which he was again in the company of his friends Jorn and Fontana, but also the sculptors Agenore Fabbri and Aligi Sassu, the Polish artist Maria Papa Rostkowska and her companion, and the art critic San Lazzaro, who founded the Parisian gallery and review XXe Siècle the year before and which published one of Lam’s color lithographs, Affinités ambiguës. Lam began designing and executing a mosaic for the boardwalk in Albissola, his participation in a commissioned work involving some thirty local artists, most of them Italian",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-56",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 149,
-            "Notes": "The family settled into an apartment on the Rue de la Convention in the 15th arrondissement – the children's education being the primary motive for choosing Paris. Every month, Lam commuted between Albissola and Paris to be with them.",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-57",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 150,
-            "Notes": "Received Guggenheim International Award",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-58",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 151,
-            "Notes": "Marzotto Prize",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-59",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 152,
-            "Notes": "Summer with Gherasmin Luca",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-60",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 153,
-            "Notes": "Zette and Michele Leiris",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-61",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 154,
-            "Notes": "Participated in a sort of happening on the plaza of the Contrescarpe, Paris. Participating artists: Alechinsky, Matta, Adami, Arroyo, J.-J. Lebel and Rotella. Organized by the Italian art dealer, Ivanohe Trivulzio, they burned 13 canvases after producing photo-lithographs of each painting – a gesture to promote affordable art.",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-62",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 155,
-            "Notes": "Summer with family",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-63",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 156,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-64",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 157,
-            "Notes": "Invited to visit Alexander Calder",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-65",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 158,
-            "Notes": "Carlos Franqui invites for a second time for solo exhibition. Filmed by Manuel Lamar. Lam meets Fidel Castro. Visits with sister Augustina",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-66",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 159,
-            "Notes": "Layover with Aeroflot direct from Havana",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-67",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 160,
-            "Notes": "Visit with Picasso",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-68",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 161,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-69",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 162,
-            "Notes": "Funeral of Andre Breton, Graham Greene, 11-19 Grand and Petit Palais Picasso Major Retrospective",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-70",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 163,
-            "Notes": "Retrospective",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-71",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 164,
-            "Notes": "Retrospective",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-72",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 165,
-            "Notes": "Retrospective",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-73",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 166,
-            "Notes": "23rd Salon de Mai",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-74",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 167,
-            "Notes": "Flew with family to Cuba to organize exhibition of 100 artisits chosen with Lou Laurin with Fidel Castro. For the Salon, scheduled to take place from July 30 to September 7 in Havana and from September to October in Santiago. Lam was there, waiting on the tarmac, to welcome the new arrivals: Zette and Michel Leiris, Camacho, Cardénas, José Pierre, Zimbacca, Jean Schuster, Appel, César, Corneille, Erro, Hundertwasser, Pignon, Poliakoff, Vasarely, Monory, Ribeyrolles, Adami, Alechinsky, Arman, Penrose, Jouffroy, Luca, Nadeau",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-75",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 168,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-76",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 169,
-            "Notes": "Habana Libre Hotel. Late December, in the company of Leiris, Césaire, Jorn, Naville, Max-Pol Fouchet, Georges Limbour, Joyce Mansour, Matta, Jouffroy, René Louis des Forêts, Dionys Mascolo, Duras, Alechinsky, Edouard Pignon, Jean Schuster, Maurice Nadeau. Listened to Castro's speeches. In January takes friedns to his birthplace Sagua La Grande. ",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-77",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 170,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-78",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 171,
-            "Notes": "Birth of son Jonas with Lou Laurin, moves to apartment at Boulevard de Beauséjour in Paris",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-79",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1969-09-15",
-            "EndType": "latest_presence",
-            "EntryIndex": 172,
-            "Notes": "VIIe Bienalle de Menton",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-80",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 173,
-            "Notes": "commemoration of the 30th Anniversary of the American Rescue Committee",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-81",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 174,
-            "Notes": "Musée national des Arts et Traditions populaires inauguration",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-82",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 175,
-            "Notes": "Venice Biennal",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-83",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 176,
-            "Notes": "To visit Picasso exhibition after his death",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-84",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 177,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-85",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 178,
-            "Notes": "Family Christmas holidays, the Benares Shoals and Mahabalipuram (southern India), on the coast, in the north at Pondicherry where they visited the ruins of the sanctuary consecrated to Shiva and Vishnu from the 12th century",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-86",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 179,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-87",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 180,
-            "Notes": "Easter holiday",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-88",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 181,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-89",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 182,
-            "Notes": "Easter holiday",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-90",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 183,
-            "Notes": "Reconnected with Gabriel Garcia Marquez and Rene Portocarrero",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-91",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 184,
-            "Notes": "Centre Pompidou",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-92",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 185,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-93",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 186,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-94",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 187,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-95",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 188,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-96",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 189,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-97",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 190,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-98",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 191,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-99",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 199,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-100",
-            "StartType": "arrival"
         }
     ],
     "1903-01": [
@@ -7223,7 +5003,20 @@
         }
     ],
     "1922-12": [],
-    "1923-01": [],
+    "1923-01": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 1,
+            "Notes": "leaves Cuba to study art under Fernando Alvarez de Sotomayor y Zaragoza, curator of Museo del Prado",
+            "PlaceID": "madrid_spain",
+            "StartCitation": "",
+            "StartDate": "1923",
+            "StartType": "earliest_presence"
+        }
+    ],
     "1923-02": [
         {
             "AuthorID": "webdubois",
@@ -10934,7 +8727,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1937-02": [],
+    "1937-02": [
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 0,
+            "Notes": "Maryse Condé is born",
+            "PlaceID": "point_a_pitre_guadeloupe",
+            "StartCitation": "île en île",
+            "StartDate": "1937-02-11",
+            "StartType": "arrival"
+        }
+    ],
     "1937-03": [
         {
             "AuthorID": "kdunham",
@@ -10954,7 +8760,20 @@
     "1937-06": [],
     "1937-07": [],
     "1937-08": [],
-    "1937-09": [],
+    "1937-09": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "1938",
+            "EndType": "departure",
+            "EntryIndex": 2,
+            "Notes": "receives injury during the Spanish Civil War",
+            "PlaceID": "barcelona_spain",
+            "StartCitation": "",
+            "StartDate": "1937-09",
+            "StartType": "arrival"
+        }
+    ],
     "1937-10": [],
     "1937-11": [],
     "1937-12": [],
@@ -10992,19 +8811,19 @@
             "Notes": "receives injury during the Spanish Civil War",
             "PlaceID": "barcelona_spain",
             "StartCitation": "",
-            "StartDate": "1902-12-10",
+            "StartDate": "1937-09",
             "StartType": "arrival"
         },
         {
             "AuthorID": "wlam",
             "EndCitation": "",
-            "EndDate": "1938",
+            "EndDate": "1940",
             "EndType": "departure",
-            "EntryIndex": 102,
-            "Notes": "Spanish Civil War, injury",
-            "PlaceID": "",
+            "EntryIndex": 3,
+            "Notes": "meets Picasso with letter of introduction",
+            "PlaceID": "paris_france",
             "StartCitation": "",
-            "StartDate": "1902-12-10",
+            "StartDate": "1938",
             "StartType": "arrival"
         },
         {
@@ -11459,19 +9278,19 @@
             "Notes": "meets Picasso with letter of introduction",
             "PlaceID": "paris_france",
             "StartCitation": "",
-            "StartDate": "1902-12-11",
+            "StartDate": "1938",
             "StartType": "arrival"
         },
         {
             "AuthorID": "wlam",
             "EndCitation": "",
-            "EndDate": "1940",
-            "EndType": "departure",
-            "EntryIndex": 103,
-            "Notes": "Meets Picasso with letter of introduction",
-            "PlaceID": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 4,
+            "Notes": "",
+            "PlaceID": "marseilles_france",
             "StartCitation": "",
-            "StartDate": "1902-12-11",
+            "StartDate": "1940",
             "StartType": "arrival"
         },
         {
@@ -11660,6 +9479,18 @@
             "StartCitation": "Cooper 304",
             "StartDate": "1934-12",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 5,
+            "Notes": "leaves with André Breton and Claude Levi-Strauss for Martinique, and is interned at Lazaret Camp for 40 days",
+            "PlaceID": "martinique",
+            "StartCitation": "",
+            "StartDate": "1941",
+            "StartType": "arrival"
         }
     ],
     "1941-02": [
@@ -11703,6 +9534,18 @@
             "StartCitation": "Lewis, Fight 484",
             "StartDate": "1941-05",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 6,
+            "Notes": "leaves for Cuba aboard the cargo ship Presidente Trujillo",
+            "PlaceID": "guadeloupe",
+            "StartCitation": "",
+            "StartDate": "1941-05-16",
+            "StartType": "arrival"
         }
     ],
     "1941-06": [
@@ -11753,6 +9596,18 @@
             "StartCitation": "Claude McKay research collection, 1971-1992, Folder 5--Schomburg Center",
             "StartDate": "1941-06-10",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 7,
+            "Notes": "does not receive visa for NY or Mexico and must return to Cuba",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "",
+            "StartDate": "1941-06",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "egrobeson",
@@ -12830,6 +10685,18 @@
     ],
     "1945-12": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "1946",
+            "EndType": "departure",
+            "EntryIndex": 8,
+            "Notes": "invited with his wife by Pierre Mabille, 4 months with André Breton",
+            "PlaceID": "port_au_prince_haiti",
+            "StartCitation": "",
+            "StartDate": "1945-12-07",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1946-04",
@@ -12848,23 +10715,11 @@
             "EndCitation": "",
             "EndDate": "1946",
             "EndType": "departure",
-            "EntryIndex": 10,
+            "EntryIndex": 8,
             "Notes": "invited with his wife by Pierre Mabille, 4 months with André Breton",
             "PlaceID": "port_au_prince_haiti",
             "StartCitation": "",
-            "StartDate": "1902-12-18",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1946",
-            "EndType": "departure",
-            "EntryIndex": 110,
-            "Notes": "Invited with his wife by Pierre Mabille, 4 months with André Breton",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-18",
+            "StartDate": "1945-12-07",
             "StartType": "arrival"
         },
         {
@@ -13129,6 +10984,18 @@
         }
     ],
     "1946-07": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 9,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1946-07-09",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -13772,6 +11639,18 @@
     ],
     "1948-06": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "1948-09",
+            "EndType": "departure",
+            "EntryIndex": 10,
+            "Notes": "his wife Helena finds work in NY",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "",
+            "StartDate": "1948-06",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Clark and Johnson 2005, 306",
             "EndDate": "1948-09",
@@ -13841,23 +11720,11 @@
             "EndCitation": "",
             "EndDate": "1948-09",
             "EndType": "departure",
-            "EntryIndex": 14,
+            "EntryIndex": 10,
             "Notes": "his wife Helena finds work in NY",
             "PlaceID": "new_york_new_york_usa",
             "StartCitation": "",
-            "StartDate": "1902-12-22",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1948-09",
-            "EndType": "departure",
-            "EntryIndex": 114,
-            "Notes": "Summer months, his wife Helena finds work in NY",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-22",
+            "StartDate": "1948-06",
             "StartType": "arrival"
         },
         {
@@ -14606,6 +12473,18 @@
     ],
     "1950-11": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "1951-05",
+            "EndType": "departure",
+            "EntryIndex": 11,
+            "Notes": "",
+            "PlaceID": "santiago_de_las_vegas_cuba",
+            "StartCitation": "",
+            "StartDate": "1950-11",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Das 2017; Clark and Johnson 2005, 345",
             "EndDate": "1950-12-09",
@@ -14754,23 +12633,23 @@
             "EndCitation": "",
             "EndDate": "1951-05",
             "EndType": "departure",
-            "EntryIndex": 15,
+            "EntryIndex": 11,
             "Notes": "",
             "PlaceID": "santiago_de_las_vegas_cuba",
             "StartCitation": "",
-            "StartDate": "1902-12-23",
+            "StartDate": "1950-11",
             "StartType": "arrival"
         },
         {
             "AuthorID": "wlam",
             "EndCitation": "",
-            "EndDate": "1951-05",
-            "EndType": "departure",
-            "EntryIndex": 115,
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 12,
             "Notes": "",
-            "PlaceID": "",
+            "PlaceID": "europe",
             "StartCitation": "",
-            "StartDate": "1902-12-23",
+            "StartDate": "1951-05",
             "StartType": "arrival"
         },
         {
@@ -14941,6 +12820,18 @@
             "StartCitation": "Lewis, Fight 558",
             "StartDate": "1952",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 13,
+            "Notes": "",
+            "PlaceID": "cuba",
+            "StartCitation": "",
+            "StartDate": "1952",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "kdunham",
@@ -15197,6 +13088,18 @@
     ],
     "1952-08": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 14,
+            "Notes": "decides to settle in Paris because of unrest under Batista ",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1952-08",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Das 2017; Love Letters from I Tatti vol 2",
             "EndDate": "1952-08",
@@ -15422,6 +13325,18 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 15,
+            "Notes": "watches a bullfight with Picasso",
+            "PlaceID": "mougins_france",
+            "StartCitation": "",
+            "StartDate": "1953",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "rdepestre",
             "EndCitation": "Depestre, Bonsoir, tendresse (182)",
             "EndDate": "1953-07",
@@ -15432,6 +13347,18 @@
             "StartCitation": "Depestre, Bonsoir, tendresse",
             "StartDate": "1953",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 1,
+            "Notes": "sent by her parents to study in Paris, first at Lycée Fenelon then at the Sorbonne, where she majors in English",
+            "PlaceID": "paris_france",
+            "StartCitation": "Pfaff 16",
+            "StartDate": "1953",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "kdunham",
@@ -15641,6 +13568,18 @@
     "1953-08": [],
     "1953-09": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 16,
+            "Notes": "wins the gold medal of the Lissone Prize, awarded to foreigners, for his large canvas La Fiancée.",
+            "PlaceID": "italy",
+            "StartCitation": "",
+            "StartDate": "1953-09",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1953-09-03",
@@ -15705,6 +13644,18 @@
             "PlaceID": "london_england",
             "StartCitation": "Buhle 175",
             "StartDate": "1954",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 17,
+            "Notes": "meets with art critic Alain Jouffroy",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1954-01",
             "StartType": "arrival"
         },
         {
@@ -15988,6 +13939,18 @@
     ],
     "1955-05": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 18,
+            "Notes": "",
+            "PlaceID": "caracas_venezuela",
+            "StartCitation": "",
+            "StartDate": "1955-05",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "rdepestre",
             "EndCitation": "Depestre archive, BFM Limoges, dated poem \"Lettre à ma mère\"",
             "EndDate": "1955-05-31",
@@ -16024,7 +13987,20 @@
             "StartType": "arrival"
         }
     ],
-    "1955-06": [],
+    "1955-06": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 19,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1955-06",
+            "StartType": "arrival"
+        }
+    ],
     "1955-07": [
         {
             "AuthorID": "kdunham",
@@ -16066,6 +14042,18 @@
         }
     ],
     "1955-09": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 20,
+            "Notes": "",
+            "PlaceID": "sweden",
+            "StartCitation": "",
+            "StartDate": "1955-09",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "kdunham",
             "EndCitation": "Dunham, \"Love Letters From I Tatti\"",
@@ -16182,6 +14170,18 @@
         }
     ],
     "1956-01": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 21,
+            "Notes": "",
+            "PlaceID": "brazil",
+            "StartCitation": "",
+            "StartDate": "1956",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
@@ -16672,6 +14672,18 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 23,
+            "Notes": "visits on the inaguration of his fresco at botanical gardens",
+            "PlaceID": "caracas_venezuela",
+            "StartCitation": "",
+            "StartDate": "1957",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "rdepestre",
             "EndCitation": "Couffon",
             "EndDate": "1957",
@@ -16684,7 +14696,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1957-02": [],
+    "1957-02": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 22,
+            "Notes": "visits the Centro de Bellas Artes ",
+            "PlaceID": "maracaibo_venezuela",
+            "StartCitation": "",
+            "StartDate": "1957-02",
+            "StartType": "arrival"
+        }
+    ],
     "1957-03": [
         {
             "AuthorID": "clrjames",
@@ -16816,6 +14841,18 @@
     ],
     "1957-08": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "1957-11",
+            "EndType": "departure",
+            "EntryIndex": 24,
+            "Notes": "spends time with future wife Lou Laurin",
+            "PlaceID": "italy",
+            "StartCitation": "",
+            "StartDate": "1957-08",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1957-12",
@@ -16873,24 +14910,24 @@
             "EndCitation": "",
             "EndDate": "1957-11",
             "EndType": "departure",
-            "EntryIndex": 31,
+            "EntryIndex": 24,
             "Notes": "spends time with future wife Lou Laurin",
             "PlaceID": "italy",
             "StartCitation": "",
-            "StartDate": "1902-12-39",
-            "StartType": "arrival"
+            "StartDate": "1957-08",
+            "StartType": "earliest_presence"
         },
         {
             "AuthorID": "wlam",
             "EndCitation": "",
-            "EndDate": "1957-11",
-            "EndType": "departure",
-            "EntryIndex": 131,
-            "Notes": "Time spent with future wife Lou Laurin",
-            "PlaceID": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 25,
+            "Notes": "visits with Lou Laurin the funeral of Diego Rivera",
+            "PlaceID": "mexico_city_mexico",
             "StartCitation": "",
-            "StartDate": "1902-12-39",
-            "StartType": "arrival"
+            "StartDate": "1957-11",
+            "StartType": "earliest_presence"
         },
         {
             "AuthorID": "kdunham",
@@ -16981,6 +15018,18 @@
             "StartType": "earliest_presence"
         },
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 28,
+            "Notes": "meets with friends Jesse Fernández, Carlos Rigaudias, Eugenio Granell",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "",
+            "StartDate": "1958",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1958-03",
@@ -17053,7 +15102,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1958-02": [],
+    "1958-02": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 26,
+            "Notes": "meets with José Álvarez Baragaño towards end of February",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "",
+            "StartDate": "1958-02",
+            "StartType": "arrival"
+        }
+    ],
     "1958-03": [
         {
             "AuthorID": "acesaire",
@@ -17081,6 +15143,18 @@
         }
     ],
     "1958-04": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 27,
+            "Notes": "leaves because of the general strike in Cuba",
+            "PlaceID": "miami_florida_usa",
+            "StartCitation": "",
+            "StartDate": "1958-04-09",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "egrobeson",
             "EndCitation": "Ransby 236",
@@ -17209,6 +15283,18 @@
             "StartType": "earliest_presence"
         },
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 29,
+            "Notes": "stayed with his friends the Crippas, then Jorn",
+            "PlaceID": "albissola_savona_liguria_italy",
+            "StartCitation": "",
+            "StartDate": "1958-08",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "egrobeson",
             "EndCitation": "",
             "EndDate": "1958-12-31",
@@ -17222,7 +15308,20 @@
         }
     ],
     "1958-09": [],
-    "1958-10": [],
+    "1958-10": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 30,
+            "Notes": "is elected for the Graham Foundation for Advanced Studies in the Fine Arts",
+            "PlaceID": "chicago_illinois_usa",
+            "StartCitation": "",
+            "StartDate": "1958-10",
+            "StartType": "arrival"
+        }
+    ],
     "1958-11": [
         {
             "AuthorID": "webdubois",
@@ -17502,6 +15601,18 @@
     "1959-05": [],
     "1959-06": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "1959-07",
+            "EndType": "departure",
+            "EntryIndex": 31,
+            "Notes": "spends summer with Lou Laurin",
+            "PlaceID": "albissola_savona_liguria_italy",
+            "StartCitation": "",
+            "StartDate": "1959-06",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "egrobeson",
             "EndCitation": "Ransby 288",
             "EndDate": "1959-08",
@@ -17568,27 +15679,27 @@
             "EndCitation": "",
             "EndDate": "1959-07",
             "EndType": "departure",
-            "EntryIndex": 39,
+            "EntryIndex": 31,
             "Notes": "spends summer with Lou Laurin",
             "PlaceID": "albissola_savona_liguria_italy",
             "StartCitation": "",
-            "StartDate": "1902-12-47",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1959-07",
-            "EndType": "departure",
-            "EntryIndex": 139,
-            "Notes": "Summer with Lou Laurin",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-47",
+            "StartDate": "1959-06",
             "StartType": "arrival"
         }
     ],
     "1959-08": [
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 2,
+            "Notes": "marries Mamadou Condé",
+            "PlaceID": "paris_france",
+            "StartCitation": "Pfaff 19",
+            "StartDate": "1959-08",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "egrobeson",
             "EndCitation": "Ransby 288",
@@ -17640,7 +15751,20 @@
     ],
     "1959-09": [],
     "1959-10": [],
-    "1959-11": [],
+    "1959-11": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 32,
+            "Notes": "marries Lou Laurin",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "",
+            "StartDate": "1959-11-21",
+            "StartType": "arrival"
+        }
+    ],
     "1959-12": [],
     "1960-01": [
         {
@@ -17702,6 +15826,42 @@
             "StartCitation": "Île-en-île",
             "StartDate": "1960",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 3,
+            "Notes": "teaches French in a high school",
+            "PlaceID": "bingerville_ivory_coast",
+            "StartCitation": "Pfaff 19",
+            "StartDate": "1960",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 5,
+            "Notes": "presents her daughter to her in- laws in the summer",
+            "PlaceID": "guinea",
+            "StartCitation": "Pfaff 20 ",
+            "StartDate": "1960",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "Pfaff 23",
+            "EndDate": "1964",
+            "EndType": "departure",
+            "EntryIndex": 6,
+            "Notes": "introduced to marxism",
+            "PlaceID": "conakry_guinea",
+            "StartCitation": "Pfaff 21",
+            "StartDate": "1960",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "kbrathwaite",
@@ -17792,7 +15952,20 @@
             "StartType": "arrival"
         }
     ],
-    "1960-04": [],
+    "1960-04": [
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 4,
+            "Notes": "birth of her daughter Sylvie",
+            "PlaceID": "abidjan_ivory_coast",
+            "StartCitation": "Pfaff 20",
+            "StartDate": "1960-04-03",
+            "StartType": "arrival"
+        }
+    ],
     "1960-05": [],
     "1960-06": [
         {
@@ -18044,6 +16217,18 @@
     ],
     "1961-05": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 33,
+            "Notes": "birth of son with Lou Laurin, Eskil",
+            "PlaceID": "copenhagen_denmark",
+            "StartCitation": "",
+            "StartDate": "1961-05-24",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "rdepestre",
             "EndCitation": "Chemla, 100",
             "EndDate": "1961-05",
@@ -18082,6 +16267,18 @@
     ],
     "1961-06": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "1961-08",
+            "EndType": "departure",
+            "EntryIndex": 34,
+            "Notes": "spends summer months",
+            "PlaceID": "albissola_savona_liguria_italy",
+            "StartCitation": "",
+            "StartDate": "1961-06",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "1961-06",
@@ -18113,23 +16310,11 @@
             "EndCitation": "",
             "EndDate": "1961-08",
             "EndType": "departure",
-            "EntryIndex": 44,
+            "EntryIndex": 34,
             "Notes": "spends summer months",
             "PlaceID": "albissola_savona_liguria_italy",
             "StartCitation": "",
-            "StartDate": "1902-12-52",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1961-08",
-            "EndType": "departure",
-            "EntryIndex": 144,
-            "Notes": "Summer months spent here",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-52",
+            "StartDate": "1961-06",
             "StartType": "arrival"
         },
         {
@@ -18378,6 +16563,18 @@
     "1962-05": [],
     "1962-06": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 35,
+            "Notes": "second son with Lou Laurin  is born, Timour",
+            "PlaceID": "zurich_switzerland",
+            "StartCitation": "",
+            "StartDate": "1962-06-06",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Clark and Johnson 2005, fig. 22 (p. 170), 407",
             "EndDate": "1962-07",
@@ -18391,6 +16588,18 @@
         }
     ],
     "1962-07": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 36,
+            "Notes": "summer spent in Albissola again before establishing a studio for the next 20 years",
+            "PlaceID": "albissola_savona_liguria_italy",
+            "StartCitation": "",
+            "StartDate": "1962-07",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "kdunham",
             "EndCitation": "Clark and Johnson 2005, fig. 22 (p. 170), 407",
@@ -18613,6 +16822,18 @@
     ],
     "1963-05": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 37,
+            "Notes": "hailed as a hero and \"national painter\"",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "",
+            "StartDate": "1963-05-01",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "",
@@ -18627,6 +16848,18 @@
     ],
     "1963-06": [],
     "1963-07": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 38,
+            "Notes": "attends the annual festival of ceramics, at which he was again in the company of his friends Jorn and Fontana, but also the sculptors Agenore Fabbri and Aligi Sassu, the Polish artist Maria Papa Rostkowska and her companion, and the art critic San Lazzaro, who founded the Parisian gallery and review XXe Siècle the year before and which published one of Lam’s color lithographs, Affinités ambiguës. Lam also begins designing and executing a mosaic for the boardwalk in Albissola, his participation in a commissioned work involving some thirty local artists, most of them Italian",
+            "PlaceID": "albissola_savona_liguria_italy",
+            "StartCitation": "",
+            "StartDate": "1963-07",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -18668,6 +16901,18 @@
     ],
     "1963-09": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 39,
+            "Notes": "the family settles into an apartment on the Rue de la Convention in the 15th arrondissement, the children's education being the primary motive for choosing Paris. Every month, Lam commutes between Albissola and Paris to be with them.",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1963-09",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "",
@@ -18708,6 +16953,42 @@
             "StartCitation": "CLR James Papers Box 10 Folder 9 ",
             "StartDate": "1964",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 40,
+            "Notes": "receives the Guggenheim International Award",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "",
+            "StartDate": "1964-01",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "Pfaff 23",
+            "EndDate": "1964",
+            "EndType": "departure",
+            "EntryIndex": 6,
+            "Notes": "introduced to marxism",
+            "PlaceID": "conakry_guinea",
+            "StartCitation": "Pfaff 21",
+            "StartDate": "1960",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "Pfaff 26",
+            "EndDate": "1966",
+            "EndType": "departure",
+            "EntryIndex": 7,
+            "Notes": "divorces Mamadou Condé and leaves for Ghana with her children; expelled from the country after being imprisonned as a suspected spy for Sékou Touré",
+            "PlaceID": "winnebah_ghana",
+            "StartCitation": "Pfaff 26",
+            "StartDate": "1964",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "acesaire",
@@ -18943,7 +17224,20 @@
         }
     ],
     "1964-11": [],
-    "1964-12": [],
+    "1964-12": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 41,
+            "Notes": "participates in a sort of happening on the plaza of the Contrescarpe, Paris. Participating artists: Alechinsky, Matta, Adami, Arroyo, J.-J. Lebel and Rotella. Organized by the Italian art dealer, Ivanohe Trivulzio, they burned 13 canvases after producing photo-lithographs of each painting – a gesture to promote affordable art.",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1964-12-18",
+            "StartType": "arrival"
+        }
+    ],
     "1965-01": [
         {
             "AuthorID": "clrjames",
@@ -18954,6 +17248,30 @@
             "Notes": "",
             "PlaceID": "port_of_spain_trinidad",
             "StartCitation": "Worcester 169",
+            "StartDate": "1965",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 42,
+            "Notes": "spends summer with family",
+            "PlaceID": "stockholm_sweden",
+            "StartCitation": "",
+            "StartDate": "1965",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 43,
+            "Notes": "",
+            "PlaceID": "falun_dalama_county_sweden",
+            "StartCitation": "",
             "StartDate": "1965",
             "StartType": "arrival"
         },
@@ -19143,6 +17461,18 @@
     "1965-11": [],
     "1965-12": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 44,
+            "Notes": "Carlos Franqui invites Lam a second time for solo exhibition. Filmed by Manuel Lamar. Lam meets Fidel Castro. Visits with sister Augustina",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "",
+            "StartDate": "1965-12-26",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Clark and Johnson, 410, 412",
             "EndDate": "1965-12",
@@ -19165,6 +17495,30 @@
             "Notes": "delivers lecture \"The Making of the Caribbean Peoples\" at Second Conference on West Indian Affairs; delivers lecture \"Existentialism and Marxism\" ",
             "PlaceID": "montreal_canada",
             "StartCitation": "Worcester 169; CLR James Papers Box 10 Folder 16, CLR James Papers Box 10 Folder 8, Austin 15 ",
+            "StartDate": "1966",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "Pfaff 26",
+            "EndDate": "1966",
+            "EndType": "departure",
+            "EntryIndex": 7,
+            "Notes": "divorces Mamadou Condé and leaves for Ghana with her children; expelled from the country after being imprisonned as a suspected spy for Sékou Touré",
+            "PlaceID": "winnebah_ghana",
+            "StartCitation": "Pfaff 26",
+            "StartDate": "1964",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "Pfaff 31",
+            "EndDate": "1969",
+            "EndType": "departure",
+            "EntryIndex": 8,
+            "Notes": "works for the BBC",
+            "PlaceID": "london_england",
+            "StartCitation": "Pfaff 30",
             "StartDate": "1966",
             "StartType": "arrival"
         },
@@ -19335,7 +17689,20 @@
     "1966-06": [],
     "1966-07": [],
     "1966-08": [],
-    "1966-09": [],
+    "1966-09": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 45,
+            "Notes": "attends funeral of Andre Breton, Graham Greene, 11-19 Grand and Petit Palais Picasso Major Retrospective",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1966-09-28",
+            "StartType": "arrival"
+        }
+    ],
     "1966-10": [
         {
             "AuthorID": "clrjames",
@@ -19401,6 +17768,54 @@
             "StartCitation": "CLR James Papers Box 4 Folder 3, Austin 277 ",
             "StartDate": "1967-01",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 46,
+            "Notes": "attends a retrospective of his work",
+            "PlaceID": "amsterdam_holland",
+            "StartCitation": "",
+            "StartDate": "1967",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 47,
+            "Notes": "attends a retrospective of his work",
+            "PlaceID": "brussels_belgium",
+            "StartCitation": "",
+            "StartDate": "1967",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 48,
+            "Notes": "attends a retrospective of his work",
+            "PlaceID": "stockholm_sweden",
+            "StartCitation": "",
+            "StartDate": "1967",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 49,
+            "Notes": "visits the 23rd Salon de Mai",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1967",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "acesaire",
@@ -19545,6 +17960,18 @@
     ],
     "1967-06": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 50,
+            "Notes": "visits Cuba to organize exhibition of 100 artisits chosen with Lou Laurin with Fidel Castro. For the Salon, scheduled to take place from July 30 to September 7 in Havana and from September to October in Santiago. Lam was there, waiting on the tarmac, to welcome the new arrivals: Zette and Michel Leiris, Camacho, Cardénas, José Pierre, Zimbacca, Jean Schuster, Appel, César, Corneille, Erro, Hundertwasser, Pignon, Poliakoff, Vasarely, Monory, Ribeyrolles, Adami, Alechinsky, Arman, Penrose, Jouffroy, Luca, Nadeau",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "",
+            "StartDate": "1967-06",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Das 2017",
             "EndDate": "1967-11",
@@ -19626,6 +18053,18 @@
     ],
     "1967-11": [
         {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 51,
+            "Notes": "",
+            "PlaceID": "france",
+            "StartCitation": "",
+            "StartDate": "1967-11-14",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kdunham",
             "EndCitation": "Das 2017",
             "EndDate": "1967-11",
@@ -19673,6 +18112,18 @@
             "PlaceID": "havana_cuba",
             "StartCitation": "Salkey 11",
             "StartDate": "1967-12-29",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 52,
+            "Notes": "goes to Habana Libre Hotel. late December, in the company of Leiris, Césaire, Jorn, Naville, Max-Pol Fouchet, Georges Limbour, Joyce Mansour, Matta, Jouffroy, René Louis des Forêts, Dionys Mascolo, Duras, Alechinsky, Edouard Pignon, Jean Schuster, Maurice Nadeau. Listened to Castro's speeches. In January takes friends to his birthplace Sagua La Grande. ",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "",
+            "StartDate": "1967-12",
             "StartType": "arrival"
         },
         {
@@ -19734,6 +18185,30 @@
             "Notes": "",
             "PlaceID": "accra_ghana",
             "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1968",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 53,
+            "Notes": "",
+            "PlaceID": "albissola_savona_liguria_italy",
+            "StartCitation": "",
+            "StartDate": "1968",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 9,
+            "Notes": "",
+            "PlaceID": "senegal",
+            "StartCitation": "Poinsot/ Treiber 4",
             "StartDate": "1968",
             "StartType": "arrival"
         },
@@ -20122,6 +18597,54 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "mconde",
+            "EndCitation": "Pfaff 31",
+            "EndDate": "1969",
+            "EndType": "departure",
+            "EntryIndex": 8,
+            "Notes": "works for the BBC",
+            "PlaceID": "london_england",
+            "StartCitation": "Pfaff 30",
+            "StartDate": "1966",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 10,
+            "Notes": "goes back to Ghana to get married but changes her mind",
+            "PlaceID": "ghana",
+            "StartCitation": "Pfaff 31",
+            "StartDate": "1969",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 11,
+            "Notes": "",
+            "PlaceID": "saint_louis_senegal",
+            "StartCitation": "Pfaff 31",
+            "StartDate": "1969",
+            "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 12,
+            "Notes": "meets her second husband Richard Philcox",
+            "PlaceID": "kaolak_senegal",
+            "StartCitation": "Pfaff 31",
+            "StartDate": "1969",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "acesaire",
             "EndCitation": "",
             "EndDate": "",
@@ -20137,7 +18660,20 @@
     "1969-02": [],
     "1969-03": [],
     "1969-04": [],
-    "1969-05": [],
+    "1969-05": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 54,
+            "Notes": "birth of son Jonas with Lou Laurin, moves to apartment at Boulevard de Beauséjour in Paris",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1969-05-02",
+            "StartType": "arrival"
+        }
+    ],
     "1969-06": [
         {
             "AuthorID": "clrjames",
@@ -20164,6 +18700,18 @@
             "StartCitation": "CLR James Papers Box 11 Folder 12 ",
             "StartDate": "1969-07-10",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "1969-09-15",
+            "EndType": "latest_presence",
+            "EntryIndex": 55,
+            "Notes": "visits VIIe Bienalle de Menton",
+            "PlaceID": "menton_france",
+            "StartCitation": "",
+            "StartDate": "1969-07-01",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "rdepestre",
@@ -20209,23 +18757,11 @@
             "EndCitation": "",
             "EndDate": "1969-09-15",
             "EndType": "latest_presence",
-            "EntryIndex": 72,
+            "EntryIndex": 55,
             "Notes": "visits VIIe Bienalle de Menton",
             "PlaceID": "menton_france",
             "StartCitation": "",
-            "StartDate": "1902-12-80",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "1969-09-15",
-            "EndType": "latest_presence",
-            "EntryIndex": 172,
-            "Notes": "VIIe Bienalle de Menton",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1902-12-80",
+            "StartDate": "1969-07-01",
             "StartType": "arrival"
         }
     ],
@@ -20255,6 +18791,18 @@
             "Notes": "teaches at Federal City College and Howard University Graduate School ",
             "PlaceID": "washington_dc._usa",
             "StartCitation": "CLR James Papers Box 4 Folder 3, Buhl 175",
+            "StartDate": "1970",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 13,
+            "Notes": "works at Présence Africaine and Paris X, sends her children to Mamadou Condé",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
             "StartDate": "1970",
             "StartType": "arrival"
         },
@@ -20697,6 +19245,18 @@
             "Notes": "",
             "PlaceID": "washington_dc._usa",
             "StartCitation": "CLR James Papers Box 4 Folder 3 ",
+            "StartDate": "1971",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 56,
+            "Notes": "commemoration of the 30th Anniversary of the American Rescue Committee",
+            "PlaceID": "france",
+            "StartCitation": "",
             "StartDate": "1971",
             "StartType": "arrival"
         },
@@ -21148,6 +19708,30 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 14,
+            "Notes": "returns to France and marries her second husband, Richard Philcox",
+            "PlaceID": "france",
+            "StartCitation": "île en île",
+            "StartDate": "1973",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 15,
+            "Notes": "returns to Martinique for the first time in 17 years with her husband",
+            "PlaceID": "martinique",
+            "StartCitation": "Boisseron 142",
+            "StartDate": "1973",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "1973",
@@ -21331,6 +19915,18 @@
             "Notes": "teaches ",
             "PlaceID": "washington_dc._usa",
             "StartCitation": "Buhle 175",
+            "StartDate": "1974",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 57,
+            "Notes": "visits the Benares Shoals and Mahabalipuram (southern India) for the Holidays, on the coast, in the north at Pondicherry where they visit the ruins of the sanctuary consecrated to Shiva and Vishnu from the 12th century",
+            "PlaceID": "india",
+            "StartCitation": "",
             "StartDate": "1974",
             "StartType": "arrival"
         },
@@ -21619,7 +20215,20 @@
     ],
     "1975-02": [],
     "1975-03": [],
-    "1975-04": [],
+    "1975-04": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 58,
+            "Notes": "visits for easter holiday",
+            "PlaceID": "greece",
+            "StartCitation": "",
+            "StartDate": "1975-04",
+            "StartType": "arrival"
+        }
+    ],
     "1975-05": [
         {
             "AuthorID": "clrjames",
@@ -21740,6 +20349,18 @@
             "StartCitation": "Depestre, journal intime (September 11, 1973)",
             "StartDate": "1973-09-11",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 16,
+            "Notes": "",
+            "PlaceID": "mali",
+            "StartCitation": "Pfaff 75",
+            "StartDate": "1976",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "kbrathwaite",
@@ -21939,6 +20560,54 @@
             "StartCitation": "Buhle 175",
             "StartDate": "1976",
             "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 61,
+            "Notes": "visits the Centre Pompidou",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "1977",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 62,
+            "Notes": "",
+            "PlaceID": "alicante_spain",
+            "StartCitation": "",
+            "StartDate": "1977",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 63,
+            "Notes": "",
+            "PlaceID": "madrid_spain",
+            "StartCitation": "",
+            "StartDate": "1977",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 64,
+            "Notes": "",
+            "PlaceID": "barcelona_spain",
+            "StartCitation": "",
+            "StartDate": "1977",
+            "StartType": "arrival"
         }
     ],
     "1977-02": [],
@@ -21968,7 +20637,20 @@
             "StartType": "earliest_presence"
         }
     ],
-    "1977-04": [],
+    "1977-04": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 59,
+            "Notes": "visits for easter holiday",
+            "PlaceID": "nairobi_kenya",
+            "StartCitation": "",
+            "StartDate": "1977-04",
+            "StartType": "arrival"
+        }
+    ],
     "1977-05": [],
     "1977-06": [
         {
@@ -21994,6 +20676,18 @@
             "StartCitation": "CLR James Papers Box 1 Folder 8",
             "StartDate": "1977-06",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 60,
+            "Notes": "reconnects with Gabriel Garcia Marquez and Rene Portocarrero",
+            "PlaceID": "havana_cuba",
+            "StartCitation": "",
+            "StartDate": "1977-06",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "acesaire",
@@ -22206,7 +20900,55 @@
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
-            "EntryIndex": 92,
+            "EntryIndex": 65,
+            "Notes": "",
+            "PlaceID": "brussels_belgium",
+            "StartCitation": "",
+            "StartDate": "1978",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 66,
+            "Notes": "",
+            "PlaceID": "london_england",
+            "StartCitation": "",
+            "StartDate": "1978",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 67,
+            "Notes": "",
+            "PlaceID": "vienna_austria",
+            "StartCitation": "",
+            "StartDate": "1978",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 68,
+            "Notes": "",
+            "PlaceID": "turin_italy",
+            "StartCitation": "",
+            "StartDate": "1978",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 69,
             "Notes": "",
             "PlaceID": "albissola_savona_liguria_italy",
             "StartCitation": "",
@@ -22218,33 +20960,9 @@
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
-            "EntryIndex": 94,
+            "EntryIndex": 71,
             "Notes": "transfers here after suffering a stroke in Milan",
             "PlaceID": "saint_gall_switzerland",
-            "StartCitation": "",
-            "StartDate": "1978",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 192,
-            "Notes": "",
-            "PlaceID": "",
-            "StartCitation": "",
-            "StartDate": "1978",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 194,
-            "Notes": "Transfered here after suffering a stroke in Milan",
-            "PlaceID": "",
             "StartCitation": "",
             "StartDate": "1978",
             "StartType": "arrival"
@@ -22272,6 +20990,18 @@
             "StartCitation": "Depestre, journal intime (August 1976)",
             "StartDate": "1976-08",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 17,
+            "Notes": "teaching position at UC Santa Barbara",
+            "PlaceID": "santa_barbara_california_usa",
+            "StartCitation": "Pfaff 38 39",
+            "StartDate": "1978",
+            "StartType": "arrival"
         },
         {
             "AuthorID": "acesaire",
@@ -22410,21 +21140,9 @@
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
-            "EntryIndex": 93,
+            "EntryIndex": 70,
             "Notes": "",
             "PlaceID": "milan_italy",
-            "StartCitation": "",
-            "StartDate": "1978-08",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 193,
-            "Notes": "",
-            "PlaceID": "",
             "StartCitation": "",
             "StartDate": "1978-08",
             "StartType": "arrival"
@@ -22661,6 +21379,18 @@
             "StartType": "arrival"
         },
         {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 18,
+            "Notes": "",
+            "PlaceID": "jamaica",
+            "StartCitation": "Pfaff 85",
+            "StartDate": "1980",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "",
             "EndDate": "",
@@ -22706,21 +21436,9 @@
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
-            "EntryIndex": 95,
+            "EntryIndex": 72,
             "Notes": "seeks treament at Franck Pais hospital. Learns of death of Alejo Carpentier. Lam attends burial in Cuba",
             "PlaceID": "havana_cuba",
-            "StartCitation": "",
-            "StartDate": "1980-04-28",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 195,
-            "Notes": "Sought treament at Franck Pais hospital. Learns of death of Alejo Carpentier. Lam attends burial in Cuba",
-            "PlaceID": "",
             "StartCitation": "",
             "StartDate": "1980-04-28",
             "StartType": "arrival"
@@ -22746,21 +21464,9 @@
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
-            "EntryIndex": 96,
+            "EntryIndex": 73,
             "Notes": "spends summer with family",
             "PlaceID": "paris_france",
-            "StartCitation": "",
-            "StartDate": "1980-06",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 196,
-            "Notes": "Summer with family",
-            "PlaceID": "",
             "StartCitation": "",
             "StartDate": "1980-06",
             "StartType": "arrival"
@@ -22812,21 +21518,9 @@
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
-            "EntryIndex": 97,
+            "EntryIndex": 74,
             "Notes": "visits for the winter",
             "PlaceID": "cuba",
-            "StartCitation": "",
-            "StartDate": "1980-11",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 197,
-            "Notes": "Winter",
-            "PlaceID": "",
             "StartCitation": "",
             "StartDate": "1980-11",
             "StartType": "arrival"
@@ -23114,21 +21808,9 @@
             "EndCitation": "",
             "EndDate": "",
             "EndType": "",
-            "EntryIndex": 98,
+            "EntryIndex": 75,
             "Notes": "spends summer",
             "PlaceID": "albissola_savona_liguria_italy",
-            "StartCitation": "",
-            "StartDate": "1982",
-            "StartType": "arrival"
-        },
-        {
-            "AuthorID": "wlam",
-            "EndCitation": "",
-            "EndDate": "",
-            "EndType": "",
-            "EntryIndex": 198,
-            "Notes": "Summer",
-            "PlaceID": "",
             "StartCitation": "",
             "StartDate": "1982",
             "StartType": "arrival"
@@ -23241,6 +21923,18 @@
     "1982-07": [],
     "1982-08": [],
     "1982-09": [
+        {
+            "AuthorID": "wlam",
+            "EndCitation": "",
+            "EndDate": "1982-09-11",
+            "EndType": "departure",
+            "EntryIndex": 76,
+            "Notes": "passes away",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "",
+            "StartType": ""
+        },
         {
             "AuthorID": "acesaire",
             "EndCitation": "",
@@ -23692,6 +22386,30 @@
             "StartCitation": "Couffon",
             "StartDate": "1985",
             "StartType": "earliest_presence"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 19,
+            "Notes": "Fullbright",
+            "PlaceID": "los_angeles_california_usa",
+            "StartCitation": "Pfaff 39",
+            "StartDate": "1985",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 20,
+            "Notes": "returns to Guadeloupe after the publication of Ségou, her fourth novel",
+            "PlaceID": "guadeloupe",
+            "StartCitation": "Pfaff 40",
+            "StartDate": "1985",
+            "StartType": "earliest_presence"
         }
     ],
     "1985-02": [
@@ -24084,6 +22802,18 @@
     "1987-12": [],
     "1988-01": [
         {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 22,
+            "Notes": "visiting professor at UC Berkeley",
+            "PlaceID": "berkeley_california_usa",
+            "StartCitation": "Bérard 120",
+            "StartDate": "1988",
+            "StartType": "earliest_presence"
+        },
+        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "\"Edward Kamau Brathwaite,\" Contemporary Poets",
             "EndDate": "1988",
@@ -24460,6 +23190,18 @@
     "1991-12": [],
     "1992-01": [
         {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "1994",
+            "EndType": "departure",
+            "EntryIndex": 23,
+            "Notes": "teaches at UVA",
+            "PlaceID": "charlottesville_virginia_usa",
+            "StartCitation": "UVA News",
+            "StartDate": "1992",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "glamming",
             "EndCitation": "",
             "EndDate": "",
@@ -24494,7 +23236,20 @@
     ],
     "1992-09": [],
     "1992-10": [],
-    "1992-11": [],
+    "1992-11": [
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 21,
+            "Notes": "interview with Pfaff",
+            "PlaceID": "washington_dc._usa",
+            "StartCitation": "Pfaff 131",
+            "StartDate": "1992-11-06",
+            "StartType": "arrival"
+        }
+    ],
     "1992-12": [],
     "1993-01": [
         {
@@ -24586,6 +23341,18 @@
     ],
     "1994-01": [
         {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "1994",
+            "EndType": "departure",
+            "EntryIndex": 23,
+            "Notes": "teaches at UVA",
+            "PlaceID": "charlottesville_virginia_usa",
+            "StartCitation": "UVA News",
+            "StartDate": "1992",
+            "StartType": "arrival"
+        },
+        {
             "AuthorID": "kbrathwaite",
             "EndCitation": "Ngũgĩ wa Thiong'o, pg. 677",
             "EndDate": "1994",
@@ -24635,6 +23402,18 @@
         }
     ],
     "1995-01": [
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "île en île",
+            "EndDate": "2004",
+            "EndType": "departure",
+            "EntryIndex": 24,
+            "Notes": "teaches at Columbia University",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Francophone Metronomes",
+            "StartDate": "1995",
+            "StartType": "arrival"
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "",
@@ -25578,6 +24357,30 @@
     ],
     "2003-12": [],
     "2004-01": [
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "île en île",
+            "EndDate": "2004",
+            "EndType": "departure",
+            "EntryIndex": 24,
+            "Notes": "teaches at Columbia University",
+            "PlaceID": "new_york_new_york_usa",
+            "StartCitation": "Francophone Metronomes",
+            "StartDate": "1995",
+            "StartType": "arrival"
+        },
+        {
+            "AuthorID": "mconde",
+            "EndCitation": "",
+            "EndDate": "",
+            "EndType": "",
+            "EntryIndex": 25,
+            "Notes": "",
+            "PlaceID": "paris_france",
+            "StartCitation": "",
+            "StartDate": "2004",
+            "StartType": "earliest_presence"
+        },
         {
             "AuthorID": "glamming",
             "EndCitation": "",

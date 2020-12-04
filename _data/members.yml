@@ -9,6 +9,28 @@
   subjects:
   - name: "Mohammed Duse Ali"
 
+- name: "Roopika Risam"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Salem State University"
+  subjects:
+  - name: "W.E.B. Dubois"
+
+- name: "Amanda Perry"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Champlain College"
+  subjects:
+  - name: "George Lamming"
+
 - name: "Laurent Dubois"
   roles: "member"
   id: ""
@@ -31,16 +53,6 @@
   subjects:
   - name: "Katherine Dunham"
 
-- name: "Vincent Brown"
-  roles: "member"
-  id: ""
-  bio:
-  email:
-  homepagetitle: 
-  homepageurl: ""
-  institution: "Harvard University"
-  subjects:
-  - name: ""
  
 - name: "Alex Gil"
   roles: "member"
@@ -96,6 +108,17 @@
   institution: "Williams College"
   subjects:
   - name: "Kamau Brathwaite"
+
+- name: "Soraya Limare"
+  roles: "member"
+  id: ""
+  bio:
+  email:
+  homepagetitle: 
+  homepageurl:
+  institution: "Columbia University"
+  subjects:
+  - name: "Maryse Condé"
 
 - name: "Kora Véron Leblé"
   roles: "member"
