@@ -10,7 +10,6 @@ id: instructions
 pagetitle: Instructions
 ---
 
-## HOW this works
  
 ### TRAJECTORIES
 
